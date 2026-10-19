@@ -50,6 +50,7 @@ WIDTH_OVERRIDES = {
     'msg_0750': 88, 'msg_0751': 88,  # moves
     'msg_0222': 88,  # items
     'msg_0223': 116, 'msg_0224': 96,  # items with an article, plural: only within sentences
+    'msg_0016': 96,  # Seals in the plural: only within sentences
     'msg_0720': 88, 'msg_0721': 88,  # abilities
 }
 
@@ -75,6 +76,7 @@ NAME_LIMITS = {
     'msg_0751': 16,  # moves, capitals
     'msg_0222': 16,  # items
     'msg_0223': 32, 'msg_0224': 32,  # items with an article, plural: read into MessageFormat's buffer
+    'msg_0016': 32,  # Seals in the plural, likewise
     'msg_0720': 16, 'msg_0721': 16,  # abilities
     'msg_0735': 16,  # types
     'msg_0730': 16,  # trainer classes
@@ -167,6 +169,10 @@ class Bank:
             widest = max(widest, find_bank(REFERENCE_BANKS[self.stem[:8]], self.lang).english_line_width())
         return max(widest, WIDTH_OVERRIDES.get(self.stem[:8], 0))
 
+    def fixed_box(self):
+        """Whether the bank's text never pages (no \\r or \\f in any English row)."""
+        return not any(('\\r' in t or '\\f' in t) for t in self.rows.values())
+
     def english_lines(self):
         return max([len(lines(t)) for i, t in self.rows.items() if i not in self.garbage] or [0])
 
@@ -209,8 +215,7 @@ def check_bank(bank):
     max_width = bank.english_line_width()
     max_length = bank.english_length()
     max_lines = bank.english_lines()
-    # Text that never pages (no \r or \f in any English row) is drawn in a fixed box.
-    fixed_box = not any(('\\r' in t or '\\f' in t) for t in bank.rows.values())
+    fixed_box = bank.fixed_box()
     limit = NAME_LIMITS.get(bank.stem[:8])
     for index, text in sorted(bank.translated.items()):
         english = bank.rows.get(index)
@@ -229,6 +234,8 @@ def check_bank(bank):
             w = line_width(line)
             if w > max_width:
                 problems.append(f'{where}: {w} px wide, the bank allows {max_width}: {line}')
+        if fixed_box and '\\f' in text:
+            problems.append(f'{where}: \\f scrolls, but the bank is drawn in a fixed box')
         if fixed_box and len(lines(text)) > max_lines:
             problems.append(f'{where}: {len(lines(text))} lines, the bank has at most {max_lines}')
         length = encoded_length(text)
@@ -259,8 +266,9 @@ def cmd_check(args):
     return 1 if total else 0
 
 
-def wrap_text(text, width):
-    """Re-breaks each text box (between \\r) of `text` into lines at most `width` wide."""
+def wrap_text(text, width, scroll=True):
+    """Re-breaks each text box (between \\r) of `text` into lines at most `width` wide. The
+    lines after the second scroll in (\\f) unless `scroll` is false (a fixed box)."""
     out = []
     for box in re.split(r'(\\r)', text):
         if box == '\\r' or all(line_width(l) <= width for l in lines(box)):
@@ -287,7 +295,7 @@ def wrap_text(text, width):
             rows.append(current)
         joined = rows[0] if rows else ''
         for i, row in enumerate(rows[1:], 1):
-            joined += ('\\n' if i == 1 else '\\f') + row
+            joined += ('\\n' if i == 1 or not scroll else '\\f') + row
         out.append(joined)
     return ''.join(out)
 
@@ -308,13 +316,14 @@ def write_tsv(bank, rows):
 def cmd_wrap(args):
     bank = find_bank(args.bank, args.lang)
     width = args.width or bank.english_line_width()
+    scroll = not bank.fixed_box()
     rows = dict(bank.translated)
     changed = 0
     for index, text in rows.items():
         if '\\n' not in bank.rows.get(index, '') and '\\r' not in bank.rows.get(index, '') \
                 and '\\f' not in bank.rows.get(index, ''):
             continue  # one-line rows (labels, names) are not dialogue
-        wrapped = wrap_text(text, width)
+        wrapped = wrap_text(text, width, scroll)
         if wrapped != text:
             rows[index] = wrapped
             changed += 1

@@ -1,0 +1,35 @@
+0	PV/PP
+1	SOIN
+2	STATUT
+3	REMÈDES
+6	OBJETS COMBAT
+7	POKé BALLS
+8	Dernier objet utilisé
+10	x{STRVAR_1 52, 0, 0}
+12	x{STRVAR_1 52, 0, 0}
+14	x{STRVAR_1 52, 0, 0}
+16	x{STRVAR_1 52, 0, 0}
+18	x{STRVAR_1 52, 0, 0}
+20	x{STRVAR_1 52, 0, 0}
+22	PV/PP
+23	SOIN
+24	STATUT
+25	REMÈDES
+26	POKé BALLS
+27	OBJETS COMBAT
+31	UTILISER
+33	x{STRVAR_1 52, 0, 0}
+34	Ça ne servirait à rien !
+36	{STRVAR_1 1, 0, 0} se gonfle\nà bloc !
+37	L’Attaque de {STRVAR_1 1, 0, 0}\naugmente !
+38	L’Attaque Spéciale de\n{STRVAR_1 1, 0, 0} augmente !
+39	La Vitesse de {STRVAR_1 1, 0, 0}\naugmente !
+40	La Défense Spéciale de\n{STRVAR_1 1, 0, 0} augmente !
+41	La Défense de {STRVAR_1 1, 0, 0}\naugmente !
+42	La précision de {STRVAR_1 1, 0, 0}\naugmente !
+43	Vous utilisez {STRVAR_1 8, 0, 0} !
+44	Impossible ! On ne peut pas viser\nquand il y a deux Pokémon !
+45	Il n’y a plus de place sur le PC !
+46	L’effet de {STRVAR_1 6, 1, 0} empêche\nd’utiliser l’objet sur {STRVAR_1 1, 0, 0} !
+47	Impossible ! On ne peut pas viser\nun Pokémon qu’on ne voit pas !
+48	Impossible ! On ne peut pas viser\nun Pokémon qu’on ne voit pas !

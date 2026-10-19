@@ -1,0 +1,45 @@
+6	Choisissez un Pokémon.
+7	Sur quel Pokémon ?
+14	PP
+15	ÉCHANGER
+18	RÉSUMÉ
+19	CAPACITÉS
+20	Aucun objet tenu
+23	N.
+25	N. SUIVANT
+28	PV
+32	ATTAQUE
+34	DÉFENSE
+36	ATQ. SPÉ.
+38	DÉF. SPÉ.
+40	VITESSE
+43	PP
+48	PUISSANCE
+51	PRÉCISION
+53	CATÉGORIE
+54	PHYSIQUE
+55	STATUT
+56	SPÉCIALE
+58	OUBLIER
+59	RETOUR
+60	Impossible d’oublier\nune CS maintenant.
+76	{STRVAR_1 1, 0, 0} est déjà\nau combat !
+77	{STRVAR_1 1, 0, 0} n’a plus la force\nde se battre !
+78	Impossible de rappeler\n{STRVAR_1 1, 0, 0} !
+79	Un Œuf ne peut pas\nse battre !
+80	Impossible d’échanger un\nPokémon de {STRVAR_1 3, 0, 0} !
+81	Ça n’aurait aucun effet.
+82	{STRVAR_1 1, 0, 0} récupère\n{STRVAR_1 52, 1, 0} PV.
+83	{STRVAR_1 1, 0, 0} n’est plus\nempoisonné.
+84	{STRVAR_1 1, 0, 0} n’est plus\nparalysé.
+85	La brûlure de {STRVAR_1 1, 0, 0}\nest soignée.
+86	{STRVAR_1 1, 0, 0} est dégelé.
+87	Les PP sont restaurés.
+88	{STRVAR_1 1, 0, 0} reprend\nconnaissance !
+89	{STRVAR_1 1, 0, 0} retrouve la forme.
+90	{STRVAR_1 1, 0, 0} n’est plus\nconfus.
+91	{STRVAR_1 1, 0, 0} n’est plus\namoureux.
+92	{STRVAR_1 1, 0, 0} se réveille.
+93	{STRVAR_1 1, 0, 0} est déjà\nsélectionné.
+94	Restaurer quelle capacité ?
+95	{STRVAR_1 6, 1, 0} empêche d’utiliser\nl’objet sur {STRVAR_1 1, 0, 0} !

@@ -1,0 +1,265 @@
+0	VIDÉOS DE COMBAT
+1	RECORDS ZONE DE COMBAT
+2	RETOUR
+3	SORTIE
+4	MA VIDÉO
+5	AUTRES VIDÉOS
+6	EFFACER VIDÉOS
+7	VIDÉO DE {STRVAR_1 3, 0, 0}
+8	VIDE
+10	Combat
+11	Vidéo n° : {STRVAR_1 51, 0, 0}-{STRVAR_1 54, 1, 0}-{STRVAR_1 54, 2, 0}
+12	Vidéo n° : {STRVAR_1 51, 0, 0}-{STRVAR_1 54, 1, 0}-{STRVAR_1 54, 2, 0} ☆
+13	PROFIL DE {STRVAR_1 3, 0, 0}
+15	Mois de naissance : {STRVAR_34 16, 0, 0}
+16	Lieu
+17	Phrase du Dresseur
+21	Non enregistré
+28	BOÎTE PRÉFÉRÉE DE {STRVAR_1 3, 0, 0}
+29	BOÎTE COOL DE {STRVAR_1 3, 0, 0}
+30	BOÎTE MIGNONNE DE {STRVAR_1 3, 0, 0}
+31	BOÎTE CONSEILLÉE DE {STRVAR_1 3, 0, 0}
+32	BOÎTE FUN DE {STRVAR_1 3, 0, 0}
+33	BOÎTE SÉLECTION DE {STRVAR_1 3, 0, 0}
+34	Pokémon\nsuivant
+39	EFFACER MA VIDÉO
+40	EFFACER AUTRES VIDÉOS
+41	VIDE
+48	RECHERCHE PAR SITE
+49	RECHERCHE PAR POKéMON
+50	RECHERCHE PAR LIEU
+51	ENVOYER PHOTO
+52	VOIR PHOTOS
+53	ENVOYER
+58	ENVOYER BOÎTE
+59	VOIR BOÎTES
+60	PRÉFÉRÉE
+61	COOL
+62	MIGNONNE
+63	CONSEILLÉE
+64	FUN
+65	SÉLECTION
+68	ABC
+69	DEF
+70	GHI
+71	JKL
+72	MNO
+73	PQR
+74	STU
+75	VWX
+76	YZ
+78	CLASSEMENT DE LA SEMAINE
+79	CLASSEMENT SEMAINE PASSÉE
+80	CHANGER DE CLASSEMENT
+81	CHANGER D’ÉQUIPE
+82	Équipe : type de Dresseur
+83	Équipe : mois de naissance
+84	Équipe : Pokémon préféré
+91	RÉSULTATS DE LA SEMAINE PASSÉE !
+92	COLISÉE
+93	ZONE DE COMBAT
+94	SAUVER
+95	VOIR VIDÉO\nDE COMBAT
+97	MEILLEURES VIDÉOS DE COMBAT\nCOLISÉE
+98	MEILLEURES VIDÉOS DE COMBAT\nZONE DE COMBAT
+100	Où sauvegarder la Vidéo de Combat\nde {STRVAR_1 3, 0, 0} ?
+102	Effacer la Vidéo de Combat\nde {STRVAR_1 3, 0, 0} ?
+103	VOIR VIDÉOS DE COMBAT
+104	ENVOYER VIDÉO DE COMBAT
+105	30 DERNIÈRES
+106	RECHERCHER
+107	RECHERCHE PAR N° DE VIDÉO
+108	RECHERCHE PAR SITE
+109	RECHERCHE PAR POKéMON
+110	RECHERCHE PAR LIEU
+111	OK !
+112	Entrez le numéro de la vidéo.
+113	Choisissez le site.
+114	Choisissez le Pokémon.
+115	Entrez les critères de recherche.
+116	Vous n’avez défini aucun critère.
+117	Chargement de la Vidéo de Combat...
+118	Aucune Vidéo de Combat ne correspond...
+119	Envoi de la Vidéo de Combat...
+121	VOIR PROFIL
+122	FERMER PROFIL
+123	30 DERNIÈRES VIDÉOS DE COMBAT
+124	Définissez les critères de recherche.
+125	Non défini
+126	VIDÉOS DE COMBAT TROUVÉES\nPAR LA RECHERCHE
+127	Impossible d’envoyer deux fois la même vidéo.\nTouchez l’écran tactile pour continuer.
+128	Vous n’avez pas enregistré votre lieu.
+129	Aucune Vidéo de Combat à envoyer.
+130	OUI
+131	NON
+132	Colisée\nSimple, sans restriction
+133	Colisée\nSimple, Coupe Standard
+134	Colisée\nSimple, Coupe Fantaisie
+135	Colisée\nSimple, Coupe Mini
+136	Colisée\nSimple, Coupe Légère
+137	Colisée\nSimple, Coupe Double
+138	Colisée\nSimple, Autre Coupe
+139	Colisée\nDouble, sans restriction
+140	Colisée\nDouble, Coupe Standard
+141	Colisée\nDouble, Coupe Fantaisie
+142	Colisée\nDouble, Coupe Mini
+143	Colisée\nDouble, Coupe Légère
+144	Colisée\nDouble, Coupe Double
+145	Colisée\nDouble, Autre Coupe
+146	Colisée\nMulti
+147	Tour de Combat\nSimple
+148	Tour de Combat\nDouble
+149	Tour de Combat\nMulti
+150	Usine de Combat\nNiveau 50 Simple
+151	Usine de Combat\nNiveau 50 Double
+152	Usine de Combat\nNiveau 50 Multi
+153	Usine de Combat\nNiveau Libre Simple
+154	Usine de Combat\nNiveau Libre Double
+155	Usine de Combat\nNiveau Libre Multi
+156	Palais de Combat\nSimple
+157	Palais de Combat\nDouble
+158	Palais de Combat\nMulti
+159	Château de Combat\nSimple
+160	Château de Combat\nDouble
+161	Château de Combat\nMulti
+162	Arcade de Combat\nSimple
+163	Arcade de Combat\nDouble
+164	Arcade de Combat\nMulti
+165	Colisée\nSimple, sans restriction
+166	Colisée\nSimple, Coupe
+167	Colisée\nDouble, sans restriction
+168	Colisée\nDouble, Coupe
+169	1 : Colisée\n    Simple, sans restriction
+170	2 : Colisée\n    Simple, Coupe
+171	3 : Colisée\n    Double, sans restriction
+172	4 : Colisée\n    Double, Coupe
+173	5 : Colisée\n    Multi
+174	6 : Tour de Combat\n    Simple
+175	7 : Tour de Combat\n    Double
+176	8 : Tour de Combat\n    Multi
+177	9 : Usine de Combat\n    Niveau 50, Simple
+178	10 : Usine de Combat\n      Niveau 50, Double
+179	11 : Usine de Combat\n      Niveau 50, Multi
+180	12 : Usine de Combat\n      Niveau Libre, Simple
+181	13 : Usine de Combat\n      Niveau Libre, Double
+182	14 : Usine de Combat\n      Niveau Libre, Multi
+183	15 : Palais de Combat\n      Simple
+184	16 : Palais de Combat\n      Double
+185	17 : Palais de Combat\n      Multi
+186	18 : Château de Combat\n      Simple
+187	19 : Château de Combat\n      Double
+188	20 : Château de Combat\n      Multi
+189	21 : Arcade de Combat\n      Simple
+190	22 : Arcade de Combat\n      Double
+191	23 : Arcade de Combat\n      Multi
+192	TOUCHEZ ICI !
+193	Se déconnecter de la\nConnexion Wi-Fi Nintendo ?
+195	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+196	Ces données sont déjà enregistrées.\nTouchez l’écran tactile pour continuer.
+197	Les données d’habillage semblent\nposer un problème.
+198	Les données du profil semblent\nposer un problème.
+199	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+201	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+202	Le Pokémon choisi semble\nposer un problème.
+203	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+205	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+206	Ces données sont déjà enregistrées.\nTouchez l’écran tactile pour continuer.
+207	Les données de la Boîte semblent\nposer un problème.
+208	Les données du profil semblent\nposer un problème.
+209	Votre équipe semble poser\nun problème.
+210	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+212	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+213	Votre équipe semble poser\nun problème.
+214	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+216	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+217	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+219	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+220	Impossible de recevoir le classement.\nTouchez l’écran tactile pour continuer.
+221	Votre classement semble\nposer un problème.
+222	Les données du profil semblent\nposer un problème.
+223	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+225	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+226	Ces données sont déjà enregistrées.\nTouchez l’écran tactile pour continuer.
+227	La Vidéo de Combat semble\nposer un problème.
+228	Les données du profil semblent\nposer un problème.
+229	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+230	Votre Pokémon semble poser un problème.\nLes données n’ont pas été envoyées.
+231	Le Pokémon d’un joueur pose problème.\nLes données n’ont pas été envoyées.
+233	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+234	Les critères de recherche semblent\nposer un problème.
+235	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+237	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+238	Aucune Vidéo de Combat trouvée...\nTouchez l’écran tactile pour continuer.
+239	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
+245	Une erreur est survenue.\nCode d’erreur 10601
+246	Une erreur est survenue.\nCode d’erreur 10602
+247	Une erreur est survenue.\nCode d’erreur 10603
+248	Une erreur est survenue.\nCode d’erreur 10604
+249	Connexion impossible.\nCode d’erreur 10605
+250	Une erreur est survenue.\nCode d’erreur 10606
+251	Connexion impossible.\nCode d’erreur 10607
+252	Une erreur est survenue.\nCode d’erreur 10608
+253	Une erreur est survenue.\nCode d’erreur 10609
+254	Aucune réponse.\nCode d’erreur 10610
+255	Aucune réponse.\nCode d’erreur 10611
+256	Aucune réponse.\nCode d’erreur 10612
+257	La communication a été interrompue.\nCode d’erreur 10613
+258	Connexion impossible.\nCode d’erreur 10614
+266	La connexion au serveur a été perdue.\nTouchez l’écran tactile pour continuer.
+269	Rien n’est sauvegardé.\nTouchez l’écran tactile pour continuer.
+270	Choisissez une Boîte.
+271	Impossible d’envoyer une Boîte vide.
+272	Où voulez-vous l’envoyer ?
+273	Une seule Boîte peut être envoyée à la fois.
+274	Impossible d’envoyer la même Boîte.
+275	Quelle catégorie voulez-vous voir ?
+276	Les données n’ont pas pu être effacées...
+277	Impossible de sauver deux fois la même vidéo.\nTouchez l’écran tactile pour continuer.
+278	Sauvegarde en cours...\nN’éteignez pas la console.
+279	Réception du classement...
+280	Envoi des données de sauvegarde...
+281	Sauvegarde terminée.\nTouchez l’écran tactile pour continuer.
+282	Voulez-vous effacer la Vidéo de\nCombat de {STRVAR_1 3, 0, 0} ?
+283	Voulez-vous vraiment effacer ces données ?
+284	Effacement des données...\nSauvegarde... N’éteignez pas la console.
+285	Les données ont été effacées.\nTouchez l’écran tactile pour continuer.
+286	Envoi des données d’habillage...
+287	Réception des données d’habillage...
+288	Envoi des données de la Boîte...
+289	Réception des données de la Boîte...
+290	Aucune donnée à envoyer. Prenez une\nphoto dans le Tunnel de Doublonville.
+291	Impossible d’envoyer deux fois ces données.\nTouchez l’écran tactile pour continuer.
+292	Réception des Vidéos de Combat...
+293	Aucune donnée trouvée...\nTouchez l’écran tactile pour continuer.
+294	Aucune Boîte trouvée...\nTouchez l’écran tactile pour continuer.
+295	Votre Vidéo de Combat a été envoyée.\nVidéo n° : {STRVAR_1 51, 0, 0}-{STRVAR_1 54, 1, 0}-{STRVAR_1 54, 2, 0}\n
+296	Le jeu va être sauvegardé avant de voir\nles Vidéos de Combat.
+297	Effacement... Sauvegarde de beaucoup\nde données... N’éteignez pas la console.
+298	Sauvegarde de beaucoup de données...\nN’éteignez pas la console.
+299	Sauvegarde en cours...\nN’éteignez pas la console.
+300	Aucun classement disponible...\nTouchez l’écran tactile pour continuer.
+301	Voulez-vous envoyer votre Vidéo de Combat ?
+310	20 DERNIÈRES DE LA BOÎTE PRÉFÉRÉE
+311	20 DERNIÈRES DE LA BOÎTE COOL
+312	20 DERNIÈRES DE LA BOÎTE MIGNONNE
+313	20 DERNIÈRES DE LA BOÎTE CONSEILLÉE
+314	20 DERNIÈRES DE LA BOÎTE FUN
+315	20 DERNIÈRES DE LA BOÎTE SÉLECTION
+316	Écolier
+317	Scout
+318	Topdresseur
+319	Loubard
+320	Fana Ruines
+321	Karatéka
+322	Richard
+323	Kinésiste♂
+324	Fillette
+325	Combattante
+326	Canon
+327	Topdresseuse
+328	Idole
+329	Mondaine
+330	Cow-girl
+331	Demoiselle
+332	Goldver
+333	Ignorer le lieu

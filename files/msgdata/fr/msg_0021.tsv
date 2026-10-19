@@ -1,0 +1,132 @@
+0	Boîte Noigrume
+1	FERMER
+2	UTILISER
+3	GOÛTER
+4	RETOUR
+5	OK
+6	FERMER
+7	Noigrume Rouge
+8	Noigrume Jaune
+9	Noigrume Bleu
+10	Noigrume Vert
+11	Noigrume Rose
+12	Noigrume Blanc
+13	Noigrume Noir
+14	Holden
+15	Elaine
+16	Gilmore
+17	Krise
+18	Victor
+19	Jus Neutre
+20	Jus Force
+21	Jus Endur.
+22	Jus Adresse
+23	Jus Saut
+24	Jus Vitesse
+27	Vos Noigrumes récoltés sont ici.
+28	Mettez le Noigrume dans le Mixeur.
+29	Pas encore assez mélangé...
+30	Le jus est presque prêt...
+31	Encore un peu et le jus sera prêt.
+32	Le Jus Noigrume est prêt !
+33	Encore {STRVAR_1 50, 0, 0} Noigrumes possibles.
+34	Impossible d’ajouter des Noigrumes.
+35	Que faire du Jus Noigrume ?
+36	Vous goûtez le Jus Noigrume !
+37	Choisissez les Noigrumes à donner.
+38	Combien en donner ?
+39	Donner {STRVAR_1 51, 1, 0} {STRVAR_1 8, 0, 0} ?
+40	Noigrume Rouge\nUn Noigrume rouge.\nSon odeur pique le nez.
+41	Noigrume Jaune\nUn Noigrume jaune.\nIl a un parfum revigorant.
+42	Noigrume Bleu\nUn Noigrume bleu.\nIl sent un peu l’herbe.
+43	Noigrume Vert\nUn Noigrume vert.\nIl a un parfum mystérieux.
+44	Noigrume Rose\nUn Noigrume rose.\nIl sent bon et sucré.
+45	Noigrume Blanc\nUn Noigrume blanc.\nIl ne sent rien du tout.
+46	Noigrume Noir\nUn Noigrume noir.\nSon odeur est indescriptible.
+47	Mixeur Noigrume
+48	{STRVAR_1 8, 0, 0}\nGoût {STRVAR_1 52, 1, 0} Douceur {STRVAR_1 52, 2, 0}\nEncore {STRVAR_1 50, 3, 0} possibles
+49	~Faire du Jus Noigrume~\nRécoltez des Noigrumes et mettez-les\ndans le Mixeur Noigrume !\rUn seul suffit pour faire un jus,\nmais plus il y a de Noigrumes,\nmeilleur est le goût !\rMettez les Noigrumes et mixez\nen courant jusqu’à la ville suivante !
+50	Vous avez fait du Jus Noigrume !
+51	Le goût du Jus Noigrume\na changé !
+52	Le Jus Noigrume n’est pas prêt !\nMettez des Noigrumes dans le Mixeur\net mixez en marchant !
+53	Impossible d’en ajouter !\nCourez pour secouer le Mixeur !
+54	Le Jus Noigrume se prépare !\nSecouez-le en marchant !
+55	Le Jus Noigrume s’améliore !\nSecouez-le en marchant !
+56	Un goût épicé.
+57	Un goût piquant !
+58	Si épicé qu’on en transpire !
+59	Si épicé qu’on en tousse !
+60	Un piquant retentissant !
+61	Le summum de l’épicé !
+62	Un peu acide.
+63	Un goût revigorant.
+64	Mmmmmph ! Acide !
+65	Insupportablement acide !
+66	Une acidité profonde !
+67	Un goût extrêmement acide !
+68	Un goût sec et raffiné.
+69	Un goût sec et prononcé !
+70	Incroyablement sec !
+71	Un goût sec envahissant !
+72	Un goût sec profond !
+73	Un goût extrêmement sec !
+74	Un goût un peu amer.
+75	Une légère amertume.
+76	Une amertume intense !
+77	Une amertume énorme !
+78	Une amertume accablante !
+79	Le summum de l’amertume !
+80	Un goût sucré.
+81	Un bon goût sucré.
+82	Très sucré !
+83	Écœurant de sucre !
+84	Une douceur fondante.
+85	Incroyablement sucré !
+86	Une pointe d’épices...
+87	Un peu salé...
+88	Assez épicé...
+89	Très épicé...
+90	Une pointe d’acidité...
+91	Un peu acide...
+92	Assez acide...
+93	Très acide...
+94	Un goût légèrement sec...
+95	Un goût un peu sec...
+96	Un goût assez sec...
+97	Un goût très sec...
+98	À peine une pointe d’amertume...
+99	Juste un peu amer...
+100	Un goût très amer...
+101	Intensément amer...
+102	À peine une pointe de sucre...
+103	Juste un peu sucré...
+104	Un goût très sucré...
+105	Un goût intensément sucré...
+106	Un piquant très léger.
+107	Juste une pointe de piquant.
+108	Le piquant se sent bien.
+109	Une acidité très légère.
+110	Juste une pointe d’acidité.
+111	L’acidité se sent bien.
+112	Un goût sec très léger.
+113	Une pointe de goût sec.
+114	Le goût sec se sent bien.
+115	Une amertume très légère.
+116	Juste une pointe d’amertume.
+117	L’amertume se sent bien.
+118	Une douceur très légère.
+119	Juste une pointe de douceur.
+120	La douceur se sent bien.
+121	Un arrière-goût dégoûtant.
+122	Un arrière-goût rafraîchissant !
+123	Le piquant disparaît...
+124	L’acidité disparaît...
+125	Le goût sec disparaît...
+126	L’amertume disparaît...
+127	La douceur disparaît...
+128	Le goût est encore assez faible.\nIl faudrait ajouter des\nNoigrumes colorés...
+129	Un goût incroyable, indescriptible !\nLes saveurs s’équilibrent.\nImpossible de dire lequel domine !
+130	Un goût indescriptible, incroyable !\nLes saveurs se bousculent.\nImpossible de dire lequel domine !
+131	Aucun goût du tout !\nIl faut apparemment ajouter\nun Noigrume coloré.
+132	Épicé {STRVAR_1 51, 0, 0} Acide {STRVAR_1 51, 1, 0} Sec {STRVAR_1 51, 2, 0}\nAmer {STRVAR_1 51, 3, 0} Sucré {STRVAR_1 51, 4, 0}\nDouceur {STRVAR_1 51, 5, 0} Goût {STRVAR_1 51, 6, 0}
+133	Pas {STRVAR_1 59, 0, 0} Stock {STRVAR_1 50, 1, 0}\n1: {STRVAR_1 50, 2, 0} 2: {STRVAR_1 50, 3, 0} 3: {STRVAR_1 50, 4, 0} 4: {STRVAR_1 50, 5, 0} 5: {STRVAR_1 50, 6, 0}\nJus DÉBUT {STRVAR_1 59, 7, 0} Pas  Reste : {STRVAR_1 52, 8, 0}\nDouceur DÉBUT {STRVAR_1 59, 9, 0} Pas Reste : {STRVAR_1 52, 10, 0}

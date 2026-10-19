@@ -1,0 +1,12 @@
+0	SORTIE
+1	VOIR
+2	EFFACER
+3	DÉPLACER
+4	RETOUR
+5	Choisissez une photo.
+6	Que voulez-vous faire de\ncette photo ?
+7	Échanger avec quelle photo ?
+8	Les photos ont été\néchangées.
+9	Effacer cette photo ?
+10	Photo de {STRVAR_1 3, 0, 0}\nPrise : {STRVAR_1 4, 1, 0}\nSujet : {STRVAR_1 1, 2, 0}\n{STRVAR_1 51, 4, 0}/{STRVAR_1 51, 5, 0}/{STRVAR_1 53, 3, 0}
+11	Photo de {STRVAR_1 3, 0, 0}\nPrise : {STRVAR_1 4, 1, 0}\nSujet : {STRVAR_1 1, 2, 0} et ses amis\n{STRVAR_1 51, 4, 0}/{STRVAR_1 51, 5, 0}/{STRVAR_1 53, 3, 0}

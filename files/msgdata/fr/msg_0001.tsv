@@ -1,0 +1,44 @@
+0	RETOUR
+1	{ALN_CENTER}Rapport ZARBI
+3	{ALN_CENTER} Nombre de ZARBI
+4	{ALN_CENTER}Formes trouvées : {STRVAR_1 51, 0, 0}
+6	J’ai trouvé un étrange puzzle\ndans les ruines. Une fois résolu,\nun trou s’est ouvert dans le sol\net je suis tombé dans la salle du\ndessous ! J’aurais dû me douter\nque ces ruines anciennes\ncachaient de telles surprises.
+7	À l’endroit où je suis tombé, il y\navait une statue de pierre.\nC’était peut-être une salle de\nréception. Puis les ZARBI sont\napparus. Ce puzzle était comme\nune clé. Il a réveillé les ZARBI de\nleur sommeil. Ces ruines sont\ndevenues difficiles.
+8	Si vous allumez la radio dans les\nruines, vous captez de\nmystérieuses ondes radio ! C’est\nla preuve que les ZARBI\ncommuniquent entre eux grâce aux\nondes radio !
+9	Il y a autant de ZARBI que de\nlettres dans l’alphabet. Pour\nl’instant, nous avons confirmé\nl’existence de 26 formes de\nZARBI. Pensez-vous pouvoir\ntrouver les 26 formes ?
+10	Pris un par un, ils ne veulent pas\ndire grand-chose, mais une fois\nles ZARBI placés dans l’ordre, ils\nprennent tout leur sens. Dans la\nnature, ils semblent dispersés au\nhasard, mais en réalité, ils sont\nplacés dans un ordre très précis.
+11	Dans ce rapport, les ZARBI\néparpillés ont été triés et\nclassés par l’équipe du centre de\nrecherche. Les ZARBI sont ainsi\nbeaucoup plus faciles à\ncomprendre.
+12	Des lettres ZARBI sont gravées\nsur le sol des ruines. Trouver\ncette salle est une énorme\ndécouverte ! Les chercheurs\nétaient ravis et ont dit qu’ils\nallaient aller voir ça de près.
+13	Il n’existe pas que 26 formes de\nZARBI. Deux autres ont été\ndécouvertes ! Mais alors, où\nces deux autres formes\npeuvent-elles bien se cacher... ?
+14	{CURSOR_Y 24}Les lettres gravées sur le sol\nde la petite salle sont recopiées\ndans ce rapport.
+15	{CURSOR_Y 72}NOS AMIS LÈVENT\nLES YEUX ET NOUS\nFÉLICITENT
+16	{CURSOR_Y 120}Nous ignorons encore ce que\ncela peut bien signifier.
+17	Les chercheurs disaient qu’ils\ndevaient réexaminer les ruines,\nmais... ?
+18	Il semble que, jadis, les ZARBI\nvivaient dans ces ruines avec des\nparents des humains. Une statue\nde Pokémon se trouve dans les\nniveaux inférieurs. Nous savons\nmaintenant que ce sont ces\nparents qui l’ont sculptée.
+19	Les ZARBI sont des créatures\ntrès timides : ils ne sortent\njamais des ruines. Même si\nbeaucoup de gens se réunissaient\nprès des ruines, on dit que ceux\nqui souhaitaient que ZARBI et\nhumains vivent de nouveau\nensemble sont tous partis.
+20	AGIR
+21	BONDIR
+22	CHERCHER
+23	DIRIGER
+24	ESSAYER
+25	FUIR
+26	GAGNER
+27	HONORER
+28	IMAGINER
+29	JOUER
+30	KAYAK
+31	LANCER
+32	MARCHER
+33	NAGER
+34	OBSERVER
+35	PARLER
+36	QUESTIONNER
+37	RASSURER
+38	SAUTER
+39	TROUVER
+40	UNIR
+41	VOLER
+42	WAGON
+43	XXXXX
+44	YEUX
+45	ZÉRO

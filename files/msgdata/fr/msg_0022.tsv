@@ -1,0 +1,29 @@
+0	Performance
+1	{CURSOR_X 11}Utiliser
+2	{CURSOR_X 11}Retour
+4	N. {STRVAR_1 52, 0, 0}
+5	Puissance
+6	Endurance
+7	Adresse
+8	Saut
+9	Vitesse
+12	Vous utilisez un Jus Neutre !
+13	Vous utilisez un Jus Force !
+14	Vous utilisez un Jus Endur. !
+15	Vous utilisez un Jus Adresse !
+16	Vous utilisez un Jus Saut !
+17	Vous utilisez un Jus Vitesse !
+18	Rien n’a changé.\r
+19	La Puissance augmente !\r
+20	L’Endurance augmente !\r
+21	L’Adresse augmente !\r
+22	Le Saut augmente !\r
+23	La Vitesse augmente !\r
+24	La Puissance baisse !\r
+25	L’Endurance baisse !\r
+26	L’Adresse baisse !\r
+27	Le Saut baisse !\r
+28	La Vitesse baisse !\r
+29	Avant le jus
+30	Après le jus
+31	♢cond{STRVAR_1 51, 0, 0} rev{STRVAR_1 51, 1, 0} add{STRVAR_1 51, 2, 0} base{STRVAR_1 51, 3, 0}\n min{STRVAR_1 51, 4, 0} max{STRVAR_1 51, 5, 0} result{STRVAR_1 51, 6, 0}

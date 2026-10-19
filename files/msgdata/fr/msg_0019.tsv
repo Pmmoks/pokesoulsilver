@@ -1,0 +1,29 @@
+0	Quel record voulez-vous voir ? {YESNO 0}
+1	SIMPLE
+2	DOUBLE
+3	MULTI
+4	RETOUR
+21	Tour de Combat
+22	Usine de Combat
+23	Château de Combat
+24	Palais de Combat
+25	Arcade de Combat
+26	Record Simple
+27	Record Double
+28	Record Multi
+29	PRÉC.
+30	ACTUEL
+39	RETOUR
+42	Voir les records\nChoisissez un Pokémon. {YESNO 0}
+43	RECORD
+44	Multi avec Dresseur
+45	Multi avec un ami
+46	Niveau 50
+47	Niveau Libre
+48	Location/Échange
+49	Points Château
+50	Série : {STRVAR_1 53, 0, 0}
+51	Record de {STRVAR_1 0, 0, 0}
+53	{STRVAR_1 53, 0, 0} PC
+54	Série : {STRVAR_1 53, 0, 0}
+55	Parties gagnées : {STRVAR_1 53, 0, 0}

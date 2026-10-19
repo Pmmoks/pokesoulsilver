@@ -1,0 +1,24 @@
+0	Allez à votre place et\ncommencez le combat.
+1	Veuillez patienter...\nAppuyez sur B pour annuler.
+2	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Normale !
+3	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Cobalt !
+4	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Olive !
+5	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Violette !
+6	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Grise !
+7	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Noire !
+9	La communication va prendre fin.\nD’accord ? {YESNO 0}
+12	Fin de la communication.\nVeuillez patienter.
+13	Choisissez le Pokémon\nà inscrire.\r
+14	En attente du choix de {STRVAR_1 3, 0, 0}.
+15	Le combat a été annulé.
+17	Choisissez un des Pokémon de\nvotre adversaire.
+18	Vous choisissez {STRVAR_1 0, 1, 0} ?
+19	Choisissez les trois Pokémon\nqui vont participer.\r
+20	Dans un Combat Mixte, votre\nadversaire et vous choisissez\fchacun un Pokémon de l’autre.\rPuis vous échangez les Pokémon\nchoisis et vous combattez.\r
+21	RETOUR
+22	RÉSUMÉ
+23	OK
+24	RETOUR
+25	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Diamant !
+26	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Perle !
+27	Regardons la Carte Dresseur\nde {STRVAR_1 3, 0, 0}...\r... C’est une Carte Platine !

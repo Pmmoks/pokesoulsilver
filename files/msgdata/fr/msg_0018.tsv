@@ -1,0 +1,30 @@
+0	Quel site voulez-vous\ndéfier ? {YESNO 0}
+1	{STRVAR_1 3, 0, 0} a abandonné.\r
+2	Choisissez les Pokémon avec\nlesquels vous voulez participer.\r
+3	Vous avez choisi un autre site\net/ou un autre niveau que votre ami.\fVeuillez choisir à nouveau.\r
+4	Veuillez patienter.
+5	Votre série de victoires ne correspond\npas à celle de votre ami.\rVotre défi recommencera depuis\nle début.\r
+6	Votre ami et vous avez choisi\n{STRVAR_1 0, 0, 0}.\rMettez-vous d’accord pour choisir\ndes Pokémon différents.\r
+7	Votre ami et vous avez choisi\n{STRVAR_1 0, 0, 0} et {STRVAR_1 0, 1, 0}.\rMettez-vous d’accord pour choisir\ndes Pokémon différents.\r
+9	Votre ami et vous avez choisi\n{STRVAR_1 0, 0, 0}.\rMettez-vous d’accord pour choisir\ndes Pokémon différents.\r
+10	Votre ami et vous avez choisi\n{STRVAR_1 0, 0, 0} et {STRVAR_1 0, 1, 0}.\rMettez-vous d’accord pour choisir\ndes Pokémon différents.\r
+11	Votre ami et vous devez choisir\nle même type de Pokémon.\r
+14	Que voulez-vous défier : Niveau 50\nou Niveau Libre ? {YESNO 0}
+15	Une série de victoires est en cours\navec {STRVAR_1 0, 0, 0}.\rVoulez-vous effacer ce record et\ncommencer un nouveau défi\favec {STRVAR_1 0, 1, 0} ? {YESNO 0}
+16	OUI
+17	NON
+18	Veuillez refaire votre sélection.\r
+19	Sauvegarde en cours...\nN’éteignez pas la console.
+20	Bonne chance !
+21	Voulez-vous rejouer avec\n{STRVAR_1 3, 0, 0} ? {YESNO 0}
+24	En attente du choix de votre ami.\nVeuillez patienter.
+25	{STRVAR_1 3, 0, 0} a abandonné.\r
+26	TOUR DE COMBAT
+27	USINE DE COMBAT
+28	CHÂTEAU DE COMBAT
+29	PALAIS DE COMBAT
+30	ARCADE DE COMBAT
+31	RETOUR
+32	NIVEAU 50
+33	NIVEAU LIBRE
+34	Votre ami et vous avez choisi\ndes défis différents.\rÉteignez la console, changez de\nPokémon et réinscrivez-vous !

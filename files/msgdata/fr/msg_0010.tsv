@@ -1,0 +1,56 @@
+0	UTILISER
+1	JETER
+2	ENREGISTRER
+3	DONNER
+5	CONFIRMER
+6	MARCHER
+8	RETOUR
+16	VÉRIFIER
+18	DÉSÉLECT.
+43	{STRVAR_1 8, 0, 0} est sélectionné.
+46	Déplacer {STRVAR_1 8, 0, 0}.
+47	{STRVAR_1 8, 0, 0} ne peut pas être tenu.
+53	Combien de {STRVAR_1 8, 0, 0}\njeter ?
+54	Vous jetez {STRVAR_1 51, 1, 0} {STRVAR_1 8, 0, 0}.
+55	Jeter {STRVAR_1 52, 1, 0} {STRVAR_1 8, 0, 0} ?
+57	Impossible de descendre de vélo ici.
+58	Jetons : {STRVAR_1 54, 0, 0}
+59	Allumage de la CT.{WAIT 3}{WAIT 4}\n
+60	Allumage de la CS.{WAIT 3}{WAIT 4}\n
+61	Elle contient\n{STRVAR_1 6, 0, 0}.\rApprendre {STRVAR_1 6, 0, 0}\nà un Pokémon ?
+62	{STRVAR_1 3, 0, 0} utilise\n{STRVAR_1 8, 1, 0}.
+63	L’effet d’un Repousse est encore actif,\nimpossible de l’utiliser maintenant.
+64	{STRVAR_1 3, 0, 0} utilise\n{STRVAR_1 8, 1, 0}.\rLes Pokémon sauvages seront attirés.
+65	{STRVAR_1 3, 0, 0} utilise\n{STRVAR_1 8, 1, 0}.\rLes Pokémon sauvages fuiront.
+75	DÉPLACER
+76	{STRVAR_1 8, 0, 0} ? Ah non,\nje ne peux pas acheter ça.
+77	{STRVAR_1 8, 0, 0} ?\nCombien voulez-vous en vendre ?
+78	Je peux vous en donner {STRVAR_1 55, 0, 0} $.\nÇa vous va ?
+79	Vous vendez {STRVAR_1 8, 0, 0}\net recevez {STRVAR_1 55, 1, 0} $.
+80	Argent
+86	VENDRE
+87	x{STRVAR_1 52, 0, 0}
+89	PP
+90	PUISSANCE
+91	PRÉCISION
+92	CATÉGORIE
+95	Sceaux : {STRVAR_1 53, 0, 0}
+96	Accessoires : {STRVAR_1 52, 0, 0}\nDécors : {STRVAR_1 51, 1, 0}
+100	Points Combat :\n{STRVAR_1 53, 0, 0} PCo
+101	TYPE
+102	Un Objet Rare du Sac peut être\nassocié à ce bouton.
+103	On ne peut associer que deux objets\naux boutons !
+104	Vous allumez les\nSons GB !
+105	Vous éteignez les\nSons GB !
+106	Impossible d’utiliser {STRVAR_1 8, 0, 0}.
+118	Impossible quand quelqu’un vous\naccompagne !
+119	Ce n’est pas le moment !
+120	Poche Objets\nPour les objets utiles pendant votre\naventure.
+121	Poche Médicaments\nPour restaurer les PV et les PP\nde vos Pokémon.
+122	Poche Poké Balls\nPour tous les types de Poké Balls.
+123	Poche CT & CS\nPour tous les types de CT et de CS.
+124	Poche Baies\nPour trier et ranger les différentes\nBaies.
+125	Poche Lettres\nPour trier et ranger vos jolies\nlettres.
+126	Poche Objets Combat\nPour les objets utiles en combat.
+127	Poche Objets Rares\nPour les objets indispensables à\nvotre aventure.
+128	STOP
