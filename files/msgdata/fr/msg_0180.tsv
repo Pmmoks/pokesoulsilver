@@ -1,0 +1,14 @@
+0	Le Panthéon !
+5	N. {STRVAR_1 52, 0, 0}
+6	DO/{STRVAR_1 3, 0, 0}
+7	Rencontré à\n{STRVAR_1 4, 0, 0}.
+8	Éclos à\n{STRVAR_1 4, 0, 0}.
+9	Obtenu lors d’un\néchange en réseau.
+10	Venu de la région\nde Kanto.
+11	Venu de la région\nde Hoenn.
+12	Venu d’un pays\nlointain.
+13	Obtenu lors d’une\nrencontre fatidique.
+14	Venu de la région\nde Sinnoh.
+15	Reçu à\n{STRVAR_1 4, 0, 0}.
+16	Maître de la Ligue ! Félicitations !
+17	{STRVAR_1 3, 0, 0} ID {STRVAR_1 54, 1, 0} Temps {STRVAR_1 52, 2, 0}:{STRVAR_1 51, 3, 0}

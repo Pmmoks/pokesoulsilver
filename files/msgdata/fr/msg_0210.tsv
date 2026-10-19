@@ -1,0 +1,4 @@
+3	{STRVAR_1 3, 0, 0} trouve\n{STRVAR_1 8, 1, 0} !
+4	Vous obtenez {STRVAR_1 8, 0, 0} !\rDommage ! Le Sac est plein...
+6	{STRVAR_1 3, 0, 0} trouve\n{STRVAR_1 8, 1, 0} {STRVAR_1 6, 2, 0} !
+9	{STRVAR_1 3, 0, 0} range {STRVAR_1 8, 1, 0}\ndans la poche {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0}.

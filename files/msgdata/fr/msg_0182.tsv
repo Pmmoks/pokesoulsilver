@@ -1,0 +1,119 @@
+0	Il semble y avoir un problème...
+1	En attente de la réponse\nde {STRVAR_1 3, 1, 0}...
+2	Demande d’inscription envoyée\nà {STRVAR_1 3, 1, 0}. Veuillez patienter.
+3	Voulez-vous quitter le groupe ? {YESNO 0}
+4	{STRVAR_1 3, 1, 0} a répondu “OK”.
+5	{STRVAR_1 3, 1, 0} a refusé...{PAUSE 120}
+6	Vous avez quitté le groupe.
+8	Combat Simple !\nEn attente de votre ami.
+9	Combat Double !\nEn attente de votre ami.
+10	Combat Multi !\nEn attente de vos amis.
+11	Combat Mixte !\nEn attente de votre ami.
+12	Combat Nivelé !\nEn attente de votre ami.
+13	Parc Safari en réseau !\nEn attente de votre ami.
+14	Pokéathlon !\nEn attente de votre ami.
+15	Quand le groupe est prêt :\nA : Continuer   B : Annuler
+17	Quand le groupe est prêt :\nA : Continuer   B : Annuler
+18	Tour de Combat !\nEn attente de votre ami.
+19	Usine de Combat, Niveau 50 !\nEn attente de votre ami.
+20	Usine de Combat, Niveau Libre !\nEn attente de votre ami.
+21	Palais de Combat !\nEn attente de votre ami.
+22	Château de Combat !\nEn attente de votre ami.
+23	Arcade de Combat !\nEn attente de votre ami.
+25	{STRVAR_1 3, 1, 0} vous a contacté.\nCommencer un Combat Simple ? {YESNO 0}
+26	{STRVAR_1 3, 1, 0} vous a contacté.\nCommencer un Combat Double ? {YESNO 0}
+27	{STRVAR_1 3, 1, 0} vous a contacté.\nCommencer un Combat Mixte ? {YESNO 0}
+28	{STRVAR_1 3, 1, 0} vous a contacté.\nCommencer un Combat Nivelé ? {YESNO 0}
+29	{STRVAR_1 3, 1, 0} vous a contacté.\nLancer le Parc Safari en réseau ? {YESNO 0}
+30	{STRVAR_1 3, 1, 0} vous a contacté.\nL’accepter dans le groupe ? {YESNO 0}
+31	{STRVAR_1 3, 1, 0} vous a contacté.\nL’accepter dans le groupe ? {YESNO 0}
+32	{STRVAR_1 3, 1, 0} vous a contacté.\nRelever le défi de la Tour ? {YESNO 0}
+33	{STRVAR_1 3, 1, 0} vous a contacté.\nRelever le défi de l’Usine ? {YESNO 0}
+34	{STRVAR_1 3, 1, 0} vous a contacté.\nRelever le défi du Palais ? {YESNO 0}
+35	{STRVAR_1 3, 1, 0} vous a contacté.\nRelever le défi du Château ? {YESNO 0}
+36	{STRVAR_1 3, 1, 0} vous a contacté.\nRelever le défi de l’Arcade ? {YESNO 0}
+38	Combat Multi !\nCe groupe vous convient ? {YESNO 0}
+39	Ce groupe vous convient ? {YESNO 0}
+42	Pokéathlon !\nCe groupe vous convient ? {YESNO 0}
+43	Annuler le Combat Multi avec\nce groupe ? {YESNO 0}
+47	Annuler le Pokéathlon avec\nce groupe ? {YESNO 0}
+49	Choisissez le Combat Simple que\nvous voulez rejoindre. {YESNO 0}
+50	Choisissez le Combat Double que\nvous voulez rejoindre. {YESNO 0}
+51	Choisissez le Combat Multi que\nvous voulez rejoindre. {YESNO 0}
+52	Choisissez le Combat Mixte que\nvous voulez rejoindre. {YESNO 0}
+53	Choisissez le Combat Nivelé que\nvous voulez rejoindre. {YESNO 0}
+54	Choisissez le Parc Safari en\nréseau à rejoindre. {YESNO 0}
+55	Choisissez le Pokéathlon que\nvous voulez rejoindre. {YESNO 0}
+59	Choisissez l’ami à emmener\nà la Tour de Combat. {YESNO 0}
+60	Choisissez l’ami avec qui jouer à\nl’Usine de Combat, Niveau 50. {YESNO 0}
+61	Choisissez l’ami avec qui jouer à\nl’Usine de Combat, Niv. Libre. {YESNO 0}
+62	Choisissez l’ami avec qui jouer\nau Palais de Combat. {YESNO 0}
+63	Choisissez l’ami avec qui jouer\nau Château de Combat. {YESNO 0}
+64	Choisissez l’ami avec qui jouer\nà l’Arcade de Combat. {YESNO 0}
+65	Un membre est parti.\rVeuillez recommencer l’inscription\ndepuis le début.
+68	Le Pokéathlon avec ce groupe\nva être annulé.
+69	Réponse “OK” envoyée à {STRVAR_1 3, 1, 0}.
+70	Combat Multi !\nEn attente du reste du groupe.
+71	En attente du reste du groupe.
+74	Pokéathlon !\nEn attente du reste du groupe.
+75	{STRVAR_1 3, 0, 0}\nID{STRVAR_1 54, 1, 0}
+78	ID{STRVAR_1 54, 2, 0}
+80	Encore {STRVAR_1 50, 0, 0}\nrequis.
+81	{STRVAR_1 50, 0, 0} joueurs
+83	STANDARD
+84	FANTAISIE
+85	PETIT
+86	LÉGER
+87	DOUBLE
+88	STANDARD
+89	LÉGER
+90	DOUBLE
+91	DOUBLE
+92	GS
+93	Nb de Pokémon :
+94	Niveau Pokémon :
+95	Total niveaux :
+96	Taille :
+97	Poids :
+98	Pokémon évolués :
+99	Pokémon spéciaux :
+100	Pokémon identiques :
+101	Objets identiques :
+103	Max. {STRVAR_1 52, 0, 0}
+104	Max. {STRVAR_1 52, 0, 0}
+105	Max. {STRVAR_1 50, 0, 0}’ {STRVAR_1 50, 1, 0}”
+106	Min. {STRVAR_1 50, 0, 0}’ {STRVAR_1 50, 1, 0}”
+107	Max. {STRVAR_1 51, 0, 0} lbs
+108	Min. {STRVAR_1 51, 0, 0} lbs
+109	Autorisés
+110	Interdits
+111	Autorisés
+112	Interdits
+113	Coupe {STRVAR_1 26, 0, 0}
+114	SANS RESTRICTION
+115	Limite 2
+116	Les joueurs ont choisi des règles\ndifférentes. Il faut les mêmes.
+142	Parcours Vitesse & Saut !\nRecherche d’autres joueurs. {YESNO 0}
+143	Parcours Saut & Technique !\nRecherche d’autres joueurs. {YESNO 0}
+144	Parcours Technique & Force !\nRecherche d’autres joueurs. {YESNO 0}
+145	Parcours Force & Endurance !\nRecherche d’autres joueurs. {YESNO 0}
+146	Parcours Endurance & Vitesse !\nRecherche d’autres joueurs. {YESNO 0}
+147	Parcours Maître !\nRecherche d’autres joueurs. {YESNO 0}
+148	Parcours Vitesse & Saut !\nVeuillez choisir le chef. {YESNO 0}
+149	Parcours Saut & Technique !\nVeuillez choisir le chef. {YESNO 0}
+150	Parcours Technique & Force !\nVeuillez choisir le chef. {YESNO 0}
+151	Parcours Force & Endurance !\nVeuillez choisir le chef. {YESNO 0}
+152	Parcours Endurance & Vitesse !\nVeuillez choisir le chef. {YESNO 0}
+153	Parcours Maître !\nVeuillez choisir le chef. {YESNO 0}
+154	Parcours Vitesse & Saut !\nTouchez quand tous ont rejoint. {YESNO 0}
+155	Parcours Saut & Technique !\nTouchez quand tous ont rejoint. {YESNO 0}
+156	Parcours Technique & Force !\nTouchez quand tous ont rejoint. {YESNO 0}
+157	Parcours Force & Endurance !\nTouchez quand tous ont rejoint. {YESNO 0}
+158	Parcours Endurance & Vitesse !\nTouchez quand tous ont rejoint. {YESNO 0}
+159	Parcours Maître !\nTouchez quand tous ont rejoint. {YESNO 0}
+160	Parcours Vitesse & Saut !\nEn attente des autres membres !
+161	Parcours Saut & Technique !\nEn attente des autres membres !
+162	Parcours Technique & Force !\nEn attente des autres membres !
+163	Parcours Force & Endurance !\nEn attente des autres membres !
+164	Parcours Endurance & Vitesse !\nEn attente des autres membres !
+165	Parcours Maître !\nEn attente des autres membres !

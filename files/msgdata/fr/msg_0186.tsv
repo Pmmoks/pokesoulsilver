@@ -1,0 +1,15 @@
+0	Bienvenue sur Géonet, le globe\nhigh-tech !\r
+1	Que voulez-vous faire ?
+2	Ici, vous pouvez enregistrer l’endroit\noù vous habitez.\rCette information peut être transmise\nà vos amis et à des inconnus via la\fcommunication sans fil DS ou la CWF\fNintendo.\rVoulez-vous enregistrer la région où\nvous habitez ?
+3	Veuillez choisir le pays où vous\nhabitez.
+4	Veuillez choisir la région où vous\nhabitez.
+5	Une fois enregistré, votre lieu de\nrésidence ne pourra plus être modifié.\rEnregistrer ce lieu comme lieu de\nrésidence ?
+8	OUI
+9	NON
+10	LISTE
+11	ENREGISTRER
+12	QUITTER
+13	{ALN_CENTER}VOIR
+14	Lieu enregistré :\n{STRVAR_1 36, 0, 0}\n{STRVAR_1 37, 1, 0}
+15	Pour afficher les lieux enregistrés,\nplacez le curseur et appuyez sur X.
+16	{ALN_CENTER}QUITTER

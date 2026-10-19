@@ -1,0 +1,20 @@
+0	Veuillez choisir le\nPokémon n° {STRVAR_1 50, 0, 0}.
+1	Ces {STRVAR_1 50, 0, 0} Pokémon vous\nconviennent ?
+2	Veuillez patienter.
+5	RÉSUMÉ
+6	LOUER
+7	ANNULER
+8	RETIRER
+9	Choisissez le Pokémon\nà échanger.
+10	Annuler l’échange ?
+13	Choisissez le Pokémon\nque vous voulez recevoir.
+14	Accepter ce Pokémon ?
+15	Veuillez patienter.
+16	{STRVAR_1 3, 0, 0} a échangé\n{STRVAR_1 0, 1, 0} et\freçu {STRVAR_1 0, 2, 0}.\r
+19	ANNULER
+20	RÉSUMÉ
+21	ÉCHANGER
+22	FERMER
+23	RETOUR
+24	ANNULER
+25	RECEVOIR

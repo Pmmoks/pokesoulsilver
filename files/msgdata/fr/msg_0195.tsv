@@ -1,0 +1,38 @@
+0	Tout d’abord, nous gardons vos\nPokémon en échange de nos Pokémon de\flocation.\rJe vous conseille de bien réfléchir\navant de choisir vos Pokémon.\r
+1	Veuillez patienter.
+2	Veuillez entrer.
+3	Bravo ! Vos Pokémon vont maintenant\nêtre soignés.
+4	Prochain combat : n° {STRVAR_1 53, 0, 0} !\nÊtes-vous prêt ?
+5	Voulez-vous échanger des Pokémon\navant le combat ?
+6	Voulez-vous sauvegarder le dernier\ncombat dans votre Vidéo Combat ?
+7	Le combat de {STRVAR_1 3, 0, 0} a été\nsauvegardé dans la Vidéo Combat.\r
+8	Une erreur est survenue. La Vidéo\nCombat n’a pas pu être sauvegardée.\r
+9	Effacer votre Vidéo Combat actuelle et\nsauvegarder le dernier combat ?
+10	Sauvegarde en cours...\nN’éteignez pas la console.
+11	Voulez-vous sauvegarder et faire une\npause ?
+12	Voulez-vous abandonner ce défi de\nl’Usine de Combat ?
+13	{STRVAR_1 3, 0, 0} est en train de choisir.\nVeuillez patienter.
+15	{STRVAR_1 3, 0, 0} a choisi d’abandonner.
+16	Vous avez remporté votre septième\ncombat de l’Usine de Combat !\fFélicitations !\rEn reconnaissance de votre grande\nconnaissance des Pokémon, nous vous\foffrons des PCo !\r
+17	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} PCo !\r
+18	Nous allons vous rendre les Pokémon\nque nous gardions pendant la location.\r
+19	Sauvegarde en cours...\nN’éteignez pas la console.
+21	Je me suis renseigné sur votre prochain\nadversaire.\rVous pouvez vous attendre à voir\n{STRVAR_1 0, 1, 0}, {STRVAR_1 0, 3, 0} et {STRVAR_1 0, 5, 0}.\r
+22	Je me suis renseigné sur votre prochain\nadversaire.\rVous pouvez vous attendre à voir\n{STRVAR_1 0, 1, 0} et {STRVAR_1 0, 3, 0}.\r
+23	Je me suis renseigné sur votre prochain\nadversaire.\rIl commencera avec un redoutable\n{STRVAR_1 0, 1, 0} qui utilise {STRVAR_1 6, 0, 0}.\r
+24	Je me suis renseigné sur votre prochain\nadversaire.\rIl commencera avec un Pokémon qui\nconnaît la capacité {STRVAR_1 6, 0, 0}.\r
+25	Je me suis renseigné sur votre prochain\nadversaire.\rIl semble doué avec le type\n{STRVAR_1 15, 0, 0}.\r
+26	Je me suis renseigné sur votre prochain\nadversaire.\rIl ne semble pas se soucier des types\nde Pokémon.\r
+27	Je me suis renseigné sur votre prochain\nadversaire.\rVous pouvez vous attendre à voir\n{STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0} et\f{STRVAR_1 0, 4, 0}.\r
+28	Je me suis renseigné sur votre prochain\nadversaire.\rIl commencera avec {STRVAR_1 0, 1, 0} et\n{STRVAR_1 0, 2, 0}.\r
+29	Je me suis renseigné sur votre prochain\nadversaire.\rIl commencera avec des Pokémon qui\nconnaissent {STRVAR_1 6, 0, 0} et {STRVAR_1 6, 1, 0}.\r
+30	Je me suis renseigné sur votre prochain\nadversaire.\rIl commencera avec un Pokémon qui\nconnaît la capacité {STRVAR_1 6, 0, 0}.\r
+31	CONTINUER
+32	SAUVEGARDER
+33	PAUSE
+34	ABANDONNER
+35	Félicitations, Dresseur !\rEn reconnaissance de votre\nimpressionnante série de victoires,\fnotre Tête de l’Élite exige un combat\fcontre vous.\rVotre prochain adversaire est donc le\nChef de l’Usine, et vous ne pouvez pas\frefuser !\rÊtes-vous prêt ?\r
+36	Silvère : Bzouiiiiip !\rDésolé, ne faites pas attention à moi.\rJ’utilise une de mes inventions. C’est\nma machine à interpréter les données.\rElle me dit ce que vous avez loué pour\nce combat.\rJe vois ! Vous avez loué {STRVAR_1 0, 0, 0},\n{STRVAR_1 0, 1, 0} et {STRVAR_1 0, 2, 0}.\rJe dois dire que c’est une bonne\néquipe. Disons... {STRVAR_1 51, 3, 0} pour cent ? Oh,\fne vous souciez pas de ce chiffre !\rBon, allons-y !\r
+37	Silvère : Bzouiiiiip !\rVoyons ce que ma machine à interpréter\nles données peut me dire sur vous.\rAlors, qu’avez-vous loué pour ce\ncombat... ?\rJe vois ! Vous avez loué {STRVAR_1 0, 0, 0},\n{STRVAR_1 0, 1, 0} et {STRVAR_1 0, 2, 0}.\rJe dois admettre que c’est une bonne\néquipe.\rC’est un mélange d’amitié et de\ncoopération.\rJe dirais... {STRVAR_1 51, 3, 0} pour cent ? Oh, ne\nvous souciez pas de ce chiffre !\rBon, allons-y ! Cette fois, je ne\nperdrai pas !\r
+38	Silvère : Hmm... J’ai perdu.\rPerdre, ça ne me plaît pas du tout.\nMais j’ai quand même récolté des\fdonnées utiles, je suppose.\rDu coup, je suis content de vous avoir\naffronté.\rAlors, ces Pokémon de location vous ont\nplu ?\rEn tant que Chef de l’Usine, ça me\nferait vraiment plaisir.\rLa prochaine fois, revenez avec\nd’autres Pokémon de location.\r
+39	Silvère : Hmm... J’ai encore perdu.\rÇa ne me plaît pas du tout. En fait, ça\nme ronge.\rJe pensais avoir beaucoup appris sur\nles Pokémon depuis ma défaite.\rMais c’est pas grave. Certaines choses\ns’apprennent en gagnant. Et d’autres\fen perdant.\rJ’espère que vous continuerez à louer\nnos Pokémon et que vous me donnerez ma\frevanche !\r

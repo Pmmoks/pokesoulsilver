@@ -1,0 +1,22 @@
+0	Vos Pokémon vont être soignés.
+1	Vous allez affronter l’adversaire n°\n{STRVAR_1 50, 0, 0}. Êtes-vous prêt ?
+2	Voulez-vous sauvegarder et quitter le\njeu ?
+3	Voulez-vous abandonner votre défi de\nla Salle de Combat ?
+4	Sauvegarde en cours...\nN’éteignez pas la console.
+6	Vous allez affronter l’adversaire n°\n{STRVAR_1 50, 0, 0}. Êtes-vous prêt ?
+7	Voulez-vous sauvegarder et quitter le\njeu ?
+8	Voulez-vous abandonner votre défi de\nla Salle de Combat ?
+9	Voulez-vous sauvegarder le dernier\ncombat dans votre Vidéo Combat ?
+10	Le combat de {STRVAR_1 3, 0, 0} a été\nsauvegardé dans la Vidéo Combat.\r
+11	Une erreur est survenue. La Vidéo\nCombat n’a pas pu être sauvegardée.\r
+12	Effacer votre Vidéo Combat actuelle et\nsauvegarder le dernier combat ?
+13	Sauvegarde en cours...\nN’éteignez pas la console.
+14	Félicitations pour votre série de\nvictoires !\rLa Tête de l’Élite a fait savoir qu’elle\nétait impressionnée.\rElle a vu votre talent et souhaite\nvous affronter !\rÊtes-vous prêt à affronter le Magnat\nde la Tour ?
+15	Salut ! Je m’appelle Palmer.\rOn m’a beaucoup parlé de toi. Tu es\n{STRVAR_1 3, 0, 0} de Bourg Geon, c’est ça ?\rTu es bien plus jeune que je ne\npensais. Alors, montre-moi.\rMontre-moi le lien que tu as tissé avec\ntes Pokémon.\rMontre-moi ce que tu as appris en\naffrontant des Dresseurs !\r
+16	Palmer : Alors, tu es arrivé jusqu’ici !\rEn tant que Magnat de la Tour, je vais\ndonner le meilleur de moi-même.\rC’est ainsi que les meilleurs Dresseurs\nse respectent.\rEn combattant à fond, en élèves\ndévoués des Pokémon !\r
+17	Bravo !\rJ’imagine que beaucoup de grands\nDresseurs viendront me défier comme\ftoi.\rC’est quelque chose que j’attends\navec impatience.\rTu vas devenir encore plus fort.\nContinue d’affronter des Dresseurs du\fmonde entier et de grandir !\r
+18	Bravo ! Mon cœur en est tout inspiré !\rMon jeune ami, le monde et ton avenir\nsont pleins de promesses.\rLes esprits des gens et des Pokémon\ns’appellent et résonnent ensemble.\rLe lien qui en naît est infiniment fort !\nVas-y, tu peux devenir tout ce que tu\fveux !\rIl n’y a aucune limite à ce que tu peux\naccomplir !\r
+19	Vous avez remporté votre septième\ncombat ! Félicitations !\rPour récompenser votre talent, nous\nvous offrons des PCo !\r
+20	Félicitations !\rVotre victoire sur le Magnat de la Tour\na été une source d’inspiration !\rPour récompenser votre talent, nous\nvous offrons des PCo !\r
+21	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} PCo !\r
+22	Sauvegarde en cours...\nN’éteignez pas la console.

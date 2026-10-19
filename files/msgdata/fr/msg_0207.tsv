@@ -1,0 +1,16 @@
+1	ID {STRVAR_1 54, 0, 0}
+2	Quand le groupe est prêt :\nA : Continuer   B : Annuler
+3	Ce groupe vous convient ?
+4	Annuler l’Échange Rotatif ?
+5	L’Échange Rotatif va être annulé.
+6	Un membre est parti.
+8	Veuillez patienter.\nB : Annuler
+9	Un membre est parti.\nL’Échange Rotatif va être annulé.
+11	L’Échange Rotatif va être annulé.
+12	Mélange des records en cours...\nN’éteignez pas la console !
+14	Si le chef part, le groupe sera\ndissous. D’accord ?
+15	{STRVAR_1 3, 0, 0} est parti.
+16	{STRVAR_1 1, 0, 0}, le chef, est parti.\nLe groupe va être dissous.
+17	Recherche d’un Échange Rotatif !
+19	OUI
+20	NON

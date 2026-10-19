@@ -1,0 +1,4 @@
+0	{STRVAR_1 0, 0, 0} est sorti de l’Œuf !
+1	Voulez-vous donner un surnom au\n{STRVAR_1 0, 0, 0} qui vient d’éclore ? {YESNO 0}
+2	{ALN_CENTER}Oui
+3	{ALN_CENTER}Non

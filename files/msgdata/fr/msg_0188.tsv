@@ -1,0 +1,38 @@
+0	Voir n° Wii
+1	Enregistrer n° Wii
+2	Réception messages Wii
+3	Effacer réglages Wii
+4	Quitter
+9	Êtes-vous dans un lieu où vous pouvez\nvous connecter à la Connexion Wi-Fi\fNintendo ?
+10	Veuillez vous enregistrer quand vous\npourrez vous connecter à la Connexion\fWi-Fi Nintendo.\r
+11	Votre numéro Wii et les informations\nd’utilisateur CWF Nintendo de cette\fconsole seront sauvegardés.\rSe connecter à la Connexion Wi-Fi\nNintendo ?
+12	Impossible de se connecter à la\nConnexion Wi-Fi Nintendo.\rVeuillez vérifier vos paramètres de\nconnexion.
+13	Le code d’enregistrement a été envoyé\nà votre console Wii.\rVeuillez saisir le code\nd’enregistrement.
+14	Se déconnecter de la CWF Nintendo et\nannuler l’enregistrement du numéro\fWii ?
+15	Déconnexion de la Connexion Wi-Fi\nNintendo.
+16	Vous êtes déconnecté de la Connexion\nWi-Fi Nintendo.
+17	Veuillez saisir les quatre derniers\nchiffres du code d’enregistrement du\fmessage Wii.\r
+18	Vérification du code d’enregistrement.\nVeuillez patienter...
+19	Code d’enregistrement incorrect.\r
+20	Votre numéro Wii a été enregistré.\r
+21	Un mot de passe est nécessaire pour\nconfirmer votre numéro Wii.\rSaisissez un nombre à 4 chiffres et\nnotez-le comme mot de passe de votre\fnuméro Wii.\r
+24	Le mot de passe de votre numéro Wii a\nété défini.\r
+25	Vous pouvez recevoir un message Wii\nquand un échange aboutit à la GTS.\rVoulez-vous être prévenu par message\nWii ?
+26	Vous avez choisi de recevoir des\nmessages Wii.\rLa prochaine fois que vous utiliserez la\nGTS, vous serez prévenu des échanges\fpar message Wii.\r
+27	Vous avez choisi de ne pas recevoir de\nmessages Wii.\rLa prochaine fois que vous utiliserez la\nGTS, vous ne serez pas prévenu des\féchanges par message Wii.\r
+28	Vos réglages de messages Wii et le mot\nde passe vont être effacés. D’accord ?
+29	Tous les réglages de messages Wii ont\nété effacés.\r
+32	Sauvegarde en cours...\nN’éteignez pas la console.
+33	{STRVAR_1 3, 0, 0} a sauvegardé la partie.
+34	Erreur de sauvegarde.
+38	Pour confirmer, veuillez saisir à\nnouveau votre numéro Wii.\r
+39	Ce numéro Wii ne correspond pas.\nVeuillez le saisir à nouveau.\r
+40	Ce mot de passe est incorrect. Veuillez\nle saisir à nouveau.\r
+41	Votre numéro Wii est :\n{STRVAR_1 53, 0, 0} {STRVAR_1 53, 1, 0} {STRVAR_1 53, 2, 0} {STRVAR_1 53, 3, 0}\r
+42	Ne pas enregistrer
+43	Enregistrer
+44	{COLOR 1}Enregistrer un numéro Wii{COLOR 0}\n\nSi votre numéro Wii est enregistré,\nvous serez prévenu par un message\nWii quand un échange aboutit\nà la GTS.\n\nPour plus de détails, veuillez\nconsulter le mode d’emploi.\n\nVoulez-vous enregistrer votre\nnuméro Wii ?
+54	La Connexion Wi-Fi Nintendo est en\nmaintenance.\rVeuillez réessayer plus tard.\r
+55	La CWF Nintendo est très sollicitée ou\nle service est interrompu.\rVeuillez réessayer plus tard.\r
+56	Impossible de se connecter à la\nConnexion Wi-Fi Nintendo.\r
+57	Erreur de communication. Vous avez été\ndéconnecté de la CWF Nintendo.\r

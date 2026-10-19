@@ -1,0 +1,23 @@
+15	Choisissez un Pokémon.
+16	{STRVAR_1 1, 0, 0} est sélectionné.
+17	RÉSUMÉ
+18	ÉCHANGER
+19	ANNULER
+20	Communication en cours. Patientez...
+21	Échanger {STRVAR_1 1, 0, 0} contre\n{STRVAR_1 1, 1, 0} ?
+24	L’échange a été\nannulé.
+25	Annuler l’échange ?
+28	En attente de votre ami...
+29	Votre ami souhaite apparemment\néchanger un Pokémon avec vous.
+30	{STRVAR_1 1, 0, 0} va être envoyé\nà {STRVAR_1 3, 1, 0}.
+31	Prends soin de toi, {STRVAR_1 1, 0, 0} !
+32	{STRVAR_1 3, 1, 0} a envoyé\n{STRVAR_1 1, 0, 0} !
+33	Prends bien soin de {STRVAR_1 1, 0, 0} !
+34	Si vous échangez ce Pokémon, vous\nserez bloqué dans votre aventure !
+36	La Capsule de la Ball va être retirée.\nD’accord ?
+37	Un Pokémon de votre équipe ne\npeut pas être échangé.
+38	Un Pokémon de l’équipe de l’autre\nDresseur ne peut pas être échangé.
+41	N.
+42	OBJET
+49	Aucun
+50	Quitter

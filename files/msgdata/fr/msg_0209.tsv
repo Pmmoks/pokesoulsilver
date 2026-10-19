@@ -1,0 +1,32 @@
+0	Bonjour. Vous devez être {STRVAR_1 3, 0, 0}.\rJ’ai reçu un cadeau pour vous. Le\nvoici !\r
+1	Bonjour. Vous devez être {STRVAR_1 3, 0, 0}.\rJ’ai reçu un cadeau pour vous. Le\nvoici !\r
+2	Bonsoir. Vous devez être {STRVAR_1 3, 0, 0}.\rJ’ai reçu un cadeau pour vous. Le\nvoici !\r
+3	Je n’ai pas reçu d’autre cadeau pour\nvous.\rNous attendons votre prochaine visite.
+4	Votre équipe est pleine, j’en ai peur.\nJe ne peux pas encore vous le donner.
+5	Encore {STRVAR_1 8, 0, 0} ? Vous en avez déjà\ntrop pour en accepter d’autres.
+6	Pour accepter ceci, vous devez faire\nde la place pour les objets de\fdécoration.
+7	{STRVAR_1 3, 0, 0} reçoit\n{COLOR 101}{STRVAR_1 0, 1, 0}{COLOR 0} !\r
+8	{STRVAR_1 3, 0, 0} reçoit\nun {COLOR 1}Œuf Pokémon{COLOR 0} !\r
+9	{STRVAR_1 3, 0, 0} reçoit le cadeau\n{COLOR 1}{STRVAR_1 8, 1, 0}{COLOR 0} !\r
+10	{STRVAR_1 3, 0, 0} reçoit les\n{COLOR 1}Règles {STRVAR_1 26, 1, 0}{COLOR 0}.\r
+11	{STRVAR_1 3, 0, 0} reçoit le cadeau\n{COLOR 1}{STRVAR_1 10, 1, 0}{COLOR 0} !\r
+12	{STRVAR_1 3, 0, 0} reçoit le cadeau\n{COLOR 1}{STRVAR_1 31, 1, 0}{COLOR 0}.\r
+13	{STRVAR_1 3, 0, 0} reçoit\nl’{COLOR 1}Œuf de MANAPHY{COLOR 0} !\r
+14	{STRVAR_1 3, 0, 0} reçoit\nune {COLOR 1}Carte Membre{COLOR 0}.\r
+15	{STRVAR_1 3, 0, 0} reçoit\nla {COLOR 1}Lettre Chen{COLOR 0} !\r
+16	{STRVAR_1 3, 0, 0} reçoit\nune {COLOR 1}Flûte Azur{COLOR 0} !\r
+17	{STRVAR_1 3, 0, 0} reçoit\nune {COLOR 1}Clé Secrète{COLOR 0} !\r
+18	{STRVAR_1 3, 0, 0} reçoit\nune {COLOR 1}Photo Souvenir{COLOR 0} !\r
+19	{STRVAR_1 3, 0, 0} reçoit\nun {COLOR 1}Plan{COLOR 0} : {STRVAR_1 4, 1, 0} !\r
+20	Nous attendons votre prochaine visite.
+21	{STRVAR_1 3, 0, 0} reçoit l’application\nPokémontre {COLOR 1}{STRVAR_1 24, 1, 0}{COLOR 0} !\r
+22	... Oh oh. {STRVAR_1 3, 0, 0}, vous n’avez pas\nencore de Pokémontre.\rJe ne peux pas vous donner cette\napplication si vous n’avez pas de\fPokémontre.
+23	{STRVAR_1 3, 0, 0} reçoit\nle {COLOR 1}{STRVAR_1 39, 1, 0}{COLOR 0} !\rLe {STRVAR_1 39, 1, 0}\na été donné à {STRVAR_1 1, 2, 0}.\r
+24	Oh non, {STRVAR_1 3, 0, 0} ! Votre Album\nPhoto est plein.\rPourriez-vous revenir quand vous\naurez libéré de la place dans votre\fAlbum ?
+25	Oh non, {STRVAR_1 3, 0, 0} ! Votre Album\nPhoto est plein.\rPourriez-vous revenir quand vous\naurez libéré de la place dans votre\fAlbum ?
+26	Oh non, {STRVAR_1 3, 0, 0} ! Ce Plan !\rVous avez déjà {STRVAR_1 4, 1, 0}, n’est-ce\npas ?
+27	Bonjour. {STRVAR_1 3, 0, 0}, c’est bien ça ?\rJ’ai un colis pour vous de la part de\nvotre maman. Le voici !\r
+28	Bonjour. {STRVAR_1 3, 0, 0}, c’est bien ça ?\rJ’ai un colis pour vous de la part de\nvotre maman. Le voici !\r
+29	Bonsoir. {STRVAR_1 3, 0, 0}, c’est bien ça ?\rJ’ai un colis pour vous de la part de\nvotre maman. Le voici !\r
+30	Je n’ai plus de colis pour vous.\rAu plaisir de vous servir à nouveau !
+31	Cette version ne peut pas recevoir\nde cadeaux.

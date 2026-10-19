@@ -1,0 +1,316 @@
+0	EMPOISONNÉ
+1	PARALYSÉ
+2	ENDORMI
+3	BRÛLÉ
+4	GELÉ
+5	QUITTER
+6	COMBAT SIMPLE
+7	COMBAT DOUBLE
+8	COMBAT MIXTE
+9	COMBAT MULTI
+10	COMBAT NIVELÉ
+11	INFOS
+12	QUITTER
+13	QUITTER
+14	REJOINDRE
+15	ÊTRE LE CHEF
+16	Étage actuel
+23	ÉCHANGER
+24	ANNULER
+40	CONFIRMER
+41	RÈGLES
+42	OUI
+43	NON
+44	QUITTER
+45	ANNULER
+46	{ALN_CENTER}OUI
+47	{ALN_CENTER}NON
+52	COMBATTRE
+59	DESSINER
+61	PC DE QUELQU’UN
+62	PC DE LÉO
+63	PC DE {STRVAR_1 3, 0, 0}
+64	PANTHÉON
+65	ALBUM PHOTO
+66	ÉTEINDRE
+67	DÉPOSER\nPOKéMON
+68	RETIRER\nPOKéMON
+69	DÉPLACER\nPOKéMON
+70	DÉPLACER\nOBJETS
+72	SALUT !
+73	BOÎTE AUX LETTRES
+74	CAPSULES
+75	DÉCONNEXION
+76	Les Pokémon de votre équipe peuvent\nêtre rangés dans les Boîtes.
+77	Les Pokémon des Boîtes peuvent être\najoutés à votre équipe.
+78	Vous pouvez ranger les Pokémon des\nBoîtes et de votre équipe.
+79	Vous pouvez ranger les objets tenus\npar vos Pokémon.
+81	Se déconnecter du Système de\nStockage Pokémon.
+82	Jusqu’à 20 Lettres peuvent être\nrangées.
+83	Vous pouvez créer ou modifier les\nCapsules des Poké Balls.
+84	Se déconnecter du PC.
+85	Vous pouvez regarder les photos\nprises pendant votre aventure.
+94	ANNULER
+116	1er ÉT.
+117	2e ÉT.
+118	3e ÉT.
+119	4e ÉT.
+120	5e ÉT.
+121	6e ÉT.
+122	SOUS-SOL
+125	TOIT
+126	QUITTER
+127	50 jetons{CURSOR_X 60}1 000 $
+128	500 jetons{CURSOR_X 60}10 000 $
+129	NON MERCI
+130	INFOS
+131	ÉCHANGER
+132	QUITTER
+133	PROPOSER UN POKéMON ?
+134	CHERCHER UN POKéMON ?
+135	COMPRIS !
+136	{STRVAR_1 0, 0, 0}{STRVAR_1 2, 2, 0}{CURSOR_X 90}N. {STRVAR_1 52, 1, 0}
+137	{STRVAR_1 0, 0, 0}{STRVAR_1 2, 2, 0}{CURSOR_X 90}N. {STRVAR_1 52, 1, 0}
+138	ANNULER
+141	TOURNER
+142	RECORDS
+143	DÉFI
+144	INFOS
+145	QUITTER
+148	CONTINUER
+149	SE REPOSER
+150	ABANDONNER
+153	VOIR LES CHEFS
+154	DÉFIER UNE\nSALLE ANTÉRIEURE
+155	VOIR LES CHEFS
+156	INSCRIRE UN AMI ?
+157	COMPRIS !
+158	RÉPÉTER
+159	VIEIL AMBRE
+160	NAUTILE
+161	FOSSILE DÔME
+162	FOSSILE RACINE
+163	FOSSILE GRIFFE
+164	FOSSILE ARMURE
+165	FOSSILE CRÂNE
+166	COMBATS À DEUX
+167	COMBATS À QUATRE
+168	SALUER
+169	DISCUTER
+170	BAVARDER
+193	{STRVAR_1 54, 0, 0} jetons
+194	RÈGLES DE BASE
+195	SPECTACLE DE CAPTURE
+196	POKéMON EN RÉSERVE
+198	COMPRIS !
+199	ENTRER
+200	INFOS
+201	QUITTER
+205	TESSON ROUGE
+206	TESSON BLEU
+207	TESSON JAUNE
+208	TESSON VERT
+209	EAU FRAÎCHE{CURSOR_X 80}200 $
+210	SODA COOL{CURSOR_X 80}300 $
+211	LIMONADE{CURSOR_X 80}350 $
+212	NON MERCI
+213	FERTIPOUSSE{CURSOR_X 90}\n200 $
+214	FERTIHUMIDE{CURSOR_X 90}\n200 $
+215	FERTISTABLE{CURSOR_X 90}\n200 $
+216	FERTIGLUE{CURSOR_X 90}\n200 $
+217	QUITTER
+220	{STRVAR_1 53, 0, 0} PCo
+223	{STRVAR_1 54, 0, 0} pts
+263	RECORDS
+271	PARTICIPER
+272	POKéATHLON
+273	PARCOURS VITESSE
+274	PARCOURS FORCE
+275	PARCOURS ENDURANCE
+276	PARCOURS SAUT
+277	PARCOURS TECHNIQUE
+278	LE SUPRÊME ?
+279	PARCOURS\nMAÎTRE F.
+280	ALLIÉ
+281	CADET
+282	AMI
+283	STRATÉGIE
+284	ENTRAÎNEMENT
+285	TRICHE
+286	FAIBLE
+287	FORT
+288	N’IMPORTE QUI
+289	AMOUR
+290	VIOLENCE
+291	SAVOIR
+292	FORCE
+293	LES DEUX
+294	FAIBLESSE
+296	LES ÉPREUVES ?
+297	MAXIMO ?
+298	COURSE DE HAIES
+299	PRISE DE FANION
+300	POUSSE-CERCLE
+301	CASSE-BLOC
+302	ATTRAPE-DISQUE
+303	SAUT LAMPION
+304	COURSE RELAIS
+305	RING SUMO
+306	BATAILLE DE NEIGE
+307	ROULE-BUT
+308	PARCOURS VITESSE
+309	PARCOURS FORCE
+310	PARCOURS TECHNIQUE
+311	PARCOURS ENDURANCE
+312	PARCOURS SAUT
+321	ACHETER
+322	VENDRE
+323	SALUT !
+324	INFOS
+325	ÉCHANGE DE PRIX
+326	C’EST QUOI L’APRIJUS ?
+327	CONSEILS APRIJUS !
+328	ACHETER
+329	VOIR L’ÉTIQUETTE
+330	ARGENT DÉPOSÉ
+331	ARGENT SUR SOI
+333	A : REJOINDRE CE GROUPE
+334	B : QUITTER
+335	B : RETIRER DES MEMBRES
+336	A : COMMENCER AVEC CES MEMBRES
+337	PAYER EN ARGENT
+338	PAYER EN POINTS
+339	EAU FRAÎCHE {CURSOR_X 80}50 points
+340	SODA COOL {CURSOR_X 80}80 points
+341	LIMONADE {CURSOR_X 80}100 points
+342	A. PARCOURS\nVITESSE & SAUT
+343	B. PARCOURS\nSAUT & TECHNIQUE
+344	C. PARCOURS\nTECHNIQUE & FORCE
+345	D. PARCOURS\nFORCE & ENDURANCE
+346	E. PARCOURS\nENDURANCE & VITESSE
+347	OBJETS\nD’ENTRAÎNEMENT 1
+348	OBJETS\nD’ENTRAÎNEMENT 2
+349	OBJETS\nDE COMBAT 1
+350	OBJETS\nDE COMBAT 2
+351	ATTAQUES PHYSIQUES
+352	ATTAQUES SPÉCIALES
+353	ATTAQUES DE STATUT
+354	PROTÉINE\n1 PCo
+355	CALCIUM\n1 PCo
+356	FER\n1 PCo
+357	ZINC\n1 PCo
+358	CARBONE\n1 PCo
+359	PV PLUS\n1 PCo
+360	BRAC. POUVOIR\n16 PCo
+361	CEINT. POUVOIR\n16 PCo
+362	LENT. POUVOIR\n16 PCo
+363	BAND. POUVOIR\n16 PCo
+364	CHAÎNE POUVOIR\n16 PCo
+365	POIDS POUVOIR\n16 PCo
+366	ORBE TOXIQUE\n16 PCo
+367	ORBE FLAMME\n16 PCo
+368	HERBE BLANCHE\n32 PCo
+369	HERBE POUVOIR\n32 PCo
+370	POUDRE CLAIRE\n48 PCo
+371	BANDEAU CHOIX\n48 PCo
+372	BANDEAU\n48 PCo
+373	LENTILSCOPE\n48 PCo
+374	BANDEAU MUSCLE\n48 PCo
+375	CEINTURE FORCE\n48 PCo
+376	MOUCHOIR CHOIX\n48 PCo
+377	GRIFFE RASOIR\n48 PCo
+378	CROC RASOIR\n48 PCo
+379	SUPER BONBON\n48 PCo
+380	AÉROPIQUÉ\n40 PCo
+381	CASSE-BRIQUE\n40 PCo
+382	DEMI-TOUR\n40 PCo
+383	PLAIE-CROIX\n64 PCo
+384	LAME DE ROC\n80 PCo
+385	SÉISME\n80 PCo
+386	BALL’OMBRE\n64 PCo
+387	ÉCO-SPHÈRE\n64 PCo
+388	BOMB-BEURK\n80 PCo
+389	DRACO-CHOC\n80 PCo
+390	TOXIK\n32 PCo
+391	CAGE-ÉCLAIR\n32 PCo
+392	FEU FOLLET\n32 PCo
+393	ATTRACTION\n32 PCo
+394	GONFLETTE\n48 PCo
+395	PLÉNITUDE\n48 PCo
+396	Augmente l’Attaque de base\nd’un Pokémon.
+397	Augmente l’Attaque Spéciale de base\nd’un Pokémon.
+398	Augmente la Défense de base\nd’un Pokémon.
+399	Augmente la Défense Spéciale de base\nd’un Pokémon.
+400	Augmente la Vitesse de base\nd’un Pokémon.
+401	Augmente les PV de base\nd’un Pokémon.
+402	Fait monter un Pokémon\nd’un niveau.
+403	Favorise l’Attaque en montant de\nniveau, mais baisse la Vitesse.
+404	Favorise la Défense en montant de\nniveau, mais baisse la Vitesse.
+405	Favorise l’Atq. Spé. en montant de\nniveau, mais baisse la Vitesse.
+406	Favorise la Déf. Spé. en montant de\nniveau, mais baisse la Vitesse.
+407	Favorise la Vitesse en montant de\nniveau, mais baisse la Vitesse.
+408	Favorise les PV en montant de\nniveau, mais baisse la Vitesse.
+409	Un orbe étrange qui empoisonne\ngravement le porteur en combat.
+410	Un orbe étrange qui brûle\nle porteur en combat.
+411	Annule les baisses de stats en combat.\nUtilisable une seule fois.
+412	Permet de lancer aussitôt une capacité\nqui se charge au premier tour.
+413	Le parfum trompeur de cet encens\nbaisse la précision de l’ennemi.
+414	Augmente l’Attaque, mais limite\nà une seule capacité.
+415	Le porteur peut résister à un coup\nfatal et garder 1 PV.
+416	Une lentille qui augmente le taux\nde coups critiques du porteur.
+417	Un bandeau qui augmente un peu la\npuissance des capacités physiques.
+418	PV au max, le porteur résiste à un\ncoup fatal et garde 1 PV.
+419	Augmente la Vitesse, mais limite\nà une seule capacité.
+420	Augmente le taux de coups critiques\ndu porteur.
+421	Peut apeurer l’ennemi quand le\nporteur lui inflige des dégâts.
+422	Une attaque si rapide qu’elle ne\nrate jamais.
+423	Brise les protections comme\nMur Lumière et Protection.
+424	Après avoir attaqué, le lanceur\nlaisse place à un autre Pokémon.
+425	Tranche l’ennemi en croisant ses\ngriffes comme des ciseaux.
+426	Pique l’ennemi avec une pierre\naiguisée. Taux de critiques élevé.
+427	Un séisme qui touche tous les\nautres Pokémon en combat.
+428	Rassemble les ombres et attaque. Peut\nbaisser la Déf. Spé. de l’ennemi.
+429	Rassemble l’énergie et attaque. Peut\nbaisser la Déf. Spé. de l’ennemi.
+430	Des détritus empoisonnés frappent\nl’ennemi. Peut l’empoisonner.
+431	Une onde de choc jaillit de la\ngueule grande ouverte du lanceur.
+432	Un poison puissant qui empoisonne\ngravement l’ennemi.
+433	Une faible charge électrique qui\nparalyse l’ennemi si elle touche.
+434	Une sinistre flamme bleutée qui\nbrûle l’ennemi.
+435	Si l’ennemi est du sexe opposé, il\ntombe amoureux et attaque moins.
+436	Le lanceur gonfle ses muscles. Augmente\nson Attaque et sa Défense.
+437	Le lanceur se concentre. Augmente\nson Atq. Spé. et sa Déf. Spé.
+438	Retourner à l’écran de sélection.
+439	QUITTER
+440	ANNULER
+445	PÉPITE\n4 500 $
+446	PERLE\n650 $
+447	GROSSE PERLE\n3 500 $
+448	POUSS. ÉTOILE\n900 $
+449	MORC. ÉTOILE\n4 600 $
+450	QUITTER
+451	ZONE DE\nCOMBAT
+452	RÈGLES DE BASE
+453	POINTS COMBAT
+454	COMPTOIR\nD’ÉCHANGE
+455	ÉCRAN DES\nPERFORMANCES
+456	TERMINÉ
+457	PERSONNALI-\nSATEUR
+458	UTILISER LE\nPERSONNALISATEUR
+459	ÉCHANGER LES ZONES
+460	CHANGER DE\nZONE
+461	POKéMON\nPRÉSENTS
+462	QUITTER
+463	OBJETS
+464	PLACER DES\nOBJETS
+465	RETIRER DES\nOBJETS
+466	TYPES D’OBJETS
+467	POKéMON\nPRÉSENTS
+468	EFFACER LES\nOBJETS
+469	QUITTER
+470	Accélère la pousse des Baies, mais\nle sol sèche plus vite.
+471	Les Baies mûres restent plus longtemps\nsur la plante avant de tomber.
+472	Ralentit la pousse des Baies et le\nsol sèche moins vite.
+473	Les plantes fanées repoussent plus\nsouvent au même endroit.
+474	Ne rien acheter.
+475	COMBAT SIMPLE
+476	COMBAT DOUBLE

@@ -1,0 +1,35 @@
+0	Cet arbre a l’air de pouvoir être\ncoupé ! Voulez-vous le couper ? {YESNO 0}
+1	{STRVAR_1 0, 0, 0} utilise Coupe !\r
+2	Cet arbre a l’air de pouvoir\nêtre coupé !
+3	Ce rocher a l’air fragile.\nVoulez-vous utiliser Éclate-Roc ? {YESNO 0}
+4	C’est un rocher robuste, mais un\nPokémon pourrait peut-être le\fbriser.
+5	{STRVAR_1 0, 0, 0} utilise Éclate-Roc !\r
+6	{STRVAR_1 8, 1, 0} était dans les débris !\r
+7	C’est un gros rocher, mais un\nPokémon pourrait peut-être le\fpousser.\rVoulez-vous utiliser Force ? {YESNO 0}
+8	{STRVAR_1 0, 0, 0} utilise Force !\rGrâce à la Force de {STRVAR_1 0, 0, 0}, les\nrochers peuvent être déplacés !
+9	C’est un gros rocher, mais un\nPokémon pourrait peut-être le\fpousser.
+10	Grâce à Force, les rochers peuvent\nêtre déplacés.
+11	{STRVAR_1 0, 0, 0} utilise Force !\r
+12	Grâce à la Force de {STRVAR_1 0, 0, 0}, les\nrochers peuvent être déplacés !
+13	Le rocher est tombé !
+14	L’eau est d’un bleu profond...\nVoulez-vous surfer ? {YESNO 0}
+15	{STRVAR_1 0, 0, 0} utilise Surf !\r
+16	Impossible d’utiliser Surf quand\nquelqu’un vous accompagne.
+17	Un épais brouillard couvre les\nlieux... Voulez-vous utiliser\fAnti-Brume ? {YESNO 0}
+18	{STRVAR_1 0, 0, 0} utilise Anti-Brume !\r
+19	Un épais brouillard couvre les\nlieux... Une capacité pourrait-elle le\fdissiper ?
+20	La paroi est très rocheuse...\nVoulez-vous utiliser Escalade ? {YESNO 0}
+21	{STRVAR_1 0, 0, 0} utilise Escalade !\r
+22	La paroi est très rocheuse... Une\ncapacité permettrait-elle de\fgrimper ?
+23	Impossible d’utiliser Escalade quand\nquelqu’un vous accompagne.
+24	C’est une grande cascade.\nVoulez-vous utiliser Cascade ? {YESNO 0}
+25	{STRVAR_1 0, 0, 0} utilise Cascade.\r
+26	Un mur d’eau s’abat dans un\nrugissement assourdissant.
+27	Se téléporter à {STRVAR_1 4, 0, 0}, dernier\nlieu où vous vous êtes reposé ?
+28	{STRVAR_1 0, 0, 0} utilise Flash !\r
+29	C’est un énorme tourbillon.\nVoulez-vous utiliser Siphon ? {YESNO 0}
+30	{STRVAR_1 0, 0, 0} utilise Siphon.\r
+31	L’eau tourbillonne dans un\nrugissement assourdissant.
+32	C’est un arbre de taille moyenne.\nVoulez-vous utiliser Coup d’Boule ? {YESNO 0}
+33	{STRVAR_1 0, 0, 0} utilise Coup d’Boule.\r
+34	Voici un grand arbre imposant qui\npourrait bien recevoir un Coup\fd’Boule !

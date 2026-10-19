@@ -1,0 +1,28 @@
+0	Salut ! Comment ça va ?\rTu fais partie du groupe {STRVAR_34 3, 1, 0}\ndont le chef est {STRVAR_1 3, 0, 0}, c’est\fça ?\rVeux-tu quitter ce groupe pour en\nrejoindre un autre ? {YESNO 0}
+1	Salut ! Comment ça va ?\rTu fais partie du groupe {STRVAR_34 3, 1, 0}\ndont le chef est {STRVAR_1 3, 0, 0}, c’est\fça ?\rVeux-tu quitter ce groupe pour en\ncréer un nouveau ? {YESNO 0}
+2	Hé, toi ! C’est un peu soudain, mais\nveux-tu rejoindre un groupe ?\rDans un groupe, tu peux rivaliser ou\ncoopérer avec les autres membres.\rC’est très amusant. Ça te dit ? {YESNO 0}
+3	Quel groupe veux-tu rejoindre ? {YESNO 0}
+4	Oh. Dommage.
+5	Oh, tu veux créer un nouveau\ngroupe ? Pas de problème !\rMais le groupe que tu avais créé sera\ndissous. D’accord ? {YESNO 0}
+6	Super ! Comment veux-tu appeler ton\ngroupe ?
+7	Le groupe {STRVAR_34 3, 0, 0}, hein ? C’est\nun super nom !\rLe chef est {STRVAR_1 3, 1, 0}. J’espère\nque le groupe aura plein de membres.
+8	Le groupe {STRVAR_34 3, 0, 0} ? Le chef est\n{STRVAR_1 3, 1, 0}. Veux-tu rejoindre ce\fgroupe ? {YESNO 0}
+9	OK ! {STRVAR_1 3, 0, 0} est maintenant\nmembre du groupe {STRVAR_34 3, 1, 0}.
+10	Quand tu crées ou rejoins un groupe,\nva dans un Club Union.\rMélange tes records avec les\nmembres du groupe et tu en feras\fvraiment partie.\rQuand vous êtes dans le même groupe,\ndes événements peuvent se produire\fen même temps.\rC’est bien plus amusant de jouer en\ngroupe !\rTout le monde peut créer un groupe,\net tout le monde peut en rejoindre\fun.\rJ’espère que tu recruteras plein\nd’amis pour que tout le monde\fs’amuse ! {YESNO 0}
+11	CRÉER
+12	REJOINDRE
+13	INFOS
+14	QUITTER
+15	GROUPE\n{STRVAR_34 3, 0, 0}
+16	GROUPE\n{STRVAR_34 3, 1, 0}
+17	GROUPE\n{STRVAR_34 3, 2, 0}
+18	GROUPE\n{STRVAR_34 3, 3, 0}
+19	GROUPE\n{STRVAR_34 3, 4, 0}
+20	GROUPE {STRVAR_34 3, 0, 0}
+21	GROUPE {STRVAR_34 3, 1, 0}
+22	GROUPE {STRVAR_34 3, 2, 0}
+23	GROUPE {STRVAR_34 3, 3, 0}
+24	GROUPE {STRVAR_34 3, 4, 0}
+25	QUITTER
+26	Ce groupe ? {STRVAR_1 3, 0, 0} ne l’a pas\ndéjà créé ?
+27	Il n’y a pas déjà un groupe qui porte\nce nom ?

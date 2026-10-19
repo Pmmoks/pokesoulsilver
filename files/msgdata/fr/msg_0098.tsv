@@ -1,0 +1,17 @@
+0	Merci beaucoup d’avoir participé !\rVeuillez patienter pendant la\nsauvegarde. N’éteignez pas la\fconsole.
+1	Nous espérons vous revoir bientôt !
+2	Vos Pokémon vont être soignés.
+3	Prochaine paire d’adversaires : n°\n{STRVAR_1 50, 0, 0}. Êtes-vous prêt ?
+4	Voulez-vous sauvegarder et quitter\nle jeu ?
+5	Voulez-vous abandonner votre défi de\nla Salle de Combat ?
+6	Voulez-vous sauvegarder le dernier\ncombat dans votre Vidéo Combat ?
+7	Le combat de {STRVAR_1 3, 0, 0} a été\nsauvegardé dans la Vidéo Combat.\r
+8	Une erreur est survenue. La Vidéo\nCombat n’a pas pu être sauvegardée.\r
+9	Effacer votre Vidéo Combat actuelle\net sauvegarder le dernier combat ?
+10	Sauvegarde en cours...\nN’éteignez pas la console.
+11	Vous avez choisi d’abandonner ce défi\nde la Salle de Combat.
+12	En attente de la réponse d’un ami...
+13	Vous avez remporté votre septième\ncombat ! Félicitations !\rPour honorer votre talent, nous vous\noffrons des PCo !\r
+14	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} PCo !\r
+15	Sauvegarde en cours...\nN’éteignez pas la console.
+16	Veuillez patienter.
