@@ -1,0 +1,1402 @@
+# "<Pokémon> used <move>!" for every move, made from msg_0750.
+3	{STRVAR_1 1, 0, 0} utilise\nÉcras’Face !
+4	{STRVAR_1 1, 0, 0} sauvage utilise\nÉcras’Face !
+5	{STRVAR_1 1, 0, 0} ennemi utilise\nÉcras’Face !
+6	{STRVAR_1 1, 0, 0} utilise\nPoing-Karaté !
+7	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing-Karaté !
+8	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing-Karaté !
+9	{STRVAR_1 1, 0, 0} utilise\nTorgnoles !
+10	{STRVAR_1 1, 0, 0} sauvage utilise\nTorgnoles !
+11	{STRVAR_1 1, 0, 0} ennemi utilise\nTorgnoles !
+12	{STRVAR_1 1, 0, 0} utilise\nPoing Comète !
+13	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing Comète !
+14	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing Comète !
+15	{STRVAR_1 1, 0, 0} utilise\nUltimapoing !
+16	{STRVAR_1 1, 0, 0} sauvage utilise\nUltimapoing !
+17	{STRVAR_1 1, 0, 0} ennemi utilise\nUltimapoing !
+18	{STRVAR_1 1, 0, 0} utilise\nJackpot !
+19	{STRVAR_1 1, 0, 0} sauvage utilise\nJackpot !
+20	{STRVAR_1 1, 0, 0} ennemi utilise\nJackpot !
+21	{STRVAR_1 1, 0, 0} utilise\nPoing de Feu !
+22	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing de Feu !
+23	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing de Feu !
+24	{STRVAR_1 1, 0, 0} utilise\nPoing-Glace !
+25	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing-Glace !
+26	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing-Glace !
+27	{STRVAR_1 1, 0, 0} utilise\nPoing-Éclair !
+28	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing-Éclair !
+29	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing-Éclair !
+30	{STRVAR_1 1, 0, 0} utilise\nGriffe !
+31	{STRVAR_1 1, 0, 0} sauvage utilise\nGriffe !
+32	{STRVAR_1 1, 0, 0} ennemi utilise\nGriffe !
+33	{STRVAR_1 1, 0, 0} utilise\nForce Poigne !
+34	{STRVAR_1 1, 0, 0} sauvage utilise\nForce Poigne !
+35	{STRVAR_1 1, 0, 0} ennemi utilise\nForce Poigne !
+36	{STRVAR_1 1, 0, 0} utilise\nGuillotine !
+37	{STRVAR_1 1, 0, 0} sauvage utilise\nGuillotine !
+38	{STRVAR_1 1, 0, 0} ennemi utilise\nGuillotine !
+39	{STRVAR_1 1, 0, 0} utilise\nCoupe-Vent !
+40	{STRVAR_1 1, 0, 0} sauvage utilise\nCoupe-Vent !
+41	{STRVAR_1 1, 0, 0} ennemi utilise\nCoupe-Vent !
+42	{STRVAR_1 1, 0, 0} utilise\nDanse-Lames !
+43	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse-Lames !
+44	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse-Lames !
+45	{STRVAR_1 1, 0, 0} utilise\nCoupe !
+46	{STRVAR_1 1, 0, 0} sauvage utilise\nCoupe !
+47	{STRVAR_1 1, 0, 0} ennemi utilise\nCoupe !
+48	{STRVAR_1 1, 0, 0} utilise\nTornade !
+49	{STRVAR_1 1, 0, 0} sauvage utilise\nTornade !
+50	{STRVAR_1 1, 0, 0} ennemi utilise\nTornade !
+51	{STRVAR_1 1, 0, 0} utilise\nCru-Ailes !
+52	{STRVAR_1 1, 0, 0} sauvage utilise\nCru-Ailes !
+53	{STRVAR_1 1, 0, 0} ennemi utilise\nCru-Ailes !
+54	{STRVAR_1 1, 0, 0} utilise\nCyclone !
+55	{STRVAR_1 1, 0, 0} sauvage utilise\nCyclone !
+56	{STRVAR_1 1, 0, 0} ennemi utilise\nCyclone !
+57	{STRVAR_1 1, 0, 0} utilise\nVol !
+58	{STRVAR_1 1, 0, 0} sauvage utilise\nVol !
+59	{STRVAR_1 1, 0, 0} ennemi utilise\nVol !
+60	{STRVAR_1 1, 0, 0} utilise\nÉtreinte !
+61	{STRVAR_1 1, 0, 0} sauvage utilise\nÉtreinte !
+62	{STRVAR_1 1, 0, 0} ennemi utilise\nÉtreinte !
+63	{STRVAR_1 1, 0, 0} utilise\nSouplesse !
+64	{STRVAR_1 1, 0, 0} sauvage utilise\nSouplesse !
+65	{STRVAR_1 1, 0, 0} ennemi utilise\nSouplesse !
+66	{STRVAR_1 1, 0, 0} utilise\nFouet Lianes !
+67	{STRVAR_1 1, 0, 0} sauvage utilise\nFouet Lianes !
+68	{STRVAR_1 1, 0, 0} ennemi utilise\nFouet Lianes !
+69	{STRVAR_1 1, 0, 0} utilise\nÉcrasement !
+70	{STRVAR_1 1, 0, 0} sauvage utilise\nÉcrasement !
+71	{STRVAR_1 1, 0, 0} ennemi utilise\nÉcrasement !
+72	{STRVAR_1 1, 0, 0} utilise\nDouble Pied !
+73	{STRVAR_1 1, 0, 0} sauvage utilise\nDouble Pied !
+74	{STRVAR_1 1, 0, 0} ennemi utilise\nDouble Pied !
+75	{STRVAR_1 1, 0, 0} utilise\nUltimawashi !
+76	{STRVAR_1 1, 0, 0} sauvage utilise\nUltimawashi !
+77	{STRVAR_1 1, 0, 0} ennemi utilise\nUltimawashi !
+78	{STRVAR_1 1, 0, 0} utilise\nPied Sauté !
+79	{STRVAR_1 1, 0, 0} sauvage utilise\nPied Sauté !
+80	{STRVAR_1 1, 0, 0} ennemi utilise\nPied Sauté !
+81	{STRVAR_1 1, 0, 0} utilise\nMawashi Geri !
+82	{STRVAR_1 1, 0, 0} sauvage utilise\nMawashi Geri !
+83	{STRVAR_1 1, 0, 0} ennemi utilise\nMawashi Geri !
+84	{STRVAR_1 1, 0, 0} utilise\nJet de Sable !
+85	{STRVAR_1 1, 0, 0} sauvage utilise\nJet de Sable !
+86	{STRVAR_1 1, 0, 0} ennemi utilise\nJet de Sable !
+87	{STRVAR_1 1, 0, 0} utilise\nCoup d’Boule !
+88	{STRVAR_1 1, 0, 0} sauvage utilise\nCoup d’Boule !
+89	{STRVAR_1 1, 0, 0} ennemi utilise\nCoup d’Boule !
+90	{STRVAR_1 1, 0, 0} utilise\nKoud’Korne !
+91	{STRVAR_1 1, 0, 0} sauvage utilise\nKoud’Korne !
+92	{STRVAR_1 1, 0, 0} ennemi utilise\nKoud’Korne !
+93	{STRVAR_1 1, 0, 0} utilise\nFurie !
+94	{STRVAR_1 1, 0, 0} sauvage utilise\nFurie !
+95	{STRVAR_1 1, 0, 0} ennemi utilise\nFurie !
+96	{STRVAR_1 1, 0, 0} utilise\nEmpal’Korne !
+97	{STRVAR_1 1, 0, 0} sauvage utilise\nEmpal’Korne !
+98	{STRVAR_1 1, 0, 0} ennemi utilise\nEmpal’Korne !
+99	{STRVAR_1 1, 0, 0} utilise\nCharge !
+100	{STRVAR_1 1, 0, 0} sauvage utilise\nCharge !
+101	{STRVAR_1 1, 0, 0} ennemi utilise\nCharge !
+102	{STRVAR_1 1, 0, 0} utilise\nPlaquage !
+103	{STRVAR_1 1, 0, 0} sauvage utilise\nPlaquage !
+104	{STRVAR_1 1, 0, 0} ennemi utilise\nPlaquage !
+105	{STRVAR_1 1, 0, 0} utilise\nLigotage !
+106	{STRVAR_1 1, 0, 0} sauvage utilise\nLigotage !
+107	{STRVAR_1 1, 0, 0} ennemi utilise\nLigotage !
+108	{STRVAR_1 1, 0, 0} utilise\nBélier !
+109	{STRVAR_1 1, 0, 0} sauvage utilise\nBélier !
+110	{STRVAR_1 1, 0, 0} ennemi utilise\nBélier !
+111	{STRVAR_1 1, 0, 0} utilise\nMania !
+112	{STRVAR_1 1, 0, 0} sauvage utilise\nMania !
+113	{STRVAR_1 1, 0, 0} ennemi utilise\nMania !
+114	{STRVAR_1 1, 0, 0} utilise\nDamoclès !
+115	{STRVAR_1 1, 0, 0} sauvage utilise\nDamoclès !
+116	{STRVAR_1 1, 0, 0} ennemi utilise\nDamoclès !
+117	{STRVAR_1 1, 0, 0} utilise\nMimi-Queue !
+118	{STRVAR_1 1, 0, 0} sauvage utilise\nMimi-Queue !
+119	{STRVAR_1 1, 0, 0} ennemi utilise\nMimi-Queue !
+120	{STRVAR_1 1, 0, 0} utilise\nDard-Venin !
+121	{STRVAR_1 1, 0, 0} sauvage utilise\nDard-Venin !
+122	{STRVAR_1 1, 0, 0} ennemi utilise\nDard-Venin !
+123	{STRVAR_1 1, 0, 0} utilise\nDouble-Dard !
+124	{STRVAR_1 1, 0, 0} sauvage utilise\nDouble-Dard !
+125	{STRVAR_1 1, 0, 0} ennemi utilise\nDouble-Dard !
+126	{STRVAR_1 1, 0, 0} utilise\nDard-Nuée !
+127	{STRVAR_1 1, 0, 0} sauvage utilise\nDard-Nuée !
+128	{STRVAR_1 1, 0, 0} ennemi utilise\nDard-Nuée !
+129	{STRVAR_1 1, 0, 0} utilise\nGroz’Yeux !
+130	{STRVAR_1 1, 0, 0} sauvage utilise\nGroz’Yeux !
+131	{STRVAR_1 1, 0, 0} ennemi utilise\nGroz’Yeux !
+132	{STRVAR_1 1, 0, 0} utilise\nMorsure !
+133	{STRVAR_1 1, 0, 0} sauvage utilise\nMorsure !
+134	{STRVAR_1 1, 0, 0} ennemi utilise\nMorsure !
+135	{STRVAR_1 1, 0, 0} utilise\nRugissement !
+136	{STRVAR_1 1, 0, 0} sauvage utilise\nRugissement !
+137	{STRVAR_1 1, 0, 0} ennemi utilise\nRugissement !
+138	{STRVAR_1 1, 0, 0} utilise\nHurlement !
+139	{STRVAR_1 1, 0, 0} sauvage utilise\nHurlement !
+140	{STRVAR_1 1, 0, 0} ennemi utilise\nHurlement !
+141	{STRVAR_1 1, 0, 0} utilise\nBerceuse !
+142	{STRVAR_1 1, 0, 0} sauvage utilise\nBerceuse !
+143	{STRVAR_1 1, 0, 0} ennemi utilise\nBerceuse !
+144	{STRVAR_1 1, 0, 0} utilise\nUltrason !
+145	{STRVAR_1 1, 0, 0} sauvage utilise\nUltrason !
+146	{STRVAR_1 1, 0, 0} ennemi utilise\nUltrason !
+147	{STRVAR_1 1, 0, 0} utilise\nSonicboom !
+148	{STRVAR_1 1, 0, 0} sauvage utilise\nSonicboom !
+149	{STRVAR_1 1, 0, 0} ennemi utilise\nSonicboom !
+150	{STRVAR_1 1, 0, 0} utilise\nEntrave !
+151	{STRVAR_1 1, 0, 0} sauvage utilise\nEntrave !
+152	{STRVAR_1 1, 0, 0} ennemi utilise\nEntrave !
+153	{STRVAR_1 1, 0, 0} utilise\nAcide !
+154	{STRVAR_1 1, 0, 0} sauvage utilise\nAcide !
+155	{STRVAR_1 1, 0, 0} ennemi utilise\nAcide !
+156	{STRVAR_1 1, 0, 0} utilise\nFlammèche !
+157	{STRVAR_1 1, 0, 0} sauvage utilise\nFlammèche !
+158	{STRVAR_1 1, 0, 0} ennemi utilise\nFlammèche !
+159	{STRVAR_1 1, 0, 0} utilise\nLance-Flamme !
+160	{STRVAR_1 1, 0, 0} sauvage utilise\nLance-Flamme !
+161	{STRVAR_1 1, 0, 0} ennemi utilise\nLance-Flamme !
+162	{STRVAR_1 1, 0, 0} utilise\nBrume !
+163	{STRVAR_1 1, 0, 0} sauvage utilise\nBrume !
+164	{STRVAR_1 1, 0, 0} ennemi utilise\nBrume !
+165	{STRVAR_1 1, 0, 0} utilise\nPistolet à O !
+166	{STRVAR_1 1, 0, 0} sauvage utilise\nPistolet à O !
+167	{STRVAR_1 1, 0, 0} ennemi utilise\nPistolet à O !
+168	{STRVAR_1 1, 0, 0} utilise\nHydrocanon !
+169	{STRVAR_1 1, 0, 0} sauvage utilise\nHydrocanon !
+170	{STRVAR_1 1, 0, 0} ennemi utilise\nHydrocanon !
+171	{STRVAR_1 1, 0, 0} utilise\nSurf !
+172	{STRVAR_1 1, 0, 0} sauvage utilise\nSurf !
+173	{STRVAR_1 1, 0, 0} ennemi utilise\nSurf !
+174	{STRVAR_1 1, 0, 0} utilise\nLaser Glace !
+175	{STRVAR_1 1, 0, 0} sauvage utilise\nLaser Glace !
+176	{STRVAR_1 1, 0, 0} ennemi utilise\nLaser Glace !
+177	{STRVAR_1 1, 0, 0} utilise\nBlizzard !
+178	{STRVAR_1 1, 0, 0} sauvage utilise\nBlizzard !
+179	{STRVAR_1 1, 0, 0} ennemi utilise\nBlizzard !
+180	{STRVAR_1 1, 0, 0} utilise\nRafale Psy !
+181	{STRVAR_1 1, 0, 0} sauvage utilise\nRafale Psy !
+182	{STRVAR_1 1, 0, 0} ennemi utilise\nRafale Psy !
+183	{STRVAR_1 1, 0, 0} utilise\nBulles d’O !
+184	{STRVAR_1 1, 0, 0} sauvage utilise\nBulles d’O !
+185	{STRVAR_1 1, 0, 0} ennemi utilise\nBulles d’O !
+186	{STRVAR_1 1, 0, 0} utilise\nOnde Boréale !
+187	{STRVAR_1 1, 0, 0} sauvage utilise\nOnde Boréale !
+188	{STRVAR_1 1, 0, 0} ennemi utilise\nOnde Boréale !
+189	{STRVAR_1 1, 0, 0} utilise\nUltralaser !
+190	{STRVAR_1 1, 0, 0} sauvage utilise\nUltralaser !
+191	{STRVAR_1 1, 0, 0} ennemi utilise\nUltralaser !
+192	{STRVAR_1 1, 0, 0} utilise\nPicpic !
+193	{STRVAR_1 1, 0, 0} sauvage utilise\nPicpic !
+194	{STRVAR_1 1, 0, 0} ennemi utilise\nPicpic !
+195	{STRVAR_1 1, 0, 0} utilise\nBec Vrille !
+196	{STRVAR_1 1, 0, 0} sauvage utilise\nBec Vrille !
+197	{STRVAR_1 1, 0, 0} ennemi utilise\nBec Vrille !
+198	{STRVAR_1 1, 0, 0} utilise\nSacrifice !
+199	{STRVAR_1 1, 0, 0} sauvage utilise\nSacrifice !
+200	{STRVAR_1 1, 0, 0} ennemi utilise\nSacrifice !
+201	{STRVAR_1 1, 0, 0} utilise\nBalayage !
+202	{STRVAR_1 1, 0, 0} sauvage utilise\nBalayage !
+203	{STRVAR_1 1, 0, 0} ennemi utilise\nBalayage !
+204	{STRVAR_1 1, 0, 0} utilise\nRiposte !
+205	{STRVAR_1 1, 0, 0} sauvage utilise\nRiposte !
+206	{STRVAR_1 1, 0, 0} ennemi utilise\nRiposte !
+207	{STRVAR_1 1, 0, 0} utilise\nFrappe Atlas !
+208	{STRVAR_1 1, 0, 0} sauvage utilise\nFrappe Atlas !
+209	{STRVAR_1 1, 0, 0} ennemi utilise\nFrappe Atlas !
+210	{STRVAR_1 1, 0, 0} utilise\nForce !
+211	{STRVAR_1 1, 0, 0} sauvage utilise\nForce !
+212	{STRVAR_1 1, 0, 0} ennemi utilise\nForce !
+213	{STRVAR_1 1, 0, 0} utilise\nVol-Vie !
+214	{STRVAR_1 1, 0, 0} sauvage utilise\nVol-Vie !
+215	{STRVAR_1 1, 0, 0} ennemi utilise\nVol-Vie !
+216	{STRVAR_1 1, 0, 0} utilise\nMéga-Sangsue !
+217	{STRVAR_1 1, 0, 0} sauvage utilise\nMéga-Sangsue !
+218	{STRVAR_1 1, 0, 0} ennemi utilise\nMéga-Sangsue !
+219	{STRVAR_1 1, 0, 0} utilise\nVampigraine !
+220	{STRVAR_1 1, 0, 0} sauvage utilise\nVampigraine !
+221	{STRVAR_1 1, 0, 0} ennemi utilise\nVampigraine !
+222	{STRVAR_1 1, 0, 0} utilise\nCroissance !
+223	{STRVAR_1 1, 0, 0} sauvage utilise\nCroissance !
+224	{STRVAR_1 1, 0, 0} ennemi utilise\nCroissance !
+225	{STRVAR_1 1, 0, 0} utilise\nTranch’Herbe !
+226	{STRVAR_1 1, 0, 0} sauvage utilise\nTranch’Herbe !
+227	{STRVAR_1 1, 0, 0} ennemi utilise\nTranch’Herbe !
+228	{STRVAR_1 1, 0, 0} utilise\nLance-Soleil !
+229	{STRVAR_1 1, 0, 0} sauvage utilise\nLance-Soleil !
+230	{STRVAR_1 1, 0, 0} ennemi utilise\nLance-Soleil !
+231	{STRVAR_1 1, 0, 0} utilise\nPoudre Toxik !
+232	{STRVAR_1 1, 0, 0} sauvage utilise\nPoudre Toxik !
+233	{STRVAR_1 1, 0, 0} ennemi utilise\nPoudre Toxik !
+234	{STRVAR_1 1, 0, 0} utilise\nPara-Spore !
+235	{STRVAR_1 1, 0, 0} sauvage utilise\nPara-Spore !
+236	{STRVAR_1 1, 0, 0} ennemi utilise\nPara-Spore !
+237	{STRVAR_1 1, 0, 0} utilise\nPoudre Dodo !
+238	{STRVAR_1 1, 0, 0} sauvage utilise\nPoudre Dodo !
+239	{STRVAR_1 1, 0, 0} ennemi utilise\nPoudre Dodo !
+240	{STRVAR_1 1, 0, 0} utilise\nDanse-Fleur !
+241	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse-Fleur !
+242	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse-Fleur !
+243	{STRVAR_1 1, 0, 0} utilise\nSécrétion !
+244	{STRVAR_1 1, 0, 0} sauvage utilise\nSécrétion !
+245	{STRVAR_1 1, 0, 0} ennemi utilise\nSécrétion !
+246	{STRVAR_1 1, 0, 0} utilise\nDraco-Rage !
+247	{STRVAR_1 1, 0, 0} sauvage utilise\nDraco-Rage !
+248	{STRVAR_1 1, 0, 0} ennemi utilise\nDraco-Rage !
+249	{STRVAR_1 1, 0, 0} utilise\nDanseflamme !
+250	{STRVAR_1 1, 0, 0} sauvage utilise\nDanseflamme !
+251	{STRVAR_1 1, 0, 0} ennemi utilise\nDanseflamme !
+252	{STRVAR_1 1, 0, 0} utilise\nÉclair !
+253	{STRVAR_1 1, 0, 0} sauvage utilise\nÉclair !
+254	{STRVAR_1 1, 0, 0} ennemi utilise\nÉclair !
+255	{STRVAR_1 1, 0, 0} utilise\nTonnerre !
+256	{STRVAR_1 1, 0, 0} sauvage utilise\nTonnerre !
+257	{STRVAR_1 1, 0, 0} ennemi utilise\nTonnerre !
+258	{STRVAR_1 1, 0, 0} utilise\nCage-Éclair !
+259	{STRVAR_1 1, 0, 0} sauvage utilise\nCage-Éclair !
+260	{STRVAR_1 1, 0, 0} ennemi utilise\nCage-Éclair !
+261	{STRVAR_1 1, 0, 0} utilise\nFatal-Foudre !
+262	{STRVAR_1 1, 0, 0} sauvage utilise\nFatal-Foudre !
+263	{STRVAR_1 1, 0, 0} ennemi utilise\nFatal-Foudre !
+264	{STRVAR_1 1, 0, 0} utilise\nJet-Pierres !
+265	{STRVAR_1 1, 0, 0} sauvage utilise\nJet-Pierres !
+266	{STRVAR_1 1, 0, 0} ennemi utilise\nJet-Pierres !
+267	{STRVAR_1 1, 0, 0} utilise\nSéisme !
+268	{STRVAR_1 1, 0, 0} sauvage utilise\nSéisme !
+269	{STRVAR_1 1, 0, 0} ennemi utilise\nSéisme !
+270	{STRVAR_1 1, 0, 0} utilise\nAbîme !
+271	{STRVAR_1 1, 0, 0} sauvage utilise\nAbîme !
+272	{STRVAR_1 1, 0, 0} ennemi utilise\nAbîme !
+273	{STRVAR_1 1, 0, 0} utilise\nTunnel !
+274	{STRVAR_1 1, 0, 0} sauvage utilise\nTunnel !
+275	{STRVAR_1 1, 0, 0} ennemi utilise\nTunnel !
+276	{STRVAR_1 1, 0, 0} utilise\nToxik !
+277	{STRVAR_1 1, 0, 0} sauvage utilise\nToxik !
+278	{STRVAR_1 1, 0, 0} ennemi utilise\nToxik !
+279	{STRVAR_1 1, 0, 0} utilise\nChoc Mental !
+280	{STRVAR_1 1, 0, 0} sauvage utilise\nChoc Mental !
+281	{STRVAR_1 1, 0, 0} ennemi utilise\nChoc Mental !
+282	{STRVAR_1 1, 0, 0} utilise\nPsyko !
+283	{STRVAR_1 1, 0, 0} sauvage utilise\nPsyko !
+284	{STRVAR_1 1, 0, 0} ennemi utilise\nPsyko !
+285	{STRVAR_1 1, 0, 0} utilise\nHypnose !
+286	{STRVAR_1 1, 0, 0} sauvage utilise\nHypnose !
+287	{STRVAR_1 1, 0, 0} ennemi utilise\nHypnose !
+288	{STRVAR_1 1, 0, 0} utilise\nYoga !
+289	{STRVAR_1 1, 0, 0} sauvage utilise\nYoga !
+290	{STRVAR_1 1, 0, 0} ennemi utilise\nYoga !
+291	{STRVAR_1 1, 0, 0} utilise\nHâte !
+292	{STRVAR_1 1, 0, 0} sauvage utilise\nHâte !
+293	{STRVAR_1 1, 0, 0} ennemi utilise\nHâte !
+294	{STRVAR_1 1, 0, 0} utilise\nVive-Attaque !
+295	{STRVAR_1 1, 0, 0} sauvage utilise\nVive-Attaque !
+296	{STRVAR_1 1, 0, 0} ennemi utilise\nVive-Attaque !
+297	{STRVAR_1 1, 0, 0} utilise\nFrénésie !
+298	{STRVAR_1 1, 0, 0} sauvage utilise\nFrénésie !
+299	{STRVAR_1 1, 0, 0} ennemi utilise\nFrénésie !
+300	{STRVAR_1 1, 0, 0} utilise\nTéléport !
+301	{STRVAR_1 1, 0, 0} sauvage utilise\nTéléport !
+302	{STRVAR_1 1, 0, 0} ennemi utilise\nTéléport !
+303	{STRVAR_1 1, 0, 0} utilise\nTénèbres !
+304	{STRVAR_1 1, 0, 0} sauvage utilise\nTénèbres !
+305	{STRVAR_1 1, 0, 0} ennemi utilise\nTénèbres !
+306	{STRVAR_1 1, 0, 0} utilise\nCopie !
+307	{STRVAR_1 1, 0, 0} sauvage utilise\nCopie !
+308	{STRVAR_1 1, 0, 0} ennemi utilise\nCopie !
+309	{STRVAR_1 1, 0, 0} utilise\nGrincement !
+310	{STRVAR_1 1, 0, 0} sauvage utilise\nGrincement !
+311	{STRVAR_1 1, 0, 0} ennemi utilise\nGrincement !
+312	{STRVAR_1 1, 0, 0} utilise\nReflet !
+313	{STRVAR_1 1, 0, 0} sauvage utilise\nReflet !
+314	{STRVAR_1 1, 0, 0} ennemi utilise\nReflet !
+315	{STRVAR_1 1, 0, 0} utilise\nSoin !
+316	{STRVAR_1 1, 0, 0} sauvage utilise\nSoin !
+317	{STRVAR_1 1, 0, 0} ennemi utilise\nSoin !
+318	{STRVAR_1 1, 0, 0} utilise\nArmure !
+319	{STRVAR_1 1, 0, 0} sauvage utilise\nArmure !
+320	{STRVAR_1 1, 0, 0} ennemi utilise\nArmure !
+321	{STRVAR_1 1, 0, 0} utilise\nLilliput !
+322	{STRVAR_1 1, 0, 0} sauvage utilise\nLilliput !
+323	{STRVAR_1 1, 0, 0} ennemi utilise\nLilliput !
+324	{STRVAR_1 1, 0, 0} utilise\nBrouillard !
+325	{STRVAR_1 1, 0, 0} sauvage utilise\nBrouillard !
+326	{STRVAR_1 1, 0, 0} ennemi utilise\nBrouillard !
+327	{STRVAR_1 1, 0, 0} utilise\nOnde Folie !
+328	{STRVAR_1 1, 0, 0} sauvage utilise\nOnde Folie !
+329	{STRVAR_1 1, 0, 0} ennemi utilise\nOnde Folie !
+330	{STRVAR_1 1, 0, 0} utilise\nRepli !
+331	{STRVAR_1 1, 0, 0} sauvage utilise\nRepli !
+332	{STRVAR_1 1, 0, 0} ennemi utilise\nRepli !
+333	{STRVAR_1 1, 0, 0} utilise\nBoul’Armure !
+334	{STRVAR_1 1, 0, 0} sauvage utilise\nBoul’Armure !
+335	{STRVAR_1 1, 0, 0} ennemi utilise\nBoul’Armure !
+336	{STRVAR_1 1, 0, 0} utilise\nBouclier !
+337	{STRVAR_1 1, 0, 0} sauvage utilise\nBouclier !
+338	{STRVAR_1 1, 0, 0} ennemi utilise\nBouclier !
+339	{STRVAR_1 1, 0, 0} utilise\nMur Lumière !
+340	{STRVAR_1 1, 0, 0} sauvage utilise\nMur Lumière !
+341	{STRVAR_1 1, 0, 0} ennemi utilise\nMur Lumière !
+342	{STRVAR_1 1, 0, 0} utilise\nBuée Noire !
+343	{STRVAR_1 1, 0, 0} sauvage utilise\nBuée Noire !
+344	{STRVAR_1 1, 0, 0} ennemi utilise\nBuée Noire !
+345	{STRVAR_1 1, 0, 0} utilise\nProtection !
+346	{STRVAR_1 1, 0, 0} sauvage utilise\nProtection !
+347	{STRVAR_1 1, 0, 0} ennemi utilise\nProtection !
+348	{STRVAR_1 1, 0, 0} utilise\nPuissance !
+349	{STRVAR_1 1, 0, 0} sauvage utilise\nPuissance !
+350	{STRVAR_1 1, 0, 0} ennemi utilise\nPuissance !
+351	{STRVAR_1 1, 0, 0} utilise\nPatience !
+352	{STRVAR_1 1, 0, 0} sauvage utilise\nPatience !
+353	{STRVAR_1 1, 0, 0} ennemi utilise\nPatience !
+354	{STRVAR_1 1, 0, 0} utilise\nMétronome !
+355	{STRVAR_1 1, 0, 0} sauvage utilise\nMétronome !
+356	{STRVAR_1 1, 0, 0} ennemi utilise\nMétronome !
+357	{STRVAR_1 1, 0, 0} utilise\nMimique !
+358	{STRVAR_1 1, 0, 0} sauvage utilise\nMimique !
+359	{STRVAR_1 1, 0, 0} ennemi utilise\nMimique !
+360	{STRVAR_1 1, 0, 0} utilise\nDestruction !
+361	{STRVAR_1 1, 0, 0} sauvage utilise\nDestruction !
+362	{STRVAR_1 1, 0, 0} ennemi utilise\nDestruction !
+363	{STRVAR_1 1, 0, 0} utilise\nBomb’Œuf !
+364	{STRVAR_1 1, 0, 0} sauvage utilise\nBomb’Œuf !
+365	{STRVAR_1 1, 0, 0} ennemi utilise\nBomb’Œuf !
+366	{STRVAR_1 1, 0, 0} utilise\nLéchouille !
+367	{STRVAR_1 1, 0, 0} sauvage utilise\nLéchouille !
+368	{STRVAR_1 1, 0, 0} ennemi utilise\nLéchouille !
+369	{STRVAR_1 1, 0, 0} utilise\nPurédpois !
+370	{STRVAR_1 1, 0, 0} sauvage utilise\nPurédpois !
+371	{STRVAR_1 1, 0, 0} ennemi utilise\nPurédpois !
+372	{STRVAR_1 1, 0, 0} utilise\nDétritus !
+373	{STRVAR_1 1, 0, 0} sauvage utilise\nDétritus !
+374	{STRVAR_1 1, 0, 0} ennemi utilise\nDétritus !
+375	{STRVAR_1 1, 0, 0} utilise\nMassd’Os !
+376	{STRVAR_1 1, 0, 0} sauvage utilise\nMassd’Os !
+377	{STRVAR_1 1, 0, 0} ennemi utilise\nMassd’Os !
+378	{STRVAR_1 1, 0, 0} utilise\nDéflagration !
+379	{STRVAR_1 1, 0, 0} sauvage utilise\nDéflagration !
+380	{STRVAR_1 1, 0, 0} ennemi utilise\nDéflagration !
+381	{STRVAR_1 1, 0, 0} utilise\nCascade !
+382	{STRVAR_1 1, 0, 0} sauvage utilise\nCascade !
+383	{STRVAR_1 1, 0, 0} ennemi utilise\nCascade !
+384	{STRVAR_1 1, 0, 0} utilise\nClaquoir !
+385	{STRVAR_1 1, 0, 0} sauvage utilise\nClaquoir !
+386	{STRVAR_1 1, 0, 0} ennemi utilise\nClaquoir !
+387	{STRVAR_1 1, 0, 0} utilise\nMétéores !
+388	{STRVAR_1 1, 0, 0} sauvage utilise\nMétéores !
+389	{STRVAR_1 1, 0, 0} ennemi utilise\nMétéores !
+390	{STRVAR_1 1, 0, 0} utilise\nCoud’Krâne !
+391	{STRVAR_1 1, 0, 0} sauvage utilise\nCoud’Krâne !
+392	{STRVAR_1 1, 0, 0} ennemi utilise\nCoud’Krâne !
+393	{STRVAR_1 1, 0, 0} utilise\nPicanon !
+394	{STRVAR_1 1, 0, 0} sauvage utilise\nPicanon !
+395	{STRVAR_1 1, 0, 0} ennemi utilise\nPicanon !
+396	{STRVAR_1 1, 0, 0} utilise\nConstriction !
+397	{STRVAR_1 1, 0, 0} sauvage utilise\nConstriction !
+398	{STRVAR_1 1, 0, 0} ennemi utilise\nConstriction !
+399	{STRVAR_1 1, 0, 0} utilise\nAmnésie !
+400	{STRVAR_1 1, 0, 0} sauvage utilise\nAmnésie !
+401	{STRVAR_1 1, 0, 0} ennemi utilise\nAmnésie !
+402	{STRVAR_1 1, 0, 0} utilise\nTélékinésie !
+403	{STRVAR_1 1, 0, 0} sauvage utilise\nTélékinésie !
+404	{STRVAR_1 1, 0, 0} ennemi utilise\nTélékinésie !
+405	{STRVAR_1 1, 0, 0} utilise\nE-Coque !
+406	{STRVAR_1 1, 0, 0} sauvage utilise\nE-Coque !
+407	{STRVAR_1 1, 0, 0} ennemi utilise\nE-Coque !
+408	{STRVAR_1 1, 0, 0} utilise\nPied Voltige !
+409	{STRVAR_1 1, 0, 0} sauvage utilise\nPied Voltige !
+410	{STRVAR_1 1, 0, 0} ennemi utilise\nPied Voltige !
+411	{STRVAR_1 1, 0, 0} utilise\nRegard Médusant !
+412	{STRVAR_1 1, 0, 0} sauvage utilise\nRegard Médusant !
+413	{STRVAR_1 1, 0, 0} ennemi utilise\nRegard Médusant !
+414	{STRVAR_1 1, 0, 0} utilise\nDévorêve !
+415	{STRVAR_1 1, 0, 0} sauvage utilise\nDévorêve !
+416	{STRVAR_1 1, 0, 0} ennemi utilise\nDévorêve !
+417	{STRVAR_1 1, 0, 0} utilise\nGaz Toxik !
+418	{STRVAR_1 1, 0, 0} sauvage utilise\nGaz Toxik !
+419	{STRVAR_1 1, 0, 0} ennemi utilise\nGaz Toxik !
+420	{STRVAR_1 1, 0, 0} utilise\nPilonnage !
+421	{STRVAR_1 1, 0, 0} sauvage utilise\nPilonnage !
+422	{STRVAR_1 1, 0, 0} ennemi utilise\nPilonnage !
+423	{STRVAR_1 1, 0, 0} utilise\nVampirisme !
+424	{STRVAR_1 1, 0, 0} sauvage utilise\nVampirisme !
+425	{STRVAR_1 1, 0, 0} ennemi utilise\nVampirisme !
+426	{STRVAR_1 1, 0, 0} utilise\nGrobisou !
+427	{STRVAR_1 1, 0, 0} sauvage utilise\nGrobisou !
+428	{STRVAR_1 1, 0, 0} ennemi utilise\nGrobisou !
+429	{STRVAR_1 1, 0, 0} utilise\nPiqué !
+430	{STRVAR_1 1, 0, 0} sauvage utilise\nPiqué !
+431	{STRVAR_1 1, 0, 0} ennemi utilise\nPiqué !
+432	{STRVAR_1 1, 0, 0} utilise\nMorphing !
+433	{STRVAR_1 1, 0, 0} sauvage utilise\nMorphing !
+434	{STRVAR_1 1, 0, 0} ennemi utilise\nMorphing !
+435	{STRVAR_1 1, 0, 0} utilise\nÉcume !
+436	{STRVAR_1 1, 0, 0} sauvage utilise\nÉcume !
+437	{STRVAR_1 1, 0, 0} ennemi utilise\nÉcume !
+438	{STRVAR_1 1, 0, 0} utilise\nUppercut !
+439	{STRVAR_1 1, 0, 0} sauvage utilise\nUppercut !
+440	{STRVAR_1 1, 0, 0} ennemi utilise\nUppercut !
+441	{STRVAR_1 1, 0, 0} utilise\nSpore !
+442	{STRVAR_1 1, 0, 0} sauvage utilise\nSpore !
+443	{STRVAR_1 1, 0, 0} ennemi utilise\nSpore !
+444	{STRVAR_1 1, 0, 0} utilise\nFlash !
+445	{STRVAR_1 1, 0, 0} sauvage utilise\nFlash !
+446	{STRVAR_1 1, 0, 0} ennemi utilise\nFlash !
+447	{STRVAR_1 1, 0, 0} utilise\nVague Psy !
+448	{STRVAR_1 1, 0, 0} sauvage utilise\nVague Psy !
+449	{STRVAR_1 1, 0, 0} ennemi utilise\nVague Psy !
+450	{STRVAR_1 1, 0, 0} utilise\nTrempette !
+451	{STRVAR_1 1, 0, 0} sauvage utilise\nTrempette !
+452	{STRVAR_1 1, 0, 0} ennemi utilise\nTrempette !
+453	{STRVAR_1 1, 0, 0} utilise\nAcidarmure !
+454	{STRVAR_1 1, 0, 0} sauvage utilise\nAcidarmure !
+455	{STRVAR_1 1, 0, 0} ennemi utilise\nAcidarmure !
+456	{STRVAR_1 1, 0, 0} utilise\nPince-Masse !
+457	{STRVAR_1 1, 0, 0} sauvage utilise\nPince-Masse !
+458	{STRVAR_1 1, 0, 0} ennemi utilise\nPince-Masse !
+459	{STRVAR_1 1, 0, 0} utilise\nExplosion !
+460	{STRVAR_1 1, 0, 0} sauvage utilise\nExplosion !
+461	{STRVAR_1 1, 0, 0} ennemi utilise\nExplosion !
+462	{STRVAR_1 1, 0, 0} utilise\nCombo-Griffe !
+463	{STRVAR_1 1, 0, 0} sauvage utilise\nCombo-Griffe !
+464	{STRVAR_1 1, 0, 0} ennemi utilise\nCombo-Griffe !
+465	{STRVAR_1 1, 0, 0} utilise\nOsmerang !
+466	{STRVAR_1 1, 0, 0} sauvage utilise\nOsmerang !
+467	{STRVAR_1 1, 0, 0} ennemi utilise\nOsmerang !
+468	{STRVAR_1 1, 0, 0} utilise\nRepos !
+469	{STRVAR_1 1, 0, 0} sauvage utilise\nRepos !
+470	{STRVAR_1 1, 0, 0} ennemi utilise\nRepos !
+471	{STRVAR_1 1, 0, 0} utilise\nÉboulement !
+472	{STRVAR_1 1, 0, 0} sauvage utilise\nÉboulement !
+473	{STRVAR_1 1, 0, 0} ennemi utilise\nÉboulement !
+474	{STRVAR_1 1, 0, 0} utilise\nCroc de Mort !
+475	{STRVAR_1 1, 0, 0} sauvage utilise\nCroc de Mort !
+476	{STRVAR_1 1, 0, 0} ennemi utilise\nCroc de Mort !
+477	{STRVAR_1 1, 0, 0} utilise\nAffûtage !
+478	{STRVAR_1 1, 0, 0} sauvage utilise\nAffûtage !
+479	{STRVAR_1 1, 0, 0} ennemi utilise\nAffûtage !
+480	{STRVAR_1 1, 0, 0} utilise\nConversion !
+481	{STRVAR_1 1, 0, 0} sauvage utilise\nConversion !
+482	{STRVAR_1 1, 0, 0} ennemi utilise\nConversion !
+483	{STRVAR_1 1, 0, 0} utilise\nTriplattaque !
+484	{STRVAR_1 1, 0, 0} sauvage utilise\nTriplattaque !
+485	{STRVAR_1 1, 0, 0} ennemi utilise\nTriplattaque !
+486	{STRVAR_1 1, 0, 0} utilise\nCroc Fatal !
+487	{STRVAR_1 1, 0, 0} sauvage utilise\nCroc Fatal !
+488	{STRVAR_1 1, 0, 0} ennemi utilise\nCroc Fatal !
+489	{STRVAR_1 1, 0, 0} utilise\nTranche !
+490	{STRVAR_1 1, 0, 0} sauvage utilise\nTranche !
+491	{STRVAR_1 1, 0, 0} ennemi utilise\nTranche !
+492	{STRVAR_1 1, 0, 0} utilise\nClonage !
+493	{STRVAR_1 1, 0, 0} sauvage utilise\nClonage !
+494	{STRVAR_1 1, 0, 0} ennemi utilise\nClonage !
+495	{STRVAR_1 1, 0, 0} utilise\nLutte !
+496	{STRVAR_1 1, 0, 0} sauvage utilise\nLutte !
+497	{STRVAR_1 1, 0, 0} ennemi utilise\nLutte !
+498	{STRVAR_1 1, 0, 0} utilise\nGribouille !
+499	{STRVAR_1 1, 0, 0} sauvage utilise\nGribouille !
+500	{STRVAR_1 1, 0, 0} ennemi utilise\nGribouille !
+501	{STRVAR_1 1, 0, 0} utilise\nTriple Pied !
+502	{STRVAR_1 1, 0, 0} sauvage utilise\nTriple Pied !
+503	{STRVAR_1 1, 0, 0} ennemi utilise\nTriple Pied !
+504	{STRVAR_1 1, 0, 0} utilise\nLarcin !
+505	{STRVAR_1 1, 0, 0} sauvage utilise\nLarcin !
+506	{STRVAR_1 1, 0, 0} ennemi utilise\nLarcin !
+507	{STRVAR_1 1, 0, 0} utilise\nToile !
+508	{STRVAR_1 1, 0, 0} sauvage utilise\nToile !
+509	{STRVAR_1 1, 0, 0} ennemi utilise\nToile !
+510	{STRVAR_1 1, 0, 0} utilise\nLire-Esprit !
+511	{STRVAR_1 1, 0, 0} sauvage utilise\nLire-Esprit !
+512	{STRVAR_1 1, 0, 0} ennemi utilise\nLire-Esprit !
+513	{STRVAR_1 1, 0, 0} utilise\nCauchemar !
+514	{STRVAR_1 1, 0, 0} sauvage utilise\nCauchemar !
+515	{STRVAR_1 1, 0, 0} ennemi utilise\nCauchemar !
+516	{STRVAR_1 1, 0, 0} utilise\nRoue de Feu !
+517	{STRVAR_1 1, 0, 0} sauvage utilise\nRoue de Feu !
+518	{STRVAR_1 1, 0, 0} ennemi utilise\nRoue de Feu !
+519	{STRVAR_1 1, 0, 0} utilise\nRonflement !
+520	{STRVAR_1 1, 0, 0} sauvage utilise\nRonflement !
+521	{STRVAR_1 1, 0, 0} ennemi utilise\nRonflement !
+522	{STRVAR_1 1, 0, 0} utilise\nMalédiction !
+523	{STRVAR_1 1, 0, 0} sauvage utilise\nMalédiction !
+524	{STRVAR_1 1, 0, 0} ennemi utilise\nMalédiction !
+525	{STRVAR_1 1, 0, 0} utilise\nFléau !
+526	{STRVAR_1 1, 0, 0} sauvage utilise\nFléau !
+527	{STRVAR_1 1, 0, 0} ennemi utilise\nFléau !
+528	{STRVAR_1 1, 0, 0} utilise\nConversion 2 !
+529	{STRVAR_1 1, 0, 0} sauvage utilise\nConversion 2 !
+530	{STRVAR_1 1, 0, 0} ennemi utilise\nConversion 2 !
+531	{STRVAR_1 1, 0, 0} utilise\nAéroblast !
+532	{STRVAR_1 1, 0, 0} sauvage utilise\nAéroblast !
+533	{STRVAR_1 1, 0, 0} ennemi utilise\nAéroblast !
+534	{STRVAR_1 1, 0, 0} utilise\nSpore Coton !
+535	{STRVAR_1 1, 0, 0} sauvage utilise\nSpore Coton !
+536	{STRVAR_1 1, 0, 0} ennemi utilise\nSpore Coton !
+537	{STRVAR_1 1, 0, 0} utilise\nContre !
+538	{STRVAR_1 1, 0, 0} sauvage utilise\nContre !
+539	{STRVAR_1 1, 0, 0} ennemi utilise\nContre !
+540	{STRVAR_1 1, 0, 0} utilise\nDépit !
+541	{STRVAR_1 1, 0, 0} sauvage utilise\nDépit !
+542	{STRVAR_1 1, 0, 0} ennemi utilise\nDépit !
+543	{STRVAR_1 1, 0, 0} utilise\nPoudreuse !
+544	{STRVAR_1 1, 0, 0} sauvage utilise\nPoudreuse !
+545	{STRVAR_1 1, 0, 0} ennemi utilise\nPoudreuse !
+546	{STRVAR_1 1, 0, 0} utilise\nAbri !
+547	{STRVAR_1 1, 0, 0} sauvage utilise\nAbri !
+548	{STRVAR_1 1, 0, 0} ennemi utilise\nAbri !
+549	{STRVAR_1 1, 0, 0} utilise\nMach Punch !
+550	{STRVAR_1 1, 0, 0} sauvage utilise\nMach Punch !
+551	{STRVAR_1 1, 0, 0} ennemi utilise\nMach Punch !
+552	{STRVAR_1 1, 0, 0} utilise\nGrimace !
+553	{STRVAR_1 1, 0, 0} sauvage utilise\nGrimace !
+554	{STRVAR_1 1, 0, 0} ennemi utilise\nGrimace !
+555	{STRVAR_1 1, 0, 0} utilise\nFeinte !
+556	{STRVAR_1 1, 0, 0} sauvage utilise\nFeinte !
+557	{STRVAR_1 1, 0, 0} ennemi utilise\nFeinte !
+558	{STRVAR_1 1, 0, 0} utilise\nDoux Baiser !
+559	{STRVAR_1 1, 0, 0} sauvage utilise\nDoux Baiser !
+560	{STRVAR_1 1, 0, 0} ennemi utilise\nDoux Baiser !
+561	{STRVAR_1 1, 0, 0} utilise\nCognobidon !
+562	{STRVAR_1 1, 0, 0} sauvage utilise\nCognobidon !
+563	{STRVAR_1 1, 0, 0} ennemi utilise\nCognobidon !
+564	{STRVAR_1 1, 0, 0} utilise\nBomb-Beurk !
+565	{STRVAR_1 1, 0, 0} sauvage utilise\nBomb-Beurk !
+566	{STRVAR_1 1, 0, 0} ennemi utilise\nBomb-Beurk !
+567	{STRVAR_1 1, 0, 0} utilise\nCoud’Boue !
+568	{STRVAR_1 1, 0, 0} sauvage utilise\nCoud’Boue !
+569	{STRVAR_1 1, 0, 0} ennemi utilise\nCoud’Boue !
+570	{STRVAR_1 1, 0, 0} utilise\nOctazooka !
+571	{STRVAR_1 1, 0, 0} sauvage utilise\nOctazooka !
+572	{STRVAR_1 1, 0, 0} ennemi utilise\nOctazooka !
+573	{STRVAR_1 1, 0, 0} utilise\nPicots !
+574	{STRVAR_1 1, 0, 0} sauvage utilise\nPicots !
+575	{STRVAR_1 1, 0, 0} ennemi utilise\nPicots !
+576	{STRVAR_1 1, 0, 0} utilise\nÉlectrocanon !
+577	{STRVAR_1 1, 0, 0} sauvage utilise\nÉlectrocanon !
+578	{STRVAR_1 1, 0, 0} ennemi utilise\nÉlectrocanon !
+579	{STRVAR_1 1, 0, 0} utilise\nClairvoyance !
+580	{STRVAR_1 1, 0, 0} sauvage utilise\nClairvoyance !
+581	{STRVAR_1 1, 0, 0} ennemi utilise\nClairvoyance !
+582	{STRVAR_1 1, 0, 0} utilise\nLien du Destin !
+583	{STRVAR_1 1, 0, 0} sauvage utilise\nLien du Destin !
+584	{STRVAR_1 1, 0, 0} ennemi utilise\nLien du Destin !
+585	{STRVAR_1 1, 0, 0} utilise\nRequiem !
+586	{STRVAR_1 1, 0, 0} sauvage utilise\nRequiem !
+587	{STRVAR_1 1, 0, 0} ennemi utilise\nRequiem !
+588	{STRVAR_1 1, 0, 0} utilise\nVent Glace !
+589	{STRVAR_1 1, 0, 0} sauvage utilise\nVent Glace !
+590	{STRVAR_1 1, 0, 0} ennemi utilise\nVent Glace !
+591	{STRVAR_1 1, 0, 0} utilise\nDétection !
+592	{STRVAR_1 1, 0, 0} sauvage utilise\nDétection !
+593	{STRVAR_1 1, 0, 0} ennemi utilise\nDétection !
+594	{STRVAR_1 1, 0, 0} utilise\nCharge-Os !
+595	{STRVAR_1 1, 0, 0} sauvage utilise\nCharge-Os !
+596	{STRVAR_1 1, 0, 0} ennemi utilise\nCharge-Os !
+597	{STRVAR_1 1, 0, 0} utilise\nVerrouillage !
+598	{STRVAR_1 1, 0, 0} sauvage utilise\nVerrouillage !
+599	{STRVAR_1 1, 0, 0} ennemi utilise\nVerrouillage !
+600	{STRVAR_1 1, 0, 0} utilise\nColère !
+601	{STRVAR_1 1, 0, 0} sauvage utilise\nColère !
+602	{STRVAR_1 1, 0, 0} ennemi utilise\nColère !
+603	{STRVAR_1 1, 0, 0} utilise\nTempête Sable !
+604	{STRVAR_1 1, 0, 0} sauvage utilise\nTempête Sable !
+605	{STRVAR_1 1, 0, 0} ennemi utilise\nTempête Sable !
+606	{STRVAR_1 1, 0, 0} utilise\nGiga-Sangsue !
+607	{STRVAR_1 1, 0, 0} sauvage utilise\nGiga-Sangsue !
+608	{STRVAR_1 1, 0, 0} ennemi utilise\nGiga-Sangsue !
+609	{STRVAR_1 1, 0, 0} utilise\nTénacité !
+610	{STRVAR_1 1, 0, 0} sauvage utilise\nTénacité !
+611	{STRVAR_1 1, 0, 0} ennemi utilise\nTénacité !
+612	{STRVAR_1 1, 0, 0} utilise\nCharme !
+613	{STRVAR_1 1, 0, 0} sauvage utilise\nCharme !
+614	{STRVAR_1 1, 0, 0} ennemi utilise\nCharme !
+615	{STRVAR_1 1, 0, 0} utilise\nRoulade !
+616	{STRVAR_1 1, 0, 0} sauvage utilise\nRoulade !
+617	{STRVAR_1 1, 0, 0} ennemi utilise\nRoulade !
+618	{STRVAR_1 1, 0, 0} utilise\nFaux-Chage !
+619	{STRVAR_1 1, 0, 0} sauvage utilise\nFaux-Chage !
+620	{STRVAR_1 1, 0, 0} ennemi utilise\nFaux-Chage !
+621	{STRVAR_1 1, 0, 0} utilise\nVantardise !
+622	{STRVAR_1 1, 0, 0} sauvage utilise\nVantardise !
+623	{STRVAR_1 1, 0, 0} ennemi utilise\nVantardise !
+624	{STRVAR_1 1, 0, 0} utilise\nLait à Boire !
+625	{STRVAR_1 1, 0, 0} sauvage utilise\nLait à Boire !
+626	{STRVAR_1 1, 0, 0} ennemi utilise\nLait à Boire !
+627	{STRVAR_1 1, 0, 0} utilise\nÉtincelle !
+628	{STRVAR_1 1, 0, 0} sauvage utilise\nÉtincelle !
+629	{STRVAR_1 1, 0, 0} ennemi utilise\nÉtincelle !
+630	{STRVAR_1 1, 0, 0} utilise\nTaillade !
+631	{STRVAR_1 1, 0, 0} sauvage utilise\nTaillade !
+632	{STRVAR_1 1, 0, 0} ennemi utilise\nTaillade !
+633	{STRVAR_1 1, 0, 0} utilise\nAile d’Acier !
+634	{STRVAR_1 1, 0, 0} sauvage utilise\nAile d’Acier !
+635	{STRVAR_1 1, 0, 0} ennemi utilise\nAile d’Acier !
+636	{STRVAR_1 1, 0, 0} utilise\nRegard Noir !
+637	{STRVAR_1 1, 0, 0} sauvage utilise\nRegard Noir !
+638	{STRVAR_1 1, 0, 0} ennemi utilise\nRegard Noir !
+639	{STRVAR_1 1, 0, 0} utilise\nAttraction !
+640	{STRVAR_1 1, 0, 0} sauvage utilise\nAttraction !
+641	{STRVAR_1 1, 0, 0} ennemi utilise\nAttraction !
+642	{STRVAR_1 1, 0, 0} utilise\nBlabla Dodo !
+643	{STRVAR_1 1, 0, 0} sauvage utilise\nBlabla Dodo !
+644	{STRVAR_1 1, 0, 0} ennemi utilise\nBlabla Dodo !
+645	{STRVAR_1 1, 0, 0} utilise\nGlas de Soin !
+646	{STRVAR_1 1, 0, 0} sauvage utilise\nGlas de Soin !
+647	{STRVAR_1 1, 0, 0} ennemi utilise\nGlas de Soin !
+648	{STRVAR_1 1, 0, 0} utilise\nRetour !
+649	{STRVAR_1 1, 0, 0} sauvage utilise\nRetour !
+650	{STRVAR_1 1, 0, 0} ennemi utilise\nRetour !
+651	{STRVAR_1 1, 0, 0} utilise\nCadeau !
+652	{STRVAR_1 1, 0, 0} sauvage utilise\nCadeau !
+653	{STRVAR_1 1, 0, 0} ennemi utilise\nCadeau !
+654	{STRVAR_1 1, 0, 0} utilise\nFrustration !
+655	{STRVAR_1 1, 0, 0} sauvage utilise\nFrustration !
+656	{STRVAR_1 1, 0, 0} ennemi utilise\nFrustration !
+657	{STRVAR_1 1, 0, 0} utilise\nRune Protect !
+658	{STRVAR_1 1, 0, 0} sauvage utilise\nRune Protect !
+659	{STRVAR_1 1, 0, 0} ennemi utilise\nRune Protect !
+660	{STRVAR_1 1, 0, 0} utilise\nBalance !
+661	{STRVAR_1 1, 0, 0} sauvage utilise\nBalance !
+662	{STRVAR_1 1, 0, 0} ennemi utilise\nBalance !
+663	{STRVAR_1 1, 0, 0} utilise\nFeu Sacré !
+664	{STRVAR_1 1, 0, 0} sauvage utilise\nFeu Sacré !
+665	{STRVAR_1 1, 0, 0} ennemi utilise\nFeu Sacré !
+666	{STRVAR_1 1, 0, 0} utilise\nAmpleur !
+667	{STRVAR_1 1, 0, 0} sauvage utilise\nAmpleur !
+668	{STRVAR_1 1, 0, 0} ennemi utilise\nAmpleur !
+669	{STRVAR_1 1, 0, 0} utilise\nDynamopoing !
+670	{STRVAR_1 1, 0, 0} sauvage utilise\nDynamopoing !
+671	{STRVAR_1 1, 0, 0} ennemi utilise\nDynamopoing !
+672	{STRVAR_1 1, 0, 0} utilise\nMégacorne !
+673	{STRVAR_1 1, 0, 0} sauvage utilise\nMégacorne !
+674	{STRVAR_1 1, 0, 0} ennemi utilise\nMégacorne !
+675	{STRVAR_1 1, 0, 0} utilise\nDraco-Souffle !
+676	{STRVAR_1 1, 0, 0} sauvage utilise\nDraco-Souffle !
+677	{STRVAR_1 1, 0, 0} ennemi utilise\nDraco-Souffle !
+678	{STRVAR_1 1, 0, 0} utilise\nRelais !
+679	{STRVAR_1 1, 0, 0} sauvage utilise\nRelais !
+680	{STRVAR_1 1, 0, 0} ennemi utilise\nRelais !
+681	{STRVAR_1 1, 0, 0} utilise\nEncore !
+682	{STRVAR_1 1, 0, 0} sauvage utilise\nEncore !
+683	{STRVAR_1 1, 0, 0} ennemi utilise\nEncore !
+684	{STRVAR_1 1, 0, 0} utilise\nPoursuite !
+685	{STRVAR_1 1, 0, 0} sauvage utilise\nPoursuite !
+686	{STRVAR_1 1, 0, 0} ennemi utilise\nPoursuite !
+687	{STRVAR_1 1, 0, 0} utilise\nTour Rapide !
+688	{STRVAR_1 1, 0, 0} sauvage utilise\nTour Rapide !
+689	{STRVAR_1 1, 0, 0} ennemi utilise\nTour Rapide !
+690	{STRVAR_1 1, 0, 0} utilise\nDoux Parfum !
+691	{STRVAR_1 1, 0, 0} sauvage utilise\nDoux Parfum !
+692	{STRVAR_1 1, 0, 0} ennemi utilise\nDoux Parfum !
+693	{STRVAR_1 1, 0, 0} utilise\nQueue de Fer !
+694	{STRVAR_1 1, 0, 0} sauvage utilise\nQueue de Fer !
+695	{STRVAR_1 1, 0, 0} ennemi utilise\nQueue de Fer !
+696	{STRVAR_1 1, 0, 0} utilise\nGriffe Acier !
+697	{STRVAR_1 1, 0, 0} sauvage utilise\nGriffe Acier !
+698	{STRVAR_1 1, 0, 0} ennemi utilise\nGriffe Acier !
+699	{STRVAR_1 1, 0, 0} utilise\nCorps Perdu !
+700	{STRVAR_1 1, 0, 0} sauvage utilise\nCorps Perdu !
+701	{STRVAR_1 1, 0, 0} ennemi utilise\nCorps Perdu !
+702	{STRVAR_1 1, 0, 0} utilise\nAurore !
+703	{STRVAR_1 1, 0, 0} sauvage utilise\nAurore !
+704	{STRVAR_1 1, 0, 0} ennemi utilise\nAurore !
+705	{STRVAR_1 1, 0, 0} utilise\nSynthèse !
+706	{STRVAR_1 1, 0, 0} sauvage utilise\nSynthèse !
+707	{STRVAR_1 1, 0, 0} ennemi utilise\nSynthèse !
+708	{STRVAR_1 1, 0, 0} utilise\nRayon Lune !
+709	{STRVAR_1 1, 0, 0} sauvage utilise\nRayon Lune !
+710	{STRVAR_1 1, 0, 0} ennemi utilise\nRayon Lune !
+711	{STRVAR_1 1, 0, 0} utilise\nPuiss. Cachée !
+712	{STRVAR_1 1, 0, 0} sauvage utilise\nPuiss. Cachée !
+713	{STRVAR_1 1, 0, 0} ennemi utilise\nPuiss. Cachée !
+714	{STRVAR_1 1, 0, 0} utilise\nCoup-Croix !
+715	{STRVAR_1 1, 0, 0} sauvage utilise\nCoup-Croix !
+716	{STRVAR_1 1, 0, 0} ennemi utilise\nCoup-Croix !
+717	{STRVAR_1 1, 0, 0} utilise\nOuragan !
+718	{STRVAR_1 1, 0, 0} sauvage utilise\nOuragan !
+719	{STRVAR_1 1, 0, 0} ennemi utilise\nOuragan !
+720	{STRVAR_1 1, 0, 0} utilise\nDanse Pluie !
+721	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse Pluie !
+722	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse Pluie !
+723	{STRVAR_1 1, 0, 0} utilise\nZénith !
+724	{STRVAR_1 1, 0, 0} sauvage utilise\nZénith !
+725	{STRVAR_1 1, 0, 0} ennemi utilise\nZénith !
+726	{STRVAR_1 1, 0, 0} utilise\nMâchouille !
+727	{STRVAR_1 1, 0, 0} sauvage utilise\nMâchouille !
+728	{STRVAR_1 1, 0, 0} ennemi utilise\nMâchouille !
+729	{STRVAR_1 1, 0, 0} utilise\nVoile Miroir !
+730	{STRVAR_1 1, 0, 0} sauvage utilise\nVoile Miroir !
+731	{STRVAR_1 1, 0, 0} ennemi utilise\nVoile Miroir !
+732	{STRVAR_1 1, 0, 0} utilise\nBoost !
+733	{STRVAR_1 1, 0, 0} sauvage utilise\nBoost !
+734	{STRVAR_1 1, 0, 0} ennemi utilise\nBoost !
+735	{STRVAR_1 1, 0, 0} utilise\nVitesse Extrême !
+736	{STRVAR_1 1, 0, 0} sauvage utilise\nVitesse Extrême !
+737	{STRVAR_1 1, 0, 0} ennemi utilise\nVitesse Extrême !
+738	{STRVAR_1 1, 0, 0} utilise\nPouvoir Antique !
+739	{STRVAR_1 1, 0, 0} sauvage utilise\nPouvoir Antique !
+740	{STRVAR_1 1, 0, 0} ennemi utilise\nPouvoir Antique !
+741	{STRVAR_1 1, 0, 0} utilise\nBall’Ombre !
+742	{STRVAR_1 1, 0, 0} sauvage utilise\nBall’Ombre !
+743	{STRVAR_1 1, 0, 0} ennemi utilise\nBall’Ombre !
+744	{STRVAR_1 1, 0, 0} utilise\nPrescience !
+745	{STRVAR_1 1, 0, 0} sauvage utilise\nPrescience !
+746	{STRVAR_1 1, 0, 0} ennemi utilise\nPrescience !
+747	{STRVAR_1 1, 0, 0} utilise\nÉclate-Roc !
+748	{STRVAR_1 1, 0, 0} sauvage utilise\nÉclate-Roc !
+749	{STRVAR_1 1, 0, 0} ennemi utilise\nÉclate-Roc !
+750	{STRVAR_1 1, 0, 0} utilise\nSiphon !
+751	{STRVAR_1 1, 0, 0} sauvage utilise\nSiphon !
+752	{STRVAR_1 1, 0, 0} ennemi utilise\nSiphon !
+753	{STRVAR_1 1, 0, 0} utilise\nBaston !
+754	{STRVAR_1 1, 0, 0} sauvage utilise\nBaston !
+755	{STRVAR_1 1, 0, 0} ennemi utilise\nBaston !
+756	{STRVAR_1 1, 0, 0} utilise\nBluff !
+757	{STRVAR_1 1, 0, 0} sauvage utilise\nBluff !
+758	{STRVAR_1 1, 0, 0} ennemi utilise\nBluff !
+759	{STRVAR_1 1, 0, 0} utilise\nBrouhaha !
+760	{STRVAR_1 1, 0, 0} sauvage utilise\nBrouhaha !
+761	{STRVAR_1 1, 0, 0} ennemi utilise\nBrouhaha !
+762	{STRVAR_1 1, 0, 0} utilise\nStockage !
+763	{STRVAR_1 1, 0, 0} sauvage utilise\nStockage !
+764	{STRVAR_1 1, 0, 0} ennemi utilise\nStockage !
+765	{STRVAR_1 1, 0, 0} utilise\nRelâche !
+766	{STRVAR_1 1, 0, 0} sauvage utilise\nRelâche !
+767	{STRVAR_1 1, 0, 0} ennemi utilise\nRelâche !
+768	{STRVAR_1 1, 0, 0} utilise\nAvale !
+769	{STRVAR_1 1, 0, 0} sauvage utilise\nAvale !
+770	{STRVAR_1 1, 0, 0} ennemi utilise\nAvale !
+771	{STRVAR_1 1, 0, 0} utilise\nCanicule !
+772	{STRVAR_1 1, 0, 0} sauvage utilise\nCanicule !
+773	{STRVAR_1 1, 0, 0} ennemi utilise\nCanicule !
+774	{STRVAR_1 1, 0, 0} utilise\nGrêle !
+775	{STRVAR_1 1, 0, 0} sauvage utilise\nGrêle !
+776	{STRVAR_1 1, 0, 0} ennemi utilise\nGrêle !
+777	{STRVAR_1 1, 0, 0} utilise\nTourmente !
+778	{STRVAR_1 1, 0, 0} sauvage utilise\nTourmente !
+779	{STRVAR_1 1, 0, 0} ennemi utilise\nTourmente !
+780	{STRVAR_1 1, 0, 0} utilise\nFlatterie !
+781	{STRVAR_1 1, 0, 0} sauvage utilise\nFlatterie !
+782	{STRVAR_1 1, 0, 0} ennemi utilise\nFlatterie !
+783	{STRVAR_1 1, 0, 0} utilise\nFeu Follet !
+784	{STRVAR_1 1, 0, 0} sauvage utilise\nFeu Follet !
+785	{STRVAR_1 1, 0, 0} ennemi utilise\nFeu Follet !
+786	{STRVAR_1 1, 0, 0} utilise\nSouvenir !
+787	{STRVAR_1 1, 0, 0} sauvage utilise\nSouvenir !
+788	{STRVAR_1 1, 0, 0} ennemi utilise\nSouvenir !
+789	{STRVAR_1 1, 0, 0} utilise\nFaçade !
+790	{STRVAR_1 1, 0, 0} sauvage utilise\nFaçade !
+791	{STRVAR_1 1, 0, 0} ennemi utilise\nFaçade !
+792	{STRVAR_1 1, 0, 0} utilise\nMitra-Poing !
+793	{STRVAR_1 1, 0, 0} sauvage utilise\nMitra-Poing !
+794	{STRVAR_1 1, 0, 0} ennemi utilise\nMitra-Poing !
+795	{STRVAR_1 1, 0, 0} utilise\nStimulant !
+796	{STRVAR_1 1, 0, 0} sauvage utilise\nStimulant !
+797	{STRVAR_1 1, 0, 0} ennemi utilise\nStimulant !
+798	{STRVAR_1 1, 0, 0} utilise\nPar Ici !
+799	{STRVAR_1 1, 0, 0} sauvage utilise\nPar Ici !
+800	{STRVAR_1 1, 0, 0} ennemi utilise\nPar Ici !
+801	{STRVAR_1 1, 0, 0} utilise\nForce Nature !
+802	{STRVAR_1 1, 0, 0} sauvage utilise\nForce Nature !
+803	{STRVAR_1 1, 0, 0} ennemi utilise\nForce Nature !
+804	{STRVAR_1 1, 0, 0} utilise\nChargeur !
+805	{STRVAR_1 1, 0, 0} sauvage utilise\nChargeur !
+806	{STRVAR_1 1, 0, 0} ennemi utilise\nChargeur !
+807	{STRVAR_1 1, 0, 0} utilise\nProvoc !
+808	{STRVAR_1 1, 0, 0} sauvage utilise\nProvoc !
+809	{STRVAR_1 1, 0, 0} ennemi utilise\nProvoc !
+810	{STRVAR_1 1, 0, 0} utilise\nCoup d’Main !
+811	{STRVAR_1 1, 0, 0} sauvage utilise\nCoup d’Main !
+812	{STRVAR_1 1, 0, 0} ennemi utilise\nCoup d’Main !
+813	{STRVAR_1 1, 0, 0} utilise\nTour de Magie !
+814	{STRVAR_1 1, 0, 0} sauvage utilise\nTour de Magie !
+815	{STRVAR_1 1, 0, 0} ennemi utilise\nTour de Magie !
+816	{STRVAR_1 1, 0, 0} utilise\nImitation !
+817	{STRVAR_1 1, 0, 0} sauvage utilise\nImitation !
+818	{STRVAR_1 1, 0, 0} ennemi utilise\nImitation !
+819	{STRVAR_1 1, 0, 0} utilise\nVœu !
+820	{STRVAR_1 1, 0, 0} sauvage utilise\nVœu !
+821	{STRVAR_1 1, 0, 0} ennemi utilise\nVœu !
+822	{STRVAR_1 1, 0, 0} utilise\nAssistance !
+823	{STRVAR_1 1, 0, 0} sauvage utilise\nAssistance !
+824	{STRVAR_1 1, 0, 0} ennemi utilise\nAssistance !
+825	{STRVAR_1 1, 0, 0} utilise\nRacines !
+826	{STRVAR_1 1, 0, 0} sauvage utilise\nRacines !
+827	{STRVAR_1 1, 0, 0} ennemi utilise\nRacines !
+828	{STRVAR_1 1, 0, 0} utilise\nSurpuissance !
+829	{STRVAR_1 1, 0, 0} sauvage utilise\nSurpuissance !
+830	{STRVAR_1 1, 0, 0} ennemi utilise\nSurpuissance !
+831	{STRVAR_1 1, 0, 0} utilise\nReflet Magik !
+832	{STRVAR_1 1, 0, 0} sauvage utilise\nReflet Magik !
+833	{STRVAR_1 1, 0, 0} ennemi utilise\nReflet Magik !
+834	{STRVAR_1 1, 0, 0} utilise\nRecyclage !
+835	{STRVAR_1 1, 0, 0} sauvage utilise\nRecyclage !
+836	{STRVAR_1 1, 0, 0} ennemi utilise\nRecyclage !
+837	{STRVAR_1 1, 0, 0} utilise\nVendetta !
+838	{STRVAR_1 1, 0, 0} sauvage utilise\nVendetta !
+839	{STRVAR_1 1, 0, 0} ennemi utilise\nVendetta !
+840	{STRVAR_1 1, 0, 0} utilise\nCasse-Brique !
+841	{STRVAR_1 1, 0, 0} sauvage utilise\nCasse-Brique !
+842	{STRVAR_1 1, 0, 0} ennemi utilise\nCasse-Brique !
+843	{STRVAR_1 1, 0, 0} utilise\nBâillement !
+844	{STRVAR_1 1, 0, 0} sauvage utilise\nBâillement !
+845	{STRVAR_1 1, 0, 0} ennemi utilise\nBâillement !
+846	{STRVAR_1 1, 0, 0} utilise\nSabotage !
+847	{STRVAR_1 1, 0, 0} sauvage utilise\nSabotage !
+848	{STRVAR_1 1, 0, 0} ennemi utilise\nSabotage !
+849	{STRVAR_1 1, 0, 0} utilise\nEffort !
+850	{STRVAR_1 1, 0, 0} sauvage utilise\nEffort !
+851	{STRVAR_1 1, 0, 0} ennemi utilise\nEffort !
+852	{STRVAR_1 1, 0, 0} utilise\nÉruption !
+853	{STRVAR_1 1, 0, 0} sauvage utilise\nÉruption !
+854	{STRVAR_1 1, 0, 0} ennemi utilise\nÉruption !
+855	{STRVAR_1 1, 0, 0} utilise\nÉchange !
+856	{STRVAR_1 1, 0, 0} sauvage utilise\nÉchange !
+857	{STRVAR_1 1, 0, 0} ennemi utilise\nÉchange !
+858	{STRVAR_1 1, 0, 0} utilise\nPossessif !
+859	{STRVAR_1 1, 0, 0} sauvage utilise\nPossessif !
+860	{STRVAR_1 1, 0, 0} ennemi utilise\nPossessif !
+861	{STRVAR_1 1, 0, 0} utilise\nRégénération !
+862	{STRVAR_1 1, 0, 0} sauvage utilise\nRégénération !
+863	{STRVAR_1 1, 0, 0} ennemi utilise\nRégénération !
+864	{STRVAR_1 1, 0, 0} utilise\nRancune !
+865	{STRVAR_1 1, 0, 0} sauvage utilise\nRancune !
+866	{STRVAR_1 1, 0, 0} ennemi utilise\nRancune !
+867	{STRVAR_1 1, 0, 0} utilise\nSaisie !
+868	{STRVAR_1 1, 0, 0} sauvage utilise\nSaisie !
+869	{STRVAR_1 1, 0, 0} ennemi utilise\nSaisie !
+870	{STRVAR_1 1, 0, 0} utilise\nForce Cachée !
+871	{STRVAR_1 1, 0, 0} sauvage utilise\nForce Cachée !
+872	{STRVAR_1 1, 0, 0} ennemi utilise\nForce Cachée !
+873	{STRVAR_1 1, 0, 0} utilise\nPlongée !
+874	{STRVAR_1 1, 0, 0} sauvage utilise\nPlongée !
+875	{STRVAR_1 1, 0, 0} ennemi utilise\nPlongée !
+876	{STRVAR_1 1, 0, 0} utilise\nCogne !
+877	{STRVAR_1 1, 0, 0} sauvage utilise\nCogne !
+878	{STRVAR_1 1, 0, 0} ennemi utilise\nCogne !
+879	{STRVAR_1 1, 0, 0} utilise\nCamouflage !
+880	{STRVAR_1 1, 0, 0} sauvage utilise\nCamouflage !
+881	{STRVAR_1 1, 0, 0} ennemi utilise\nCamouflage !
+882	{STRVAR_1 1, 0, 0} utilise\nLumiqueue !
+883	{STRVAR_1 1, 0, 0} sauvage utilise\nLumiqueue !
+884	{STRVAR_1 1, 0, 0} ennemi utilise\nLumiqueue !
+885	{STRVAR_1 1, 0, 0} utilise\nLumi-Éclat !
+886	{STRVAR_1 1, 0, 0} sauvage utilise\nLumi-Éclat !
+887	{STRVAR_1 1, 0, 0} ennemi utilise\nLumi-Éclat !
+888	{STRVAR_1 1, 0, 0} utilise\nBall’Brume !
+889	{STRVAR_1 1, 0, 0} sauvage utilise\nBall’Brume !
+890	{STRVAR_1 1, 0, 0} ennemi utilise\nBall’Brume !
+891	{STRVAR_1 1, 0, 0} utilise\nDanse-Plume !
+892	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse-Plume !
+893	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse-Plume !
+894	{STRVAR_1 1, 0, 0} utilise\nDanse Folle !
+895	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse Folle !
+896	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse Folle !
+897	{STRVAR_1 1, 0, 0} utilise\nPied Brûleur !
+898	{STRVAR_1 1, 0, 0} sauvage utilise\nPied Brûleur !
+899	{STRVAR_1 1, 0, 0} ennemi utilise\nPied Brûleur !
+900	{STRVAR_1 1, 0, 0} utilise\nLance-Boue !
+901	{STRVAR_1 1, 0, 0} sauvage utilise\nLance-Boue !
+902	{STRVAR_1 1, 0, 0} ennemi utilise\nLance-Boue !
+903	{STRVAR_1 1, 0, 0} utilise\nBall’Glace !
+904	{STRVAR_1 1, 0, 0} sauvage utilise\nBall’Glace !
+905	{STRVAR_1 1, 0, 0} ennemi utilise\nBall’Glace !
+906	{STRVAR_1 1, 0, 0} utilise\nPoing Dard !
+907	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing Dard !
+908	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing Dard !
+909	{STRVAR_1 1, 0, 0} utilise\nParesse !
+910	{STRVAR_1 1, 0, 0} sauvage utilise\nParesse !
+911	{STRVAR_1 1, 0, 0} ennemi utilise\nParesse !
+912	{STRVAR_1 1, 0, 0} utilise\nMégaphone !
+913	{STRVAR_1 1, 0, 0} sauvage utilise\nMégaphone !
+914	{STRVAR_1 1, 0, 0} ennemi utilise\nMégaphone !
+915	{STRVAR_1 1, 0, 0} utilise\nCrochet Venin !
+916	{STRVAR_1 1, 0, 0} sauvage utilise\nCrochet Venin !
+917	{STRVAR_1 1, 0, 0} ennemi utilise\nCrochet Venin !
+918	{STRVAR_1 1, 0, 0} utilise\nÉclate Griffe !
+919	{STRVAR_1 1, 0, 0} sauvage utilise\nÉclate Griffe !
+920	{STRVAR_1 1, 0, 0} ennemi utilise\nÉclate Griffe !
+921	{STRVAR_1 1, 0, 0} utilise\nRafale Feu !
+922	{STRVAR_1 1, 0, 0} sauvage utilise\nRafale Feu !
+923	{STRVAR_1 1, 0, 0} ennemi utilise\nRafale Feu !
+924	{STRVAR_1 1, 0, 0} utilise\nHydroblast !
+925	{STRVAR_1 1, 0, 0} sauvage utilise\nHydroblast !
+926	{STRVAR_1 1, 0, 0} ennemi utilise\nHydroblast !
+927	{STRVAR_1 1, 0, 0} utilise\nPoing Météor !
+928	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing Météor !
+929	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing Météor !
+930	{STRVAR_1 1, 0, 0} utilise\nÉtonnement !
+931	{STRVAR_1 1, 0, 0} sauvage utilise\nÉtonnement !
+932	{STRVAR_1 1, 0, 0} ennemi utilise\nÉtonnement !
+933	{STRVAR_1 1, 0, 0} utilise\nBall’Météo !
+934	{STRVAR_1 1, 0, 0} sauvage utilise\nBall’Météo !
+935	{STRVAR_1 1, 0, 0} ennemi utilise\nBall’Météo !
+936	{STRVAR_1 1, 0, 0} utilise\nAromathérapie !
+937	{STRVAR_1 1, 0, 0} sauvage utilise\nAromathérapie !
+938	{STRVAR_1 1, 0, 0} ennemi utilise\nAromathérapie !
+939	{STRVAR_1 1, 0, 0} utilise\nCroco Larme !
+940	{STRVAR_1 1, 0, 0} sauvage utilise\nCroco Larme !
+941	{STRVAR_1 1, 0, 0} ennemi utilise\nCroco Larme !
+942	{STRVAR_1 1, 0, 0} utilise\nTranch’Air !
+943	{STRVAR_1 1, 0, 0} sauvage utilise\nTranch’Air !
+944	{STRVAR_1 1, 0, 0} ennemi utilise\nTranch’Air !
+945	{STRVAR_1 1, 0, 0} utilise\nSurchauffe !
+946	{STRVAR_1 1, 0, 0} sauvage utilise\nSurchauffe !
+947	{STRVAR_1 1, 0, 0} ennemi utilise\nSurchauffe !
+948	{STRVAR_1 1, 0, 0} utilise\nFlair !
+949	{STRVAR_1 1, 0, 0} sauvage utilise\nFlair !
+950	{STRVAR_1 1, 0, 0} ennemi utilise\nFlair !
+951	{STRVAR_1 1, 0, 0} utilise\nTomberoche !
+952	{STRVAR_1 1, 0, 0} sauvage utilise\nTomberoche !
+953	{STRVAR_1 1, 0, 0} ennemi utilise\nTomberoche !
+954	{STRVAR_1 1, 0, 0} utilise\nVent Argenté !
+955	{STRVAR_1 1, 0, 0} sauvage utilise\nVent Argenté !
+956	{STRVAR_1 1, 0, 0} ennemi utilise\nVent Argenté !
+957	{STRVAR_1 1, 0, 0} utilise\nStrido-Son !
+958	{STRVAR_1 1, 0, 0} sauvage utilise\nStrido-Son !
+959	{STRVAR_1 1, 0, 0} ennemi utilise\nStrido-Son !
+960	{STRVAR_1 1, 0, 0} utilise\nSiffl’Herbe !
+961	{STRVAR_1 1, 0, 0} sauvage utilise\nSiffl’Herbe !
+962	{STRVAR_1 1, 0, 0} ennemi utilise\nSiffl’Herbe !
+963	{STRVAR_1 1, 0, 0} utilise\nChatouille !
+964	{STRVAR_1 1, 0, 0} sauvage utilise\nChatouille !
+965	{STRVAR_1 1, 0, 0} ennemi utilise\nChatouille !
+966	{STRVAR_1 1, 0, 0} utilise\nForce Cosmique !
+967	{STRVAR_1 1, 0, 0} sauvage utilise\nForce Cosmique !
+968	{STRVAR_1 1, 0, 0} ennemi utilise\nForce Cosmique !
+969	{STRVAR_1 1, 0, 0} utilise\nGiclédo !
+970	{STRVAR_1 1, 0, 0} sauvage utilise\nGiclédo !
+971	{STRVAR_1 1, 0, 0} ennemi utilise\nGiclédo !
+972	{STRVAR_1 1, 0, 0} utilise\nRayon Signal !
+973	{STRVAR_1 1, 0, 0} sauvage utilise\nRayon Signal !
+974	{STRVAR_1 1, 0, 0} ennemi utilise\nRayon Signal !
+975	{STRVAR_1 1, 0, 0} utilise\nPoing Ombre !
+976	{STRVAR_1 1, 0, 0} sauvage utilise\nPoing Ombre !
+977	{STRVAR_1 1, 0, 0} ennemi utilise\nPoing Ombre !
+978	{STRVAR_1 1, 0, 0} utilise\nExtrasenseur !
+979	{STRVAR_1 1, 0, 0} sauvage utilise\nExtrasenseur !
+980	{STRVAR_1 1, 0, 0} ennemi utilise\nExtrasenseur !
+981	{STRVAR_1 1, 0, 0} utilise\nStratopercut !
+982	{STRVAR_1 1, 0, 0} sauvage utilise\nStratopercut !
+983	{STRVAR_1 1, 0, 0} ennemi utilise\nStratopercut !
+984	{STRVAR_1 1, 0, 0} utilise\nTourbi-Sable !
+985	{STRVAR_1 1, 0, 0} sauvage utilise\nTourbi-Sable !
+986	{STRVAR_1 1, 0, 0} ennemi utilise\nTourbi-Sable !
+987	{STRVAR_1 1, 0, 0} utilise\nGlaciation !
+988	{STRVAR_1 1, 0, 0} sauvage utilise\nGlaciation !
+989	{STRVAR_1 1, 0, 0} ennemi utilise\nGlaciation !
+990	{STRVAR_1 1, 0, 0} utilise\nOcroupi !
+991	{STRVAR_1 1, 0, 0} sauvage utilise\nOcroupi !
+992	{STRVAR_1 1, 0, 0} ennemi utilise\nOcroupi !
+993	{STRVAR_1 1, 0, 0} utilise\nBalle Graine !
+994	{STRVAR_1 1, 0, 0} sauvage utilise\nBalle Graine !
+995	{STRVAR_1 1, 0, 0} ennemi utilise\nBalle Graine !
+996	{STRVAR_1 1, 0, 0} utilise\nAéropiqué !
+997	{STRVAR_1 1, 0, 0} sauvage utilise\nAéropiqué !
+998	{STRVAR_1 1, 0, 0} ennemi utilise\nAéropiqué !
+999	{STRVAR_1 1, 0, 0} utilise\nStalagtite !
+1000	{STRVAR_1 1, 0, 0} sauvage utilise\nStalagtite !
+1001	{STRVAR_1 1, 0, 0} ennemi utilise\nStalagtite !
+1002	{STRVAR_1 1, 0, 0} utilise\nMur de Fer !
+1003	{STRVAR_1 1, 0, 0} sauvage utilise\nMur de Fer !
+1004	{STRVAR_1 1, 0, 0} ennemi utilise\nMur de Fer !
+1005	{STRVAR_1 1, 0, 0} utilise\nBarrage !
+1006	{STRVAR_1 1, 0, 0} sauvage utilise\nBarrage !
+1007	{STRVAR_1 1, 0, 0} ennemi utilise\nBarrage !
+1008	{STRVAR_1 1, 0, 0} utilise\nGrondement !
+1009	{STRVAR_1 1, 0, 0} sauvage utilise\nGrondement !
+1010	{STRVAR_1 1, 0, 0} ennemi utilise\nGrondement !
+1011	{STRVAR_1 1, 0, 0} utilise\nDracogriffe !
+1012	{STRVAR_1 1, 0, 0} sauvage utilise\nDracogriffe !
+1013	{STRVAR_1 1, 0, 0} ennemi utilise\nDracogriffe !
+1014	{STRVAR_1 1, 0, 0} utilise\nVégé-Attak !
+1015	{STRVAR_1 1, 0, 0} sauvage utilise\nVégé-Attak !
+1016	{STRVAR_1 1, 0, 0} ennemi utilise\nVégé-Attak !
+1017	{STRVAR_1 1, 0, 0} utilise\nGonflette !
+1018	{STRVAR_1 1, 0, 0} sauvage utilise\nGonflette !
+1019	{STRVAR_1 1, 0, 0} ennemi utilise\nGonflette !
+1020	{STRVAR_1 1, 0, 0} utilise\nRebond !
+1021	{STRVAR_1 1, 0, 0} sauvage utilise\nRebond !
+1022	{STRVAR_1 1, 0, 0} ennemi utilise\nRebond !
+1023	{STRVAR_1 1, 0, 0} utilise\nTir de Boue !
+1024	{STRVAR_1 1, 0, 0} sauvage utilise\nTir de Boue !
+1025	{STRVAR_1 1, 0, 0} ennemi utilise\nTir de Boue !
+1026	{STRVAR_1 1, 0, 0} utilise\nQueue-Poison !
+1027	{STRVAR_1 1, 0, 0} sauvage utilise\nQueue-Poison !
+1028	{STRVAR_1 1, 0, 0} ennemi utilise\nQueue-Poison !
+1029	{STRVAR_1 1, 0, 0} utilise\nImplore !
+1030	{STRVAR_1 1, 0, 0} sauvage utilise\nImplore !
+1031	{STRVAR_1 1, 0, 0} ennemi utilise\nImplore !
+1032	{STRVAR_1 1, 0, 0} utilise\nÉlectacle !
+1033	{STRVAR_1 1, 0, 0} sauvage utilise\nÉlectacle !
+1034	{STRVAR_1 1, 0, 0} ennemi utilise\nÉlectacle !
+1035	{STRVAR_1 1, 0, 0} utilise\nFeuille Magik !
+1036	{STRVAR_1 1, 0, 0} sauvage utilise\nFeuille Magik !
+1037	{STRVAR_1 1, 0, 0} ennemi utilise\nFeuille Magik !
+1038	{STRVAR_1 1, 0, 0} utilise\nTourniquet !
+1039	{STRVAR_1 1, 0, 0} sauvage utilise\nTourniquet !
+1040	{STRVAR_1 1, 0, 0} ennemi utilise\nTourniquet !
+1041	{STRVAR_1 1, 0, 0} utilise\nPlénitude !
+1042	{STRVAR_1 1, 0, 0} sauvage utilise\nPlénitude !
+1043	{STRVAR_1 1, 0, 0} ennemi utilise\nPlénitude !
+1044	{STRVAR_1 1, 0, 0} utilise\nLame-Feuille !
+1045	{STRVAR_1 1, 0, 0} sauvage utilise\nLame-Feuille !
+1046	{STRVAR_1 1, 0, 0} ennemi utilise\nLame-Feuille !
+1047	{STRVAR_1 1, 0, 0} utilise\nDanse Draco !
+1048	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse Draco !
+1049	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse Draco !
+1050	{STRVAR_1 1, 0, 0} utilise\nBoule Roc !
+1051	{STRVAR_1 1, 0, 0} sauvage utilise\nBoule Roc !
+1052	{STRVAR_1 1, 0, 0} ennemi utilise\nBoule Roc !
+1053	{STRVAR_1 1, 0, 0} utilise\nOnde de Choc !
+1054	{STRVAR_1 1, 0, 0} sauvage utilise\nOnde de Choc !
+1055	{STRVAR_1 1, 0, 0} ennemi utilise\nOnde de Choc !
+1056	{STRVAR_1 1, 0, 0} utilise\nVibraqua !
+1057	{STRVAR_1 1, 0, 0} sauvage utilise\nVibraqua !
+1058	{STRVAR_1 1, 0, 0} ennemi utilise\nVibraqua !
+1059	{STRVAR_1 1, 0, 0} utilise\nCarnareket !
+1060	{STRVAR_1 1, 0, 0} sauvage utilise\nCarnareket !
+1061	{STRVAR_1 1, 0, 0} ennemi utilise\nCarnareket !
+1062	{STRVAR_1 1, 0, 0} utilise\nPsycho Boost !
+1063	{STRVAR_1 1, 0, 0} sauvage utilise\nPsycho Boost !
+1064	{STRVAR_1 1, 0, 0} ennemi utilise\nPsycho Boost !
+1065	{STRVAR_1 1, 0, 0} utilise\nAtterrissage !
+1066	{STRVAR_1 1, 0, 0} sauvage utilise\nAtterrissage !
+1067	{STRVAR_1 1, 0, 0} ennemi utilise\nAtterrissage !
+1068	{STRVAR_1 1, 0, 0} utilise\nGravité !
+1069	{STRVAR_1 1, 0, 0} sauvage utilise\nGravité !
+1070	{STRVAR_1 1, 0, 0} ennemi utilise\nGravité !
+1071	{STRVAR_1 1, 0, 0} utilise\nŒil Miracle !
+1072	{STRVAR_1 1, 0, 0} sauvage utilise\nŒil Miracle !
+1073	{STRVAR_1 1, 0, 0} ennemi utilise\nŒil Miracle !
+1074	{STRVAR_1 1, 0, 0} utilise\nRéveil Forcé !
+1075	{STRVAR_1 1, 0, 0} sauvage utilise\nRéveil Forcé !
+1076	{STRVAR_1 1, 0, 0} ennemi utilise\nRéveil Forcé !
+1077	{STRVAR_1 1, 0, 0} utilise\nMarto-Poing !
+1078	{STRVAR_1 1, 0, 0} sauvage utilise\nMarto-Poing !
+1079	{STRVAR_1 1, 0, 0} ennemi utilise\nMarto-Poing !
+1080	{STRVAR_1 1, 0, 0} utilise\nGyroballe !
+1081	{STRVAR_1 1, 0, 0} sauvage utilise\nGyroballe !
+1082	{STRVAR_1 1, 0, 0} ennemi utilise\nGyroballe !
+1083	{STRVAR_1 1, 0, 0} utilise\nVœu Soin !
+1084	{STRVAR_1 1, 0, 0} sauvage utilise\nVœu Soin !
+1085	{STRVAR_1 1, 0, 0} ennemi utilise\nVœu Soin !
+1086	{STRVAR_1 1, 0, 0} utilise\nSaumure !
+1087	{STRVAR_1 1, 0, 0} sauvage utilise\nSaumure !
+1088	{STRVAR_1 1, 0, 0} ennemi utilise\nSaumure !
+1089	{STRVAR_1 1, 0, 0} utilise\nDon Naturel !
+1090	{STRVAR_1 1, 0, 0} sauvage utilise\nDon Naturel !
+1091	{STRVAR_1 1, 0, 0} ennemi utilise\nDon Naturel !
+1092	{STRVAR_1 1, 0, 0} utilise\nRuse !
+1093	{STRVAR_1 1, 0, 0} sauvage utilise\nRuse !
+1094	{STRVAR_1 1, 0, 0} ennemi utilise\nRuse !
+1095	{STRVAR_1 1, 0, 0} utilise\nPicore !
+1096	{STRVAR_1 1, 0, 0} sauvage utilise\nPicore !
+1097	{STRVAR_1 1, 0, 0} ennemi utilise\nPicore !
+1098	{STRVAR_1 1, 0, 0} utilise\nVent Arrière !
+1099	{STRVAR_1 1, 0, 0} sauvage utilise\nVent Arrière !
+1100	{STRVAR_1 1, 0, 0} ennemi utilise\nVent Arrière !
+1101	{STRVAR_1 1, 0, 0} utilise\nAcupression !
+1102	{STRVAR_1 1, 0, 0} sauvage utilise\nAcupression !
+1103	{STRVAR_1 1, 0, 0} ennemi utilise\nAcupression !
+1104	{STRVAR_1 1, 0, 0} utilise\nFulmifer !
+1105	{STRVAR_1 1, 0, 0} sauvage utilise\nFulmifer !
+1106	{STRVAR_1 1, 0, 0} ennemi utilise\nFulmifer !
+1107	{STRVAR_1 1, 0, 0} utilise\nDemi-Tour !
+1108	{STRVAR_1 1, 0, 0} sauvage utilise\nDemi-Tour !
+1109	{STRVAR_1 1, 0, 0} ennemi utilise\nDemi-Tour !
+1110	{STRVAR_1 1, 0, 0} utilise\nClose Combat !
+1111	{STRVAR_1 1, 0, 0} sauvage utilise\nClose Combat !
+1112	{STRVAR_1 1, 0, 0} ennemi utilise\nClose Combat !
+1113	{STRVAR_1 1, 0, 0} utilise\nReprésailles !
+1114	{STRVAR_1 1, 0, 0} sauvage utilise\nReprésailles !
+1115	{STRVAR_1 1, 0, 0} ennemi utilise\nReprésailles !
+1116	{STRVAR_1 1, 0, 0} utilise\nAssurance !
+1117	{STRVAR_1 1, 0, 0} sauvage utilise\nAssurance !
+1118	{STRVAR_1 1, 0, 0} ennemi utilise\nAssurance !
+1119	{STRVAR_1 1, 0, 0} utilise\nEmbargo !
+1120	{STRVAR_1 1, 0, 0} sauvage utilise\nEmbargo !
+1121	{STRVAR_1 1, 0, 0} ennemi utilise\nEmbargo !
+1122	{STRVAR_1 1, 0, 0} utilise\nDégommage !
+1123	{STRVAR_1 1, 0, 0} sauvage utilise\nDégommage !
+1124	{STRVAR_1 1, 0, 0} ennemi utilise\nDégommage !
+1125	{STRVAR_1 1, 0, 0} utilise\nÉchange Psy !
+1126	{STRVAR_1 1, 0, 0} sauvage utilise\nÉchange Psy !
+1127	{STRVAR_1 1, 0, 0} ennemi utilise\nÉchange Psy !
+1128	{STRVAR_1 1, 0, 0} utilise\nAtout !
+1129	{STRVAR_1 1, 0, 0} sauvage utilise\nAtout !
+1130	{STRVAR_1 1, 0, 0} ennemi utilise\nAtout !
+1131	{STRVAR_1 1, 0, 0} utilise\nAnti-Soin !
+1132	{STRVAR_1 1, 0, 0} sauvage utilise\nAnti-Soin !
+1133	{STRVAR_1 1, 0, 0} ennemi utilise\nAnti-Soin !
+1134	{STRVAR_1 1, 0, 0} utilise\nEssorage !
+1135	{STRVAR_1 1, 0, 0} sauvage utilise\nEssorage !
+1136	{STRVAR_1 1, 0, 0} ennemi utilise\nEssorage !
+1137	{STRVAR_1 1, 0, 0} utilise\nAstuce Force !
+1138	{STRVAR_1 1, 0, 0} sauvage utilise\nAstuce Force !
+1139	{STRVAR_1 1, 0, 0} ennemi utilise\nAstuce Force !
+1140	{STRVAR_1 1, 0, 0} utilise\nSuc Digestif !
+1141	{STRVAR_1 1, 0, 0} sauvage utilise\nSuc Digestif !
+1142	{STRVAR_1 1, 0, 0} ennemi utilise\nSuc Digestif !
+1143	{STRVAR_1 1, 0, 0} utilise\nAir Veinard !
+1144	{STRVAR_1 1, 0, 0} sauvage utilise\nAir Veinard !
+1145	{STRVAR_1 1, 0, 0} ennemi utilise\nAir Veinard !
+1146	{STRVAR_1 1, 0, 0} utilise\nMoi d’Abord !
+1147	{STRVAR_1 1, 0, 0} sauvage utilise\nMoi d’Abord !
+1148	{STRVAR_1 1, 0, 0} ennemi utilise\nMoi d’Abord !
+1149	{STRVAR_1 1, 0, 0} utilise\nPhotocopie !
+1150	{STRVAR_1 1, 0, 0} sauvage utilise\nPhotocopie !
+1151	{STRVAR_1 1, 0, 0} ennemi utilise\nPhotocopie !
+1152	{STRVAR_1 1, 0, 0} utilise\nPermuforce !
+1153	{STRVAR_1 1, 0, 0} sauvage utilise\nPermuforce !
+1154	{STRVAR_1 1, 0, 0} ennemi utilise\nPermuforce !
+1155	{STRVAR_1 1, 0, 0} utilise\nPermugarde !
+1156	{STRVAR_1 1, 0, 0} sauvage utilise\nPermugarde !
+1157	{STRVAR_1 1, 0, 0} ennemi utilise\nPermugarde !
+1158	{STRVAR_1 1, 0, 0} utilise\nPunition !
+1159	{STRVAR_1 1, 0, 0} sauvage utilise\nPunition !
+1160	{STRVAR_1 1, 0, 0} ennemi utilise\nPunition !
+1161	{STRVAR_1 1, 0, 0} utilise\nDernier Recours !
+1162	{STRVAR_1 1, 0, 0} sauvage utilise\nDernier Recours !
+1163	{STRVAR_1 1, 0, 0} ennemi utilise\nDernier Recours !
+1164	{STRVAR_1 1, 0, 0} utilise\nSoucigraine !
+1165	{STRVAR_1 1, 0, 0} sauvage utilise\nSoucigraine !
+1166	{STRVAR_1 1, 0, 0} ennemi utilise\nSoucigraine !
+1167	{STRVAR_1 1, 0, 0} utilise\nCoup Bas !
+1168	{STRVAR_1 1, 0, 0} sauvage utilise\nCoup Bas !
+1169	{STRVAR_1 1, 0, 0} ennemi utilise\nCoup Bas !
+1170	{STRVAR_1 1, 0, 0} utilise\nPics Toxik !
+1171	{STRVAR_1 1, 0, 0} sauvage utilise\nPics Toxik !
+1172	{STRVAR_1 1, 0, 0} ennemi utilise\nPics Toxik !
+1173	{STRVAR_1 1, 0, 0} utilise\nPermucœur !
+1174	{STRVAR_1 1, 0, 0} sauvage utilise\nPermucœur !
+1175	{STRVAR_1 1, 0, 0} ennemi utilise\nPermucœur !
+1176	{STRVAR_1 1, 0, 0} utilise\nAnneau Hydro !
+1177	{STRVAR_1 1, 0, 0} sauvage utilise\nAnneau Hydro !
+1178	{STRVAR_1 1, 0, 0} ennemi utilise\nAnneau Hydro !
+1179	{STRVAR_1 1, 0, 0} utilise\nVol Magnétik !
+1180	{STRVAR_1 1, 0, 0} sauvage utilise\nVol Magnétik !
+1181	{STRVAR_1 1, 0, 0} ennemi utilise\nVol Magnétik !
+1182	{STRVAR_1 1, 0, 0} utilise\nBoutefeu !
+1183	{STRVAR_1 1, 0, 0} sauvage utilise\nBoutefeu !
+1184	{STRVAR_1 1, 0, 0} ennemi utilise\nBoutefeu !
+1185	{STRVAR_1 1, 0, 0} utilise\nForte-Paume !
+1186	{STRVAR_1 1, 0, 0} sauvage utilise\nForte-Paume !
+1187	{STRVAR_1 1, 0, 0} ennemi utilise\nForte-Paume !
+1188	{STRVAR_1 1, 0, 0} utilise\nAurasphère !
+1189	{STRVAR_1 1, 0, 0} sauvage utilise\nAurasphère !
+1190	{STRVAR_1 1, 0, 0} ennemi utilise\nAurasphère !
+1191	{STRVAR_1 1, 0, 0} utilise\nPoliroche !
+1192	{STRVAR_1 1, 0, 0} sauvage utilise\nPoliroche !
+1193	{STRVAR_1 1, 0, 0} ennemi utilise\nPoliroche !
+1194	{STRVAR_1 1, 0, 0} utilise\nDirect Toxik !
+1195	{STRVAR_1 1, 0, 0} sauvage utilise\nDirect Toxik !
+1196	{STRVAR_1 1, 0, 0} ennemi utilise\nDirect Toxik !
+1197	{STRVAR_1 1, 0, 0} utilise\nVibrobscur !
+1198	{STRVAR_1 1, 0, 0} sauvage utilise\nVibrobscur !
+1199	{STRVAR_1 1, 0, 0} ennemi utilise\nVibrobscur !
+1200	{STRVAR_1 1, 0, 0} utilise\nTranche-Nuit !
+1201	{STRVAR_1 1, 0, 0} sauvage utilise\nTranche-Nuit !
+1202	{STRVAR_1 1, 0, 0} ennemi utilise\nTranche-Nuit !
+1203	{STRVAR_1 1, 0, 0} utilise\nHydroqueue !
+1204	{STRVAR_1 1, 0, 0} sauvage utilise\nHydroqueue !
+1205	{STRVAR_1 1, 0, 0} ennemi utilise\nHydroqueue !
+1206	{STRVAR_1 1, 0, 0} utilise\nCanon Graine !
+1207	{STRVAR_1 1, 0, 0} sauvage utilise\nCanon Graine !
+1208	{STRVAR_1 1, 0, 0} ennemi utilise\nCanon Graine !
+1209	{STRVAR_1 1, 0, 0} utilise\nLame d’Air !
+1210	{STRVAR_1 1, 0, 0} sauvage utilise\nLame d’Air !
+1211	{STRVAR_1 1, 0, 0} ennemi utilise\nLame d’Air !
+1212	{STRVAR_1 1, 0, 0} utilise\nPlaie-Croix !
+1213	{STRVAR_1 1, 0, 0} sauvage utilise\nPlaie-Croix !
+1214	{STRVAR_1 1, 0, 0} ennemi utilise\nPlaie-Croix !
+1215	{STRVAR_1 1, 0, 0} utilise\nBourdon !
+1216	{STRVAR_1 1, 0, 0} sauvage utilise\nBourdon !
+1217	{STRVAR_1 1, 0, 0} ennemi utilise\nBourdon !
+1218	{STRVAR_1 1, 0, 0} utilise\nDraco-Choc !
+1219	{STRVAR_1 1, 0, 0} sauvage utilise\nDraco-Choc !
+1220	{STRVAR_1 1, 0, 0} ennemi utilise\nDraco-Choc !
+1221	{STRVAR_1 1, 0, 0} utilise\nDraco-Charge !
+1222	{STRVAR_1 1, 0, 0} sauvage utilise\nDraco-Charge !
+1223	{STRVAR_1 1, 0, 0} ennemi utilise\nDraco-Charge !
+1224	{STRVAR_1 1, 0, 0} utilise\nRayon Gemme !
+1225	{STRVAR_1 1, 0, 0} sauvage utilise\nRayon Gemme !
+1226	{STRVAR_1 1, 0, 0} ennemi utilise\nRayon Gemme !
+1227	{STRVAR_1 1, 0, 0} utilise\nVampipoing !
+1228	{STRVAR_1 1, 0, 0} sauvage utilise\nVampipoing !
+1229	{STRVAR_1 1, 0, 0} ennemi utilise\nVampipoing !
+1230	{STRVAR_1 1, 0, 0} utilise\nOnde Vide !
+1231	{STRVAR_1 1, 0, 0} sauvage utilise\nOnde Vide !
+1232	{STRVAR_1 1, 0, 0} ennemi utilise\nOnde Vide !
+1233	{STRVAR_1 1, 0, 0} utilise\nExploforce !
+1234	{STRVAR_1 1, 0, 0} sauvage utilise\nExploforce !
+1235	{STRVAR_1 1, 0, 0} ennemi utilise\nExploforce !
+1236	{STRVAR_1 1, 0, 0} utilise\nÉco-Sphère !
+1237	{STRVAR_1 1, 0, 0} sauvage utilise\nÉco-Sphère !
+1238	{STRVAR_1 1, 0, 0} ennemi utilise\nÉco-Sphère !
+1239	{STRVAR_1 1, 0, 0} utilise\nRapace !
+1240	{STRVAR_1 1, 0, 0} sauvage utilise\nRapace !
+1241	{STRVAR_1 1, 0, 0} ennemi utilise\nRapace !
+1242	{STRVAR_1 1, 0, 0} utilise\nTelluriforce !
+1243	{STRVAR_1 1, 0, 0} sauvage utilise\nTelluriforce !
+1244	{STRVAR_1 1, 0, 0} ennemi utilise\nTelluriforce !
+1245	{STRVAR_1 1, 0, 0} utilise\nPasse-Passe !
+1246	{STRVAR_1 1, 0, 0} sauvage utilise\nPasse-Passe !
+1247	{STRVAR_1 1, 0, 0} ennemi utilise\nPasse-Passe !
+1248	{STRVAR_1 1, 0, 0} utilise\nGiga Impact !
+1249	{STRVAR_1 1, 0, 0} sauvage utilise\nGiga Impact !
+1250	{STRVAR_1 1, 0, 0} ennemi utilise\nGiga Impact !
+1251	{STRVAR_1 1, 0, 0} utilise\nMachination !
+1252	{STRVAR_1 1, 0, 0} sauvage utilise\nMachination !
+1253	{STRVAR_1 1, 0, 0} ennemi utilise\nMachination !
+1254	{STRVAR_1 1, 0, 0} utilise\nPisto-Poing !
+1255	{STRVAR_1 1, 0, 0} sauvage utilise\nPisto-Poing !
+1256	{STRVAR_1 1, 0, 0} ennemi utilise\nPisto-Poing !
+1257	{STRVAR_1 1, 0, 0} utilise\nAvalanche !
+1258	{STRVAR_1 1, 0, 0} sauvage utilise\nAvalanche !
+1259	{STRVAR_1 1, 0, 0} ennemi utilise\nAvalanche !
+1260	{STRVAR_1 1, 0, 0} utilise\nÉclats Glace !
+1261	{STRVAR_1 1, 0, 0} sauvage utilise\nÉclats Glace !
+1262	{STRVAR_1 1, 0, 0} ennemi utilise\nÉclats Glace !
+1263	{STRVAR_1 1, 0, 0} utilise\nGriffe Ombre !
+1264	{STRVAR_1 1, 0, 0} sauvage utilise\nGriffe Ombre !
+1265	{STRVAR_1 1, 0, 0} ennemi utilise\nGriffe Ombre !
+1266	{STRVAR_1 1, 0, 0} utilise\nCrocs Éclair !
+1267	{STRVAR_1 1, 0, 0} sauvage utilise\nCrocs Éclair !
+1268	{STRVAR_1 1, 0, 0} ennemi utilise\nCrocs Éclair !
+1269	{STRVAR_1 1, 0, 0} utilise\nCrocs Givre !
+1270	{STRVAR_1 1, 0, 0} sauvage utilise\nCrocs Givre !
+1271	{STRVAR_1 1, 0, 0} ennemi utilise\nCrocs Givre !
+1272	{STRVAR_1 1, 0, 0} utilise\nCrocs Feu !
+1273	{STRVAR_1 1, 0, 0} sauvage utilise\nCrocs Feu !
+1274	{STRVAR_1 1, 0, 0} ennemi utilise\nCrocs Feu !
+1275	{STRVAR_1 1, 0, 0} utilise\nOmbre Portée !
+1276	{STRVAR_1 1, 0, 0} sauvage utilise\nOmbre Portée !
+1277	{STRVAR_1 1, 0, 0} ennemi utilise\nOmbre Portée !
+1278	{STRVAR_1 1, 0, 0} utilise\nBoue-Bombe !
+1279	{STRVAR_1 1, 0, 0} sauvage utilise\nBoue-Bombe !
+1280	{STRVAR_1 1, 0, 0} ennemi utilise\nBoue-Bombe !
+1281	{STRVAR_1 1, 0, 0} utilise\nCoupe Psycho !
+1282	{STRVAR_1 1, 0, 0} sauvage utilise\nCoupe Psycho !
+1283	{STRVAR_1 1, 0, 0} ennemi utilise\nCoupe Psycho !
+1284	{STRVAR_1 1, 0, 0} utilise\nPsykoud’Boul !
+1285	{STRVAR_1 1, 0, 0} sauvage utilise\nPsykoud’Boul !
+1286	{STRVAR_1 1, 0, 0} ennemi utilise\nPsykoud’Boul !
+1287	{STRVAR_1 1, 0, 0} utilise\nMiroi-Tir !
+1288	{STRVAR_1 1, 0, 0} sauvage utilise\nMiroi-Tir !
+1289	{STRVAR_1 1, 0, 0} ennemi utilise\nMiroi-Tir !
+1290	{STRVAR_1 1, 0, 0} utilise\nLuminocanon !
+1291	{STRVAR_1 1, 0, 0} sauvage utilise\nLuminocanon !
+1292	{STRVAR_1 1, 0, 0} ennemi utilise\nLuminocanon !
+1293	{STRVAR_1 1, 0, 0} utilise\nEscalade !
+1294	{STRVAR_1 1, 0, 0} sauvage utilise\nEscalade !
+1295	{STRVAR_1 1, 0, 0} ennemi utilise\nEscalade !
+1296	{STRVAR_1 1, 0, 0} utilise\nAnti-Brume !
+1297	{STRVAR_1 1, 0, 0} sauvage utilise\nAnti-Brume !
+1298	{STRVAR_1 1, 0, 0} ennemi utilise\nAnti-Brume !
+1299	{STRVAR_1 1, 0, 0} utilise\nDistorsion !
+1300	{STRVAR_1 1, 0, 0} sauvage utilise\nDistorsion !
+1301	{STRVAR_1 1, 0, 0} ennemi utilise\nDistorsion !
+1302	{STRVAR_1 1, 0, 0} utilise\nDraco Météore !
+1303	{STRVAR_1 1, 0, 0} sauvage utilise\nDraco Météore !
+1304	{STRVAR_1 1, 0, 0} ennemi utilise\nDraco Météore !
+1305	{STRVAR_1 1, 0, 0} utilise\nCoup d’Jus !
+1306	{STRVAR_1 1, 0, 0} sauvage utilise\nCoup d’Jus !
+1307	{STRVAR_1 1, 0, 0} ennemi utilise\nCoup d’Jus !
+1308	{STRVAR_1 1, 0, 0} utilise\nÉbullilave !
+1309	{STRVAR_1 1, 0, 0} sauvage utilise\nÉbullilave !
+1310	{STRVAR_1 1, 0, 0} ennemi utilise\nÉbullilave !
+1311	{STRVAR_1 1, 0, 0} utilise\nTempête Verte !
+1312	{STRVAR_1 1, 0, 0} sauvage utilise\nTempête Verte !
+1313	{STRVAR_1 1, 0, 0} ennemi utilise\nTempête Verte !
+1314	{STRVAR_1 1, 0, 0} utilise\nMégafouet !
+1315	{STRVAR_1 1, 0, 0} sauvage utilise\nMégafouet !
+1316	{STRVAR_1 1, 0, 0} ennemi utilise\nMégafouet !
+1317	{STRVAR_1 1, 0, 0} utilise\nRoc-Boulet !
+1318	{STRVAR_1 1, 0, 0} sauvage utilise\nRoc-Boulet !
+1319	{STRVAR_1 1, 0, 0} ennemi utilise\nRoc-Boulet !
+1320	{STRVAR_1 1, 0, 0} utilise\nPoison Croix !
+1321	{STRVAR_1 1, 0, 0} sauvage utilise\nPoison Croix !
+1322	{STRVAR_1 1, 0, 0} ennemi utilise\nPoison Croix !
+1323	{STRVAR_1 1, 0, 0} utilise\nDétricanon !
+1324	{STRVAR_1 1, 0, 0} sauvage utilise\nDétricanon !
+1325	{STRVAR_1 1, 0, 0} ennemi utilise\nDétricanon !
+1326	{STRVAR_1 1, 0, 0} utilise\nTête de Fer !
+1327	{STRVAR_1 1, 0, 0} sauvage utilise\nTête de Fer !
+1328	{STRVAR_1 1, 0, 0} ennemi utilise\nTête de Fer !
+1329	{STRVAR_1 1, 0, 0} utilise\nBombe Aimant !
+1330	{STRVAR_1 1, 0, 0} sauvage utilise\nBombe Aimant !
+1331	{STRVAR_1 1, 0, 0} ennemi utilise\nBombe Aimant !
+1332	{STRVAR_1 1, 0, 0} utilise\nLame de Roc !
+1333	{STRVAR_1 1, 0, 0} sauvage utilise\nLame de Roc !
+1334	{STRVAR_1 1, 0, 0} ennemi utilise\nLame de Roc !
+1335	{STRVAR_1 1, 0, 0} utilise\nSéduction !
+1336	{STRVAR_1 1, 0, 0} sauvage utilise\nSéduction !
+1337	{STRVAR_1 1, 0, 0} ennemi utilise\nSéduction !
+1338	{STRVAR_1 1, 0, 0} utilise\nPiège de Roc !
+1339	{STRVAR_1 1, 0, 0} sauvage utilise\nPiège de Roc !
+1340	{STRVAR_1 1, 0, 0} ennemi utilise\nPiège de Roc !
+1341	{STRVAR_1 1, 0, 0} utilise\nNœud Herbe !
+1342	{STRVAR_1 1, 0, 0} sauvage utilise\nNœud Herbe !
+1343	{STRVAR_1 1, 0, 0} ennemi utilise\nNœud Herbe !
+1344	{STRVAR_1 1, 0, 0} utilise\nBabil !
+1345	{STRVAR_1 1, 0, 0} sauvage utilise\nBabil !
+1346	{STRVAR_1 1, 0, 0} ennemi utilise\nBabil !
+1347	{STRVAR_1 1, 0, 0} utilise\nJugement !
+1348	{STRVAR_1 1, 0, 0} sauvage utilise\nJugement !
+1349	{STRVAR_1 1, 0, 0} ennemi utilise\nJugement !
+1350	{STRVAR_1 1, 0, 0} utilise\nPiqûre !
+1351	{STRVAR_1 1, 0, 0} sauvage utilise\nPiqûre !
+1352	{STRVAR_1 1, 0, 0} ennemi utilise\nPiqûre !
+1353	{STRVAR_1 1, 0, 0} utilise\nRayon Chargé !
+1354	{STRVAR_1 1, 0, 0} sauvage utilise\nRayon Chargé !
+1355	{STRVAR_1 1, 0, 0} ennemi utilise\nRayon Chargé !
+1356	{STRVAR_1 1, 0, 0} utilise\nMartobois !
+1357	{STRVAR_1 1, 0, 0} sauvage utilise\nMartobois !
+1358	{STRVAR_1 1, 0, 0} ennemi utilise\nMartobois !
+1359	{STRVAR_1 1, 0, 0} utilise\nAqua-Jet !
+1360	{STRVAR_1 1, 0, 0} sauvage utilise\nAqua-Jet !
+1361	{STRVAR_1 1, 0, 0} ennemi utilise\nAqua-Jet !
+1362	{STRVAR_1 1, 0, 0} utilise\nAppel Attaque !
+1363	{STRVAR_1 1, 0, 0} sauvage utilise\nAppel Attaque !
+1364	{STRVAR_1 1, 0, 0} ennemi utilise\nAppel Attaque !
+1365	{STRVAR_1 1, 0, 0} utilise\nAppel Défense !
+1366	{STRVAR_1 1, 0, 0} sauvage utilise\nAppel Défense !
+1367	{STRVAR_1 1, 0, 0} ennemi utilise\nAppel Défense !
+1368	{STRVAR_1 1, 0, 0} utilise\nAppel Soins !
+1369	{STRVAR_1 1, 0, 0} sauvage utilise\nAppel Soins !
+1370	{STRVAR_1 1, 0, 0} ennemi utilise\nAppel Soins !
+1371	{STRVAR_1 1, 0, 0} utilise\nFracass’Tête !
+1372	{STRVAR_1 1, 0, 0} sauvage utilise\nFracass’Tête !
+1373	{STRVAR_1 1, 0, 0} ennemi utilise\nFracass’Tête !
+1374	{STRVAR_1 1, 0, 0} utilise\nCoup Double !
+1375	{STRVAR_1 1, 0, 0} sauvage utilise\nCoup Double !
+1376	{STRVAR_1 1, 0, 0} ennemi utilise\nCoup Double !
+1377	{STRVAR_1 1, 0, 0} utilise\nHurle-Temps !
+1378	{STRVAR_1 1, 0, 0} sauvage utilise\nHurle-Temps !
+1379	{STRVAR_1 1, 0, 0} ennemi utilise\nHurle-Temps !
+1380	{STRVAR_1 1, 0, 0} utilise\nSpatio-Rift !
+1381	{STRVAR_1 1, 0, 0} sauvage utilise\nSpatio-Rift !
+1382	{STRVAR_1 1, 0, 0} ennemi utilise\nSpatio-Rift !
+1383	{STRVAR_1 1, 0, 0} utilise\nDanse-Lune !
+1384	{STRVAR_1 1, 0, 0} sauvage utilise\nDanse-Lune !
+1385	{STRVAR_1 1, 0, 0} ennemi utilise\nDanse-Lune !
+1386	{STRVAR_1 1, 0, 0} utilise\nPresse !
+1387	{STRVAR_1 1, 0, 0} sauvage utilise\nPresse !
+1388	{STRVAR_1 1, 0, 0} ennemi utilise\nPresse !
+1389	{STRVAR_1 1, 0, 0} utilise\nVortex Magma !
+1390	{STRVAR_1 1, 0, 0} sauvage utilise\nVortex Magma !
+1391	{STRVAR_1 1, 0, 0} ennemi utilise\nVortex Magma !
+1392	{STRVAR_1 1, 0, 0} utilise\nTrou Noir !
+1393	{STRVAR_1 1, 0, 0} sauvage utilise\nTrou Noir !
+1394	{STRVAR_1 1, 0, 0} ennemi utilise\nTrou Noir !
+1395	{STRVAR_1 1, 0, 0} utilise\nFulmigraine !
+1396	{STRVAR_1 1, 0, 0} sauvage utilise\nFulmigraine !
+1397	{STRVAR_1 1, 0, 0} ennemi utilise\nFulmigraine !
+1398	{STRVAR_1 1, 0, 0} utilise\nVent Mauvais !
+1399	{STRVAR_1 1, 0, 0} sauvage utilise\nVent Mauvais !
+1400	{STRVAR_1 1, 0, 0} ennemi utilise\nVent Mauvais !
+1401	{STRVAR_1 1, 0, 0} utilise\nRevenant !
+1402	{STRVAR_1 1, 0, 0} sauvage utilise\nRevenant !
+1403	{STRVAR_1 1, 0, 0} ennemi utilise\nRevenant !

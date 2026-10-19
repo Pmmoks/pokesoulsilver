@@ -1,0 +1,1254 @@
+# Battle messages. The wild and foe variants of a message add "sauvage" or "ennemi" after the Pokémon.
+1	{STRVAR_1 1, 0, 0} gagne {STRVAR_1 54, 1, 0} points\nd’Exp. !\r
+2	{STRVAR_1 1, 0, 0} gagne un bonus de\n{STRVAR_1 54, 1, 0} points d’Exp. !\r
+3	{STRVAR_1 1, 0, 0} monte au niveau {STRVAR_1 52, 1, 0}\n!{WAIT 5}{WAIT 2}\r
+4	{STRVAR_1 1, 0, 0} apprend {STRVAR_1 6, 1, 0} !{WAIT 5}{WAIT 2}\r
+5	{STRVAR_1 1, 0, 0} veut apprendre {STRVAR_1 6, 1, 0}.\r
+6	Mais {STRVAR_1 1, 0, 0} ne peut pas apprendre\nplus de quatre capacités.\r
+7	Oublier une capacité pour faire de la\nplace à {STRVAR_1 6, 1, 0} ?\r
+8	{STRVAR_1 1, 0, 0} oublie {STRVAR_1 6, 2, 0}.\r
+9	Renoncer à apprendre {STRVAR_1 6, 1, 0} ?\r
+10	{STRVAR_1 1, 0, 0} n’a pas appris {STRVAR_1 6, 1, 0}.\r
+11	Envoyer le Pokémon suivant ?{YESNO 0}
+12	L’attaque de {STRVAR_1 1, 0, 0} échoue !
+13	L’attaque de {STRVAR_1 1, 0, 0} sauvage\néchoue !
+14	L’attaque de {STRVAR_1 1, 0, 0} ennemi\néchoue !
+15	{STRVAR_1 1, 0, 0} se protège !
+16	{STRVAR_1 1, 0, 0} sauvage se protège !
+17	{STRVAR_1 1, 0, 0} ennemi se protège !
+18	{STRVAR_1 1, 0, 0} évite les dégâts grâce à\n{STRVAR_1 5, 1, 0} !
+19	{STRVAR_1 1, 0, 0} sauvage évite les dégâts\ngrâce à {STRVAR_1 5, 1, 0} !
+20	{STRVAR_1 1, 0, 0} ennemi évite les dégâts\ngrâce à {STRVAR_1 5, 1, 0} !
+21	{STRVAR_1 1, 0, 0} esquive les capacités Sol\ngrâce à {STRVAR_1 5, 1, 0} !
+22	{STRVAR_1 1, 0, 0} sauvage esquive les\ncapacités Sol grâce à {STRVAR_1 5, 1, 0} !
+23	{STRVAR_1 1, 0, 0} ennemi esquive les capacités\nSol grâce à {STRVAR_1 5, 1, 0} !
+24	{STRVAR_1 1, 0, 0} évite l’attaque !
+25	{STRVAR_1 1, 0, 0} sauvage évite l’attaque !
+26	{STRVAR_1 1, 0, 0} ennemi évite l’attaque !
+27	Ça n’affecte pas {STRVAR_1 1, 0, 0}...
+28	Ça n’affecte pas {STRVAR_1 1, 0, 0} sauvage...
+29	Ça n’affecte pas {STRVAR_1 1, 0, 0} ennemi...
+30	{STRVAR_1 1, 0, 0} est K.O. !\r
+31	{STRVAR_1 1, 0, 0} sauvage est K.O. !\r
+32	{STRVAR_1 1, 0, 0} ennemi est K.O. !\r
+33	{STRVAR_1 3, 0, 0} gagne {STRVAR_1 54, 1, 0} $ pour sa\nvictoire !\r
+34	{STRVAR_1 3, 0, 0} panique et perd {STRVAR_1 54, 1, 0}\n$ !\r
+35	{STRVAR_1 3, 0, 0} donne {STRVAR_1 54, 1, 0} $ au\ngagnant.\r
+36	{STRVAR_1 3, 0, 0} n’a plus de Pokémon en état\nde se battre !\r
+37	{STRVAR_1 3, 0, 0} est hors jeu !\r
+39	{STRVAR_1 1, 0, 0} empêche la fuite grâce à\n{STRVAR_1 5, 1, 0} !\r
+40	{STRVAR_1 1, 0, 0} sauvage empêche la fuite\ngrâce à {STRVAR_1 5, 1, 0} !\r
+41	{STRVAR_1 1, 0, 0} ennemi empêche la fuite\ngrâce à {STRVAR_1 5, 1, 0} !\r
+42	Impossible de fuir !\r
+43	{STRVAR_1 1, 0, 0} ne peut pas fuir !\r
+44	{STRVAR_1 1, 0, 0} sauvage ne peut pas fuir !\r
+45	{STRVAR_1 1, 0, 0} ennemi ne peut pas fuir !\r
+46	Touché {STRVAR_1 50, 0, 0} fois !
+47	{STRVAR_1 1, 0, 0} s’endort !
+48	{STRVAR_1 1, 0, 0} sauvage s’endort !
+49	{STRVAR_1 1, 0, 0} ennemi s’endort !
+50	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} endort\n{STRVAR_1 1, 2, 0} !
+51	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} endort\n{STRVAR_1 1, 2, 0} sauvage !
+52	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} endort\n{STRVAR_1 1, 2, 0} ennemi !
+53	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nendort {STRVAR_1 1, 2, 0} !
+54	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nendort {STRVAR_1 1, 2, 0} sauvage !
+55	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nendort {STRVAR_1 1, 2, 0} !
+56	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nendort {STRVAR_1 1, 2, 0} ennemi !
+57	{STRVAR_1 1, 0, 0} dort déjà !
+58	{STRVAR_1 1, 0, 0} sauvage dort déjà !
+59	{STRVAR_1 1, 0, 0} ennemi dort déjà !
+60	{STRVAR_1 1, 0, 0} n’est pas affecté !
+61	{STRVAR_1 1, 0, 0} sauvage n’est pas affecté !
+62	{STRVAR_1 1, 0, 0} ennemi n’est pas affecté !
+63	{STRVAR_1 1, 0, 0} est empoisonné !
+64	{STRVAR_1 1, 0, 0} sauvage est empoisonné !
+65	{STRVAR_1 1, 0, 0} ennemi est empoisonné !
+66	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empoisonne\n{STRVAR_1 1, 2, 0} !
+67	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empoisonne\n{STRVAR_1 1, 2, 0} sauvage !
+68	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empoisonne\n{STRVAR_1 1, 2, 0} ennemi !
+69	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempoisonne {STRVAR_1 1, 2, 0} !
+70	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempoisonne {STRVAR_1 1, 2, 0} sauvage !
+71	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempoisonne {STRVAR_1 1, 2, 0} !
+72	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempoisonne {STRVAR_1 1, 2, 0} ennemi !
+73	{STRVAR_1 1, 0, 0} souffre du poison !
+74	{STRVAR_1 1, 0, 0} sauvage souffre du poison !
+75	{STRVAR_1 1, 0, 0} ennemi souffre du poison !
+76	{STRVAR_1 1, 0, 0} est déjà empoisonné.
+77	{STRVAR_1 1, 0, 0} sauvage est déjà\nempoisonné.
+78	{STRVAR_1 1, 0, 0} ennemi est déjà empoisonné.
+79	{STRVAR_1 1, 0, 0} est gravement empoisonné !
+80	{STRVAR_1 1, 0, 0} sauvage est gravement\nempoisonné !
+81	{STRVAR_1 1, 0, 0} ennemi est gravement\nempoisonné !
+82	{STRVAR_1 1, 0, 0} perd de l’énergie !
+83	{STRVAR_1 1, 0, 0} sauvage perd de l’énergie !
+84	{STRVAR_1 1, 0, 0} ennemi perd de l’énergie !
+85	{STRVAR_1 1, 0, 0} est brûlé !
+86	{STRVAR_1 1, 0, 0} sauvage est brûlé !
+87	{STRVAR_1 1, 0, 0} ennemi est brûlé !
+88	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} brûle\n{STRVAR_1 1, 2, 0} !
+89	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} brûle\n{STRVAR_1 1, 2, 0} sauvage !
+90	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} brûle\n{STRVAR_1 1, 2, 0} ennemi !
+91	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbrûle {STRVAR_1 1, 2, 0} !
+92	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbrûle {STRVAR_1 1, 2, 0} sauvage !
+93	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi brûle\n{STRVAR_1 1, 2, 0} !
+94	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi brûle\n{STRVAR_1 1, 2, 0} ennemi !
+95	{STRVAR_1 1, 0, 0} souffre de sa brûlure !
+96	{STRVAR_1 1, 0, 0} sauvage souffre de sa\nbrûlure !
+97	{STRVAR_1 1, 0, 0} ennemi souffre de sa\nbrûlure !
+98	{STRVAR_1 1, 0, 0} est déjà brûlé.
+99	{STRVAR_1 1, 0, 0} sauvage est déjà brûlé.
+100	{STRVAR_1 1, 0, 0} ennemi est déjà brûlé.
+101	{STRVAR_1 1, 0, 0} est gelé !
+102	{STRVAR_1 1, 0, 0} sauvage est gelé !
+103	{STRVAR_1 1, 0, 0} ennemi est gelé !
+104	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} gèle\n{STRVAR_1 1, 2, 0} !
+105	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} gèle\n{STRVAR_1 1, 2, 0} sauvage !
+106	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} gèle\n{STRVAR_1 1, 2, 0} ennemi !
+107	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage gèle\n{STRVAR_1 1, 2, 0} !
+108	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage gèle\n{STRVAR_1 1, 2, 0} sauvage !
+109	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi gèle\n{STRVAR_1 1, 2, 0} !
+110	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi gèle\n{STRVAR_1 1, 2, 0} ennemi !
+111	{STRVAR_1 1, 0, 0} est gelé !
+112	{STRVAR_1 1, 0, 0} sauvage est gelé !
+113	{STRVAR_1 1, 0, 0} ennemi est gelé !
+114	{STRVAR_1 1, 0, 0} dégèle !
+115	{STRVAR_1 1, 0, 0} sauvage dégèle !
+116	{STRVAR_1 1, 0, 0} ennemi dégèle !
+117	{STRVAR_1 6, 1, 0} dégèle {STRVAR_1 1, 0, 0} !
+118	{STRVAR_1 6, 1, 0} dégèle {STRVAR_1 1, 0, 0}\nsauvage !
+119	{STRVAR_1 6, 1, 0} dégèle {STRVAR_1 1, 0, 0} ennemi !
+120	{STRVAR_1 1, 0, 0} est paralysé ! Il aura du\nmal à attaquer !
+121	{STRVAR_1 1, 0, 0} sauvage est paralysé ! Il\naura du mal à attaquer !
+122	{STRVAR_1 1, 0, 0} ennemi est paralysé ! Il\naura du mal à attaquer !
+123	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} paralyse\n{STRVAR_1 1, 2, 0} ! Il aura du mal à\fattaquer !
+124	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} paralyse\n{STRVAR_1 1, 2, 0} sauvage ! Il aura du mal à\fattaquer !
+125	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} paralyse\n{STRVAR_1 1, 2, 0} ennemi ! Il aura du mal à\fattaquer !
+126	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nparalyse {STRVAR_1 1, 2, 0} ! Il aura du mal à\fattaquer !
+127	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nparalyse {STRVAR_1 1, 2, 0} sauvage ! Il aura\fdu mal à attaquer !
+128	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nparalyse {STRVAR_1 1, 2, 0} ! Il aura du mal à\fattaquer !
+129	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nparalyse {STRVAR_1 1, 2, 0} ennemi ! Il aura du\fmal à attaquer !
+130	{STRVAR_1 1, 0, 0} est paralysé ! Il ne peut\npas attaquer !
+131	{STRVAR_1 1, 0, 0} sauvage est paralysé ! Il\nne peut pas attaquer !
+132	{STRVAR_1 1, 0, 0} ennemi est paralysé ! Il ne\npeut pas attaquer !
+133	{STRVAR_1 1, 0, 0} est déjà paralysé !
+134	{STRVAR_1 1, 0, 0} sauvage est déjà paralysé !
+135	{STRVAR_1 1, 0, 0} ennemi est déjà paralysé !
+136	{STRVAR_1 1, 0, 0} n’est plus paralysé !
+137	{STRVAR_1 1, 0, 0} sauvage n’est plus\nparalysé !
+138	{STRVAR_1 1, 0, 0} ennemi n’est plus paralysé !
+139	Le rêve de {STRVAR_1 1, 0, 0} est dévoré !
+140	Le rêve de {STRVAR_1 1, 0, 0} sauvage est\ndévoré !
+141	Le rêve de {STRVAR_1 1, 0, 0} ennemi est\ndévoré !
+142	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ne peut plus\nmonter !
+143	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} sauvage ne\npeut plus monter !
+144	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ennemi ne\npeut plus monter !
+145	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ne peut plus\nbaisser !
+146	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} sauvage ne\npeut plus baisser !
+147	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ennemi ne\npeut plus baisser !
+148	L’effet de {STRVAR_1 6, 0, 0} prend fin pour\nvotre équipe !
+149	L’effet de {STRVAR_1 6, 0, 0} prend fin pour\nl’équipe adverse !
+150	{STRVAR_1 1, 0, 0} est confus !
+151	{STRVAR_1 1, 0, 0} sauvage est confus !
+152	{STRVAR_1 1, 0, 0} ennemi est confus !
+153	{STRVAR_1 1, 0, 0} n’est plus confus !
+154	{STRVAR_1 1, 0, 0} sauvage n’est plus confus !
+155	{STRVAR_1 1, 0, 0} ennemi n’est plus confus !
+156	{STRVAR_1 1, 0, 0} devient confus !
+157	{STRVAR_1 1, 0, 0} sauvage devient confus !
+158	{STRVAR_1 1, 0, 0} ennemi devient confus !
+159	{STRVAR_1 1, 0, 0} est déjà confus !
+160	{STRVAR_1 1, 0, 0} sauvage est déjà confus !
+161	{STRVAR_1 1, 0, 0} ennemi est déjà confus !
+162	{STRVAR_1 1, 0, 0} tombe amoureux !
+163	{STRVAR_1 1, 0, 0} sauvage tombe amoureux !
+164	{STRVAR_1 1, 0, 0} ennemi tombe amoureux !
+165	{STRVAR_1 1, 0, 0} est amoureux de\n{STRVAR_1 1, 1, 0} !
+166	{STRVAR_1 1, 0, 0} est amoureux de {STRVAR_1 1, 1, 0}\nsauvage !
+167	{STRVAR_1 1, 0, 0} est amoureux de {STRVAR_1 1, 1, 0}\nennemi !
+168	{STRVAR_1 1, 0, 0} sauvage est amoureux de\n{STRVAR_1 1, 1, 0} !
+169	{STRVAR_1 1, 0, 0} sauvage est amoureux de\n{STRVAR_1 1, 1, 0} sauvage !
+170	{STRVAR_1 1, 0, 0} ennemi est amoureux de\n{STRVAR_1 1, 1, 0} !
+171	{STRVAR_1 1, 0, 0} ennemi est amoureux de\n{STRVAR_1 1, 1, 0} ennemi !
+172	L’amour empêche {STRVAR_1 1, 0, 0}\nd’attaquer !
+173	L’amour empêche {STRVAR_1 1, 0, 0} sauvage\nd’attaquer !
+174	L’amour empêche {STRVAR_1 1, 0, 0} ennemi\nd’attaquer !
+175	{STRVAR_1 1, 0, 0} est éjecté !
+176	{STRVAR_1 1, 0, 0} sauvage est éjecté !
+177	{STRVAR_1 1, 0, 0} ennemi est éjecté !
+178	{STRVAR_1 1, 0, 0} devient du type\n{STRVAR_1 15, 1, 0} !
+179	{STRVAR_1 1, 0, 0} sauvage devient du type\n{STRVAR_1 15, 1, 0} !
+180	{STRVAR_1 1, 0, 0} ennemi devient du type\n{STRVAR_1 15, 1, 0} !
+181	{STRVAR_1 1, 0, 0} a peur !
+182	{STRVAR_1 1, 0, 0} sauvage a peur !
+183	{STRVAR_1 1, 0, 0} ennemi a peur !
+184	{STRVAR_1 1, 0, 0} récupère des PV !
+185	{STRVAR_1 1, 0, 0} sauvage récupère des PV !
+186	{STRVAR_1 1, 0, 0} ennemi récupère des PV !
+187	Les PV de {STRVAR_1 1, 0, 0} sont au maximum !
+188	Les PV de {STRVAR_1 1, 0, 0} sauvage sont au\nmaximum !
+189	Les PV de {STRVAR_1 1, 0, 0} ennemi sont au\nmaximum !
+190	{STRVAR_1 6, 0, 0} augmente la Défense\nSpéciale de votre équipe !
+191	{STRVAR_1 6, 0, 0} augmente la Défense\nSpéciale de l’équipe adverse !
+192	{STRVAR_1 6, 0, 0} augmente un peu la Défense\nSpéciale de votre équipe !
+193	{STRVAR_1 6, 0, 0} augmente un peu la Défense\nSpéciale de l’équipe adverse !
+194	{STRVAR_1 6, 0, 0} augmente la Défense de\nvotre équipe !
+195	{STRVAR_1 6, 0, 0} augmente la Défense de\nl’équipe adverse !
+196	{STRVAR_1 6, 0, 0} augmente un peu la Défense\nde votre équipe !
+197	{STRVAR_1 6, 0, 0} augmente un peu la Défense\nde l’équipe adverse !
+198	Votre équipe est protégée par un voile\nmystique !
+199	L’équipe adverse est protégée par un\nvoile mystique !
+200	{STRVAR_1 1, 0, 0} est protégé par Rune\nProtect !
+201	{STRVAR_1 1, 0, 0} sauvage est protégé par\nRune Protect !
+202	{STRVAR_1 1, 0, 0} ennemi est protégé par Rune\nProtect !
+203	Votre équipe n’est plus protégée par\nRune Protect !
+204	L’ennemi n’est plus protégé par Rune\nProtect !
+205	{STRVAR_1 1, 0, 0} s’endort !
+206	{STRVAR_1 1, 0, 0} sauvage s’endort !
+207	{STRVAR_1 1, 0, 0} ennemi s’endort !
+208	{STRVAR_1 1, 0, 0} dort et retrouve la forme !
+209	{STRVAR_1 1, 0, 0} sauvage dort et retrouve la\nforme !
+210	{STRVAR_1 1, 0, 0} ennemi dort et retrouve la\nforme !
+211	{STRVAR_1 1, 0, 0} déclenche un tourbillon !
+212	{STRVAR_1 1, 0, 0} sauvage déclenche un\ntourbillon !
+213	{STRVAR_1 1, 0, 0} ennemi déclenche un\ntourbillon !
+214	{STRVAR_1 1, 0, 0} absorbe la lumière !
+215	{STRVAR_1 1, 0, 0} sauvage absorbe la\nlumière !
+216	{STRVAR_1 1, 0, 0} ennemi absorbe la lumière !
+217	{STRVAR_1 1, 0, 0} rentre la tête !
+218	{STRVAR_1 1, 0, 0} sauvage rentre la tête !
+219	{STRVAR_1 1, 0, 0} ennemi rentre la tête !
+220	{STRVAR_1 1, 0, 0} s’entoure d’une lumière\nvive !
+221	{STRVAR_1 1, 0, 0} sauvage s’entoure d’une\nlumière vive !
+222	{STRVAR_1 1, 0, 0} ennemi s’entoure d’une\nlumière vive !
+223	{STRVAR_1 1, 0, 0} s’envole !
+224	{STRVAR_1 1, 0, 0} sauvage s’envole !
+225	{STRVAR_1 1, 0, 0} ennemi s’envole !
+226	{STRVAR_1 1, 0, 0} s’enfonce dans le sol !
+227	{STRVAR_1 1, 0, 0} sauvage s’enfonce dans le\nsol !
+228	{STRVAR_1 1, 0, 0} ennemi s’enfonce dans le\nsol !
+229	{STRVAR_1 1, 0, 0} se cache sous l’eau !
+230	{STRVAR_1 1, 0, 0} sauvage se cache sous\nl’eau !
+231	{STRVAR_1 1, 0, 0} ennemi se cache sous l’eau !
+232	{STRVAR_1 1, 0, 0} bondit !
+233	{STRVAR_1 1, 0, 0} sauvage bondit !
+234	{STRVAR_1 1, 0, 0} ennemi bondit !
+235	{STRVAR_1 1, 0, 0} est écrasé par\n{STRVAR_1 1, 1, 0} !
+236	{STRVAR_1 1, 0, 0} est écrasé par {STRVAR_1 1, 1, 0}\nsauvage !
+237	{STRVAR_1 1, 0, 0} est écrasé par {STRVAR_1 1, 1, 0}\nennemi !
+238	{STRVAR_1 1, 0, 0} sauvage est écrasé par\n{STRVAR_1 1, 1, 0} !
+239	{STRVAR_1 1, 0, 0} sauvage est écrasé par\n{STRVAR_1 1, 1, 0} sauvage !
+240	{STRVAR_1 1, 0, 0} ennemi est écrasé par\n{STRVAR_1 1, 1, 0} !
+241	{STRVAR_1 1, 0, 0} ennemi est écrasé par\n{STRVAR_1 1, 1, 0} ennemi !
+242	{STRVAR_1 1, 0, 0} est piégé dans le\ntourbillon !
+243	{STRVAR_1 1, 0, 0} sauvage est piégé dans le\ntourbillon !
+244	{STRVAR_1 1, 0, 0} ennemi est piégé dans le\ntourbillon !
+245	{STRVAR_1 1, 0, 0} est piégé par Tourbi-Sable !
+246	{STRVAR_1 1, 0, 0} sauvage est piégé par\nTourbi-Sable !
+247	{STRVAR_1 1, 0, 0} ennemi est piégé par\nTourbi-Sable !
+248	{STRVAR_1 1, 0, 0} est ligoté par {STRVAR_1 1, 1, 0} !
+249	{STRVAR_1 1, 0, 0} est ligoté par {STRVAR_1 1, 1, 0}\nsauvage !
+250	{STRVAR_1 1, 0, 0} est ligoté par {STRVAR_1 1, 1, 0}\nennemi !
+251	{STRVAR_1 1, 0, 0} sauvage est ligoté par\n{STRVAR_1 1, 1, 0} !
+252	{STRVAR_1 1, 0, 0} sauvage est ligoté par\n{STRVAR_1 1, 1, 0} sauvage !
+253	{STRVAR_1 1, 0, 0} ennemi est ligoté par\n{STRVAR_1 1, 1, 0} !
+254	{STRVAR_1 1, 0, 0} ennemi est ligoté par\n{STRVAR_1 1, 1, 0} ennemi !
+255	{STRVAR_1 1, 1, 0} serre {STRVAR_1 1, 0, 0} dans sa\npince !
+256	{STRVAR_1 1, 1, 0} sauvage serre {STRVAR_1 1, 0, 0}\ndans sa pince !
+257	{STRVAR_1 1, 1, 0} ennemi serre {STRVAR_1 1, 0, 0}\ndans sa pince !
+258	{STRVAR_1 1, 1, 0} serre {STRVAR_1 1, 0, 0} sauvage\ndans sa pince !
+259	{STRVAR_1 1, 1, 0} sauvage serre {STRVAR_1 1, 0, 0}\nsauvage dans sa pince !
+260	{STRVAR_1 1, 1, 0} serre {STRVAR_1 1, 0, 0} ennemi\ndans sa pince !
+261	{STRVAR_1 1, 1, 0} ennemi serre {STRVAR_1 1, 0, 0}\nennemi dans sa pince !
+262	{STRVAR_1 1, 0, 0} est blessé par {STRVAR_1 6, 1, 0} !
+263	{STRVAR_1 1, 0, 0} sauvage est blessé par\n{STRVAR_1 6, 1, 0} !
+264	{STRVAR_1 1, 0, 0} ennemi est blessé par\n{STRVAR_1 6, 1, 0} !
+265	{STRVAR_1 1, 0, 0} se libère de {STRVAR_1 6, 1, 0} !
+266	{STRVAR_1 1, 0, 0} sauvage se libère de\n{STRVAR_1 6, 1, 0} !
+267	{STRVAR_1 1, 0, 0} ennemi se libère de\n{STRVAR_1 6, 1, 0} !
+268	{STRVAR_1 1, 0, 0} rate son coup et s’écrase !
+269	{STRVAR_1 1, 0, 0} sauvage rate son coup et\ns’écrase !
+270	{STRVAR_1 1, 0, 0} ennemi rate son coup et\ns’écrase !
+271	Votre équipe est enveloppée de brume !
+272	L’équipe adverse est enveloppée de\nbrume !
+273	{STRVAR_1 1, 0, 0} est protégé par la brume !
+274	{STRVAR_1 1, 0, 0} sauvage est protégé par la\nbrume !
+275	{STRVAR_1 1, 0, 0} ennemi est protégé par la\nbrume !
+276	{STRVAR_1 1, 0, 0} se gonfle à bloc !
+277	{STRVAR_1 1, 0, 0} sauvage se gonfle à bloc !
+278	{STRVAR_1 1, 0, 0} ennemi se gonfle à bloc !
+279	{STRVAR_1 1, 0, 0} subit le contrecoup !
+280	{STRVAR_1 1, 0, 0} sauvage subit le\ncontrecoup !
+281	{STRVAR_1 1, 0, 0} ennemi subit le contrecoup !
+282	{STRVAR_1 1, 0, 0} se protège !
+283	{STRVAR_1 1, 0, 0} sauvage se protège !
+284	{STRVAR_1 1, 0, 0} ennemi se protège !
+285	{STRVAR_1 1, 1, 0} subit {STRVAR_1 6, 0, 0} !
+286	{STRVAR_1 1, 1, 0} sauvage subit {STRVAR_1 6, 0, 0} !
+287	{STRVAR_1 1, 1, 0} ennemi subit {STRVAR_1 6, 0, 0} !
+288	{STRVAR_1 6, 0, 0} prend fin pour votre\néquipe !
+289	{STRVAR_1 6, 0, 0} prend fin pour l’équipe\nadverse !
+290	{STRVAR_1 1, 0, 0} est infecté par des\ngraines !
+291	{STRVAR_1 1, 0, 0} sauvage est infecté par des\ngraines !
+292	{STRVAR_1 1, 0, 0} ennemi est infecté par des\ngraines !
+293	{STRVAR_1 1, 0, 0} esquive l’attaque !
+294	{STRVAR_1 1, 0, 0} sauvage esquive l’attaque !
+295	{STRVAR_1 1, 0, 0} ennemi esquive l’attaque !
+296	Vampigraine draine l’énergie de\n{STRVAR_1 1, 0, 0} !
+297	Vampigraine draine l’énergie de\n{STRVAR_1 1, 0, 0} sauvage !
+298	Vampigraine draine l’énergie de\n{STRVAR_1 1, 0, 0} ennemi !
+299	{STRVAR_1 1, 0, 0} dort profondément.
+300	{STRVAR_1 1, 0, 0} sauvage dort profondément.
+301	{STRVAR_1 1, 0, 0} ennemi dort profondément.
+302	{STRVAR_1 1, 0, 0} se réveille !
+303	{STRVAR_1 1, 0, 0} sauvage se réveille !
+304	{STRVAR_1 1, 0, 0} ennemi se réveille !
+305	Le brouhaha réveille {STRVAR_1 1, 0, 0} !
+306	Le brouhaha réveille {STRVAR_1 1, 0, 0}\nsauvage !
+307	Le brouhaha réveille {STRVAR_1 1, 0, 0}\nennemi !
+308	{STRVAR_1 1, 0, 0} provoque un brouhaha !
+309	{STRVAR_1 1, 0, 0} sauvage provoque un\nbrouhaha !
+310	{STRVAR_1 1, 0, 0} ennemi provoque un\nbrouhaha !
+311	{STRVAR_1 1, 0, 0} fait du brouhaha !
+312	{STRVAR_1 1, 0, 0} sauvage fait du brouhaha !
+313	{STRVAR_1 1, 0, 0} ennemi fait du brouhaha !
+314	{STRVAR_1 1, 0, 0} se calme.
+315	{STRVAR_1 1, 0, 0} sauvage se calme.
+316	{STRVAR_1 1, 0, 0} ennemi se calme.
+317	{STRVAR_1 1, 0, 0} stocke : {STRVAR_1 50, 1, 0} !
+318	{STRVAR_1 1, 0, 0} sauvage stocke :\n{STRVAR_1 50, 1, 0} !
+319	{STRVAR_1 1, 0, 0} ennemi stocke :\n{STRVAR_1 50, 1, 0} !
+320	{STRVAR_1 1, 0, 0} ne peut plus rien stocker !
+321	{STRVAR_1 1, 0, 0} sauvage ne peut plus rien\nstocker !
+322	{STRVAR_1 1, 0, 0} ennemi ne peut plus rien\nstocker !
+323	Mais {STRVAR_1 1, 0, 0} ne peut pas dormir dans\nce brouhaha !
+324	Mais {STRVAR_1 1, 0, 0} sauvage ne peut pas\ndormir dans ce brouhaha !
+325	Mais {STRVAR_1 1, 0, 0} ennemi ne peut pas\ndormir dans ce brouhaha !
+326	Mais le brouhaha empêche {STRVAR_1 1, 0, 0} de\ndormir !
+327	Mais le brouhaha empêche {STRVAR_1 1, 0, 0}\nsauvage de dormir !
+328	Mais le brouhaha empêche {STRVAR_1 1, 0, 0}\nennemi de dormir !
+329	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} de\ns’endormir !
+330	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} sauvage\nde s’endormir !
+331	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} ennemi\nde s’endormir !
+332	{STRVAR_1 1, 0, 0} accumule de l’énergie !
+333	{STRVAR_1 1, 0, 0} sauvage accumule de\nl’énergie !
+334	{STRVAR_1 1, 0, 0} ennemi accumule de\nl’énergie !
+335	{STRVAR_1 1, 0, 0} libère son énergie !
+336	{STRVAR_1 1, 0, 0} sauvage libère son énergie !
+337	{STRVAR_1 1, 0, 0} ennemi libère son énergie !
+338	La fatigue rend {STRVAR_1 1, 0, 0} confus !
+339	La fatigue rend {STRVAR_1 1, 0, 0} sauvage\nconfus !
+340	La fatigue rend {STRVAR_1 1, 0, 0} ennemi\nconfus !
+341	{STRVAR_1 3, 0, 0} ramasse {STRVAR_1 54, 1, 0} $ !\r
+342	{STRVAR_1 1, 0, 0} n’est pas affecté !
+343	{STRVAR_1 1, 0, 0} sauvage n’est pas affecté !
+344	{STRVAR_1 1, 0, 0} ennemi n’est pas affecté !
+345	{STRVAR_1 1, 0, 0} se transforme en\n{STRVAR_1 0, 1, 0} !
+346	{STRVAR_1 1, 0, 0} sauvage se transforme en\n{STRVAR_1 0, 1, 0} !
+347	{STRVAR_1 1, 0, 0} ennemi se transforme en\n{STRVAR_1 0, 1, 0} !
+348	{STRVAR_1 1, 0, 0} crée un clone !
+349	{STRVAR_1 1, 0, 0} sauvage crée un clone !
+350	{STRVAR_1 1, 0, 0} ennemi crée un clone !
+351	{STRVAR_1 1, 0, 0} a déjà un clone !
+352	{STRVAR_1 1, 0, 0} sauvage a déjà un clone !
+353	{STRVAR_1 1, 0, 0} ennemi a déjà un clone !
+354	Le clone encaisse les dégâts à la place\nde {STRVAR_1 1, 0, 0} !\r
+355	Le clone encaisse les dégâts à la place\nde {STRVAR_1 1, 0, 0} sauvage !\r
+356	Le clone encaisse les dégâts à la place\nde {STRVAR_1 1, 0, 0} ennemi !\r
+357	Le clone de {STRVAR_1 1, 0, 0} disparaît !\r
+358	Le clone de {STRVAR_1 1, 0, 0} sauvage\ndisparaît !\r
+359	Le clone de {STRVAR_1 1, 0, 0} ennemi\ndisparaît !\r
+360	{STRVAR_1 1, 0, 0} doit se recharger !
+361	{STRVAR_1 1, 0, 0} sauvage doit se recharger !
+362	{STRVAR_1 1, 0, 0} ennemi doit se recharger !
+363	La rage de {STRVAR_1 1, 0, 0} augmente !
+364	La rage de {STRVAR_1 1, 0, 0} sauvage\naugmente !
+365	La rage de {STRVAR_1 1, 0, 0} ennemi\naugmente !
+366	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} est bloquée !
+367	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} sauvage est\nbloquée !
+368	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} ennemi est\nbloquée !
+369	{STRVAR_1 1, 0, 0} n’est plus entravé !
+370	{STRVAR_1 1, 0, 0} sauvage n’est plus\nentravé !
+371	{STRVAR_1 1, 0, 0} ennemi n’est plus entravé !
+372	{STRVAR_1 1, 0, 0} subit Encore !
+373	{STRVAR_1 1, 0, 0} sauvage subit Encore !
+374	{STRVAR_1 1, 0, 0} ennemi subit Encore !
+375	L’effet d’Encore sur {STRVAR_1 1, 0, 0} prend\nfin !
+376	L’effet d’Encore sur {STRVAR_1 1, 0, 0}\nsauvage prend fin !
+377	L’effet d’Encore sur {STRVAR_1 1, 0, 0} ennemi\nprend fin !
+378	{STRVAR_1 1, 0, 0} vise {STRVAR_1 1, 1, 0} !
+379	{STRVAR_1 1, 0, 0} vise {STRVAR_1 1, 1, 0} sauvage !
+380	{STRVAR_1 1, 0, 0} vise {STRVAR_1 1, 1, 0} ennemi !
+381	{STRVAR_1 1, 0, 0} sauvage vise {STRVAR_1 1, 1, 0} !
+382	{STRVAR_1 1, 0, 0} sauvage vise {STRVAR_1 1, 1, 0}\nsauvage !
+383	{STRVAR_1 1, 0, 0} ennemi vise {STRVAR_1 1, 1, 0} !
+384	{STRVAR_1 1, 0, 0} ennemi vise {STRVAR_1 1, 1, 0}\nennemi !
+385	{STRVAR_1 1, 0, 0} gribouille {STRVAR_1 6, 1, 0} !
+386	{STRVAR_1 1, 0, 0} sauvage gribouille\n{STRVAR_1 6, 1, 0} !
+387	{STRVAR_1 1, 0, 0} ennemi gribouille\n{STRVAR_1 6, 1, 0} !
+388	{STRVAR_1 1, 0, 0} veut entraîner son ennemi\navec lui !
+389	{STRVAR_1 1, 0, 0} sauvage veut entraîner son\nennemi avec lui !
+390	{STRVAR_1 1, 0, 0} ennemi veut entraîner son\nennemi avec lui !
+391	{STRVAR_1 1, 0, 0} entraîne {STRVAR_1 1, 1, 0} dans\nsa chute !
+392	{STRVAR_1 1, 0, 0} entraîne {STRVAR_1 1, 1, 0}\nsauvage dans sa chute !
+393	{STRVAR_1 1, 0, 0} entraîne {STRVAR_1 1, 1, 0} ennemi\ndans sa chute !
+394	{STRVAR_1 1, 0, 0} sauvage entraîne\n{STRVAR_1 1, 1, 0} dans sa chute !
+395	{STRVAR_1 1, 0, 0} sauvage entraîne\n{STRVAR_1 1, 1, 0} sauvage dans sa chute !
+396	{STRVAR_1 1, 0, 0} ennemi entraîne {STRVAR_1 1, 1, 0}\ndans sa chute !
+397	{STRVAR_1 1, 0, 0} ennemi entraîne {STRVAR_1 1, 1, 0}\nennemi dans sa chute !
+398	Les PP de {STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0}\nbaissent de {STRVAR_1 50, 2, 0} !
+399	Les PP de {STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0}\nsauvage baissent de {STRVAR_1 50, 2, 0} !
+400	Les PP de {STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0}\nennemi baissent de {STRVAR_1 50, 2, 0} !
+401	{STRVAR_1 1, 0, 0} vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+402	{STRVAR_1 1, 0, 0} vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} sauvage !
+403	{STRVAR_1 1, 0, 0} vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+404	{STRVAR_1 1, 0, 0} sauvage vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+405	{STRVAR_1 1, 0, 0} sauvage vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} sauvage !
+406	{STRVAR_1 1, 0, 0} ennemi vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+407	{STRVAR_1 1, 0, 0} ennemi vole {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+408	{STRVAR_1 1, 0, 0} ne peut plus fuir !
+409	{STRVAR_1 1, 0, 0} sauvage ne peut plus fuir !
+410	{STRVAR_1 1, 0, 0} ennemi ne peut plus fuir !
+411	{STRVAR_1 1, 0, 0} commence à cauchemarder !
+412	{STRVAR_1 1, 0, 0} sauvage commence à\ncauchemarder !
+413	{STRVAR_1 1, 0, 0} ennemi commence à\ncauchemarder !
+414	{STRVAR_1 1, 0, 0} est prisonnier d’un\ncauchemar !
+415	{STRVAR_1 1, 0, 0} sauvage est prisonnier d’un\ncauchemar !
+416	{STRVAR_1 1, 0, 0} ennemi est prisonnier d’un\ncauchemar !
+417	{STRVAR_1 1, 0, 0} sacrifie des PV pour maudire\n{STRVAR_1 1, 1, 0} !
+418	{STRVAR_1 1, 0, 0} sacrifie des PV pour maudire\n{STRVAR_1 1, 1, 0} sauvage !
+419	{STRVAR_1 1, 0, 0} sacrifie des PV pour maudire\n{STRVAR_1 1, 1, 0} ennemi !
+420	{STRVAR_1 1, 0, 0} sauvage sacrifie des PV\npour maudire {STRVAR_1 1, 1, 0} !
+421	{STRVAR_1 1, 0, 0} sauvage sacrifie des PV\npour maudire {STRVAR_1 1, 1, 0} sauvage !
+422	{STRVAR_1 1, 0, 0} ennemi sacrifie des PV pour\nmaudire {STRVAR_1 1, 1, 0} !
+423	{STRVAR_1 1, 0, 0} ennemi sacrifie des PV pour\nmaudire {STRVAR_1 1, 1, 0} ennemi !
+424	{STRVAR_1 1, 0, 0} est touché par la\nmalédiction !
+425	{STRVAR_1 1, 0, 0} sauvage est touché par la\nmalédiction !
+426	{STRVAR_1 1, 0, 0} ennemi est touché par la\nmalédiction !
+427	Des picots s’éparpillent autour de\nvotre équipe !
+428	Des picots s’éparpillent autour de\nl’équipe adverse !
+429	{STRVAR_1 1, 0, 0} est blessé par les picots !
+430	{STRVAR_1 1, 0, 0} sauvage est blessé par les\npicots !
+431	{STRVAR_1 1, 0, 0} ennemi est blessé par les\npicots !
+432	{STRVAR_1 1, 0, 0} identifie {STRVAR_1 1, 1, 0} !
+433	{STRVAR_1 1, 0, 0} identifie {STRVAR_1 1, 1, 0}\nsauvage !
+434	{STRVAR_1 1, 0, 0} identifie {STRVAR_1 1, 1, 0}\nennemi !
+435	{STRVAR_1 1, 0, 0} sauvage identifie\n{STRVAR_1 1, 1, 0} !
+436	{STRVAR_1 1, 0, 0} sauvage identifie\n{STRVAR_1 1, 1, 0} sauvage !
+437	{STRVAR_1 1, 0, 0} ennemi identifie\n{STRVAR_1 1, 1, 0} !
+438	{STRVAR_1 1, 0, 0} ennemi identifie {STRVAR_1 1, 1, 0}\nennemi !
+439	Le compte à rebours de {STRVAR_1 1, 0, 0}\npasse à {STRVAR_1 50, 1, 0} !
+440	Le compte à rebours de {STRVAR_1 1, 0, 0}\nsauvage passe à {STRVAR_1 50, 1, 0} !
+441	Le compte à rebours de {STRVAR_1 1, 0, 0}\nennemi passe à {STRVAR_1 50, 1, 0} !
+442	{STRVAR_1 1, 0, 0} se prépare au choc !
+443	{STRVAR_1 1, 0, 0} sauvage se prépare au\nchoc !
+444	{STRVAR_1 1, 0, 0} ennemi se prépare au choc !
+445	{STRVAR_1 1, 0, 0} encaisse le coup !
+446	{STRVAR_1 1, 0, 0} sauvage encaisse le coup !
+447	{STRVAR_1 1, 0, 0} ennemi encaisse le coup !
+448	Ampleur {STRVAR_1 50, 0, 0} !
+449	{STRVAR_1 1, 0, 0} sacrifie des PV et maximise\nson Attaque !
+450	{STRVAR_1 1, 0, 0} sauvage sacrifie des PV et\nmaximise son Attaque !
+451	{STRVAR_1 1, 0, 0} ennemi sacrifie des PV et\nmaximise son Attaque !
+452	{STRVAR_1 1, 0, 0} copie les changements de\nstats de {STRVAR_1 1, 1, 0} !
+453	{STRVAR_1 1, 0, 0} copie les changements de\nstats de {STRVAR_1 1, 1, 0} sauvage !
+454	{STRVAR_1 1, 0, 0} copie les changements de\nstats de {STRVAR_1 1, 1, 0} ennemi !
+455	{STRVAR_1 1, 0, 0} sauvage copie les\nchangements de stats de {STRVAR_1 1, 1, 0} !
+456	{STRVAR_1 1, 0, 0} sauvage copie les\nchangements de stats de {STRVAR_1 1, 1, 0}\fsauvage !
+457	{STRVAR_1 1, 0, 0} ennemi copie les\nchangements de stats de {STRVAR_1 1, 1, 0} !
+458	{STRVAR_1 1, 0, 0} ennemi copie les\nchangements de stats de {STRVAR_1 1, 1, 0}\fennemi !
+459	{STRVAR_1 1, 0, 0} se libère de {STRVAR_1 6, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+460	{STRVAR_1 1, 0, 0} se libère de {STRVAR_1 6, 2, 0} de\n{STRVAR_1 1, 1, 0} sauvage !
+461	{STRVAR_1 1, 0, 0} se libère de {STRVAR_1 6, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+462	{STRVAR_1 1, 0, 0} sauvage se libère de\n{STRVAR_1 6, 2, 0} de {STRVAR_1 1, 1, 0} !
+463	{STRVAR_1 1, 0, 0} sauvage se libère de\n{STRVAR_1 6, 2, 0} de {STRVAR_1 1, 1, 0} sauvage !
+464	{STRVAR_1 1, 0, 0} ennemi se libère de\n{STRVAR_1 6, 2, 0} de {STRVAR_1 1, 1, 0} !
+465	{STRVAR_1 1, 0, 0} ennemi se libère de\n{STRVAR_1 6, 2, 0} de {STRVAR_1 1, 1, 0} ennemi !
+466	{STRVAR_1 1, 0, 0} se débarrasse de\n{STRVAR_1 6, 1, 0} !
+467	{STRVAR_1 1, 0, 0} sauvage se débarrasse de\n{STRVAR_1 6, 1, 0} !
+468	{STRVAR_1 1, 0, 0} ennemi se débarrasse de\n{STRVAR_1 6, 1, 0} !
+469	{STRVAR_1 1, 0, 0} prend la fuite !
+470	{STRVAR_1 1, 0, 0} sauvage prend la fuite !
+471	{STRVAR_1 1, 0, 0} ennemi prend la fuite !
+472	{STRVAR_1 1, 0, 0} prévoit une attaque !
+473	{STRVAR_1 1, 0, 0} sauvage prévoit une\nattaque !
+474	{STRVAR_1 1, 0, 0} ennemi prévoit une\nattaque !
+475	{STRVAR_1 1, 0, 0} subit l’attaque\n{STRVAR_1 6, 1, 0} !
+476	{STRVAR_1 1, 0, 0} sauvage subit l’attaque\n{STRVAR_1 6, 1, 0} !
+477	{STRVAR_1 1, 0, 0} ennemi subit l’attaque\n{STRVAR_1 6, 1, 0} !
+478	{STRVAR_1 1, 0, 0} invoque {STRVAR_1 6, 1, 0} pour\nl’avenir !
+479	{STRVAR_1 1, 0, 0} sauvage invoque {STRVAR_1 6, 1, 0}\npour l’avenir !
+480	{STRVAR_1 1, 0, 0} ennemi invoque {STRVAR_1 6, 1, 0}\npour l’avenir !
+481	Attaque de {STRVAR_1 1, 0, 0} !
+482	Attaque de {STRVAR_1 1, 0, 0} sauvage !
+483	Attaque de {STRVAR_1 1, 0, 0} ennemi !
+484	{STRVAR_1 1, 0, 0} devient le centre de\nl’attention !
+485	{STRVAR_1 1, 0, 0} sauvage devient le centre\nde l’attention !
+486	{STRVAR_1 1, 0, 0} ennemi devient le centre de\nl’attention !
+487	{STRVAR_1 1, 0, 0} se charge en énergie !
+488	{STRVAR_1 1, 0, 0} sauvage se charge en\nénergie !
+489	{STRVAR_1 1, 0, 0} ennemi se charge en\nénergie !
+490	{STRVAR_1 6, 0, 0} devient {STRVAR_1 6, 1, 0} !
+491	Le statut de {STRVAR_1 1, 0, 0} redevient\nnormal !
+492	Le statut de {STRVAR_1 1, 0, 0} sauvage\nredevient normal !
+493	Le statut de {STRVAR_1 1, 0, 0} ennemi\nredevient normal !
+494	{STRVAR_1 1, 0, 0} subit Tourmente !
+495	{STRVAR_1 1, 0, 0} sauvage subit Tourmente !
+496	{STRVAR_1 1, 0, 0} ennemi subit Tourmente !
+497	{STRVAR_1 1, 0, 0} se concentre au maximum !
+498	{STRVAR_1 1, 0, 0} sauvage se concentre au\nmaximum !
+499	{STRVAR_1 1, 0, 0} ennemi se concentre au\nmaximum !
+500	{STRVAR_1 1, 0, 0} répond à la provocation !
+501	{STRVAR_1 1, 0, 0} sauvage répond à la\nprovocation !
+502	{STRVAR_1 1, 0, 0} ennemi répond à la\nprovocation !
+503	{STRVAR_1 1, 0, 0} est prêt à aider\n{STRVAR_1 1, 1, 0} !
+504	{STRVAR_1 1, 0, 0} est prêt à aider {STRVAR_1 1, 1, 0}\nsauvage !
+505	{STRVAR_1 1, 0, 0} est prêt à aider {STRVAR_1 1, 1, 0}\nennemi !
+506	{STRVAR_1 1, 0, 0} sauvage est prêt à aider\n{STRVAR_1 1, 1, 0} !
+507	{STRVAR_1 1, 0, 0} sauvage est prêt à aider\n{STRVAR_1 1, 1, 0} sauvage !
+508	{STRVAR_1 1, 0, 0} ennemi est prêt à aider\n{STRVAR_1 1, 1, 0} !
+509	{STRVAR_1 1, 0, 0} ennemi est prêt à aider\n{STRVAR_1 1, 1, 0} ennemi !
+510	{STRVAR_1 1, 0, 0} échange son objet avec sa\ncible !
+511	{STRVAR_1 1, 0, 0} sauvage échange son objet\navec sa cible !
+512	{STRVAR_1 1, 0, 0} ennemi échange son objet\navec sa cible !
+513	{STRVAR_1 1, 0, 0} obtient {STRVAR_1 8, 1, 0}.
+514	{STRVAR_1 1, 0, 0} sauvage obtient\n{STRVAR_1 8, 1, 0}.
+515	{STRVAR_1 1, 0, 0} ennemi obtient {STRVAR_1 8, 1, 0}.
+516	{STRVAR_1 1, 0, 0} obtient {STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} obtient {STRVAR_1 8, 3, 0}.
+517	{STRVAR_1 1, 0, 0} obtient {STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} sauvage obtient\n{STRVAR_1 8, 3, 0}.\r
+518	{STRVAR_1 1, 0, 0} obtient {STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} ennemi obtient {STRVAR_1 8, 3, 0}.\r
+519	{STRVAR_1 1, 0, 0} sauvage obtient\n{STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} obtient {STRVAR_1 8, 3, 0}.\r
+520	{STRVAR_1 1, 0, 0} sauvage obtient\n{STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} sauvage obtient\n{STRVAR_1 8, 3, 0}.\r
+521	{STRVAR_1 1, 0, 0} ennemi obtient {STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} obtient {STRVAR_1 8, 3, 0}.\r
+522	{STRVAR_1 1, 0, 0} ennemi obtient {STRVAR_1 8, 1, 0}.\r{STRVAR_1 1, 2, 0} ennemi obtient {STRVAR_1 8, 3, 0}.\r
+523	{STRVAR_1 1, 0, 0} copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+524	{STRVAR_1 1, 0, 0} copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} sauvage !
+525	{STRVAR_1 1, 0, 0} copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+526	{STRVAR_1 1, 0, 0} sauvage copie {STRVAR_1 5, 2, 0}\nde {STRVAR_1 1, 1, 0} !
+527	{STRVAR_1 1, 0, 0} sauvage copie {STRVAR_1 5, 2, 0}\nde {STRVAR_1 1, 1, 0} sauvage !
+528	{STRVAR_1 1, 0, 0} ennemi copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+529	{STRVAR_1 1, 0, 0} ennemi copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+530	{STRVAR_1 1, 0, 0} fait un vœu !
+531	{STRVAR_1 1, 0, 0} sauvage fait un vœu !
+532	{STRVAR_1 1, 0, 0} ennemi fait un vœu !
+533	Le vœu de {STRVAR_1 1, 0, 0} se réalise !
+534	Le vœu de {STRVAR_1 1, 0, 0} sauvage se\nréalise !
+535	Le vœu de {STRVAR_1 1, 0, 0} ennemi se\nréalise !
+536	{STRVAR_1 1, 0, 0} plante ses racines !
+537	{STRVAR_1 1, 0, 0} sauvage plante ses\nracines !
+538	{STRVAR_1 1, 0, 0} ennemi plante ses racines !
+539	{STRVAR_1 1, 0, 0} absorbe des nutriments\navec ses racines !
+540	{STRVAR_1 1, 0, 0} sauvage absorbe des\nnutriments avec ses racines !
+541	{STRVAR_1 1, 0, 0} ennemi absorbe des\nnutriments avec ses racines !
+542	{STRVAR_1 1, 0, 0} s’ancre au sol avec ses\nracines !
+543	{STRVAR_1 1, 0, 0} sauvage s’ancre au sol avec\nses racines !
+544	{STRVAR_1 1, 0, 0} ennemi s’ancre au sol avec\nses racines !
+545	{STRVAR_1 1, 0, 0} rend {STRVAR_1 1, 1, 0}\nsomnolent !
+546	{STRVAR_1 1, 0, 0} rend {STRVAR_1 1, 1, 0} sauvage\nsomnolent !
+547	{STRVAR_1 1, 0, 0} rend {STRVAR_1 1, 1, 0} ennemi\nsomnolent !
+548	{STRVAR_1 1, 0, 0} sauvage rend {STRVAR_1 1, 1, 0}\nsomnolent !
+549	{STRVAR_1 1, 0, 0} sauvage rend {STRVAR_1 1, 1, 0}\nsauvage somnolent !
+550	{STRVAR_1 1, 0, 0} ennemi rend {STRVAR_1 1, 1, 0}\nsomnolent !
+551	{STRVAR_1 1, 0, 0} ennemi rend {STRVAR_1 1, 1, 0}\nennemi somnolent !
+552	{STRVAR_1 1, 0, 0} fait tomber {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+553	{STRVAR_1 1, 0, 0} fait tomber {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} sauvage !
+554	{STRVAR_1 1, 0, 0} fait tomber {STRVAR_1 8, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+555	{STRVAR_1 1, 0, 0} sauvage fait tomber\n{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} !
+556	{STRVAR_1 1, 0, 0} sauvage fait tomber\n{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} sauvage !
+557	{STRVAR_1 1, 0, 0} ennemi fait tomber\n{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} !
+558	{STRVAR_1 1, 0, 0} ennemi fait tomber\n{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} ennemi !
+559	{STRVAR_1 1, 0, 0} échange son talent avec sa\ncible !
+560	{STRVAR_1 1, 0, 0} sauvage échange son talent\navec sa cible !
+561	{STRVAR_1 1, 0, 0} ennemi échange son talent\navec sa cible !
+562	{STRVAR_1 1, 0, 0} bloque les capacités de\nl’adversaire !
+563	{STRVAR_1 1, 0, 0} sauvage bloque les\ncapacités de l’adversaire !
+564	{STRVAR_1 1, 0, 0} ennemi bloque les capacités\nde l’adversaire !
+565	{STRVAR_1 1, 0, 0} veut que l’ennemi lui garde\nrancune !
+566	{STRVAR_1 1, 0, 0} sauvage veut que l’ennemi\nlui garde rancune !
+567	{STRVAR_1 1, 0, 0} ennemi veut que l’ennemi lui\ngarde rancune !
+568	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} perd tous\nses PP à cause de Rancune !
+569	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} sauvage perd\ntous ses PP à cause de Rancune !
+570	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} ennemi perd\ntous ses PP à cause de Rancune !
+571	{STRVAR_1 1, 0, 0} s’entoure de Reflet Magik !
+572	{STRVAR_1 1, 0, 0} sauvage s’entoure de Reflet\nMagik !
+573	{STRVAR_1 1, 0, 0} ennemi s’entoure de Reflet\nMagik !
+574	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} est renvoyée\npar Reflet Magik !
+575	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} sauvage est\nrenvoyée par Reflet Magik !
+576	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} ennemi est\nrenvoyée par Reflet Magik !
+577	{STRVAR_1 1, 0, 0} attend que sa cible agisse !
+578	{STRVAR_1 1, 0, 0} sauvage attend que sa cible\nagisse !
+579	{STRVAR_1 1, 0, 0} ennemi attend que sa cible\nagisse !
+580	{STRVAR_1 1, 0, 0} vole la capacité de\n{STRVAR_1 1, 1, 0} !
+581	{STRVAR_1 1, 0, 0} vole la capacité de\n{STRVAR_1 1, 1, 0} sauvage !
+582	{STRVAR_1 1, 0, 0} vole la capacité de\n{STRVAR_1 1, 1, 0} ennemi !
+583	{STRVAR_1 1, 0, 0} sauvage vole la capacité de\n{STRVAR_1 1, 1, 0} !
+584	{STRVAR_1 1, 0, 0} sauvage vole la capacité de\n{STRVAR_1 1, 1, 0} sauvage !
+585	{STRVAR_1 1, 0, 0} ennemi vole la capacité de\n{STRVAR_1 1, 1, 0} !
+586	{STRVAR_1 1, 0, 0} ennemi vole la capacité de\n{STRVAR_1 1, 1, 0} ennemi !
+587	La puissance des capacités Électrik\ndiminue !
+588	La puissance des capacités Feu diminue !
+589	{STRVAR_1 1, 0, 0} trouve {STRVAR_1 8, 1, 0} !
+590	{STRVAR_1 1, 0, 0} sauvage trouve\n{STRVAR_1 8, 1, 0} !
+591	{STRVAR_1 1, 0, 0} ennemi trouve {STRVAR_1 8, 1, 0} !
+592	Un parfum apaisant se répand !
+593	Impossible d’utiliser des objets ici.\r
+594	Pour {STRVAR_1 1, 1, 0}, {STRVAR_1 8, 0, 0} était\n{STRVAR_1 16, 2, 0} !
+595	Pour {STRVAR_1 1, 1, 0} sauvage, {STRVAR_1 8, 0, 0}\nétait {STRVAR_1 16, 2, 0} !
+596	Pour {STRVAR_1 1, 1, 0} ennemi, {STRVAR_1 8, 0, 0}\nétait {STRVAR_1 16, 2, 0} !
+597	{STRVAR_1 1, 0, 0} utilise {STRVAR_1 8, 1, 0} et se\ngonfle à bloc !
+598	{STRVAR_1 1, 0, 0} sauvage utilise {STRVAR_1 8, 1, 0}\net se gonfle à bloc !
+599	{STRVAR_1 1, 0, 0} ennemi utilise {STRVAR_1 8, 1, 0} et\nse gonfle à bloc !
+600	{STRVAR_1 1, 0, 0} perd sa concentration et ne\npeut pas attaquer !
+601	{STRVAR_1 1, 0, 0} sauvage perd sa\nconcentration et ne peut pas\fattaquer !
+602	{STRVAR_1 1, 0, 0} ennemi perd sa\nconcentration et ne peut pas\fattaquer !
+603	{STRVAR_1 1, 0, 0} est traîné au combat !\r
+604	{STRVAR_1 1, 0, 0} sauvage est traîné au\ncombat !\r
+605	{STRVAR_1 1, 0, 0} ennemi est traîné au\ncombat !\r
+606	La protection est brisée !
+607	Mais ça n’a aucun effet !
+608	{STRVAR_1 1, 0, 0} n’a plus de capacités !\r
+609	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} est bloquée !\r
+610	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} sauvage est\nbloquée !\r
+611	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} ennemi est\nbloquée !\r
+612	Tourmente empêche {STRVAR_1 1, 0, 0}\nd’utiliser deux fois de suite la même\fcapacité !\r
+613	Provoqué, {STRVAR_1 1, 0, 0} ne peut pas\nutiliser {STRVAR_1 6, 1, 0} !\r
+614	Provoqué, {STRVAR_1 1, 0, 0} sauvage ne peut\npas utiliser {STRVAR_1 6, 1, 0} !\r
+615	Provoqué, {STRVAR_1 1, 0, 0} ennemi ne peut\npas utiliser {STRVAR_1 6, 1, 0} !\r
+616	{STRVAR_1 1, 0, 0} ne peut pas utiliser\n{STRVAR_1 6, 1, 0}, qui est scellée !\r
+617	{STRVAR_1 1, 0, 0} sauvage ne peut pas utiliser\n{STRVAR_1 6, 1, 0}, qui est scellée !\r
+618	{STRVAR_1 1, 0, 0} ennemi ne peut pas utiliser\n{STRVAR_1 6, 1, 0}, qui est scellée !\r
+619	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} fait tomber\nla pluie !
+620	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage fait\ntomber la pluie !
+621	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi fait\ntomber la pluie !
+622	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} augmente sa\nstat {STRVAR_1 13, 2, 0} !
+623	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\naugmente sa stat {STRVAR_1 13, 2, 0} !
+624	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\naugmente sa stat {STRVAR_1 13, 2, 0} !
+625	{STRVAR_1 1, 0, 0} est protégé par\n{STRVAR_1 5, 1, 0} !
+626	{STRVAR_1 1, 0, 0} sauvage est protégé par\n{STRVAR_1 5, 1, 0} !
+627	{STRVAR_1 1, 0, 0} ennemi est protégé par\n{STRVAR_1 5, 1, 0} !
+628	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche\n{STRVAR_1 1, 2, 0} d’utiliser {STRVAR_1 6, 3, 0} !
+629	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche\n{STRVAR_1 1, 2, 0} sauvage d’utiliser\f{STRVAR_1 6, 3, 0} !
+630	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche\n{STRVAR_1 1, 2, 0} ennemi d’utiliser\f{STRVAR_1 6, 3, 0} !
+631	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche {STRVAR_1 1, 2, 0} d’utiliser\f{STRVAR_1 6, 3, 0} !
+632	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche {STRVAR_1 1, 2, 0} sauvage d’utiliser\f{STRVAR_1 6, 3, 0} !
+633	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche {STRVAR_1 1, 2, 0} d’utiliser\f{STRVAR_1 6, 3, 0} !
+634	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche {STRVAR_1 1, 2, 0} ennemi d’utiliser\f{STRVAR_1 6, 3, 0} !
+635	{STRVAR_1 1, 0, 0} récupère des PV grâce à\n{STRVAR_1 5, 1, 0} !
+636	{STRVAR_1 1, 0, 0} sauvage récupère des PV\ngrâce à {STRVAR_1 5, 1, 0} !
+637	{STRVAR_1 1, 0, 0} ennemi récupère des PV\ngrâce à {STRVAR_1 5, 1, 0} !
+638	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 6, 2, 0} inutile !
+639	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 6, 2, 0} inutile !
+640	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 6, 2, 0} inutile !
+641	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} lui donne le\ntype {STRVAR_1 15, 2, 0} !
+642	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage lui\ndonne le type {STRVAR_1 15, 2, 0} !
+643	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi lui\ndonne le type {STRVAR_1 15, 2, 0} !
+644	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche la\nparalysie !
+645	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche la paralysie !
+646	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche la paralysie !
+647	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche\nl’amour !
+648	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche l’amour !
+649	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche l’amour !
+650	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche\nl’empoisonnement !
+651	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche l’empoisonnement !
+652	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche l’empoisonnement !
+653	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche la\nconfusion !
+654	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche la confusion !
+655	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche la confusion !
+656	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} renforce ses\ncapacités Feu !
+657	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nrenforce ses capacités Feu !
+658	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nrenforce ses capacités Feu !
+659	{STRVAR_1 1, 0, 0} s’accroche au sol grâce à\n{STRVAR_1 5, 1, 0} !
+660	{STRVAR_1 1, 0, 0} sauvage s’accroche au sol\ngrâce à {STRVAR_1 5, 1, 0} !
+661	{STRVAR_1 1, 0, 0} ennemi s’accroche au sol\ngrâce à {STRVAR_1 5, 1, 0} !
+662	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} baisse\n{STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0} !
+663	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} baisse\n{STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0} sauvage !
+664	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} baisse\n{STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0} ennemi !
+665	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbaisse {STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0} !
+666	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbaisse {STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0}\fsauvage !
+667	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi baisse\n{STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0} !
+668	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi baisse\n{STRVAR_1 13, 3, 0} de {STRVAR_1 1, 2, 0} ennemi !
+669	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche la\nbaisse de ses stats !
+670	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche la baisse de ses stats !
+671	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche la baisse de ses stats !
+672	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} blesse\n{STRVAR_1 1, 2, 0} !
+673	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} blesse\n{STRVAR_1 1, 2, 0} sauvage !
+674	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} blesse\n{STRVAR_1 1, 2, 0} ennemi !
+675	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nblesse {STRVAR_1 1, 2, 0} !
+676	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nblesse {STRVAR_1 1, 2, 0} sauvage !
+677	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi blesse\n{STRVAR_1 1, 2, 0} !
+678	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi blesse\n{STRVAR_1 1, 2, 0} ennemi !
+679	{STRVAR_1 1, 0, 0} copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+680	{STRVAR_1 1, 0, 0} copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} sauvage !
+681	{STRVAR_1 1, 0, 0} copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+682	{STRVAR_1 1, 0, 0} sauvage copie {STRVAR_1 5, 2, 0}\nde {STRVAR_1 1, 1, 0} !
+683	{STRVAR_1 1, 0, 0} sauvage copie {STRVAR_1 5, 2, 0}\nde {STRVAR_1 1, 1, 0} sauvage !
+684	{STRVAR_1 1, 0, 0} ennemi copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} !
+685	{STRVAR_1 1, 0, 0} ennemi copie {STRVAR_1 5, 2, 0} de\n{STRVAR_1 1, 1, 0} ennemi !
+686	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche les\nbrûlures !
+687	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche les brûlures !
+688	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche les brûlures !
+689	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} bloque\n{STRVAR_1 6, 2, 0} !
+690	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbloque {STRVAR_1 6, 2, 0} !
+691	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi bloque\n{STRVAR_1 6, 2, 0} !
+692	{STRVAR_1 1, 0, 0} récupère un peu de PV grâce\nà {STRVAR_1 5, 1, 0} !
+693	{STRVAR_1 1, 0, 0} sauvage récupère un peu de\nPV grâce à {STRVAR_1 5, 1, 0} !
+694	{STRVAR_1 1, 0, 0} ennemi récupère un peu de\nPV grâce à {STRVAR_1 5, 1, 0} !
+695	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} déclenche\nune tempête de sable !
+696	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\ndéclenche une tempête de sable !
+697	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\ndéclenche une tempête de sable !
+698	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} intensifie les\nrayons du soleil !
+699	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nintensifie les rayons du soleil !
+700	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nintensifie les rayons du soleil !
+701	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} déclenche la\ngrêle !
+702	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\ndéclenche la grêle !
+703	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\ndéclenche la grêle !
+704	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} empêche la\nbaisse de sa stat {STRVAR_1 13, 2, 0} !
+705	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nempêche la baisse de sa stat\f{STRVAR_1 13, 2, 0} !
+706	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nempêche la baisse de sa stat\f{STRVAR_1 13, 2, 0} !
+707	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 1, 2, 0} amoureux !
+708	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 1, 2, 0} sauvage amoureux !
+709	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 1, 2, 0} ennemi amoureux !
+710	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 1, 2, 0} amoureux !
+711	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 1, 2, 0} sauvage amoureux !
+712	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 1, 2, 0} amoureux !
+713	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 1, 2, 0} ennemi amoureux !
+714	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 6, 2, 0} inefficace !
+715	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 6, 2, 0} inefficace !
+716	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 6, 2, 0} inefficace !
+717	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} soigne son\nstatut {STRVAR_1 17, 2, 0} !
+718	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nsoigne son statut {STRVAR_1 17, 2, 0} !
+719	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi soigne\nson statut {STRVAR_1 17, 2, 0} !
+720	Il a absorbé le suintement !
+721	{STRVAR_1 1, 0, 0} se transforme !
+722	{STRVAR_1 1, 0, 0} sauvage se transforme !
+723	{STRVAR_1 1, 0, 0} ennemi se transforme !
+724	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} attire\nl’attaque !
+725	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nattire l’attaque !
+726	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi attire\nl’attaque !
+727	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} neutralise\n{STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0} !
+728	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} neutralise\n{STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0} sauvage !
+729	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} neutralise\n{STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0} ennemi !
+730	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nneutralise {STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0} !
+731	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nneutralise {STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0}\fsauvage !
+732	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nneutralise {STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0} !
+733	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nneutralise {STRVAR_1 5, 3, 0} de {STRVAR_1 1, 2, 0}\fennemi !
+734	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} annule\nl’effet !
+735	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nannule l’effet !
+736	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi annule\nl’effet !
+737	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} d’avoir\npeur !
+738	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} sauvage\nd’avoir peur !
+739	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} ennemi\nd’avoir peur !
+740	{STRVAR_1 1, 0, 0} soigne son statut\n{STRVAR_1 17, 2, 0} grâce à {STRVAR_1 5, 1, 0} !
+741	{STRVAR_1 1, 0, 0} sauvage soigne son statut\n{STRVAR_1 17, 2, 0} grâce à {STRVAR_1 5, 1, 0} !
+742	{STRVAR_1 1, 0, 0} ennemi soigne son statut\n{STRVAR_1 17, 2, 0} grâce à {STRVAR_1 5, 1, 0} !
+743	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} n’a aucun\neffet sur {STRVAR_1 1, 2, 0} !
+744	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} n’a aucun\neffet sur {STRVAR_1 1, 2, 0} sauvage !
+745	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} n’a aucun\neffet sur {STRVAR_1 1, 2, 0} ennemi !
+746	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage n’a\naucun effet sur {STRVAR_1 1, 2, 0} !
+747	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage n’a\naucun effet sur {STRVAR_1 1, 2, 0} sauvage !
+748	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi n’a\naucun effet sur {STRVAR_1 1, 2, 0} !
+749	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi n’a\naucun effet sur {STRVAR_1 1, 2, 0} ennemi !
+750	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} augmente !
+751	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\naugmente !
+752	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\naugmente !
+753	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} augmente\nbeaucoup !
+754	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\naugmente beaucoup !
+755	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\naugmente beaucoup !
+756	{STRVAR_1 8, 1, 0} augmente {STRVAR_1 13, 2, 0} de\n{STRVAR_1 1, 0, 0} !
+757	{STRVAR_1 8, 1, 0} augmente {STRVAR_1 13, 2, 0} de\n{STRVAR_1 1, 0, 0} sauvage !
+758	{STRVAR_1 8, 1, 0} augmente {STRVAR_1 13, 2, 0} de\n{STRVAR_1 1, 0, 0} ennemi !
+759	{STRVAR_1 8, 1, 0} augmente beaucoup\n{STRVAR_1 13, 2, 0} de {STRVAR_1 1, 0, 0} !
+760	{STRVAR_1 8, 1, 0} augmente beaucoup\n{STRVAR_1 13, 2, 0} de {STRVAR_1 1, 0, 0} sauvage !
+761	{STRVAR_1 8, 1, 0} augmente beaucoup\n{STRVAR_1 13, 2, 0} de {STRVAR_1 1, 0, 0} ennemi !
+762	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} baisse !
+763	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbaisse !
+764	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\nbaisse !
+765	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} baisse\nbeaucoup !
+766	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nbaisse beaucoup !
+767	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} ennemi baisse\nbeaucoup !
+768	Les stats de {STRVAR_1 1, 0, 0} ne peuvent\nplus monter !
+769	Les stats de {STRVAR_1 1, 0, 0} sauvage ne\npeuvent plus monter !
+770	Les stats de {STRVAR_1 1, 0, 0} ennemi ne\npeuvent plus monter !
+771	Les stats de {STRVAR_1 1, 0, 0} ne peuvent\nplus baisser !
+772	Les stats de {STRVAR_1 1, 0, 0} sauvage ne\npeuvent plus baisser !
+773	Les stats de {STRVAR_1 1, 0, 0} ennemi ne\npeuvent plus baisser !
+774	Coup critique !
+775	K.O. en un coup !
+776	1, 2 et... ... ... Pouf !
+777	Et...
+779	Ce n’est pas très efficace...
+780	C’est super efficace !
+781	Vous prenez la fuite !\r
+782	{STRVAR_1 1, 0, 0} prend la fuite grâce à\n{STRVAR_1 8, 1, 0} !\r
+783	{STRVAR_1 1, 0, 0} prend la fuite grâce à\n{STRVAR_1 5, 1, 0} !\r
+784	{STRVAR_1 1, 0, 0} sauvage prend la fuite !
+785	Le joueur a battu {STRVAR_1 3, 0, 0} !
+786	Le joueur a battu {STRVAR_1 3, 0, 0} et\n{STRVAR_1 3, 1, 0} !
+787	Le joueur a perdu contre {STRVAR_1 3, 0, 0} !
+788	Le joueur a perdu contre {STRVAR_1 3, 0, 0} et\n{STRVAR_1 3, 1, 0} !
+789	Match nul contre {STRVAR_1 3, 0, 0} !
+790	Match nul contre {STRVAR_1 3, 0, 0} et\n{STRVAR_1 3, 1, 0} !
+791	{STRVAR_1 3, 0, 0} prend la fuite !
+792	{STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0} prennent la\nfuite !
+793	Non ! On ne fuit pas un combat de\nDresseurs !\r
+794	Impossible de fuir !\r
+795	Mais rien ne se passe !
+796	Mais cela échoue !
+797	Il se blesse dans sa confusion !
+798	Mimique échoue !
+799	Il commence à pleuvoir !
+800	Une averse commence !
+801	La pluie continue de tomber.
+802	L’averse continue.
+803	La pluie s’arrête.
+804	Une tempête de sable se lève !
+805	La tempête de sable fait rage.
+806	La tempête de sable se calme.
+807	Le soleil brille fort !
+808	Le soleil est éclatant.
+809	Le soleil s’affaiblit.
+810	Il commence à grêler !
+811	La grêle continue de tomber.
+812	La grêle s’arrête.
+813	Le brouillard est épais...
+814	Mais il n’a rien à relâcher !
+815	Mais il n’a rien à avaler !
+816	Le vent devient brûlant !
+817	Tous les changements de stats sont\nannulés !
+818	Des pièces s’éparpillent partout !
+819	Il est trop faible pour créer un clone !
+820	Les combattants partagent leur\ndouleur !
+821	Une cloche sonne !
+822	Tous les Pokémon qui entendent ce\nchant seront K.O. dans trois tours !
+823	Cette capacité n’a plus de PP !
+824	Mais la capacité n’a plus de PP !
+825	{STRVAR_1 1, 0, 0} n’obéit pas pendant son\nsommeil !
+826	{STRVAR_1 1, 0, 0} n’obéit pas !
+827	{STRVAR_1 1, 0, 0} fait la sieste !
+828	{STRVAR_1 1, 0, 0} paresse !
+829	{STRVAR_1 1, 0, 0} refuse d’obéir !
+830	{STRVAR_1 1, 0, 0} se détourne !
+831	{STRVAR_1 1, 0, 0} fait semblant de ne rien\nvoir !
+832	{STRVAR_1 1, 0, 0} paresse !
+833	{STRVAR_1 1, 0, 0} sauvage paresse !
+834	{STRVAR_1 1, 0, 0} ennemi paresse !
+835	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} va envoyer\n{STRVAR_1 1, 2, 0}. Voulez-vous changer de\fPokémon ?{YESNO 0}
+836	{STRVAR_1 1, 0, 0} apprend {STRVAR_1 6, 1, 0} !
+837	{STRVAR_1 1, 0, 0} sauvage apprend\n{STRVAR_1 6, 1, 0} !
+838	{STRVAR_1 1, 0, 0} ennemi apprend\n{STRVAR_1 6, 1, 0} !
+839	Le joueur a battu {STRVAR_1 14, 0, 0}\n{STRVAR_1 3, 1, 0} !
+840	{STRVAR_1 3, 0, 0} s’approche de {STRVAR_1 1, 1, 0} !
+841	{STRVAR_1 3, 0, 0} ne peut pas s’approcher\ndavantage !
+842	{STRVAR_1 1, 0, 0} vous observe\nattentivement !
+846	{STRVAR_1 3, 0, 0} lance un Poffin à\n{STRVAR_1 1, 1, 0} !
+847	Annonceur : Vous n’avez plus de Safari\nBalls ! C’est terminé !\r
+848	{STRVAR_1 3, 0, 0} lance une Safari Ball !
+849	{STRVAR_1 0, 0, 0} vous observe\nattentivement !
+850	Annonceur : Vous n’avez plus de Safari\nBalls ! C’est terminé !
+851	{STRVAR_1 3, 0, 0} lance un appât à\n{STRVAR_1 0, 1, 0} !
+852	{STRVAR_1 0, 0, 0} mange !
+853	{STRVAR_1 0, 0, 0} est occupé à manger !
+854	{STRVAR_1 3, 0, 0} lance de la boue sur\n{STRVAR_1 0, 1, 0} !
+855	{STRVAR_1 0, 0, 0} est en colère !
+856	{STRVAR_1 0, 0, 0} est fou de rage !
+857	{STRVAR_1 3, 0, 0} utilise {STRVAR_1 8, 1, 0} !
+858	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} utilise\n{STRVAR_1 8, 2, 0} !
+859	Le Dresseur dévie la Ball !
+860	Ne soyez pas voleur !
+861	Il esquive la Ball ! Impossible\nd’attraper ce Pokémon !
+862	Vous avez raté le Pokémon !
+863	Oh non ! Le Pokémon s’est libéré !
+864	Raah ! Ça y était presque !
+865	Argh ! Presque !
+866	Mince ! C’était si près !
+867	{WAIT 3}Et hop ! {STRVAR_1 1, 0, 0} est attrapé !{WAIT 2}\r
+868	Donner un surnom à {STRVAR_1 1, 0, 0} ?{YESNO 0}
+869	{STRVAR_1 1, 0, 0} est envoyé sur le PC de\nquelqu’un.
+870	{STRVAR_1 1, 0, 0} est envoyé sur le PC de\nLéo !
+871	Les données de {STRVAR_1 1, 0, 0} sont\najoutées au Pokédex.\r
+872	Il pleut.
+873	Une tempête de sable fait rage.
+874	Il n’y a plus de place sur le PC !\r
+875	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} soigne sa\nparalysie !
+876	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nsoigne sa paralysie !
+877	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi soigne\nsa paralysie !
+878	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} soigne son\nempoisonnement !
+879	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nsoigne son empoisonnement !
+880	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi soigne\nson empoisonnement !
+881	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} soigne sa\nbrûlure !
+882	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nsoigne sa brûlure !
+883	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi soigne\nsa brûlure !
+884	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} le dégèle !
+885	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage le\ndégèle !
+886	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi le\ndégèle !
+887	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} le réveille !
+888	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage le\nréveille !
+889	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi le\nréveille !
+890	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} met fin à sa\nconfusion !
+891	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage met\nfin à sa confusion !
+892	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi met\nfin à sa confusion !
+893	{STRVAR_1 1, 0, 0} soigne son statut\n{STRVAR_1 17, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+894	{STRVAR_1 1, 0, 0} sauvage soigne son statut\n{STRVAR_1 17, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+895	{STRVAR_1 1, 0, 0} ennemi soigne son statut\n{STRVAR_1 17, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+896	{STRVAR_1 1, 0, 0} retrouve un statut normal\ngrâce à {STRVAR_1 8, 1, 0} !
+897	{STRVAR_1 1, 0, 0} sauvage retrouve un statut\nnormal grâce à {STRVAR_1 8, 1, 0} !
+898	{STRVAR_1 1, 0, 0} ennemi retrouve un statut\nnormal grâce à {STRVAR_1 8, 1, 0} !
+899	{STRVAR_1 1, 0, 0} se soigne grâce à\n{STRVAR_1 8, 1, 0} !
+900	{STRVAR_1 1, 0, 0} sauvage se soigne grâce à\n{STRVAR_1 8, 1, 0} !
+901	{STRVAR_1 1, 0, 0} ennemi se soigne grâce à\n{STRVAR_1 8, 1, 0} !
+902	{STRVAR_1 1, 0, 0} restaure les PP de\n{STRVAR_1 6, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+903	{STRVAR_1 1, 0, 0} sauvage restaure les PP de\n{STRVAR_1 6, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+904	{STRVAR_1 1, 0, 0} ennemi restaure les PP de\n{STRVAR_1 6, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+905	{STRVAR_1 1, 0, 0} soigne son statut grâce à\n{STRVAR_1 8, 1, 0} !
+906	{STRVAR_1 1, 0, 0} sauvage soigne son statut\ngrâce à {STRVAR_1 8, 1, 0} !
+907	{STRVAR_1 1, 0, 0} ennemi soigne son statut\ngrâce à {STRVAR_1 8, 1, 0} !
+908	{STRVAR_1 1, 0, 0} récupère un peu de PV grâce\nà {STRVAR_1 8, 1, 0} !
+909	{STRVAR_1 1, 0, 0} sauvage récupère un peu de\nPV grâce à {STRVAR_1 8, 1, 0} !
+910	{STRVAR_1 1, 0, 0} ennemi récupère un peu de\nPV grâce à {STRVAR_1 8, 1, 0} !
+911	{STRVAR_1 8, 0, 0} ne permet d’utiliser que\n{STRVAR_1 6, 1, 0} !\r
+912	{STRVAR_1 1, 0, 0} tient bon grâce à\n{STRVAR_1 8, 1, 0} !
+913	{STRVAR_1 1, 0, 0} sauvage tient bon grâce à\n{STRVAR_1 8, 1, 0} !
+914	{STRVAR_1 1, 0, 0} ennemi tient bon grâce à\n{STRVAR_1 8, 1, 0} !
+915	Hein ? {STRVAR_1 1, 0, 0} évolue !
+916	Hein ?\r
+917	{STRVAR_1 1, 0, 0} évolue !
+918	{WAIT 3}Félicitations ! Votre {STRVAR_1 1, 0, 0} a\névolué en {STRVAR_1 1, 1, 0} !{WAIT 2}\r
+919	Hein ? {STRVAR_1 1, 0, 0} a arrêté d’évoluer !\r
+921	Que doit faire\n{STRVAR_1 1, 0, 0} ?{YESNO 0}
+922	Que doit lancer\n{STRVAR_1 3, 0, 0} ?{YESNO 0}
+923	Communication en cours. Veuillez\npatienter...
+924	ATTAQUE
+925	SAC
+926	POKéMON
+927	FUITE
+928	RETOUR
+929	RETOUR
+930	RETOUR
+931	BALL
+932	APPÂT
+933	BOUE
+936	FUITE
+938	PP
+939	Quelle capacité oublier ?
+940	Oui
+941	Non
+943	Quitter le combat ?{YESNO 0}
+944	{STRVAR_1 1, 0, 0} {COLOR 1}♂{COLOR 0} N. {STRVAR_1 52, 1, 0}
+945	{STRVAR_1 1, 0, 0} {COLOR 2}♀{COLOR 0} N. {STRVAR_1 52, 1, 0}
+946	{STRVAR_1 1, 0, 0} N. {STRVAR_1 52, 1, 0}
+950	SAFARI BALLS
+951	Reste : {STRVAR_1 51, 0, 0}
+953	Le joueur a battu {STRVAR_1 14, 0, 0}\n{STRVAR_1 3, 1, 0} et {STRVAR_1 14, 2, 0} {STRVAR_1 3, 3, 0} !\r
+955	Voulez-vous abandonner le match ?{YESNO 0}
+956	{STRVAR_1 3, 0, 0} abandonne le match !
+959	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} prend la fuite !
+960	Le joueur a perdu contre {STRVAR_1 14, 0, 0}\n{STRVAR_1 3, 1, 0} !
+961	Match nul contre {STRVAR_1 14, 0, 0}\n{STRVAR_1 3, 1, 0} !
+965	Un {STRVAR_1 1, 0, 0} sauvage apparaît !\r
+966	Un {STRVAR_1 1, 0, 0} sauvage apparaît !\r
+967	Un {STRVAR_1 1, 0, 0} et un {STRVAR_1 1, 1, 0}\nsauvages apparaissent !\r
+968	Un {STRVAR_1 1, 0, 0} sauvage sort de l’arbre\nenduit de Miel !\r
+969	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} vous défie !\r
+970	{STRVAR_1 3, 0, 0} vous défie !\r
+971	{STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0} vous\ndéfient !\r
+972	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} envoie\n{STRVAR_1 1, 2, 0} !
+973	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} envoie\n{STRVAR_1 1, 2, 0} et {STRVAR_1 1, 3, 0} !
+974	{STRVAR_1 3, 0, 0} envoie {STRVAR_1 1, 1, 0} !
+975	{STRVAR_1 3, 0, 0} envoie {STRVAR_1 1, 1, 0} et\n{STRVAR_1 1, 2, 0} !
+976	{STRVAR_1 3, 0, 0} envoie {STRVAR_1 1, 1, 0} !\n{STRVAR_1 3, 2, 0} envoie {STRVAR_1 1, 3, 0} !
+977	{STRVAR_1 3, 0, 0} envoie {STRVAR_1 1, 1, 0} ! En\navant, {STRVAR_1 1, 2, 0} !
+978	En avant, {STRVAR_1 1, 0, 0} et {STRVAR_1 1, 1, 0} !
+979	En avant, {STRVAR_1 1, 0, 0} !
+980	À toi de jouer, {STRVAR_1 1, 0, 0} !
+981	Vas-y, {STRVAR_1 1, 0, 0} !
+982	Il est affaibli ! Fonce, {STRVAR_1 1, 0, 0} !
+983	Encore un effort ! Tiens bon,\n{STRVAR_1 1, 0, 0} !
+984	{STRVAR_1 1, 0, 0}, on change ! Reviens !
+985	{STRVAR_1 1, 0, 0}, reviens !
+986	{STRVAR_1 1, 0, 0}, ça suffit ! Reviens !
+987	{STRVAR_1 1, 0, 0}, assez ! Reviens !
+988	{STRVAR_1 1, 0, 0}, bien joué ! Reviens !
+989	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} rappelle\n{STRVAR_1 1, 2, 0} !
+990	{STRVAR_1 3, 0, 0} rappelle {STRVAR_1 1, 1, 0} !
+991	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} envoie\n{STRVAR_1 1, 2, 0} !\r{STRVAR_1 14, 3, 0} {STRVAR_1 3, 4, 0} envoie\n{STRVAR_1 1, 5, 0} !\r
+992	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} et {STRVAR_1 14, 2, 0}\n{STRVAR_1 3, 3, 0} vous défient !\r
+993	{STRVAR_1 14, 0, 0} {STRVAR_1 3, 1, 0} envoie\n{STRVAR_1 1, 2, 0} ! En avant, {STRVAR_1 1, 3, 0} !
+994	L’effet du Stockage de {STRVAR_1 1, 0, 0}\ndisparaît !
+995	L’effet du Stockage de {STRVAR_1 1, 0, 0}\nsauvage disparaît !
+996	L’effet du Stockage de {STRVAR_1 1, 0, 0}\nennemi disparaît !
+997	La gravité s’intensifie !
+998	La gravité empêche {STRVAR_1 1, 0, 0} de\nrester en l’air !
+999	La gravité empêche {STRVAR_1 1, 0, 0} sauvage\nde rester en l’air !
+1000	La gravité empêche {STRVAR_1 1, 0, 0} ennemi\nde rester en l’air !
+1001	La gravité empêche {STRVAR_1 1, 0, 0}\nd’utiliser {STRVAR_1 6, 1, 0} !
+1002	La gravité empêche {STRVAR_1 1, 0, 0} sauvage\nd’utiliser {STRVAR_1 6, 1, 0} !
+1003	La gravité empêche {STRVAR_1 1, 0, 0} ennemi\nd’utiliser {STRVAR_1 6, 1, 0} !\r
+1004	La gravité redevient normale !
+1005	Le Vœu Soin se réalise !
+1006	Il s’entoure d’un mystérieux clair de\nlune !
+1007	Un vent arrière se met à souffler !
+1008	Le vent arrière s’arrête !
+1009	{STRVAR_1 1, 0, 0} échange son Attaque et sa\nDéfense !
+1010	{STRVAR_1 1, 0, 0} sauvage échange son\nAttaque et sa Défense !
+1011	{STRVAR_1 1, 0, 0} ennemi échange son Attaque\net sa Défense !
+1012	Le talent de {STRVAR_1 1, 0, 0} est\nneutralisé !
+1013	Le talent de {STRVAR_1 1, 0, 0} sauvage est\nneutralisé !
+1014	Le talent de {STRVAR_1 1, 0, 0} ennemi est\nneutralisé !
+1015	{STRVAR_1 1, 0, 0} échange les changements\nd’Attaque et d’Atq. Spé. avec sa\fcible !
+1016	{STRVAR_1 1, 0, 0} sauvage échange les\nchangements d’Attaque et d’Atq. Spé.\favec sa cible !
+1017	{STRVAR_1 1, 0, 0} ennemi échange les\nchangements d’Attaque et d’Atq. Spé.\favec sa cible !
+1018	{STRVAR_1 1, 0, 0} échange les changements de\nDéfense et de Déf. Spé. avec sa cible !
+1019	{STRVAR_1 1, 0, 0} sauvage échange les\nchangements de Défense et de Déf. Spé.\favec sa cible !
+1020	{STRVAR_1 1, 0, 0} ennemi échange les\nchangements de Défense et de Déf. Spé.\favec sa cible !
+1021	{STRVAR_1 1, 0, 0} obtient le talent\n{STRVAR_1 5, 1, 0} !
+1022	{STRVAR_1 1, 0, 0} sauvage obtient le talent\n{STRVAR_1 5, 1, 0} !
+1023	{STRVAR_1 1, 0, 0} ennemi obtient le talent\n{STRVAR_1 5, 1, 0} !
+1024	{STRVAR_1 1, 0, 0} échange les changements de\nstats avec sa cible !
+1025	{STRVAR_1 1, 0, 0} sauvage échange les\nchangements de stats avec sa cible !
+1026	{STRVAR_1 1, 0, 0} ennemi échange les\nchangements de stats avec sa cible !
+1027	{STRVAR_1 1, 0, 0} s’entoure d’un voile d’eau !
+1028	{STRVAR_1 1, 0, 0} sauvage s’entoure d’un\nvoile d’eau !
+1029	{STRVAR_1 1, 0, 0} ennemi s’entoure d’un voile\nd’eau !
+1030	{STRVAR_1 6, 1, 0} restaure les PV de\n{STRVAR_1 1, 0, 0} !
+1031	{STRVAR_1 6, 1, 0} restaure les PV de\n{STRVAR_1 1, 0, 0} sauvage !
+1032	{STRVAR_1 6, 1, 0} restaure les PV de\n{STRVAR_1 1, 0, 0} ennemi !
+1033	{STRVAR_1 1, 0, 0} lévite grâce à\nl’électromagnétisme !
+1034	{STRVAR_1 1, 0, 0} sauvage lévite grâce à\nl’électromagnétisme !
+1035	{STRVAR_1 1, 0, 0} ennemi lévite grâce à\nl’électromagnétisme !
+1036	{STRVAR_1 1, 0, 0} évite les capacités Sol\ngrâce à {STRVAR_1 6, 1, 0} !
+1037	{STRVAR_1 1, 0, 0} sauvage évite les capacités\nSol grâce à {STRVAR_1 6, 1, 0} !
+1038	{STRVAR_1 1, 0, 0} ennemi évite les capacités\nSol grâce à {STRVAR_1 6, 1, 0} !
+1039	L’électromagnétisme de {STRVAR_1 1, 0, 0}\ndisparaît !
+1040	L’électromagnétisme de {STRVAR_1 1, 0, 0}\nsauvage disparaît !
+1041	L’électromagnétisme de {STRVAR_1 1, 0, 0}\nennemi disparaît !
+1042	{STRVAR_1 1, 0, 0} se débarrasse de\n{STRVAR_1 6, 1, 0} !
+1043	{STRVAR_1 1, 0, 0} sauvage se débarrasse de\n{STRVAR_1 6, 1, 0} !
+1044	{STRVAR_1 1, 0, 0} ennemi se débarrasse de\n{STRVAR_1 6, 1, 0} !
+1045	{STRVAR_1 1, 0, 0} dissipe le brouillard avec\n{STRVAR_1 6, 1, 0} !
+1046	{STRVAR_1 1, 0, 0} sauvage dissipe le\nbrouillard avec {STRVAR_1 6, 1, 0} !
+1047	{STRVAR_1 1, 0, 0} ennemi dissipe le brouillard\navec {STRVAR_1 6, 1, 0} !
+1048	{STRVAR_1 1, 0, 0} tombe dans le piège !
+1049	{STRVAR_1 1, 0, 0} sauvage tombe dans le\npiège !
+1050	{STRVAR_1 1, 0, 0} ennemi tombe dans le piège !
+1051	{STRVAR_1 1, 0, 0} ne peut plus se soigner !
+1052	{STRVAR_1 1, 0, 0} sauvage ne peut plus se\nsoigner !
+1053	{STRVAR_1 1, 0, 0} ennemi ne peut plus se\nsoigner !
+1054	{STRVAR_1 6, 1, 0} empêche {STRVAR_1 1, 0, 0} de se\nsoigner !
+1055	{STRVAR_1 6, 1, 0} empêche {STRVAR_1 1, 0, 0} sauvage\nde se soigner !
+1056	{STRVAR_1 6, 1, 0} empêche {STRVAR_1 1, 0, 0} ennemi\nde se soigner !
+1057	{STRVAR_1 6, 1, 0} empêche {STRVAR_1 1, 0, 0}\nd’utiliser {STRVAR_1 6, 2, 0} !\r
+1058	{STRVAR_1 6, 1, 0} empêche {STRVAR_1 1, 0, 0} sauvage\nd’utiliser {STRVAR_1 6, 2, 0} !\r
+1059	{STRVAR_1 6, 1, 0} empêche {STRVAR_1 1, 0, 0} ennemi\nd’utiliser {STRVAR_1 6, 2, 0} !\r
+1060	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} prend fin !
+1061	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nprend fin !
+1062	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} ennemi prend\nfin !
+1063	Des pics toxiques s’éparpillent autour\nde votre équipe !
+1064	Des pics toxiques s’éparpillent autour\nde l’équipe adverse !
+1065	Les pics toxiques autour de votre\néquipe disparaissent !
+1066	Les pics toxiques autour de l’équipe\nadverse disparaissent !
+1067	{STRVAR_1 1, 0, 0} revient vers {STRVAR_1 3, 1, 0} !
+1068	{STRVAR_1 1, 0, 0} sauvage revient vers\n{STRVAR_1 3, 1, 0} !
+1069	{STRVAR_1 1, 0, 0} ennemi revient vers\n{STRVAR_1 3, 1, 0} !
+1070	{STRVAR_1 1, 0, 0} fausse les dimensions !
+1071	{STRVAR_1 1, 0, 0} sauvage fausse les\ndimensions !
+1072	{STRVAR_1 1, 0, 0} ennemi fausse les\ndimensions !
+1073	{STRVAR_1 1, 0, 0} rétablit les dimensions !
+1074	{STRVAR_1 1, 0, 0} sauvage rétablit les\ndimensions !
+1075	{STRVAR_1 1, 0, 0} ennemi rétablit les\ndimensions !
+1076	Les dimensions redeviennent normales !
+1077	Des pierres pointues flottent autour de\nvotre équipe !
+1078	Des pierres pointues flottent autour de\nl’équipe adverse !
+1079	Des pierres pointues blessent\n{STRVAR_1 1, 0, 0} !
+1080	Des pierres pointues blessent\n{STRVAR_1 1, 0, 0} sauvage !
+1081	Des pierres pointues blessent\n{STRVAR_1 1, 0, 0} ennemi !
+1082	{STRVAR_1 1, 0, 0} disparaît en un instant !
+1083	{STRVAR_1 1, 0, 0} sauvage disparaît en un\ninstant !
+1084	{STRVAR_1 1, 0, 0} ennemi disparaît en un\ninstant !
+1085	L’Air Veinard de votre équipe prend\nfin !
+1086	L’Air Veinard de l’équipe adverse prend\nfin !
+1087	{STRVAR_1 1, 0, 0} a le talent {STRVAR_1 5, 1, 0} !
+1088	{STRVAR_1 1, 0, 0} sauvage a le talent\n{STRVAR_1 5, 1, 0} !
+1089	{STRVAR_1 1, 0, 0} ennemi a le talent\n{STRVAR_1 5, 1, 0} !
+1090	{STRVAR_1 1, 0, 0} est blessé par {STRVAR_1 5, 1, 0} !
+1091	{STRVAR_1 1, 0, 0} sauvage est blessé par\n{STRVAR_1 5, 1, 0} !
+1092	{STRVAR_1 1, 0, 0} ennemi est blessé par\n{STRVAR_1 5, 1, 0} !
+1093	{STRVAR_1 1, 0, 0} maximise sa stat {STRVAR_1 13, 2, 0}\ngrâce à {STRVAR_1 5, 1, 0} !
+1094	{STRVAR_1 1, 0, 0} sauvage maximise sa stat\n{STRVAR_1 13, 2, 0} grâce à {STRVAR_1 5, 1, 0} !
+1095	{STRVAR_1 1, 0, 0} ennemi maximise sa stat\n{STRVAR_1 13, 2, 0} grâce à {STRVAR_1 5, 1, 0} !
+1096	{STRVAR_1 1, 0, 0} perd des PV à cause de\n{STRVAR_1 5, 1, 0} !
+1097	{STRVAR_1 1, 0, 0} sauvage perd des PV à cause\nde {STRVAR_1 5, 1, 0} !
+1098	{STRVAR_1 1, 0, 0} ennemi perd des PV à cause\nde {STRVAR_1 5, 1, 0} !
+1099	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} blesse\n{STRVAR_1 1, 2, 0} !
+1100	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} blesse\n{STRVAR_1 1, 2, 0} sauvage !
+1101	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} blesse\n{STRVAR_1 1, 2, 0} ennemi !
+1102	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nblesse {STRVAR_1 1, 2, 0} !
+1103	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nblesse {STRVAR_1 1, 2, 0} sauvage !
+1104	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi blesse\n{STRVAR_1 1, 2, 0} !
+1105	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi blesse\n{STRVAR_1 1, 2, 0} ennemi !
+1106	{STRVAR_1 5, 0, 0} de {STRVAR_1 1, 1, 0} le fait\nfrissonner !
+1107	{STRVAR_1 5, 0, 0} de {STRVAR_1 1, 1, 0} sauvage le\nfait frissonner !
+1108	{STRVAR_1 5, 0, 0} de {STRVAR_1 1, 1, 0} ennemi le fait\nfrissonner !
+1109	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} détecte\n{STRVAR_1 6, 2, 0} !
+1110	Prédiction de {STRVAR_1 1, 0, 0} sauvage\ndétecte {STRVAR_1 6, 2, 0} !
+1111	Prédiction de {STRVAR_1 1, 0, 0} ennemi\ndétecte {STRVAR_1 6, 2, 0} !
+1112	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} de se\nlancer !
+1113	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} sauvage\nde se lancer !
+1114	{STRVAR_1 5, 1, 0} empêche {STRVAR_1 1, 0, 0} ennemi\nde se lancer !
+1115	{STRVAR_1 1, 0, 0} est enfin d’attaque !
+1116	{STRVAR_1 1, 0, 0} sauvage est enfin\nd’attaque !
+1117	{STRVAR_1 1, 0, 0} ennemi est enfin d’attaque !
+1118	{STRVAR_1 1, 0, 0} fouille son ennemi et trouve\n{STRVAR_1 8, 1, 0} !
+1119	{STRVAR_1 1, 0, 0} sauvage fouille son ennemi\net trouve {STRVAR_1 8, 1, 0} !
+1120	{STRVAR_1 1, 0, 0} ennemi fouille son ennemi et\ntrouve {STRVAR_1 8, 1, 0} !
+1121	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} tourmente\n{STRVAR_1 1, 2, 0} !
+1122	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} tourmente\n{STRVAR_1 1, 2, 0} sauvage !
+1123	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} tourmente\n{STRVAR_1 1, 2, 0} ennemi !
+1124	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\ntourmente {STRVAR_1 1, 2, 0} !
+1125	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\ntourmente {STRVAR_1 1, 2, 0} sauvage !
+1126	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\ntourmente {STRVAR_1 1, 2, 0} !
+1127	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\ntourmente {STRVAR_1 1, 2, 0} ennemi !
+1128	{STRVAR_1 1, 0, 0} maximise sa stat {STRVAR_1 13, 2, 0}\ngrâce à {STRVAR_1 8, 1, 0} !
+1129	{STRVAR_1 1, 0, 0} sauvage maximise sa stat\n{STRVAR_1 13, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+1130	{STRVAR_1 1, 0, 0} ennemi maximise sa stat\n{STRVAR_1 13, 2, 0} grâce à {STRVAR_1 8, 1, 0} !
+1131	{STRVAR_1 8, 0, 0} réduit la puissance de\n{STRVAR_1 6, 1, 0} !
+1132	{STRVAR_1 1, 0, 0} est blessé par {STRVAR_1 8, 1, 0} !
+1133	{STRVAR_1 1, 0, 0} sauvage est blessé par\n{STRVAR_1 8, 1, 0} !
+1134	{STRVAR_1 1, 0, 0} ennemi est blessé par\n{STRVAR_1 8, 1, 0} !
+1135	{STRVAR_1 1, 0, 0} ne peut plus utiliser\nd’objets !
+1136	{STRVAR_1 1, 0, 0} sauvage ne peut plus\nutiliser d’objets !
+1137	{STRVAR_1 1, 0, 0} ennemi ne peut plus utiliser\nd’objets !
+1138	{STRVAR_1 1, 0, 0} peut de nouveau utiliser des\nobjets !
+1139	{STRVAR_1 1, 0, 0} sauvage peut de nouveau\nutiliser des objets !
+1140	{STRVAR_1 1, 0, 0} ennemi peut de nouveau\nutiliser des objets !
+1141	{STRVAR_1 1, 0, 0} vole et mange {STRVAR_1 8, 1, 0} de\nson ennemi !
+1142	{STRVAR_1 1, 0, 0} sauvage vole et mange\n{STRVAR_1 8, 1, 0} de son ennemi !
+1143	{STRVAR_1 1, 0, 0} ennemi vole et mange\n{STRVAR_1 8, 1, 0} de son ennemi !
+1144	{STRVAR_1 1, 0, 0} lance {STRVAR_1 8, 1, 0} !
+1145	{STRVAR_1 1, 0, 0} sauvage lance {STRVAR_1 8, 1, 0} !
+1146	{STRVAR_1 1, 0, 0} ennemi lance {STRVAR_1 8, 1, 0} !
+1147	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 8, 2, 0} inefficace !
+1148	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 8, 2, 0} inefficace !
+1149	{STRVAR_1 5, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 8, 2, 0} inefficace !
+1150	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 1, 2, 0} amoureux !
+1151	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 1, 2, 0} sauvage amoureux !
+1152	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} rend\n{STRVAR_1 1, 2, 0} ennemi amoureux !
+1153	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 1, 2, 0} amoureux !
+1154	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage rend\n{STRVAR_1 1, 2, 0} sauvage amoureux !
+1155	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 1, 2, 0} amoureux !
+1156	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi rend\n{STRVAR_1 1, 2, 0} ennemi amoureux !
+1157	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} augmente la\nprécision de sa prochaine capacité !
+1158	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\naugmente la précision de sa prochaine\fcapacité !
+1159	{STRVAR_1 8, 1, 0} de {STRVAR_1 1, 0, 0} ennemi\naugmente la précision de sa prochaine\fcapacité !
+1160	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} blesse\n{STRVAR_1 1, 0, 0} !
+1161	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} sauvage\nblesse {STRVAR_1 1, 0, 0} !
+1162	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} ennemi blesse\n{STRVAR_1 1, 0, 0} !
+1163	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} blesse\n{STRVAR_1 1, 0, 0} sauvage !
+1164	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} sauvage\nblesse {STRVAR_1 1, 0, 0} sauvage !
+1165	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} blesse\n{STRVAR_1 1, 0, 0} ennemi !
+1166	{STRVAR_1 8, 2, 0} de {STRVAR_1 1, 1, 0} ennemi blesse\n{STRVAR_1 1, 0, 0} ennemi !
+1167	Oh ! Un {STRVAR_1 1, 0, 0} sauvage fonce sur\nvous !
+1168	{STRVAR_1 8, 1, 0} empoisonne gravement\n{STRVAR_1 1, 0, 0} !
+1169	{STRVAR_1 8, 1, 0} empoisonne gravement\n{STRVAR_1 1, 0, 0} sauvage !
+1170	{STRVAR_1 8, 1, 0} empoisonne gravement\n{STRVAR_1 1, 0, 0} ennemi !
+1171	{STRVAR_1 8, 1, 0} brûle {STRVAR_1 1, 0, 0} !
+1172	{STRVAR_1 8, 1, 0} brûle {STRVAR_1 1, 0, 0} sauvage !
+1173	{STRVAR_1 8, 1, 0} brûle {STRVAR_1 1, 0, 0} ennemi !
+1174	{STRVAR_1 1, 0, 0} est transféré dans la\n{STRVAR_1 11, 1, 0} du PC de quelqu’un !
+1175	{STRVAR_1 1, 0, 0} est transféré dans la\n{STRVAR_1 11, 1, 0} du PC de Léo !
+1176	La {STRVAR_1 11, 1, 0} du PC de quelqu’un est\npleine.\r{STRVAR_1 1, 0, 0} est transféré dans la\n{STRVAR_1 11, 2, 0} !
+1177	La {STRVAR_1 11, 1, 0} du PC de Léo est pleine.\r{STRVAR_1 1, 0, 0} est transféré dans la\n{STRVAR_1 11, 2, 0} !
+1178	{STRVAR_1 1, 0, 0} veut apprendre {STRVAR_1 6, 1, 0}.\r
+1179	Mais {STRVAR_1 1, 0, 0} ne peut pas apprendre\nplus de quatre capacités.\r
+1180	Lui faire oublier une capacité ?{YESNO 0}
+1181	{ALN_CENTER}Oublier une capacité !
+1182	{ALN_CENTER}Garder les capacités !
+1183	Quelle capacité oublier ?{YESNO 0}
+1184	Bon...\r
+1185	Ce Pokémon doit-il renoncer à cette\ncapacité ?{YESNO 0}
+1186	{ALN_CENTER}Renoncer à {STRVAR_1 6, 0, 0} !
+1187	{ALN_CENTER}Ne pas renoncer à {STRVAR_1 6, 0, 0} !
+1188	{STRVAR_1 1, 0, 0} n’a pas appris {STRVAR_1 6, 1, 0}.\r
+1189	1, {PAUSE 20}2 et{PAUSE 20}... {PAUSE 20}... {PAUSE 20}{WAIT 4}Pouf !\r
+1190	{STRVAR_1 1, 0, 0} oublie comment utiliser\n{STRVAR_1 6, 1, 0}.\r
+1191	Et...\r
+1192	{STRVAR_1 1, 0, 0} apprend {STRVAR_1 6, 1, 0} !{WAIT 5}{WAIT 2}\r
+1193	{STRVAR_1 1, 0, 0} veut apprendre {STRVAR_1 6, 1, 0}.\r
+1194	Mais {STRVAR_1 1, 0, 0} connaît déjà quatre\ncapacités.\r
+1195	Effacer une capacité ? {YESNO 0}
+1196	Quelle capacité oublier ?\r
+1197	Renoncer à apprendre {STRVAR_1 6, 0, 0} ? {YESNO 0}
+1198	{STRVAR_1 1, 0, 0} n’a pas appris {STRVAR_1 6, 1, 0}.\r
+1199	1, {PAUSE 20}2 et{PAUSE 20}... {PAUSE 20}... {PAUSE 20}{WAIT 4}Pouf !\r
+1200	{STRVAR_1 1, 0, 0} oublie comment utiliser\n{STRVAR_1 6, 1, 0}.\r
+1201	Et...\r
+1202	{STRVAR_1 1, 0, 0} apprend {STRVAR_1 6, 1, 0} !{WAIT 5}{WAIT 2}\r
+1203	{STRVAR_1 13, 1, 0} de {STRVAR_1 1, 0, 0} augmente !
+1204	Votre équipe est enveloppée d’une\nbrume blanche !
+1205	{STRVAR_1 1, 0, 0} se gonfle à bloc !
+1206	Vous utilisez {STRVAR_1 8, 0, 0} !
+1207	{STRVAR_1 1, 0, 0} n’est plus empoisonné.
+1208	{STRVAR_1 1, 0, 0} n’est plus paralysé.
+1209	La brûlure de {STRVAR_1 1, 0, 0} est soignée.
+1210	{STRVAR_1 1, 0, 0} se réveille.
+1211	{STRVAR_1 1, 0, 0} est dégelé.
+1212	{STRVAR_1 1, 0, 0} n’est plus confus.
+1213	{STRVAR_1 1, 0, 0} n’est plus amoureux.
+1214	{STRVAR_1 1, 0, 0} récupère {STRVAR_1 52, 1, 0} PV.
+1215	Changer de Pokémon
+1216	Continuer le combat
+1217	Pokémon suivant
+1218	Fuir
+1219	Oh ! {STRVAR_1 1, 1, 0} de {STRVAR_1 3, 0, 0}\ns’approche !\r
+1220	PARC BALLS
+1221	Reste : {STRVAR_1 51, 0, 0}
+1222	Que doit faire\n{STRVAR_1 3, 0, 0} ?{YESNO 0}
+1223	BALL
+1224	FUITE
+1225	{STRVAR_1 1, 0, 0}, reviens !
+1226	Très bien ! Ses PV ont baissé ! C’est le\nmoment de lancer une Poké Ball !{YESNO 0}
+1227	OK ! Ses PV sont bas ! Il est temps de\nlancer une Poké Ball !{YESNO 0}
+1228	{STRVAR_1 3, 0, 0} lance une Poké Ball !
+1229	{STRVAR_1 1, 0, 0} n’a plus de problème de\nstatut !
+1230	Un vent arrière souffle derrière votre\néquipe !
+1231	Un vent arrière souffle derrière\nl’ennemi !
+1232	Le vent arrière de votre équipe\ns’arrête !
+1233	Le vent arrière de l’ennemi s’arrête !
+1234	Mais il n’y a pas de cible...
+1235	Ça n’a pas d’effet sur {STRVAR_1 1, 0, 0} !
+1236	Ça n’a pas d’effet sur {STRVAR_1 1, 0, 0}\nsauvage !
+1237	Ça n’a pas d’effet sur {STRVAR_1 1, 0, 0}\nennemi !
+1238	{STRVAR_1 1, 0, 0} dégage {STRVAR_1 5, 1, 0} !
+1239	{STRVAR_1 1, 0, 0} sauvage dégage\n{STRVAR_1 5, 1, 0} !
+1240	{STRVAR_1 1, 0, 0} ennemi dégage {STRVAR_1 5, 1, 0} !
+1241	L’Air Veinard protège votre équipe des\ncoups critiques !
+1242	L’Air Veinard protège l’ennemi des\ncoups critiques !
+1243	L’attaque passe à travers la\nprotection de {STRVAR_1 1, 0, 0} !
+1244	L’attaque passe à travers la\nprotection de {STRVAR_1 1, 0, 0} sauvage !
+1245	L’attaque passe à travers la\nprotection de {STRVAR_1 1, 0, 0} ennemi !
+1246	Un {STRVAR_1 1, 0, 0} sauvage apparaît !
+1247	{STRVAR_1 1, 0, 0} est piégé dans un tourbillon\nde magma !
+1248	{STRVAR_1 1, 0, 0} sauvage est piégé dans un\ntourbillon de magma !
+1249	{STRVAR_1 1, 0, 0} ennemi est piégé dans un\ntourbillon de magma !
+1250	{STRVAR_1 1, 0, 0} retrouve la forme.
+1251	{STRVAR_1 8, 1, 0} recharge entièrement\n{STRVAR_1 1, 0, 0} !
+1252	{STRVAR_1 8, 1, 0} recharge entièrement\n{STRVAR_1 1, 0, 0} sauvage !
+1253	{STRVAR_1 8, 1, 0} recharge entièrement\n{STRVAR_1 1, 0, 0} ennemi !
+1254	{STRVAR_1 8, 1, 0} permet à {STRVAR_1 1, 0, 0} d’agir\nen premier !
+1255	{STRVAR_1 8, 1, 0} permet à {STRVAR_1 1, 0, 0}\nsauvage d’agir en premier !
+1256	{STRVAR_1 8, 1, 0} permet à {STRVAR_1 1, 0, 0} ennemi\nd’agir en premier !
+1257	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} prend fin !
+1258	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} sauvage\nprend fin !
+1259	{STRVAR_1 6, 1, 0} de {STRVAR_1 1, 0, 0} ennemi prend\nfin !
+1260	STOP
+1261	Lecture en pause.
+1262	Veuillez patienter.
+1263	Les données sont corrompues.
+1264	Lecture annulée.
+1265	Le combat est trop long.
+1266	Lecture annulée.
+1267	Les dimensions se déforment !
+1268	{STRVAR_1 1, 0, 0} du Monde Distorsion\napparaît !\r
+1269	Annonceur : Vous n’avez plus de\n{STRVAR_1 8, 0, 0} ! C’est terminé !\r
+1270	BALL
+1271	X{STRVAR_1 51, 0, 0}
+1274	{ALN_RIGHT}N. {STRVAR_1 52, 1, 0}
+1275	{STRVAR_1 3, 0, 0} gagne {STRVAR_1 54, 1, 0} $ pour sa\nvictoire ! Une partie a été envoyée à\fMaman !\r

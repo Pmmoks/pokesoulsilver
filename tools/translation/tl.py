@@ -61,6 +61,11 @@ REFERENCE_BANKS = {
     'msg_0816': 'msg_0824', 'msg_0823': 'msg_0824',  # categories
 }
 
+# Banks that stay as they are: the Pokedex's text in the other languages it can show, the
+# greetings in each language, and debug menus no retail screen opens.
+KEEP_BANKS = {f'msg_{n:04d}' for n in [*range(806, 812), *range(817, 829), *range(767, 773),
+                                       *range(151, 179), 297, 299, 437, 438]}
+
 # Banks whose rows are names read into fixed-size buffers: the longest a row may be (the
 # count includes the terminator, as in the encoded bank). Species names are also kept in
 # the save, ten characters at most.
@@ -151,7 +156,7 @@ class Bank:
 
     def needs_translation(self, index):
         text = self.rows[index]
-        if index in self.garbage:
+        if index in self.garbage or self.stem[:8] in KEEP_BANKS:
             return False
         # Placeholders, numbers and punctuation alone stay as they are.
         return re.search(r'[A-Za-z]', COMMAND.sub('', LINE_BREAK.sub('', text))) is not None
@@ -229,18 +234,29 @@ def check_bank(bank):
         length = encoded_length(text)
         if limit and length > limit:
             problems.append(f'{where}: {length - 1} characters, at most {limit - 1} fit: {text}')
-        elif not limit and length > max_length and length > 16:
+        elif not limit and max_length <= 32 and length > max_length:
+            # Labels: the buffers they are read into may be no bigger than the longest one.
             problems.append(f'{where}: longer than every English row ({length} > {max_length}); check its buffer')
     return problems
 
 
 def cmd_check(args):
     banks = [find_bank(b, args.lang) for b in args.banks] if args.banks else all_banks(args.lang)
-    problems = [p for bank in banks for p in check_bank(bank)]
-    for p in problems:
-        print(p)
-    print(f'{len(problems)} problem(s)', file=sys.stderr)
-    return 1 if problems else 0
+    total = 0
+    for bank in banks:
+        problems = check_bank(bank)
+        total += len(problems)
+        # A few of each kind, so that one systematic mistake does not bury the rest.
+        kinds = collections.defaultdict(list)
+        for p in problems:
+            kinds[re.sub(r'[0-9]+', '#', p.split(': ', 1)[1].split(':')[0])].append(p)
+        for kind, items in kinds.items():
+            for p in items[:args.max]:
+                print(p)
+            if len(items) > args.max:
+                print(f'{bank.stem}: ... and {len(items) - args.max} more like that')
+    print(f'{total} problem(s)', file=sys.stderr)
+    return 1 if total else 0
 
 
 def wrap_text(text, width):
@@ -250,7 +266,8 @@ def wrap_text(text, width):
         if box == '\\r' or all(line_width(l) <= width for l in lines(box)):
             out.append(box)
             continue
-        words = re.sub(r'\\[nf]', ' ', box).split(' ')
+        # Words, each {COMMAND ...} whole.
+        words = re.findall(r'(?:\{[^}]*\}|[^ {])+', re.sub(r'\\[nf]', ' ', box))
         # French puts a space before these; they stay with the word before.
         glued = []
         for w in words:
@@ -326,6 +343,7 @@ def main():
     p.add_argument('--all', action='store_true', help='also rows already translated')
     p = sub.add_parser('check')
     p.add_argument('banks', nargs='*')
+    p.add_argument('--max', type=int, default=5, help='problems of each kind shown per bank')
     p = sub.add_parser('wrap')
     p.add_argument('bank')
     p.add_argument('--width', type=int)
