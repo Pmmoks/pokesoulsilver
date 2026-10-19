@@ -230,7 +230,8 @@ def check_bank(bank):
         chars = bad_chars(text)
         if chars:
             problems.append(f'{where}: characters the game cannot show: {" ".join(chars)}')
-        if sorted(COMMAND.findall(text)) != sorted(COMMAND.findall(english)):
+        # The same commands, each at least once: a name may be said once where English says it twice.
+        if set(COMMAND.findall(text)) != set(COMMAND.findall(english)):
             problems.append(f'{where}: commands differ: {COMMAND.findall(english)} -> {COMMAND.findall(text)}')
         if text.count('{YESNO') and not text.rstrip().endswith('}'):
             problems.append(f'{where}: {{YESNO}} must end the row')

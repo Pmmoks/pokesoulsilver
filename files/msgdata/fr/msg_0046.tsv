@@ -1,0 +1,42 @@
+0	Bienvenue au Colisée du Club de\nCommunication Pokémon.\rVous pouvez combattre vos amis\nici.\r
+1	Quel mode de combat voulez-vous\nchoisir ? {YESNO 0}
+2	Combattre à combien de joueurs ? {YESNO 0}
+3	Faire un Combat Multi à quatre ? {YESNO 0}
+4	REJOINDRE UN COMBAT MULTI
+5	RETOUR
+6	Il y a cinq modes de combat.\rLe Combat Simple oppose deux Dresseurs\nqui ont chacun un ou plusieurs Pokémon.\rChaque Dresseur a un seul Pokémon\nau combat à la fois.\rLe Combat Double oppose deux\nDresseurs qui ont chacun deux Pokémon\fou plus.\rChaque Dresseur envoie deux Pokémon\nau combat à la fois.\rLe Combat Mixte oppose deux Dresseurs\nqui ont chacun trois Pokémon.\rChaque Dresseur choisit un Pokémon de\nl’adversaire, l’ajoute à son équipe,\fpuis affronte l’autre Dresseur.\rLe Combat Nivelé est pour les Pokémon\nde niveau supérieur à 50.\rTous les Pokémon passent au niveau 50\npour le combat.\rLe Combat Multi oppose quatre\nDresseurs qui ont chacun un ou\fplusieurs Pokémon.\rChaque Dresseur a un seul Pokémon\nau combat à la fois.\r
+10	Pour un Combat Double, il vous faut\nau moins deux Pokémon.
+19	COUPE\n{STRVAR_1 26, 0, 0}
+20	SANS\nRESTRICTION
+22	RETOUR
+23	DOUBLE\nSANS RESTRICTION
+24	VOIR POKéMON SPÉCIAUX
+25	Il faut un Pokémon spécial pour\nparticiper à la Coupe GS.\r{STRVAR_1 3, 0, 0}, parmi les Pokémon que\nvous avez trouvés...\r
+27	peuvent participer à la compétition.\r
+28	aucun ne peut participer.\r
+29	Revenez quand vous voulez.
+36	Décidez lequel de vous deux\nsera le meneur.\rL’autre joueur doit ensuite choisir\n“REJOINDRE UN GROUPE”.{YESNO 0}
+57	Décidez lequel de vous quatre\nsera le meneur du groupe.\rLes autres joueurs doivent ensuite\nchoisir “REJOINDRE UN GROUPE”.{YESNO 0}
+66	Les membres sont réunis.\nVeuillez entrer dans la salle.
+71	Bienvenue au Club Union du Club\nde Communication Sans Fil Pokémon.\rVous pouvez rencontrer de nombreux\nDresseurs ici.\rVoulez-vous entrer dans la salle ?
+72	Les Dresseurs du Club Union sont\nles joueurs autour de vous\fqui sont aussi entrés dans la salle.\rVous pouvez inscrire deux Pokémon\njusqu’au N. 30 pour un combat en duel.\rVous pouvez aussi échanger vos\nPokémon avec un autre Dresseur.\rVous pouvez aussi mélanger vos\nrecords ou dessiner avec d’autres.\rVous pouvez aussi discuter avec les\nautres joueurs de la salle.\r... Ou vous faire des amis en touchant\nles mots prononcés.\rVoulez-vous entrer dans la salle ? {YESNO 0}
+77	Profitez bien de votre séjour au\nClub Union.\r
+120	Quelles règles voulez-vous\nutiliser ? {YESNO 0}
+121	Combattre en Coupe {STRVAR_1 26, 0, 0} ?{YESNO 0}
+122	Il vous faut au moins {STRVAR_1 50, 1, 0} Pokémon\nrespectant les règles de la\fCoupe {STRVAR_1 26, 0, 0}.
+128	COUPE\n{STRVAR_1 26, 0, 0}
+129	RETOUR
+130	CONFIRMER
+131	RÈGLES
+136	Impossible de former une équipe de\nPokémon respectant les règles de la\fCoupe {STRVAR_1 26, 0, 0} avec un\ftotal de niveaux limité à {STRVAR_1 52, 1, 0}.
+138	SANS RESTRICTION
+139	La Communication sans fil DS va être\nlancée. {YESNO 0}
+140	Pour un Combat Multi, il vous faut\nau moins trois Pokémon.
+141	Pour un Combat Mixte, il vous faut\nau moins trois Pokémon.
+142	Vous avez au moins un Pokémon\nqui ne peut pas être emmené.
+144	Désolés pour le dérangement...\nRevenez quand vous ne ferez plus\fpartie de la Team Rocket...
+145	Vous ne pouvez pas avoir plus de deux\nPokémon légendaires en Coupe GS.
+146	Désolés pour le dérangement...\nmais les personnes vêtues de noir,\fles personnes aux activités\fillégales et les membres de\fla Team Rocket ne peuvent\fpas participer.
+147	Désolés pour le dérangement.\rLe Prof. Orme de Bourg Geon nous a\nfait savoir qu’un PICHU\raux oreilles pointues ne pouvait\npas participer.\rMettez-le dans une Boîte du PC et\nrevenez.
+149	Bonjour ! Je vais vous expliquer la\nCarte Dresseur.\rVotre Carte Dresseur, avec vos\nPokémon bien sûr, prouve votre statut\fde Dresseur Pokémon pendant vos\faventures.\rElle enregistre automatiquement\ntoutes sortes d’informations.\rTouchez la carte pour voir son\nverso.\rVous pouvez signer le dos de votre\ncarte.\rVous pouvez montrer votre signature à\ntous ceux que vous croisez au Club\fUnion !\rMais votre signature sera effacée si\nvous signez de nouveau votre carte,\falors faites attention !
+172	Désolés pour le dérangement.\rLe Pokémon aux oreilles pointues qui\nvoyage avec vous...\fest d’une espèce absente de la base\fde données du Centre Pokémon, nous\fne pouvons donc pas le laisser passer.\rMettez-le dans une Boîte du PC et\nrevenez.

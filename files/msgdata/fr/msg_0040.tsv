@@ -1,0 +1,97 @@
+0	Bonjour, et bienvenue au\nCentre Pokémon.\rNous soignons vos Pokémon\nfatigués.\rVoulez-vous que vos Pokémon\nse reposent ?{YESNO 0}
+1	Je prends vos Pokémon quelques\nsecondes.
+2	Merci d’avoir patienté.\rVos Pokémon sont en pleine\nforme.\r
+3	À bientôt !
+4	Bonjour, et bienvenue au\nCentre Pokémon.\rNous soignons vos Pokémon\nfatigués.\rVoulez-vous que...\r
+5	C-cette Carte Dresseur !\rCette couleur magnifique !\nEt toutes ces étoiles !\rJ’ai vu plusieurs Dresseurs avec\ndes Cartes Violettes jusqu’ici...\rMais vous êtes le premier à les\nsurpasser avec une carte pareille.\rJe vous en prie, {STRVAR_1 3, 0, 0}, puis-je\nsoigner vos Pokémon ? {YESNO 0}
+6	Content de vous voir, {STRVAR_1 3, 0, 0} !\nComme d’habitude ? {YESNO 0}
+7	Je suis ravie de prendre vos\nPokémon quelques secondes.
+8	Merci d’avoir patienté.
+9	À bientôt !
+10	Vos Pokémon sont peut-être infectés\npar le Pokérus.\rOn sait peu de choses sur le Pokérus,\nsinon que ce sont des formes de vie\fmicroscopiques qui s’attachent aux\fPokémon.\rOn dit que les Pokémon infectés\ngrandissent exceptionnellement bien.
+11	{STRVAR_1 3, 0, 0} n’a plus de Pokémon en état\nde se battre !\r{STRVAR_1 3, 0, 0} est hors jeu !
+13	Voulez-vous sauvegarder la partie ? {YESNO 0}
+14	Une partie est déjà sauvegardée.\nL’écraser ? {YESNO 0}
+15	Sauvegarde en cours...\nN’éteignez pas la console.
+16	{STRVAR_1 3, 0, 0} a sauvegardé la partie.
+18	Erreur de sauvegarde.
+20	Une partie est déjà sauvegardée.\nImpossible de sauvegarder.\rConsultez le mode d’emploi pour\nplus de détails.\rPour effacer la partie sauvegardée,\nappuyez sur Haut + SELECT + B\fsur l’écran titre.
+21	Sauvegarde de beaucoup de données...\nN’éteignez pas la console.
+25	Vous obtenez {STRVAR_1 8, 0, 0} !
+27	Dommage !\nLe Sac est plein...
+28	{STRVAR_1 3, 0, 0} obtient\n{COLOR 2}{STRVAR_1 8, 1, 0}{COLOR 0} !
+29	{STRVAR_1 3, 0, 0} obtient\n{COLOR 1}{STRVAR_1 8, 1, 0}{COLOR 0} !
+30	{STRVAR_1 3, 0, 0} range {STRVAR_1 8, 1, 0}\ndans la poche {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0}.
+31	{STRVAR_1 3, 0, 0} range {STRVAR_1 8, 1, 0}\ndans la poche {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0}.
+32	{STRVAR_1 3, 0, 0} range\n{STRVAR_1 31, 1, 0} dans le Coffre Mode.
+33	{STRVAR_1 3, 0, 0} allume le PC.\r
+34	Accéder à quel PC ? {YESNO 0}
+35	Accès au Système de Stockage\nPokémon.\r
+36	Accès au PC de {STRVAR_1 3, 0, 0}.\r
+37	Les mots du Prof. Chen résonnent...\n{STRVAR_1 3, 0, 0} ! Chaque chose en son\ftemps ! Mais pas maintenant.
+38	Bienvenue !\nQue désirez-vous ?
+40	Voilà ! Tous en pleine forme !\nBonne chance et prenez soin d’eux !
+41	Maman : {STRVAR_1 3, 0, 0} !\nBienvenue à la maison.\rOn dirait que tu as vécu de sacrées\naventures dehors.\rTu devrais peut-être te reposer\nun peu pour te détendre.\r...\n...
+42	Maman : Oh, très bien ! Tes Pokémon\net toi avez l’air en forme.\rAh oui, le Prof. Orme m’a appelée.\rIl m’a dit que l’énergie d’un Pokémon\nse mesure en PV (Points de Vie).\rSi tes Pokémon perdent des PV,\ntu peux les soigner dans n’importe\fquel Centre Pokémon.\rSi tu pars loin, un Dresseur avisé\nfait le plein de Potions à la\fBoutique Pokémon.\rRends-moi fière, mon chéri !\nPrends soin de toi !
+43	Maman : Oh, très bien ! Tes Pokémon\net toi avez l’air en forme.\rAh oui, {STRVAR_1 3, 0, 0}, ton Pokémon sera\nK.O. s’il n’a plus de PV.\rSi ton Pokémon perd des PV, rentre\nà la maison avant qu’il soit K.O.\rIl retrouvera la forme en se\nreposant.\rAllez, rends-moi fière !\nPrends soin de toi !
+44	D’abord, soignons tes Pokémon.
+45	Tes Pokémon sont en pleine forme.
+46	Va dans un Centre Pokémon quand\ntes Pokémon perdent des PV.\rSi tu comptes voyager loin, fais\nle plein de Potions dans une\fBoutique Pokémon.\rBonne chance, Dresseur !
+47	Il n’y a aucune Lettre dans la\nboîte aux lettres.\r
+49	Ça ne mord pas...
+50	Le Pokémon s’est enfui...
+51	Vous avez remonté trop vite...
+52	Un Pokémon a mordu !
+53	{STRVAR_1 1, 0, 0} a survécu au poison.\nLe poison s’est dissipé !\r
+57	Il n’y a rien ici, on dirait...
+58	Le doux parfum s’est dissipé\npour une raison inconnue...
+59	Monter sur le Vélo ? {YESNO 0}
+60	Descendre du Vélo ? {YESNO 0}
+61	Impossible de descendre du Vélo ici !
+62	Hein ?
+63	{STRVAR_1 0, 0, 0} sort de l’Œuf !
+64	Voulez-vous donner un surnom au\n{STRVAR_1 0, 0, 0} qui vient d’éclore ?
+65	L’effet du Repousse s’est dissipé...
+68	Toutes mes excuses.\rNous faisons des travaux sous terre.\nL’accès est interdit au public.\rRevenez plus tard.
+71	Un texte est gravé au dos de la\nPlaque obtenue...\r“Quand l’univers fut créé, ses\néclats devinrent cette Plaque.”\r
+72	Un texte est gravé au dos de la\nPlaque obtenue...\r“Le pouvoir de géants vaincus\nimprègne cette Plaque.”\r
+73	Un texte est gravé au dos de la\nPlaque obtenue...\r“Deux êtres du temps et de l’espace\nlibérés par l’Être Originel.”\r
+74	Un texte est gravé au dos de la\nPlaque obtenue...\r“Trois êtres naquirent pour lier\nle temps et l’espace.”\r
+75	Un texte est gravé au dos de la\nPlaque obtenue...\r“Deux forment la matière, trois\nl’esprit, et façonnent le monde.”\r
+76	Un texte est gravé au dos de la\nPlaque obtenue...\r“L’Être Originel respirait seul\navant la venue de l’univers.”\r
+77	Un texte est gravé au dos de la\nPlaque obtenue...\r“Les pouvoirs des Plaques sont\npartagés entre les Pokémon.”\r
+78	Un texte est gravé au dos de la\nPlaque obtenue...\r“Le porteur légitime d’une Plaque\npuise dans la Plaque qu’il tient.”\r
+79	Impossible d’utiliser les Capsules :\nvous n’avez aucun Sceau.\r
+81	Voulez-vous sauvegarder la partie ?
+82	Une partie est déjà sauvegardée.\nL’écraser ?
+83	Bonjour !\nBienvenue au Centre Pokémon.\rNous soignons vos Pokémon\nfatigués.\rVoulez-vous que vos Pokémon\nse reposent ? {YESNO 0}
+84	Bonsoir, et bienvenue au\nCentre Pokémon.\rNous soignons vos Pokémon\nfatigués.\rVoulez-vous que vos Pokémon\nse reposent ? {YESNO 0}
+85	La Flûte Azur de {STRVAR_1 3, 0, 0} émet\nun son !\rVoulez-vous souffler dans la\nFlûte Azur ? {YESNO 0}
+86	{STRVAR_1 3, 0, 0} souffle dans la Flûte Azur.\r
+87	Un escalier lumineux est apparu !
+88	La Flûte Azur résonne dans le vide...\rIl semble inutile d’utiliser la\nFlûte Azur ici...
+89	{STRVAR_1 3, 0, 0} range {STRVAR_1 8, 1, 0}\ndans la poche {COLOR 2}{STRVAR_1 27, 2, 0}{COLOR 0}.\r
+90	{STRVAR_1 3, 0, 0} range\n{STRVAR_1 31, 1, 0} dans le Coffre Mode.\r
+93	Votre Sac est plein.\rImpossible de retirer l’Orbe Platiné,\nvous ne pouvez donc pas entrer.
+94	Les données du Panthéon sont\ncorrompues.\rElles seront réparées quand vous\nentrerez à nouveau au Panthéon.\r
+95	{STRVAR_1 3, 0, 0} reçoit\n{STRVAR_1 31, 1, 0} !\rMais le Coffre Mode est déjà plein !
+97	{STRVAR_1 3, 0, 0} a trouvé une Feuille d’Or !\r{STRVAR_1 3, 0, 0} donne la Feuille d’Or à\n{STRVAR_1 1, 1, 0} !
+98	{STRVAR_1 3, 0, 0} a trouvé une Feuille d’Or !\rMais {STRVAR_1 1, 1, 0} a déjà une\nFeuille d’Or !
+99	Hein ?\n{STRVAR_1 1, 0, 0} change...\r
+100	{STRVAR_1 1, 0, 0} prend sa\nForme Terrestre !
+101	Le numéro a été enregistré dans\nle Pokématos !\r
+102	{STRVAR_1 0, 0, 0} se sent mieux, alors vous\ndécidez de l’emmener avec vous !\r
+103	Hé !\rPeux-tu me dire ce que tu ressens\njuste avant un match ? Quand tu\fgagnes ou que tu perds ? Ce que ça\ffait d’être numéro un ? {YESNO 0}
+104	Très bien, dis-moi ce que tu\nressens avant un combat !\r
+105	Très bien, dis-moi ce que tu\nressens quand tu gagnes !\r
+106	Très bien, dis-moi ce que tu\nressens quand tu perds !\r
+107	Très bien, dis-moi ce que ça ferait\nd’être numéro un !\r
+108	Pardon ? Tu ne veux pas le dire ?\nDommage...
+109	Merci ! Tu veux me parler d’autre\nchose ? {YESNO 0}
+110	C’est noté ! Merci !
+111	C’est noté ! Merci !\n{STRVAR_1 28, 0, 0}, hein...
+112	AVANT UN COMBAT
+113	EN CAS DE VICTOIRE
+114	EN CAS DE DÉFAITE
+115	EN ÉTANT N° 1
+116	JE NE DIRAI RIEN
