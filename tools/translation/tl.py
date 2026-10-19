@@ -45,6 +45,12 @@ PLACEHOLDER_WIDTH = 60
 # The battle message window is 27 tiles wide (BattleSystem_InitWindows, battle_main.c).
 WIDTH_OVERRIDES = {
     'msg_0003': 216,  # battle messages
+    # Names: the French release, built from the same code, shows 15-character official
+    # names such as "Regard Médusant" (88 px) in the same windows.
+    'msg_0750': 88, 'msg_0751': 88,  # moves
+    'msg_0222': 88,  # items
+    'msg_0223': 116, 'msg_0224': 96,  # items with an article, plural: only within sentences
+    'msg_0720': 88, 'msg_0721': 88,  # abilities
 }
 
 # Banks whose text the game already shows in French somewhere else, in the same window: the
@@ -63,7 +69,8 @@ NAME_LIMITS = {
     'msg_0750': 16,  # moves
     'msg_0751': 16,  # moves, capitals
     'msg_0222': 16,  # items
-    'msg_0720': 16,  # abilities
+    'msg_0223': 32, 'msg_0224': 32,  # items with an article, plural: read into MessageFormat's buffer
+    'msg_0720': 16, 'msg_0721': 16,  # abilities
     'msg_0735': 16,  # types
     'msg_0730': 16,  # trainer classes
 }
@@ -155,6 +162,9 @@ class Bank:
             widest = max(widest, find_bank(REFERENCE_BANKS[self.stem[:8]], self.lang).english_line_width())
         return max(widest, WIDTH_OVERRIDES.get(self.stem[:8], 0))
 
+    def english_lines(self):
+        return max([len(lines(t)) for i, t in self.rows.items() if i not in self.garbage] or [0])
+
     def english_length(self):
         longest = max([encoded_length(t) for i, t in self.rows.items() if i not in self.garbage] or [0])
         if self.stem[:8] in REFERENCE_BANKS:
@@ -193,6 +203,9 @@ def check_bank(bank):
         return problems
     max_width = bank.english_line_width()
     max_length = bank.english_length()
+    max_lines = bank.english_lines()
+    # Text that never pages (no \r or \f in any English row) is drawn in a fixed box.
+    fixed_box = not any(('\\r' in t or '\\f' in t) for t in bank.rows.values())
     limit = NAME_LIMITS.get(bank.stem[:8])
     for index, text in sorted(bank.translated.items()):
         english = bank.rows.get(index)
@@ -211,10 +224,12 @@ def check_bank(bank):
             w = line_width(line)
             if w > max_width:
                 problems.append(f'{where}: {w} px wide, the bank allows {max_width}: {line}')
+        if fixed_box and len(lines(text)) > max_lines:
+            problems.append(f'{where}: {len(lines(text))} lines, the bank has at most {max_lines}')
         length = encoded_length(text)
         if limit and length > limit:
             problems.append(f'{where}: {length - 1} characters, at most {limit - 1} fit: {text}')
-        elif length > max_length and length > 16:
+        elif not limit and length > max_length and length > 16:
             problems.append(f'{where}: longer than every English row ({length} > {max_length}); check its buffer')
     return problems
 

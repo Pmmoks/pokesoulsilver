@@ -1,0 +1,514 @@
+# Item names with an indefinite article.
+1	une {COLOR 255}Master Ball{COLOR 0}
+2	une {COLOR 255}Hyper Ball{COLOR 0}
+3	une {COLOR 255}Super Ball{COLOR 0}
+4	une {COLOR 255}Poké Ball{COLOR 0}
+5	une {COLOR 255}Safari Ball{COLOR 0}
+6	une {COLOR 255}Filet Ball{COLOR 0}
+7	une {COLOR 255}Scuba Ball{COLOR 0}
+8	une {COLOR 255}Faiblo Ball{COLOR 0}
+9	une {COLOR 255}Bis Ball{COLOR 0}
+10	une {COLOR 255}Chrono Ball{COLOR 0}
+11	une {COLOR 255}Luxe Ball{COLOR 0}
+12	une {COLOR 255}Honor Ball{COLOR 0}
+13	une {COLOR 255}Sombre Ball{COLOR 0}
+14	une {COLOR 255}Soin Ball{COLOR 0}
+15	une {COLOR 255}Rapide Ball{COLOR 0}
+16	une {COLOR 255}Mémoire Ball{COLOR 0}
+17	une {COLOR 255}Potion{COLOR 0}
+18	un {COLOR 255}Antidote{COLOR 0}
+19	un {COLOR 255}Anti-Brûle{COLOR 0}
+20	un {COLOR 255}Antigel{COLOR 0}
+21	un {COLOR 255}Réveil{COLOR 0}
+22	un {COLOR 255}Anti-Para{COLOR 0}
+23	une {COLOR 255}Guérison{COLOR 0}
+24	une {COLOR 255}Potion Max{COLOR 0}
+25	une {COLOR 255}Hyper Potion{COLOR 0}
+26	une {COLOR 255}Super Potion{COLOR 0}
+27	un {COLOR 255}Total Soin{COLOR 0}
+28	un {COLOR 255}Rappel{COLOR 0}
+29	un {COLOR 255}Rappel Max{COLOR 0}
+30	une {COLOR 255}Eau Fraîche{COLOR 0}
+31	un {COLOR 255}Soda Cool{COLOR 0}
+32	une {COLOR 255}Limonade{COLOR 0}
+33	un {COLOR 255}Lait Meumeu{COLOR 0}
+34	une {COLOR 255}Poudrénergie{COLOR 0}
+35	une {COLOR 255}Racinénergie{COLOR 0}
+36	une {COLOR 255}Poudre Soin{COLOR 0}
+37	une {COLOR 255}Herbe Rappel{COLOR 0}
+38	une {COLOR 255}Huile{COLOR 0}
+39	une {COLOR 255}Huile Max{COLOR 0}
+40	un {COLOR 255}Élixir{COLOR 0}
+41	un {COLOR 255}Max Élixir{COLOR 0}
+42	un {COLOR 255}Lava Cookie{COLOR 0}
+43	un {COLOR 255}Jus de Baie{COLOR 0}
+44	une {COLOR 255}Cendre Sacrée{COLOR 0}
+45	un {COLOR 255}PV Plus{COLOR 0}
+46	une {COLOR 255}Protéine{COLOR 0}
+47	un {COLOR 255}Fer{COLOR 0}
+48	un {COLOR 255}Carbone{COLOR 0}
+49	un {COLOR 255}Calcium{COLOR 0}
+50	un {COLOR 255}Super Bonbon{COLOR 0}
+51	un {COLOR 255}PP Plus{COLOR 0}
+52	un {COLOR 255}Zinc{COLOR 0}
+53	un {COLOR 255}PP Max{COLOR 0}
+54	un {COLOR 255}Vieux Gâteau{COLOR 0}
+55	une {COLOR 255}Défense Spéc.{COLOR 0}
+56	un {COLOR 255}Muscle +{COLOR 0}
+57	une {COLOR 255}Attaque +{COLOR 0}
+58	une {COLOR 255}Défense +{COLOR 0}
+59	une {COLOR 255}Vitesse +{COLOR 0}
+60	une {COLOR 255}Précision +{COLOR 0}
+61	un {COLOR 255}Spécial +{COLOR 0}
+62	une {COLOR 255}Déf. Spé. +{COLOR 0}
+63	une {COLOR 255}Poképoupée{COLOR 0}
+64	une {COLOR 255}Queue Skitty{COLOR 0}
+65	une {COLOR 255}Flûte Bleue{COLOR 0}
+66	une {COLOR 255}Flûte Jaune{COLOR 0}
+67	une {COLOR 255}Flûte Rouge{COLOR 0}
+68	une {COLOR 255}Flûte Noire{COLOR 0}
+69	une {COLOR 255}Flûte Blanche{COLOR 0}
+70	un {COLOR 255}Sel Tréfonds{COLOR 0}
+71	une {COLOR 255}Co. Tréfonds{COLOR 0}
+72	un {COLOR 255}Tesson Rouge{COLOR 0}
+73	un {COLOR 255}Tesson Bleu{COLOR 0}
+74	un {COLOR 255}Tesson Jaune{COLOR 0}
+75	un {COLOR 255}Tesson Vert{COLOR 0}
+76	un {COLOR 255}Superepousse{COLOR 0}
+77	un {COLOR 255}Max Repousse{COLOR 0}
+78	une {COLOR 255}Corde Sortie{COLOR 0}
+79	un {COLOR 255}Repousse{COLOR 0}
+80	une {COLOR 255}Pierre Soleil{COLOR 0}
+81	une {COLOR 255}Pierre Lune{COLOR 0}
+82	une {COLOR 255}Pierre Feu{COLOR 0}
+83	une {COLOR 255}Pierrefoudre{COLOR 0}
+84	une {COLOR 255}Pierre Eau{COLOR 0}
+85	une {COLOR 255}Pierre Plante{COLOR 0}
+86	un {COLOR 255}Petit Champi{COLOR 0}
+87	un {COLOR 255}Gros Champi{COLOR 0}
+88	une {COLOR 255}Perle{COLOR 0}
+89	une {COLOR 255}Grosse Perle{COLOR 0}
+90	une {COLOR 255}Pouss. Étoile{COLOR 0}
+91	un {COLOR 255}Morc. Étoile{COLOR 0}
+92	une {COLOR 255}Pépite{COLOR 0}
+93	une {COLOR 255}Écaille Cœur{COLOR 0}
+94	un {COLOR 255}Miel{COLOR 0}
+95	un {COLOR 255}Fertipousse{COLOR 0}
+96	un {COLOR 255}Fertihumide{COLOR 0}
+97	un {COLOR 255}Fertistable{COLOR 0}
+98	un {COLOR 255}Fertiglue{COLOR 0}
+99	un {COLOR 255}Fossile Racine{COLOR 0}
+100	un {COLOR 255}Fossile Griffe{COLOR 0}
+101	un {COLOR 255}Nautile{COLOR 0}
+102	un {COLOR 255}Fossile Dôme{COLOR 0}
+103	un {COLOR 255}Vieil Ambre{COLOR 0}
+104	un {COLOR 255}Fossile Armure{COLOR 0}
+105	un {COLOR 255}Fossile Crâne{COLOR 0}
+106	un {COLOR 255}Os Rare{COLOR 0}
+107	une {COLOR 255}Pierre Éclat{COLOR 0}
+108	une {COLOR 255}Pierre Nuit{COLOR 0}
+109	une {COLOR 255}Pierre Aube{COLOR 0}
+110	une {COLOR 255}Pierre Ovale{COLOR 0}
+111	une {COLOR 255}Clé de Voûte{COLOR 0}
+112	un {COLOR 255}Orbe Platiné{COLOR 0}
+135	un {COLOR 255}Orbe Adamant{COLOR 0}
+136	un {COLOR 255}Orbe Perlé{COLOR 0}
+137	une {COLOR 255}Lettre Herbe{COLOR 0}
+138	une {COLOR 255}Lettre Feu{COLOR 0}
+139	une {COLOR 255}Lettre Eau{COLOR 0}
+140	une {COLOR 255}Lettre Fleur{COLOR 0}
+141	une {COLOR 255}Lettre Mine{COLOR 0}
+142	une {COLOR 255}Lettre Acier{COLOR 0}
+143	une {COLOR 255}Lettre Cœur{COLOR 0}
+144	une {COLOR 255}Lettre Neige{COLOR 0}
+145	une {COLOR 255}Lettre Cosmo{COLOR 0}
+146	une {COLOR 255}Lettre Air{COLOR 0}
+147	une {COLOR 255}Lettre Mosaïk{COLOR 0}
+148	une {COLOR 255}Lettre Brique{COLOR 0}
+149	une {COLOR 255}Baie Ceriz{COLOR 0}
+150	une {COLOR 255}Baie Maron{COLOR 0}
+151	une {COLOR 255}Baie Pêcha{COLOR 0}
+152	une {COLOR 255}Baie Fraive{COLOR 0}
+153	une {COLOR 255}Baie Willia{COLOR 0}
+154	une {COLOR 255}Baie Mepo{COLOR 0}
+155	une {COLOR 255}Baie Oran{COLOR 0}
+156	une {COLOR 255}Baie Kika{COLOR 0}
+157	une {COLOR 255}Baie Prine{COLOR 0}
+158	une {COLOR 255}Baie Sitrus{COLOR 0}
+159	une {COLOR 255}Baie Figuy{COLOR 0}
+160	une {COLOR 255}Baie Wiki{COLOR 0}
+161	une {COLOR 255}Baie Mago{COLOR 0}
+162	une {COLOR 255}Baie Gowav{COLOR 0}
+163	une {COLOR 255}Baie Papaya{COLOR 0}
+164	une {COLOR 255}Baie Framby{COLOR 0}
+165	une {COLOR 255}Baie Remu{COLOR 0}
+166	une {COLOR 255}Baie Nanab{COLOR 0}
+167	une {COLOR 255}Baie Repoi{COLOR 0}
+168	une {COLOR 255}Baie Nanana{COLOR 0}
+169	une {COLOR 255}Baie Grena{COLOR 0}
+170	une {COLOR 255}Baie Alga{COLOR 0}
+171	une {COLOR 255}Baie Qualot{COLOR 0}
+172	une {COLOR 255}Baie Lonme{COLOR 0}
+173	une {COLOR 255}Baie Résin{COLOR 0}
+174	une {COLOR 255}Baie Tamato{COLOR 0}
+175	une {COLOR 255}Baie Siam{COLOR 0}
+176	une {COLOR 255}Baie Mangou{COLOR 0}
+177	une {COLOR 255}Baie Rabuta{COLOR 0}
+178	une {COLOR 255}Baie Tronci{COLOR 0}
+179	une {COLOR 255}Baie Kiwan{COLOR 0}
+180	une {COLOR 255}Baie Palma{COLOR 0}
+181	une {COLOR 255}Baie Stekpa{COLOR 0}
+182	une {COLOR 255}Baie Durin{COLOR 0}
+183	une {COLOR 255}Baie Myrte{COLOR 0}
+184	une {COLOR 255}Baie Chocco{COLOR 0}
+185	une {COLOR 255}Baie Pocpoc{COLOR 0}
+186	une {COLOR 255}Baie Parma{COLOR 0}
+187	une {COLOR 255}Baie Ratam{COLOR 0}
+188	une {COLOR 255}Baie Nanone{COLOR 0}
+189	une {COLOR 255}Baie Pomroz{COLOR 0}
+190	une {COLOR 255}Baie Kébia{COLOR 0}
+191	une {COLOR 255}Baie Jouca{COLOR 0}
+192	une {COLOR 255}Baie Cobaba{COLOR 0}
+193	une {COLOR 255}Baie Yapap{COLOR 0}
+194	une {COLOR 255}Baie Panga{COLOR 0}
+195	une {COLOR 255}Baie Charti{COLOR 0}
+196	une {COLOR 255}Baie Sédra{COLOR 0}
+197	une {COLOR 255}Baie Fraigo{COLOR 0}
+198	une {COLOR 255}Baie Lampou{COLOR 0}
+199	une {COLOR 255}Baie Babiri{COLOR 0}
+200	une {COLOR 255}Baie Zalis{COLOR 0}
+201	une {COLOR 255}Baie Lichii{COLOR 0}
+202	une {COLOR 255}Baie Lingan{COLOR 0}
+203	une {COLOR 255}Baie Sailak{COLOR 0}
+204	une {COLOR 255}Baie Pitaye{COLOR 0}
+205	une {COLOR 255}Baie Abriko{COLOR 0}
+206	une {COLOR 255}Baie Lansat{COLOR 0}
+207	une {COLOR 255}Baie Frista{COLOR 0}
+208	une {COLOR 255}Baie Enigma{COLOR 0}
+209	une {COLOR 255}Baie Micle{COLOR 0}
+210	une {COLOR 255}Baie Chérim{COLOR 0}
+211	une {COLOR 255}Baie Jacoba{COLOR 0}
+212	une {COLOR 255}Baie Pommo{COLOR 0}
+213	une {COLOR 255}Poudre Claire{COLOR 0}
+214	une {COLOR 255}Herbe Blanche{COLOR 0}
+215	un {COLOR 255}Bracelet Macho{COLOR 0}
+216	un {COLOR 255}Multi Exp{COLOR 0}
+217	une {COLOR 255}Vive Griffe{COLOR 0}
+218	un {COLOR 255}Grelot Zen{COLOR 0}
+219	une {COLOR 255}Herbe Mental{COLOR 0}
+220	un {COLOR 255}Bandeau Choix{COLOR 0}
+221	une {COLOR 255}Roche Royale{COLOR 0}
+222	une {COLOR 255}Poudre Argent{COLOR 0}
+223	une {COLOR 255}Pièce Rune{COLOR 0}
+224	une {COLOR 255}Rune Purif{COLOR 0}
+225	une {COLOR 255}Rosée Âme{COLOR 0}
+226	une {COLOR 255}Dent Océan{COLOR 0}
+227	une {COLOR 255}Écaille Océan{COLOR 0}
+228	une {COLOR 255}Boule Fumée{COLOR 0}
+229	une {COLOR 255}Pierre Stase{COLOR 0}
+230	un {COLOR 255}Bandeau{COLOR 0}
+231	un {COLOR 255}Œuf Chance{COLOR 0}
+232	un {COLOR 255}Lentilscope{COLOR 0}
+233	une {COLOR 255}Peau Métal{COLOR 0}
+234	des {COLOR 255}Restes{COLOR 0}
+235	une {COLOR 255}Écaille Draco{COLOR 0}
+236	une {COLOR 255}Ballelumière{COLOR 0}
+237	un {COLOR 255}Sable Doux{COLOR 0}
+238	une {COLOR 255}Pierre Dure{COLOR 0}
+239	une {COLOR 255}Graine Miracle{COLOR 0}
+240	des {COLOR 255}Lunettes Noires{COLOR 0}
+241	une {COLOR 255}Ceinture Noire{COLOR 0}
+242	un {COLOR 255}Aimant{COLOR 0}
+243	une {COLOR 255}Eau Mystique{COLOR 0}
+244	un {COLOR 255}Bec Pointu{COLOR 0}
+245	un {COLOR 255}Pic Venin{COLOR 0}
+246	une {COLOR 255}Glace Éternelle{COLOR 0}
+247	une {COLOR 255}Rune Sort{COLOR 0}
+248	une {COLOR 255}Cuiller Tordue{COLOR 0}
+249	un {COLOR 255}Charbon{COLOR 0}
+250	un {COLOR 255}Croc Dragon{COLOR 0}
+251	un {COLOR 255}Mouchoir Soie{COLOR 0}
+252	un {COLOR 255}Améliorator{COLOR 0}
+253	un {COLOR 255}Grelot Coque{COLOR 0}
+254	un {COLOR 255}Encens Mer{COLOR 0}
+255	un {COLOR 255}Encens Doux{COLOR 0}
+256	un {COLOR 255}Poing Chance{COLOR 0}
+257	une {COLOR 255}Poudre Métal{COLOR 0}
+258	une {COLOR 255}Masse Os{COLOR 0}
+259	un {COLOR 255}Bâton{COLOR 0}
+260	un {COLOR 255}Foulard Rouge{COLOR 0}
+261	un {COLOR 255}Foulard Bleu{COLOR 0}
+262	un {COLOR 255}Foulard Rose{COLOR 0}
+263	un {COLOR 255}Foulard Vert{COLOR 0}
+264	un {COLOR 255}Foulard Jaune{COLOR 0}
+265	une {COLOR 255}Loupe{COLOR 0}
+266	un {COLOR 255}Bandeau Muscle{COLOR 0}
+267	des {COLOR 255}Lunettes Sages{COLOR 0}
+268	une {COLOR 255}Ceinture Pro{COLOR 0}
+269	une {COLOR 255}Lumargile{COLOR 0}
+270	un {COLOR 255}Orbe Vie{COLOR 0}
+271	une {COLOR 255}Herbe Pouvoir{COLOR 0}
+272	un {COLOR 255}Orbe Toxique{COLOR 0}
+273	un {COLOR 255}Orbe Flamme{COLOR 0}
+274	une {COLOR 255}Poudre Vite{COLOR 0}
+275	une {COLOR 255}Ceinture Force{COLOR 0}
+276	une {COLOR 255}Lentille Zoom{COLOR 0}
+277	un {COLOR 255}Métronome{COLOR 0}
+278	une {COLOR 255}Balle Fer{COLOR 0}
+279	une {COLOR 255}Ralentiqueue{COLOR 0}
+280	un {COLOR 255}Nœud Destin{COLOR 0}
+281	une {COLOR 255}Boue Noire{COLOR 0}
+282	une {COLOR 255}Roche Glace{COLOR 0}
+283	une {COLOR 255}Roche Lisse{COLOR 0}
+284	une {COLOR 255}Roche Chaude{COLOR 0}
+285	une {COLOR 255}Roche Humide{COLOR 0}
+286	un {COLOR 255}Accro Griffe{COLOR 0}
+287	un {COLOR 255}Mouchoir Choix{COLOR 0}
+288	des {COLOR 255}Piquants{COLOR 0}
+289	un {COLOR 255}Brac. Pouvoir{COLOR 0}
+290	une {COLOR 255}Ceint. Pouvoir{COLOR 0}
+291	une {COLOR 255}Lent. Pouvoir{COLOR 0}
+292	un {COLOR 255}Band. Pouvoir{COLOR 0}
+293	une {COLOR 255}Chaîne Pouvoir{COLOR 0}
+294	un {COLOR 255}Poids Pouvoir{COLOR 0}
+295	une {COLOR 255}Carapace Mue{COLOR 0}
+296	une {COLOR 255}Grosse Racine{COLOR 0}
+297	des {COLOR 255}Lunettes Choix{COLOR 0}
+298	une {COLOR 255}Plaque Flamme{COLOR 0}
+299	une {COLOR 255}Plaque Hydro{COLOR 0}
+300	une {COLOR 255}Plaque Volt{COLOR 0}
+301	une {COLOR 255}Plaque Herbe{COLOR 0}
+302	une {COLOR 255}Plaque Glace{COLOR 0}
+303	une {COLOR 255}Plaque Poing{COLOR 0}
+304	une {COLOR 255}Plaque Toxik{COLOR 0}
+305	une {COLOR 255}Plaque Terre{COLOR 0}
+306	une {COLOR 255}Plaque Ciel{COLOR 0}
+307	une {COLOR 255}Plaque Esprit{COLOR 0}
+308	une {COLOR 255}Plaque Insecte{COLOR 0}
+309	une {COLOR 255}Plaque Roc{COLOR 0}
+310	une {COLOR 255}Plaque Fantô{COLOR 0}
+311	une {COLOR 255}Plaque Draco{COLOR 0}
+312	une {COLOR 255}Plaque Ombre{COLOR 0}
+313	une {COLOR 255}Plaque Fer{COLOR 0}
+314	un {COLOR 255}Encens Bizarre{COLOR 0}
+315	un {COLOR 255}Encens Roc{COLOR 0}
+316	un {COLOR 255}Encens Plein{COLOR 0}
+317	un {COLOR 255}Encens Vague{COLOR 0}
+318	un {COLOR 255}Encens Fleur{COLOR 0}
+319	un {COLOR 255}Encens Veine{COLOR 0}
+320	un {COLOR 255}Encens Pur{COLOR 0}
+321	un {COLOR 255}Protecteur{COLOR 0}
+322	un {COLOR 255}Électriseur{COLOR 0}
+323	un {COLOR 255}Magmariseur{COLOR 0}
+324	un {COLOR 255}CD Douteux{COLOR 0}
+325	un {COLOR 255}Tissu Fauche{COLOR 0}
+326	une {COLOR 255}Griffe Rasoir{COLOR 0}
+327	un {COLOR 255}Croc Rasoir{COLOR 0}
+328	une {COLOR 255}CT01{COLOR 0}
+329	une {COLOR 255}CT02{COLOR 0}
+330	une {COLOR 255}CT03{COLOR 0}
+331	une {COLOR 255}CT04{COLOR 0}
+332	une {COLOR 255}CT05{COLOR 0}
+333	une {COLOR 255}CT06{COLOR 0}
+334	une {COLOR 255}CT07{COLOR 0}
+335	une {COLOR 255}CT08{COLOR 0}
+336	une {COLOR 255}CT09{COLOR 0}
+337	une {COLOR 255}CT10{COLOR 0}
+338	une {COLOR 255}CT11{COLOR 0}
+339	une {COLOR 255}CT12{COLOR 0}
+340	une {COLOR 255}CT13{COLOR 0}
+341	une {COLOR 255}CT14{COLOR 0}
+342	une {COLOR 255}CT15{COLOR 0}
+343	une {COLOR 255}CT16{COLOR 0}
+344	une {COLOR 255}CT17{COLOR 0}
+345	une {COLOR 255}CT18{COLOR 0}
+346	une {COLOR 255}CT19{COLOR 0}
+347	une {COLOR 255}CT20{COLOR 0}
+348	une {COLOR 255}CT21{COLOR 0}
+349	une {COLOR 255}CT22{COLOR 0}
+350	une {COLOR 255}CT23{COLOR 0}
+351	une {COLOR 255}CT24{COLOR 0}
+352	une {COLOR 255}CT25{COLOR 0}
+353	une {COLOR 255}CT26{COLOR 0}
+354	une {COLOR 255}CT27{COLOR 0}
+355	une {COLOR 255}CT28{COLOR 0}
+356	une {COLOR 255}CT29{COLOR 0}
+357	une {COLOR 255}CT30{COLOR 0}
+358	une {COLOR 255}CT31{COLOR 0}
+359	une {COLOR 255}CT32{COLOR 0}
+360	une {COLOR 255}CT33{COLOR 0}
+361	une {COLOR 255}CT34{COLOR 0}
+362	une {COLOR 255}CT35{COLOR 0}
+363	une {COLOR 255}CT36{COLOR 0}
+364	une {COLOR 255}CT37{COLOR 0}
+365	une {COLOR 255}CT38{COLOR 0}
+366	une {COLOR 255}CT39{COLOR 0}
+367	une {COLOR 255}CT40{COLOR 0}
+368	une {COLOR 255}CT41{COLOR 0}
+369	une {COLOR 255}CT42{COLOR 0}
+370	une {COLOR 255}CT43{COLOR 0}
+371	une {COLOR 255}CT44{COLOR 0}
+372	une {COLOR 255}CT45{COLOR 0}
+373	une {COLOR 255}CT46{COLOR 0}
+374	une {COLOR 255}CT47{COLOR 0}
+375	une {COLOR 255}CT48{COLOR 0}
+376	une {COLOR 255}CT49{COLOR 0}
+377	une {COLOR 255}CT50{COLOR 0}
+378	une {COLOR 255}CT51{COLOR 0}
+379	une {COLOR 255}CT52{COLOR 0}
+380	une {COLOR 255}CT53{COLOR 0}
+381	une {COLOR 255}CT54{COLOR 0}
+382	une {COLOR 255}CT55{COLOR 0}
+383	une {COLOR 255}CT56{COLOR 0}
+384	une {COLOR 255}CT57{COLOR 0}
+385	une {COLOR 255}CT58{COLOR 0}
+386	une {COLOR 255}CT59{COLOR 0}
+387	une {COLOR 255}CT60{COLOR 0}
+388	une {COLOR 255}CT61{COLOR 0}
+389	une {COLOR 255}CT62{COLOR 0}
+390	une {COLOR 255}CT63{COLOR 0}
+391	une {COLOR 255}CT64{COLOR 0}
+392	une {COLOR 255}CT65{COLOR 0}
+393	une {COLOR 255}CT66{COLOR 0}
+394	une {COLOR 255}CT67{COLOR 0}
+395	une {COLOR 255}CT68{COLOR 0}
+396	une {COLOR 255}CT69{COLOR 0}
+397	une {COLOR 255}CT70{COLOR 0}
+398	une {COLOR 255}CT71{COLOR 0}
+399	une {COLOR 255}CT72{COLOR 0}
+400	une {COLOR 255}CT73{COLOR 0}
+401	une {COLOR 255}CT74{COLOR 0}
+402	une {COLOR 255}CT75{COLOR 0}
+403	une {COLOR 255}CT76{COLOR 0}
+404	une {COLOR 255}CT77{COLOR 0}
+405	une {COLOR 255}CT78{COLOR 0}
+406	une {COLOR 255}CT79{COLOR 0}
+407	une {COLOR 255}CT80{COLOR 0}
+408	une {COLOR 255}CT81{COLOR 0}
+409	une {COLOR 255}CT82{COLOR 0}
+410	une {COLOR 255}CT83{COLOR 0}
+411	une {COLOR 255}CT84{COLOR 0}
+412	une {COLOR 255}CT85{COLOR 0}
+413	une {COLOR 255}CT86{COLOR 0}
+414	une {COLOR 255}CT87{COLOR 0}
+415	une {COLOR 255}CT88{COLOR 0}
+416	une {COLOR 255}CT89{COLOR 0}
+417	une {COLOR 255}CT90{COLOR 0}
+418	une {COLOR 255}CT91{COLOR 0}
+419	une {COLOR 255}CT92{COLOR 0}
+420	une {COLOR 255}CS01{COLOR 0}
+421	une {COLOR 255}CS02{COLOR 0}
+422	une {COLOR 255}CS03{COLOR 0}
+423	une {COLOR 255}CS04{COLOR 0}
+424	une {COLOR 255}CS05{COLOR 0}
+425	une {COLOR 255}CS06{COLOR 0}
+426	une {COLOR 255}CS07{COLOR 0}
+427	une {COLOR 255}CS08{COLOR 0}
+429	un {COLOR 255}Sac Butin{COLOR 0}
+430	un {COLOR 255}Livre Règles{COLOR 0}
+431	un {COLOR 255}Poké Radar{COLOR 0}
+432	une {COLOR 255}Carte Points{COLOR 0}
+433	un {COLOR 255}Journal{COLOR 0}
+434	une {COLOR 255}Boîte Sceaux{COLOR 0}
+435	un {COLOR 255}Coffre Mode{COLOR 0}
+436	un {COLOR 255}Sac Sceaux{COLOR 0}
+437	un {COLOR 255}Carnet Ami{COLOR 0}
+438	une {COLOR 255}Clé Centrale{COLOR 0}
+439	un {COLOR 255}Vieux Grigri{COLOR 0}
+440	une {COLOR 255}Clé Galaxie{COLOR 0}
+441	une {COLOR 255}Chaîne Rouge{COLOR 0}
+442	une {COLOR 255}Carte{COLOR 0}
+443	un {COLOR 255}Cherch’Combat{COLOR 0}
+444	une {COLOR 255}Boîte Jetons{COLOR 0}
+445	une {COLOR 255}Canne{COLOR 0}
+446	une {COLOR 255}Super Canne{COLOR 0}
+447	une {COLOR 255}Méga Canne{COLOR 0}
+448	un {COLOR 255}Kwakarrosoir{COLOR 0}
+449	une {COLOR 255}Boîte Poffin{COLOR 0}
+450	une {COLOR 255}Bicyclette{COLOR 0}
+451	une {COLOR 255}Clé Chambre{COLOR 0}
+452	une {COLOR 255}Lettre Chen{COLOR 0}
+453	une {COLOR 255}Plume Lune{COLOR 0}
+454	une {COLOR 255}Carte Membre{COLOR 0}
+455	une {COLOR 255}Flûte Azur{COLOR 0}
+456	un {COLOR 255}Passe Bateau{COLOR 0}
+457	un {COLOR 255}Passe Concours{COLOR 0}
+458	une {COLOR 255}Pierre Magma{COLOR 0}
+459	un {COLOR 255}Colis{COLOR 0}
+460	un {COLOR 255}Coupon 1{COLOR 0}
+461	un {COLOR 255}Coupon 2{COLOR 0}
+462	un {COLOR 255}Coupon 3{COLOR 0}
+463	une {COLOR 255}Clé Stockage{COLOR 0}
+464	une {COLOR 255}Potion Secrète{COLOR 0}
+465	un {COLOR 255}Magnéto VS{COLOR 0}
+466	une {COLOR 255}Gracidée{COLOR 0}
+467	une {COLOR 255}Clé Secrète{COLOR 0}
+468	une {COLOR 255}Boîte Noigrume{COLOR 0}
+469	un {COLOR 255}Rapport ZARBI{COLOR 0}
+470	des {COLOR 255}Plante-Baies{COLOR 0}
+471	un {COLOR 255}Cherch’Objet{COLOR 0}
+472	une {COLOR 255}Carte Bleue{COLOR 0}
+473	une {COLOR 255}Queue Ramoloss{COLOR 0}
+474	un {COLOR 255}Grelot Clair{COLOR 0}
+475	une {COLOR 255}Carte Magnét.{COLOR 0}
+476	une {COLOR 255}Clé Sous-Sol{COLOR 0}
+477	un {COLOR 255}Carapuce à O{COLOR 0}
+478	une {COLOR 255}Écaille Rouge{COLOR 0}
+479	un {COLOR 255}Objet Perdu{COLOR 0}
+480	un {COLOR 255}Passe Train{COLOR 0}
+481	une {COLOR 255}Pièce Méca.{COLOR 0}
+482	une {COLOR 255}Argent’Aile{COLOR 0}
+483	une {COLOR 255}Arcenci’Aile{COLOR 0}
+484	un {COLOR 255}Œuf Mystère{COLOR 0}
+485	un {COLOR 255}Noigrume Rouge{COLOR 0}
+486	un {COLOR 255}Noigrume Jaune{COLOR 0}
+487	un {COLOR 255}Noigrume Bleu{COLOR 0}
+488	un {COLOR 255}Noigrume Vert{COLOR 0}
+489	un {COLOR 255}Noigrume Rose{COLOR 0}
+490	un {COLOR 255}Noigrume Blanc{COLOR 0}
+491	un {COLOR 255}Noigrume Noir{COLOR 0}
+492	une {COLOR 255}Speed Ball{COLOR 0}
+493	une {COLOR 255}Niveau Ball{COLOR 0}
+494	une {COLOR 255}Appât Ball{COLOR 0}
+495	une {COLOR 255}Masse Ball{COLOR 0}
+496	une {COLOR 255}Love Ball{COLOR 0}
+497	une {COLOR 255}Copain Ball{COLOR 0}
+498	une {COLOR 255}Lune Ball{COLOR 0}
+499	un {COLOR 255}Compét’Ball{COLOR 0}
+500	une {COLOR 255}Parc Ball{COLOR 0}
+501	un {COLOR 255}Album Photo{COLOR 0}
+502	des {COLOR 255}Sons GB{COLOR 0}
+503	une {COLOR 255}Cloche Marée{COLOR 0}
+504	un {COLOR 255}Bonbon Rage{COLOR 0}
+505	une {COLOR 255}Carte Info 01{COLOR 0}
+506	une {COLOR 255}Carte Info 02{COLOR 0}
+507	une {COLOR 255}Carte Info 03{COLOR 0}
+508	une {COLOR 255}Carte Info 04{COLOR 0}
+509	une {COLOR 255}Carte Info 05{COLOR 0}
+510	une {COLOR 255}Carte Info 06{COLOR 0}
+511	une {COLOR 255}Carte Info 07{COLOR 0}
+512	une {COLOR 255}Carte Info 08{COLOR 0}
+513	une {COLOR 255}Carte Info 09{COLOR 0}
+514	une {COLOR 255}Carte Info 10{COLOR 0}
+515	une {COLOR 255}Carte Info 11{COLOR 0}
+516	une {COLOR 255}Carte Info 12{COLOR 0}
+517	une {COLOR 255}Carte Info 13{COLOR 0}
+518	une {COLOR 255}Carte Info 14{COLOR 0}
+519	une {COLOR 255}Carte Info 15{COLOR 0}
+520	une {COLOR 255}Carte Info 16{COLOR 0}
+521	une {COLOR 255}Carte Info 17{COLOR 0}
+522	une {COLOR 255}Carte Info 18{COLOR 0}
+523	une {COLOR 255}Carte Info 19{COLOR 0}
+524	une {COLOR 255}Carte Info 20{COLOR 0}
+525	une {COLOR 255}Carte Info 21{COLOR 0}
+526	une {COLOR 255}Carte Info 22{COLOR 0}
+527	une {COLOR 255}Carte Info 23{COLOR 0}
+528	une {COLOR 255}Carte Info 24{COLOR 0}
+529	une {COLOR 255}Carte Info 25{COLOR 0}
+530	une {COLOR 255}Carte Info 26{COLOR 0}
+531	une {COLOR 255}Carte Info 27{COLOR 0}
+532	un {COLOR 255}Orbe Jade{COLOR 0}
+533	une {COLOR 255}Capsule Scellée{COLOR 0}
+534	un {COLOR 255}Orbe Rouge{COLOR 0}
+535	un {COLOR 255}Orbe Bleu{COLOR 0}
+536	une {COLOR 255}Pierre Énigme{COLOR 0}

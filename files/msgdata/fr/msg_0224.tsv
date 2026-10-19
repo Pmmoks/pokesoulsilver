@@ -1,0 +1,514 @@
+# Item names in the plural.
+1	Master Balls
+2	Hyper Balls
+3	Super Balls
+4	Poké Balls
+5	Safari Balls
+6	Filet Balls
+7	Scuba Balls
+8	Faiblo Balls
+9	Bis Balls
+10	Chrono Balls
+11	Luxe Balls
+12	Honor Balls
+13	Sombre Balls
+14	Soin Balls
+15	Rapide Balls
+16	Mémoire Balls
+17	Potions
+18	Antidotes
+19	Anti-Brûles
+20	Antigels
+21	Réveils
+22	Anti-Paras
+23	Guérisons
+24	Potions Max
+25	Hyper Potions
+26	Super Potions
+27	Total Soins
+28	Rappels
+29	Rappels Max
+30	Eaus Fraîches
+31	Sodas Cool
+32	Limonades
+33	Laits Meumeu
+34	Poudrénergies
+35	Racinénergies
+36	Poudres Soin
+37	Herbes Rappel
+38	Huiles
+39	Huiles Max
+40	Élixirs
+41	Max Élixirs
+42	Lavas Cookie
+43	Jus de Baie
+44	Cendres Sacrées
+45	PVs Plus
+46	Protéines
+47	Fers
+48	Carbones
+49	Calciums
+50	Super Bonbons
+51	PPs Plus
+52	Zincs
+53	PPs Max
+54	Vieux Gâteaux
+55	Défenses Spéc.
+56	Muscles +
+57	Attaques +
+58	Défenses +
+59	Vitesses +
+60	Précisions +
+61	Spéciaux +
+62	Déf. Spé. +
+63	Poképoupées
+64	Queues Skitty
+65	Flûtes Bleues
+66	Flûtes Jaunes
+67	Flûtes Rouges
+68	Flûtes Noires
+69	Flûtes Blanches
+70	Sels Tréfonds
+71	Co. Tréfonds
+72	Tessons Rouges
+73	Tessons Bleus
+74	Tessons Jaunes
+75	Tessons Verts
+76	Superepousses
+77	Max Repousses
+78	Cordes Sortie
+79	Repousses
+80	Pierres Soleil
+81	Pierres Lune
+82	Pierres Feu
+83	Pierrefoudres
+84	Pierres Eau
+85	Pierres Plante
+86	Petits Champis
+87	Gros Champis
+88	Perles
+89	Grosses Perles
+90	Pouss. Étoile
+91	Morc. Étoile
+92	Pépites
+93	Écailles Cœur
+94	Miels
+95	Fertipousses
+96	Fertihumides
+97	Fertistables
+98	Fertiglues
+99	Fossiles Racine
+100	Fossiles Griffe
+101	Nautiles
+102	Fossiles Dôme
+103	Vieux Ambres
+104	Fossiles Armure
+105	Fossiles Crâne
+106	Os Rares
+107	Pierres Éclat
+108	Pierres Nuit
+109	Pierres Aube
+110	Pierres Ovales
+111	Clés de Voûte
+112	Orbes Platinés
+135	Orbes Adamant
+136	Orbes Perlés
+137	Lettres Herbe
+138	Lettres Feu
+139	Lettres Eau
+140	Lettres Fleur
+141	Lettres Mine
+142	Lettres Acier
+143	Lettres Cœur
+144	Lettres Neige
+145	Lettres Cosmo
+146	Lettres Air
+147	Lettres Mosaïk
+148	Lettres Brique
+149	Baies Ceriz
+150	Baies Maron
+151	Baies Pêcha
+152	Baies Fraive
+153	Baies Willia
+154	Baies Mepo
+155	Baies Oran
+156	Baies Kika
+157	Baies Prine
+158	Baies Sitrus
+159	Baies Figuy
+160	Baies Wiki
+161	Baies Mago
+162	Baies Gowav
+163	Baies Papaya
+164	Baies Framby
+165	Baies Remu
+166	Baies Nanab
+167	Baies Repoi
+168	Baies Nanana
+169	Baies Grena
+170	Baies Alga
+171	Baies Qualot
+172	Baies Lonme
+173	Baies Résin
+174	Baies Tamato
+175	Baies Siam
+176	Baies Mangou
+177	Baies Rabuta
+178	Baies Tronci
+179	Baies Kiwan
+180	Baies Palma
+181	Baies Stekpa
+182	Baies Durin
+183	Baies Myrte
+184	Baies Chocco
+185	Baies Pocpoc
+186	Baies Parma
+187	Baies Ratam
+188	Baies Nanone
+189	Baies Pomroz
+190	Baies Kébia
+191	Baies Jouca
+192	Baies Cobaba
+193	Baies Yapap
+194	Baies Panga
+195	Baies Charti
+196	Baies Sédra
+197	Baies Fraigo
+198	Baies Lampou
+199	Baies Babiri
+200	Baies Zalis
+201	Baies Lichii
+202	Baies Lingan
+203	Baies Sailak
+204	Baies Pitaye
+205	Baies Abriko
+206	Baies Lansat
+207	Baies Frista
+208	Baies Enigma
+209	Baies Micle
+210	Baies Chérim
+211	Baies Jacoba
+212	Baies Pommo
+213	Poudres Claires
+214	Herbes Blanches
+215	Bracelets Macho
+216	Multi Exps
+217	Vives Griffes
+218	Grelots Zen
+219	Herbes Mental
+220	Bandeaux Choix
+221	Roches Royale
+222	Poudres Argent
+223	Pièces Rune
+224	Runes Purif
+225	Rosées Âme
+226	Dents Océan
+227	Écailles Océan
+228	Boules Fumée
+229	Pierres Stase
+230	Bandeaux
+231	Œufs Chance
+232	Lentilscopes
+233	Peaux Métal
+234	Restes
+235	Écailles Draco
+236	Ballelumières
+237	Sables Doux
+238	Pierres Dures
+239	Graines Miracle
+240	Lunettes Noires
+241	Ceintures Noires
+242	Aimants
+243	Eaus Mystiques
+244	Becs Pointus
+245	Pics Venin
+246	Glaces Éternelles
+247	Runes Sort
+248	Cuillers Tordues
+249	Charbons
+250	Crocs Dragon
+251	Mouchoirs Soie
+252	Améliorators
+253	Grelots Coque
+254	Encens Mer
+255	Encens Doux
+256	Poings Chance
+257	Poudres Métal
+258	Masses Os
+259	Bâtons
+260	Foulards Rouges
+261	Foulards Bleus
+262	Foulards Roses
+263	Foulards Verts
+264	Foulards Jaunes
+265	Loupes
+266	Bandeaux Muscle
+267	Lunettes Sages
+268	Ceintures Pro
+269	Lumargiles
+270	Orbes Vie
+271	Herbes Pouvoir
+272	Orbes Toxiques
+273	Orbes Flamme
+274	Poudres Vite
+275	Ceintures Force
+276	Lentilles Zoom
+277	Métronomes
+278	Balles Fer
+279	Ralentiqueues
+280	Nœuds Destin
+281	Boues Noires
+282	Roches Glace
+283	Roches Lisses
+284	Roches Chaudes
+285	Roches Humides
+286	Accros Griffe
+287	Mouchoirs Choix
+288	Piquants
+289	Brac. Pouvoir
+290	Ceint. Pouvoir
+291	Lent. Pouvoir
+292	Band. Pouvoir
+293	Chaînes Pouvoir
+294	Poids Pouvoir
+295	Carapaces Mue
+296	Grosses Racines
+297	Lunettes Choix
+298	Plaques Flamme
+299	Plaques Hydro
+300	Plaques Volt
+301	Plaques Herbe
+302	Plaques Glace
+303	Plaques Poing
+304	Plaques Toxik
+305	Plaques Terre
+306	Plaques Ciel
+307	Plaques Esprit
+308	Plaques Insecte
+309	Plaques Roc
+310	Plaques Fantô
+311	Plaques Draco
+312	Plaques Ombre
+313	Plaques Fer
+314	Encens Bizarres
+315	Encens Roc
+316	Encens Pleins
+317	Encens Vague
+318	Encens Fleur
+319	Encens Veine
+320	Encens Purs
+321	Protecteurs
+322	Électriseurs
+323	Magmariseurs
+324	CDs Douteux
+325	Tissus Fauche
+326	Griffes Rasoir
+327	Crocs Rasoir
+328	CT01
+329	CT02
+330	CT03
+331	CT04
+332	CT05
+333	CT06
+334	CT07
+335	CT08
+336	CT09
+337	CT10
+338	CT11
+339	CT12
+340	CT13
+341	CT14
+342	CT15
+343	CT16
+344	CT17
+345	CT18
+346	CT19
+347	CT20
+348	CT21
+349	CT22
+350	CT23
+351	CT24
+352	CT25
+353	CT26
+354	CT27
+355	CT28
+356	CT29
+357	CT30
+358	CT31
+359	CT32
+360	CT33
+361	CT34
+362	CT35
+363	CT36
+364	CT37
+365	CT38
+366	CT39
+367	CT40
+368	CT41
+369	CT42
+370	CT43
+371	CT44
+372	CT45
+373	CT46
+374	CT47
+375	CT48
+376	CT49
+377	CT50
+378	CT51
+379	CT52
+380	CT53
+381	CT54
+382	CT55
+383	CT56
+384	CT57
+385	CT58
+386	CT59
+387	CT60
+388	CT61
+389	CT62
+390	CT63
+391	CT64
+392	CT65
+393	CT66
+394	CT67
+395	CT68
+396	CT69
+397	CT70
+398	CT71
+399	CT72
+400	CT73
+401	CT74
+402	CT75
+403	CT76
+404	CT77
+405	CT78
+406	CT79
+407	CT80
+408	CT81
+409	CT82
+410	CT83
+411	CT84
+412	CT85
+413	CT86
+414	CT87
+415	CT88
+416	CT89
+417	CT90
+418	CT91
+419	CT92
+420	CS01
+421	CS02
+422	CS03
+423	CS04
+424	CS05
+425	CS06
+426	CS07
+427	CS08
+429	Sacs Butin
+430	Livres Règles
+431	Pokés Radar
+432	Cartes Points
+433	Journaux
+434	Boîtes Sceaux
+435	Coffres Mode
+436	Sacs Sceaux
+437	Carnets Ami
+438	Clés Centrale
+439	Vieux Grigris
+440	Clés Galaxie
+441	Chaînes Rouges
+442	Cartes
+443	Cherch’Combats
+444	Boîtes Jetons
+445	Cannes
+446	Super Cannes
+447	Méga Cannes
+448	Kwakarrosoirs
+449	Boîtes Poffin
+450	Bicyclettes
+451	Clés Chambre
+452	Lettres Chen
+453	Plumes Lune
+454	Cartes Membre
+455	Flûtes Azur
+456	Passes Bateau
+457	Passes Concours
+458	Pierres Magma
+459	Colis
+460	Coupons 1
+461	Coupons 2
+462	Coupons 3
+463	Clés Stockage
+464	Potions Secrètes
+465	Magnétos VS
+466	Gracidées
+467	Clés Secrètes
+468	Boîtes Noigrume
+469	Rapports ZARBI
+470	Plante-Baies
+471	Cherch’Objets
+472	Cartes Bleues
+473	Queues Ramoloss
+474	Grelots Clair
+475	Cartes Magnét.
+476	Clés Sous-Sol
+477	Carapuces à O
+478	Écailles Rouges
+479	Objets Perdus
+480	Passes Train
+481	Pièces Méca.
+482	Argent’Ailes
+483	Arcenci’Ailes
+484	Œufs Mystère
+485	Noigrumes Rouges
+486	Noigrumes Jaunes
+487	Noigrumes Bleus
+488	Noigrumes Verts
+489	Noigrumes Roses
+490	Noigrumes Blancs
+491	Noigrumes Noirs
+492	Speed Balls
+493	Niveau Balls
+494	Appât Balls
+495	Masse Balls
+496	Love Balls
+497	Copain Balls
+498	Lune Balls
+499	Compét’Balls
+500	Parc Balls
+501	Albums Photo
+502	Sons GB
+503	Cloches Marée
+504	Bonbons Rage
+505	Carte Info 01
+506	Carte Info 02
+507	Carte Info 03
+508	Carte Info 04
+509	Carte Info 05
+510	Carte Info 06
+511	Carte Info 07
+512	Carte Info 08
+513	Carte Info 09
+514	Carte Info 10
+515	Carte Info 11
+516	Carte Info 12
+517	Carte Info 13
+518	Carte Info 14
+519	Carte Info 15
+520	Carte Info 16
+521	Carte Info 17
+522	Carte Info 18
+523	Carte Info 19
+524	Carte Info 20
+525	Carte Info 21
+526	Carte Info 22
+527	Carte Info 23
+528	Carte Info 24
+529	Carte Info 25
+530	Carte Info 26
+531	Carte Info 27
+532	Orbes Jade
+533	Capsules Scellées
+534	Orbes Rouges
+535	Orbes Bleus
+536	Pierres Énigme

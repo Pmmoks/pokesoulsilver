@@ -1,0 +1,124 @@
+# Ability descriptions.
+1	Sa puanteur éloigne les\nPokémon sauvages.
+2	Fait tomber la pluie\nquand il entre au combat.
+3	Augmente peu à peu sa\nVitesse.
+4	Protège contre les\ncoups critiques.
+5	Protège contre les\nK.O. en un coup.
+6	Empêche les Pokémon\nd’exploser.
+7	Protège contre la\nparalysie.
+8	Augmente l’esquive lors\nd’une tempête de sable.
+9	Peut paralyser l’ennemi\nau contact.
+10	Une capacité Électrik\nlui rend des PV.
+11	Une capacité Eau\nlui rend des PV.
+12	Empêche le Pokémon\nde tomber amoureux.
+13	Annule les effets\nde la météo.
+14	Augmente la précision\ndu Pokémon.
+15	Empêche le Pokémon\nde s’endormir.
+16	Prend le type de la\ncapacité subie.
+17	Empêche le Pokémon\nd’être empoisonné.
+18	Une capacité Feu reçue\nrenforce les siennes.
+19	Bloque les effets\nsecondaires subis.
+20	Empêche le Pokémon\nd’être confus.
+21	Contre les capacités\nqui forcent à changer.
+22	Baisse l’Attaque\nde l’ennemi.
+23	Empêche l’ennemi\nde fuir.
+24	Blesse l’ennemi qui\nle touche.
+25	Seuls les coups super\nefficaces le touchent.
+26	Immunise contre toutes\nles capacités Sol.
+27	Peut endormir, paralyser\nou empoisonner.
+28	Transmet brûlure, poison\nou paralysie à l’ennemi.
+29	Empêche la baisse\nde ses stats.
+30	Soigne ses problèmes de\nstatut s’il est rappelé.
+31	Attire toutes les\ncapacités Électrik.
+32	Augmente les chances\nd’effets secondaires.
+33	Augmente la Vitesse\nsous la pluie.
+34	Augmente la Vitesse\nau soleil.
+35	Attire davantage les\nPokémon sauvages.
+36	Copie le talent\nde l’ennemi.
+37	Augmente l’Attaque\ndu Pokémon.
+38	Peut empoisonner\nl’ennemi au contact.
+39	Empêche le Pokémon\nd’être apeuré.
+40	Empêche le Pokémon\nd’être gelé.
+41	Empêche le Pokémon\nd’être brûlé.
+42	Empêche les Pokémon\nAcier de fuir.
+43	Immunise contre les\ncapacités sonores.
+44	Récupère peu à peu des\nPV sous la pluie.
+45	Déclenche une tempête\nde sable au combat.
+46	L’ennemi utilise plus\nde PP.
+47	Résiste mieux aux\ncapacités Feu et Glace.
+48	Se réveille plus vite\nquand il dort.
+49	Peut brûler l’ennemi\nau contact.
+50	Permet de fuir à coup sûr\nles Pokémon sauvages.
+51	Empêche la baisse\nde sa précision.
+52	Empêche la baisse\nde son Attaque.
+53	Le Pokémon peut\nramasser des objets.
+54	Ne peut pas attaquer\ndeux tours de suite.
+55	Augmente l’Attaque mais\nbaisse la précision.
+56	Peut rendre l’ennemi\namoureux au contact.
+57	Monte l’Atq. Spé. si un\nallié a le talent Minus.
+58	Monte l’Atq. Spé. si un\nallié a le talent Plus.
+59	MORPHÉO change de\nforme selon la météo.
+60	Empêche le vol de\nl’objet tenu.
+61	Peut soigner ses propres\nproblèmes de statut.
+62	Monte l’Attaque en cas\nde problème de statut.
+63	Monte la Défense en cas\nde problème de statut.
+64	Blesse l’ennemi qui\ndraine ses PV.
+65	Renforce les capacités\nPlante s’il faiblit.
+66	Renforce les capacités\nFeu s’il faiblit.
+67	Renforce les capacités\nEau s’il faiblit.
+68	Renforce les capacités\nInsecte s’il faiblit.
+69	Protège contre les\ndégâts de recul.
+70	Fait briller le soleil\nquand il entre au combat.
+71	Empêche l’ennemi\nde fuir.
+72	Empêche le Pokémon\nde s’endormir.
+73	Empêche la baisse\nde ses stats.
+74	Augmente la puissance\ndes attaques physiques.
+75	Protège contre les\ncoups critiques.
+76	Annule les effets\nde la météo.
+77	Augmente l’esquive s’il\nest confus.
+78	Une capacité Électrik\naugmente sa Vitesse.
+79	Monte l’Attaque contre\nun ennemi du même sexe.
+80	Augmente la Vitesse\nquand il a peur.
+81	Augmente l’esquive\nsous la grêle.
+82	Utilise plus tôt la\nBaie qu’il tient.
+83	Augmente l’Attaque\naprès un coup critique.
+84	Monte la Vitesse si son\nobjet est utilisé.
+85	Affaiblit les\ncapacités Feu.
+86	Ses stats varient\nfortement.
+87	Perd des PV à la chaleur.\nL’eau lui rend des PV.
+88	Puissance adaptée au\ntalent de l’ennemi.
+89	Augmente la puissance\ndes coups de poing.
+90	Récupère des PV s’il\nest empoisonné.
+91	Renforce les capacités\nde son type.
+92	Les capacités à coups\nmultiples frappent plus.
+93	Soigne ses problèmes de\nstatut sous la pluie.
+94	Monte l’Atq. Spé. mais\nbaisse les PV au soleil.
+95	Monte la Vitesse en cas\nde problème de statut.
+96	Toutes ses capacités\ndeviennent Normal.
+97	Renforce les capacités\nen coup critique.
+98	Ne subit que les dégâts\ndes attaques.
+99	Les attaques des deux\ncamps font mouche.
+100	Agit en dernier, même\nface à plus lent.
+101	Renforce ses capacités\nles plus faibles.
+102	Évite les problèmes de\nstatut au soleil.
+103	Ne peut utiliser aucun\nobjet tenu.
+104	Agit sans tenir compte\ndes talents.
+105	Augmente le taux de\ncoups critiques.
+106	Blesse l’ennemi qui lui\nporte le coup final.
+107	Sent les capacités\ndangereuses de l’ennemi.
+108	Devine les capacités\nde l’ennemi.
+109	Ignore les changements\nde stats de l’ennemi.
+110	Renforce les capacités\n“pas très efficaces”.
+111	Réduit les dégâts des\ncoups super efficaces.
+112	Divise un temps par deux\nAttaque et Vitesse.
+113	Ses capacités touchent\nles Pokémon Spectre.
+114	Attire toutes les\ncapacités Eau.
+115	Récupère des PV\nsous la grêle.
+116	Réduit les dégâts des\ncoups super efficaces.
+117	Déclenche la grêle\nau combat.
+118	Peut trouver du Miel\nquelque part.
+119	Peut voir l’objet tenu\npar l’ennemi.
+120	Renforce les capacités\nà dégâts de recul.
+121	Change de type selon la\nPlaque tenue.
+122	Renforce l’équipe\nquand il fait beau.
+123	Fait perdre des PV à\nun ennemi endormi.
