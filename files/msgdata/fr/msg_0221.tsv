@@ -1,0 +1,513 @@
+1	La meilleure Ball, d’une efficacité\nabsolue. Elle attrape à coup sûr\nn’importe quel Pokémon sauvage.
+2	Une Ball très performante, au taux de\ncapture plus élevé que celui d’une\nSuper Ball.
+3	Une Ball assez performante, au taux de\ncapture plus élevé que celui d’une Poké\nBall.
+4	Un objet pour capturer les Pokémon\nsauvages. On le lance sur sa cible\ncomme une balle. C’est une capsule.
+5	Une Poké Ball spéciale utilisable\nuniquement dans le Grand Marais. Elle\nporte un motif de camouflage.
+6	Une Poké Ball un peu spéciale, plus\nefficace sur les Pokémon de type Eau et\nInsecte.
+7	Une Poké Ball un peu spéciale, plus\nefficace sur les Pokémon qui vivent dans\nla mer.
+8	Une Poké Ball un peu spéciale, plus\nefficace sur les Pokémon sauvages\nfaibles.
+9	Une Poké Ball un peu spéciale, plus\nefficace sur les espèces de Pokémon\ndéjà capturées.
+10	Une Ball un peu spéciale, qui devient de\nplus en plus efficace au fil des tours du\ncombat.
+11	Une Poké Ball confortable qui rend le\nPokémon sauvage capturé rapidement\nplus amical.
+12	Une Poké Ball assez rare, fabriquée\nspécialement pour commémorer un\névénement.
+13	Une Poké Ball un peu spéciale, plus\nefficace la nuit ou dans les lieux\nsombres comme les grottes.
+14	Une Poké Ball curative qui restaure les\nPV du Pokémon capturé et soigne ses\nproblèmes de statut.
+15	Une Poké Ball un peu spéciale, plus\nefficace au tout début d’une rencontre\navec un Pokémon sauvage.
+16	Une Poké Ball très rare, fabriquée\nspécialement pour commémorer une\noccasion particulière.
+17	Un spray qui soigne les blessures. Il\nrestaure 20 PV d’un Pokémon.
+18	Un spray médicinal. Il soigne un Pokémon\nde l’empoisonnement.
+19	Un spray médicinal. Il soigne un Pokémon\nd’une brûlure.
+20	Un spray médicinal. Il dégèle un Pokémon\ngelé.
+21	Un spray médicinal. Il réveille un\nPokémon endormi.
+22	Un spray médicinal. Il soigne un Pokémon\nde la paralysie.
+23	Un remède qui restaure tous les PV d’un\nPokémon et soigne tous ses problèmes\nde statut.
+24	Un spray qui soigne les blessures. Il\nrestaure tous les PV d’un Pokémon.
+25	Un spray qui soigne les blessures. Il\nrestaure 200 PV d’un Pokémon.
+26	Un spray qui soigne les blessures. Il\nrestaure 50 PV d’un Pokémon.
+27	Un spray médicinal. Il soigne tous les\nproblèmes de statut d’un Pokémon.
+28	Un remède qui ranime un Pokémon K.O. Il\nlui rend la moitié de ses PV maximum.
+29	Un remède qui ranime un Pokémon K.O. Il\nlui rend tous ses PV.
+30	Une eau très riche en minéraux. Elle\nrestaure 50 PV d’un Pokémon.
+31	Une boisson gazeuse pétillante. Elle\nrestaure 60 PV d’un Pokémon.
+32	Une boisson très sucrée. Elle restaure\n80 PV d’un Pokémon.
+33	Un lait très nourrissant. Il restaure\n100 PV d’un Pokémon.
+34	Une poudre médicinale très amère. Elle\nrestaure 50 PV d’un Pokémon.
+35	Une racine très amère. Elle restaure\n200 PV d’un Pokémon.
+36	Une poudre médicinale très amère. Elle\nsoigne tous les problèmes de statut\nd’un Pokémon.
+37	Une herbe médicinale très amère. Elle\nranime un Pokémon K.O. et lui rend tous\nses PV.
+38	Restaure jusqu’à 10 PP d’une capacité\nchoisie d’un Pokémon.
+39	Restaure tous les PP d’une capacité\nchoisie parmi celles connues par le\nPokémon.
+40	Restaure 10 PP de chacune des\ncapacités connues par le Pokémon.
+41	Restaure tous les PP de toutes les\ncapacités connues par le Pokémon.
+42	La spécialité de Vermilava. Il soigne\ntous les problèmes de statut d’un\nPokémon.
+43	Un pur jus de Baies. Il restaure 20 PV\nd’un Pokémon.
+44	Ranime tous les Pokémon K.O. et leur\nrend tous leurs PV.
+45	Une boisson nutritive pour Pokémon.\nElle augmente les PV de base d’un\nPokémon.
+46	Une boisson nutritive pour Pokémon.\nElle augmente l’Attaque de base d’un\nPokémon.
+47	Une boisson nutritive pour Pokémon.\nElle augmente la Défense de base d’un\nPokémon.
+48	Une boisson nutritive pour Pokémon.\nElle augmente la Vitesse de base d’un\nPokémon.
+49	Une boisson nutritive pour Pokémon.\nElle augmente l’Attaque Spéciale de\nbase d’un Pokémon.
+50	Un bonbon plein d’énergie. Il fait\nmonter un Pokémon d’un niveau.
+51	Augmente un peu le nombre maximum de PP\nd’une capacité choisie parmi celles\nconnues par le Pokémon.
+52	Une boisson nutritive pour Pokémon.\nElle augmente la Défense Spéciale de\nbase d’un Pokémon.
+53	Augmente au maximum le nombre de PP\nd’une capacité choisie parmi celles\nconnues par le Pokémon.
+54	La spécialité cachée du Vieux Château.\nIl soigne tous les problèmes de statut\nd’un Pokémon.
+55	Empêche la baisse des stats des\nPokémon de l’équipe pendant cinq tours.
+56	Augmente le taux de coups critiques\nd’un Pokémon en combat. L’effet\ndisparaît si le Pokémon est rappelé.
+57	Augmente l’Attaque d’un Pokémon en\ncombat. L’effet disparaît si le Pokémon\nest rappelé.
+58	Augmente la Défense d’un Pokémon en\ncombat. L’effet disparaît si le Pokémon\nest rappelé.
+59	Augmente la Vitesse d’un Pokémon en\ncombat. L’effet disparaît si le Pokémon\nest rappelé.
+60	Augmente la Précision d’un Pokémon en\ncombat. L’effet disparaît si le Pokémon\nest rappelé.
+61	Augmente l’Attaque Spéciale d’un\nPokémon en combat. L’effet disparaît si\nle Pokémon est rappelé.
+62	Augmente la Défense Spéciale d’un\nPokémon en combat. L’effet disparaît si\nle Pokémon est rappelé.
+63	Une poupée qui attire les Pokémon.\nPermet de fuir n’importe quel combat\ncontre un Pokémon sauvage.
+64	Un objet qui attire les Pokémon. Permet\nde fuir n’importe quel combat contre un\nPokémon sauvage.
+65	Une flûte en verre soufflé bleu. Sa\nmélodie réveille un Pokémon endormi.
+66	Une flûte en verre soufflé jaune. Sa\nmélodie sort un Pokémon de la\nconfusion.
+67	Une flûte en verre soufflé rouge. Sa\nmélodie libère un Pokémon de\nl’attraction.
+68	Une flûte en verre soufflé noir. Sa\nmélodie fait apparaître moins de\nPokémon sauvages.
+69	Une flûte en verre soufflé blanc. Sa\nmélodie fait apparaître plus de Pokémon\nsauvages.
+70	Du sel pur découvert au fond de la\nGrotte Tréfonds. Il est extrêmement\nsalé.
+71	Un joli coquillage découvert au fond de\nla Grotte Tréfonds. Il est rayé de bleu\net de blanc.
+72	Un petit tesson rouge. Il semble\nprovenir d’un objet fabriqué il y a très\nlongtemps.
+73	Un petit tesson bleu. Il semble provenir\nd’un objet fabriqué il y a très\nlongtemps.
+74	Un petit tesson jaune. Il semble\nprovenir d’un objet fabriqué il y a très\nlongtemps.
+75	Un petit tesson vert. Il semble\nprovenir d’un objet fabriqué il y a très\nlongtemps.
+76	Empêche les Pokémon sauvages faibles\nd’apparaître pendant 200 pas.
+77	Empêche les Pokémon sauvages faibles\nd’apparaître pendant 250 pas.
+78	Une longue corde solide. Permet de\ns’échapper aussitôt d’une grotte ou\nd’un donjon.
+79	Empêche les Pokémon sauvages faibles\nd’apparaître pendant 100 pas.
+80	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle est\nrouge comme le soleil.
+81	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle est\nnoire comme le ciel nocturne.
+82	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle est\nde couleur orange.
+83	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle\nporte un motif d’éclair.
+84	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle est\nd’un bleu clair et limpide.
+85	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle\nporte un motif de feuille.
+86	Un petit champignon rare. Il est très\nprisé par certains collectionneurs\npassionnés.
+87	Un gros champignon rare. Il est très\nrecherché par certains collectionneurs\npassionnés.
+88	Une perle assez petite d’une jolie\ncouleur argentée. Elle se vend à bas\nprix en magasin.
+89	Une perle assez grosse d’une jolie\ncouleur argentée. Elle se vend cher en\nmagasin.
+90	Un joli sable rouge, fin et soyeux. Il se\nvend cher en magasin.
+91	Un éclat de joyau d’un rouge\nscintillant. Il se vend cher en magasin.
+92	Une pépite d’or pur à l’éclat lustré.\nElle se vend cher en magasin.
+93	Une jolie écaille en forme de cœur,\nextrêmement rare. Elle brille faiblement\ndes couleurs de l’arc-en-ciel.
+94	Un miel sucré et parfumé. Il attire les\nPokémon sauvages dans les herbes, les\ngrottes ou sur certains arbres.
+95	Un engrais à répandre sur un sol\nmeuble. Il accélère la pousse des Baies,\nmais le sol sèche plus vite.
+96	Un engrais à répandre sur un sol\nmeuble. Il ralentit la pousse des Baies\net le sol sèche moins vite.
+97	Un engrais pour sol meuble. Les Baies\nmûres restent plus longtemps sur la\nplante avant de tomber.
+98	Un engrais à répandre sur un sol\nmeuble. Les plantes fanées repoussent\nplus souvent au même endroit.
+99	Un fossile d’un Pokémon ancien qui vivait\ndans la mer. Il semble être un morceau\nde racine.
+100	Un fossile d’un Pokémon ancien qui vivait\ndans la mer. Il semble être un morceau\nde griffe.
+101	Un fossile d’un Pokémon ancien qui vivait\ndans la mer. Il semble être un morceau\nde coquillage.
+102	Un fossile d’un Pokémon ancien qui vivait\ndans la mer. Il semble être un morceau\nde carapace.
+103	Un morceau d’ambre contenant le\nmatériel génétique d’un Pokémon ancien.\nIl est clair et teinté de rouge.
+104	Un fossile d’un Pokémon préhistorique\nqui vivait sur terre. Il semble être un\nmorceau de collerette.
+105	Un fossile d’un Pokémon préhistorique\nqui vivait sur terre. Il semble être un\nmorceau de crâne.
+106	Un os d’une grande valeur pour\nl’archéologie Pokémon. Il se vend cher\nen magasin.
+107	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle\nbrille d’une lumière éblouissante.
+108	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle est\nd’une noirceur absolue.
+109	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle\nscintille comme un regard.
+110	Une pierre étrange qui fait évoluer\ncertaines espèces de Pokémon. Elle a la\nforme d’un œuf.
+111	Un objet indispensable pour empêcher\nune tour de pierre de s’effondrer. On\nen entend parfois sortir des voix.
+112	Un orbe lumineux à faire tenir à\nGIRATINA. Il augmente la puissance des\ncapacités Dragon et Spectre.
+135	Un orbe très brillant à faire tenir à\nDIALGA. Il augmente la puissance des\ncapacités Dragon et Acier.
+136	Un orbe magnifique à faire tenir à\nPALKIA. Il augmente la puissance des\ncapacités Dragon et Eau.
+137	Du papier à lettres orné d’une prairie\nverte et fraîche. Faites-la tenir à un\nPokémon pour l’envoyer.
+138	Du papier à lettres orné d’une image de\nflammes d’un rouge ardent. Faites-la\ntenir à un Pokémon pour l’envoyer.
+139	Du papier à lettres orné d’une image\nd’un monde sous-marin bleu. Faites-la\ntenir à un Pokémon pour l’envoyer.
+140	Du papier à lettres orné d’une image de\njolis motifs floraux. Faites-la tenir à\nun Pokémon pour l’envoyer.
+141	Du papier à lettres orné d’une mine\nsombre. Faites-la tenir à un Pokémon\npour l’envoyer.
+142	Du papier à lettres orné d’une image de\nmotifs mécaniques stylés. Faites-la\ntenir à un Pokémon pour l’envoyer.
+143	Du papier à lettres orné d’une image de\ngrands motifs de cœurs. Faites-la tenir\nà un Pokémon pour l’envoyer.
+144	Du papier à lettres orné d’un monde\nenneigé. Faites-la tenir à un Pokémon\npour l’envoyer.
+145	Du papier à lettres orné d’une image de\nl’immensité de l’espace. Faites-la tenir\nà un Pokémon pour l’envoyer.
+146	Du papier à lettres orné d’une image de\nlettres colorées. Faites-la tenir à un\nPokémon pour l’envoyer.
+147	Du papier à lettres orné d’une image\nd’un arc-en-ciel éclatant. Faites-la\ntenir à un Pokémon pour l’envoyer.
+148	Du papier à lettres orné d’une image\nd’un solide mur de briques. Faites-la\ntenir à un Pokémon pour l’envoyer.
+149	Un Pokémon peut l’utiliser ou la tenir\npour guérir de la paralysie.
+150	Un Pokémon peut l’utiliser ou la tenir\npour se réveiller.
+151	Un Pokémon peut l’utiliser ou la tenir\npour guérir de l’empoisonnement.
+152	Un Pokémon peut l’utiliser ou la tenir\npour guérir d’une brûlure.
+153	Un Pokémon peut l’utiliser ou la tenir\npour dégeler.
+154	Un Pokémon peut l’utiliser ou la tenir\npour restaurer 10 PP d’une capacité.
+155	Un Pokémon peut l’utiliser ou la tenir\npour récupérer 10 PV.
+156	Un Pokémon peut l’utiliser ou la tenir\npour sortir de la confusion.
+157	Un Pokémon peut l’utiliser ou la tenir\npour guérir de tout problème de\nstatut.
+158	Un Pokémon peut l’utiliser ou la tenir\npour récupérer un peu de PV.
+159	Tenue par un Pokémon, elle restaure\nses PV en cas de danger, mais le rend\nconfus s’il n’aime pas les goûts épicés.
+160	Tenue par un Pokémon, elle restaure\nses PV en cas de danger, mais le rend\nconfus s’il n’aime pas les goûts secs.
+161	Tenue par un Pokémon, elle restaure\nses PV en cas de danger, mais le rend\nconfus s’il n’aime pas les goûts sucrés.
+162	Tenue par un Pokémon, elle restaure\nses PV en cas de danger, mais le rend\nconfus s’il n’aime pas les goûts amers.
+163	Tenue par un Pokémon, elle restaure\nses PV en cas de danger, mais le rend\nconfus s’il n’aime pas les goûts acides.
+164	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+165	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+166	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+167	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+168	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+169	Donnée à un Pokémon, elle le rend plus\namical, mais baisse ses PV de base.
+170	Donnée à un Pokémon, elle le rend plus\namical, mais baisse son Attaque de base.
+171	Donnée à un Pokémon, elle le rend plus\namical, mais baisse sa Défense de base.
+172	Donnée à un Pokémon, elle le rend plus\namical, mais baisse son Attaque Spéciale\nde base.
+173	Donnée à un Pokémon, elle le rend plus\namical, mais baisse sa Défense Spéciale\nde base.
+174	Donnée à un Pokémon, elle le rend plus\namical, mais baisse sa Vitesse de base.
+175	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+176	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+177	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+178	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+179	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+180	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+181	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+182	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+183	Dans la région de Sinnoh, on aime\npréparer avec cette Baie des friandises\nappelées Poffins pour les Pokémon.
+184	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Feu de\nl’ennemi.
+185	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Eau de\nl’ennemi.
+186	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Électrik\nde l’ennemi.
+187	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Plante\nde l’ennemi.
+188	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Glace de\nl’ennemi.
+189	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Combat\nde l’ennemi.
+190	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Poison\nde l’ennemi.
+191	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Sol de\nl’ennemi.
+192	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Vol de\nl’ennemi.
+193	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Psy de\nl’ennemi.
+194	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Insecte\nde l’ennemi.
+195	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Roche\nde l’ennemi.
+196	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Spectre\nde l’ennemi.
+197	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Dragon\nde l’ennemi.
+198	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type\nTénèbres de l’ennemi.
+199	Tenue par un Pokémon, elle affaiblit une\nattaque super efficace de type Acier de\nl’ennemi.
+200	Tenue par un Pokémon, elle affaiblit une\nattaque de type Normal de l’ennemi.
+201	Tenue par un Pokémon, elle augmente\nson Attaque en cas de danger.
+202	Tenue par un Pokémon, elle augmente sa\nDéfense en cas de danger.
+203	Tenue par un Pokémon, elle augmente sa\nVitesse en cas de danger.
+204	Tenue par un Pokémon, elle augmente\nson Attaque Spéciale en cas de danger.
+205	Tenue par un Pokémon, elle augmente sa\nDéfense Spéciale en cas de danger.
+206	Tenue par un Pokémon, elle augmente\nson taux de coups critiques en cas de\ndanger.
+207	Tenue par un Pokémon, elle augmente\nbeaucoup l’une de ses stats en cas de\ndanger.
+208	Tenue par un Pokémon, elle restaure\nses PV s’il subit une attaque super\nefficace.
+209	Tenue par un Pokémon, elle augmente\nune fois la précision d’une capacité en\ncas de danger.
+210	Tenue par un Pokémon, elle lui permet\nd’agir en premier une fois en cas de\ndanger.
+211	Tenue par un Pokémon, elle blesse aussi\nl’ennemi s’il le touche avec une attaque\nphysique.
+212	Tenue par un Pokémon, elle blesse aussi\nl’ennemi s’il le touche avec une attaque\nspéciale.
+213	Un objet à faire tenir à un Pokémon. Il\német une lueur trompeuse qui baisse la\nprécision de l’ennemi.
+214	Un objet à faire tenir à un Pokémon.\nElle annule les baisses de stats en\ncombat. Utilisable une seule fois.
+215	Un objet à faire tenir à un Pokémon. Un\nbracelet lourd et rigide qui favorise la\ncroissance mais baisse la Vitesse.
+216	Un objet à faire tenir à un Pokémon. Le\nporteur reçoit une part de l’Exp. d’un\ncombat sans y participer.
+217	Un objet à faire tenir à un Pokémon. Une\ngriffe légère et acérée qui permet\nparfois d’agir en premier.
+218	Un objet à faire tenir à un Pokémon. Un\ngrelot au son apaisant qui calme le\nporteur et le rend plus amical.
+219	Un objet à faire tenir à un Pokémon.\nElle libère le porteur de l’attraction.\nUtilisable une seule fois.
+220	Un objet à faire tenir à un Pokémon. Ce\nbandeau augmente l’Attaque mais limite\nà une seule capacité.
+221	Un objet à faire tenir à un Pokémon.\nElle peut apeurer l’ennemi quand le\nporteur lui inflige des dégâts.
+222	Un objet à faire tenir à un Pokémon. Une\npoudre argentée qui augmente la\npuissance des capacités Insecte.
+223	Un objet à faire tenir à un Pokémon.\nElle double l’argent gagné en combat si\nle porteur y participe.
+224	Un objet à faire tenir à un Pokémon.\nElle éloigne les Pokémon sauvages si le\nporteur est en tête de l’équipe.
+225	Un orbe merveilleux à faire tenir à\nLATIOS ou LATIAS. Il augmente l’Atq.\nSpé. et la Déf. Spé.
+226	Un objet à faire tenir à COQUIPERL. Un\ncroc d’un argent tranchant qui\naugmente l’Attaque Spéciale.
+227	Un objet à faire tenir à COQUIPERL. Une\nécaille d’un rose pâle qui augmente la\nDéfense Spéciale.
+228	Un objet à faire tenir à un Pokémon.\nElle permet au porteur de fuir à coup\nsûr devant un Pokémon sauvage.
+229	Un objet à faire tenir à un Pokémon. Le\nPokémon qui tient cette pierre étrange\nne peut pas évoluer.
+230	Un objet à faire tenir à un Pokémon. Le\nporteur peut parfois résister à un coup\nfatal et garder 1 PV.
+231	Un objet à faire tenir à un Pokémon. Un\nœuf plein de bonheur qui rapporte plus\nde points d’Expérience en combat.
+232	Un objet à faire tenir à un Pokémon. Une\nlentille qui augmente le taux de coups\ncritiques du porteur.
+233	Un objet à faire tenir à un Pokémon. Un\nfilm métallique qui augmente la puissance\ndes capacités Acier.
+234	Un objet à faire tenir à un Pokémon. Les\nPV du porteur se restaurent peu à peu\npendant le combat.
+235	Une écaille épaisse et solide. Les\nPokémon de type Dragon la tiennent\nparfois quand on les capture.
+236	Un objet à faire tenir à PIKACHU. Un\norbe mystérieux qui augmente l’Attaque\net l’Attaque Spéciale.
+237	Un objet à faire tenir à un Pokémon. Un\nsable fin et soyeux qui augmente la\npuissance des capacités Sol.
+238	Un objet à faire tenir à un Pokémon. Une\npierre incassable qui augmente la\npuissance des capacités Roche.
+239	Un objet à faire tenir à un Pokémon. Une\ngraine pleine de vie qui augmente la\npuissance des capacités Plante.
+240	Un objet à faire tenir à un Pokémon. Des\nlunettes douteuses qui augmentent la\npuissance des capacités Ténèbres.
+241	Un objet à faire tenir à un Pokémon. Une\nceinture qui augmente la puissance des\ncapacités Combat.
+242	Un objet à faire tenir à un Pokémon. Un\npuissant aimant qui augmente la\npuissance des capacités Électrik.
+243	Un objet à faire tenir à un Pokémon. Un\njoyau en forme de goutte qui augmente\nla puissance des capacités Eau.
+244	Un objet à faire tenir à un Pokémon. Un\nlong bec pointu qui augmente la\npuissance des capacités Vol.
+245	Un objet à faire tenir à un Pokémon. Un\npetit dard empoisonné qui augmente la\npuissance des capacités Poison.
+246	Un objet à faire tenir à un Pokémon. Une\nglace qui repousse la chaleur et\nrenforce les capacités Glace.
+247	Un objet à faire tenir à un Pokémon. Une\nétiquette sinistre qui augmente la\npuissance des capacités Spectre.
+248	Un objet à faire tenir à un Pokémon. Une\ncuiller télékinétique qui augmente la\npuissance des capacités Psy.
+249	Un objet à faire tenir à un Pokémon. Un\ncombustible qui augmente la puissance\ndes capacités Feu.
+250	Un objet à faire tenir à un Pokémon. Un\ncroc dur et acéré qui augmente la\npuissance des capacités Dragon.
+251	Un objet à faire tenir à un Pokémon. Un\nsomptueux mouchoir qui augmente la\npuissance des capacités Normal.
+252	Un appareil transparent rempli de\ndonnées en tout genre. Il a été\nfabriqué par la Sylphe SARL.
+253	Un objet à faire tenir à un Pokémon. Le\nporteur récupère un peu de PV chaque\nfois qu’il inflige des dégâts.
+254	Un objet à faire tenir à un Pokémon. Un\nencens au parfum curieux qui augmente\nla puissance des capacités Eau.
+255	Un objet à faire tenir à un Pokémon. Le\nparfum trompeur de cet encens baisse\nla précision de l’ennemi.
+256	Un objet à faire tenir à LEVEINARD. Une\npaire de gants qui augmente son taux de\ncoups critiques.
+257	Un objet à faire tenir à MÉTAMORPH.\nTrès fine mais dure, cette poudre\nétrange augmente la Défense.
+258	Un objet à faire tenir à OSSELAIT ou\nOSSATUEUR. Un os dur qui augmente\nl’Attaque.
+259	Un objet à faire tenir à CANARTICHO.\nUne longue tige de poireau rigide qui\naugmente le taux de coups critiques.
+260	Un objet à faire tenir à un Pokémon. Il\naugmente le “Sang-froid” du porteur\nlors d’un Concours à Sinnoh.
+261	Un objet à faire tenir à un Pokémon. Il\naugmente la “Beauté” du porteur lors\nd’un Concours à Sinnoh.
+262	Un objet à faire tenir à un Pokémon. Il\naugmente la “Grâce” du porteur lors\nd’un Concours à Sinnoh.
+263	Un objet à faire tenir à un Pokémon. Il\naugmente l’“Intelligence” du porteur\nlors d’un Concours à Sinnoh.
+264	Un objet à faire tenir à un Pokémon. Il\naugmente la “Robustesse” du porteur\nlors d’un Concours à Sinnoh.
+265	Un objet à faire tenir à un Pokémon. Une\nlentille grossissante qui augmente un\npeu la précision des capacités.
+266	Un objet à faire tenir à un Pokémon. Un\nbandeau qui augmente un peu la\npuissance des capacités physiques.
+267	Un objet à faire tenir à un Pokémon. Des\nlunettes épaisses qui renforcent un peu\nles capacités spéciales.
+268	Un objet à faire tenir à un Pokémon. Une\nceinture usée qui renforce un peu les\ncapacités super efficaces.
+269	Un objet qui prolonge les capacités de\nprotection comme Mur Lumière et\nProtection lancées par le porteur.
+270	Un objet à faire tenir à un Pokémon. Il\naugmente la puissance des capacités,\nmais coûte des PV à chaque coup.
+271	Un objet à usage unique à faire tenir.\nIl permet de lancer aussitôt une\ncapacité qui se charge en un tour.
+272	Un objet à faire tenir à un Pokémon. Un\norbe étrange qui empoisonne gravement\nle porteur en combat.
+273	Un objet à faire tenir à un Pokémon. Un\norbe étrange qui brûle le porteur en\ncombat.
+274	Un objet à faire tenir à MÉTAMORPH.\nTrès fine mais dure, cette poudre\nétrange augmente la Vitesse.
+275	Un objet à faire tenir. Si ses PV sont\nau max, le porteur résiste à un coup\nfatal et garde 1 PV.
+276	Un objet à faire tenir à un Pokémon. Si\nle porteur agit après l’ennemi, sa\nprécision augmente.
+277	Un objet qui renforce une capacité\nutilisée plusieurs fois de suite. L’effet\ns’annule si on en change.
+278	Un objet qui baisse la Vitesse. Le\nporteur de type Vol ou en lévitation\ndevient sensible aux capacités Sol.
+279	Un objet à faire tenir à un Pokémon. Il\nest extrêmement lourd et fait agir le\nporteur plus lentement que d’habitude.
+280	Un long fil rouge vif à faire tenir à un\nPokémon. Si le porteur tombe amoureux,\nl’ennemi aussi.
+281	Un objet qui restaure peu à peu les PV\ndes Pokémon de type Poison. Il blesse\nles Pokémon de tous les autres types.
+282	Un objet qui prolonge la durée de la\ncapacité Grêle lancée par le porteur.
+283	Un objet qui prolonge la durée de la\ncapacité Tempête Sable lancée par le\nporteur.
+284	Un objet qui prolonge la durée de la\ncapacité Zénith lancée par le porteur.
+285	Un objet qui prolonge la durée de la\ncapacité Danse Pluie lancée par le\nporteur.
+286	Un objet qui prolonge la durée des\nattaques sur plusieurs tours comme\nÉtreinte et Ligotage.
+287	Un objet à faire tenir à un Pokémon. Ce\nmouchoir augmente la Vitesse, mais\nlimite à une seule capacité.
+288	Un objet qui blesse le porteur à chaque\ntour. Il peut s’accrocher aux ennemis\nqui le touchent.
+289	Un objet qui favorise la croissance de\nl’Attaque lors des montées de niveau,\nmais baisse la Vitesse.
+290	Un objet qui favorise la croissance de\nla Défense lors des montées de niveau,\nmais baisse la Vitesse.
+291	Un objet qui favorise la croissance de\nl’Atq. Spé. lors des montées de niveau,\nmais baisse la Vitesse.
+292	Un objet qui favorise la croissance de\nla Déf. Spé. lors des montées de niveau,\nmais baisse la Vitesse.
+293	Un objet qui favorise la croissance de\nla Vitesse lors des montées de niveau,\nmais baisse la Vitesse.
+294	Un objet qui favorise la croissance des\nPV lors des montées de niveau, mais\nbaisse la Vitesse.
+295	Une carapace abandonnée à faire tenir à\nun Pokémon. Elle permet au porteur\nd’être remplacé en combat.
+296	Un objet qui renforce les capacités qui\nvolent des PV, pour que le porteur en\nrécupère plus.
+297	Un objet à faire tenir à un Pokémon. Ces\nlunettes augmentent l’Atq. Spé., mais\nlimitent à une seule capacité.
+298	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Feu.
+299	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Eau.
+300	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Électrik.
+301	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Plante.
+302	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Glace.
+303	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Combat.
+304	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Poison.
+305	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Sol.
+306	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Vol.
+307	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Psy.
+308	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Insecte.
+309	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Roche.
+310	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Spectre.
+311	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Dragon.
+312	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Ténèbres.
+313	Un objet à faire tenir à un Pokémon. Une\ntablette de pierre qui augmente la\npuissance des capacités Acier.
+314	Un objet à faire tenir à un Pokémon. Un\nencens au parfum exotique qui augmente\nla puissance des capacités Psy.
+315	Un objet à faire tenir à un Pokémon. Un\nencens au parfum exotique qui augmente\nla puissance des capacités Roche.
+316	Un objet à faire tenir à un Pokémon. Un\nencens au parfum exotique qui alourdit\nle porteur et le ralentit.
+317	Un objet à faire tenir à un Pokémon. Un\nencens au parfum exotique qui augmente\nla puissance des capacités Eau.
+318	Un objet à faire tenir à un Pokémon. Un\nencens au parfum exotique qui augmente\nla puissance des capacités Plante.
+319	Un objet à faire tenir à un Pokémon.\nElle double l’argent gagné en combat si\nle porteur y participe.
+320	Un objet à faire tenir à un Pokémon.\nElle éloigne les Pokémon sauvages si le\nporteur est en tête de l’équipe.
+321	Une sorte d’objet de protection, très\nrigide et lourd. Un certain Pokémon\nl’adore.
+322	Une boîte remplie d’une énorme quantité\nd’énergie électrique. Un certain\nPokémon l’adore.
+323	Une boîte remplie d’une énorme quantité\nd’énergie magmatique. Un certain\nPokémon l’adore.
+324	Un appareil transparent débordant de\ndonnées douteuses. Son fabricant est\ninconnu.
+325	Un tissu chargé d’une énergie\nspirituelle terrifiante. Un certain\nPokémon l’adore.
+326	Un objet à faire tenir à un Pokémon. Une\ngriffe crochue et acérée qui augmente\nle taux de coups critiques du porteur.
+327	Un objet à faire tenir à un Pokémon. Il\npeut apeurer l’ennemi quand le porteur\nlui inflige des dégâts.
+328	Le lanceur se concentre avant de\nfrapper. Échoue s’il est touché avant.
+329	Lacère l’ennemi avec d’énormes griffes\nacérées.
+330	Une onde d’eau pulsée. Peut rendre\nl’ennemi confus.
+331	Le lanceur se concentre et apaise son\nesprit. Augmente son Atq. Spé. et sa\nDéf. Spé.
+332	Effraie l’ennemi, qui est remplacé par\nun autre Pokémon. Met fin à un combat\nsauvage.
+333	Empoisonne gravement l’ennemi. Les\ndégâts du poison augmentent à chaque\ntour.
+334	Une tempête de grêle de cinq tours qui\nblesse tous les Pokémon sauf ceux de\ntype Glace.
+335	Le lanceur gonfle ses muscles.\nAugmente son Attaque et sa Défense.
+336	Tire des graines sur l’ennemi, de deux à\ncinq fois d’affilée.
+337	Une attaque dont le type et la\npuissance dépendent du Pokémon qui\nl’utilise.
+338	Le lanceur intensifie le soleil pendant\ncinq tours. Renforce les capacités Feu.
+339	Provoque l’ennemi, qui ne peut utiliser\nque des attaques pendant deux à\nquatre tours.
+340	Un rayon de froid glacial frappe\nl’ennemi. Peut le geler.
+341	Un blizzard hurlant frappe l’ennemi.\nPeut le geler.
+342	Un puissant rayon frappe l’ennemi. Le\nlanceur doit se reposer au tour\nsuivant.
+343	Un mur de lumière qui réduit les dégâts\ndes attaques spéciales pendant cinq\ntours.
+344	Le lanceur esquive toutes les\nattaques. Risque d’échouer si utilisée\nd’affilée.
+345	Le lanceur fait tomber une forte pluie\npendant cinq tours. Renforce les\ncapacités Eau.
+346	Draine l’ennemi. Rend au lanceur la\nmoitié des dégâts infligés.
+347	Un champ protecteur qui empêche les\nproblèmes de statut pendant cinq\ntours.
+348	Une attaque d’autant plus puissante\nque le lanceur n’aime pas son Dresseur.
+349	Attaque en deux tours. Le lanceur\nabsorbe la lumière, puis tire un rayon\nau second tour.
+350	Frappe avec une queue dure comme\nl’acier. Peut baisser la Défense de\nl’ennemi.
+351	Une puissante décharge électrique\nfrappe l’ennemi. Peut le paralyser.
+352	Un terrible éclair s’abat sur l’ennemi.\nPeut le paralyser.
+353	Provoque un séisme qui touche tous les\nPokémon en combat.
+354	Une attaque d’autant plus puissante\nque le lanceur aime son Dresseur.
+355	Le lanceur creuse, puis attaque au\nsecond tour. Permet aussi de sortir des\ndonjons.
+356	Une forte force télékinétique frappe\nl’ennemi. Peut baisser sa Défense\nSpéciale.
+357	Le lanceur projette une boule d’ombre.\nPeut baisser la Défense Spéciale de\nl’ennemi.
+358	Frappe avec des poings durs, etc. Brise\naussi Mur Lumière et Protection.
+359	Le lanceur bouge si vite qu’il crée des\ncopies de lui-même. Augmente l’esquive.
+360	Un mur de lumière qui réduit les dégâts\ndes attaques physiques pendant cinq\ntours.
+361	Une décharge électrique rapide.\nImpossible à esquiver.
+362	Un torrent de flammes brûlantes frappe\nl’ennemi. Peut le brûler.
+363	Le lanceur lance des détritus immondes.\nPeut empoisonner l’ennemi.
+364	Une tempête de sable de cinq tours qui\nblesse tous les types sauf Roche, Sol\net Acier.
+365	Un déluge de flammes dévorantes frappe\nl’ennemi. Peut le brûler.
+366	Lance des rochers qui bloquent l’ennemi\net baissent sa Vitesse.
+367	Le lanceur déroute l’ennemi par sa\nvitesse, puis frappe. N’échoue jamais.
+368	Tourmente l’ennemi, qui ne peut plus\nutiliser deux fois de suite la même\ncapacité.
+369	Une attaque deux fois plus puissante si\nle lanceur est empoisonné, paralysé ou\nbrûlé.
+370	Une force secrète dont l’effet dépend\nde l’environnement du lanceur.
+371	Le lanceur dort deux tours. Restaure\ntous ses PV et soigne ses problèmes de\nstatut.
+372	Si l’ennemi est du sexe opposé, il tombe\namoureux et attaque moins souvent.
+373	Attaque et vole l’objet de l’ennemi,\nsauf si le lanceur tient déjà un objet.
+374	Frappe l’ennemi avec des ailes d’acier.\nPeut augmenter la Défense du lanceur.
+375	Le lanceur utilise ses pouvoirs\npsychiques pour échanger son talent\navec l’ennemi.
+376	Le lanceur vole l’effet d’une capacité\nde soin ou de stats que l’ennemi tente\nd’utiliser.
+377	Une attaque à pleine puissance. Le\ncontrecoup baisse beaucoup l’Atq. Spé.\ndu lanceur.
+378	Le lanceur se pose pour se reposer.\nRécupère la moitié de ses PV max.
+379	Le lanceur se concentre et libère sa\nforce. Peut baisser la Déf. Spé. de\nl’ennemi.
+380	Le lanceur puise dans la nature et tire.\nPeut baisser la Déf. Spé. de l’ennemi.
+381	Une attaque retenue qui laisse au moins\n1 PV à l’ennemi.
+382	Si les PV de l’ennemi sont à moitié ou\nmoins, l’attaque est deux fois plus\npuissante.
+383	Le lanceur jette son objet tenu. La\npuissance et l’effet dépendent de\nl’objet.
+384	Un faisceau d’électricité concentrée.\nPeut augmenter l’Atq. Spé. du lanceur.
+385	Le lanceur résiste à toute attaque\navec au moins 1 PV. Risque d’échouer si\nutilisée d’affilée.
+386	Une onde de choc jaillit de la gueule\ngrande ouverte du lanceur.
+387	Un coup de poing qui draine l’ennemi.\nRend au lanceur la moitié des dégâts\ninfligés.
+388	Le lanceur crache une sinistre flamme\nbleutée qui brûle l’ennemi.
+389	Des écailles poudreuses portées par le\nvent. Peut augmenter toutes les stats\ndu lanceur.
+390	Empêche l’ennemi d’utiliser son objet\ntenu, et son Dresseur de lui donner des\nobjets.
+391	Le lanceur explose et blesse tous les\nPokémon en combat. Il tombe K.O. après\nusage.
+392	Tranche avec une griffe acérée faite\nd’ombre. Taux de critiques élevé.
+393	Si le lanceur attaque après l’ennemi, la\npuissance est doublée.
+394	Recycle un objet tenu déjà utilisé en\ncombat pour le rendre réutilisable.
+395	Le lanceur charge de toutes ses\nforces. Il doit se reposer au tour\nsuivant.
+396	Le lanceur polit son corps pour réduire\nsa résistance à l’air. Augmente\nbeaucoup sa Vitesse.
+397	Un éclair de lumière baisse la précision\nde l’ennemi. Éclaire aussi les grottes.
+398	Pique l’ennemi avec une pierre aiguisée.\nTaux de critiques élevé.
+399	Inflige le double de dégâts si l’ennemi a\nblessé le lanceur pendant ce tour.
+400	Une faible charge électrique qui\nparalyse l’ennemi si elle touche.
+401	Le lanceur percute l’ennemi en\ntournoyant. Plus il est lent, plus les\ndégâts sont grands.
+402	Une danse frénétique qui exalte l’esprit\ncombatif. Augmente beaucoup l’Attaque.
+403	Pose autour de l’ennemi des pierres\nflottantes qui blessent les ennemis\nentrant au combat.
+404	Le lanceur s’hypnotise pour copier les\nchangements de stats de l’ennemi.
+405	Si l’ennemi est du sexe opposé, il est\ncharmé et son Atq. Spé. baisse\nbeaucoup.
+406	Une horrible aura pleine de pensées\nsombres. Peut apeurer l’ennemi.
+407	Lance de gros rochers sur l’ennemi.\nPeut l’apeurer.
+408	Tranche l’ennemi en croisant ses faux\nou ses griffes comme des ciseaux.
+409	Pendant son sommeil, le lanceur utilise\nau hasard une de ses capacités.
+410	Le lanceur attaque grâce à sa Baie, qui\ndétermine le type et la puissance.
+411	Pique l’ennemi avec un bras ou un\ntentacule empoisonné. Peut\nl’empoisonner.
+412	Ne marche que sur un ennemi endormi.\nRend au lanceur la moitié des dégâts\ninfligés.
+413	Fait trébucher l’ennemi avec de\nl’herbe. Plus il est lourd, plus les\ndégâts sont grands.
+414	Rend l’ennemi furieux et confus, mais\naugmente beaucoup son Attaque.
+415	Le lanceur picore l’ennemi. S’il tient\nune Baie, le lanceur la mange et gagne\nson effet.
+416	Après avoir attaqué, le lanceur revient\nvite pour laisser place à un autre\nPokémon.
+417	Le lanceur crée une copie de lui-même\navec une partie de ses PV. Elle sert de\nleurre.
+418	Le lanceur libère d’un coup toute sa\nlumière. Peut baisser la Déf. Spé. de\nl’ennemi.
+419	Une zone étrange où les Pokémon les\nplus lents agissent en premier pendant\ncinq tours.
+420	Coupe l’ennemi avec une faux ou une\ngriffe. Permet aussi de couper les\npetits arbres.
+421	S’envole puis frappe au second tour.\nPermet aussi de voler vers une ville\ndéjà visitée.
+422	Une vague géante submerge tout le\nterrain. Permet aussi de traverser\nl’eau.
+423	Un coup de poing donné de toutes ses\nforces. Permet aussi de pousser des\nrochers.
+424	Piège l’ennemi dans un tourbillon de\ndeux à cinq tours. Permet de franchir\nles siphons.
+425	Un coup de poing qui peut baisser la\nDéfense de l’ennemi. Brise aussi les\nrochers fissurés.
+426	Le lanceur fonce sur l’ennemi et peut\nl’apeurer. Permet aussi de gravir les\ncascades.
+427	Une charge qui peut rendre l’ennemi\nconfus. Permet aussi d’escalader les\nparois rocheuses.
+429	Un sac solide et spacieux pour\ntransporter le butin trouvé dans la\nmine.
+430	Il contient les règles des combats. En\ncombat en réseau, vous pouvez choisir\nles règles à appliquer.
+431	Un outil qui détecte les Pokémon cachés\ndans les herbes. Sa batterie se\nrecharge quand vous marchez.
+432	Une carte qui indique les Points Combat\nque vous avez gagnés.
+433	Un carnet qui retrace jour après jour\nvotre aventure.
+434	Une boîte pour ranger les Sceaux à\ncoller sur les Capsules des Poké Balls.
+435	Un joli coffre pour ranger\nsoigneusement les Accessoires Pokémon\nfantaisie.
+436	Un petit sac qui peut contenir dix\nSceaux pour décorer les Poké Balls.
+437	Un bloc-notes pratique pour\nenregistrer vos amis, leurs codes ami\net vos parties.
+438	Une grande clé qui ouvre les portes des\nÉoliennes, dans le canyon. Elle\nappartenait à un Sbire Galaxie.
+439	Un ancien porte-bonheur en os de\nPokémon, à remettre à la doyenne de\nCélestia.
+440	Une carte magnétique qui désactive la\nsécurité du QG Galaxie. La perdre\nserait sévèrement puni.
+441	Une chaîne mythique qui relierait les\nPokémon légendaires à l’origine de\nSinnoh.
+442	Une carte très pratique à consulter à\ntout moment. Elle indique même votre\nposition.
+443	Un appareil qui repère les Dresseurs qui\nveulent combattre. Sa batterie se\nrecharge en marchant.
+444	Une boîte pour ranger les jetons\ngagnés au Casino. Elle contient jusqu’à\n50 000 jetons.
+445	Une vieille canne à pêche abîmée.\nUtilisez-la au bord de l’eau pour pêcher\ndes Pokémon sauvages.
+446	Une nouvelle canne à pêche de qualité.\nUtilisez-la au bord de l’eau pour pêcher\ndes Pokémon sauvages.
+447	Une canne à pêche high-tech.\nUtilisez-la au bord de l’eau pour pêcher\ndes Pokémon sauvages.
+448	Un arrosoir en forme de PSYKOKWAK. Il\nfavorise la pousse des Baies plantées\ndans un sol meuble.
+449	Une boîte pour ranger les Poffins\npréparés avec des Baies.
+450	Une bicyclette pliante bien plus rapide\nque les Chaussures de Course.
+451	La clé d’une suite de l’hôtel de luxe au\nbord du lac. Bizarrement, elle disparaît\nsouvent.
+452	Une lettre du Prof. Chen. Il vous y\ndemande de vous rendre à la Route 224.
+453	Une plume qui brille comme la lune. Elle\naurait le pouvoir de chasser les\ncauchemars.
+454	Une carte pour entrer dans l’auberge\nde Joliberges. Étrangement, elle date\nd’il y a 50 ans.
+455	Une flûte aux sons étranges qui ne\nsemblent pas de ce monde. On ignore qui\nl’a fabriquée.
+456	Le billet pour voyager à bord du ferry\nM/S Aqua. Un bateau y est dessiné.
+457	Le passe pour participer aux Concours\nPokémon. Un ruban de récompense y est\ndessiné.
+458	Une pierre née de rochers fondus dans\nun magma brûlant puis durcis. Du magma\ny est scellé.
+459	Un colis qui vous a été confié. Vous\ndevez le remettre à votre ami d’enfance\nparti de Bonaugure.
+460	Un coupon à échanger contre une\nMontre Pokémon (Pokémontre). Il faut\ntrois coupons.
+461	Un coupon à échanger contre une\nMontre Pokémon (Pokémontre). Il faut\ntrois coupons.
+462	Un coupon à échanger contre une\nMontre Pokémon (Pokémontre). Il faut\ntrois coupons.
+463	La clé du sinistre entrepôt de la Team\nGalaxie, au bout de Voilaroc.
+464	Un remède fantastique préparé par la\npharmacie d’Irisia. Il soigne tous les\nmaux d’un Pokémon.
+465	Un appareil étonnant qui enregistre un\ncombat entre amis ou dans un lieu de\ncombat spécial.
+466	Une fleur parfois offerte en bouquet\npour exprimer sa gratitude, lors d’un\nanniversaire par exemple.
+467	Une clé high-tech à utiliser à un\nendroit précis. Elle émet un signal\nélectrique qui ouvre une porte.
+468	Une boîte pratique qui peut contenir\njusqu’à 99 Noigrumes de chaque sorte.
+469	Un rapport sur toutes les formes de\nZARBI découvertes.
+470	Des pots pratiques pour cultiver des\nBaies partout où vous allez.
+471	Il cherche les objets cachés alentour.\nIl fait du bruit et de la lumière quand il\ntrouve quelque chose.
+472	Une carte pour cumuler des points dans\nl’émission Mot de Passe de Buena.
+473	Une queue très savoureuse. Elle se\nvend cher.
+474	Un grelot très ancien au tintement\ndoux.
+475	Une carte magnétique qui ouvre un\nrideau de fer de la Tour Radio.
+476	Une clé qui ouvre une porte du\nSouterrain.
+477	Un flacon pour arroser les plantes des\nPlante-Baies.
+478	Une écaille du LÉVIATOR rouge. Elle\nbrille comme une flamme.
+479	La Poképoupée perdue par la Copieuse.
+480	Le billet pour prendre le Train\nMagnétique. Il permet de voyager à\nvolonté.
+481	Une pièce de machine importante, volée\nà la Centrale.
+482	Une étrange plume argentée et\nscintillante.
+483	Une plume mystique aux couleurs de\nl’arc-en-ciel.
+484	Un Œuf mystérieux obtenu auprès de M.\nPokémon. On ignore ce qu’il contient.
+485	Un Noigrume rouge. Son odeur pique le\nnez.
+486	Un Noigrume jaune. Il a un parfum\nrevigorant.
+487	Un Noigrume bleu. Il sent un peu\nl’herbe.
+488	Un Noigrume vert. Il a un parfum\nmystérieux et aromatique.
+489	Un Noigrume rose. Il a un doux parfum\nagréable.
+490	Un Noigrume blanc. Il ne sent rien du\ntout.
+491	Un Noigrume noir. Il a un parfum\nindescriptible.
+492	Une Poké Ball qui facilite la capture des\nPokémon rapides.
+493	Une Poké Ball pour capturer les\nPokémon de niveau inférieur au vôtre.
+494	Une Poké Ball pour capturer les\nPokémon pêchés avec une canne.
+495	Une Poké Ball pour capturer les\nPokémon très lourds.
+496	Une Poké Ball pour capturer les\nPokémon du sexe opposé à celui de votre\nPokémon.
+497	Une Poké Ball qui rend le Pokémon\ncapturé plus amical.
+498	Une Poké Ball pour capturer les\nPokémon qui évoluent avec la Pierre\nLune.
+499	Une Poké Ball spéciale pour le Concours\nde Capture d’Insectes.
+500	Une Poké Ball spéciale pour le\nParc des Amis.
+501	Un bel album pour ranger toutes les\nphotos prises pendant votre aventure.
+502	Un lecteur de musique pour écouter des\nairs nostalgiques. Il se commande avec\nun seul bouton.
+503	Une cloche ancienne au son doux et\napaisant.
+504	Un bonbon célèbre d’Acajou. Beaucoup\nde touristes en achètent en souvenir.
+505	Elle conserve les records du\nPokéathlon. Cette carte indique le\nnombre de vos victoires.
+506	Elle conserve les records du\nPokéathlon. Cette carte indique le\nnombre de vos défaites.
+507	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vos Pokémon ont foncé.
+508	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vos Pokémon ont sauté.
+509	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Course de Haies.
+510	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Course Relais.
+511	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Prise de Fanion.
+512	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Casse-Bloc.
+513	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Attrape-Disque.
+514	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Bataille de Neige.
+515	Elle conserve les records du\nPokéathlon. Cette carte indique les\npoints marqués par vos Pokémon.
+516	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vos Pokémon ont échoué.
+517	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vos Pokémon se sont gênés.
+518	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vos Pokémon ont percuté.
+519	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vos Pokémon sont tombés.
+520	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Ring Sumo.
+521	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Saut Lampion.
+522	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Pousse-Cercle.
+523	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires au Pokéathlon en réseau.
+524	Elle conserve les records du\nPokéathlon. Cette carte indique vos\ndéfaites au Pokéathlon en réseau.
+525	Elle conserve les records du\nPokéathlon. Cette carte indique le\nnombre d’épreuves gagnées.
+526	Elle conserve les records du\nPokéathlon. Cette carte indique le\nnombre d’épreuves perdues.
+527	Elle conserve les records du\nPokéathlon. Cette carte indique combien\nde fois vous avez changé de Pokémon.
+528	Elle conserve les records du\nPokéathlon. Cette carte indique vos\nvictoires en Roule-But.
+529	Elle conserve les records du\nPokéathlon. Cette carte indique les\nprix individuels de vos Pokémon.
+530	Elle conserve les records du\nPokéathlon. Cette carte indique le\nnombre d’ordres donnés.
+531	Elle conserve les records du\nPokéathlon. Cette carte indique le\ntemps passé au Pokéathlon.
+532	Un orbe vert et brillant, lié à une\nlégende et intimement lié à la région de\nHoenn.
+533	Une Capsule solide qui ne s’ouvre\nqu’avec une clé spéciale.
+534	Un orbe rouge et brillant, lié à une\nlégende et intimement lié à la région de\nHoenn.
+535	Un orbe bleu et brillant, lié à une\nlégende et intimement lié à la région de\nHoenn.
+536	Une boule de cristal déterrée. Une\npierre magnifique couverte de morceaux\nde roche et de terre.

@@ -1,0 +1,467 @@
+1	Frappe l’ennemi avec\nune longue queue, une\npatte, etc.
+2	Une manchette\ntranchante. Taux de\ncritiques élevé.
+3	Gifle l’ennemi de deux\nà cinq fois d’affilée,\nen aller-retour.
+4	Une avalanche de\ncoups de poing qui\nfrappe de deux à cinq\nfois d’affilée.
+5	Un coup de poing d’une\npuissance musculaire\nincroyable.
+6	Lance des pièces sur\nl’ennemi. Rapporte de\nl’argent après le\ncombat.
+7	Un coup de poing\nenflammé. Peut brûler\nl’ennemi.
+8	Un coup de poing\nglacé. Peut geler\nl’ennemi.
+9	Un coup de poing\nélectrique. Peut\nparalyser l’ennemi.
+10	Lacère l’ennemi avec\ndes griffes dures,\npointues et acérées.
+11	D’énormes pinces\nsaisissent et\ncompriment l’ennemi.
+12	Une attaque\ndéchirante avec des\npinces. Met l’ennemi\nK.O. en un coup si elle\ntouche.
+13	Attaque en deux\ntours. Des lames de\nvent frappent au\nsecond tour. Taux de\ncritiques élevé.
+14	Une danse frénétique\nqui exalte l’esprit\ncombatif. Augmente\nbeaucoup l’Attaque.
+15	Coupe l’ennemi avec\nune faux ou une\ngriffe. Permet aussi\nde couper les petits\narbres.
+16	Des ailes soulèvent\nune bourrasque qui\nfrappe l’ennemi.
+17	Frappe l’ennemi avec\nde grandes ailes\ndéployées.
+18	Souffle l’ennemi, qui\nest remplacé par un\nautre Pokémon. Met\nfin à un combat\nsauvage.
+19	S’envole puis frappe\nau second tour.\nPermet aussi de voler\nvers une ville déjà\nvisitée.
+20	Un long corps ou des\ntentacules ligotent\net serrent l’ennemi de\ndeux à cinq tours.
+21	Frappe l’ennemi avec\nune longue queue, des\nlianes, etc.
+22	Fouette l’ennemi avec\nde fines lianes.
+23	Écrase l’ennemi avec\nun gros pied. Peut\nl’apeurer.
+24	Deux coups de pied\nrapides, l’un après\nl’autre.
+25	Un coup de pied d’une\npuissance musculaire\nincroyable.
+26	Un coup de pied sauté.\nSi l’attaque échoue,\nle lanceur se blesse.
+27	Un rapide coup de pied\ntournoyant. Peut\napeurer l’ennemi.
+28	Lance du sable au\nvisage de l’ennemi\npour baisser sa\nprécision.
+29	Un coup de tête qui\npeut apeurer\nl’ennemi. Frappez les\narbres pour trouver\ndes Pokémon.
+30	Frappe l’ennemi avec\nune corne pointue.
+31	Frappe l’ennemi de\ndeux à cinq fois\nd’affilée avec une\ncorne ou un bec.
+32	Une corne qui tourne\ncomme une foreuse.\nMet l’ennemi K.O. en\nun coup si elle\ntouche.
+33	Le lanceur charge et\npercute l’ennemi de\ntout son corps.
+34	Le lanceur se jette\nde tout son poids sur\nl’ennemi. Peut le\nparalyser.
+35	Un long corps ou des\nlianes ligotent et\nserrent l’ennemi de\ndeux à cinq tours.
+36	Une charge téméraire\nde tout le corps.\nBlesse aussi un peu le\nlanceur.
+37	Le lanceur se\ndéchaîne pendant deux\nou trois tours, puis\ndevient confus.
+38	Une charge téméraire\net risquée. Blesse\naussi beaucoup le\nlanceur.
+39	Le lanceur remue sa\nqueue pour tromper\nl’ennemi. Baisse sa\nDéfense.
+40	Pique l’ennemi avec un\ndard venimeux. Peut\nl’empoisonner.
+41	Pique l’ennemi deux\nfois avec des dards.\nPeut l’empoisonner.
+42	Des dards acérés\nfrappent l’ennemi de\ndeux à cinq fois\nd’affilée.
+43	Un regard perçant et\nintimidant qui baisse\nla Défense de\nl’ennemi.
+44	Mord l’ennemi avec des\ncrocs acérés. Peut\nl’apeurer.
+45	Un grognement mignon\nqui endort la méfiance\nde l’ennemi. Baisse\nson Attaque.
+46	Effraie l’ennemi, qui\nest remplacé par un\nautre Pokémon. Met\nfin à un combat\nsauvage.
+47	Une berceuse\napaisante qui plonge\nl’ennemi dans un\nprofond sommeil.
+48	Le corps du lanceur\német d’étranges\nondes sonores. Peut\nrendre l’ennemi\nconfus.
+49	Une onde de choc\ndestructrice qui\ninflige toujours 20 PV\nde dégâts.
+50	Empêche l’ennemi\nd’utiliser sa dernière\ncapacité pendant\nquelques tours.
+51	Asperge l’ennemi d’un\nacide corrosif. Peut\nbaisser sa Défense\nSpéciale.
+52	De petites flammes\nattaquent l’ennemi.\nPeut le brûler.
+53	Un torrent de flammes\nbrûlantes frappe\nl’ennemi. Peut le\nbrûler.
+54	Une brume blanche\nempêche la baisse des\nstats du lanceur\npendant cinq tours.
+55	Un puissant jet d’eau\nfrappe l’ennemi.
+56	Un énorme volume\nd’eau projeté à haute\npression frappe\nl’ennemi.
+57	Une vague géante\nsubmerge tout le\nterrain. Permet aussi\nde traverser l’eau.
+58	Un rayon de froid\nglacial frappe\nl’ennemi. Peut le\ngeler.
+59	Un blizzard hurlant\nfrappe l’ennemi. Peut\nle geler.
+60	Un étrange rayon\nfrappe l’ennemi. Peut\nle rendre confus.
+61	Projette violemment\ndes bulles sur\nl’ennemi. Peut baisser\nsa Vitesse.
+62	Un rayon aux couleurs\nde l’arc-en-ciel. Peut\nbaisser l’Attaque de\nl’ennemi.
+63	Un puissant rayon\nfrappe l’ennemi. Le\nlanceur doit se\nreposer au tour\nsuivant.
+64	Frappe l’ennemi avec\nun bec ou une corne\npointue.
+65	Une attaque en vrille,\navec le bec comme\nforet.
+66	Le lanceur saisit\nl’ennemi et plonge au\nsol. Blesse aussi un\npeu le lanceur.
+67	Un balayage qui fait\ntomber l’ennemi. Plus\nl’ennemi est lourd,\nplus il est efficace.
+68	Riposte à une attaque\nphysique en infligeant\nle double des dégâts\nreçus.
+69	Projette l’ennemi\ngrâce à la gravité.\nInflige des dégâts\négaux au niveau du\nlanceur.
+70	Un coup de poing\ndonné de toutes ses\nforces. Permet aussi\nde pousser des\nrochers.
+71	Draine l’ennemi. Rend\nau lanceur la moitié\ndes dégâts infligés.
+72	Draine l’ennemi. Rend\nau lanceur la moitié\ndes dégâts infligés.
+73	Plante une graine sur\nl’ennemi, qui lui vole\ndes PV à chaque tour\npour soigner le\nlanceur.
+74	Le corps du lanceur\ngrandit d’un coup.\nAugmente l’Attaque\nSpéciale.
+75	Lance des feuilles\ntranchantes sur\nl’ennemi. Taux de\ncritiques élevé.
+76	Attaque en deux\ntours. Le lanceur\nabsorbe la lumière,\npuis tire un rayon au\nsecond tour.
+77	Répand une poudre\ntoxique sur l’ennemi.\nPeut l’empoisonner.
+78	Répand une poudre\nparalysante. Peut\nparalyser l’ennemi.
+79	Répand un épais nuage\nde poudre soporifique\nautour de l’ennemi.
+80	Attaque avec des\npétales pendant deux\nou trois tours, puis\nle lanceur devient\nconfus.
+81	Ligote l’ennemi avec\nun fil de soie. Baisse\nsa Vitesse.
+82	Une onde de choc qui\ninflige toujours 40 PV\nde dégâts.
+83	Piège l’ennemi dans un\ntourbillon de feu qui\ndure de deux à cinq\ntours.
+84	Une décharge\nélectrique frappe\nl’ennemi. Peut le\nparalyser.
+85	Une puissante\ndécharge électrique\nfrappe l’ennemi. Peut\nle paralyser.
+86	Une faible charge\nélectrique qui\nparalyse l’ennemi si\nelle touche.
+87	Un terrible éclair\ns’abat sur l’ennemi.\nPeut le paralyser.
+88	Le lanceur ramasse\nune petite pierre et\nla jette sur l’ennemi.
+89	Provoque un séisme qui\ntouche tous les\nPokémon en combat.
+90	Ouvre une faille dans\nle sol où tombe\nl’ennemi. K.O. en un\ncoup si elle touche.
+91	Le lanceur creuse,\npuis attaque au\nsecond tour. Permet\naussi de sortir des\ndonjons.
+92	Empoisonne gravement\nl’ennemi. Les dégâts\ndu poison augmentent\nà chaque tour.
+93	Une faible force\ntélékinétique frappe\nl’ennemi. Peut le\nrendre confus.
+94	Une forte force\ntélékinétique frappe\nl’ennemi. Peut baisser\nsa Défense Spéciale.
+95	Une suggestion\nhypnotique plonge\nl’ennemi dans un\nprofond sommeil.
+96	Le lanceur médite\npour éveiller sa force\nintérieure. Augmente\nson Attaque.
+97	Le lanceur se détend\net s’allège pour\nbouger plus vite.\nAugmente beaucoup la\nVitesse.
+98	Le lanceur fonce si\nvite qu’il devient\npresque invisible.\nFrappe toujours en\npremier.
+99	Tant que cette\ncapacité est active,\nl’Attaque augmente à\nchaque coup reçu.
+100	Permet de fuir un\nPokémon sauvage, ou\nde retourner au\ndernier Centre\nPokémon visité.
+101	Fait voir un mirage à\nl’ennemi. Inflige des\ndégâts égaux au\nniveau du lanceur.
+102	Copie la dernière\ncapacité de l’ennemi,\nutilisable jusqu’à la\nfin du combat.
+103	Un cri strident qui\nbaisse beaucoup la\nDéfense de l’ennemi.
+104	Le lanceur bouge si\nvite qu’il crée des\ncopies de lui-même.\nAugmente l’esquive.
+105	Le lanceur se soigne\nde la moitié de ses PV\nmaximum.
+106	Le lanceur raidit tous\nses muscles pour\naugmenter sa Défense.
+107	Le lanceur se\ncomprime pour\nparaître plus petit.\nAugmente son esquive.
+108	Un nuage de fumée ou\nd’encre qui baisse la\nprécision de l’ennemi.
+109	Un rayon sinistre qui\nrend l’ennemi confus.
+110	Le lanceur se replie\ndans sa carapace pour\naugmenter sa Défense.
+111	Le lanceur s’enroule\npour cacher ses\npoints faibles.\nAugmente sa Défense.
+112	Le lanceur dresse un\nmur solide qui\naugmente beaucoup sa\nDéfense.
+113	Un mur de lumière qui\nréduit les dégâts des\nattaques spéciales\npendant cinq tours.
+114	Une brume qui annule\nles changements de\nstats de tous les\nPokémon en combat.
+115	Un mur de lumière qui\nréduit les dégâts des\nattaques physiques\npendant cinq tours.
+116	Le lanceur inspire et\nse concentre pour\naugmenter son taux de\ncritiques.
+117	Le lanceur encaisse\npendant deux tours,\npuis rend le double\ndes dégâts reçus.
+118	Le lanceur agite un\ndoigt et utilise au\nhasard presque\nn’importe quelle\ncapacité.
+119	Le lanceur imite la\ndernière capacité\nutilisée par l’ennemi.
+120	Le lanceur explose et\nblesse tous les\nPokémon en combat. Il\ntombe K.O. après\nusage.
+121	Lance de toutes ses\nforces un gros œuf\nsur l’ennemi.
+122	Lèche l’ennemi avec\nune longue langue.\nPeut le paralyser.
+123	Un rejet de gaz\ntoxiques frappe\nl’ennemi. Peut\nl’empoisonner.
+124	Lance des détritus\ninsalubres sur\nl’ennemi. Peut\nl’empoisonner.
+125	Le lanceur frappe\nl’ennemi avec un os.\nPeut l’apeurer.
+126	Un déluge de flammes\ndévorantes frappe\nl’ennemi. Peut le\nbrûler.
+127	Le lanceur fonce sur\nl’ennemi et peut\nl’apeurer. Permet\naussi de gravir les\ncascades.
+128	Coince et serre\nl’ennemi dans une\ncoquille épaisse de\ndeux à cinq tours.
+129	Tire des rayons en\nforme d’étoile.\nN’échoue jamais.
+130	Le lanceur rentre la\ntête et augmente sa\nDéfense, puis charge\nau tour suivant.
+131	Tire des pointes\nacérées qui frappent\nde deux à cinq fois\nd’affilée.
+132	De longs tentacules\nou lianes attaquent\nl’ennemi. Peut baisser\nsa Vitesse.
+133	Le lanceur fait le vide\ndans son esprit.\nAugmente beaucoup sa\nDéfense Spéciale.
+134	Le lanceur tord une\ncuiller pour distraire\nl’ennemi. Peut baisser\nsa précision.
+135	Rend au lanceur la\nmoitié de ses PV max.\nPeut aussi soigner un\nallié hors combat.
+136	Un coup de genou\nsauté. S’il échoue, le\nlanceur se blesse.
+137	Le lanceur intimide\nl’ennemi avec les\nmotifs de son ventre\net le paralyse.
+138	Ne marche que sur un\nennemi endormi. Rend\nau lanceur la moitié\ndes dégâts infligés.
+139	Un nuage de gaz\ntoxique au visage de\nl’ennemi. Peut\nl’empoisonner.
+140	Lance des objets\nronds qui frappent de\ndeux à cinq fois\nd’affilée.
+141	Suce le sang de\nl’ennemi. Rend au\nlanceur la moitié des\ndégâts infligés.
+142	Le lanceur force un\nbaiser à l’ennemi avec\nune tête effrayante.\nL’ennemi s’endort.
+143	Frappe au second\ntour. Taux de\ncritiques élevé. Peut\napeurer l’ennemi.
+144	Le lanceur devient\nune copie de l’ennemi,\navec les mêmes\ncapacités.
+145	Projette\nd’innombrables bulles.\nPeut baisser la\nVitesse de l’ennemi.
+146	Des coups de poing\nrythmés qui peuvent\nrendre l’ennemi\nconfus.
+147	Le lanceur répand des\nspores qui endorment.
+148	Un éclair de lumière\nbaisse la précision de\nl’ennemi. Éclaire aussi\nles grottes.
+149	Une étrange onde\nd’énergie frappe\nl’ennemi. Sa puissance\nvarie.
+150	Le lanceur barbote et\néclabousse, sans\naucun effet...
+151	Le lanceur liquéfie\nses cellules et\naugmente beaucoup sa\nDéfense.
+152	Frappe l’ennemi avec\nune grosse pince.\nTaux de critiques\nélevé.
+153	Le lanceur explose et\nblesse tous les\nPokémon en combat. Il\ntombe K.O. après\nusage.
+154	Lacère l’ennemi avec\ndes griffes ou des\nfaux de deux à cinq\nfois d’affilée.
+155	Le lanceur jette son\nos, qui frappe\nl’ennemi à l’aller et\nau retour.
+156	Le lanceur dort deux\ntours. Restaure tous\nses PV et soigne ses\nproblèmes de statut.
+157	Lance de gros rochers\nsur l’ennemi. Peut\nl’apeurer.
+158	Le lanceur mord fort\navec ses crocs\nacérés. Peut apeurer\nl’ennemi.
+159	Le lanceur réduit ses\npolygones pour\ndevenir plus anguleux.\nAugmente l’Attaque.
+160	Le lanceur prend le\ntype de l’une de ses\ncapacités.
+161	Trois rayons\nsimultanés. Peut\nparalyser, brûler ou\ngeler l’ennemi.
+162	Le lanceur mord fort\navec ses crocs\nacérés. Divise par\ndeux les PV de\nl’ennemi.
+163	Tranche l’ennemi avec\ndes griffes, etc. Taux\nde critiques élevé.
+164	Le lanceur crée une\ncopie de lui-même avec\nune partie de ses PV.\nElle sert de leurre.
+165	Utilisée en désespoir\nde cause quand il n’y\na plus de PP. Blesse\naussi le lanceur.
+166	Apprend pour\ntoujours la dernière\ncapacité de l’ennemi.\nGribouille disparaît\nensuite.
+167	Trois coups de pied\nd’affilée, de plus en\nplus puissants.
+168	Attaque et vole\nl’objet de l’ennemi,\nsauf si le lanceur\ntient déjà un objet.
+169	Un fil gluant empêche\nl’ennemi de fuir le\ncombat.
+170	Le lanceur devine les\nmouvements de\nl’ennemi. Sa prochaine\nattaque touchera à\ncoup sûr.
+171	Un ennemi endormi fait\nun cauchemar qui le\nblesse à chaque tour.
+172	Le lanceur s’entoure\nde feu et charge\nl’ennemi. Peut le\nbrûler.
+173	Ne marche que si le\nlanceur dort. Ce bruit\naffreux peut apeurer\nl’ennemi.
+174	Une capacité qui agit\ndifféremment pour le\ntype Spectre et pour\nles autres types.
+175	Le lanceur se débat.\nPlus ses PV sont bas,\nplus l’attaque est\npuissante.
+176	Le lanceur prend un\ntype qui résiste à la\ndernière attaque qu’il\na subie.
+177	Tire un vortex d’air\nsur l’ennemi. Taux de\ncritiques élevé.
+178	Des spores\ncotonneuses collent à\nl’ennemi et baissent\nbeaucoup sa Vitesse.
+179	Une attaque totale.\nPlus les PV du lanceur\nsont bas, plus elle\nest puissante.
+180	Le lanceur retire 4 PP\nà la dernière capacité\nutilisée par l’ennemi.
+181	Une rafale de neige\npoudreuse glaciale.\nPeut geler l’ennemi.
+182	Le lanceur esquive\ntoutes les attaques.\nRisque d’échouer si\nutilisée d’affilée.
+183	Un coup de poing d’une\nvitesse fulgurante.\nFrappe toujours en\npremier.
+184	Une grimace\neffrayante qui baisse\nbeaucoup la Vitesse\nde l’ennemi.
+185	Le lanceur s’approche\nl’air innocent et\nfrappe par surprise.\nN’échoue jamais.
+186	Un baiser d’une\ndouceur angélique qui\nrend l’ennemi confus.
+187	Le lanceur sacrifie la\nmoitié de ses PV max\npour monter son\nAttaque au maximum.
+188	Le lanceur lance des\ndétritus immondes.\nPeut empoisonner\nl’ennemi.
+189	Lance de la boue au\nvisage de l’ennemi\npour le blesser et\nbaisser sa précision.
+190	Projette de l’encre\nau visage de l’ennemi.\nPeut baisser sa\nprécision.
+191	Pose des picots aux\npieds de l’ennemi.\nBlesse les ennemis qui\nentrent au combat.
+192	Une décharge\nélectrique tirée comme\nun canon. Blesse et\nparalyse l’ennemi.
+193	Permet de toucher un\nSpectre avec tout\ntype de capacité, et\nun ennemi qui esquive.
+194	Si le lanceur tombe\nK.O., l’ennemi qui l’a\nmis K.O. tombe aussi.
+195	Les Pokémon qui\nentendent ce chant\ntombent K.O. en trois\ntours s’ils ne sont\npas rappelés.
+196	Une rafale d’air glacé\nqui baisse la Vitesse\nde l’ennemi.
+197	Le lanceur esquive\ntoutes les attaques.\nRisque d’échouer si\nutilisée d’affilée.
+198	Frappe l’ennemi avec\nun os dur de deux à\ncinq fois d’affilée.
+199	Le lanceur vise\nl’ennemi. Sa prochaine\nattaque touchera à\ncoup sûr.
+200	Le lanceur se\ndéchaîne pendant deux\nou trois tours, puis\ndevient confus.
+201	Une tempête de sable\nde cinq tours qui\nblesse tous les types\nsauf Roche, Sol et\nAcier.
+202	Draine l’ennemi. Rend\nau lanceur la moitié\ndes dégâts infligés.
+203	Le lanceur résiste à\ntoute attaque avec au\nmoins 1 PV. Risque\nd’échouer si utilisée\nd’affilée.
+204	Un regard charmeur\nqui endort la méfiance\nde l’ennemi. Baisse\nbeaucoup son\nAttaque.
+205	Le lanceur roule sur\nl’ennemi pendant cinq\ntours, de plus en plus\nfort.
+206	Une attaque retenue\nqui laisse au moins 1\nPV à l’ennemi.
+207	Rend l’ennemi furieux\net confus, mais\naugmente beaucoup\nson Attaque.
+208	Rend au lanceur la\nmoitié de ses PV max.\nPeut aussi soigner un\nallié hors combat.
+209	Une charge\nélectrique. Peut\nparalyser l’ennemi.
+210	Taillade l’ennemi avec\ndes faux ou des\ngriffes. Plus\npuissante à chaque\ncoup réussi.
+211	Frappe l’ennemi avec\ndes ailes d’acier.\nPeut augmenter la\nDéfense du lanceur.
+212	Un regard noir et\npénétrant qui empêche\nl’ennemi de fuir.
+213	Si l’ennemi est du\nsexe opposé, il tombe\namoureux et attaque\nmoins souvent.
+214	Pendant son sommeil,\nle lanceur utilise au\nhasard une de ses\ncapacités.
+215	Un carillon apaisant\nqui soigne les\nproblèmes de statut\nde toute l’équipe.
+216	Une attaque d’autant\nplus puissante que le\nlanceur aime son\nDresseur.
+217	Le lanceur offre un\ncadeau piégé. Il\narrive qu’il restaure\ndes PV.
+218	Une attaque d’autant\nplus puissante que le\nlanceur n’aime pas son\nDresseur.
+219	Un champ protecteur\nqui empêche les\nproblèmes de statut\npendant cinq tours.
+220	Le lanceur additionne\nses PV à ceux de\nl’ennemi, puis les\npartage\néquitablement.
+221	Un feu mystique d’une\ngrande intensité.\nPeut brûler l’ennemi.
+222	Un séisme qui touche\ntous les Pokémon en\ncombat. Sa puissance\nvarie.
+223	Un coup de poing d’une\nforce concentrée.\nRend l’ennemi confus\ns’il touche.
+224	Le lanceur charge\nsans relâche avec sa\ncorne imposante.
+225	Un souffle puissant\nqui blesse l’ennemi.\nPeut le paralyser.
+226	Le lanceur échange sa\nplace avec un allié et\nlui transmet ses\nchangements de\nstats.
+227	Oblige l’ennemi à\nrépéter sa dernière\ncapacité pendant\ntrois à sept tours.
+228	Inflige le double de\ndégâts à un ennemi qui\nquitte le combat.
+229	Une attaque\ntournoyante qui\nannule Étreinte,\nLigotage, Vampigraine\net Picots.
+230	Un doux parfum qui\nbaisse l’esquive de\nl’ennemi. Attire les\nPokémon dans les\nherbes.
+231	Frappe avec une queue\ndure comme l’acier.\nPeut baisser la\nDéfense de l’ennemi.
+232	Lacère l’ennemi avec\ndes griffes d’acier.\nPeut augmenter\nl’Attaque du lanceur.
+233	Le lanceur laisse\nl’ennemi attaquer en\npremier, mais sa\nprojection ne rate\njamais.
+234	Le lanceur restaure\nses PV. La quantité\ndépend de la météo.
+235	Le lanceur restaure\nses PV. La quantité\ndépend de la météo.
+236	Le lanceur restaure\nses PV. La quantité\ndépend de la météo.
+237	Une attaque dont le\ntype et la puissance\ndépendent du Pokémon\nqui l’utilise.
+238	Une double manchette,\navant-bras croisés.\nTaux de critiques\nélevé.
+239	Le lanceur crée une\nviolente tornade.\nPeut apeurer\nl’ennemi.
+240	Le lanceur fait tomber\nune forte pluie\npendant cinq tours.\nRenforce les\ncapacités Eau.
+241	Le lanceur intensifie\nle soleil pendant cinq\ntours. Renforce les\ncapacités Feu.
+242	Le lanceur croque\nl’ennemi avec des\ncrocs acérés. Peut\nbaisser sa Défense.
+243	Riposte à une attaque\nspéciale en infligeant\nle double des dégâts\nreçus.
+244	Le lanceur\ns’hypnotise pour\ncopier les\nchangements de stats\nde l’ennemi.
+245	Le lanceur charge à\nune vitesse\nfulgurante. Agit\ntoujours avant les\nautres capacités.
+246	Une force\npréhistorique. Peut\naugmenter toutes les\nstats du lanceur d’un\ncoup.
+247	Le lanceur projette\nune boule d’ombre.\nPeut baisser la\nDéfense Spéciale de\nl’ennemi.
+248	Deux tours plus tard,\nune masse d’énergie\npsychique frappe\nl’ennemi.
+249	Un coup de poing qui\npeut baisser la\nDéfense de l’ennemi.\nBrise aussi les\nrochers fissurés.
+250	Piège l’ennemi dans un\ntourbillon de deux à\ncinq tours. Permet de\nfranchir les siphons.
+251	Toute l’équipe\nattaque l’ennemi. Plus\nil y a de Pokémon, plus\nles dégâts sont\ngrands.
+252	Frappe en premier et\napeure l’ennemi. Ne\nmarche qu’au premier\ntour du lanceur en\ncombat.
+253	Le lanceur fait un\nraffut de deux à cinq\ntours. Personne ne\npeut s’endormir.
+254	Le lanceur accumule\nde l’énergie.\nAugmente sa Défense\net sa Déf. Spé.\nJusqu’à trois fois.
+255	Libère d’un coup\nl’énergie accumulée\navec Stockage.
+256	Le lanceur absorbe\nl’énergie accumulée\navec Stockage pour\nrestaurer ses PV.
+257	Le lanceur souffle un\nair brûlant sur\nl’ennemi. Peut le\nbrûler.
+258	Une tempête de grêle\nde cinq tours qui\nblesse tous les\nPokémon sauf ceux de\ntype Glace.
+259	Tourmente l’ennemi,\nqui ne peut plus\nutiliser deux fois de\nsuite la même\ncapacité.
+260	Flatte l’ennemi pour\nle rendre confus, mais\naugmente son Attaque\nSpéciale.
+261	Le lanceur crache une\nsinistre flamme\nbleutée qui brûle\nl’ennemi.
+262	Le lanceur tombe\nK.O., mais baisse\nbeaucoup l’Attaque et\nl’Atq. Spé. de\nl’ennemi.
+263	Une attaque deux fois\nplus puissante si le\nlanceur est\nempoisonné, paralysé\nou brûlé.
+264	Le lanceur se\nconcentre avant de\nfrapper. Échoue s’il\nest touché avant.
+265	Inflige le double de\ndégâts à un ennemi\nparalysé, mais le\nguérit de sa\nparalysie.
+266	Le lanceur attire\nl’attention pour que\nles ennemis ne visent\nque lui.
+267	Utilise la force de la\nnature. L’effet\ndépend de\nl’environnement du\nlanceur.
+268	Renforce la prochaine\ncapacité Électrik du\nlanceur. Augmente\naussi sa Déf. Spé.
+269	Provoque l’ennemi, qui\nne peut utiliser que\ndes attaques pendant\ndeux à quatre tours.
+270	Augmente la puissance\nde l’attaque d’un\nallié en Combat Duo.
+271	Le lanceur prend\nl’ennemi par surprise\net échange leurs\nobjets tenus.
+272	Le lanceur imite\nl’ennemi et copie son\ntalent.
+273	Au tour suivant, le\nlanceur récupère la\nmoitié de ses PV max.
+274	Le lanceur utilise au\nhasard une capacité\nd’un autre Pokémon de\nson équipe.
+275	Le lanceur s’enracine\net récupère des PV à\nchaque tour, mais ne\npeut plus être\nremplacé.
+276	Une attaque très\npuissante, mais qui\nbaisse l’Attaque et la\nDéfense du lanceur.
+277	Une barrière renvoie à\nl’ennemi Vampigraine\net les capacités qui\naltèrent le statut.
+278	Recycle un objet tenu\ndéjà utilisé en combat\npour le rendre\nréutilisable.
+279	Inflige le double de\ndégâts si l’ennemi a\nblessé le lanceur\npendant ce tour.
+280	Frappe avec des\npoings durs, etc.\nBrise aussi Mur\nLumière et\nProtection.
+281	Un énorme bâillement\nqui endort l’ennemi au\ntour suivant.
+282	Fait tomber l’objet de\nl’ennemi, qui ne peut\nplus s’en servir\npendant le combat.
+283	Réduit les PV de\nl’ennemi au même\nniveau que ceux du\nlanceur.
+284	Une attaque\nexplosive. Plus les PV\ndu lanceur sont bas,\nmoins elle est\npuissante.
+285	Le lanceur utilise ses\npouvoirs psychiques\npour échanger son\ntalent avec l’ennemi.
+286	L’ennemi ne peut plus\nutiliser les capacités\nque le lanceur connaît\naussi.
+287	Le lanceur se repose\net guérit de\nl’empoisonnement,\nd’une brûlure ou de la\nparalysie.
+288	Si le lanceur tombe\nK.O., sa rancune vide\nles PP de la capacité\nqui l’a mis K.O.
+289	Le lanceur vole\nl’effet d’une capacité\nde soin ou de stats\nque l’ennemi tente\nd’utiliser.
+290	Une force secrète\ndont l’effet dépend\nde l’environnement du\nlanceur.
+291	Attaque en deux\ntours. Le lanceur\nplonge au premier\ntour, puis frappe au\nsecond.
+292	Une volée de coups de\npaume qui frappe de\ndeux à cinq fois\nd’affilée.
+293	Le type du lanceur\nchange selon\nl’environnement :\nbord de l’eau,\nherbes, grotte...
+294	Le lanceur fixe des\nlumières pour se\nconcentrer. Augmente\nbeaucoup son Atq.\nSpé.
+295	Une explosion de\nlumière. Peut baisser\nla Défense Spéciale de\nl’ennemi.
+296	Un tourbillon de duvet\nbrumeux. Peut baisser\nl’Attaque Spéciale de\nl’ennemi.
+297	Couvre l’ennemi de\nduvet et baisse\nbeaucoup son\nAttaque.
+298	Une danse chancelante\nqui rend confus tous\nles Pokémon en\ncombat.
+299	Un coup de pied au\ntaux de critiques\nélevé. Peut brûler\nl’ennemi.
+300	Le lanceur se couvre\nde boue. Affaiblit les\ncapacités Électrik\ntant qu’il est au\ncombat.
+301	Le lanceur roule sur\nl’ennemi pendant cinq\ntours, de plus en plus\nfort.
+302	Le lanceur agite ses\nbras épineux. Peut\napeurer l’ennemi.
+303	Le lanceur se\nprélasse et récupère\nla moitié de ses PV\nmax.
+304	Le lanceur pousse un\ncri à l’écho terrible\nqui blesse l’ennemi.
+305	Le lanceur mord avec\ndes crocs toxiques.\nPeut gravement\nempoisonner l’ennemi.
+306	Lacère l’ennemi avec\ndes griffes dures.\nPeut baisser sa\nDéfense.
+307	Une explosion de\nflammes. Le lanceur\ndoit se reposer au\ntour suivant.
+308	Un puissant jet d’eau.\nLe lanceur doit se\nreposer au tour\nsuivant.
+309	Un coup de poing lancé\ncomme un météore.\nPeut augmenter\nl’Attaque du lanceur.
+310	Le lanceur attaque en\npoussant un cri\neffrayant. Peut\napeurer l’ennemi.
+311	Une attaque dont la\npuissance et le type\ndépendent de la\nmétéo.
+312	Un parfum apaisant qui\nsoigne les problèmes\nde statut de toute\nl’équipe.
+313	Le lanceur fait\nsemblant de pleurer.\nBaisse beaucoup la\nDéf. Spé. de l’ennemi.
+314	Un vent tranchant\ncomme un rasoir. Taux\nde critiques élevé.
+315	Une attaque à pleine\npuissance. Le\ncontrecoup baisse\nbeaucoup l’Atq. Spé.\ndu lanceur.
+316	Permet de toucher un\nSpectre avec tout\ntype de capacité, et\nun ennemi qui esquive.
+317	Lance des rochers qui\nbloquent l’ennemi et\nbaissent sa Vitesse.
+318	Des écailles\npoudreuses portées\npar le vent. Peut\naugmenter toutes les\nstats du lanceur.
+319	Un horrible crissement\nmétallique qui baisse\nbeaucoup la Déf. Spé.\nde l’ennemi.
+320	Une douce mélodie qui\nplonge l’ennemi dans\nun profond sommeil.
+321	Chatouille l’ennemi et\nbaisse son Attaque et\nsa Défense.
+322	Le lanceur absorbe\nune force cosmique.\nAugmente sa Défense\net sa Déf. Spé.
+323	Un jet d’eau. Plus les\nPV du lanceur sont\nbas, moins il est\npuissant.
+324	Un sinistre rayon de\nlumière. Peut rendre\nl’ennemi confus.
+325	Un coup de poing jailli\ndes ombres. N’échoue\njamais.
+326	Un étrange pouvoir\ninvisible. Peut\napeurer l’ennemi.
+327	Un uppercut puissant\nlancé vers le ciel.
+328	Piège l’ennemi dans\nune violente tempête\nde sable de deux à\ncinq tours.
+329	Un froid absolu. Met\nl’ennemi K.O. en un\ncoup si elle touche.
+330	Projette de l’eau\nboueuse. Peut baisser\nla précision de\nl’ennemi.
+331	Tire des graines sur\nl’ennemi, de deux à\ncinq fois d’affilée.
+332	Le lanceur déroute\nl’ennemi par sa\nvitesse, puis frappe.\nN’échoue jamais.
+333	Lance des stalactites\nacérées qui frappent\nde deux à cinq fois\nd’affilée.
+334	Le lanceur durcit son\ncorps comme du fer.\nAugmente beaucoup sa\nDéfense.
+335	Le lanceur bloque le\npassage bras\nécartés. L’ennemi ne\npeut plus fuir.
+336	Un hurlement qui\ngalvanise le lanceur.\nAugmente son\nAttaque.
+337	Lacère l’ennemi avec\nd’énormes griffes\nacérées.
+338	Frappe l’ennemi avec\nun arbre énorme. Le\nlanceur doit se\nreposer au tour\nsuivant.
+339	Le lanceur gonfle ses\nmuscles. Augmente son\nAttaque et sa\nDéfense.
+340	Le lanceur bondit,\npuis retombe sur\nl’ennemi au second\ntour. Peut le\nparalyser.
+341	Lance une boule de\nboue sur l’ennemi.\nBaisse sa Vitesse.
+342	Un coup de queue au\ntaux de critiques\nélevé. Peut\nempoisonner l’ennemi.
+343	Le lanceur s’approche\ngentiment, puis vole\nl’objet tenu par\nl’ennemi.
+344	Le lanceur\ns’électrifie et\ncharge. Il subit aussi\nde lourds dégâts.
+345	Des feuilles étranges\nqui poursuivent\nl’ennemi. N’échoue\njamais.
+346	Le lanceur s’asperge\nd’eau. Affaiblit les\ncapacités Feu tant\nqu’il est au combat.
+347	Le lanceur se\nconcentre et apaise\nson esprit. Augmente\nson Atq. Spé. et sa\nDéf. Spé.
+348	Tranche l’ennemi avec\nune feuille acérée.\nTaux de critiques\nélevé.
+349	Une danse mystique et\npuissante. Augmente\nl’Attaque et la\nVitesse du lanceur.
+350	Lance des pierres\ndures, de deux à cinq\nfois d’affilée.
+351	Une décharge\nélectrique rapide.\nImpossible à esquiver.
+352	Une onde d’eau\npulsée. Peut rendre\nl’ennemi confus.
+353	Deux tours plus tard,\nun faisceau de lumière\nconcentrée frappe\nl’ennemi.
+354	Une attaque à pleine\npuissance. Le\ncontrecoup baisse\nbeaucoup l’Atq. Spé.\ndu lanceur.
+355	Le lanceur se pose\npour se reposer.\nRécupère la moitié de\nses PV max.
+356	Intensifie la gravité\npendant cinq tours.\nEmpêche les capacités\naériennes et\nLévitation.
+357	Permet de toucher un\nTénèbres avec tout\ntype de capacité, et\nun ennemi qui esquive.
+358	Inflige de gros dégâts\nà un ennemi endormi,\nmais le réveille.
+359	Un coup de poing lourd\net puissant. Baisse la\nVitesse du lanceur.
+360	Le lanceur percute\nl’ennemi en\ntournoyant. Plus il\nest lent, plus les\ndégâts sont grands.
+361	Le lanceur tombe\nK.O., mais son\nremplaçant récupère\nses PV et guérit de\nson statut.
+362	Si les PV de l’ennemi\nsont à moitié ou moins,\nl’attaque est deux\nfois plus puissante.
+363	Le lanceur attaque\ngrâce à sa Baie, qui\ndétermine le type et\nla puissance.
+364	Touche un ennemi qui\nutilise Abri ou\nDétection, et annule\nleur effet.
+365	Le lanceur picore\nl’ennemi. S’il tient\nune Baie, le lanceur la\nmange et gagne son\neffet.
+366	Un vent turbulent qui\naugmente la Vitesse\nde toute l’équipe\npendant trois tours.
+367	Le lanceur appuie sur\nses points sensibles.\nAugmente beaucoup\nl’une de ses stats.
+368	Riposte avec bien plus\nde force contre le\ndernier ennemi qui a\nblessé le lanceur.
+369	Après avoir attaqué,\nle lanceur revient\nvite pour laisser\nplace à un autre\nPokémon.
+370	Un combat rapproché\nsans garde. Baisse la\nDéfense et la Déf.\nSpé. du lanceur.
+371	Si le lanceur attaque\naprès l’ennemi, la\npuissance est\ndoublée.
+372	Si l’ennemi a déjà subi\ndes dégâts pendant ce\ntour, la puissance est\ndoublée.
+373	Empêche l’ennemi\nd’utiliser son objet\ntenu, et son Dresseur\nde lui donner des\nobjets.
+374	Le lanceur jette son\nobjet tenu. La\npuissance et l’effet\ndépendent de l’objet.
+375	Par suggestion\npsychique, le lanceur\ntransfère ses\nproblèmes de statut à\nl’ennemi.
+376	Moins cette capacité a\nde PP, plus elle est\npuissante.
+377	Empêche l’ennemi\nd’utiliser des\ncapacités de soin\npendant cinq tours.
+378	Essore l’ennemi. Plus\nil a de PV, plus\nl’attaque est\npuissante.
+379	Le lanceur échange\nson Attaque et sa\nDéfense grâce à ses\npouvoirs psychiques.
+380	Le lanceur crache ses\nsucs gastriques sur\nl’ennemi et annule\nl’effet de son talent.
+381	Une incantation qui\nempêche l’ennemi\nd’infliger des coups\ncritiques.
+382	Le lanceur devance\nl’ennemi pour utiliser\nsa capacité avec plus\nde puissance.
+383	Imite la capacité\nutilisée juste avant.\nÉchoue si aucune n’a\nencore été utilisée.
+384	Échange avec l’ennemi\nles changements\nd’Attaque et d’Atq.\nSpé. du lanceur.
+385	Échange avec l’ennemi\nles changements de\nDéfense et de Déf.\nSpé. du lanceur.
+386	Plus les stats de\nl’ennemi ont\naugmenté, plus\nl’attaque est\npuissante.
+387	Utilisable seulement\nquand le lanceur a\ndéjà utilisé ses\nautres capacités en\ncombat.
+388	Une graine qui inquiète\nl’ennemi. Son talent\ndevient Insomnia et il\nne peut dormir.
+389	Permet d’attaquer en\npremier. Échoue si\nl’ennemi ne prépare\npas une attaque.
+390	Pose des pics\nempoisonnés. Ils\nempoisonnent les\nennemis qui entrent au\ncombat.
+391	Le lanceur échange\nses changements de\nstats avec l’ennemi.
+392	Le lanceur s’entoure\nd’un voile d’eau.\nRécupère des PV à\nchaque tour.
+393	Le lanceur lévite\ngrâce au magnétisme\npendant cinq tours.
+394	Le lanceur s’entoure\nde feu et charge\nl’ennemi. Il subit\naussi de lourds\ndégâts.
+395	Une onde de choc\nfrappe l’ennemi. Peut\nle paralyser.
+396	Le lanceur libère une\naura venue du fond de\nson corps. N’échoue\njamais.
+397	Le lanceur polit son\ncorps pour réduire sa\nrésistance à l’air.\nAugmente beaucoup sa\nVitesse.
+398	Pique l’ennemi avec un\nbras ou un tentacule\nempoisonné. Peut\nl’empoisonner.
+399	Une horrible aura\npleine de pensées\nsombres. Peut\napeurer l’ennemi.
+400	Tranche l’ennemi à la\npremière occasion.\nTaux de critiques\nélevé.
+401	Le lanceur balance sa\nqueue comme une vague\ndéchaînée.
+402	Le lanceur bombarde\nl’ennemi de graines à\ncoque dure.
+403	Une lame d’air qui fend\nmême le ciel. Peut\napeurer l’ennemi.
+404	Tranche l’ennemi en\ncroisant ses faux ou\nses griffes comme des\nciseaux.
+405	Ses ailes vibrent et\ncréent une onde\nsonore. Peut baisser\nla Déf. Spé. de\nl’ennemi.
+406	Une onde de choc\njaillit de la gueule\ngrande ouverte du\nlanceur.
+407	Une charge\nterrifiante. Peut\napeurer l’ennemi.
+408	Un rayon de lumière\nqui scintille comme des\npierres précieuses.
+409	Un coup de poing qui\ndraine l’ennemi. Rend\nau lanceur la moitié\ndes dégâts infligés.
+410	Le lanceur fait\ntournoyer ses poings\net projette une onde\nde vide. Agit toujours\nen premier.
+411	Le lanceur se\nconcentre et libère\nsa force. Peut\nbaisser la Déf. Spé.\nde l’ennemi.
+412	Le lanceur puise dans\nla nature et tire.\nPeut baisser la Déf.\nSpé. de l’ennemi.
+413	Le lanceur replie ses\nailes et charge en\nrase-mottes. Il subit\naussi de lourds\ndégâts.
+414	Le sol de l’ennemi\nentre en éruption.\nPeut baisser sa Déf.\nSpé.
+415	Le lanceur échange\nson objet avec celui\nde l’ennemi, plus vite\nque l’œil ne peut\nvoir.
+416	Le lanceur charge de\ntoutes ses forces. Il\ndoit se reposer au\ntour suivant.
+417	Le lanceur a de\nmauvaises pensées.\nAugmente beaucoup\nson Atq. Spé.
+418	Un coup de poing\nrapide comme une\nballe. Agit toujours\nen premier.
+419	Inflige le double de\ndégâts si l’ennemi a\nblessé le lanceur\npendant ce tour.
+420	Le lanceur gèle des\nblocs de glace et les\nlance. Agit toujours\nen premier.
+421	Tranche avec une\ngriffe acérée faite\nd’ombre. Taux de\ncritiques élevé.
+422	Des crocs électrifiés.\nPeut apeurer ou\nparalyser l’ennemi.
+423	Des crocs glacés.\nPeut apeurer ou geler\nl’ennemi.
+424	Des crocs enflammés.\nPeut apeurer ou\nbrûler l’ennemi.
+425	Le lanceur étend son\nombre et frappe par\nderrière. Agit\ntoujours en premier.
+426	Lance une boule de\nboue compacte. Peut\nbaisser la précision\nde l’ennemi.
+427	Des lames psychiques\nlacèrent l’ennemi.\nTaux de critiques\nélevé.
+428	Le lanceur concentre\nsa volonté dans sa\ntête et charge. Peut\napeurer l’ennemi.
+429	Un éclair d’énergie\njaillit du corps poli du\nlanceur. Peut baisser\nla précision de\nl’ennemi.
+430	Le lanceur libère d’un\ncoup toute sa lumière.\nPeut baisser la Déf.\nSpé. de l’ennemi.
+431	Une charge qui peut\nrendre l’ennemi\nconfus. Permet aussi\nd’escalader les parois\nrocheuses.
+432	Baisse l’esquive de\nl’ennemi. Retire aussi\nles picots, Mur\nLumière, etc.
+433	Une zone étrange où\nles Pokémon les plus\nlents agissent en\npremier pendant cinq\ntours.
+434	Des comètes tombent\ndu ciel. Le contrecoup\nbaisse beaucoup\nl’Atq. Spé. du\nlanceur.
+435	Une décharge qui\nfrappe tous les\nPokémon en combat.\nPeut les paralyser.
+436	Des flammes écarlates\ndéferlent sur tous\nles Pokémon en\ncombat. Peut les\nbrûler.
+437	Une tempête de\nfeuilles acérées. Le\ncontrecoup baisse\nbeaucoup l’Atq. Spé.\ndu lanceur.
+438	Le lanceur fouette\nviolemment l’ennemi\navec ses lianes ou ses\ntentacules.
+439	Le lanceur lance un\nénorme rocher. Il doit\nse reposer au tour\nsuivant.
+440	Une attaque\ntranchante qui peut\nempoisonner l’ennemi.\nTaux de critiques\nélevé.
+441	Le lanceur tire des\nordures immondes.\nPeut empoisonner\nl’ennemi.
+442	Le lanceur frappe\navec sa tête dure\ncomme l’acier. Peut\napeurer l’ennemi.
+443	Lance une bombe\nd’acier qui colle à\nl’ennemi. N’échoue\njamais.
+444	Pique l’ennemi avec\nune pierre aiguisée.\nTaux de critiques\nélevé.
+445	Si l’ennemi est du\nsexe opposé, il est\ncharmé et son Atq.\nSpé. baisse beaucoup.
+446	Pose autour de\nl’ennemi des pierres\nflottantes qui\nblessent les ennemis\nentrant au combat.
+447	Fait trébucher\nl’ennemi avec de\nl’herbe. Plus il est\nlourd, plus les dégâts\nsont grands.
+448	Une onde sonore faite\ndes mots appris par le\nlanceur. Peut rendre\nl’ennemi confus.
+449	D’innombrables rayons\nde lumière. Le type\ndépend de la Plaque\ntenue par le lanceur.
+450	Le lanceur mord\nl’ennemi. S’il tient\nune Baie, le lanceur la\nmange et gagne son\neffet.
+451	Un faisceau\nd’électricité\nconcentrée. Peut\naugmenter l’Atq. Spé.\ndu lanceur.
+452	Le lanceur percute\nl’ennemi de son corps\nrobuste. Il subit\naussi de lourds\ndégâts.
+453	Le lanceur fonce si\nvite qu’il devient\npresque invisible.\nFrappe toujours en\npremier.
+454	Le lanceur appelle ses\nsbires pour frapper\nl’ennemi. Taux de\ncritiques élevé.
+455	Le lanceur appelle ses\nsbires pour le\nprotéger. Augmente\nsa Défense et sa Déf.\nSpé.
+456	Le lanceur appelle ses\nsbires pour le\nsoigner. Récupère la\nmoitié de ses PV max.
+457	Un coup de tête à\npleine puissance. Le\nlanceur subit aussi de\nterribles dégâts.
+458	Frappe deux fois\nd’affilée avec une\nlongue queue, des\nlianes, etc.
+459	Une puissance qui\ndéforme le temps. Le\nlanceur doit se\nreposer au tour\nsuivant.
+460	Déchire l’ennemi et\nl’espace qui\nl’entoure. Taux de\ncritiques élevé.
+461	Le lanceur tombe\nK.O., mais son\nremplaçant récupère\nses PV et guérit de\nson statut.
+462	Écrase l’ennemi. Plus\nil lui reste de PV,\nplus l’attaque est\npuissante.
+463	Piège l’ennemi dans un\ntourbillon de feu qui\ndure de deux à cinq\ntours.
+464	Entraîne l’ennemi dans\nun monde de ténèbres\ntotales qui l’endort.
+465	Une onde de choc\njaillit du corps du\nlanceur. Peut baisser\nla Déf. Spé. de\nl’ennemi.
+466	Un vent répugnant.\nPeut augmenter\ntoutes les stats du\nlanceur d’un coup.
+467	Le lanceur disparaît,\npuis frappe au second\ntour. Touche même si\nl’ennemi se protège.
