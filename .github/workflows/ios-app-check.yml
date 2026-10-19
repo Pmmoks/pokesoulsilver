@@ -1,0 +1,40 @@
+# Compiles the iOS app around ssrecomp's synthetic stand-in for the game code, to check the
+# iOS changes in ios/ssrecomp-ios.patch. No ROM, game code or save is used or produced.
+# Started by hand only (Actions tab > iOS app check > Run workflow).
+name: iOS app check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ios:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch ssrecomp and apply the iOS changes
+        run: |
+          commit=$(sed -n 's/^SSRECOMP_COMMIT=//p' ios/build.sh)
+          git clone https://github.com/ClickingMaster/ssrecomp.git "$RUNNER_TEMP/ssrecomp"
+          git -C "$RUNNER_TEMP/ssrecomp" checkout --quiet "$commit"
+          git -C "$RUNNER_TEMP/ssrecomp" apply "$GITHUB_WORKSPACE/ios/ssrecomp-ios.patch"
+      - run: python -m pip install pyelftools "cmake>=3.24,<4" ninja
+      - name: Synthetic game code
+        working-directory: ${{ runner.temp }}/ssrecomp
+        run: python tests/native_smoke.py --build-dir "$RUNNER_TEMP/smoke" --fixture-only
+      - name: Configure for iOS
+        run: |
+          head -c 4096 /dev/zero > "$RUNNER_TEMP/placeholder.nds"
+          cmake -S "$RUNNER_TEMP/ssrecomp" -B "$RUNNER_TEMP/build-ios" -G Xcode \
+            -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_ARCHITECTURES=arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=15.0 \
+            -DSSR_GENERATED_DIR="$RUNNER_TEMP/smoke/generated fixtures with spaces" \
+            -DSSR_IOS_ROM="$RUNNER_TEMP/placeholder.nds"
+      - name: Build (unsigned)
+        run: |
+          xcodebuild -project "$RUNNER_TEMP/build-ios/ssrecomp.xcodeproj" -target ssrecomp \
+            -configuration Release -sdk iphoneos \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build
+          find "$RUNNER_TEMP/build-ios" -maxdepth 3 -type d -name SoulSilver.app -print
+          plutil -lint "$(find "$RUNNER_TEMP/build-ios" -maxdepth 3 -type d -name SoulSilver.app | head -n 1)/Info.plist"

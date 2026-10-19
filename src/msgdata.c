@@ -11,6 +11,26 @@ static void CopyEncryptedMessage16(u16 *dest, const u16 *src, MAT_ENTRY *alloc);
 static void ReadMsgData_ExistingNarc_ExistingString(NARC *narc, u32 group, u32 num, enum HeapID heapID, String *dest);
 static String *ReadMsgData_ExistingNarc_NewString(NARC *narc, u32 group, u32 num, enum HeapID heapID);
 
+#ifdef TRANSLATED_TEXT
+// NARC_msgdata_msg holds the translated text and NARC_msgdata_msg_orig the
+// original English text, which is read instead while the debug button is held.
+static NarcId MsgData_GetLanguageNarc(NarcId narcId) {
+    if (narcId == NARC_msgdata_msg && (PAD_Read() & PAD_BUTTON_DEBUG)) {
+        return NARC_msgdata_msg_orig;
+    }
+    return narcId;
+}
+
+// A MsgData keeps the language it was loaded in. Once the button changes the
+// language, its messages are read from the other archive instead.
+static BOOL MsgData_LanguageChanged(MsgData *msgData, NarcId *narcId) {
+    *narcId = MsgData_GetLanguageNarc((NarcId)msgData->narc_id);
+    return *narcId != msgData->loadedNarcId;
+}
+#else
+#define MsgData_GetLanguageNarc(narcId) (narcId)
+#endif
+
 static void *LoadSingleElementFromNarc(NarcId narcId, s32 fileId, enum HeapID heapID) {
     return AllocAndReadWholeNarcMemberByIdPair(narcId, fileId, heapID);
 }
@@ -51,7 +71,7 @@ static void ReadMsgData_ExistingTable_ExistingArray(MAT *table, u32 num, u16 *de
 }
 
 static void ReadMsgData_NewNarc_ExistingArray(NarcId narc_id, u32 group, u32 num, enum HeapID heapID, u16 *dest) {
-    NARC *narc = NARC_New(narc_id, heapID);
+    NARC *narc = NARC_New(MsgData_GetLanguageNarc(narc_id), heapID);
     u16 header[2];
     MAT_ENTRY alloc;
     if (narc != NULL) {
@@ -114,7 +134,7 @@ static String *ReadMsgData_ExistingTable_NewString(MAT *table, u32 num, enum Hea
 }
 
 void ReadMsgData_NewNarc_ExistingString(NarcId narc_id, s32 group, u32 num, enum HeapID heapID, String *dest) {
-    NARC *narc = NARC_New(narc_id, heapID);
+    NARC *narc = NARC_New(MsgData_GetLanguageNarc(narc_id), heapID);
     if (narc != NULL) {
         ReadMsgData_ExistingNarc_ExistingString(narc, group, num, heapID, dest);
         NARC_Delete(narc);
@@ -147,7 +167,7 @@ static void ReadMsgData_ExistingNarc_ExistingString(NARC *narc, u32 group, u32 n
 }
 
 String *ReadMsgData_NewNarc_NewString(NarcId narc_id, u32 group, u32 num, enum HeapID heapID) {
-    NARC *narc = NARC_New(narc_id, heapID);
+    NARC *narc = NARC_New(MsgData_GetLanguageNarc(narc_id), heapID);
     String *string;
     if (narc != NULL) {
         string = ReadMsgData_ExistingNarc_NewString(narc, group, num, heapID);
@@ -199,6 +219,10 @@ static u16 GetMsgCount_TableFromNarc(NarcId narc_id, s32 file_id) {
 
 MsgData *NewMsgDataFromNarc(MsgDataLoadType type, NarcId narc_id, s32 file_id, enum HeapID heapID) {
     MsgData *msgData = Heap_AllocAtEnd(heapID, sizeof(MsgData));
+#ifdef TRANSLATED_TEXT
+    NarcId requestedNarcId = narc_id;
+    narc_id = MsgData_GetLanguageNarc(narc_id);
+#endif
     if (msgData != NULL) {
         if (type == MSGDATA_LOAD_DIRECT) {
             msgData->direct = LoadSingleElementFromNarc(narc_id, file_id, heapID);
@@ -213,6 +237,10 @@ MsgData *NewMsgDataFromNarc(MsgDataLoadType type, NarcId narc_id, s32 file_id, e
         msgData->narc_id = (u16)narc_id;
         msgData->file_id = (u16)file_id;
         msgData->heapID = (u16)heapID;
+#ifdef TRANSLATED_TEXT
+        msgData->loadedNarcId = (u16)narc_id;
+        msgData->narc_id = (u16)requestedNarcId;
+#endif
     }
     return msgData;
 }
@@ -232,6 +260,18 @@ void DestroyMsgData(MsgData *msgData) {
 }
 
 void ReadMsgDataIntoString(MsgData *msgData, s32 msg_no, String *dest) {
+#ifdef TRANSLATED_TEXT
+    NarcId narcId;
+    NARC *narc;
+    if (MsgData_LanguageChanged(msgData, &narcId)) {
+        narc = NARC_New(narcId, HEAP_ID_DEFAULT);
+        if (narc != NULL) {
+            ReadMsgData_ExistingNarc_ExistingString(narc, msgData->file_id, msg_no, HEAP_ID_DEFAULT, dest);
+            NARC_Delete(narc);
+        }
+        return;
+    }
+#endif
     switch (msgData->type) {
     case MSGDATA_LOAD_DIRECT:
         ReadMsgData_ExistingTable_ExistingString(msgData->direct, msg_no, dest);
@@ -243,6 +283,20 @@ void ReadMsgDataIntoString(MsgData *msgData, s32 msg_no, String *dest) {
 }
 
 String *NewString_ReadMsgData(MsgData *msgData, s32 msg_no) {
+#ifdef TRANSLATED_TEXT
+    NarcId narcId;
+    NARC *narc;
+    String *string;
+    if (MsgData_LanguageChanged(msgData, &narcId)) {
+        narc = NARC_New(narcId, HEAP_ID_DEFAULT);
+        if (narc == NULL) {
+            return NULL;
+        }
+        string = ReadMsgData_ExistingNarc_NewString(narc, msgData->file_id, msg_no, (enum HeapID)msgData->heapID);
+        NARC_Delete(narc);
+        return string;
+    }
+#endif
     switch (msgData->type) {
     case MSGDATA_LOAD_DIRECT:
         return ReadMsgData_ExistingTable_NewString(msgData->direct, msg_no, (enum HeapID)msgData->heapID);
@@ -265,6 +319,13 @@ u32 MsgDataGetCount(MsgData *msgData) {
 }
 
 void ReadMsgDataIntoU16Array(MsgData *msgData, u32 msg_no, u16 *dest) {
+#ifdef TRANSLATED_TEXT
+    NarcId narcId;
+    if (MsgData_LanguageChanged(msgData, &narcId)) {
+        ReadMsgData_NewNarc_ExistingArray(narcId, msgData->file_id, msg_no, HEAP_ID_DEFAULT, dest);
+        return;
+    }
+#endif
     switch (msgData->type) {
     case MSGDATA_LOAD_DIRECT:
         ReadMsgData_ExistingTable_ExistingArray(msgData->direct, msg_no, dest);

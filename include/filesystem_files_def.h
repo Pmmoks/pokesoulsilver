@@ -271,6 +271,9 @@ typedef enum NarcId {
     NARC_demo_opening_gs_opening = 264,
     NARC_a_2_6_3 = 265,
     NARC_application_voltorb_flip = 266,
+#ifdef TRANSLATED_TEXT
+    NARC_msgdata_msg_orig = 267, // original English text; NARC_msgdata_msg is translated
+#endif
 } NarcId;
 
 #ifdef _IN_FILESYSTEM_C
@@ -543,6 +546,9 @@ char *sNarcFileList[] = {
     "a/2/6/2",
     "a/2/6/3",
     "a/2/6/4",
+#ifdef TRANSLATED_TEXT
+    "a/2/6/5",
+#endif
 };
 #else
 extern char *sNarcFileList[];

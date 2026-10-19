@@ -1,0 +1,486 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 5a801b0..bd93ca8 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,6 +1,8 @@
+ cmake_minimum_required(VERSION 3.16)
+ # Set the SDK floor before compiler detection, including melonDS and generated ASM.
+-if(CMAKE_HOST_SYSTEM_NAME STREQUAL "Darwin" AND NOT DEFINED CMAKE_OSX_DEPLOYMENT_TARGET)
++if(CMAKE_SYSTEM_NAME STREQUAL "iOS" AND NOT DEFINED CMAKE_OSX_DEPLOYMENT_TARGET)
++    set(CMAKE_OSX_DEPLOYMENT_TARGET "15.0" CACHE STRING "Minimum iOS version")
++elseif(CMAKE_HOST_SYSTEM_NAME STREQUAL "Darwin" AND NOT DEFINED CMAKE_OSX_DEPLOYMENT_TARGET)
+     if(DEFINED ENV{MACOSX_DEPLOYMENT_TARGET})
+         set(CMAKE_OSX_DEPLOYMENT_TARGET "$ENV{MACOSX_DEPLOYMENT_TARGET}" CACHE STRING "Minimum macOS version")
+     else()
+@@ -24,8 +26,14 @@ set(ENABLE_GDBSTUB OFF CACHE BOOL "" FORCE)
+ set(ENABLE_LTO_RELEASE OFF CACHE BOOL "" FORCE)
+ add_subdirectory(melonDS EXCLUDE_FROM_ALL)
+ 
++if(CMAKE_SYSTEM_NAME STREQUAL "iOS")
++    set(SSR_IOS ON)
++endif()
++
+ option(SSR_MACOS_SOURCE_DEPS "Build SDL2 and libpng for the selected macOS target" ${APPLE})
+-if(APPLE AND NOT ANDROID AND SSR_MACOS_SOURCE_DEPS)
++if(SSR_IOS)
++    include(cmake/IOSDependencies.cmake)
++elseif(APPLE AND NOT ANDROID AND SSR_MACOS_SOURCE_DEPS)
+     include(cmake/MacDependencies.cmake)
+ else()
+     find_package(SDL2 REQUIRED)
+@@ -43,6 +51,13 @@ target_include_directories(gamecode PRIVATE melonDS/src runtime "${SSR_GENERATED
+ # Generated code is huge and uniform; -O1 keeps build times reasonable.
+ target_compile_options(gamecode PRIVATE -O1 -g0 -fno-exceptions -fno-rtti "$<$<COMPILE_LANGUAGE:CXX>:-fno-stack-protector>"
+     "$<$<COMPILE_LANGUAGE:ASM>:-Wa,-I${SSR_GENERATED_DIR}>")
++if(CMAKE_GENERATOR STREQUAL "Xcode")
++    # Xcode takes language-specific options per file: the section images the assembly
++    # includes are found through this.
++    set(RC_ASM_SOURCES ${RC_GENERATED_SOURCES})
++    list(FILTER RC_ASM_SOURCES INCLUDE REGEX "\\.[sS]$")
++    set_source_files_properties(${RC_ASM_SOURCES} PROPERTIES COMPILE_OPTIONS "-Wa,-I${SSR_GENERATED_DIR}")
++endif()
+ 
+ set(SSRECOMP_SOURCES
+     frontend/main.cpp
+@@ -70,6 +85,34 @@ if(ANDROID)
+     endif()
+     target_compile_definitions(ssrecomp PRIVATE SSR_NO_PNG SSR_VERSION="${SSR_VERSION}")
+     target_link_libraries(ssrecomp PRIVATE core SDL2::SDL2 android log)
++elseif(SSR_IOS)
++    # On iOS the game is an app bundle with the ROM (SSR_IOS_ROM) packed in as rom.nds. Xcode
++    # signs it for SSR_IOS_TEAM; without a team it is left for a sideloading tool to sign.
++    if(NOT SSR_IOS_ROM)
++        message(FATAL_ERROR "Set SSR_IOS_ROM to the .nds file to pack into the app")
++    endif()
++    set(SSR_IOS_BUNDLE_ID "io.github.ssrecomp.soulsilver" CACHE STRING "iOS bundle identifier")
++    set(SSR_IOS_TEAM "" CACHE STRING "Apple development team ID that signs the app")
++    set(SSR_IOS_NAME "SoulSilver" CACHE STRING "Name under the app icon")
++    configure_file("${SSR_IOS_ROM}" "${CMAKE_CURRENT_BINARY_DIR}/rom.nds" COPYONLY)
++    set(SSR_IOS_ROM_COPY "${CMAKE_CURRENT_BINARY_DIR}/rom.nds")
++    add_executable(ssrecomp MACOSX_BUNDLE ${SSRECOMP_SOURCES} "${SSR_IOS_ROM_COPY}")
++    set_target_properties(ssrecomp PROPERTIES
++        OUTPUT_NAME SoulSilver
++        RESOURCE "${SSR_IOS_ROM_COPY}"
++        MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/cmake/iOSInfo.plist.in"
++        MACOSX_BUNDLE_BUNDLE_NAME "${SSR_IOS_NAME}"
++        MACOSX_BUNDLE_GUI_IDENTIFIER "${SSR_IOS_BUNDLE_ID}"
++        MACOSX_BUNDLE_SHORT_VERSION_STRING "1.0"
++        MACOSX_BUNDLE_BUNDLE_VERSION "1"
++        XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER "${SSR_IOS_BUNDLE_ID}"
++        XCODE_ATTRIBUTE_TARGETED_DEVICE_FAMILY "1,2"
++        XCODE_ATTRIBUTE_IPHONEOS_DEPLOYMENT_TARGET "${CMAKE_OSX_DEPLOYMENT_TARGET}"
++        XCODE_ATTRIBUTE_CODE_SIGN_STYLE Automatic
++        XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "${SSR_IOS_TEAM}")
++    target_compile_definitions(ssrecomp PRIVATE SSR_NO_PNG)
++    target_include_directories(ssrecomp PRIVATE melonDS/src frontend runtime)
++    target_link_libraries(ssrecomp PRIVATE core SDL2::SDL2main SDL2::SDL2-static)
+ else()
+     add_executable(ssrecomp ${SSRECOMP_SOURCES})
+     target_include_directories(ssrecomp PRIVATE melonDS/src frontend runtime ${SDL2_INCLUDE_DIRS})
+diff --git a/cmake/IOSDependencies.cmake b/cmake/IOSDependencies.cmake
+new file mode 100644
+index 0000000..b256ef8
+--- /dev/null
++++ b/cmake/IOSDependencies.cmake
+@@ -0,0 +1,22 @@
++# SDL2 for iOS, built from source as a static library with the app. The URL and checksum are
++# those MacDependencies.cmake uses; SSR_SDL2_SOURCE_DIR points at an unpacked copy instead.
++include(FetchContent)
++set(FETCHCONTENT_QUIET OFF)
++if(POLICY CMP0135)
++    cmake_policy(SET CMP0135 NEW)
++endif()
++
++set(SDL_SHARED OFF CACHE BOOL "" FORCE)
++set(SDL_STATIC ON CACHE BOOL "" FORCE)
++set(SDL_TEST OFF CACHE BOOL "" FORCE)
++set(SDL_TESTS OFF CACHE BOOL "" FORCE)
++if(SSR_SDL2_SOURCE_DIR)
++    FetchContent_Declare(ssr_sdl2 SOURCE_DIR "${SSR_SDL2_SOURCE_DIR}")
++else()
++    FetchContent_Declare(ssr_sdl2
++        URL https://www.libsdl.org/release/SDL2-2.32.10.tar.gz
++        TIMEOUT 90
++        TLS_VERIFY TRUE
++        URL_HASH SHA256=5f5993c530f084535c65a6879e9b26ad441169b3e25d789d83287040a9ca5165)
++endif()
++FetchContent_MakeAvailable(ssr_sdl2)
+diff --git a/cmake/iOSInfo.plist.in b/cmake/iOSInfo.plist.in
+new file mode 100644
+index 0000000..7490cac
+--- /dev/null
++++ b/cmake/iOSInfo.plist.in
+@@ -0,0 +1,64 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
++<plist version="1.0">
++<dict>
++	<key>CFBundleDevelopmentRegion</key>
++	<string>fr</string>
++	<key>CFBundleDisplayName</key>
++	<string>${MACOSX_BUNDLE_BUNDLE_NAME}</string>
++	<key>CFBundleExecutable</key>
++	<string>${MACOSX_BUNDLE_EXECUTABLE_NAME}</string>
++	<key>CFBundleIdentifier</key>
++	<string>${MACOSX_BUNDLE_GUI_IDENTIFIER}</string>
++	<key>CFBundleInfoDictionaryVersion</key>
++	<string>6.0</string>
++	<key>CFBundleName</key>
++	<string>${MACOSX_BUNDLE_BUNDLE_NAME}</string>
++	<key>CFBundlePackageType</key>
++	<string>APPL</string>
++	<key>CFBundleShortVersionString</key>
++	<string>${MACOSX_BUNDLE_SHORT_VERSION_STRING}</string>
++	<key>CFBundleVersion</key>
++	<string>${MACOSX_BUNDLE_BUNDLE_VERSION}</string>
++	<key>LSRequiresIPhoneOS</key>
++	<true/>
++	<key>UIRequiredDeviceCapabilities</key>
++	<array>
++		<string>arm64</string>
++	</array>
++	<!-- An empty launch screen gives the app the whole display (without one iOS letterboxes it). -->
++	<key>UILaunchScreen</key>
++	<dict/>
++	<key>UIRequiresFullScreen</key>
++	<true/>
++	<key>UIStatusBarHidden</key>
++	<true/>
++	<key>UIViewControllerBasedStatusBarAppearance</key>
++	<false/>
++	<key>UISupportedInterfaceOrientations</key>
++	<array>
++		<string>UIInterfaceOrientationLandscapeLeft</string>
++		<string>UIInterfaceOrientationLandscapeRight</string>
++	</array>
++	<key>UISupportedInterfaceOrientations~ipad</key>
++	<array>
++		<string>UIInterfaceOrientationLandscapeLeft</string>
++		<string>UIInterfaceOrientationLandscapeRight</string>
++	</array>
++	<!-- The save, settings and log.txt in Documents show in the Files app and in Finder. -->
++	<key>UIFileSharingEnabled</key>
++	<true/>
++	<key>LSSupportsOpeningDocumentsInPlace</key>
++	<true/>
++	<!-- Controllers such as the Backbone One. -->
++	<key>GCSupportsControllerUserInteraction</key>
++	<true/>
++	<key>GCSupportedGameControllers</key>
++	<array>
++		<dict>
++			<key>ProfileName</key>
++			<string>ExtendedGamepad</string>
++		</dict>
++	</array>
++</dict>
++</plist>
+diff --git a/frontend/main.cpp b/frontend/main.cpp
+index 060f4fc..ff842fb 100644
+--- a/frontend/main.cpp
++++ b/frontend/main.cpp
+@@ -22,10 +22,18 @@
+ 
+ #ifdef __APPLE__
+ #include <SDL.h>
++#include <TargetConditionals.h>
+ #else
+ #include <SDL2/SDL.h>
+ #endif
+-#if defined(__linux__) // (Android too)
++#if defined(__APPLE__) && TARGET_OS_IPHONE
++#define SSR_IOS 1
++#endif
++// Phones and tablets: on-screen controls, the game packed in the app, the save in its storage.
++#if defined(__ANDROID__) || defined(SSR_IOS)
++#define SSR_MOBILE 1
++#endif
++#if defined(__linux__) || defined(__APPLE__) // (Android too)
+ #include <unistd.h>
+ #endif
+ #ifndef SSR_NO_PNG
+@@ -1031,6 +1039,15 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+     return true;
+ }
+ 
++// The DS debug button (bit 3 of KEYXY), which no retail console has. A translated build of
++// the game shows its original text while it is held; the frontend holds it while the
++// original is asked for.
++static void SetDebugButton(NDS& nds, bool held)
++{
++    if (held) nds.KeyInput &= ~(1u << 19);
++    else nds.KeyInput |= 1u << 19;
++}
++
+ int main(int argc, char** argv)
+ {
+     Options opt;
+@@ -1058,6 +1075,27 @@ int main(int argc, char** argv)
+         argc = (int)androidArgv.size();
+         argv = androidArgv.data();
+     }
++#endif
++#ifdef SSR_IOS
++    // Started from the home screen: the ROM is packed in the app; the save, the settings and
++    // log.txt go in its Documents folder, which the Files app shows under On My iPhone.
++    std::vector<std::string> iosArgs;
++    std::vector<char*> iosArgv;
++    if (argc < 2)
++    {
++        const char* home = getenv("HOME");
++        const std::string docs = std::string(home ? home : ".") + "/Documents";
++        // Files the emulator core keeps by relative name go there too.
++        chdir(docs.c_str());
++        if (freopen((docs + "/log.txt").c_str(), "w", stderr)) setvbuf(stderr, nullptr, _IOLBF, 0);
++        char* base = SDL_GetBasePath(); // the app bundle, with a trailing slash
++        const std::string rom = std::string(base ? base : "./") + "rom.nds";
++        SDL_free(base);
++        iosArgs = { "ssrecomp", rom, "--save", docs + "/soulsilver.sav", "--fullscreen" };
++        for (auto& a : iosArgs) iosArgv.push_back(a.data());
++        argc = (int)iosArgv.size();
++        argv = iosArgv.data();
++    }
+ #endif
+     if (!ParseArgs(argc, argv, opt))
+     {
+@@ -1165,13 +1203,19 @@ int main(int argc, char** argv)
+ 
+     if (!opt.headless)
+     {
+-#ifdef __ANDROID__
++#ifdef SSR_MOBILE
+         SDL_SetHint(SDL_HINT_ORIENTATIONS, "LandscapeLeft LandscapeRight");
+-        SDL_SetHint(SDL_HINT_ANDROID_TRAP_BACK_BUTTON, "1");
+         // Fingers are handled one by one (on-screen controls and the touch screen).
+         SDL_SetHint(SDL_HINT_TOUCH_MOUSE_EVENTS, "0");
+         // Tilting the phone must not move the player.
+         SDL_SetHint(SDL_HINT_ACCELEROMETER_AS_JOYSTICK, "0");
++#endif
++#ifdef SSR_IOS
++        // The home bar fades away while playing; a swipe brings it back.
++        SDL_SetHint(SDL_HINT_IOS_HIDE_HOME_INDICATOR, "1");
++#endif
++#ifdef __ANDROID__
++        SDL_SetHint(SDL_HINT_ANDROID_TRAP_BACK_BUTTON, "1");
+         // Controllers come through Android's own input, which knows every gamepad. With SDL's
+         // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
+         // left out of Android's list, and is lost if SDL cannot open it over USB itself.
+@@ -1258,19 +1302,22 @@ int main(int argc, char** argv)
+     }
+ 
+     // Functions whose activity selects the merged scene.
+-    auto focusProbe = [&](const char* name) {
++    // `alias` is the function's name in decompilations that have named it.
++    auto focusProbe = [&](const char* name, const char* alias = nullptr) {
+         for (unsigned i = 0; i < rc_num_focus_syms; i++)
+-            if (!strcmp(rc_focus_syms[i].name, name))
++            if (!strcmp(rc_focus_syms[i].name, name) || (alias && !strcmp(rc_focus_syms[i].name, alias)))
+                 return rc_add_probe(rc_focus_syms[i].section, rc_focus_syms[i].execAddr);
+         return -1;
+     };
+     const int probeStartMenu = focusProbe("Task_StartMenu");
+     const int probeStartMenuWait = focusProbe("Task_StartMenu_WaitApp");
+     const int probeBattleInput = focusProbe("BattleInput_CheckTouch");
+-    const int probeSave[] = { focusProbe("sub_0203D264"), focusProbe("sub_0203D288"), focusProbe("sub_0203D2CC"),
+-        focusProbe("sub_0203D2EC"), focusProbe("sub_0203D304"), focusProbe("TouchSaveApp_HandleSaveConfirmation") };
+-    const int probeChoice[] = { focusProbe("ov27_0225C434") };
+-    const int probeMart = focusProbe("ov31_0225D7A0");
++    const int probeSave[] = { focusProbe("sub_0203D264", "Task_StartMenu_WaitSaveAppOpen"),
++        focusProbe("sub_0203D288", "Task_StartMenu_WaitSaveAppClose"), focusProbe("sub_0203D2CC", "StartMenu_SelectUnionChatLog"),
++        focusProbe("sub_0203D2EC", "StartMenu_State19_Advance"), focusProbe("sub_0203D304", "StartMenu_State20_Close"),
++        focusProbe("TouchSaveApp_HandleSaveConfirmation") };
++    const int probeChoice[] = { focusProbe("ov27_0225C434", "TouchscreenChoiceMenu_Task") };
++    const int probeMart = focusProbe("ov31_0225D7A0", "TouchMartApp_RunTask");
+     const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
+         focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
+         focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
+@@ -2219,9 +2266,11 @@ int main(int argc, char** argv)
+     Menu menu;
+     enum
+     {
+-        M_RESUME, M_LAYOUT, M_LARGE, M_FPS60, M_FULLSCREEN, M_SMOOTH, M_WIDE, M_WIDELINES, M_SHOWFPS, M_BUTTONS, M_PADTOUCH, M_FAST, M_SAVESTATE, M_LOADSTATE, M_RESET, M_QUIT
++        M_RESUME, M_TEXT, M_LAYOUT, M_LARGE, M_FPS60, M_FULLSCREEN, M_SMOOTH, M_WIDE, M_WIDELINES, M_SHOWFPS, M_BUTTONS, M_PADTOUCH, M_FAST, M_SAVESTATE, M_LOADSTATE, M_RESET, M_QUIT
+     };
+     bool fastLock = false;
++    // The original (English) text instead of the translation: R2, F3 or the pause menu.
++    bool originalText = false;
+     // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
+     static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
+     const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
+@@ -2234,6 +2283,7 @@ int main(int argc, char** argv)
+         static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
+         menu.items = {
+             { "RESUME", "" },
++            { "TEXT (R2)", originalText ? "ENGLISH" : "FRANCAIS" },
+             { "SCREEN LAYOUT", LayoutName(layout.mode) },
+             { "LARGE SCREEN", large[focus.mode] },
+             { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
+@@ -2274,7 +2324,7 @@ int main(int argc, char** argv)
+     // On-screen controls (touch screens): shown while no controller is connected.
+     TouchPad touchPad;
+     bool touchPadUsed = false, touchMenuHeld = false, prevTouchMenu = false;
+-#ifdef __ANDROID__
++#ifdef SSR_MOBILE
+     touchPadUsed = true;
+ #endif
+     // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
+@@ -2324,6 +2374,7 @@ int main(int argc, char** argv)
+         int touchX = 0, touchY = 0;
+         MenuInput nav;              // edge-triggered menu input for this tick
+         bool toggleMenu = false;
++        bool toggleText = false;
+         bool kbFast = false;
+         float curDX = 0, curDY = 0;
+         bool curPress = false;
+@@ -2343,6 +2394,30 @@ int main(int argc, char** argv)
+                     // A phone may close the app at any time once it is in the background.
+                     if (!opt.noSave) FlushSave(opt.save);
+                     cfg.Save(opt.config);
++#ifdef SSR_IOS
++                    // iOS suspends the app soon and allows no drawing meanwhile (Android's SDL
++                    // waits by itself): the game waits here until it is in front again.
++                    if (ev.type == SDL_APP_WILLENTERBACKGROUND)
++                    {
++                        if (audio) SDL_PauseAudioDevice(audio, 1);
++                        SDL_Event wait;
++                        while (SDL_WaitEvent(&wait) && wait.type != SDL_APP_DIDENTERFOREGROUND)
++                            if (wait.type == SDL_QUIT || wait.type == SDL_APP_TERMINATING)
++                            {
++                                running = false;
++                                break;
++                            }
++                        if (audio)
++                        {
++                            SDL_ClearQueuedAudio(audio);
++                            SDL_PauseAudioDevice(audio, 0);
++                        }
++                        // Time went on outside the game: no frames to catch up, and the DS clock
++                        // is set again to the time of day.
++                        nextTick = SDL_GetPerformanceCounter();
++                        SetClock(*nds, false);
++                    }
++#endif
+                 }
+                 else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
+                 {
+@@ -2380,6 +2455,7 @@ int main(int argc, char** argv)
+                     else if (k == SDLK_TAB) layout = LayoutNext(layout);
+                     else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
+                     else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
++                    else if (k == SDLK_F3) toggleText = true;
+                     else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
+                     else if (k == SDLK_F8)
+                     {
+@@ -2648,6 +2724,9 @@ int main(int argc, char** argv)
+             int hit = menu.Update(nav, dir);
+             switch (hit)
+             {
++            case M_TEXT:
++                toggleText = true;
++                break;
+             case M_RESUME:
+                 menu.open = false;
+                 swallowMenuButtons = true;
+@@ -2731,6 +2810,9 @@ int main(int argc, char** argv)
+         if (!paused && !swallowMenuButtons)
+         {
+             keys |= PadKeys(ps, cfg.byLabel);
++            // R2 switches between the translation and the original text, unless it presses
++            // the stick touch cursor.
++            if (!cfg.padTouch && ps.rt > 0.5f && prevPad.rt <= 0.5f) toggleText = true;
+             if (cfg.padTouch)
+             {
+                 if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
+@@ -2742,6 +2824,12 @@ int main(int argc, char** argv)
+         }
+         if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
+         prevPad = ps;
++        if (toggleText)
++        {
++            originalText = !originalText;
++            say(originalText ? "TEXT: ENGLISH" : "TEXTE: FRANCAIS");
++            if (menu.open) buildMenu();
++        }
+ 
+         SDL_Rect rects[2];
+         LayoutRects(layout, outW, outH, rects);
+@@ -2932,6 +3020,7 @@ int main(int argc, char** argv)
+             TracePos = 0;
+             TraceFrame = frame;
+             ref->SetKeyMask(~keys & 0xFFF);
++            SetDebugButton(*ref, originalText);
+             if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
+             else ref->ReleaseScreen();
+             ref->RunFrame();
+@@ -2944,6 +3033,7 @@ int main(int argc, char** argv)
+         if (!paused)
+         {
+             nds->SetKeyMask(~keys & 0xFFF);
++            SetDebugButton(*nds, originalText);
+             if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
+             else nds->ReleaseScreen();
+ 
+diff --git a/tools/apps.py b/tools/apps.py
+index 919b0c2..32fef1f 100644
+--- a/tools/apps.py
++++ b/tools/apps.py
+@@ -68,7 +68,8 @@ if sys.argv[1] == '--layout':
+ from elftools.elf.elffile import ELFFile
+ 
+ build_dir, out_dir = sys.argv[1], sys.argv[2]
+-nef = [f for f in os.listdir(build_dir) if f.endswith('.nef')][0]
++# The linked ARM9 program: pret's build names it *.nef, some forks main.elf.
++nef = ([f for f in os.listdir(build_dir) if f.endswith('.nef')] or ['main.elf'])[0]
+ 
+ NAME = re.compile(r'^(?:g|s)(?:OverlayTemplate|Application|App)_(\w+?)(?:\$\d+)?$')
+ SKIP = {'main_defs', 'main_table', 'DTCM', 'ITCM'}
+diff --git a/tools/focus_symbols.txt b/tools/focus_symbols.txt
+index 35081f2..ec8e05e 100644
+--- a/tools/focus_symbols.txt
++++ b/tools/focus_symbols.txt
+@@ -11,11 +11,19 @@ sub_0203D288
+ sub_0203D2CC
+ sub_0203D2EC
+ sub_0203D304
++# The same five under the names of decompilations that have named them.
++Task_StartMenu_WaitSaveAppOpen
++Task_StartMenu_WaitSaveAppClose
++StartMenu_SelectUnionChatLog
++StartMenu_State19_Advance
++StartMenu_State20_Close
+ TouchSaveApp_HandleSaveConfirmation
+ # Bottom-screen task that shows the answer buttons for a question asked in the overworld.
+ ov27_0225C434
++TouchscreenChoiceMenu_Task
+ # Bottom-screen task of the Poke Mart buy list.
+ ov31_0225D7A0
++TouchMartApp_RunTask
+ # Touch hit tests: something on the bottom screen is waiting to be touched.
+ TouchscreenHitbox_FindRectAtTouchHeld
+ TouchscreenHitbox_FindRectAtTouchNew
+diff --git a/tools/recomp.py b/tools/recomp.py
+index 342945a..e24ec15 100644
+--- a/tools/recomp.py
++++ b/tools/recomp.py
+@@ -106,12 +106,19 @@ def load_sections_from_layout(layout_path, rom_path):
+     return sections
+ 
+ 
+-def load_sections(build_dir):
++def link_output(build_dir):
++    """The linked ARM9 program: pret's build names it *.nef, some forks main.elf."""
+     nef = [f for f in os.listdir(build_dir) if f.endswith('.nef')]
++    if not nef and os.path.exists(os.path.join(build_dir, 'main.elf')):
++        nef = ['main.elf']
+     assert len(nef) == 1, nef
++    return nef[0]
++
++
++def load_sections(build_dir):
+     maps = collections.defaultdict(list)
+     named = collections.defaultdict(set)
+-    with open(os.path.join(build_dir, nef[0]), 'rb') as f:
++    with open(os.path.join(build_dir, link_output(build_dir)), 'rb') as f:
+         elf = ELFFile(f)
+         secinfo = [(s.name, s['sh_addr']) for s in elf.iter_sections()]
+         for sym in elf.get_section_by_name('.symtab').iter_symbols():

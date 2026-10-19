@@ -31,6 +31,9 @@ typedef struct MsgData {
         MAT *direct;
         NARC *lazy;
     };
+#ifdef TRANSLATED_TEXT
+    u16 loadedNarcId; // narc_id, or NARC_msgdata_msg_orig if it was loaded in English
+#endif
 } MsgData;
 
 MsgData *NewMsgDataFromNarc(MsgDataLoadType type, NarcId narc, s32 fileId, enum HeapID heapID);

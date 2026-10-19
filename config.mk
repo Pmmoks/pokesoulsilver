@@ -33,6 +33,21 @@ BUILD_DIR         := build/$(buildname)
 ELFNAME           := main
 
 GF_DEFINES  := -D$(GAME_VERSION) -DGAME_REMASTER=$(GAME_REMASTER) -D$(GAME_LANGUAGE)
+
+# TRANSLATION=FRENCH builds a ROM whose text is French, keeping the English
+# original in a second message archive that the game reads while the DS debug
+# button is held. The text differs from the retail ROM, so it never matches.
+TRANSLATION       ?=
+ifneq ($(TRANSLATION),)
+ifeq ($(TRANSLATION),FRENCH)
+translation_code  := fr
+else
+$(error Unsupported translation: $(TRANSLATION))
+endif
+BUILD_DIR         := $(BUILD_DIR).$(translation_code)
+GF_DEFINES        += -DTRANSLATED_TEXT
+override COMPARE  := 0
+endif
 ifeq ($(NO_GF_ASSERT),)
 GF_DEFINES  += -DPM_KEEP_ASSERTS
 endif

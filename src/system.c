@@ -255,6 +255,10 @@ void ReadKeypadAndTouchpad(void) {
     }
 
     raw = PAD_Read() | gSystem.simulatedInputs;
+#ifdef TRANSLATED_TEXT
+    // The debug button only selects the text language (see msgdata.c).
+    raw &= ~PAD_BUTTON_DEBUG;
+#endif
     gSystem.simulatedInputs = 0;
     gSystem.newKeysRaw = raw & (raw ^ gSystem.heldKeysRaw);
     gSystem.newAndRepeatedKeysRaw = raw & (raw ^ gSystem.heldKeysRaw);

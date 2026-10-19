@@ -55,7 +55,7 @@ $(BUILD_DIR)/lib/msl/src/*.o:    private EXCCFLAGS := -Cpp_exceptions on
 $(ASM_OBJS): $(WORK_DIR)/include/config.h
 $(C_OBJS) $(CXX_OBJS): $(WORK_DIR)/include/global.h
 
-ROM             := $(BUILD_DIR)/poke$(buildname).nds
+ROM             := $(BUILD_DIR)/poke$(buildname)$(translation_code:%=.%).nds
 BANNER          := $(ROM:%.nds=%.bnr)
 BANNER_SPEC     := $(buildname)/banner.bsf
 ICON_PNG        := $(buildname)/icon.png

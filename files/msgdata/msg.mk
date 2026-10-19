@@ -38,8 +38,35 @@ $(MSGFILE_H): %.h: %.bin
 $(FIRST_MSG_H_GEN): $(MSGFILE_H)
 	$(TOUCH_ONCE) $(FIRST_MSG_H_GEN)
 
+# A translation build packs a second set of banks, made from the English ones
+# by replacing the rows listed in files/msgdata/<code>/<bank>.tsv. Rows that
+# are not listed keep their English text.
+ifneq ($(TRANSLATION),)
+MSGDATA_TL_SRC_DIR := $(MSGDATA_DIR)/$(translation_code)
+MSGDATA_TL_DIR     := $(MSGDATA_DIR)/msg_$(translation_code)
+MSGFILE_TL_GMM     := $(MSGFILE_GMM:$(MSGDATA_MSG_DIR)/%=$(MSGDATA_TL_DIR)/%)
+MSGFILE_TL_BIN     := $(MSGFILE_TL_GMM:%.gmm=%.bin)
+TRANSLATE_GMM_PY   := tools/translation/translate_gmm.py
+TRANSLATE_GMM      := $(if $(PYTHON),$(PYTHON),python3) $(TRANSLATE_GMM_PY)
+
+# The .narcignore keeps the .gmm files out of the archive, as in the English folder.
+$(MSGDATA_TL_DIR).narc: %.narc: $(MSGFILE_TL_BIN) $(MSGDATA_TL_DIR)/.narcignore
+
+$(MSGDATA_TL_DIR)/.narcignore: $(MSGDATA_MSG_DIR)/.narcignore
+	@mkdir -p $(MSGDATA_TL_DIR)
+	cp $< $@
+
+$(MSGFILE_TL_GMM): $(MSGDATA_TL_DIR)/%.gmm: $(MSGDATA_MSG_DIR)/%.gmm $$(wildcard $(MSGDATA_TL_SRC_DIR)/$$*.tsv) $(TRANSLATE_GMM_PY)
+	@mkdir -p $(MSGDATA_TL_DIR)
+	$(TRANSLATE_GMM) $< $(MSGDATA_TL_SRC_DIR)/$*.tsv $@
+
+$(MSGFILE_TL_BIN): %.bin: %.gmm charmap.txt
+	$(MSGENC) -e -c charmap.txt --gmm $< $@
+endif
+
 clean-msg:
 	$(RM) $(MSGDATA_MSG_DIR).narc $(MSGFILE_BIN) $(MSGFILE_H) $(FIRST_MSG_H_GEN) $(TRNAME_GMM)
+	$(RM) -r $(MSGDATA_DIR)/msg_fr $(MSGDATA_DIR)/msg_fr.narc
 
 .PHONY: clean-msg
 clean-filesystem: clean-msg

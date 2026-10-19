@@ -384,6 +384,10 @@ NITROFS_FILES := \
 	files/pbr/zukan.narc \
 	files/dwc/utility.bin
 
+ifneq ($(TRANSLATION),)
+NITROFS_FILES := $(patsubst files/a/2/6/4,files/a/2/6/4 files/a/2/6/5,$(NITROFS_FILES))
+endif
+
 FILES_NEEDED_FOR_COMPILE = $(NITROFS_FILES)
 # TODO: file rules
 # Some filenames are stripped and replaced with a serial number
@@ -408,7 +412,13 @@ $(eval $(call arc_strip_name,files/graphic/font.narc,files/a/0/1/6))
 $(eval $(call arc_strip_name,files/itemtool/itemdata/item_data.narc,files/a/0/1/7))
 $(eval $(call arc_strip_name,files/itemtool/itemdata/item_icon.narc,files/a/0/1/8))
 $(eval $(call arc_strip_name,files/graphic/plist_gra.narc,files/a/0/2/1))
+ifeq ($(TRANSLATION),)
 $(eval $(call arc_strip_name,files/msgdata/msg.narc,files/a/0/2/7))
+else
+# The translation takes the message archive's place and the original moves to a/2/6/5.
+$(eval $(call arc_strip_name,files/msgdata/msg_$(translation_code).narc,files/a/0/2/7))
+$(eval $(call arc_strip_name,files/msgdata/msg.narc,files/a/2/6/5))
+endif
 $(eval $(call arc_strip_name,files/battledata/script/effect_script.narc,files/a/0/3/0))
 $(eval $(call arc_strip_name,files/data/namein.narc,files/a/0/3/1))
 $(eval $(call arc_strip_name,files/fielddata/eventdata/zone_event.narc,files/a/0/3/2))
@@ -469,6 +479,8 @@ $(DIFF_ARCS):
 	cp $< $@
 
 .PHONY: files/a/0/7/5 files/a/2/5/2 files/a/1/3/3
+# Holds either the original or the translated text, depending on TRANSLATION
+.PHONY: files/a/0/2/7
 
 NARCS := $(filter %.narc,$(NITROFS_FILES) $(SRC_ARCS))
 NAIXS := $(NARCS:%.narc=%.naix)

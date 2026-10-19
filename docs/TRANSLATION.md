@@ -1,0 +1,47 @@
+# Translating the game's text
+
+`make TRANSLATION=FRENCH` (or `./scripts/build.sh GAME_VERSION=SOULSILVER TRANSLATION=FRENCH`)
+builds `build/<game>.us.fr/poke<game>.us.fr.nds`. Its message archive (`a/0/2/7`) holds
+French text, and the English original is kept as a second archive (`a/2/6/5`). While the
+DS debug button is held, `src/msgdata.c` reads from the original instead; `src/system.c`
+hides that button from the rest of the game. Without `TRANSLATION` the build is the
+retail ROM as before.
+
+## Where the text is
+
+Each English bank `files/msgdata/msg/<bank>.gmm` can have a translation
+`files/msgdata/fr/<bank>.tsv`:
+
+```
+# comment
+0	SORTIE
+6	Que voulez-vous faire de\nla photo choisie ?
+```
+
+One row per line: the row's index, a tab, and the text written as in a `.gmm` file
+but without XML escaping (`&`, not `&amp;`). `\n` starts the second line of a box,
+`\f` waits and scrolls up a line, `\r` waits and starts a new box; `{COMMANDS}`
+(placeholders, colours, `{YESNO 0}`) must all be kept. Rows that are not listed
+stay in English. At build time `tools/translation/translate_gmm.py` writes the
+French banks to `files/msgdata/msg_fr/` and msgenc encodes them.
+
+Some banks come from the game itself: the US Pokédex can show its entries in other
+languages, so species names, entries and categories are copied from its French
+banks (`msg_0818`, `msg_0806`, `msg_0824`), and heights and weights are written in
+metric from `zukan_data.json`.
+
+## Tools
+
+```sh
+python3 tools/translation/tl.py dump 3        # English rows of msg_0003 still to translate
+python3 tools/translation/tl.py check         # problems in every translated bank
+python3 tools/translation/tl.py wrap 96       # re-break lines of msg_0096 that are too wide
+python3 tools/translation/tl.py stats         # progress
+```
+
+`check` measures lines with the game's font (`font_00000000.bin`) and compares
+them with the widest English line of the bank, since the game does not wrap
+text itself; placeholders count as a 60-pixel name. It also reports characters
+missing from `charmap.txt`, commands that differ from the English row, and names
+longer than the buffers they are read into (species names: 10 characters, other
+names: 15).
