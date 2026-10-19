@@ -87,7 +87,7 @@
 124	Définissez les critères de recherche.
 125	Non défini
 126	VIDÉOS DE COMBAT TROUVÉES\nPAR LA RECHERCHE
-127	Impossible d’envoyer deux fois la même vidéo.\nTouchez l’écran tactile pour continuer.
+127	Impossible de renvoyer la même vidéo.\nTouchez l’écran tactile pour continuer.
 128	Vous n’avez pas enregistré votre lieu.
 129	Aucune Vidéo de Combat à envoyer.
 130	OUI
@@ -154,41 +154,41 @@
 191	23 : Arcade de Combat\n      Multi
 192	TOUCHEZ ICI !
 193	Se déconnecter de la\nConnexion Wi-Fi Nintendo ?
-195	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+195	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 196	Ces données sont déjà enregistrées.\nTouchez l’écran tactile pour continuer.
 197	Les données d’habillage semblent\nposer un problème.
 198	Les données du profil semblent\nposer un problème.
 199	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-201	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+201	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 202	Le Pokémon choisi semble\nposer un problème.
 203	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-205	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+205	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 206	Ces données sont déjà enregistrées.\nTouchez l’écran tactile pour continuer.
 207	Les données de la Boîte semblent\nposer un problème.
 208	Les données du profil semblent\nposer un problème.
 209	Votre équipe semble poser\nun problème.
 210	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-212	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+212	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 213	Votre équipe semble poser\nun problème.
 214	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-216	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+216	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 217	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-219	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+219	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 220	Impossible de recevoir le classement.\nTouchez l’écran tactile pour continuer.
 221	Votre classement semble\nposer un problème.
 222	Les données du profil semblent\nposer un problème.
 223	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-225	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+225	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 226	Ces données sont déjà enregistrées.\nTouchez l’écran tactile pour continuer.
 227	La Vidéo de Combat semble\nposer un problème.
 228	Les données du profil semblent\nposer un problème.
 229	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
 230	Votre Pokémon semble poser un problème.\nLes données n’ont pas été envoyées.
 231	Le Pokémon d’un joueur pose problème.\nLes données n’ont pas été envoyées.
-233	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+233	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 234	Les critères de recherche semblent\nposer un problème.
 235	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
-237	Erreur d’authentification.\nPatientez un peu avant de vous reconnecter.
+237	Erreur d’authentification.\nAttendez avant de vous reconnecter.
 238	Aucune Vidéo de Combat trouvée...\nTouchez l’écran tactile pour continuer.
 239	Une erreur est survenue.\nTouchez l’écran tactile pour continuer.
 245	Une erreur est survenue.\nCode d’erreur 10601
@@ -210,17 +210,17 @@
 270	Choisissez une Boîte.
 271	Impossible d’envoyer une Boîte vide.
 272	Où voulez-vous l’envoyer ?
-273	Une seule Boîte peut être envoyée à la fois.
+273	On ne peut envoyer qu’une Boîte à la fois.
 274	Impossible d’envoyer la même Boîte.
 275	Quelle catégorie voulez-vous voir ?
 276	Les données n’ont pas pu être effacées...
-277	Impossible de sauver deux fois la même vidéo.\nTouchez l’écran tactile pour continuer.
+277	Impossible de resauver la même vidéo.\nTouchez l’écran tactile pour continuer.
 278	Sauvegarde en cours...\nN’éteignez pas la console.
 279	Réception du classement...
 280	Envoi des données de sauvegarde...
 281	Sauvegarde terminée.\nTouchez l’écran tactile pour continuer.
 282	Voulez-vous effacer la Vidéo de\nCombat de {STRVAR_1 3, 0, 0} ?
-283	Voulez-vous vraiment effacer ces données ?
+283	Effacer vraiment ces données ?
 284	Effacement des données...\nSauvegarde... N’éteignez pas la console.
 285	Les données ont été effacées.\nTouchez l’écran tactile pour continuer.
 286	Envoi des données d’habillage...
@@ -228,7 +228,7 @@
 288	Envoi des données de la Boîte...
 289	Réception des données de la Boîte...
 290	Aucune donnée à envoyer. Prenez une\nphoto dans le Tunnel de Doublonville.
-291	Impossible d’envoyer deux fois ces données.\nTouchez l’écran tactile pour continuer.
+291	Impossible de renvoyer ces données.\nTouchez l’écran tactile pour continuer.
 292	Réception des Vidéos de Combat...
 293	Aucune donnée trouvée...\nTouchez l’écran tactile pour continuer.
 294	Aucune Boîte trouvée...\nTouchez l’écran tactile pour continuer.
@@ -238,7 +238,7 @@
 298	Sauvegarde de beaucoup de données...\nN’éteignez pas la console.
 299	Sauvegarde en cours...\nN’éteignez pas la console.
 300	Aucun classement disponible...\nTouchez l’écran tactile pour continuer.
-301	Voulez-vous envoyer votre Vidéo de Combat ?
+301	Envoyer votre Vidéo de Combat ?
 310	20 DERNIÈRES DE LA BOÎTE PRÉFÉRÉE
 311	20 DERNIÈRES DE LA BOÎTE COOL
 312	20 DERNIÈRES DE LA BOÎTE MIGNONNE

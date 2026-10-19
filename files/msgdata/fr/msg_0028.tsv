@@ -1,0 +1,19 @@
+2	Résultats Salle Wi-Fi
+5	{COLOR 1}Rang{COLOR 3} {COLOR 0}\n{COLOR 1}actuel{COLOR 0}
+8	{COLOR 1}Record{COLOR 0}\n{COLOR 1}Wi-Fi{COLOR 0}
+9	{COLOR 1}PRÉC.{COLOR 0}
+10	{COLOR 1}ACTUEL{COLOR 0}
+11	{COLOR 1}RECORD{COLOR 0}
+12	{COLOR 1}RANG{COLOR 0}
+15	Série : {STRVAR_1 53, 0, 0}
+17	Rang {STRVAR_1 51, 0, 0}
+18	Salle {STRVAR_1 52, 1, 0}
+19	LISTE DES LEADERS
+22	Infos de {COLOR 3}{STRVAR_1 3, 0, 0}{COLOR 0}
+23	Infos de {COLOR 1}{STRVAR_1 3, 0, 0}{COLOR 0}
+24	RETOUR
+28	Pays
+31	Non enregistré
+32	Fierté d’être numéro un
+33	Cœur
+34	Âme

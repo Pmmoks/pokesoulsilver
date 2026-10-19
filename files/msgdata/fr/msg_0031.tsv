@@ -1,0 +1,63 @@
+2	{STRVAR_1 53, 0, 0} PC
+3	{STRVAR_1 53, 0, 0} PC
+4	{STRVAR_1 53, 0, 0} PC
+5	Choisissez votre Pokémon.
+6	{ALN_CENTER}SORTIE
+8	{STRVAR_1 3, 0, 0} choisit de sortir.
+9	SOIN
+10	LOCATION
+13	RETOUR
+14	Restaurer les PV et/ou les PP.
+15	Vous pouvez louer une Baie ou\nun objet.
+18	Revenir au choix des\nPokémon.
+19	RESTAURER PV
+20	RESTAURER PP
+21	TOUT RESTAURER
+22	MONTER DE RANG
+23	RETOUR
+24	Que voulez-vous utiliser ?
+25	Vous pourrez restaurer les PP en\nmontant de rang.
+26	Vous pourrez restaurer les PV et les\nPP en montant de rang.
+27	Votre rang est déjà au maximum.
+28	Revenir aux choix précédents.
+32	Vous n’avez pas assez de PC.
+33	Votre rang de soin est trop bas\npour utiliser ce menu.
+34	PV de {STRVAR_1 0, 0, 0} restaurés.
+35	PP de {STRVAR_1 0, 0, 0} restaurés.
+36	Les PV et PP de {STRVAR_1 0, 0, 0} seront\nrestaurés.
+37	Cette commande ne servirait à\nrien.
+38	Monter de rang pour {STRVAR_1 52, 0, 0} PC ?
+41	Vous n’avez pas assez de PC.
+42	{STRVAR_1 3, 5, 0} peut maintenant\nrestaurer les PP !
+43	{STRVAR_1 3, 5, 0} peut maintenant\nrestaurer les PV et les PP !
+44	BAIES
+45	OBJETS
+46	MONTER DE RANG
+47	RETOUR
+48	Louer une Baie pour ce Pokémon.
+49	Louer un objet pour ce Pokémon.
+50	Vous pourrez louer un objet en\nmontant de rang.
+51	Le choix d’objets et de Baies\nva s’élargir en montant de rang.
+52	Votre rang est déjà au maximum.
+53	Revenir aux choix précédents.
+54	Votre rang de location est trop bas\npour utiliser des PC.
+55	Cela coûtera {STRVAR_1 51, 0, 0} PC.\nD’accord ?
+59	{STRVAR_1 0, 0, 0} tient maintenant\n{STRVAR_1 8, 1, 0}.
+60	{STRVAR_1 0, 0, 0} tient déjà\n{STRVAR_1 8, 1, 0}.
+61	Voulez-vous échanger les\ndeux objets ?
+68	{STRVAR_1 3, 5, 0} peut maintenant\nlouer des objets !
+69	{STRVAR_1 3, 5, 0} a plus de choix de\nBaies et d’objets à louer !
+70	Objet
+72	Nature
+74	Talent
+76	Attaque
+78	Défense
+80	Atq. Spé.
+82	Déf. Spé.
+84	Vitesse
+88	N.
+89	PV
+104	{STRVAR_1 51, 0, 0}PC
+105	RETOUR
+106	Location/Baie
+107	Location/Objet

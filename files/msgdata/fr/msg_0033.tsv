@@ -1,0 +1,54 @@
+2	{STRVAR_1 53, 0, 0} PC
+3	{STRVAR_1 53, 0, 0} PC
+4	Quel Pokémon voulez-vous\nexaminer ?
+5	{ALN_CENTER}SORTIE
+7	{STRVAR_1 3, 0, 0} choisit de sortir.
+8	IDENTIFIER
+9	NIVEAU
+10	RÉSUMÉ
+11	RETOUR
+12	Découvrir l’identité d’un Pokémon.
+13	Changer le niveau d’un Pokémon.
+14	Examiner les stats d’un Pokémon.
+15	Revenir aux choix précédents.
+16	Identifier ce Pokémon ?\nCela coûtera {STRVAR_1 51, 0, 0} PC.
+20	Ce Pokémon est\n{STRVAR_1 0, 0, 0}.
+21	Vous pouvez changer le niveau de ce\nPokémon. Que voulez-vous faire ?
+22	NIVEAU +5
+23	NIVEAU -5
+24	RETOUR
+25	Cela coûtera {STRVAR_1 51, 0, 0} PC.\nD’accord ?
+28	Vous n’avez pas assez de PC...
+29	Le niveau de ce Pokémon ne peut\npas monter davantage.
+30	Le niveau de ce Pokémon ne peut\npas baisser davantage.
+31	Le niveau du Pokémon a\naugmenté de cinq.
+32	Le niveau du Pokémon a\nbaissé de cinq.
+33	RÉSUMÉ
+34	CAPACITÉS
+35	MONTER DE RANG
+36	RETOUR
+37	Examiner les stats du Pokémon.
+38	Voir les capacités du Pokémon.
+39	Vous pourrez voir les capacités avec\ndes PC en montant de rang.
+40	Votre rang est déjà au maximum.
+41	Revenir aux choix précédents.
+42	Votre rang d’information est trop bas\npour voir les capacités de la cible.
+43	Voir les stats de ce Pokémon ?\nCela coûtera {STRVAR_1 51, 0, 0} PC.
+46	Vous n’avez pas assez de PC...
+47	Vous avez acheté le résumé\ndes stats du Pokémon.
+48	Objet
+50	Nature
+52	Talent
+54	Attaque
+56	Défense
+58	Atq. Spé.
+60	Déf. Spé.
+62	Vitesse
+66	N.
+67	PV
+76	Vous pourrez voir les\ncapacités de l’adversaire\navec des PC en montant\nde rang d’information.
+79	Voir les capacités de ce Pokémon ?\nCela coûtera {STRVAR_1 51, 0, 0} PC.
+82	Vous n’avez pas assez de PC...
+83	Vous avez acheté la liste des\ncapacités du Pokémon.
+91	Monter de rang pour\n{STRVAR_1 52, 0, 0} PC ?
+95	{STRVAR_1 3, 5, 0} peut maintenant acheter\nles capacités de la cible.

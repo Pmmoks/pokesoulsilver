@@ -1,0 +1,42 @@
+0	{ALN_CENTER}Voltorbataille Niv. {STRVAR_1 50, 0, 0}
+1	{ALN_CENTER}Retournez les cartes, gagnez des jetons !
+2	...x1 ! ...x2 ! ...x3 !
+3	Perdu ! 0 !
+4	{ALN_CENTER}Jetons gagnés\n{ALN_CENTER}par {STRVAR_1 3, 0, 0}
+5	{ALN_CENTER}Jetons gagnés\n{ALN_CENTER}cette partie
+6	{ALN_CENTER}Ouvrir\n{ALN_CENTER}mémo
+7	{ALN_CENTER}Fermer\n{ALN_CENTER}mémo
+8	{ALN_CENTER}Quitter
+9	{ALN_CENTER}Les nombres au bord des cartes indiquent\n{ALN_CENTER}le total des nombres cachés et le\n{ALN_CENTER}nombre de VOLTORBE.
+10	{ALN_CENTER}Touchez “Ouvrir mémo” pour ouvrir le mémo.\n{ALN_CENTER}Touchez une carte pour la marquer.
+11	{ALN_CENTER}Si vous retournez les cartes ainsi,\n{ALN_CENTER}vous gagnez : 3 x 1 x 2 x 1 x 3...\n{ALN_CENTER}18 jetons en tout ! Et ensuite...
+12	{ALN_CENTER}Si vous choisissez “Quitter”,\n{ALN_CENTER}vous gardez ces 18 jetons.
+13	{ALN_CENTER}Mais si vous tombez sur un VOLTORBE,\n{ALN_CENTER}vous perdez tous vos jetons !
+14	Vous avez réuni 50 000 jetons.\nVous ne pouvez pas en gagner plus.\r
+15	Jouer à Voltorbataille Niv. {STRVAR_1 50, 0, 0} ?
+16	Jouer à Voltorbataille Niv. {STRVAR_1 50, 0, 0} ?
+17	Jouer
+18	Infos jeu
+19	Quitter
+20	Quelles infos ?
+21	Comment jouer
+22	Astuce !
+23	Les mémos
+24	Retour
+25	Voltorbataille est un jeu où il faut\nretourner des cartes pour trouver\fles nombres cachés dessous.\rLes cartes cachent les nombres\nde 1 à 3... et aussi des VOLTORBE.\rLe premier nombre retourné vous donne\nautant de jetons.\rEnsuite, chaque nombre trouvé\nmultiplie par ce nombre le total\fde jetons déjà gagnés.\rSi c’est un 2, votre total est\nmultiplié par “x2”.\rSi c’est un 3, votre total est\nmultiplié par “x3”.\rMais si vous retournez un VOLTORBE,\nla partie est perdue.\rDans ce cas, vous perdez tous les\njetons gagnés pendant\fla partie en cours.\rSi vous choisissez “Quitter”, vous\nabandonnez la partie.\rSi la situation devient délicate, mieux\nvaut peut-être arrêter plus tôt.\rUne fois que vous avez trouvé tous les\n2 et les 3 cachés, vous avez\fterminé la partie.\rEn retournant toutes ces cartes,\nvous passez au niveau\fsuivant.\rPlus le niveau monte, plus vous\npouvez gagner de jetons.\fFaites de votre mieux !\r
+26	Les nombres au bord du plateau donnent\nun indice sur les nombres cachés\fau dos des cartes.\rPlus le nombre est grand, plus il y a de\nchances que de grands nombres soient\fcachés dans cette ligne ou colonne.\rDe même, vous pouvez savoir combien\nde VOLTORBE se cachent dans la ligne\fou la colonne.\rTenez bien compte du total des nombres\net du nombre de VOLTORBE avant de\fretourner les cartes.\r
+27	Choisissez “Ouvrir mémo” pour\nmarquer les cartes.\rVous pouvez marquer les cartes avec\nles nombres 1 à 3, mais aussi avec\fune marque VOLTORBE.\rQuand vous avez une idée des nombres\ncachés au dos des cartes, touchez\r“Ouvrir mémo” et choisissez les cartes\nà marquer.\rPour retirer une marque, touchez-la\nde nouveau et elle disparaîtra.\r
+28	Est-ce la dernière carte ?!
+29	Est-ce bien ce que vous espériez ?!
+30	{STRVAR_1 50, 0, 0} ! Vous gagnez {STRVAR_1 50, 0, 0} jeton(s) !
+31	x{STRVAR_1 50, 0, 0} ! Vous gagnez {STRVAR_1 53, 1, 0} jetons !
+32	Oh non ! Vous gagnez 0 jeton !
+33	Partie terminée !\rVous avez trouvé tous les x2 et x3\ncachés.\rVous avez donc trouvé tous les jetons\nde cette partie : elle est terminée.\r
+34	Si vous arrêtez maintenant, vous\nrecevrez {STRVAR_1 53, 0, 0} jeton(s).\fVoulez-vous arrêter ?
+37	Vous n’avez trouvé aucun jeton !\nVoulez-vous vraiment arrêter ?
+40	{STRVAR_1 3, 1, 0}\nreçoit {STRVAR_1 53, 0, 0} jeton(s) !\r
+41	Passage au niveau {STRVAR_1 50, 0, 0} !\r
+42	Félicitations !\rVous pouvez gagner encore plus de\njetons à la prochaine partie !\r
+43	Retour au niveau {STRVAR_1 50, 0, 0}.\r
+46	Table n° {STRVAR_1 51, 0, 0}
+47	Niveau suivant : {STRVAR_1 50, 1, 0}

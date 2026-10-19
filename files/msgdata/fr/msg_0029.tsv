@@ -1,0 +1,4 @@
+0	{STRVAR_1 0, 0, 0} attrapé !
+1	Échanger {STRVAR_1 0, 0, 0} contre\nvotre {STRVAR_1 0, 1, 0} ?
+2	{STRVAR_1 0, 1, 0} relâché et\n{STRVAR_1 0, 0, 0} attrapé !
+3	{STRVAR_1 0, 0, 0} relâché et\n{STRVAR_1 0, 1, 0} gardé !

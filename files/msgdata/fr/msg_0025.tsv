@@ -1,0 +1,42 @@
+0	{STRVAR_1 1, 0, 0} est sélectionné.
+2	Relâcher ce Pokémon ?
+3	{STRVAR_1 1, 0, 0} a été relâché.
+4	Au revoir, {STRVAR_1 1, 0, 0} !
+5	Votre équipe est pleine !
+6	C’est votre dernier Pokémon !
+7	Que voulez-vous faire ?
+10	Choisissez le fond.
+11	Quitter la Boîte ?
+12	Continuer dans la Boîte ?
+13	La Boîte est pleine.
+14	Le Sac est plein.
+15	Vous prenez {STRVAR_1 8, 0, 0}.
+16	{STRVAR_1 8, 0, 0} est maintenant tenu.
+18	Lequel voulez-vous prendre ?
+19	Déposer où ?
+23	Prendre {STRVAR_1 8, 0, 0} ?
+24	Impossible de retirer une Lettre.
+26	Ranger {STRVAR_1 8, 0, 0} ?
+27	{STRVAR_1 8, 0, 0} est rangé dans le Sac.
+29	Retirez d’abord la Capsule.
+30	Retirez d’abord la Lettre.
+31	Impossible de relâcher un Œuf.
+32	{STRVAR_1 1, 0, 0} est revenu !
+33	Il s’inquiétait pour vous ?
+34	Un Œuf ne peut pas tenir d’objet.
+35	Touchez la Marque !
+36	Placez-le dans la Boîte !
+37	Ajoutez-le à votre équipe !
+38	Cette Boîte est pleine !
+39	Votre équipe est pleine !
+50	Déposer Pokémon
+51	Retirer Pokémon
+52	Déplacer Pokémon
+53	Déplacer objets
+54	Impossible de déplacer une Lettre !
+55	Impossible de tenir {STRVAR_1 8, 0, 0} !
+56	Il tient une Lettre !
+57	Il a une Capsule !
+58	Vous n’avez plus de Pokémon valide !
+59	Impossible de déplacer une Lettre !
+60	Un Pokémon peut tenir cet objet.

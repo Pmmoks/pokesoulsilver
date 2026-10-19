@@ -1,0 +1,11 @@
+0	Bonjour, au moment où vous vous y\nattendez le moins ! Je suis Cameron,\nle photographe.\rVous êtes si photogénique !\nVoulez-vous une photo ? {YESNO 0}
+1	Très bien !\nPréparez-vous !\r
+2	Bien, bien !\nC’est une belle photo !\rVous pouvez voir toutes les photos\nsur votre PC.
+3	Attendez une seconde !\rMon don surhumain me dit\nque votre Album Photo\fest plein !\rDésolé de vous déranger, mais\npourriez-vous effacer des photos\favant de revenir me voir ?
+4	Hmmm...\nVous n’avez pas d’Album Photo.\rPour classer les photos prises,\nil vous en faut un.\rMon grand frère tient un studio\nphoto à Doublonville.\fPourquoi ne pas aller en chercher un ?
+5	Vous êtes timide, vous ?
+6	Il y a un appareil photo automatique.\rVoulez-vous prendre une photo ? {YESNO 0}
+7	La photo va être prise.\r
+8	La photo a bien été prise.
+9	L’Album Photo est plein.\rEffacez des photos avant de\nrevenir.
+10	Vous n’avez pas d’Album Photo.\rAllez à Doublonville.\nIl y a un tunnel là-bas...\fRevenez avec un Album Photo.

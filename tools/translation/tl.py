@@ -40,11 +40,12 @@ LINE_BREAK = re.compile(r'\\[nrf]')
 # A placeholder's width is not known before the game fills it in: one about the size of a
 # Pokemon name is assumed, for the English text and the translation alike.
 PLACEHOLDER_WIDTH = 60
+NUMBER_WIDTH = 24
 
 # Banks shown in a window wider than their widest English line: the window's text width.
 # The battle message window is 27 tiles wide (BattleSystem_InitWindows, battle_main.c).
 WIDTH_OVERRIDES = {
-    'msg_0003': 216,  # battle messages
+    'msg_0003': 216, 'msg_0197': 216,  # battle messages
     # Names: the French release, built from the same code, shows 15-character official
     # names such as "Regard Médusant" (88 px) in the same windows.
     'msg_0750': 88, 'msg_0751': 88,  # moves
@@ -65,7 +66,8 @@ REFERENCE_BANKS = {
 # Banks that stay as they are: the Pokedex's text in the other languages it can show, the
 # greetings in each language, and debug menus no retail screen opens.
 KEEP_BANKS = {f'msg_{n:04d}' for n in [*range(806, 812), *range(817, 829), *range(767, 773),
-                                       *range(151, 179), 297, 299, 437, 438]}
+                                       *range(151, 179), 297, 299, 437, 438,
+                                       27]}  # 27: first names of NPC trainers
 
 # Banks whose rows are names read into fixed-size buffers: the longest a row may be (the
 # count includes the terminator, as in the encoded bank). Species names are also kept in
@@ -120,8 +122,10 @@ def line_width(line):
     width = 0
     for part in re.split(r'(\{[^}]*\})', line):
         if part.startswith('{'):
-            if part.startswith('{STRVAR'):
-                width += PLACEHOLDER_WIDTH
+            m = re.match(r'\{STRVAR_\d+ (\d+),', part)
+            if m:
+                # Kinds 50 and up are numbers: about four digits.
+                width += NUMBER_WIDTH if int(m.group(1)) >= 50 else PLACEHOLDER_WIDTH
         else:
             width += sum(glyph_width(c) for c in part)
     return width

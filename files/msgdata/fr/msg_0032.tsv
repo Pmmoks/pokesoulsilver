@@ -1,0 +1,51 @@
+0	Bienvenue au Château de Combat.\nJe m’appelle Darach.\rJe serai votre hôte au nom de Dame\nCaitlin, la propriétaire du château.\rTout d’abord, je dois vous demander les\nobjets que tiennent vos Pokémon.\rIls vous seront rendus à votre\ndépart.\rEnsuite, voici 10 Points Château, PC,\nque vous ne pourrez utiliser qu’ici.\rIls sont pour vous.\nVeuillez les accepter.\r
+1	Bienvenue.\r{STRVAR_1 3, 0, 0}, selon le règlement, je dois\nvous demander les objets de vos\fPokémon.\rIls vous seront rendus à votre\ndépart.\rVoici aussi 10 Points Château, PC,\nutilisables uniquement ici.\r
+2	Veuillez patienter.
+3	Très bien.\nVeuillez avancer.
+4	Vos Pokémon K.O. vont être\nranimés.\r
+5	Voici maintenant le combat n° {STRVAR_1 53, 0, 0}.\nVous êtes prêt, je suppose ?
+6	Voulez-vous sauvegarder le dernier\ncombat en Vidéo de Combat ?
+7	Le combat de {STRVAR_1 3, 0, 0} a été\nsauvegardé en Vidéo de Combat.\r
+8	Une erreur est survenue.\nLa Vidéo de Combat n’a pas été sauvée.\r
+9	Effacer votre Vidéo de Combat actuelle\net sauvegarder le dernier combat ?
+10	Sauvegarde en cours...\nN’éteignez pas la console.
+11	Voulez-vous sauvegarder et faire\nune pause ?
+14	Voulez-vous abandonner ce défi\ndu Château de Combat ?
+17	{STRVAR_1 3, 0, 0} fait son choix.\nVeuillez patienter.
+19	{STRVAR_1 3, 0, 0} a choisi d’abandonner.
+20	Choisissez ce que vous voulez faire.\r
+21	Vous pouvez soigner un Pokémon ou\nlui louer un objet.
+22	Vous pouvez examiner les Pokémon\nde votre adversaire.
+23	Combattre un Dresseur.
+24	Vous pouvez passer votre tour et\néviter de combattre un Dresseur.
+25	Cela coûtera {STRVAR_1 52, 0, 0} PC.\nEst-ce acceptable ?
+28	Je suis navré.\nVous n’avez pas assez de PC.\r
+29	Désormais, vous pouvez choisir\n“Passer” pour éviter de combattre un\fDresseur.\rSi vous ne voulez pas affronter un\nDresseur, choisissez “Passer”.\r
+30	Caitlin : ...\nDarach ! Des PC pour ce Dresseur !
+31	Darach : {STRVAR_1 3, 1, 0}, bravo.\nUne victoire fantastique, assurément.
+32	Darach : {STRVAR_1 3, 1, 0}, bien joué.\nUne victoire tout à fait remarquable.
+33	Darach : {STRVAR_1 3, 1, 0}, joli combat.\nUne victoire durement acquise, non ?
+34	Darach : {STRVAR_1 3, 1, 0}, bel effort...
+35	Darach : {STRVAR_1 3, 1, 0}, bravo.\nUne victoire fantastique, assurément.\r
+36	Darach : {STRVAR_1 3, 1, 0}, bien joué.\nUne victoire tout à fait remarquable.\r
+37	Darach : {STRVAR_1 3, 1, 0}, joli combat.\nUne victoire durement acquise, non ?\r
+38	Darach : {STRVAR_1 3, 1, 0}, bel effort...\r
+39	Dame Caitlin m’a chargé de vous\nremettre {STRVAR_1 51, 0, 0} PC.
+40	Darach : Félicitations pour ces sept\ncombats remportés d’affilée.\rPour votre vaillance, {STRVAR_1 3, 0, 0},\nveuillez accepter ces PCo.\r
+41	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} PCo !\r
+42	Nous vous rendons les objets que\nnous gardions pour vous.\r
+43	Sauvegarde en cours...\nN’éteignez pas la console.
+44	Caitlin : ... Passer ?\n... Quelle grossièreté !
+45	CONTINUER
+46	RECORD
+47	PAUSE
+48	ABANDONNER
+49	SOI
+50	ADVERSAIRE
+51	COMBAT
+52	PASSER
+53	Darach : {STRVAR_1 3, 0, 0}, félicitations !\rVotre maîtrise mérite des éloges pour\navoir maintenu votre série.\rNotre propriétaire, reconnaissant\nvotre valeur, exige que vous affrontiez\fle Valet du Château.\rVous êtes prêt, n’est-ce pas ?\r
+54	Darach : Bienvenue.\rJe suis Darach, comme vous le savez,\net je suis le Valet du Château.\rDame Caitlin, mon employeuse, n’est\npas du genre à accepter la défaite.\rCependant, pour une raison que je ne\npuis révéler, elle ne peut combattre.\rC’est donc moi qui combattrai à la\nplace de Madame.\r... Soyez assuré que vous ne serez\npas déçu de m’affronter.\rEn garde !\r
+55	Darach : Votre maîtrise des Pokémon\nest toujours aussi époustouflante.\r{STRVAR_1 3, 0, 0}, vous méritez vraiment\ndes éloges.\r... Cependant, si je puis me permettre,\nj’ai remarqué quelque chose dans votre\fmanière de combattre.\rAprès tout, j’ai eu l’occasion de vous\nobserver de près.\rQu’ai-je donc remarqué ?\rEn tant que Dresseur, l’étiquette veut\nque je vous le montre en combat.\rCommençons !\nEn garde !\r
+56	Darach : {STRVAR_1 3, 0, 0}, vous possédez\nvraiment un talent exceptionnel !\rJ’ai puisé dans toute l’expérience et\nl’étiquette transmises par notre\fglorieuse lignée de serviteurs.\rMais même ainsi, je n’ai pu repousser\nvotre défi brillant et inspirant.\rJe m’efforcerai d’apaiser le\nmécontentement de Dame Caitlin.\r{STRVAR_1 3, 0, 0}, revenez donc à notre\nChâteau de Combat.\rNous serons ravis et honorés de\nvous accueillir à nouveau !\r
+57	Darach : Je suis humilié...\rCe que je prenais pour une faiblesse\nn’était qu’une illusion...\rOu peut-être l’avez-vous corrigée au\ncours de notre combat.\rQuoi qu’il en soit, votre performance\nétait de nouveau époustouflante.\rMême si elle ne peut le dire, Dame\nCaitlin semble séduite par votre style.\rPour elle, au moins, revenez donc\nà notre Château de Combat !\r
