@@ -1,0 +1,42 @@
+1	...\n...\rHuaaaaaaa...\n...\rHein ? Il fait déjà si clair dehors !\r
+2	...\n...\rHuaaaaa...\n...\rHein ? Quoi ?! Il est déjà si tard ?! Oh\nnon ! J’ai trop dormi !\r
+3	...\n...\rHmm. On dirait que le soleil commence à\ndescendre...\r... C’est ce qu’on appelle le\n“crépuscule”, non ?\r
+4	...\n...\rHmm... Intéressant...\n...\rHein ? Oh ! Excuse-moi, désolé !\nJ’étais plongé dans ce livre.\r
+5	...\n...\rHuaaaaaaa...\n...\rHein ? Un visiteur ? À cette heure-ci ?\r
+6	Désolé de t’avoir fait attendre !\rBienvenue dans le monde des Pokémon !\rJe m’appelle Professeur Chen.\rMais tout le monde m’appelle le\nProfesseur Pokémon.\rAvant d’aller plus loin, j’aimerais te\ndire quelques petites choses sur ce\fmonde !\r
+7	Je vais d’abord te parler de choses\nimportantes sur ce jeu.\n\nTouche sur l’écran tactile le sujet\nsur lequel tu veux en savoir plus.
+9	Je vais t’expliquer les commandes.\n\nTu peux jouer en touchant l’écran\ndu bas, aussi appelé écran tactile.\n\nTouche le panneau en bas à droite\nde l’écran tactile.
+10	En touchant l’écran tactile\ncomme ceci, tu peux confirmer\ntes choix et faire avancer\nles dialogues.
+11	Tu peux aussi avancer en appuyant\nsur A quand l’icône du bouton A\napparaît sur l’écran tactile.
+12	Différents boutons tactiles\napparaissent sur l’écran tactile\nselon la situation.
+13	Ensuite, je vais t’expliquer\nles boutons.\n\nTu peux déplacer le personnage\nprincipal à l’écran avec la\ncroix directionnelle.
+14	Ensuite, je vais t’expliquer\nles boutons.\n\nUtilise la croix directionnelle\npour déplacer le personnage.\n\nElle sert aussi à choisir parmi\nles options.
+15	Tu peux utiliser les boutons\nau lieu de toucher l’écran\ntactile.
+16	Pour confirmer, examiner, parler\net faire défiler le texte.\n\nPour quitter, annuler un choix\nou un mode.
+17	Pour se déplacer dans les menus.\n\nPour utiliser un Objet Rare,\ncomme la Bicyclette, enregistré\nà l’avance.
+23	Si ce symbole apparaît dans la\nfenêtre de texte, tu peux toucher\ndes boutons actifs sur l’écran\ntactile.
+26	Tu as bien tout compris jusqu’ici ? {YESNO 0}
+28	Tu vas entrer dans un monde où\ntu vas vivre une grande aventure\nrien qu’à toi.
+29	Parle aux gens et examine tout\npartout où tu vas : en ville,\nsur les routes, dans les grottes.\nRassemble des informations et\ndes indices de toutes parts.
+30	De nouveaux chemins s’ouvriront\nquand tu aideras les gens, que tu\nrelèveras des défis et résoudras\ndes mystères.
+31	Parfois, d’autres te défieront\nen combat. D’autres fois, des\ncréatures sauvages te barreront\nla route.\n\nEn surmontant ces obstacles,\ntu deviendras très fort.
+32	Mais ton aventure ne consiste pas\nseulement à devenir fort.
+33	Pendant ton voyage, nous espérons\nque tu rencontreras beaucoup de\ngens et que tu grandiras grâce\nà eux.\n\nC’est le but le plus important\nde cette aventure.
+34	Ce monde est peuplé de créatures\nappelées Pokémon.\r
+35	Nous, les humains, vivons avec les\nPokémon comme des amis.\rParfois nous jouons ensemble, et\nparfois nous travaillons ensemble.\rCertains font combattre leurs Pokémon\npour tisser des liens plus forts avec\feux.\r
+36	Et maintenant, si tu me parlais un peu\nde toi ?\r
+37	Es-tu un garçon ? Ou es-tu une fille ?\nTu veux bien me le dire ? {YESNO 0}
+38	Tu es donc un garçon ? {YESNO 0}
+39	Tu es donc une fille ? {YESNO 0}
+40	Dis-moi comment tu t’appelles.
+41	Tu t’appelles {STRVAR_1 3, 0, 0} ? {YESNO 0}
+42	Tu t’appelles {STRVAR_1 3, 0, 0} ? {YESNO 0}
+43	{STRVAR_1 3, 0, 0} ! Es-tu prêt ?\rTa propre grande aventure est sur le\npoint de commencer.\rDes moments amusants, des moments\ndifficiles, il y a tant de choses qui\ft’attendent !\rDes rêves ! De l’aventure ! En route\npour le monde des Pokémon !\rÀ plus tard !\r
+44	COMMANDES
+45	L’AVENTURE
+46	PAS BESOIN
+47	OUI
+48	NON
+60	Toucher
+61	{ALN_CENTER}Oui
+62	{ALN_CENTER}Non

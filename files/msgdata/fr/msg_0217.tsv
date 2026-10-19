@@ -1,0 +1,100 @@
+0	un {COLOR 255}Duvet Blanc{COLOR 0}
+1	un {COLOR 255}Duvet Jaune{COLOR 0}
+2	un {COLOR 255}Duvet Rose{COLOR 0}
+3	un {COLOR 255}Duvet Marron{COLOR 0}
+4	un {COLOR 255}Duvet Noir{COLOR 0}
+5	un {COLOR 255}Duvet Orange{COLOR 0}
+6	un {COLOR 255}Galet Rond{COLOR 0}
+7	un {COLOR 255}Roc Brillant{COLOR 0}
+8	un {COLOR 255}Galet Pointu{COLOR 0}
+9	un {COLOR 255}Roc Dentelé{COLOR 0}
+10	un {COLOR 255}Galet Noir{COLOR 0}
+11	un {COLOR 255}Mini Galet{COLOR 0}
+12	une {COLOR 255}Écaille Rose{COLOR 0}
+13	une {COLOR 255}Écaille Bleue{COLOR 0}
+14	une {COLOR 255}Écaille Verte{COLOR 0}
+15	une {COLOR 255}Écaille Mauve{COLOR 0}
+16	une {COLOR 255}Grande Écaille{COLOR 0}
+17	une {COLOR 255}Écaille Fine{COLOR 0}
+18	une {COLOR 255}Plume Bleue{COLOR 0}
+19	une {COLOR 255}Plume Rouge{COLOR 0}
+20	une {COLOR 255}Plume Jaune{COLOR 0}
+21	une {COLOR 255}Plume Blanche{COLOR 0}
+22	une {COLOR 255}Moustache Noire{COLOR 0}
+23	une {COLOR 255}Moust. Blanche{COLOR 0}
+24	une {COLOR 255}Barbe Noire{COLOR 0}
+25	une {COLOR 255}Barbe Blanche{COLOR 0}
+26	une {COLOR 255}Petite Feuille{COLOR 0}
+27	une {COLOR 255}Grande Feuille{COLOR 0}
+28	une {COLOR 255}Feuille Fine{COLOR 0}
+29	une {COLOR 255}Griffe Mue{COLOR 0}
+30	une {COLOR 255}Corne Mue{COLOR 0}
+31	un {COLOR 255}Champi Fin{COLOR 0}
+32	un {COLOR 255}Champi Épais{COLOR 0}
+33	une {COLOR 255}Souche{COLOR 0}
+34	une {COLOR 255}Jolie Rosée{COLOR 0}
+35	un {COLOR 255}Flocon{COLOR 0}
+36	des {COLOR 255}Étincelles{COLOR 0}
+37	un {COLOR 255}Feu Chatoyant{COLOR 0}
+38	un {COLOR 255}Feu Mystique{COLOR 0}
+39	une {COLOR 255}Détermination{COLOR 0}
+40	une {COLOR 255}Cuiller Bizarre{COLOR 0}
+41	une {COLOR 255}Fumée Bouffie{COLOR 0}
+42	un {COLOR 255}Extrait Poison{COLOR 0}
+43	une {COLOR 255}Pièce Riche{COLOR 0}
+44	un {COLOR 255}Truc Étrange{COLOR 0}
+45	un {COLOR 255}Ressort{COLOR 0}
+46	un {COLOR 255}Coquillage{COLOR 0}
+47	une {COLOR 255}Note Chantante{COLOR 0}
+48	une {COLOR 255}Poudre Lustrée{COLOR 0}
+49	une {COLOR 255}Poudre Strass{COLOR 0}
+50	une {COLOR 255}Fleur Rouge{COLOR 0}
+51	une {COLOR 255}Fleur Rose{COLOR 0}
+52	une {COLOR 255}Fleur Blanche{COLOR 0}
+53	une {COLOR 255}Fleur Bleue{COLOR 0}
+54	une {COLOR 255}Fleur Orange{COLOR 0}
+55	une {COLOR 255}Fleur Jaune{COLOR 0}
+56	les {COLOR 255}Lunettes Folles{COLOR 0}
+57	les {COLOR 255}Lunettes Noires{COLOR 0}
+58	les {COLOR 255}Lunettes Chic{COLOR 0}
+59	un {COLOR 255}Bonbon Sucré{COLOR 0}
+60	des {COLOR 255}Confettis{COLOR 0}
+61	une {COLOR 255}Ombrelle{COLOR 0}
+62	un {COLOR 255}Vieux Parapluie{COLOR 0}
+63	un {COLOR 255}Projecteur{COLOR 0}
+64	une {COLOR 255}Cape{COLOR 0}
+65	un {COLOR 255}Micro sur Pied{COLOR 0}
+66	une {COLOR 255}Planche de Surf{COLOR 0}
+67	un {COLOR 255}Tapis{COLOR 0}
+68	une {COLOR 255}Pipe Rétro{COLOR 0}
+69	un {COLOR 255}Lit Douillet{COLOR 0}
+70	une {COLOR 255}Boule Disco{COLOR 0}
+71	un {COLOR 255}Panneau Photo{COLOR 0}
+72	une {COLOR 255}Barrette Rose{COLOR 0}
+73	une {COLOR 255}Barrette Rouge{COLOR 0}
+74	une {COLOR 255}Barrette Bleue{COLOR 0}
+75	une {COLOR 255}Barrette Jaune{COLOR 0}
+76	une {COLOR 255}Barrette Verte{COLOR 0}
+77	un {COLOR 255}Ballon Rose{COLOR 0}
+78	les {COLOR 255}Ballons Rouges{COLOR 0}
+79	les {COLOR 255}Ballons Bleus{COLOR 0}
+80	un {COLOR 255}Ballon Jaune{COLOR 0}
+81	les {COLOR 255}Ballons Verts{COLOR 0}
+82	une {COLOR 255}Coiffe Dentelle{COLOR 0}
+83	un {COLOR 255}Haut-de-Forme{COLOR 0}
+84	un {COLOR 255}Voile de Soie{COLOR 0}
+85	un {COLOR 255}Bandeau Héros{COLOR 0}
+86	une {COLOR 255}Toque Prof{COLOR 0}
+87	une {COLOR 255}Scène Fleurie{COLOR 0}
+88	un {COLOR 255}Socle Doré{COLOR 0}
+89	une {COLOR 255}Scène Verre{COLOR 0}
+90	un {COLOR 255}Podium{COLOR 0}
+91	une {COLOR 255}Scène Cube{COLOR 0}
+92	une {COLOR 255}Tête Tortipouss{COLOR 0}
+93	une {COLOR 255}Tête Ouisticram{COLOR 0}
+94	une {COLOR 255}Tête Tiplouf{COLOR 0}
+95	un {COLOR 255}Grand Arbre{COLOR 0}
+96	un {COLOR 255}Drapeau{COLOR 0}
+97	une {COLOR 255}Couronne{COLOR 0}
+98	un {COLOR 255}Diadème{COLOR 0}
+99	une {COLOR 255}Comète{COLOR 0}

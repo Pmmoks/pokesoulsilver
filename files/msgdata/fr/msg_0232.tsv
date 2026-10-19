@@ -1,0 +1,13 @@
+0	BOÎTE AUX LETTRES
+3	ANNULER
+4	FERMER
+5	LIRE
+6	EFFACER
+7	DONNER
+8	ANNULER
+9	Que voulez-vous faire de la\nLettre de {STRVAR_1 3, 0, 0} ?
+10	Le message va être perdu.\nD’accord ?
+11	Le message a été effacé.
+12	Faire tenir cette Lettre ?
+13	Le message a été effacé et la\nLettre rangée dans le Sac.
+14	Votre Sac est plein...\nLa Lettre a été jetée.

@@ -1,0 +1,68 @@
+0	Bienvenue dans Cadeau Mystère !
+1	Choisissez comment recevoir\nvotre cadeau.
+2	La communication sans fil DS\nva être lancée.
+3	Recherche d’un cadeau.\nVeuillez patienter...
+4	Recevoir ce cadeau ?
+5	Chercher un autre cadeau ?
+6	Votre demande a été envoyée.\nVeuillez patienter...
+7	Réception du cadeau.\nN’éteignez pas la console.
+8	Le cadeau a été reçu !\rRécupérez-le auprès du livreur dans\nn’importe quelle Boutique Pokémon.
+9	Ce cadeau est partagé par une autre\npersonne.\rVous pouvez l’accepter, mais vous ne\npourrez pas le distribuer à vos amis.\rAccepter ce cadeau ?
+11	Pokémon Ranger\nTransfert de l’Œuf de MANAPHY
+12	RECEVOIR UN CADEAU
+13	VOIR LES CARTES
+14	QUITTER
+15	PAR UN AMI
+16	PAR LA CWF NINTENDO
+17	ANNULER
+18	OUI
+19	NON
+20	SANS FIL
+21	VOIR CARTE CAPSULE TEMPORELLE
+22	Notre livreur croule sous les cadeaux\npour vous !\rAllez le voir dans une Boutique Pokémon\npour récupérer certains de vos cadeaux.
+23	Vous avez déjà reçu ce cadeau.\nVous ne pouvez pas en recevoir un autre.
+24	Aucun cadeau n’a été trouvé.
+25	Votre demande a été refusée.
+26	Vous n’avez plus de place pour les\nCartes Mystère.\rVous ne pouvez pas accepter d’autre\ncadeau.
+27	Un problème est survenu lors de la\nréception du cadeau.\rAppuyez sur A pour revenir à l’écran\ntitre.
+28	Un cadeau a été trouvé, mais il ne peut\npas être reçu avec cette version.\rAppuyez sur A pour revenir au menu.
+29	La personne qui partageait a été\ndéconnectée...
+31	Appuyez sur A.
+35	Touchez l’écran de jeu de\nPokémon Ranger.
+37	Carte Mystère
+38	Récupérez votre cadeau auprès du\nlivreur dans n’importe quelle Boutique\fPokémon.
+39	Vous avez déjà reçu\nce cadeau.
+40	Cette carte n’est associée\nà aucun cadeau.
+41	Date de réception
+42	Ce cadeau peut être distribué {STRVAR_1 52, 0, 0} fois.
+43	INFOS
+44	PARTAGER
+45	JETER
+46	QUITTER
+47	Voulez-vous partager ce cadeau ?
+48	OUI
+49	NON
+52	Ce cadeau peut être partagé avec\nautant d’amis que vous voulez.
+53	Inscription à la distribution
+55	ID n° {STRVAR_1 54, 0, 0}
+56	Inscrits\nactuels
+58	ENVOYER
+59	ANNULER
+60	Distribution du cadeau en cours...\nN’éteignez pas la console.
+61	La distribution du cadeau\na réussi.
+62	Jeter cette carte ?
+63	Vous n’avez pas encore reçu votre\ncadeau. Jeter cette carte ?
+64	Suppression...\nN’éteignez pas la console.
+65	OUI
+66	NON
+68	{COLOR 3}{STRVAR_1 3, 0, 0}{COLOR 2} {COLOR 0}ID n° {STRVAR_1 54, 1, 0}
+70	N° de demande :
+72	Réception d’un message de recrutement\nd’un Pokémon Ranger.
+73	En attente du transfert depuis\nPokémon Ranger.
+74	Réception de l’Œuf de MANAPHY...\nN’éteignez pas la console.
+75	Le transfert est terminé.\nA : écran titre.
+76	La connexion avec Pokémon Ranger a été\nperdue... Appuyez sur A.
+79	La communication sans fil DS\nva être lancée.
+80	Se connecter à la CWF Nintendo ?
+81	La Capsule Temporelle est gardée\nen lieu sûr.
+82	La Capsule Temporelle a été livrée !

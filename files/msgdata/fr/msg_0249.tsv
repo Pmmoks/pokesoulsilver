@@ -1,0 +1,7 @@
+0	Votre nom ? {YESNO 0}
+1	Surnom de {STRVAR_1 1, 0, 0} ? {YESNO 0}
+2	Nom de la Boîte ? {YESNO 0}
+3	Nom de ce garçon ? {YESNO 0}
+5	Nom du groupe ? {YESNO 0}
+7	Groupe
+8	Nom de votre ami ? {YESNO 0}

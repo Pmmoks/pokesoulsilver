@@ -1,0 +1,81 @@
+0	Ding-dong ! Le temps est écoulé ! Le\nConcours de Capture d’Insectes est\fterminé.\r
+1	Ding-dong ! Vous n’avez plus de Poké\nBalls. Le Concours de Capture\fd’Insectes est terminé.\r
+3	Il vous reste {STRVAR_1 51, 0, 0} minute(s).\nVoulez-vous terminer maintenant ?{YESNO 0}
+4	Aujourd’hui, c’est mardi.\rCela veut dire que le Concours de\nCapture d’Insectes a lieu aujourd’hui.\rLes règles sont simples.\rAvec l’un de vos Pokémon, attrapez un\nPokémon de type Insecte qui sera jugé.\rVoulez-vous essayer ?{YESNO 0}
+5	Aujourd’hui, c’est jeudi.\rCela veut dire que le Concours de\nCapture d’Insectes a lieu aujourd’hui.\rLes règles sont simples.\rAvec l’un de vos Pokémon, attrapez un\nPokémon de type Insecte qui sera jugé.\rVoulez-vous essayer ?{YESNO 0}
+6	Aujourd’hui, c’est samedi.\rCela veut dire que le Concours de\nCapture d’Insectes a lieu aujourd’hui.\rLes règles sont simples.\rAvec l’un de vos Pokémon, attrapez un\nPokémon de type Insecte qui sera jugé.\rVoulez-vous essayer ?{YESNO 0}
+7	Le Concours de Capture d’Insectes a\nlieu le mardi, le jeudi et le samedi.\rVous gagnez un prix rien qu’en\nparticipant, et vous gardez le dernier\fPokémon Insecte que vous avez\fattrapé.
+10	Oh oh... Vous avez plus d’un Pokémon.\rVous devrez utiliser {STRVAR_1 1, 0, 0}, le\npremier Pokémon de votre équipe.\rÇa vous va ? {YESNO 0}
+13	Bien, nous gardons vos autres Pokémon\npendant le concours.\rLes Pokémon de {STRVAR_1 3, 0, 0} ont été\nconfiés à l’assistant du concours.\r
+14	Voici les Compét’Balls pour le concours.\r{STRVAR_1 3, 0, 0} reçoit 20 Compét’Balls.\r
+15	La personne qui attrape le Pokémon\nInsecte le plus fort gagne.\rVous avez 20 minutes.\rSi vous n’avez plus de Compét’Balls,\nc’est terminé.\rVous pouvez garder le dernier Pokémon\nque vous attrapez.\rAllez-y et attrapez le Pokémon Insecte\nle plus fort possible !\r
+16	Oh non !\rDésolé, vous n’avez plus de place pour\nattraper d’autres Pokémon.
+17	D’accord. Nous espérons que vous\nparticiperez une prochaine fois.
+18	Le Concours de Capture d’Insectes\nd’aujourd’hui est terminé.\rNous espérons que vous participerez à\nnouveau.
+19	Certains Pokémon ne se trouvent que\ndans le Parc.
+20	{STRVAR_1 3, 0, 0} ?\rVoici le prix que nous gardions pour\nvous.\r
+21	Oh oh... Votre Sac est plein,\n{STRVAR_1 3, 0, 0}.\rNous gardons votre prix. Faites de la\nplace, puis revenez me voir.
+22	Nous espérons que vous participerez à\nun prochain Concours de Capture\fd’Insectes !
+23	Il vous reste {STRVAR_1 51, 0, 0} minute(s).\nVoulez-vous terminer maintenant ? {YESNO 0}
+26	D’accord. Retournez dehors pour finir.\r
+27	D’accord. Veuillez attendre l’annonce\ndes gagnants dans le Parc Naturel.\r
+28	Réorganisez vos Pokémon, puis revenez\nme voir.
+29	Nous allons maintenant juger les\nPokémon que vous avez attrapés.\r......\n......\rNous avons choisi les gagnants !\nÊtes-vous prêt ?\r
+30	À la troisième place : {STRVAR_1 3, 0, 0}, qui a\nattrapé un {STRVAR_1 0, 1, 0} frétillant !\r
+31	À la troisième place : {STRVAR_1 14, 2, 0}\n{STRVAR_1 3, 0, 0}, qui a attrapé un\f{STRVAR_1 0, 1, 0} frétillant !\r
+32	Le score est de {STRVAR_1 52, 3, 0} points !\r
+33	À la deuxième place : {STRVAR_1 3, 0, 0}, qui a\nattrapé un {STRVAR_1 0, 1, 0} remuant !\r
+34	À la deuxième place : {STRVAR_1 14, 2, 0}\n{STRVAR_1 3, 0, 0}, qui a attrapé un\f{STRVAR_1 0, 1, 0} remuant !\r
+35	Le gagnant de ce Concours de Capture\nd’Insectes est...\r{STRVAR_1 3, 0, 0}, qui a attrapé un\n{STRVAR_1 0, 1, 0} énorme !\r
+36	Le gagnant de ce Concours de Capture\nd’Insectes est...\r{STRVAR_1 14, 2, 0} {STRVAR_1 3, 0, 0}, qui a attrapé\nun {STRVAR_1 0, 1, 0} énorme !\r
+37	{STRVAR_1 3, 0, 0}, premier du classement,\ngagne {STRVAR_1 8, 3, 0} !\r
+38	{STRVAR_1 3, 0, 0}, deuxième du classement,\ngagne {STRVAR_1 8, 3, 0} !\r
+39	{STRVAR_1 3, 0, 0}, troisième du classement,\ngagne {STRVAR_1 8, 3, 0} !\r
+40	Tous les autres reçoivent {STRVAR_1 8, 3, 0}\nen guise de lot de consolation !\r
+41	Oh oh... Votre Sac est plein,\n{STRVAR_1 3, 0, 0}.\rNous gardons votre prix. Faites de la\nplace, puis revenez me voir.\r
+42	Nous espérons que vous participerez à\nun prochain Concours de Capture\fd’Insectes !\r
+43	Donner un surnom au {STRVAR_1 0, 1, 0} que\nvous avez attrapé ? {YESNO 0}
+44	{STRVAR_1 3, 0, 0} ?\rVoici le prix que nous gardions pour\nvous.\r
+45	Oh oh... Votre Sac est plein,\n{STRVAR_1 3, 0, 0}.\rNous gardons votre prix. Faites de la\nplace, puis revenez me voir.\r
+46	Votre équipe est pleine, {STRVAR_1 1, 5, 0} a\ndonc été envoyé dans une Boîte du PC de\fLéo.\r
+47	Nous vous rendons les Pokémon que nous\ngardions. Les voici !\r
+48	Don : Compris ? Je vais gagner ! Ne me\ndérange pas.
+49	Don : La chance compte beaucoup ici.\rOn ne sait jamais si des Pokémon vont\napparaître.
+50	Don : Tu as gagné ? C’est toi le\ngagnant ?!\rJe suis trop jaloux... Ce serait génial\nde gagner...
+51	Ed : Mon PARASECT endort les Pokémon\navec Spore.
+52	Ed : On ne peut pas gagner avec des\nPokémon épuisés ou à court de PV.
+53	Ed : Je t’envie. Je n’ai pas réussi\ncette fois.
+54	Abby : J’ai entraîné des Pokémon qui\ninfligent des problèmes de statut pour\fce concours.
+55	Abby : On dit qu’avec des Pokémon aux\nbelles couleurs, on gagne plus\ffacilement. C’est vrai, tu crois ?
+56	Abby : Merveilleux ! Tu brilles et tu\nétincelles ! Vraiment !
+57	William : Gagner ? Je préfère trouver\ndes Pokémon rares.
+58	William : Bah, je suis content, j’ai\nattrapé le Pokémon que je voulais.
+59	William : C’est toi le gagnant ? Tu as\nattrapé quoi ? Montre, montre !
+60	Benny : ...... ...... ......\n...... ...... Chuuut !\rTu vas faire fuir INSÉCATEUR. Je te\nparlerai plus tard.
+61	Benny : Écoute, une fois j’ai attrapé un\nINSÉCATEUR, mais je n’ai pas gagné.
+62	Benny : Je suis juste venu voir comment\nça se passait aujourd’hui, tu vois ?\rLa prochaine fois, je vais vraiment tout\ndonner !
+63	Barry : Il faut d’abord affaiblir les\nPokémon Insecte, puis lancer une Poké\fBall.
+64	Barry : C’est plus facile de gagner avec\nun Pokémon Insecte de haut niveau. Mais\fje crois qu’ils jugent aussi d’autres\fcritères.
+65	Barry : Ce Pokémon que tu as attrapé...\nIl est génial !
+66	Cindy : J’adore les Pokémon Insecte !
+67	Cindy : J’adore les Pokémon Insecte !\rJe l’ai déjà dit ?
+68	Cindy : Bravo pour ta victoire ! Au\nfait...\rJe t’ai dit que j’adorais les Pokémon\nInsecte ?
+69	Josh : Je collectionne les Pokémon\nInsecte depuis que je suis tout petit.\rIl est hors de question que je perde !
+70	Josh : On m’a dit que quelqu’un avait\ngagné avec un CHENIPAN !
+71	Josh : C’est un Concours de Capture\nd’Insectes, pas d’Oiseaux !\rToi plus que tout autre, tu devrais le\nsavoir. Après tout, tu as gagné !
+72	Samuel : Quoi ? Si tu as le temps de\nbavarder, va chercher des Pokémon\fInsecte.
+73	Samuel : Je... Je pensais avoir un\nmeilleur score...
+74	Samuel : Quelle déception... Je\nn’oublierai pas cette défaite, et...
+75	Kipp : J’ai beaucoup étudié les Pokémon\nInsecte. Je vais gagner, c’est sûr.
+76	Kipp : J’étudie beaucoup, mais ça ne\nsuffit pas pour gagner.
+77	Kipp : Tu pourrais me donner des\nconseils ? Je veux gagner !
+78	{TRNAME}Don
+79	{TRNAME}Ed
+80	{TRNAME}Abby
+81	{TRNAME}William
+82	{TRNAME}Benny
+83	{TRNAME}Barry
+84	{TRNAME}Cindy
+85	{TRNAME}Josh
+86	{TRNAME}Samuel
+87	{TRNAME}Kipp

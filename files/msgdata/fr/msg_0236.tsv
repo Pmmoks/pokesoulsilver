@@ -1,0 +1,17 @@
+0	Ces joueurs ont été acceptés.
+1	Voici les résultats !
+2	Le Jouet Tactile de {STRVAR_1 3, 0, 0} est\ndevenu {STRVAR_3 2, 1, 0} !
+3	Voulez-vous continuer à jouer à\n{STRVAR_3 0, 0, 0} ?
+6	Quelqu’un est parti.\nLe Jeu de la Place est annulé.
+7	Ballons éclatés tous ensemble :\n{STRVAR_1 51, 0, 0} !
+8	Félicitations ! Tous les Jouets\nTactiles ont été améliorés !
+9	Dommage... Votre Jouet Tactile\nn’a pas été amélioré.
+13	{STRVAR_1 55, 0, 0} points
+14	{STRVAR_1 54, 0, 0} points
+15	En attente de communication...
+17	Félicitations !\n{STRVAR_1 3, 0, 0} a gagné !
+18	{STRVAR_1 3, 0, 0} n’a pas gagné...
+19	Votre Jouet Tactile ne peut plus\nêtre amélioré.
+20	Le Jouet Tactile de {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}\nest devenu {STRVAR_3 2, 1, 0} !
+22	Félicitations !\n{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} a gagné !
+23	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} n’a pas gagné...

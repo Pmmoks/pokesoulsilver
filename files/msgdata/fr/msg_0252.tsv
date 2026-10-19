@@ -1,0 +1,13 @@
+0	{STRVAR_1 1, 0, 0} est arrivé.
+1	Voulez-vous arrêter de dessiner ?
+2	{STRVAR_1 1, 0, 0} est parti.
+3	Le chef, {STRVAR_1 1, 0, 0}, est parti.\nLe groupe va être dissous.
+4	Si le chef part, le groupe sera\ndissous. D’accord ?
+5	Il n’y a aucun membre.\nLe groupe va être dissous.
+6	La séance de dessin est terminée.
+7	QUITTER
+9	Signez votre autographe !
+10	C’est bon ?
+11	Voulez-vous effacer\nvotre autographe ?
+12	TERMINÉ
+13	Séance de dessin rejointe !

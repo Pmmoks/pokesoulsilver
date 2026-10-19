@@ -1,0 +1,27 @@
+0	ANNULER
+1	QUITTER
+2	ARROSER
+3	PLANTER
+4	FERTILISER
+5	CUEILLIR
+6	Touchez l’un des\nPlante-Baies.\n
+7	Vous n’avez pas de Baies !
+8	Vous n’avez pas d’engrais !
+9	Appuyez à gauche ou à droite, ou\ntouchez pour vous déplacer.
+10	C’est une terre meuble et fertile.
+11	{STRVAR_1 8, 2, 0} a été répandu.
+12	La Baie {STRVAR_1 8, 0, 0} est plantée !
+13	Le plant de Baie {STRVAR_1 8, 0, 0}\na germé.
+14	Le plant de Baie {STRVAR_1 8, 0, 0}\ngrandit.
+15	Le plant de Baie {STRVAR_1 8, 0, 0}\nest en fleur !
+16	Il y a {STRVAR_1 51, 1, 0} Baies {STRVAR_1 8, 0, 0} !
+17	{STRVAR_1 8, 2, 0} a été répandu\nsur la terre.
+18	La Baie {STRVAR_1 8, 0, 0} a été plantée\ndans la terre meuble et fertile.
+19	Voilà ! Tout est parfait !
+20	Vous cueillez\n{STRVAR_1 51, 1, 0} Baies {STRVAR_1 8, 0, 0}.
+21	Vous rangez les Baies {STRVAR_1 8, 0, 0} !\nLa terre est meuble et fertile.
+22	Le Sac est plein. Vous renoncez\naux Baies {STRVAR_1 8, 0, 0}.
+24	N {STRVAR_1 51, 0, 0}/{STRVAR_1 51, 1, 0}/{STRVAR_1 51, 2, 0} {STRVAR_1 51, 3, 0}:{STRVAR_1 51, 4, 0}:{STRVAR_1 51, 5, 0}\nS {STRVAR_1 51, 6, 0}/{STRVAR_1 51, 7, 0}/{STRVAR_1 51, 8, 0} {STRVAR_1 51, 9, 0}:{STRVAR_1 51, 10, 0}:{STRVAR_1 51, 11, 0}
+25	D {STRVAR_1 55, 0, 0}:{STRVAR_1 51, 1, 0}:{STRVAR_1 51, 2, 0} TIME-RATE {STRVAR_1 52, 3, 0} times
+27	{STRVAR_1 8, 0, 0}:{STRVAR_1 8, 1, 0} ST{STRVAR_1 50, 2, 0} CT{STRVAR_1 51, 3, 0}\nN:{STRVAR_1 53, 4, 0} D:{STRVAR_1 53, 5, 0} SH:{STRVAR_1 51, 6, 0} GH:{STRVAR_1 52, 7, 0}
+28	AUCUN

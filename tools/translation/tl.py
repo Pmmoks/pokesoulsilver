@@ -52,6 +52,7 @@ WIDTH_OVERRIDES = {
     'msg_0222': 88,  # items
     'msg_0223': 116, 'msg_0224': 96,  # items with an article, plural: only within sentences
     'msg_0016': 96,  # Seals in the plural: only within sentences
+    'msg_0217': 124,  # Accessories with an article: only within sentences
     'msg_0720': 88, 'msg_0721': 88,  # abilities
     # Trainer classes: the Pokegear phone list leaves 122 px for them, the rest is sentences.
     'msg_0730': 80, 'msg_0731': 100,
@@ -81,6 +82,7 @@ NAME_LIMITS = {
     'msg_0222': 16,  # items
     'msg_0223': 32, 'msg_0224': 32,  # items with an article, plural: read into MessageFormat's buffer
     'msg_0016': 32,  # Seals in the plural, likewise
+    'msg_0217': 32,  # Accessories with an article, likewise
     'msg_0720': 16, 'msg_0721': 16,  # abilities
     'msg_0735': 16,  # types
     'msg_0730': 16,  # trainer classes
