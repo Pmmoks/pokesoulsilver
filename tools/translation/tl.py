@@ -333,6 +333,8 @@ def cmd_wrap(args):
         if not args.one_line and '\\n' not in bank.rows.get(index, '') \
                 and '\\r' not in bank.rows.get(index, '') and '\\f' not in bank.rows.get(index, ''):
             continue  # one-line rows (labels, names) are not dialogue
+        if '\\n\\n' in bank.rows.get(index, ''):
+            continue  # laid out with blank lines (help panels): break those by hand
         wrapped = wrap_text(text, width, scroll)
         if wrapped != text:
             rows[index] = wrapped

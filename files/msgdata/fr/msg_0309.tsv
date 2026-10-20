@@ -1,0 +1,301 @@
+0	Bienvenue au Pokéathlon !\rL’épreuve du jour :\n{STRVAR_4 1, 0, 0} !\rQui brillera le plus aujourd’hui ? Faisons\nconnaissance avec les concurrents !\r
+1	Équipe {STRVAR_1 3, 0, 0} : {STRVAR_1 1, 1, 0},\n{STRVAR_1 1, 2, 0} et {STRVAR_1 1, 3, 0} !\r
+2	Bien, nous sommes prêts !\nVisez le sommet ! C’est parti pour le\r{ALN_CENTER}{SIZE 200}POKéATHLON !\r
+3	Bravo, les athlètes !\rQuelle équipe s’est battue le plus fort ?\nVoici les résultats !\rMais d’abord...\nqui déborde d’esprit combatif ?\r
+4	Un Bonus Défi pour\nles Pokémon et l’équipe !\r
+5	{STRVAR_1 52, 1, 0} points pour l’équipe {STRVAR_1 3, 0, 0} !\r
+6	Passons aux prix individuels...\r
+7	Le Bonus Sans Faute !\r
+8	{STRVAR_1 0, 1, 0} de l’équipe {STRVAR_1 3, 0, 0} !
+9	Il n’y en a pas eu cette fois.\r
+10	C’est tout !\r
+11	Ensuite...\nle meilleur marqueur !\r
+12	{STRVAR_1 0, 1, 0} de l’équipe {STRVAR_1 3, 0, 0} !
+13	C’est tout !\r
+14	Et maintenant...\nle prix de l’effort !\r
+15	Le Pokémon qui a le plus sauté...\r
+16	Le Pokémon qui a le plus percuté...\r
+17	Le Pokémon qui a le plus échoué...\r
+18	Le Pokémon qui a le plus foncé...\r
+19	Le Pokémon qui a raté le plus\nde points...\r
+20	{STRVAR_1 0, 1, 0} de l’équipe {STRVAR_1 3, 0, 0} !
+21	C’est tout !\r
+22	Enfin... nous allons additionner les\npoints de l’épreuve !\r
+23	Épreuve {STRVAR_1 50, 0, 0} !
+24	Quoi ? Une égalité !? Eh bien, on\ndépartage par tirage au sort !\rNon, non, hmm...\n...\r...\nÇa y est !\r
+25	Le grand gagnant, avec {STRVAR_1 52, 0, 0} points...\r
+26	{ALN_CENTER}{SIZE 200}Équipe {STRVAR_1 3, 0, 0} !\r
+27	L’équipe {STRVAR_1 3, 0, 0} reçoit\n{STRVAR_4 3, 1, 0} !\r
+28	L’équipe {STRVAR_1 3, 0, 0} reçoit\n{STRVAR_4 3, 1, 0} et {STRVAR_4 3, 2, 0} !\r
+29	L’équipe {STRVAR_1 3, 0, 0} a battu son record\nau {STRVAR_4 1, 1, 0} !\r
+30	Bravo pour\n{STRVAR_4 1, 0, 0} !\r
+31	Félicitations !\nC’était une magnifique performance !\rVisez toujours le titre de meilleur\nPokéathlète !\rC’est ça...\nle Pokéathlon\r{ALN_CENTER}{SIZE 200}POUR TOUJOURS !\r
+32	{STRVAR_1 55, 1, 0} participations !\nUn nouveau nom chez les Pokéathlètes !\r
+33	{STRVAR_1 55, 1, 0} participations !\nUne étoile filante du Pokéathlon !\r
+34	{STRVAR_1 55, 1, 0} participations !\nUne supernova du Pokéathlon !\r
+35	{STRVAR_1 55, 1, 0} participations !\nUne explosion galactique du Pokéathlon !\r
+36	Visez le titre !\nSur une étoile filante du Pokéathlon !\r
+37	{STRVAR_1 55, 1, 0} victoires au total !\nLe Pokéathlon est à vous !\r
+38	{STRVAR_1 55, 1, 0} victoires au total !\nDemain, emparez-vous du Pokéathlon !\r
+39	{STRVAR_1 55, 1, 0} victoires au total !\nLe Pokéathlon est à moi !\r
+40	Si vous faites de votre mieux sans\néchouer... vous ferez forcément mieux !\r
+41	{STRVAR_1 55, 1, 0} fois dernier !\nPas grave. Je vais continuer !\r
+42	{STRVAR_1 55, 1, 0} fois dernier !\nÇa n’a aucune importance !\r
+43	{STRVAR_1 55, 1, 0} fois dernier !\nPersonne n’a encore vu mon dos !\r
+44	Visez la première place !\nÇa commence aujourd’hui !\r
+45	{STRVAR_1 55, 1, 0} fois premier !\nBien ! Tu viens avec moi ?\r
+46	{STRVAR_1 55, 1, 0} fois premier !\nTu comptais encore, cette fois ?\r
+47	{STRVAR_1 55, 1, 0} fois premier !\nNe me dis pas, encore premier ?!\r
+48	Ne craignez pas l’échec !\nTomber n’est pas la fin !\r
+49	{STRVAR_1 55, 1, 0} fois dernier !\nTomber sept fois, se relever huit !\r
+50	{STRVAR_1 55, 1, 0} fois dernier !\nC’est ma marque de fabrique !\r
+51	{STRVAR_1 55, 1, 0} fois dernier !\nCe record fait ma célébrité !\r
+52	Gagner grâce à sa vraie force ?\nOu juste grâce à la chance ?!\r
+53	Prix spéciaux de clôture.\nChanceux {STRVAR_1 55, 1, 0} fois ?!\r
+54	Prix spéciaux de clôture.\n{STRVAR_1 55, 1, 0} fois. C’est de la vraie force !\r
+55	Prix spéciaux de clôture.\n{STRVAR_1 55, 1, 0} fois. Chance et vraie force !\r
+56	Toujours des ordres aux Pokémon !\nHurlez pour des tas de victoires !\r
+57	Cet esprit d’équipe suffira-t-il\nà changer l’histoire ?\r
+58	Regardez ça ! Quel esprit d’équipe !\nIncroyable ! On sent l’amitié !\r
+59	C’est ça. On lit dans les pensées\nl’un de l’autre !\r
+60	Ce n’est pas fini quand on tombe !\nTant qu’il y a un titre à gagner !\r
+61	{STRVAR_1 55, 1, 0} échecs ! Seul le nombre de\nchutes a augmenté !\r
+62	{STRVAR_1 55, 1, 0} échecs ! L’échec n’est qu’un\nraccourci vers le succès !\r
+63	{STRVAR_1 55, 1, 0} échecs !\nL’échec est la source du succès !\r
+64	Visez toujours plus haut !\nVisez tout ce qui est dans le ciel !\r
+65	Volez haut !\nVous pouvez voler n’importe où !\r
+66	Il y a un lendemain que vous seul voyez.\nBondissez vers lui !\r
+67	De l’autre côté du ciel, un lendemain\nscintillant ! Vous êtes né pour\fl’attraper !\r
+68	Ces points-ci et ces points-là...\nallons les chercher !\r
+69	Un point n’est jamais inutile ! C’est\nun raccourci vers le succès !\r
+70	Ne négligez aucun point ! Ayez toujours\nune longueur d’avance !\r
+71	Bien ! Le roi des points du Pokéathlon !\nTous les points sont à moi !\r
+72	Prends ça ! Et ça ! Je percute\ntout ce qui passe !\r
+73	Bien, bien ! Le fou du percutage !\nNombre de fois : {STRVAR_1 55, 1, 0} !\r
+74	Frappez pour la victoire !\n{STRVAR_1 55, 1, 0} fois, pour être précis !\r
+75	Rien ne peut m’arrêter !\n{STRVAR_1 55, 1, 0} percussions !\r
+76	Pourquoi êtes-vous tombé si loin ?!\nIl y a un trou là-bas ou quoi ?\r
+77	Tomber de si haut !\nCe frisson m’a eu !\r
+78	Un Pokéathlète qui se bat même au bord\ndu ring ! Vraiment sérieux !\r
+79	C’est toujours le dernier combat ! C’est\npour ça que je suis toujours sérieux !\r
+80	Quelle vitesse de course ! Foncez dans\ntout le Pokéathlon !\r
+81	Courez ! Saisissez la victoire !\nAllez ! Saisissez demain !\r
+82	Tu crois pouvoir suivre ?\nRapide... plus rapide... le plus rapide !\r
+83	Une course rapide comme l’éclair !\nVos yeux arrivent à suivre ?!\r
+84	La force ne fait pas tout ! La stratégie\ncompte aussi pour réussir !\r
+85	Tout est une question de cerveau !\nVous pouvez manipuler le monde !\r
+86	Soyez toujours prêt ! Cette stratégie\npeut être renversée !\r
+87	Si vous savez tout des Pokémon,\nvous ferez la meilleure performance !\r
+88	Vous n’êtes pas seul ! Tout le monde est\nlà pour vous affronter !\r
+89	Vous affrontez toujours tout le monde !\nC’est ça, la vraie force !\r
+90	On devient plus fort en affrontant les\nautres, alors servez-vous de leur\fforce !\r
+91	En vous, il y a de nombreux amis\net de nombreux Pokémon !\r
+92	Quand on affronte un vrai guerrier,\nla victoire est à portée de main !\r
+93	Dehors, il y a plein de Pokémon forts !\nIls sont venus pour concourir !\r
+94	Vous ne pouvez pas perdre contre eux !\nVous avez trop souvent gagné !\r
+95	Visez à devenir un meilleur Pokéathlète !\nVous gagnerez plus souvent !\r
+96	Vos défaites prouvent votre force !\nElles montrent les guerriers affrontés !\r
+97	Il y a plein de gens forts là-dehors.\nVous le savez mieux que personne !\r
+98	Affrontez toujours quelqu’un !\nEt partagez cette compétition !\r
+99	Gagner ou perdre m’importe peu, tant\nque j’affronte les meilleurs !\r
+100	Laissez-moi les haies ! Je suis un\nPokéathlète qui adore les haies !\r
+101	Pas une haie que je ne saute pas !\nAdmirez mon jeu de jambes !\r
+102	Je franchis tout obstacle, je saute\ntoutes les haies !\r
+103	Les haies ne sont pas des obstacles !\nOn peut juste les contourner !\r
+104	Je suis né pour prendre des fanions !\nJe suis le roi de cette plage !\r
+105	Qui dit fanion dit moi ! Je suis\nle héros de la Prise de Fanion !\r
+106	La plage de sable est mon terrain !\nJ’y cours en toute liberté !\r
+107	Pas un fanion que je ne prenne pas !\nJe prendrai même le titre !\r
+108	Pousse ! Pousse ! Pousse !\nPousse-le de côté !\r
+109	Rien ne m’arrête quand je pousse ! Je\nvais te pousser hors du Cercle pour être\fseul !\r
+110	Quand il s’agit de pousser, je suis dans\nune autre dimension ! Je suis né pour\fpousser !\r
+111	Tu te sens intimidé ? Je peux pousser\nsans même toucher !\r
+112	Écrase ! Fracasse ! Brise !\nJe suis né pour casser des Blocs !\r
+113	Rien ne me résiste ! Je suis le Roi de la\nDestruction du Pokéathlon !\r
+114	Il y a sûrement un grand mur là-bas ! Il\nn’est là que pour que je le casse !\r
+115	Continuez à casser des Blocs... et vous\nverrez la montagne là-bas.\r
+116	Mon corps attrape tout seul tous les\nDisques qui passent !\r
+117	Je suis venu attraper des Disques et\nremporter le Pokéathlon !\r
+118	Le Disque que tu as attrapé est l’étoile\nfilante de demain !\r
+119	Vas-y, je l’attraperai ! J’attrape tous\nles Disques qui passent !\r
+120	Un saut comme le vent !\nUne forme comme un nuage !\r
+121	Sautez haut dans le ciel !\nLa forme est sans poids !\r
+122	Un Pokéathlète qui lit le vent et contrôle\nles airs.\r
+123	En moi, il n’y a pas de frontière entre la\nterre et le ciel !\r
+124	Personne ne peut m’arrêter !\nJe suis né pour courir !\r
+125	Je n’ai jamais vu une telle force ! Courir\ntoute la journée !\r
+126	Une fois lancé, je ne m’arrête plus ! Je\nsuis un Pokéathlon perpétuel !\r
+127	Mon carburant, c’est l’amitié, et mon\nmoteur, la victoire !\r
+128	Aucune chance ! Je renverse tous les\nPokémon adverses !\r
+129	Monter sur le Ring, c’est la fin !\nBattez-vous pour être le dernier\fdebout !\r
+130	Maître du Ring ! N’entrez sur le Ring d’un\nautre qu’à vos risques !\r
+131	Qui êtes-vous vraiment ?\nC’est ce que le Ring vous dira !\r
+132	Le meilleur lanceur de neige au monde !\nAvec une telle précision, on gagne !\r
+133	Les boules de neige que nous lançons\nsont des boules d’amitié !\r
+134	Quels lancers en rafale ! Pour qui est\ncette boule de neige ?!\r
+135	On ne sait pas d’où elle va jaillir ! Les\nboules de neige se dédoublent !\r
+136	Personne ne peut arrêter ce ballon ! Il\nentre dans tous les buts que je vise !\r
+137	Servez-vous de votre superbe esprit\nd’équipe pour marquer !\r
+138	Quel superbe jeu de jambes !\nVisez le succès !\r
+139	Vivez avec le ballon.\nVivez dans le ballon !\r
+140	Offrir les points en cadeau. C’est\nl’incarnation du fair-play.\r
+141	Souriez même quand vous ratez ! Le\nPokéathlon, ce n’est pas que gagner !\r
+142	Vous n’hésitez pas à viser votre propre\nbut !\r
+143	Ne vous disputez pas pour savoir qui a\nmarqué contre son camp ! C’est votre\famitié !\r
+144	Pourquoi vous démarquer ainsi ? Gagner\nn’est pas tout au Pokéathlon.\r
+145	Le voici ! Ce que vous attendiez tous !\nDes autographes après la compétition !\r
+146	Si vous voulez me voir gagner, je vais\nvous montrer comment je gagne !\r
+147	Quand je donne le meilleur de moi-même et\nque je gagne, je rends tout le monde\fheureux !\r
+152	Manche {STRVAR_1 50, 0, 0}/6
+154	 Suivant : {STRVAR_1 1, 0, 0}
+156	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0}.{STRVAR_1 51, 1, 0} secondes
+157	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0}
+158	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+159	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} pièces
+160	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+161	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+162	{ALN_CENTER}Total Pokémon : {STRVAR_1 51, 0, 0}.{STRVAR_1 50, 1, 0} tours
+163	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+164	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0}
+165	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+166	{ALN_CENTER}{SIZE 200}Course de Haies
+167	{ALN_CENTER}{SIZE 200}Prise de Fanion
+168	{ALN_CENTER}{SIZE 200}Pousse-Cercle
+169	{ALN_CENTER}{SIZE 200}Casse-Bloc
+170	{ALN_CENTER}{SIZE 200}Attrape-Disque
+171	{ALN_CENTER}{SIZE 200}Saut Lampion
+172	{ALN_CENTER}{SIZE 200}Course Relais
+173	{ALN_CENTER}{SIZE 200}Ring Sumo
+174	{ALN_CENTER}{SIZE 200}Bataille de Neige
+175	{ALN_CENTER}{SIZE 200}Roule-But
+176	{ALN_CENTER}Meilleur record
+177	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0}.{STRVAR_1 51, 1, 0} secondes
+178	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0}
+179	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+180	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} pièces
+181	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+182	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+183	{ALN_CENTER}Total Pokémon : {STRVAR_1 51, 0, 0}.{STRVAR_1 50, 1, 0} tours
+184	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+185	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0}
+186	{ALN_CENTER}Total Pokémon : {STRVAR_1 52, 0, 0} points
+187	{ALN_CENTER}Lieu : Dôme Piste
+188	{ALN_CENTER}Lieu : Dôme Plage
+189	{ALN_CENTER}Lieu : Dôme Combat
+190	{ALN_CENTER}Lieu : Dôme Combat
+191	{ALN_CENTER}Lieu : Dôme Plage
+192	{ALN_CENTER}Lieu : Dôme Saut
+193	{ALN_CENTER}Lieu : Dôme Argile
+194	{ALN_CENTER}Lieu : Dôme Combat
+195	{ALN_CENTER}Lieu : Dôme Neige
+196	{ALN_CENTER}Lieu : Dôme Terrain
+197	{ALN_CENTER}Règles de l’épreuve
+198	Visez l’arrivée et sautez ! Courez !
+199	Courez, prenez des Fanions et revenez !
+200	Entrez dans le Cercle !
+201	Cassez plein de Blocs !
+202	Attrapez les Disques volants !
+203	Sautez vers les Lampions allumés !
+204	Faites un relais avec vos Pokémon !
+205	Poussez vos rivaux hors du Ring !
+206	Touchez un max de Pokémon !
+207	Mettez le ballon dans un but adverse !
+208	{ALN_CENTER}Commandes
+209	Touchez un Pokémon pour sauter !\nContrôlez trois Pokémon à la\nfois. Sautez les haies !
+210	La Course de Haies est une course contre\nla montre. Sautez les haies et arrivez\nle premier. Les points dépendent du\ntemps mis par vos trois Pokémon pour\nfranchir la ligne d’arrivée.\n\nVitesse : Vitesse de course\nSaut : Longueur des sauts
+211	Touchez un Pokémon pour sauter !\nSautez pour franchir les haies !\n\nContrôlez trois Pokémon à la fois\net finissez avant tous\nles autres !
+212	Faites glisser le stylet sur un\nPokémon pour le déplacer ! Heurtez\nles autres par derrière pour\nprendre leurs Fanions !
+213	À la Prise de Fanion, vos trois Pokémon\ncourent à tour de rôle pour rapporter\ndes Fanions, jusqu’à neuf à la fois.\nHeurtez vos adversaires par derrière\npour leur voler leurs Fanions.\n\nTechnique : Facilité de mouvement\nVitesse : Vitesse de course
+214	Glissez vite le stylet sur votre\nPokémon pour le déplacer ! Plus vous\nglissez loin, plus il va loin !\n\nSoyez le plus rapide pour ramasser\nun maximum de Fanions et les\nrapporter !
+215	Déplacez vos Pokémon avec le\nstylet ! Contrôlez trois\nPokémon à la fois !
+216	Au Pousse-Cercle, on pousse ses\nadversaires. Si vous êtes dans un\nCercle à la fin du compte à rebours,\nvous gagnez des points. Le nombre\ninscrit dans le Cercle indique les\npoints que vous recevez.\n\nForce : Puissance de poussée\nEndurance : Capacité à pousser
+217	Déplacez vos Pokémon avec le\nstylet !\n\nContrôlez trois Pokémon à la fois\net visez le Cercle qui rapporte\nle plus de points !
+218	Touchez les Blocs pour frapper !\nTouchez le bouton Changer pour\npasser au Pokémon suivant !
+219	Au Casse-Bloc, il faut simplement casser\ndes Blocs. Changez de Pokémon quand il\nest fatigué. Vous recevez des points\nselon le nombre de Blocs cassés.\n\nForce : Puissance de destruction\nEndurance : Capacité à continuer
+220	Touchez les Blocs pour les casser !\nIl y a une avalanche de Blocs.\nCassez-en le plus possible !\n\nTouchez le bouton Changer pour\npasser au Pokémon suivant !
+221	1) Déplacez vos trois Pokémon\navec le stylet.\n2) Touchez pour sauter et attraper !
+222	À l’Attrape-Disque, vous contrôlez vos\ntrois Pokémon à la fois et sautez pour\nattraper les Disques venus de la mer.\nPlus vous les attrapez au fond du\nterrain, plus vous gagnez de points.\n\nSaut : Hauteur des sauts\nForce : Puissance de poussée
+223	1) Déplacez vos trois Pokémon avec le\nstylet. Poussez vos adversaires pour\nattraper les Disques !\n\n2) Touchez votre Pokémon pour\nsauter ! Attrapez un maximum\nde Disques !
+224	Tirez vite le Pokémon vers\nle bas pour sauter !
+225	Au Saut Lampion, vos trois Pokémon\nsautent pour toucher les Lampions\nquand ils s’allument. Touchez-en\nle plus possible en un seul saut.\n\nSaut : Hauteur des sauts\nTechnique : Saut sur le côté
+226	Tirez vite les trois Pokémon vers le\nbas pour les faire sauter !\n\nTirez en diagonale pour qu’ils\nsautent sur le côté !
+227	Donnez de petits coups vifs pour\nfoncer ! Plus c’est rapide, plus ça va\nvite ! Changez quand il est fatigué !
+228	À la Course Relais, vos Pokémon se\nrelaient pour courir le plus loin\npossible. Changez de Pokémon quand il\nest fatigué. Seule la distance\nparcourue rapporte des points.\n\nEndurance : Résistance\nVitesse : Vitesse de course
+229	Donnez de petits coups vifs vers la\ndroite pour faire foncer votre Pokémon !\n\nPlus vous le faites, plus il va vite !\n\nTouchez le bouton Changer pour\npasser au Pokémon suivant !
+230	1) Déplacez avec le stylet.\n2) Coup vif pour percuter !\n3) Touchez pour sauter !
+231	Au Ring Sumo, on pousse ses adversaires.\nVous gagnez des points chaque fois que\nvous en poussez un hors du Ring. Le\nbouton Changer dans votre coin permet\nde changer de Pokémon.\n\nEndurance : Résistance à la poussée\nForce : Puissance des charges
+232	1) Déplacez votre Pokémon au stylet !\n\n2) Donnez un coup vif pour percuter !\nRepoussez votre adversaire !\n\n3) Touchez votre Pokémon pour qu’il\nsaute ! Il peut écraser les autres !
+233	1) Donnez un coup vif vers le haut\npour lancer de la neige !\n2) Touchez pour amasser plus de neige !
+234	À la Bataille de Neige, vous contrôlez\nvos trois Pokémon à la fois et visez vos\nadversaires avec des boules de neige.\nTout adversaire touché rapporte\ndes points.\n\nTechnique : Précision des lancers\nForce : Puissance des boules
+235	1) Coup vif vers le haut sur votre\nPokémon pour lancer une boule !\n\n2) Avec une boule, touchez le\nPokémon pour la grossir !\n\nUne grosse boule peut mettre\nun adversaire K.O. !
+236	1) Contrôlez trois Pokémon ! Déplacez-\nles avec le stylet !\n2) Coup vif pour foncer !
+237	Au Roule-But, il faut mettre le ballon\ndans un but adverse, n’importe lequel,\npour gagner des points. Mais si le\nballon entre dans votre propre but,\nvous perdez des points.\n\nTechnique : Distance de roulement\nForce : Puissance de roulement
+238	1) Contrôlez trois Pokémon à la fois.\nDéplacez-les avec le stylet !\n\n2) Donnez un coup vif pour foncer !\nEn fonçant, vous pouvez tirer\nvers le but !
+239	{ALN_CENTER}Épreuve {STRVAR_1 50, 0, 0}
+240	{ALN_CENTER}Détails
+241	{ALN_CENTER}Règles
+242	{ALN_CENTER}Plus
+243	{ALN_CENTER}Retour
+244	{ALN_CENTER}Les règles
+245	{ALN_CENTER}Les commandes
+246	Bien ! Les résultats de la première\népreuve !?\r
+247	Quel suspense ! Comment s’est passée la\ndeuxième épreuve ?!\r
+248	C’est fini ! Comment s’est passée la\ntroisième épreuve ?!\r
+249	Bien ! Les résultats de la première\népreuve !?\r
+250	Quel suspense ! Comment s’est passée la\ndeuxième épreuve ?!\r
+251	Ce n’est pas fini ! La troisième\népreuve !?\r
+252	C’est fini ! Comment s’est passée la\nquatrième épreuve ?!\r
+253	{SIZE 200}Équipe {STRVAR_1 3, 0, 0} !{SIZE 100}\rFélicitations pour la première place !\r
+254	C’était...\nune compétition très serrée !\r
+255	Les résultats de cette épreuve seront\ndéterminés par les points !\r
+256	Visez aussi le meilleur score à la\nprochaine épreuve !\r
+257	Ça ne fait que commencer !\nPréparez-vous pour la suite !\r
+258	Quelle compétition verrons-nous à la\nprochaine épreuve ?!\r
+259	Ils jaugent encore le potentiel des\nautres ? Vivement la suite !\r
+260	La première épreuve est terminée !\nMaintenant, c’est du sérieux !\r
+261	Déjà la dernière épreuve ! La situation\nva-t-elle se renverser ?!\r
+262	Place à la dernière épreuve !\nDonnez le meilleur !\r
+263	Déjà la dernière épreuve !\nLa victoire est à la portée de tous !\r
+264	Tout se joue à la dernière épreuve !\nDonnez tout ce que vous avez !\r
+265	Tout le stade est en ébullition ! C’est la\ndernière épreuve !\r
+266	Bien !\nJ’annonce les résultats finaux !\r
+267	Est-ce que ce sera comme prévu ?!\nJ’annonce les résultats finaux !\r
+268	Tout le monde a donné le meilleur !\nJ’annonce les résultats finaux !\r
+269	Quelle équipe est numéro un ?!\nJ’annonce les résultats finaux !\r
+270	Quelle équipe remportera le titre ?!\nJ’annonce les résultats finaux !\r
+271	Visez le plus grand total de points à la\nprochaine épreuve !\r
+272	Ça ne fait que commencer !\nPréparez-vous pour la suite !\r
+273	Quelle compétition verrons-nous à la\nprochaine épreuve ?!\r
+274	Ils jaugent encore le potentiel des\nautres ? Vivement la suite !\r
+275	La première épreuve est terminée !\nMaintenant, c’est du sérieux !\r
+276	Ce n’est que la deuxième épreuve !\nQuel drame nous attend ?\r
+277	Il vous reste des forces ?\nLa troisième épreuve va commencer !\r
+278	La vraie compétition n’a pas encore\ncommencé ! Place à la troisième épreuve !\r
+279	L’équipe dernière a encore sa chance !\nVoici la troisième épreuve !\r
+280	Le stade est plein de suspense ! Voici la\ntroisième épreuve !\r
+281	Déjà la dernière épreuve ! La situation\nva-t-elle se renverser ?!\r
+282	Place à la dernière épreuve !\nDonnez le meilleur !\r
+283	Déjà la dernière épreuve !\nLa victoire est à la portée de tous !\r
+284	Tout se joue à la dernière épreuve !\nDonnez tout ce que vous avez !\r
+285	Tout le stade est en ébullition ! C’est la\ndernière épreuve !\r
+286	Bien !\nJ’annonce les résultats finaux !\r
+287	Est-ce que ce sera comme prévu ?!\nJ’annonce les résultats finaux !\r
+288	Tout le monde a donné le meilleur !\nJ’annonce les résultats finaux !\r
+289	Quelle équipe est numéro un ?!\nJ’annonce les résultats finaux !\r
+290	Quelle équipe remportera le titre ?\nJ’annonce les résultats finaux !\r
+291	Temps total : {STRVAR_1 52, 0, 0}.{STRVAR_1 51, 1, 0} secondes
+292	Total : {STRVAR_1 52, 0, 0}
+293	Total : {STRVAR_1 52, 0, 0} points
+294	Total pièces : {STRVAR_1 52, 0, 0}
+295	Total : {STRVAR_1 52, 0, 0} points
+296	Total : {STRVAR_1 52, 0, 0} points
+297	Distance totale : {STRVAR_1 51, 0, 0}.{STRVAR_1 50, 1, 0} tours
+298	Total : {STRVAR_1 52, 0, 0} points
+299	Total : {STRVAR_1 52, 0, 0}
+300	Total : {STRVAR_1 52, 0, 0} points
+301	pcs
+303	{ALN_CENTER}Annonce des résultats
+304	Points
+305	Tours
+310	En attente de la sélection des autres...
+311	{ALN_CENTER}Second\n{ALN_CENTER}souffle !

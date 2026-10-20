@@ -1,0 +1,123 @@
+4	Objet
+6	Aucun
+7	INFOS
+8	N° Pokédex
+10	Nom
+12	Type
+13	DO
+15	N° ID
+17	Points Exp.
+19	N. suivant
+23	MÉMO DRESSEUR
+24	Nature {COLOR 2}Hardi{COLOR 0}.
+25	Nature {COLOR 2}Solo{COLOR 0}.
+26	Nature {COLOR 2}Brave{COLOR 0}.
+27	Nature {COLOR 2}Rigide{COLOR 0}.
+28	Nature {COLOR 2}Mauvais{COLOR 0}.
+29	Nature {COLOR 2}Assuré{COLOR 0}.
+30	Nature {COLOR 2}Docile{COLOR 0}.
+31	Nature {COLOR 2}Relax{COLOR 0}.
+32	Nature {COLOR 2}Malin{COLOR 0}.
+33	Nature {COLOR 2}Lâche{COLOR 0}.
+34	Nature {COLOR 2}Timide{COLOR 0}.
+35	Nature {COLOR 2}Pressé{COLOR 0}.
+36	Nature {COLOR 2}Sérieux{COLOR 0}.
+37	Nature {COLOR 2}Jovial{COLOR 0}.
+38	Nature {COLOR 2}Naïf{COLOR 0}.
+39	Nature {COLOR 2}Modeste{COLOR 0}.
+40	Nature {COLOR 2}Doux{COLOR 0}.
+41	Nature {COLOR 2}Discret{COLOR 0}.
+42	Nature {COLOR 2}Pudique{COLOR 0}.
+43	Nature {COLOR 2}Foufou{COLOR 0}.
+44	Nature {COLOR 2}Calme{COLOR 0}.
+45	Nature {COLOR 2}Gentil{COLOR 0}.
+46	Nature {COLOR 2}Malpoli{COLOR 0}.
+47	Nature {COLOR 2}Prudent{COLOR 0}.
+48	Nature {COLOR 2}Bizarre{COLOR 0}.
+49	{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nRencontré au N. {STRVAR_1 52, 3, 0}.
+50	{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nRencontré au N. {STRVAR_1 52, 3, 0},\napparemment.
+51	{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nArrivé au N. {STRVAR_1 52, 3, 0}.
+52	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf obtenu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos.
+53	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf obtenu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos, apparemment.
+54	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf reçu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos.
+55	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf reçu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos, apparemment.
+56	{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nRencontre fatidique\nau N. {STRVAR_1 52, 3, 0}.
+57	{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nRencontre fatidique\nau N. {STRVAR_1 52, 3, 0},\napparemment.
+58	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf obtenu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos.\nRencontre fatidique.
+59	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf obtenu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos, apparemment.\nRencontre fatidique.
+60	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf arrivé.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos.\nRencontre fatidique.
+61	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf arrivé.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos, apparemment.\nRencontre fatidique.
+62	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf obtenu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos.\nRencontre fatidique.
+63	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}\nŒuf obtenu.\n{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nŒuf éclos, apparemment.\nRencontre fatidique.
+64	{STRVAR_1 51, 2, 0} {STRVAR_34 16, 1, 0} 20{STRVAR_1 51, 0, 0}\n{COLOR 2}{STRVAR_1 4, 4, 0}{COLOR 0}\nArrivé au N. {STRVAR_1 52, 3, 0}.
+65	Aime les goûts {COLOR 2}épicés{COLOR 0}.
+66	Aime les goûts {COLOR 2}secs{COLOR 0}.
+67	Aime les goûts {COLOR 2}sucrés{COLOR 0}.
+68	Aime les goûts {COLOR 2}amers{COLOR 0}.
+69	Aime les goûts {COLOR 2}acides{COLOR 0}.
+70	Mange de tout.
+71	Adore manger.
+72	Pique souvent un somme.
+73	Sème la pagaille.
+74	Aime semer le bazar.
+75	Aime se détendre.
+76	Fier de sa puissance.
+77	Aime se démener.
+78	Un peu colérique.
+79	Aime se battre.
+80	Colérique.
+81	Corps robuste.
+82	Encaisse bien les coups.
+83	Très persévérant.
+84	Très endurant.
+85	Bonne persévérance.
+86	Aime courir.
+87	Attentif aux bruits.
+88	Impétueux et bête.
+89	Un peu clown.
+90	Prompt à fuir.
+91	Très curieux.
+92	Espiègle.
+93	Vraiment rusé.
+94	Souvent dans la lune.
+95	Très difficile.
+96	Volontaire.
+97	Un peu vaniteux.
+98	Très rebelle.
+99	Mauvais perdant.
+100	Un peu têtu.
+101	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\nUn mystérieux Œuf\nPokémon reçu de\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}.\n
+102	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\nUn mystérieux Œuf\nPokémon obtenu à\n{COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}.\n
+103	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\nUn très mystérieux\nŒuf Pokémon obtenu\nà {COLOR 1}{STRVAR_1 4, 8, 0}{COLOR 0}.\n
+104	{STRVAR_1 51, 7, 0} {STRVAR_34 16, 6, 0} 20{STRVAR_1 51, 5, 0}\nUn très mystérieux\nŒuf Pokémon venu\nde {COLOR 2}{STRVAR_1 4, 8, 0}{COLOR 0}.\n
+105	“Le Guetteur d’Œuf”\nOn entend des bruits\nà l’intérieur !\nIl va bientôt éclore !
+106	“Le Guetteur d’Œuf”\nIl bouge parfois.\nIl est peut-être\nprès d’éclore.
+107	“Le Guetteur d’Œuf”\nQu’est-ce qui va en\nsortir ? Il n’a pas\nl’air près d’éclore.
+108	“Le Guetteur d’Œuf”\nOn dirait que cet Œuf\nva mettre longtemps\nà éclore.
+109	STATS
+110	PV
+111	Attaque
+112	Défense
+113	Atq. Spé.
+114	Déf. Spé.
+115	Vitesse
+116	Talent
+128	CAPACITÉS
+135	PP
+146	{ALN_CENTER}Retour
+147	PUISSANCE
+148	PRÉCISION
+149	CATÉGORIE
+152	ÉCHANGER
+156	Impossible d’oublier\nune CS maintenant.
+157	APTITUDES
+179	RUBANS
+182	Nb de Rubans :
+187	Vitesse
+188	Force
+189	Technique
+190	Endurance
+191	Saut
+192	Feuille Brillante
+193	{ALN_CENTER}Oublier !
+194	{ALN_CENTER}Échanger

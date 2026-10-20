@@ -1,0 +1,123 @@
+0	CONFIRMER
+1	ANNULER
+29	Choisissez un Pokémon.
+30	Choisissez un Pokémon.\r
+31	Déplacer où ?
+32	Donner à quel Pokémon ?
+33	Utiliser sur quel Pokémon ?
+34	Apprendre à quel Pokémon ?
+35	Choisissez et confirmez.
+37	Utiliser sur quel Pokémon ?
+38	Que faire avec\n{STRVAR_1 1, 0, 0} ?
+39	Que faire avec\nun objet ?
+40	Que faire avec\nla Lettre ?
+41	Restaurer quelle\ncapacité ?
+42	Augmenter les PP\nde quelle capacité ?
+43	Mettre cette\nBall perso ?
+44	Envoyer la Lettre retirée\nsur votre PC ?
+47	La Lettre a été envoyée sur votre\nPC.\r
+48	Si la Lettre est retirée, son\nmessage sera perdu. D’accord ?
+51	La boîte aux lettres du PC est\npleine.\r
+52	La Lettre a été retirée\ndu Pokémon.\r
+53	{STRVAR_1 1, 0, 0} veut apprendre la\ncapacité {STRVAR_1 6, 1, 0}.\rMais {STRVAR_1 1, 0, 0} connaît déjà quatre\ncapacités.\rEffacer une capacité pour la\nremplacer par {STRVAR_1 6, 1, 0} ?
+56	Renoncer à apprendre\n{STRVAR_1 6, 1, 0} ?
+59	{STRVAR_1 1, 0, 0} n’a pas appris\n{STRVAR_1 6, 1, 0}.\r
+60	Quelle capacité doit être\noubliée ?\r
+61	1, {PAUSE 20}2, et{PAUSE 20}... {PAUSE 20}... {PAUSE 20}... Tadaa !{WAIT 3}{WAIT 5}\r{STRVAR_1 1, 0, 0} a oublié\n{STRVAR_1 6, 1, 0}.\rEt...\r
+62	{STRVAR_1 1, 0, 0} a appris\n{STRVAR_1 6, 1, 0} !{WAIT 4}{WAIT 2}\r
+63	{STRVAR_1 1, 0, 0} et {STRVAR_1 6, 1, 0}\nne sont pas compatibles.\r{STRVAR_1 6, 1, 0} ne peut pas être appris.\r
+64	{STRVAR_1 1, 0, 0} connaît déjà\n{STRVAR_1 6, 1, 0}.\r
+65	{STRVAR_1 1, 0, 0} récupère\n{STRVAR_1 52, 1, 0} PV.\r
+66	{STRVAR_1 1, 0, 0} n’est plus\nempoisonné.\r
+67	{STRVAR_1 1, 0, 0} n’est plus\nparalysé.\r
+68	{STRVAR_1 1, 0, 0} n’est plus\nbrûlé.\r
+69	{STRVAR_1 1, 0, 0} est\ndégelé.\r
+70	Les PP ont été restaurés.\r
+71	{STRVAR_1 1, 0, 0}\nest guéri.\r
+72	{STRVAR_1 1, 0, 0}\nest en pleine forme.\r
+73	Les PP de {STRVAR_1 6, 0, 0}\nont augmenté.\r
+74	{STRVAR_1 1, 0, 0} n’est plus\nconfus.\r
+75	{STRVAR_1 1, 0, 0} n’est plus\namoureux.\r
+76	{STRVAR_1 1, 0, 0} : {STRVAR_1 13, 1, 0}\nde base en hausse !\r
+77	Impossible de l’utiliser avant\nd’obtenir un nouveau Badge.\r
+78	Il faut retirer la Lettre pour que\nle Pokémon puisse tenir un objet.\r
+79	{STRVAR_1 1, 0, 0} tient déjà\n{STRVAR_1 8, 1, 0}.\rVoulez-vous échanger les\ndeux objets ?
+82	{STRVAR_1 1, 0, 0} ne tient\nrien.\r
+83	Vous recevez {STRVAR_1 8, 1, 0}\nde {STRVAR_1 1, 0, 0}.\r
+84	Le Sac est plein.\r
+85	{STRVAR_1 8, 1, 0} a été pris et\nremplacé par {STRVAR_1 8, 2, 0}.\r
+92	{STRVAR_1 1, 0, 0}\nse réveille.\r
+99	Pas plus de deux Pokémon\nne peuvent participer.\r
+100	Vous surfez déjà.\r
+101	Impossible de l’utiliser ici.\r
+102	Ça n’aura aucun effet.\r
+103	Il faut deux Pokémon.\r
+104	{STRVAR_1 1, 0, 0} devient plus amical.\rMais {STRVAR_1 13, 1, 0} de base en baisse !\r
+105	{STRVAR_1 1, 0, 0} vous adore !\r{STRVAR_1 13, 1, 0} de base en baisse !\r
+106	{STRVAR_1 1, 0, 0} devient plus amical.\r{STRVAR_1 13, 1, 0} de base ne peut plus\nbaisser.\r
+107	{STRVAR_1 1, 0, 0} tient maintenant\n{STRVAR_1 8, 1, 0}.\r
+108	Il faut trois Pokémon.\r
+109	Il faut quatre Pokémon.\r
+110	Il faut cinq Pokémon.\r
+111	Il faut six Pokémon.\r
+112	Pas plus d’un Pokémon\nne peut participer.\r
+113	Pas plus de trois Pokémon\nne peuvent participer.\r
+114	Pas plus de quatre Pokémon\nne peuvent participer.\r
+115	Pas plus de cinq Pokémon\nne peuvent participer.\r
+116	La Lettre a été prise dans\nla boîte aux lettres.\r
+117	Ce Pokémon tient un objet.\nIl ne peut pas tenir de Lettre.\r
+118	La Capsule a été mise.\r
+119	Impossible de mettre deux Capsules.\r
+120	Impossible de l’utiliser\nsur ce Pokémon.\r
+127	Pas assez de PV...\r
+128	ORDRE
+129	RÉSUMÉ
+130	OBJET
+131	LETTRE
+132	LIRE
+133	PRENDRE
+134	RANGER
+135	RETOUR
+137	INSCRIRE
+138	RETIRER
+143	DONNER
+144	PRENDRE
+149	METTRE
+150	NON INSCRIT
+151	INTERDIT
+152	PREMIER
+153	DEUXIÈME
+154	TROISIÈME
+155	QUATRIÈME
+156	CINQUIÈME
+157	SIXIÈME
+158	APTE !
+159	INAPTE !
+160	APPRISE
+161	APTE !
+162	INAPTE !
+163	APTE !
+164	INAPTE !
+165	Les Pokémon identiques sont\ninterdits.\r
+166	Des Pokémon tiennent des objets\nidentiques.\r
+167	Le total des niveaux de l’équipe\ndépasse {STRVAR_1 52, 0, 0}.\r
+168	Il y a trois Pokémon légendaires\nou plus.\r
+169	PV MAX
+170	ATTAQUE
+171	DÉFENSE
+172	ATQ. SPÉ.
+173	DÉF. SPÉ.
+174	VITESSE
+177	{STRVAR_1 1, 0, 0} monte au\nN. {STRVAR_1 52, 1, 0}.{WAIT 4}{WAIT 2}\r
+178	{STRVAR_1 1, 0, 0} a appris\n{STRVAR_1 6, 1, 0} !{WAIT 4}{WAIT 2}\r
+179	La Capsule de la Ball va être\nretirée. D’accord ?
+180	Impossible de l’utiliser quand\nquelqu’un vous accompagne.\r
+181	Ce n’est pas l’endroit pour ça !\r
+183	Que faire avec\nl’Œuf ?
+184	Choisissez un Œuf.
+186	CONFIRMER
+187	Il faut utiliser la même espèce\nde Pokémon.\r
+188	{STRVAR_1 0, 0, 0} a changé de Forme !\r
+189	{STRVAR_1 1, 0, 0} ne peut pas tenir\n{STRVAR_1 8, 1, 0} !\r
+190	{STRVAR_1 8, 0, 0} ne peut pas être\ndonné ici.\r
+191	Un Pokémon tenant une Rosée Âme ne\npeut pas participer à la Coupe GS.\r
