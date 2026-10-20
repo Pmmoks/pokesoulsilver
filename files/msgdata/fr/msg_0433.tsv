@@ -1,0 +1,14 @@
+0	Bienvenue !\rVoulez-vous des Cartes à Gratter ?\nElles sont à {STRVAR_1 50, 0, 0} PCo les trois.\r
+1	Voulez-vous acheter des Cartes à\nGratter ? {YESNO 0}
+2	GRATTER
+3	INFOS
+4	ANNULER
+5	Revenez nous voir.
+6	Vous pouvez acheter trois Cartes à\nGratter pour {STRVAR_1 50, 0, 0} PCo.\rSur chaque Carte à Gratter se\ncachent des icônes de Pokémon.\rVous pouvez gratter trois fois la\npellicule d’une carte.\rSi la même icône apparaît trois fois,\nvous gagnez un prix, comme une Baie !\r
+7	Trois Cartes à Gratter coûtent {STRVAR_1 50, 2, 0}\nPCo. D’accord ? {YESNO 0}
+10	Bien, choisissez trois Cartes à\nGratter.\r
+11	Félicitations !\rVous avez gagné sur {STRVAR_1 50, 0, 0} Carte(s) à\nGratter !\r
+12	Dommage ! Il n’y a plus de place pour\n{STRVAR_1 8, 0, 0} !\r
+13	Vous recevez {STRVAR_1 50, 1, 0} {STRVAR_1 8, 0, 0} !
+14	Désolé, mais vous n’avez pas assez de\nPCo. Revenez plus tard.
+15	Bienvenue !\nVoulez-vous des Cartes à Gratter ?\rVous pouvez acheter trois Cartes à\nGratter pour {STRVAR_1 50, 0, 0} PCo.\rSur chaque Carte à Gratter se\ncachent des icônes de Pokémon.\rVous pouvez gratter trois fois la\npellicule d’une carte.\rSi la même icône apparaît trois fois,\nvous gagnez un prix, comme une Baie.\rEn plus, l’icône de MÉTAMORPH peut se\ntransformer en n’importe quel autre\fPokémon.\rBonne chance pour aligner les icônes !\r

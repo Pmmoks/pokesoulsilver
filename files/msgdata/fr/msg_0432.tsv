@@ -1,0 +1,6 @@
+4	CARTE SUIVANTE
+5	ANNULER
+6	Voulez-vous arrêter de gratter\ncette carte ?
+9	Début de la carte n° {STRVAR_1 50, 0, 0} !
+11	Dommage !
+12	Choisissez la carte n° {STRVAR_1 50, 0, 0}.{YESNO 0}

@@ -1,0 +1,30 @@
+1	Revenez quand vous voulez !
+2	Ah bon ?\nEh bien, revenez quand vous voulez !
+3	Revenez nous voir !
+4	Ah bon ?\nEh bien, revenez quand vous voulez !\fHi hi !
+5	Revenez quand vous voulez ! Enfin,\npas le soir. C’est fermé.
+6	Puis-je faire autre chose pour vous ? {YESNO 0}
+7	Vous désirez autre chose ? {YESNO 0}
+8	Vous désirez autre chose ?\nN’importe quoi ? {YESNO 0}
+9	Vous désirez autre chose ?\nHi hi ! {YESNO 0}
+10	Vous voulez autre chose ? {YESNO 0}
+11	Vous n’avez pas assez d’argent.
+12	{STRVAR_1 8, 0, 0} ? Bien sûr.\nCombien en voulez-vous ?
+14	Pour {STRVAR_1 51, 0, 0}, cela fera\n{STRVAR_1 55, 1, 0} $, s’il vous plaît.
+15	Voilà !\nMerci !{WAIT 1}\rVous rangez {STRVAR_1 8, 0, 0}\ndans la poche {STRVAR_1 27, 1, 0}.
+16	Vous n’avez pas assez de place.
+17	ANNULER
+19	{STRVAR_1 53, 0, 0} pts
+20	Vous recevez aussi une Honor Ball en\nbonus.
+23	Vous rangez {STRVAR_1 10, 0, 0}\ndans la Boîte Sceaux. {WAIT 1}
+24	La Boîte Sceaux est pleine. Il n’y a\nplus de place pour les Sceaux.
+25	Vous ne pouvez plus rien acheter\naujourd’hui !
+26	Vous l’avez déjà !
+30	Argent
+32	{STRVAR_1 55, 0, 0} pts
+33	Points Athlète
+35	Dans le Sac :
+42	ACHETER
+46	Voulez-vous\n{STRVAR_1 8, 0, 0} ?
+48	Vous n’avez pas assez de points !
+49	Bien, voilà.\nRevenez quand vous voulez ! {WAIT 1}

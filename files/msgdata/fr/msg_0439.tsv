@@ -1,0 +1,44 @@
+0	Je suis le Monsieur de la Pension.\rNous gardons les précieux Pokémon des\nautres Dresseurs.\rSi vous voulez que nous élevions vos\nPokémon, parlez à ma femme.
+1	Ah, c’est vous !\rNous élevions votre Pokémon, et ma\nparole, quelle surprise !\rVotre Pokémon tenait un Œuf !\rNous ne savons pas d’où il vient, mais\nvotre Pokémon l’avait.\rVous le voulez, n’est-ce pas ? {YESNO 0}
+2	Ah, c’est vous ! Content de vous voir.\nVotre {STRVAR_1 0, 0, 0} va très bien.
+3	Bon, alors je le garde. Merci !
+4	Vous n’avez pas de place pour\nl’instant... Revenez quand vous en\faurez fait.
+5	{STRVAR_1 3, 0, 0} reçoit l’Œuf du Monsieur de\nla Pension.
+6	Prenez-en bien soin.
+9	Ah, c’est vous ! Content de vous voir !\rVotre {STRVAR_1 0, 0, 0} et votre {STRVAR_1 0, 1, 0}\nvont très bien.\r
+10	Je vais vraiment le garder. Vous voulez\nbien cet Œuf, oui ? {YESNO 0}
+11	Prenez-en bien soin !\rC’est que je ne pense pas qu’on en\ntrouvera un autre...\rNon, non, je suis sûr qu’on en trouvera\nun autre. J’en suis certain !\r
+12	Bon, d’accord, je le prends. Merci.\rC’est que je ne pense pas qu’on en\ntrouvera un autre...\rNon, non, je suis sûr qu’on en trouvera\nun autre. J’en suis certain !\r
+13	{STRVAR_1 3, 0, 0}... Si nous gardons vos\nPokémon et remarquons que l’un d’eux\ftient un Œuf, voulez-vous que je vous\fprévienne par téléphone ? D’accord ? {YESNO 0}
+14	{STRVAR_1 3, 0, 0}... Si nous gardons vos\nPokémon et remarquons que l’un d’eux\ftient un Œuf, voulez-vous que je vous\fprévienne par téléphone ? D’accord ? {YESNO 0}
+15	Comptez sur nous !\rLes Pokémon que vous voulez faire\nélever, confiez-les à ma femme.
+16	Je vois. Bon, très bien.\rLes Pokémon que vous voulez faire\nélever, confiez-les à ma femme.
+17	Ils ont l’air de très bien s’entendre.
+18	Ils ont l’air de s’entendre.
+19	Ils n’ont pas l’air de beaucoup\ns’apprécier.
+20	Ils préfèrent jouer avec d’autres\nPokémon plutôt qu’ensemble...
+21	Je suis la Dame de la Pension. Nous\npouvons élever des Pokémon pour vous.\rVoulez-vous que nous élevions votre\nPokémon ? {YESNO 0}
+22	Quel Pokémon devons-nous élever pour\nvous ?\r
+23	Bien, nous allons élever votre\n{STRVAR_1 0, 0, 0} pendant un moment.\rRevenez le chercher plus tard.\r
+24	Nous pouvons élever deux de vos\nPokémon. Voulez-vous nous en confier\fun autre ? {YESNO 0}
+25	Ah, vous voilà ! Mon mari vous\ncherchait.
+26	Oh, bon, d’accord. Revenez quand vous\nvoulez.
+27	Vous n’avez pas assez d’argent...
+28	Voulez-vous aussi reprendre l’autre ? {YESNO 0}
+29	Très bien. Revenez quand vous voulez.
+30	Ah, c’est vous ! Content de vous voir.\nAlors, à propos de votre Pokémon...\r
+31	Votre {STRVAR_1 0, 0, 0} a gagné environ {STRVAR_1 51, 1, 0}\nniveau(x).\r
+32	Votre équipe est pleine. Faites de la\nplace, puis revenez me voir.
+33	Si vous voulez récupérer votre\n{STRVAR_1 0, 0, 0}, cela coûtera {STRVAR_1 53, 1, 0} $. {YESNO 0}
+34	Parfait ! Voici votre Pokémon.\r
+35	{STRVAR_1 3, 1, 0} reprend {STRVAR_1 0, 0, 0} à la\nDame de la Pension.\r
+36	Oh ? Mais vous n’avez qu’un seul\nPokémon avec vous.\rVous ne pouvez pas partir sans\nPokémon. Revenez une autre fois.
+37	Voulez-vous récupérer votre Pokémon ?\n{YESNO 0}
+38	Si vous me laissez ce Pokémon, avec\nquoi allez-vous combattre ?\rRevenez une autre fois.
+39	Hein ? Allons, allons.\rSi vous me laissez ce Pokémon, il ne\nvous en restera plus qu’un.\rVous feriez mieux d’en attraper\nd’autres, si vous voulez mon avis.
+40	Allons, allons. Ce n’est qu’un Œuf !
+41	Bien, nous allons élever votre\n{STRVAR_1 0, 0, 0} pendant un moment.\rRevenez le chercher plus tard.
+47	Ils ont l’air de très bien s’entendre.\r
+48	Ils ont l’air de s’entendre.\r
+49	Ils n’ont pas l’air de beaucoup\ns’apprécier.\r
+50	Ils préfèrent jouer avec d’autres\nPokémon plutôt qu’ensemble...\r
