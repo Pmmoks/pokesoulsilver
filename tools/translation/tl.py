@@ -58,6 +58,13 @@ WIDTH_OVERRIDES = {
     'msg_0730': 80, 'msg_0731': 100,
 }
 
+# The Pokegear radio's scripts: the show prints them a line at a time and scrolls, so they
+# may have any number of lines, each read into a 50-character buffer, from a script of at
+# most 1350 characters (RadioShow_New).
+SCROLLING_BANKS = {f'msg_{n:04d}' for n in range(409, 421)}
+RADIO_LINE_LENGTH = 50
+RADIO_TEXT_LENGTH = 1350
+
 # Banks whose text the game already shows in French somewhere else, in the same window: the
 # Pokedex can show its entries in other languages. Their rows may be as wide and as long as
 # that bank's.
@@ -246,7 +253,13 @@ def check_bank(bank):
                 problems.append(f'{where}: {w} px wide, the bank allows {max_width}: {line}')
         if fixed_box and '\\f' in text:
             problems.append(f'{where}: \\f scrolls, but the bank is drawn in a fixed box')
-        if fixed_box and len(lines(text)) > max_lines:
+        if bank.stem[:8] in SCROLLING_BANKS:
+            if encoded_length(text) - 1 > RADIO_TEXT_LENGTH:
+                problems.append(f'{where}: {encoded_length(text) - 1} characters, a radio script holds {RADIO_TEXT_LENGTH}')
+            for line in lines(text):
+                if encoded_length(line) - 1 > RADIO_LINE_LENGTH:
+                    problems.append(f'{where}: a radio line holds {RADIO_LINE_LENGTH} characters: {line}')
+        elif fixed_box and len(lines(text)) > max_lines:
             problems.append(f'{where}: {len(lines(text))} lines, the bank has at most {max_lines}')
         length = encoded_length(text)
         if limit and length > limit:
