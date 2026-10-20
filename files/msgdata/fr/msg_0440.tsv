@@ -1,0 +1,252 @@
+0	{COLOR 1}{ALN_CENTER} Pokémon HeartGold\n{COLOR 0}\n{ALN_CENTER} Générique\n\n
+1	{COLOR 1}{ALN_CENTER} Pokémon SoulSilver\n{COLOR 0}\n{ALN_CENTER} Générique\n\n
+2	Générique
+3	{COLOR 2}Réalisateur{COLOR 0}
+4	Shigeki Morimoto
+5	{COLOR 2}Directeur artistique{COLOR 0}
+6	Takao Unno
+7	{COLOR 2}Chef game design{COLOR 0}
+8	Kenji Matsushima
+9	{COLOR 2}Chef programmation{COLOR 0}
+10	Akito Mori
+11	{COLOR 2}Chef musique{COLOR 0}
+12	Go Ichinose
+13	{COLOR 2}Programmation{COLOR 0}
+14	Miyuki Iwasawa
+15	Nozomu Saito
+16	Hiroyuki Nakamura
+17	Genya Hosaka
+18	Toru Nagihashi
+19	Tomomichi Ohta
+20	{COLOR 2}Soutien programmation{COLOR 0}
+22	{COLOR 2}Programmation système{COLOR 0}
+23	Hisashi Sogabe
+24	Katsumi Ohno
+25	Tetsuya Watanabe
+26	Sousuke Tamada
+27	Yoshinori Matsuda
+28	Keita Kagaya
+29	Masao Taya
+30	Tomoya Takahashi
+31	Nagaaki Fukase
+32	Nobuhiko Ariizumi
+33	Satoshi Nohara
+34	Daisuke Goto
+35	Yosuke Suma
+36	{COLOR 2}Graphismes{COLOR 0}
+37	Saya Tsuruta
+38	Kenkichi Toyama
+39	Yusuke Ohmura
+40	Maiko Fujiwara
+41	Satoshi Ohta
+42	Kanako Eo
+43	Emi Yoshida
+44	Yasuo Kumakura
+45	{COLOR 2}Composition musicale{COLOR 0}
+46	Shota Kageyama
+47	Hitomi Sato
+48	Junichi Masuda
+49	Takuto Kitsuta
+50	{COLOR 2}Effets sonores{COLOR 0}
+51	Satoshi Nohara
+52	Kenichi Kikkawa
+53	{COLOR 2}Voix des Pokémon{COLOR 0}
+54	Go Ichinose
+55	{COLOR 2}Game design{COLOR 0}
+56	Tadashi Takahashi
+57	Akihito Tomisawa
+58	Masafumi Saito
+59	Teruyuki Shimoyamada
+60	Shigeru Ohmori
+61	Takeshi Kawachimaru
+62	Tetsuji Ohta
+63	Kouji Nishino
+64	Hitomi Sato
+65	Suguru Nakatsui
+66	Hiro Nakamura
+67	Toshinobu Matsumiya
+68	{COLOR 2}Scénario{COLOR 0}
+69	Akihito Tomisawa
+70	Kenji Matsushima
+71	Toshinobu Matsumiya
+72	{COLOR 2}Conception des cartes{COLOR 0}
+73	Tadashi Takahashi
+74	Akihito Tomisawa
+75	Masafumi Saito
+76	{COLOR 2}Textes du Pokédex{COLOR 0}
+77	Kenji Matsushima
+78	Toshinobu Matsumiya
+79	{COLOR 2}Paramétrage{COLOR 0}
+80	Masafumi Saito
+81	Teruyuki Shimoyamada
+82	Shigeki Morimoto
+83	Kouji Nishino
+84	Tetsuji Ohta
+85	{COLOR 2}Scripts{COLOR 0}
+86	Kenji Matsushima
+87	Tadashi Takahashi
+88	Masafumi Saito
+89	Miyuki Iwasawa
+90	{COLOR 2}Design des Pokémon{COLOR 0}
+91	Ken Sugimori
+92	Motofumi Fujiwara
+93	Shigeki Morimoto
+94	Hironobu Yoshida
+95	Takao Unno
+96	Kenkichi Toyama
+97	Hiroki Fuchino
+98	Yusuke Ohmura
+99	HyunJung Lee
+100	Atsuko Nishida
+101	Satoshi Ohta
+102	Rena Yoshikawa
+103	Jun Okutani
+104	Asuka Iwashita
+105	Aimi Tomita
+106	Kanako Eo
+107	Emi Yoshida
+108	Hiroyuki Yagi
+109	Muneo Saito
+110	Hiroyuki Goto
+111	{COLOR 2}Supervision graphique{COLOR 0}
+112	Ken Sugimori
+113	{COLOR 2}Localisation anglaise{COLOR 0}
+114	Yasuhiro Usui
+115	Mikiko Ryu
+116	{COLOR 2}Traduction{COLOR 0}
+117	Hisato Yamamori
+118	Eve Eschenbacher
+119	{COLOR 2}Édition version anglaise{COLOR 0}
+120	Kellyn Ballard
+121	Blaise Selby
+122	Eoin Sanders
+123	{COLOR 2}Graphismes version anglaise{COLOR 0}
+124	Eric Medalle
+125	Bridget O’Neill
+126	Kevin Lalli
+127	{COLOR 2}Coordination localisation NOA{COLOR 0}
+128	Rie Fujiwara
+129	Seth McMahill
+130	Joel Simon
+131	{COLOR 2}Tests produit NOA{COLOR 0}
+132	Masayasu Nakata
+133	Kyle Hudson
+134	Eric Bush
+135	Sean Egan
+136	Tom Hertzog
+137	Teresa Lillygren
+138	Makiko Szolas
+139	Rosa Wampler
+140	Allen Perez
+141	Patrick Taylor
+142	Joshua Newman
+143	{COLOR 2}Soutien QA NOE{COLOR 0}
+144	Ben Howard-Hale
+145	Brian Sim
+146	Luke Bullimore
+147	{COLOR 2}Localisation{COLOR 0}
+148	Teruki Murakawa
+149	Kimiko Nakamichi
+150	Souichi Yamamoto
+151	Akira Kinashi
+152	Noriko Nakao
+153	Haruhiko Imatake
+154	Ryusuke Niitani
+155	Hironori Ichibayashi
+156	Shuhei Furukawa
+157	{COLOR 2}Pokéwalker{COLOR 0}
+158	{COLOR 2}Game design{COLOR 0}
+159	Shigeru Ohmori
+160	Masafumi Saito
+161	{COLOR 2}Directeur mécanique{COLOR 0}
+162	Masahiko Ota
+163	{COLOR 2}Conception mécanique{COLOR 0}
+164	Kazuhiro Fujihara
+165	Kazuhiro Maruyama
+166	Noriaki Uchida
+167	Noriko Akita
+168	Hayato Takemoto
+169	Kozo Kamimura
+170	Takuya Kaminosono
+171	Takumi Nakahira
+172	{COLOR 2}Coordination programmation{COLOR 0}
+173	Mikihiro Ishikawa
+174	{COLOR 2}Programmation{COLOR 0}
+175	Hiroki Sotoike
+176	{COLOR 2}Chef de projet{COLOR 0}
+177	Masaru Shimomura
+178	{COLOR 2}Soutien technique{COLOR 0}
+179	Toru Inage
+180	{COLOR 2}Direction des tests NCL{COLOR 0}
+181	Yuuki Tanikawa
+182	Yoshikazu Tanaka
+183	Takeshi Tamura
+184	Takuya Inoue
+185	Ryuji Hamaguchi
+186	Motoki Nakajima
+187	Daiki Moriyama
+188	{COLOR 2}Tests produit NCL{COLOR 0}
+189	Mario Club
+190	{COLOR 2}Remerciements{COLOR 0}
+191	Kenji Tominaga
+192	Yoshio Tajiri
+193	Teiko Sasaki
+194	Tomohiro Kitakaze
+195	Toshihiro Obata
+196	Yukiko Hozumi
+197	Megumi Mizutani
+198	Naoto Murakami
+199	Yuichiro Mori
+200	Emi Endo
+201	Sachiko Hamano
+202	Asami Sato
+203	Saki Ikeda
+204	Yoshimitsu Inoue
+205	Kenjiro Ito
+206	Tomotaka Komura
+207	Mikiko Ohashi
+208	Susumu Fukunaga
+209	Toshio Miyahara
+210	Kenji Okubo
+211	Gaku Susai
+212	Kenichi Arai
+213	Jiro Koga
+214	Michiko Takizawa
+215	Mitsuyo Matsunaga
+216	Yuichiro Tsumita
+217	Osamu Fujita
+218	Masami Tanaka
+219	Ayako Kajiwara
+220	Ryohei Itakura
+221	Toshio Mukai
+222	Hiroshi Akune
+223	Daisuke Nakamura
+224	Takahiro Yamaguchi
+225	Ryo Yamaguchi
+226	Jun Tanoue
+227	{COLOR 2}Supervision informations{COLOR 0}
+228	Yuri Sakurai
+229	Yufuko Saito
+230	Toya Yoneda
+231	Naoko Yanase
+232	{COLOR 2}Illustrations{COLOR 0}
+233	Kiyomi Itani
+234	Motoki Fujita
+235	Yasuko Sugiyama
+236	Sachiko Nakamichi
+237	{COLOR 2}Coordination{COLOR 0}
+238	Shunsuke Kohori
+239	Kazuki Yoshihara
+240	Hideaki Araki
+241	Kenta Nakanishi
+242	{COLOR 2}Producteurs{COLOR 0}
+243	Junichi Masuda
+244	Shusaku Egami
+245	Hitoshi Yamagami
+246	Hiroaki Tsuru
+247	{COLOR 2}Producteur exécutif{COLOR 0}
+248	Satoshi Tajiri
+249	{COLOR 2}Producteur exécutif{COLOR 0}
+250	Satoru Iwata
+251	{COLOR 2}Producteur exécutif{COLOR 0}
+252	Tsunekazu Ishihara

@@ -1,0 +1,28 @@
+0	Veuillez patienter.
+2	{STRVAR_1 0, 0, 0} va être\nentièrement soigné.
+3	Prochain combat : n° {STRVAR_1 53, 0, 0} !\nÊtes-vous prêt ?
+4	Voulez-vous sauvegarder le dernier\ncombat dans votre Vidéo Combat ?
+5	Le combat de {STRVAR_1 3, 0, 0} a été\nsauvegardé dans la Vidéo Combat.\r
+6	Une erreur est survenue. La Vidéo\nCombat n’a pas pu être sauvegardée.
+7	Effacer votre Vidéo Combat actuelle et\nsauvegarder le dernier combat ?
+8	Sauvegarde en cours...\nN’éteignez pas la console.
+9	Voulez-vous sauvegarder et faire une\npause ?
+10	Voulez-vous abandonner ce défi du\nPalais de Combat ?
+11	{STRVAR_1 3, 0, 0} est en train de choisir.\nVeuillez patienter.
+13	{STRVAR_1 3, 0, 0} a choisi d’abandonner.
+14	Vous avez remporté votre dixième\ncombat du Palais de Combat !\fFélicitations !\rPour votre incroyable série de\nvictoires, vous et {STRVAR_1 0, 0, 0} recevez\fdes PCo !\r
+15	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} PCo !\r
+17	Sauvegarde en cours...\nN’éteignez pas la console.
+19	CONTINUER
+20	SAUVEGARDER
+21	PAUSE
+22	ABANDONNER
+23	Choisissez le type de Pokémon que vous\nallez affronter.\r
+24	Affronter les Pokémon de type\n{STRVAR_1 15, 0, 0}, rang {STRVAR_1 51, 1, 0} ?
+31	Affronter la Reine du Palais ?
+32	Excusez-moi ! Un instant, je vous prie.\rEn reconnaissance de votre\nremarquable série de victoires, notre\fTête de l’Élite exige un combat contre\fvous.\rEn fait, vous n’avez pas le choix. Vous\ndevez affronter notre Reine du Palais !\r
+33	Argenta : Mon Palais de Combat permet\naux Dresseurs de relever des défis\favec leur Pokémon préféré.\rJ’imagine que tu as connu des moments\ntendus pour arriver ici avec ton élu.\rMais sache que c’est quand on surmonte\nun défi qu’on brille le plus.\rJe suis Argenta, ton défi ultime et le\nplus redoutable.\rJe te mets au défi de me vaincre.\r
+34	Argenta : Eh bien ! Ma parole, ton\nPokémon... Il a un charisme de star\fincroyable.\rMême depuis sa Poké Ball, je sens son\néclat charismatique.\rMais je suis la Reine du Palais. C’est à\nmoi d’en juger.\rJe dois l’affronter moi-même pour voir\nsi cet éclat est authentique.\rVoilà pourquoi nous devons nous\nbattre.\r
+35	Argenta : Un bon Dresseur n’impose son\nPokémon préféré à personne.\rUn bon Dresseur reste avec son favori\nsans faire de drame ni de tapage.\rC’est ainsi que je le vois, du moins.\rEt à mes yeux, tu es un excellent\nDresseur !\rReviens au Palais de Combat avec un\nPokémon favori.\rD’ici là, au revoir !\r
+36	Argenta : N’oublie jamais qu’il existe un\nlieu où chacun peut briller.\rC’est vrai aussi pour tous les Pokémon,\nquels qu’ils soient.\rTransmets ce message avec tes propres\nmots. Tout le monde devrait l’entendre.\rEt maintenant que j’ai perdu, je n’ai\nplus rien à dire, sinon...\rAu revoir !\r
+37	Choisissez le type de Pokémon que vous\nvoulez affronter.
