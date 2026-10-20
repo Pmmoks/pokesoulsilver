@@ -1,0 +1,20 @@
+1	ID : {STRVAR_1 54, 0, 0}
+2	Quand le groupe est prêt :\nA : Continuer   B : Annuler
+3	Ces membres vous conviennent ?
+4	Annuler le mélange des records ?
+5	Le mélange des records est annulé.
+6	Un membre n’est plus\ndisponible.
+7	Il n’y a aucun membre.\nLe mélange des records est annulé.
+8	Veuillez patienter.\n... ... B : Annuler
+9	Un membre n’est plus disponible.\nLe mélange des records est annulé.
+10	Annuler le mélange des records ?
+11	Le mélange des records est annulé.
+12	Mélange des records...\nN’éteignez pas la console !
+13	Mélange des records terminé !\nRetour au Club Union.
+14	Si le chef part, le groupe sera\ndissous. D’accord ?
+15	{STRVAR_1 3, 0, 0} est parti.
+16	{STRVAR_1 1, 0, 0}, le chef, est parti.\nLe groupe va être dissous.
+17	Recherche d’amis pour mélanger !
+18	Mélange des records en cours !
+21	Suivant
+22	Quitter

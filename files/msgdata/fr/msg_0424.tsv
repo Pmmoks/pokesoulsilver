@@ -1,0 +1,403 @@
+0	Ruban Maître
+1	Ruban Sang-Froid
+2	Ruban Sang-Froid Super
+3	Ruban Sang-Froid Hyper
+4	Ruban Sang-Froid Maître
+5	Ruban Beauté
+6	Ruban Beauté Super
+7	Ruban Beauté Hyper
+8	Ruban Beauté Maître
+9	Ruban Grâce
+10	Ruban Grâce Super
+11	Ruban Grâce Hyper
+12	Ruban Grâce Maître
+13	Ruban Intelligence
+14	Ruban Intelligence Super
+15	Ruban Intelligence Hyper
+16	Ruban Intelligence Maître
+17	Ruban Robustesse
+18	Ruban Robustesse Super
+19	Ruban Robustesse Hyper
+20	Ruban Robustesse Maître
+21	Ruban Gagnant
+22	Ruban Victoire
+23	Ruban Artiste
+24	Ruban Effort
+25	Ruban Marin
+26	Ruban Terre
+27	Ruban Ciel
+28	Ruban Pays
+29	Ruban National
+30	Ruban Monde
+31	Ruban Mondial
+32	Ruban Maître Sinnoh
+33	Ruban Sang-Froid
+34	Ruban Sang-Froid Grand
+35	Ruban Sang-Froid Ultra
+36	Ruban Sang-Froid Maître
+37	Ruban Beauté
+38	Ruban Beauté Grand
+39	Ruban Beauté Ultra
+40	Ruban Beauté Maître
+41	Ruban Grâce
+42	Ruban Grâce Grand
+43	Ruban Grâce Ultra
+44	Ruban Grâce Maître
+45	Ruban Intelligence
+46	Ruban Intelligence Grand
+47	Ruban Intelligence Ultra
+48	Ruban Intelligence Maître
+49	Ruban Robustesse
+50	Ruban Robustesse Grand
+51	Ruban Robustesse Ultra
+52	Ruban Robustesse Maître
+53	Ruban Aptitude
+54	Ruban Grande Aptitude
+55	Ruban Double Aptitude
+56	Ruban Multi Aptitude
+57	Ruban Aptitude Duo
+58	Ruban Aptitude Mondiale
+59	Ruban Vigilance
+60	Ruban Choc
+61	Ruban Abattement
+62	Ruban Étourderie
+63	Ruban Détente
+64	Ruban Somme
+65	Ruban Sourire
+66	Ruban Superbe
+67	Ruban Royal
+68	Ruban Royal Superbe
+69	Ruban Empreinte
+70	Ruban Record
+71	Ruban Histoire
+72	Ruban Légende
+73	Ruban Rouge
+74	Ruban Vert
+75	Ruban Bleu
+76	Ruban Festival
+77	Ruban Carnaval
+78	Ruban Classique
+79	Ruban Premier
+80	Ruban obtenu pour avoir vaincu la Ligue et\nêtre entré au Panthéon d’une autre région.
+81	Vainqueur du Concours Sang-Froid de Hoenn,\nrang Normal !
+82	Vainqueur du Concours Sang-Froid de Hoenn,\nrang Super !
+83	Vainqueur du Concours Sang-Froid de Hoenn,\nrang Hyper !
+84	Vainqueur du Concours Sang-Froid de Hoenn,\nrang Master !
+85	Vainqueur du Concours Beauté de Hoenn,\nrang Normal !
+86	Vainqueur du Concours Beauté de Hoenn,\nrang Super !
+87	Vainqueur du Concours Beauté de Hoenn,\nrang Hyper !
+88	Vainqueur du Concours Beauté de Hoenn,\nrang Master !
+89	Vainqueur du Concours Grâce de Hoenn,\nrang Normal !
+90	Vainqueur du Concours Grâce de Hoenn,\nrang Super !
+91	Vainqueur du Concours Grâce de Hoenn,\nrang Hyper !
+92	Vainqueur du Concours Grâce de Hoenn,\nrang Master !
+93	Vainqueur du Concours Intelligence de\nHoenn, rang Normal !
+94	Vainqueur du Concours Intelligence de\nHoenn, rang Super !
+95	Vainqueur du Concours Intelligence de\nHoenn, rang Hyper !
+96	Vainqueur du Concours Intelligence de\nHoenn, rang Master !
+97	Vainqueur du Concours Robustesse de\nHoenn, rang Normal !
+98	Vainqueur du Concours Robustesse de\nHoenn, rang Super !
+99	Vainqueur du Concours Robustesse de\nHoenn, rang Hyper !
+100	Vainqueur du Concours Robustesse de\nHoenn, rang Master !
+101	Ruban obtenu pour avoir réussi le défi Niv.\n50 de la Tour de Combat de Hoenn.
+102	Ruban obtenu pour avoir réussi le défi Niv.\n100 de la Tour de Combat de Hoenn.
+103	Ruban obtenu pour avoir été choisi comme\nmodèle de dessin à Hoenn.
+104	Ruban obtenu pour avoir été\nexceptionnellement travailleur.
+105	Ruban obtenu pour avoir battu le Maître de\nSinnoh et être entré au Panthéon.
+106	Vainqueur du Super Concours Sang-Froid,\nrang Normal !
+107	Vainqueur du Super Concours Sang-Froid,\nrang Grand !
+108	Vainqueur du Super Concours Sang-Froid,\nrang Ultra !
+109	Vainqueur du Super Concours Sang-Froid,\nrang Maître !
+110	Vainqueur du Super Concours Beauté, rang\nNormal !
+111	Vainqueur du Super Concours Beauté, rang\nGrand !
+112	Vainqueur du Super Concours Beauté, rang\nUltra !
+113	Vainqueur du Super Concours Beauté, rang\nMaître !
+114	Vainqueur du Super Concours Grâce, rang\nNormal !
+115	Vainqueur du Super Concours Grâce, rang\nGrand !
+116	Vainqueur du Super Concours Grâce, rang\nUltra !
+117	Vainqueur du Super Concours Grâce, rang\nMaître !
+118	Vainqueur du Super Concours Intelligence,\nrang Normal !
+119	Vainqueur du Super Concours Intelligence,\nrang Grand !
+120	Vainqueur du Super Concours Intelligence,\nrang Ultra !
+121	Vainqueur du Super Concours Intelligence,\nrang Maître !
+122	Vainqueur du Super Concours Robustesse,\nrang Normal !
+123	Vainqueur du Super Concours Robustesse,\nrang Grand !
+124	Vainqueur du Super Concours Robustesse,\nrang Ultra !
+125	Vainqueur du Super Concours Robustesse,\nrang Maître !
+126	Ruban obtenu pour avoir battu le Magnat de\nla Tour de Combat.
+127	Ruban obtenu pour avoir battu le Magnat de\nla Tour de Combat.
+128	Ruban obtenu pour avoir réussi le défi\nDouble de la Tour de Combat.
+129	Ruban obtenu pour avoir réussi le défi Multi\nde la Tour de Combat.
+130	Ruban obtenu pour avoir réussi le défi Multi\nRéseau de la Tour de Combat.
+131	Ruban obtenu pour avoir réussi le défi de la\nTour de Combat Wi-Fi.
+132	Un Ruban en souvenir d’un événement\nvivifiant qui a donné de l’énergie.
+133	Un Ruban en souvenir d’un événement\npalpitant qui a rendu la vie excitante.
+134	Un Ruban en souvenir d’une tristesse qui a\ndonné du piquant à la vie.
+135	Un Ruban en souvenir d’une étourderie qui a\norienté des choix de vie.
+136	Un Ruban en souvenir d’un événement\nrafraîchissant qui a fait briller la vie.
+137	Un Ruban en souvenir d’un profond sommeil\nqui a apaisé la vie.
+138	Un Ruban pour se rappeler que les sourires\nenrichissent la vie.
+139	Un Ruban extraordinairement superbe et\nextravagant.
+140	Un Ruban incroyablement royal à l’air\nnoble.
+141	Un Ruban superbe et royal, le summum du\nfabuleux.
+142	Ruban obtenu par un Pokémon dont\nl’empreinte est jugée de première qualité.
+143	Ruban obtenu pour avoir établi un record\nincroyable.
+144	Ruban obtenu pour avoir établi un record\nhistorique.
+145	Ruban obtenu pour avoir établi un record\nlégendaire.
+146	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+147	Tournoi Régional 2003\nRuban Champion
+148	Tournoi National 2003\nRuban Champion
+149	Coupe Mondiale 2003\nRuban Champion
+150	Tournoi Régional 2003\nRuban Finaliste
+151	Tournoi National 2003\nRuban Finaliste
+152	Coupe Mondiale 2003\nRuban Finaliste
+153	Tournoi Régional 2003\nRuban Demi-finaliste
+154	Tournoi National 2003\nRuban Demi-finaliste
+155	Coupe Mondiale 2003\nRuban Demi-finaliste
+156	Tournoi Régional 2004\nRuban Champion
+157	Tournoi National 2004\nRuban Champion
+158	Coupe Mondiale 2004\nRuban Champion
+159	Tournoi Régional 2004\nRuban Finaliste
+160	Tournoi National 2004\nRuban Finaliste
+161	Coupe Mondiale 2004\nRuban Finaliste
+162	Tournoi Régional 2004\nRuban Demi-finaliste
+163	Tournoi National 2004\nRuban Demi-finaliste
+164	Coupe Mondiale 2004\nRuban Demi-finaliste
+165	Tournoi Régional 2005\nRuban Champion
+166	Tournoi National 2005\nRuban Champion
+167	Coupe Mondiale 2005\nRuban Champion
+168	Tournoi Régional 2005\nRuban Finaliste
+169	Tournoi National 2005\nRuban Finaliste
+170	Coupe Mondiale 2005\nRuban Finaliste
+171	Tournoi Régional 2005\nRuban Demi-finaliste
+172	Tournoi National 2005\nRuban Demi-finaliste
+173	Coupe Mondiale 2005\nRuban Demi-finaliste
+174	Coupe Combat Pokémon\nRuban Champion
+175	Coupe Combat Pokémon\nRuban Finaliste
+176	Coupe Combat Pokémon\nRuban Demi-finaliste
+177	Coupe Combat Pokémon\nRuban Participant
+178	Ligue Pokémon\nRuban Champion
+179	Ligue Pokémon\nRuban Finaliste
+180	Ligue Pokémon\nRuban Demi-finaliste
+181	Ligue Pokémon\nRuban Participant
+182	Coupe Avancée\nRuban Champion
+183	Coupe Avancée\nRuban Finaliste
+184	Coupe Avancée\nRuban Demi-finaliste
+185	Coupe Avancée\nRuban Participant
+186	Tournoi Pokémon\nRuban Participant
+187	Événement Pokémon\nRuban Participant
+188	Festival Pokémon\nRuban Participant
+189	Ruban obtenu pour avoir surmonté des défis\ndifficiles.
+190	Ruban obtenu pour avoir surmonté tous les\ndéfis difficiles.
+191	Ruban obtenu pour avoir gagné 100 combats\nd’affilée.
+192	Ruban obtenu pour avoir vaincu la Tour des\nTénèbres.
+193	Ruban obtenu pour avoir vaincu la Tour\nRouge.
+194	Ruban obtenu pour avoir vaincu la Tour de\nFer Noir.
+195	Ruban obtenu pour avoir vaincu la Tour\nFinale.
+196	Ruban obtenu pour avoir créé une nouvelle\nlégende.
+197	Centre Pokémon Tokyo\nRuban Commémoratif
+198	Centre Pokémon Osaka\nRuban Commémoratif
+199	Centre Pokémon Nagoya\nRuban Commémoratif
+200	Nintendo World NY\nRuban Commémoratif
+201	Ruban Vacances d’Été
+202	Ruban Vacances d’Hiver
+203	Ruban Vacances de Printemps
+204	Ruban Éternel
+205	Ruban Fête Spéciale
+206	Ruban Travailleur
+207	Ruban Plein d’Amis
+208	Ruban Plein d’Énergie
+209	Un Ruban commémoratif pour un Pokémon\nadoré.
+210	Un Ruban qui proclame l’amour des Pokémon.
+211	Centre Pokémon Sapporo\nRuban Commémoratif
+212	Centre Pokémon Yokohama\nRuban Commémoratif
+213	Centre Pokémon Fukuoka\nRuban Commémoratif
+214	Fan Club Pokémon\nRuban Spécial
+215	Fan Club Pokémon\nRuban Wi-Fi
+216	Événement Mondial Wi-Fi\nRuban Commémoratif
+217	Cadeau Mondial Wi-Fi\nRuban Spécial
+218	Cadeau Mondial Simultané\nRuban Spécial
+219	Ouverture du Centre Pokémon\nRuban Commémoratif
+220	Ouverture du POKéPARK\nRuban Commémoratif
+221	Ruban Spécial POKéPARK
+222	Concert Pokémon\nRuban Commémoratif
+223	Ligue Pokémon 2006\nRuban Champion
+224	Ligue Pokémon 2006\nRuban Finaliste
+225	Ligue Pokémon 2006\nRuban Demi-finaliste
+226	Ligue Pokémon 2006\nRuban Participant
+227	Ligue Pokémon 2007\nRuban Champion
+228	Ligue Pokémon 2007\nRuban Finaliste
+229	Ligue Pokémon 2007\nRuban Demi-finaliste
+230	Ligue Pokémon 2007\nRuban Participant
+231	Ligue Pokémon 2008\nRuban Champion
+232	Ligue Pokémon 2008\nRuban Finaliste
+233	Ligue Pokémon 2008\nRuban Demi-finaliste
+234	Ligue Pokémon 2008\nRuban Participant
+235	Ligue Pokémon 2009\nRuban Champion
+236	Ligue Pokémon 2009\nRuban Finaliste
+237	Ligue Pokémon 2009\nRuban Demi-finaliste
+238	Ligue Pokémon 2009\nRuban Participant
+239	Ligue Pokémon 2010\nRuban Champion
+240	Ligue Pokémon 2010\nRuban Finaliste
+241	Ligue Pokémon 2010\nRuban Demi-finaliste
+242	Ligue Pokémon 2010\nRuban Participant
+243	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+244	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+245	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+246	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+247	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+248	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+249	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+250	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+251	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+252	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+253	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+254	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+255	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+256	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+257	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+258	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+259	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+260	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+261	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+262	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+263	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+264	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+265	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+266	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+267	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+268	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+269	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+270	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+271	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+272	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+273	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+274	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+275	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+276	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+277	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+278	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+279	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+280	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+281	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+282	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+283	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+284	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+285	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+286	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+287	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+288	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+289	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+290	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+291	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+292	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+293	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+294	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+295	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+296	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+297	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+298	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+299	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+300	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+301	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+302	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+303	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+304	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+305	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+306	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+307	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+308	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+309	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+310	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+311	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+312	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+313	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+314	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+315	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+316	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+317	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+318	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+319	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+320	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+321	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+322	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+323	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+324	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+325	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+326	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+327	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+328	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+329	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+330	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+331	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+332	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+333	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+334	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+335	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+336	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+337	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+338	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+339	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+340	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+341	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+342	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+343	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+344	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+345	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+346	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+347	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+348	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+349	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+350	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+351	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+352	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+353	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+354	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+355	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+356	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+357	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+358	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+359	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+360	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+361	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+362	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+363	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+364	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+365	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+366	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+367	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+368	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+369	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+370	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+371	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+372	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+373	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+374	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+375	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+376	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+377	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+378	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+379	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+380	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+381	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+382	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+383	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+384	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+385	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+386	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+387	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+388	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+389	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+390	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+391	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+392	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+393	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+394	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+395	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+396	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+397	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+398	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+399	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+400	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+401	Un Ruban commémoratif obtenu dans une\nZone Mystère.
+402	Un Ruban commémoratif obtenu dans une\nZone Mystère.

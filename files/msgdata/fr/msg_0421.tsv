@@ -1,0 +1,27 @@
+40	{ALN_CENTER}EFFACER LE RECORD
+41	{ALN_CENTER}RETOUR
+44	{STRVAR_1 53, 0, 0} victoires
+45	{STRVAR_1 50, 0, 0} victoires
+48	Choisissez le record à effacer,\npuis appuyez sur A ou X.
+49	Effacer le record de {STRVAR_1 3, 0, 0} ?\nVous êtes sûr ?
+52	Impossible d’effacer votre record.
+53	{ALN_CENTER}Record de la Tour de Combat
+54	{ALN_CENTER}Série en Combat Simple
+55	{ALN_CENTER}Record de la Tour de Combat
+56	{ALN_CENTER}Série en Combat Double
+57	{ALN_CENTER}Record de la Tour de Combat
+58	{ALN_CENTER}Série en Combat Multi
+59	{ALN_CENTER}Record de la Tour de Combat
+60	{ALN_CENTER}Série en Combat Multi Réseau
+61	{ALN_CENTER}Record de la Tour de Combat
+62	{ALN_CENTER}Série en Combat Wi-Fi
+63	{ALN_CENTER}Record de la Tour de Combat
+64	{ALN_CENTER}Record de série moyenne
+65	{ALN_CENTER}Records Pokémon
+66	{ALN_CENTER}Nombre de Pokémon battus.
+67	{ALN_CENTER}Records Pokémon
+68	{ALN_CENTER}Pokémon capturés avec une Ball.
+69	{ALN_CENTER}Records Pokémon
+70	{ALN_CENTER}Pokémon éclos d’un Œuf.
+71	{ALN_CENTER}Records Pokémon
+72	{ALN_CENTER}Pokémon pêchés.
