@@ -1572,6 +1572,11 @@ static const u16 sECMenu_Misc[] = {
     0xFFFF,
 };
 
+// The ABC mode's lists of words, by initial: A-Z, then the rest. A translation spells the
+// words differently, so its build sorts them anew (tools/translation/easy_chat_initials.py).
+#ifdef TRANSLATED_TEXT
+#include "msgdata/easy_chat_initials.h"
+#else
 static const u16 sECMenuInitialList00[] = {
     0x04A5,
     0x01CC,
@@ -3161,6 +3166,7 @@ static const u16 sECMenuInitialList26[] = {
     0x0508,
     0xFFFF,
 };
+#endif
 
 static const ECMenuSpec sECMenuSpecs[] = {
     { ECMenuBuild_Pokemon,       sECMenu_Pokemon_AtoL,      NELEMS(sECMenu_Pokemon_AtoL) - 1      },

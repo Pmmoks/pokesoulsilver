@@ -62,11 +62,21 @@ $(MSGFILE_TL_GMM): $(MSGDATA_TL_DIR)/%.gmm: $(MSGDATA_MSG_DIR)/%.gmm $$(wildcard
 
 $(MSGFILE_TL_BIN): %.bin: %.gmm charmap.txt
 	$(MSGENC) -e -c charmap.txt --gmm $< $@
+
+# The Easy Chat word picker's ABC mode, sorted by the translated words: those of
+# sNarcMsgBanks in src/easy_chat.c.
+EASY_CHAT_INITIALS_H  := $(MSGDATA_DIR)/easy_chat_initials.h
+EASY_CHAT_INITIALS_PY := tools/translation/easy_chat_initials.py
+EASY_CHAT_TSV         := $(wildcard $(foreach n,0237 0751 0735 0721 0285 0286 0287 0288 0289 0290 0291,$(MSGDATA_TL_SRC_DIR)/msg_$(n).tsv))
+FILES_NEEDED_FOR_COMPILE += $(EASY_CHAT_INITIALS_H)
+
+$(EASY_CHAT_INITIALS_H): $(EASY_CHAT_INITIALS_PY) tools/translation/tl.py src/easy_chat_menu.c src/easy_chat.c $(EASY_CHAT_TSV)
+	$(if $(PYTHON),$(PYTHON),python3) $(EASY_CHAT_INITIALS_PY) $(translation_code) $@
 endif
 
 clean-msg:
 	$(RM) $(MSGDATA_MSG_DIR).narc $(MSGFILE_BIN) $(MSGFILE_H) $(FIRST_MSG_H_GEN) $(TRNAME_GMM)
-	$(RM) -r $(MSGDATA_DIR)/msg_fr $(MSGDATA_DIR)/msg_fr.narc
+	$(RM) -r $(MSGDATA_DIR)/msg_fr $(MSGDATA_DIR)/msg_fr.narc $(MSGDATA_DIR)/easy_chat_initials.h
 
 .PHONY: clean-msg
 clean-filesystem: clean-msg

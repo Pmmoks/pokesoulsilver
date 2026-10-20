@@ -69,6 +69,7 @@ a/2/6/4
 a/2/6/5
 msgdata/msg.narc
 msgdata/msg_*/
+msgdata/easy_chat_initials.h
 fielddata/eventdata/zone_event.narc
 fielddata/encountdata/g_enc_data.narc
 fielddata/encountdata/s_enc_data.narc

@@ -25,6 +25,11 @@ but without XML escaping (`&`, not `&amp;`). `\n` starts the second line of a bo
 stay in English. At build time `tools/translation/translate_gmm.py` writes the
 French banks to `files/msgdata/msg_fr/` and msgenc encodes them.
 
+The Easy Chat word picker lists the words by initial in its ABC mode, from tables
+in `src/easy_chat_menu.c` that follow the English spelling. A translation build
+replaces them with `files/msgdata/easy_chat_initials.h`, which
+`tools/translation/easy_chat_initials.py` writes from the translated words.
+
 Some banks come from the game itself: the US Pokédex can show its entries in other
 languages, so species names, entries and categories are copied from its French
 banks (`msg_0818`, `msg_0806`, `msg_0824`), and heights and weights are written in
@@ -36,6 +41,7 @@ metric from `zukan_data.json`.
 python3 tools/translation/tl.py dump 3        # English rows of msg_0003 still to translate
 python3 tools/translation/tl.py check         # problems in every translated bank
 python3 tools/translation/tl.py wrap 96       # re-break lines of msg_0096 that are too wide
+python3 tools/translation/tl.py wrap 96 --one-line   # also rows that are one line in English
 python3 tools/translation/tl.py stats         # progress
 ```
 
