@@ -1,0 +1,30 @@
+0	Oh, bonjour ! Par ici, je vous prie !\r
+1	Bonjour. Ravie de faire votre\nconnaissance.\rJe m’appelle Teala, et je suis votre\nguide au Club Wi-Fi Pokémon.\rTout d’abord, je dois vous remettre\nceci.\r
+2	C’est votre Carnet Ami. Vous pouvez y\nenregistrer vos amis.\rUne fois enregistrés, vous pourrez\nvous connecter avec eux via la\fConnexion Wi-Fi Nintendo pour échanger\fdes Pokémon, combattre, etc.\rVoulez-vous en savoir plus ? {YESNO 0}
+3	Au premier étage d’un Centre Pokémon,\nvous pouvez rencontrer des gens pour\fdes échanges ou des combats au\fColisée.\rVous pouvez enregistrer ces\npersonnes comme amis dans votre\fCarnet Ami.\rVous pouvez aussi enregistrer des amis\nvous-même en saisissant leur code ami\fdans votre Carnet Ami.\rVoulez-vous que je répète ? {YESNO 0}
+4	Profitez bien de la CWF Nintendo !
+5	Bienvenue au Club Wi-Fi du Centre\nPokémon !\rPuis-je vous aider ? {YESNO 0}
+6	Laissez-moi vous expliquer le\nfonctionnement du Club Wi-Fi Pokémon.\rAu comptoir du milieu, vous pouvez\nutiliser la Connexion Wi-Fi Nintendo.\rVia la CWF Nintendo, vous pouvez\néchanger et combattre avec les amis\fenregistrés dans votre Carnet Ami. {YESNO 0}
+7	Bienvenue au Club Wi-Fi Pokémon !\rVoulez-vous utiliser la Connexion Wi-Fi\nNintendo ? {YESNO 0}
+8	Revenez quand vous voulez.
+9	Voulez-vous lancer la CWF Nintendo ? {YESNO 0}
+10	Par ici, je vous prie.\r
+11	... Oh ?\rDésolée, mais aucun ami n’est\nenregistré dans votre Carnet Ami.\rLe Club Wi-Fi ne peut pas être utilisé\nsans ami dans votre Carnet Ami.\rVoulez-vous au moins obtenir votre\npropre code ami ? {YESNO 0}
+12	... Oh ?\rDésolée, mais aucun ami n’est\nenregistré dans votre Carnet Ami.\rLe Club Wi-Fi ne peut pas être utilisé\nsans ami dans votre Carnet Ami.\rEnregistrez des amis dans votre\nCarnet Ami, puis revenez.
+13	Dans n’importe quel Club Wi-Fi, vous\npouvez jouer via la Connexion Wi-Fi\fNintendo.\rVous pouvez ainsi échanger ou\ncombattre avec les amis enregistrés\fdans votre Carnet Ami.\rDeux types de combat sont possibles :\nSimple ou Double.\rPour chacun, vous pouvez choisir parmi\ntrois limites de niveau : Libre, Niveau\f50 ou Niveau 100.\rEn Niveau 50 et Niveau 100, le niveau\nde tous les Pokémon participants est\ftemporairement ajusté.\rSe connecter à la CWF Nintendo ? {YESNO 0}
+14	CLUB WI-FI
+15	INFOS
+16	QUITTER
+17	Veuillez nous excuser... Revenez\nquand vous ne ferez plus partie de la\fTeam Rocket...
+18	Bonjour, vous pouvez entrer d’ici sur\nla Place Wi-Fi du Centre Pokémon.\rVoulez-vous utiliser la Connexion Wi-Fi\nNintendo ? {YESNO 0}
+19	Se connecter à la CWF Nintendo ? {YESNO 0}
+20	Entrez par ici, je vous prie.\r
+21	Nous attendons votre prochaine\nvisite.
+22	La Place Wi-Fi est un lieu où vous\npouvez rencontrer des Dresseurs du\fmonde entier.\rVous pouvez discuter et participer aux\nJeux de la Place.\rVous pouvez aussi jouer avec des\nJouets Tactiles exclusifs à la Place\fWi-Fi.\rLa connexion à la Place Wi-Fi est\nlimitée dans le temps.\rVous serez déconnecté au bout d’un\ncertain temps.\rNous espérons que vous profiterez au\nmaximum de chaque visite à la Place\fWi-Fi !\rSe connecter à la CWF Nintendo ? {YESNO 0}
+23	PLACE WI-FI
+24	INFOS
+25	QUITTER
+26	Désolée, nous préparons tout.\nRevenez plus tard.
+27	Veuillez nous excuser... Les\npersonnes vêtues de noir, celles qui\fse livrent à des activités illégales et\fles membres de la Team Rocket ne\fpeuvent pas participer.
+28	Veuillez nous excuser.\rLe Professeur Orme de Bourg Geon nous\na fait savoir qu’un PICHU aux oreilles\fpointues\rne pouvait pas être autorisé à entrer.\rVeuillez le mettre dans une Boîte du PC\net revenir.
+29	Veuillez nous excuser.\rLe Pokémon aux oreilles pointues qui\nvous accompagne... Il n’apparaît pas\fdans la base de données du Centre\fPokémon, nous ne pouvons donc\fmalheureusement pas le laisser\fpasser.\rVeuillez le mettre dans une Boîte du PC\net revenir.

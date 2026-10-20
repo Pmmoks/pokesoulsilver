@@ -1,0 +1,132 @@
+0	Bienvenue !\rIci, vous pouvez choisir un Pokémon de\nvotre Boîte PC et l’envoyer dans le\fPokéwalker pour l’emmener en Balade.\r
+1	Choisissez le Pokémon\nque vous voulez emmener.
+2	Recevoir des Pokémon\net des cadeaux.
+3	Attention !\rToutes les données sauvegardées dans le\nPokéwalker vont être effacées.\rAvant de les effacer, vérifiez bien les\ninformations.\rLe Pokémon de votre Pokéwalker\nreviendra, mais toutes les autres\fdonnées du Pokéwalker seront effacées.\rEffacer les données du Pokéwalker ?
+4	Tous les records du\nPokéwalker vont être effacés.
+5	Pointez vers la carte DS\net choisissez “CONNEXION”.
+6	Connexion au Pokéwalker. Patientez.
+7	Dans un endroit où le\nPokéwalker peut faire du\fbruit, pointez-le vers la\fcarte DS, appuyez sur le\fbouton et attendez 5 secondes.
+8	Votre Pokémon peut maintenant\nfaire une Balade dans le Pokéwalker.
+9	Conserver le compteur de pas ?
+11	Choisissez un Pokémon de votre Boîte PC.\r
+12	Choisissez la Route sur laquelle vous\nvoulez faire une Balade.\r
+13	Sauvegarde en cours...\nN’éteignez pas la console.
+15	Pour utiliser le Pokéwalker, il faut au\nmoins cinq places libres dans une Boîte\fPC.\rRevenez quand vous aurez libéré au moins\ncinq places.\r
+16	La Nintendo DS va se connecter\nau Pokéwalker.{PAUSE 90}
+18	Attention !\rVous pouvez faire revenir le Pokémon\nparti en Balade, mais vous ne pourrez\fpas transférer les autres Pokémon du\fPokéwalker.\rFaire revenir le Pokémon quand même ?
+19	Le Pokémon parti en Balade\nva être renvoyé.
+20	Les Pokémon reçus ont été relâchés\ndans la nature.{PAUSE 120}
+21	Faire une Balade sur la Route\n{STRVAR_34 19, 0, 0} ?
+22	Bienvenue !\rIci, vous pouvez choisir un Pokémon de\nvotre Boîte PC et l’envoyer dans le\fPokéwalker pour l’emmener en Balade.\rRevenez quand vous aurez mis au moins un\nPokémon dans une Boîte PC.\r
+24	{STRVAR_1 1, 1, 0} est dans le Pokéwalker !{PAUSE 120}
+25	Le Pokéwalker a été associé à cette\ncarte DS. Pour faire revenir votre\fPokémon, utilisez cette carte DS.\rProfitez bien de votre Balade avec votre\nPokémon !\r
+26	Reviens, {STRVAR_1 1, 1, 0} !
+27	{STRVAR_1 1, 1, 0} est arrivé !{PAUSE 120}
+29	Cadeau(x) reçu(s) !{PAUSE 120}
+31	Les records du Pokéwalker\nont été réinitialisés.{PAUSE 120}
+32	Le Pokémon est revenu !{PAUSE 120}
+33	Connexion au Pokéwalker\nannulée.{PAUSE 120}
+34	Ce Pokéwalker est déjà\nassocié.{PAUSE 120}
+35	Échec de la connexion.{PAUSE 120}
+36	Ce Pokéwalker n’est pas\nencore associé.{PAUSE 120}
+37	Il y a déjà un Pokémon dans\nce Pokéwalker.{PAUSE 120}
+38	Ce Pokéwalker n’est pas le\nPokéwalker associé.{PAUSE 120}
+39	Ce Pokéwalker n’est pas le\nPokéwalker associé.{PAUSE 120}
+41	La connexion au Pokéwalker\na été interrompue.{PAUSE 120}
+42	La connexion a été coupée.\nVeuillez réessayer.{PAUSE 120}
+43	Il n’y a aucun Pokémon dans\nce Pokéwalker.{PAUSE 120}
+44	{STRVAR_1 1, 1, 0} est revenu de sa Balade sur\n{STRVAR_34 19, 2, 0} !\r
+45	{STRVAR_1 54, 3, 0} W récoltés pendant la Balade !\r
+46	Repartez en Balade quand vous voulez !\r
+47	Faites une Balade avec le Pokémon que\nvous avez envoyé dans le Pokéwalker !\r
+48	...\nQuoi ?\rLes Watts récoltés ont débloqué quelque\nchose dans le Pokéwalker !\rUne nouvelle Route a été découverte\ndans le Pokéwalker !\r
+49	Tous les Pokémon attrapés pendant la\nBalade ont été envoyés dans une Boîte\fPC !\r
+50	Les objets trouvés pendant la Balade\nont été rangés dans votre Sac !\r
+51	{STRVAR_1 1, 1, 0} a fait {STRVAR_1 56, 3, 0} pas !
+52	{STRVAR_1 1, 1, 0} a gagné un niveau pendant la\nBalade !\r
+53	Félicitations !\rLe Pokéwalker a atteint 9 999 999 pas !\r
+54	Vous recevez une Baie Frista en\nrécompense ! Elle a été rangée dans le\fSac !\r
+55	{STRVAR_34 19, 4, 0} est désormais disponible !\r
+56	Sur {STRVAR_34 19, 2, 0} :
+57	{STRVAR_1 56, 5, 0} pas parcourus.
+58	{STRVAR_1 54, 3, 0} W récoltés.
+59	Pas parcourus au total :
+61	Watts récoltés au total :
+62	{STRVAR_1 56, 7, 0} W
+63	Résultats de cette Balade :
+64	Cadeaux reçus :
+65	Records du Pokéwalker :
+66	Votre Pokémon :
+71	Objets obtenus :
+73	Partir en Balade.
+74	Recevoir un cadeau.
+75	Revenir de Balade.
+76	Effacer les records du Pokéwalker.
+77	Sauvegarder et partir en Balade.
+78	Faire revenir le Pokémon.
+79	{ALN_CENTER}Quitter
+82	Total de Watts :
+83	{STRVAR_1 56, 7, 0} W
+85	Total de pas :
+86	Watts requis pour la prochaine\nRoute : {STRVAR_1 56, 12, 0} W
+87	On dirait qu’une nouvelle Route\nva bientôt apparaître.
+88	Vous pouvez choisir où faire une Balade\nparmi de nombreuses Routes.
+89	{STRVAR_1 1, 13, 0} est\nen Balade.
+91	Pré Vivifiant
+92	Forêt Bruyante
+93	Chemin Rocheux
+94	Belle Plage
+95	Banlieue
+96	Grotte Sombre
+97	Lac Bleu
+98	Faubourgs
+99	Prairie Hoenn
+100	Plage Chaude
+101	Chemin Volcan
+102	Cabane Arbre
+103	Grotte Effroi
+104	Prairie Sinnoh
+105	Mont Glacé
+106	Grande Forêt
+107	Lac Blanc
+108	Plage Agitée
+109	Station Balnéaire
+110	Grotte Calme
+111	Au-delà des Mers
+112	Bord du Ciel
+113	Forêt Jaune
+114	Rallye
+115	Tourisme
+116	Voie du Vainqueur
+117	Pré Amitié
+119	Une prairie vivifiante pour\nune Balade. On peut y rencontrer\nde nombreux Pokémon.
+120	Une grande forêt sauvage.\nDe nombreux Pokémon vivent\nau fond de la forêt.
+121	Une route de montagne\naccidentée. La vue au sommet\nest magnifique.
+122	Cette belle mer est un lieu de\nBalade prisé. On y rencontre\nbeaucoup de Pokémon Eau.
+123	Un quartier résidentiel. Même\nen s’y baladant, on peut\nrencontrer des Pokémon.
+124	Une grotte sombre parfois\nutilisée pour tester son courage.\nOn y trouve beaucoup de Pokémon.
+125	Un lac bleu et profond.\nOn dit que des Pokémon rares\nvivent au fond de ce lac.
+126	Les faubourgs d’une ville.\nLà où les gens sont partis,\nles Pokémon se sont installés.
+127	Une Route au cœur de Hoenn.\nOn y rencontre des Pokémon\nabsents de Johto et Kanto.
+128	Une plage très chaude de Hoenn.\nOn y rencontre des Pokémon\nabsents de Johto et Kanto.
+129	Un chemin à travers un volcan\nen activité. Des Pokémon rares\net ardents y vivent.
+130	Un chemin parmi les arbres\nde la forêt. Les Pokémon\ny changent sans cesse.
+131	Une grotte noire qui semble\nhantée. On dit que beaucoup de\nPokémon vivent au fond.
+132	Une Route à Sinnoh, loin de\nJohto et Kanto. Des Pokémon\nrares y vivent.
+133	Une route enneigée où un faux\npas peut faire tomber. Elle teste\nvotre confiance en vos Pokémon.
+134	Une forêt entourée d’arbres\nancestraux. Beaucoup de\nPokémon y vivent.
+135	Un lac caché par une brume\nblanche. Il donne une\nimpression très mystérieuse.
+136	De fortes vagues frappent cette\nplage. Comme personne n’y vient,\ndes Pokémon rares y vivent.
+137	Un lieu de villégiature chic\nque tout le monde veut visiter,\nconnu pour ses Pokémon mignons.
+138	Une grotte calme, profonde et\nvide. En cherchant bien, on y\ntrouve des Pokémon rares.
+139	Une petite île au loin, à\nl’horizon. En regardant la mer,\non voit des Pokémon nager.
+140	Un chemin de montagne sombre\nqui donne l’impression de\nremonter le temps.
+141	Beaucoup de PIKACHU vivent en\nharmonie dans cette forêt.\nBaladez-vous souvent ici !
+142	Une Route amusante pour jouer\navec votre Pokéwalker. Partez\nen Balade et visitez tout !
+143	On trouve beaucoup de Pokémon\nsur cette Route. Faites une\nlongue marche pour tous les voir !
+144	Si vous visez le titre de Maître,\nmarchez sur cette Route !\nVous y croiserez des Pokémon forts !
+145	Rencontrez des Pokémon mignons\nqui évoluent par amitié et\ntrouvez des objets d’évolution !
+148	{ALN_CENTER}Oui
+149	{ALN_CENTER}Non
+150	{ALN_CENTER}Garder les pas
+151	{ALN_CENTER}Effacer les pas

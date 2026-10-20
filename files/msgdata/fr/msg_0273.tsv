@@ -1,0 +1,109 @@
+0	Kanto
+1	Johto
+4	Choisissez votre destination.
+5	Voler jusqu’à {STRVAR_1 4, 0, 0} ?
+6	Fermer
+7	Voler
+8	Quitter
+10	Une petite ville récente et calme.\nC’est un joli endroit.
+11	Une belle ville enveloppée de verdure\ntoute l’année.
+12	Une ville paisible nichée entre les\nmontagnes et les rochers.
+13	Une belle ville où coule l’eau et où\nfleurissent les fleurs.
+14	Une petite ville baignée d’une\nmagnifique teinte violette.
+15	Une ville du sud baignée de l’orange du\nsoleil couchant.
+16	Une riche ville arc-en-ciel où vivent\nhumains et Pokémon.
+17	Un village historique qui a fait peau\nneuve.
+18	Une ville se trouvait ici avant d’être\nbalayée par une éruption.
+19	Le destin de nombreux Dresseurs\nvisant le sommet se joue ici.
+20	La plus grande ville de Kanto, brillant\nd’une lumière dorée.
+21	Une ville où souffle un vent qui\nannonce le changement.
+22	Une ville où l’on sent les petites\nfleurs et la brise marine.
+23	Ce vieux village est toujours entouré\nd’arbres et de nature.
+24	Une ville où humains et Pokémon vivent\nensemble en harmonie.
+25	Une ville côtière qui a beaucoup\nprofité de la mer.
+26	Une ville en plein essor où humains et\nPokémon vont et viennent.
+27	Une ville où l’on entend la mélodie de\nla mer.
+28	Une ville qui porte encore les traces\nde son histoire.
+29	Une ville à l’air louche. C’est un\nrepaire de ninjas.
+30	Un immense lac rempli d’une eau claire\net bleue.
+31	Un mystérieux village de montagne\ntaillé dans la roche.
+32	Une montagne où un mystère vous\nattend sous vos pieds.
+33	Un tunnel creusé par des TAUPIQUEUR\nreliant Carmin sur Mer à Argenta.
+34	Une étoile y est tombée. Elle recèle un\npouvoir mystérieux.
+35	Une grotte qui s’était effondrée. Elle\na été reconstruite.
+36	Un tunnel sombre qui part de\nLavanville et débouche à Azuria.
+37	Le Parc Safari se trouvait ici, c’est\naujourd’hui le Parc des Amis.
+38	Deux petites îles qui flottent\ndoucement sur l’océan.
+39	Une tour où l’on étudie avec ardeur\npour vivre avec les Pokémon.
+40	Une tour où un Pokémon légendaire\nviendrait se poser.
+41	Un sentier toujours baigné par le\nsoleil couchant, en toute saison.
+42	Une tour frappée par la foudre, qui a\nensuite pris feu et brûlé.
+43	Un parc vaste et magnifique, relié au\nDôme Pokéathlon.
+44	Un vieux bâtiment reconverti en tour\nde radiodiffusion.
+45	Un lieu où l’on peut retrouver une\naventure d’autrefois.
+46	Profondément sous terre, il est relié\nà l’océan. L’eau s’y écoule.
+47	Quand les RAMOLOSS ont soif, ils\nviennent boire ici.
+48	Il brille au-dessus de l’océan grâce\nau pouvoir d’PHARAMP.
+49	Un Stade de Combat avec cinq jeux de\nrègles différents.
+50	Un lieu où des gens venus de partout\nmontrent leur force.
+52	Une grande forêt pleine d’arbres\nutilisés pour faire du charbon.
+54	Une immense caverne naturelle,\nincroyablement spacieuse.
+55	Une grotte qui relie la Route 44 à\nEbenelle.
+56	Quatre îles protégées par des\ntourbillons et difficiles d’accès.
+57	Une montagne sacrée qui s’élève entre\nJohto et Kanto.
+58	Un tunnel sombre et difficile qui passe\nsous la région de Johto.
+59	Une route qui met à l’épreuve les\nDresseurs visant la Ligue Pokémon.
+61	Les Chutes Tohjo, qui relient les\nrégions de Kanto et de Johto.
+62	Une forêt pleine de nature et de\nPokémon Insecte.
+63	Un lieu où les Pokémon peuvent\nmesurer leurs forces.
+65	Une zone enneigée aux vieilles\nlégendes, entourée d’un mur de neige.
+67	La centrale qui produit toute\nl’énergie de la région de Kanto.
+68	Un lieu où vivre des sensations\nsauvages en toute sécurité.
+69	Un bateau qui sillonne les mers grâce à\nl’énergie hydraulique.
+70	Une route de campagne pleine de\nverdure et de chemins accidentés.
+71	Un chemin qui serpente depuis l’entrée\nde la forêt.
+72	Une route où de nombreux rochers\ntombés du ciel ont créé des cratères.
+73	Une route à sens unique en pente\ndouce, amusante à descendre.
+74	Une route au nord de Safrania, reliée\nau Souterrain.
+75	Une route au sud de Safrania, reliée\nau Souterrain.
+76	Une route courte qui mène au\nSouterrain bloqué.
+77	Une route courte qui mène au\nSouterrain bloqué.
+78	Une route en labyrinthe qui traverse\nune petite montagne rocheuse.
+79	Une route qui longe le canal et\ndébouche à la Centrale.
+80	Un chemin herbeux où souffle une brise\ndouce et rafraîchissante.
+81	Un pont connu pour la pêche. On\nl’appelle aussi le “Pont du Silence”.
+82	Un chemin étroit et difficile où de\nnombreux Dresseurs vous attendent.
+83	Une agréable route côtière où souffle\nla brise et grondent les vagues.
+84	Un chemin qui traverse la rangée\nd’arbres jusqu’au littoral.
+85	Le point de départ nord de la Piste\nCyclable.
+86	Une partie facile de la Piste Cyclable,\nau-dessus de la mer.
+87	Le point d’arrivée sud de la Piste\nCyclable.
+88	Une route côtière jonchée de rochers\npar l’éruption de Cramois’Île.
+89	Un chemin prisé des nageurs. Les Îles\nÉcume s’y trouvent aussi.
+90	Une route côtière où la seule menace\nest peut-être le volcan à l’horizon.
+91	Un chemin vers la Route Victoire qui\nfinit par devenir impraticable.
+93	Un beau pont qui enjambe une rivière.
+94	Un chemin qui serpente dans la forêt\net débouche face à la mer.
+95	Une route de montagne terriblement\ndifficile, comme une épreuve.
+96	Une route qui va de Johto à Kanto,\ncomme un nouveau voyage.
+97	Une route de montagne déserte et\ncachée qui mène au Mont Argenté.
+98	Une route où commence le voyage. Elle\nsent l’herbe fraîchement coupée.
+99	Un chemin herbeux où l’on peut\naffronter d’autres jeunes Dresseurs.
+100	Un petit chemin nostalgique qui\nserpente dans la nature.
+101	Un chemin sous le pont du Train\nMagnétique. Nature et technique !
+102	Un chemin difficile, toujours sous la\npluie, qui débouche sur une grotte.
+103	Un chemin vert et luxuriant, bien qu’il\nsoit juste à côté d’une ville.
+104	Un chemin lumineux avec un lac,\nagréable et facile à parcourir.
+105	Un chemin vert et très touffu qui se\nsépare en deux directions.
+106	Une route prisée des Dresseurs,\nmarquée par trois arbres à Noigrumes.
+107	Un chemin qui serpente entre les\narbres et débouche sur une ferme.
+108	Un chemin en descente à travers une\nplaine herbeuse et venteuse.
+109	On entend les vagues sur ce chemin qui\nva de l’ouest d’Oliville à la mer.
+110	Une zone agitée de la mer où des\ntourbillons barrent le passage.
+111	Un petit chemin ouvert au pied du\nredoutable Mont Creuset.
+112	Un chemin boisé qui débouche sur un\nlac. Méfiez-vous du portail avide.
+113	Un chemin magnifique avec des sources\nagréables et de la verdure.
+114	Une route sinueuse le long d’une\nrivière, appelée “Route de Montagne”.
+115	Un chemin du retour qui va du pied de\nla montagne jusqu’aux plaines.
+116	Une route à flanc de falaise qui\nterrifie ceux qui osent l’emprunter.
+117	Un chemin agréable du pied de la\nmontagne jusqu’au Parc Safari.

@@ -1,0 +1,88 @@
+0	A vécu une grande aventure avec\n{STRVAR_1 1, 3, 0} de {STRVAR_1 3, 2, 0} !
+1	{STRVAR_1 1, 1, 0} s’est bien débrouillé ! Il a\nl’air très fier !
+2	{STRVAR_1 1, 1, 0} est plein d’entrain ! Il a\npris la tête !
+3	{STRVAR_1 1, 1, 0} est plein d’entrain ! Il\ntourne en rond...
+4	{STRVAR_1 1, 3, 0} nous a sortis d’une\nsituation difficile ! Ça nous a\nrapprochés !
+5	A fait un combat amusant avec\n{STRVAR_1 1, 3, 0} de {STRVAR_1 3, 2, 0}.
+6	{STRVAR_1 1, 1, 0} est très rapide !\n{STRVAR_1 1, 3, 0} a gardé ses distances !
+7	Une grande lutte ! {STRVAR_1 1, 1, 0} a gagné\nde justesse !
+8	Une grande lutte ! Ce dernier coup a\nété décisif... !
+9	{STRVAR_1 1, 1, 0} est très agile ! Enfin, on\naurait dit, mais il est tombé !
+10	A couru avec {STRVAR_1 1, 3, 0} de\n{STRVAR_1 3, 2, 0}.
+11	{STRVAR_1 1, 1, 0} a été très rapide ! Il a\nsemé {STRVAR_1 1, 3, 0} !
+12	{STRVAR_1 1, 1, 0} a trouvé un second\nsouffle ! Il montre ses réserves\nd’énergie !
+13	{STRVAR_1 1, 1, 0} était épuisé à la fin.
+14	{STRVAR_1 1, 3, 0} est trop rapide ! Personne\nne peut le rattraper !
+15	A fait une Balade avec {STRVAR_1 1, 3, 0} de\n{STRVAR_1 3, 2, 0}.
+16	{STRVAR_1 1, 1, 0} a entraîné {STRVAR_1 1, 3, 0} avec\nlui.
+17	{STRVAR_1 1, 1, 0} a marché devant, tout\njoyeux !
+18	Vous avez marché ensemble comme de\nbons amis.
+19	{STRVAR_1 1, 1, 0} a trébuché et il est tombé !
+20	A joué un peu avec {STRVAR_1 1, 3, 0} de\n{STRVAR_1 3, 2, 0}.
+21	{STRVAR_1 1, 1, 0} embête {STRVAR_1 1, 3, 0}.
+22	{STRVAR_1 1, 1, 0} a ricané et a provoqué\n{STRVAR_1 1, 3, 0} !
+23	{STRVAR_1 1, 1, 0} a l’air d’avoir sommeil ?
+24	{STRVAR_1 1, 1, 0} s’est endormi... !
+25	A rencontré {STRVAR_1 1, 3, 0} de {STRVAR_1 3, 2, 0},\nvenu de très loin. C’était un Pokémon\nrare... mais je ne me souviens plus\nlequel !
+26	A utilisé le Cherch’Objet et a trouvé\n{STRVAR_1 8, 4, 0} !
+27	Aujourd’hui, {STRVAR_1 1, 1, 0} a les idées\nclaires et il est très confiant !
+28	Les sens de {STRVAR_1 1, 1, 0} ont l’air\naiguisés !
+29	{STRVAR_1 1, 1, 0} est de très bonne humeur, il\na l’air sur le point de danser !
+30	{STRVAR_1 1, 1, 0} a l’air très content et veut\njouer avec {STRVAR_1 8, 4, 0}.
+31	{STRVAR_1 1, 1, 0} regarde par ici et se\nconcentre sur {STRVAR_1 8, 4, 0}.
+32	{STRVAR_1 1, 1, 0} se sent plutôt fier.
+33	... Quoi ? {STRVAR_1 8, 4, 0} était tombé ici !\n{STRVAR_1 1, 1, 0} est tout excité d’avoir\ntrouvé un objet aussi rare !
+34	... Quoi ? {STRVAR_1 8, 4, 0} était tombé ici !\nQuelle étrange coïncidence !
+35	{STRVAR_1 0, 5, 0} trouvé avec le Poké Radar !\nIl a été capturé avec brio !
+36	Aujourd’hui a l’air d’être un grand\njour ! {STRVAR_1 1, 1, 0} déborde de\nconfiance !
+37	{STRVAR_1 1, 1, 0} déborde d’énergie ! Il a\ntant marché et il n’est pas fatigué !
+38	{STRVAR_1 1, 1, 0} se déplace avec intelligence\net beaucoup de grâce !
+39	{STRVAR_1 1, 1, 0} a un si joli jeu de jambes !\nIl devine les coups de l’adversaire ?
+40	Pas la moindre trace d’hésitation dans\nles mouvements de {STRVAR_1 1, 1, 0} !
+41	{STRVAR_1 1, 1, 0} est calme et continue de\nfaire de son mieux !
+42	Rencontre avec {STRVAR_1 0, 5, 0} !\n{STRVAR_1 1, 1, 0} est si surpris qu’il ne peut\nque fixer {STRVAR_1 0, 5, 0} sans réagir.
+43	Rencontre avec {STRVAR_1 0, 5, 0} !\n{STRVAR_1 0, 5, 0} fixe {STRVAR_1 3, 0, 0} d’un air\nabsent.
+44	{STRVAR_1 0, 5, 0} trouvé avec le Poké Radar !\nMalheureusement, il s’est enfui.
+45	{STRVAR_1 0, 5, 0} trouvé avec le Poké Radar !\nQuel adversaire coriace !\nMalheureusement, {STRVAR_1 1, 1, 0} a perdu...
+46	{STRVAR_1 1, 1, 0} a trouvé {STRVAR_1 8, 4, 0} !
+47	On dirait qu’il voulait faire un cadeau à\n{STRVAR_1 3, 0, 0}...
+48	{STRVAR_1 1, 1, 0} a l’air de vouloir que\n{STRVAR_1 3, 0, 0} utilise l’objet.
+49	{STRVAR_1 1, 1, 0} a fièrement donné l’objet.
+50	Il vous l’a lancé d’un coup ! ... Il vous\nle donne ?
+51	{STRVAR_1 1, 1, 0} a l’air si heureux ! Il\nsautille même ! Il a l’air si content\nd’être avec {STRVAR_1 3, 0, 0} !
+52	{STRVAR_1 1, 1, 0} a l’air si heureux ! Il\nsautille même ! Il fait tout pour attirer\nl’attention de {STRVAR_1 3, 0, 0} !
+54	{STRVAR_1 1, 1, 0} est très heureux ! Il\ntourne en rond autour de {STRVAR_1 3, 0, 0}\nencore et encore ! Il ne va pas se\nfatiguer ?
+55	{STRVAR_1 1, 1, 0} est si heureux ! Il a couru\nloin devant {STRVAR_1 3, 0, 0}, a soudain\nremarqué la distance et est revenu en\ncourant, tout perdu !
+56	{STRVAR_1 1, 1, 0} est très heureux ! Il\ntourne en rond, tout étourdi ! Il n’a\npas l’air de vous entendre...
+57	{STRVAR_1 1, 1, 0} marche en silence à côté de\n{STRVAR_1 3, 0, 0}. À quoi peut-il bien penser ?
+58	{STRVAR_1 1, 1, 0} a regardé par ici. Il\nregarde partout en marchant. Il a\ntrouvé quelque chose ?
+59	{STRVAR_1 1, 1, 0} a regardé par ici. Enfin, on\naurait dit, mais ses yeux se sont\ntournés ailleurs... !
+60	{STRVAR_1 1, 1, 0} a l’air de s’ennuyer un peu.\nIl a l’air d’attendre quelque chose. Il\nvous fixe...
+61	{STRVAR_1 1, 1, 0} a l’air de s’ennuyer un peu.\nIl vous regarde fixement. Il a très\nenvie de jouer.
+62	{STRVAR_1 1, 1, 0} a l’air de s’ennuyer un\npeu... Il est peut-être fâché... ?
+63	{STRVAR_1 1, 1, 0} a l’air de vouloir rentrer...\nIl a peut-être tant joué qu’il veut\nrentrer se reposer...
+64	{STRVAR_1 1, 1, 0} a l’air de vouloir rentrer...\nIl a peut-être tant joué qu’il veut\nrentrer se reposer...
+65	{STRVAR_1 1, 1, 0} a l’air de vouloir rentrer...\nIl a peut-être tant joué qu’il veut\nrentrer se reposer...
+66	Sans que vous le remarquiez,\n{STRVAR_1 1, 1, 0} vous a rejoint ! Il a l’air\nde vouloir marcher avec vous.
+67	{STRVAR_1 1, 1, 0} est déjà rentré. Il est\ntrop fatigué...
+69	{STRVAR_1 1, 1, 0} est parti en Balade sur\n{STRVAR_34 19, 8, 0}.
+70	Départ pour {STRVAR_34 19, 8, 0} !
+71	Retour à {STRVAR_1 33, 6, 0} du matin.
+72	{STRVAR_1 1, 1, 0} a l’air si comblé ! C’est un\njour qu’il n’oubliera jamais !
+73	{STRVAR_1 1, 1, 0} a beaucoup joué et il est\ntrès satisfait !
+74	{STRVAR_1 1, 1, 0} a l’air très heureux ! Ça se\nlit sur son visage !
+75	{STRVAR_1 1, 1, 0} a eu l’air de vraiment aimer\njouer avec vous !
+76	{STRVAR_1 1, 1, 0} a l’air très heureux. Il a\nappris à aimer ces Balades.
+77	{STRVAR_1 1, 1, 0} tire sur vos vêtements. Il a\nl’air de vouloir jouer encore.
+78	{STRVAR_1 1, 1, 0} boude, on ne sait pas\npourquoi...
+79	{STRVAR_1 54, 7, 0} pas parcourus ! {STRVAR_1 1, 1, 0} est\ntrès content d’avoir tant marché avec\n{STRVAR_1 3, 0, 0} ! Il a l’air ravi.
+80	{STRVAR_1 54, 7, 0} pas parcourus ! {STRVAR_1 1, 1, 0} est si\nheureux qu’il gambade ! On dirait qu’il\nva vous sauter sur le dos.
+81	{STRVAR_1 54, 7, 0} pas parcourus. {STRVAR_1 1, 1, 0} a l’air\nvif et plein d’énergie ! Il reste tout\nprès de vous.
+82	{STRVAR_1 54, 7, 0} pas parcourus. {STRVAR_1 1, 1, 0} se\npromène tranquillement derrière vous.
+83	{STRVAR_1 1, 1, 0} s’est profondément endormi.
+84	{STRVAR_1 1, 1, 0} a l’air de profiter d’une\nsieste.
+85	{STRVAR_1 1, 1, 0} fait une petite sieste. Il\ndoit être un peu fatigué.
+87	{STRVAR_1 33, 6, 0} du matin
+88	{STRVAR_1 33, 6, 0} de l’après-midi
+89	Quitter
+90	Retour à {STRVAR_1 33, 6, 0} de l’après-midi.

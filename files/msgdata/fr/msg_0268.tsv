@@ -1,0 +1,7 @@
+0	Il va oublier la phrase qu’il connaît.\nD’accord ?{YESNO 0}
+1	Appuyez sur “Suivant”, puis parlez\ndans le micro.\r
+2	{STRVAR_1 1, 0, 0} a appris une nouvelle\nphrase !\r
+3	{STRVAR_1 1, 0, 0} n’a pas réussi à\napprendre une nouvelle phrase.\r
+4	Voulez-vous réessayer ?{YESNO 0}
+5	Il a l’air distrait et n’arrive pas à\nse concentrer...
+8	Préparation du micro...
