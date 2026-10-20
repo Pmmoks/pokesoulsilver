@@ -1,0 +1,109 @@
+0	Retour
+1	Points
+2	Record du parcours
+5	420 points pour un Trophée Collectif
+6	450 points pour un Trophée Collectif
+7	Points bonus
+8	{STRVAR_1 52, 0, 0} points
+9	--- points
+11	Trophées de {STRVAR_1 3, 0, 0}
+12	Trophée Collectif
+13	Trophée Confiance
+14	Trophée Potentiel
+15	Trophée Amitié
+16	Pokéathlon : total des pts
+17	3 000 points pour le 1er Trophée Amitié
+18	3 100 points pour le 2e Trophée Amitié
+19	3 200 points pour le 3e Trophée Amitié
+20	3 300 points pour le 4e Trophée Amitié
+21	3 400 points pour le 5e Trophée Amitié
+22	3 600 points pour le 6e Trophée Amitié
+23	3 800 points pour le 7e Trophée Amitié
+24	4 000 points pour le 8e Trophée Amitié
+25	4 200 points pour le 9e Trophée Amitié
+26	4 500 points pour le 10e Trophée Amitié
+27	Trophées Amitié complets !
+28	Total records parcours :{CURSOR_X 176}{STRVAR_1 53, 0, 0} points
+29	Total records épreuves :{CURSOR_X 176}{STRVAR_1 53, 0, 0} points
+30	Total médailles obtenues :{CURSOR_X 176}{STRVAR_1 53, 0, 0} points
+31	Total
+32	Obtenus
+33	{ALN_CENTER}“Pokéathlète Recrue”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+34	{ALN_CENTER}“Pokéathlète Débutant”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+35	{ALN_CENTER}“Pokéathlète Novice”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+36	{ALN_CENTER}“Pokéathlète Intermédiaire”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+37	{ALN_CENTER}“Pokéathlète Avancé”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+38	{ALN_CENTER}“Super Pokéathlète”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+39	{ALN_CENTER}“Pokéathlète Remarquable”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+40	{ALN_CENTER}“Pokéathlète Prodige”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+41	{ALN_CENTER}“Pokéathlète Habile”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+42	{ALN_CENTER}“Pokéathlète Expérimenté”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+43	{ALN_CENTER}“Pokéathlète d’Élite”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+44	{ALN_CENTER}“Pokéathlète de Fer”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+45	{ALN_CENTER}“Ultra Pokéathlète”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+46	{ALN_CENTER}“Pokéathlète le plus Fort”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+47	{ALN_CENTER}“Pokéathlète Invincible”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+48	{ALN_CENTER}“Pokéathlète Vétéran”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+49	{ALN_CENTER}“Pokéathlète Génie”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+50	{ALN_CENTER}“Pokéathlète Expert”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+51	{ALN_CENTER}“Roi des Pokéathlètes”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+52	{ALN_CENTER}“Empereur des Pokéathlètes”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+53	{ALN_CENTER}“Maître des Pokéathlètes”\n{ALN_CENTER}Digne de ses Trophées et de\n{ALN_CENTER}l’amitié de ses Pokémon.
+54	Participations : {STRVAR_1 56, 0, 0}
+55	Records épreuves Solo
+56	Records épreuves Réseau
+63	Choisissez une épreuve
+64	Record de l’épreuve
+65	Record de temps des trois Pokémon
+66	Nb de Fanions rapportés
+67	Points Pousse-Cercle
+68	Nb de Blocs cassés
+69	Points Attrape-Disque
+70	Points Saut Lampion
+71	Nb de tours courus
+72	Points Ring Sumo
+73	Touches de boules de neige
+74	Points Roule-But
+75	Mode Réseau
+76	80 s pour un Trophée Potentiel
+77	50 Fanions pour un Trophée Potentiel
+78	60 pts pour un Trophée Potentiel
+79	130 pièces pour un Trophée Potentiel
+80	70 pts pour un Trophée Potentiel
+81	500 pts pour un Trophée Potentiel
+82	16 tours pour un Trophée Potentiel
+83	100 pts pour un Trophée Potentiel
+84	55 touches pour un Trophée Potentiel
+85	9 pts pour un Trophée Potentiel
+86	{STRVAR_1 52, 0, 0}.{STRVAR_1 51, 1, 0} s
+87	{STRVAR_1 52, 0, 0} Fanions
+88	{STRVAR_1 52, 0, 0} points
+89	{STRVAR_1 52, 0, 0} pièces
+90	{STRVAR_1 52, 0, 0} points
+91	{STRVAR_1 52, 0, 0} points
+92	{STRVAR_1 52, 0, 0}.{STRVAR_1 50, 1, 0} tours
+93	{STRVAR_1 52, 0, 0} points
+94	{STRVAR_1 52, 0, 0} touches
+95	{STRVAR_1 52, 0, 0} points
+96	---.-- s
+102	--- tours
+106	Total
+108	Nouveau record : {STRVAR_1 3, 0, 0}
+109	Battez le record n° 1 !
+110	Réseau
+111	Solo
+113	Trophée Confiance suivant : un médaillé
+114	Trophée Confiance suivant : deux médaillés
+115	Trophée Confiance suivant : cinq médaillés
+116	Trophée Confiance suivant : dix médaillés
+117	Trophée Confiance suivant : 25 médaillés
+118	Trophée Confiance suivant : 50 médaillés
+119	Trophée Confiance suivant : 75 médaillés
+120	Trophée Confiance suivant : 100 médaillés
+121	Trophée Confiance suivant : 150 médaillés
+122	Trophée Confiance suivant : 200 médaillés
+123	Trophées Confiance complets !
+124	Médailles de {STRVAR_1 0, 0, 0}
+126	Pokémon
+127	Records Pokémon
+128	Pokémon médaillés : {STRVAR_1 52, 0, 0}

@@ -1,0 +1,45 @@
+0	Bienvenue !\nC’est l’accueil des inscriptions.\rVoulez-vous participer au Pokéathlon ?\n{YESNO 0}
+1	Bienvenue. C’est l’accueil de la Coupe\nSuprême.\rLes meilleurs Pokéathlètes vous\nattendent. Voulez-vous relever le\fdéfi ? {YESNO 0}
+2	Autre chose ?
+3	Quel parcours voulez-vous essayer ? {YESNO 0}
+4	Vous voulez essayer le {STRVAR_4 1, 3, 0} ? {YESNO 0}
+5	Par ici, je vous prie.\r
+6	Le Pokéathlon va commencer. La couleur\nde votre équipe est le rouge.\rBonne chance !\r
+8	{STRVAR_1 3, 0, 0} s’est changé.
+10	Revenez nous voir la prochaine fois.
+11	Que voulez-vous savoir ? {YESNO 0}
+12	Le Pokéathlon est une fête sportive où\nvous et trois Pokémon participez à\ftrois épreuves.\rLe Pokéathlon propose des épreuves\nvariées qui font appel à différentes\faptitudes des Pokémon.\rVenez participer avec trois Pokémon !\r
+13	La Coupe Suprême est un parcours\nspécial réservé aux meilleurs\fPokéathlètes du monde entier.\rVous gagnez plus de points que\nd’habitude en remportant une Coupe\fSuprême !\rVenez défier les meilleurs\nPokéathlètes !\r
+14	Le Parcours Vitesse comprend trois\népreuves qui demandent une bonne\faptitude en Vitesse.\r“Course de Haies”\nSautez les haies pour être le premier !\r“Prise de Fanion”\nPrenez vite les Fanions !\r“Course Relais”\nMontrez votre esprit d’équipe !\rSi vous gagnez, vous recevrez la\nMédaille Vitesse.\rChoisissez trois Pokémon rapides pour\nces épreuves.\r
+15	Le Parcours Force comprend trois\népreuves qui demandent une bonne\faptitude en Force.\r“Casse-Bloc”\nCassez tous les Blocs !\r“Pousse-Cercle”\nPoussez les autres et restez dedans !\r“Roule-But” Écartez-les et roulez les\nballons vers le but !\rSi vous gagnez, vous recevrez la\nMédaille Force.\rChoisissez trois Pokémon forts pour\nces épreuves.\r
+16	Le Parcours Endurance comprend trois\népreuves qui demandent une bonne\faptitude en Endurance.\r“Ring Sumo”\nRepoussez-les et restez sur le Ring !\r“Course Relais”\nL’Endurance des trois est la clé !\r“Casse-Bloc” Cassez tant que votre\nEndurance tient !\rSi vous gagnez, vous recevrez la\nMédaille Endurance.\rChoisissez trois Pokémon endurants\npour ces épreuves.\r
+17	Le Parcours Saut comprend trois\népreuves qui demandent une bonne\faptitude en Saut.\r“Saut Lampion” Sautez vers le ciel et\ntouchez les Lampions !\r“Attrape-Disque” Sautez et attrapez\nles Disques volants !\r“Course de Haies”\nSautez proprement les haies !\rSi vous gagnez, vous recevrez la\nMédaille Saut.\rChoisissez trois Pokémon bons sauteurs\npour ces épreuves.\r
+18	Le Parcours Technique comprend trois\népreuves qui demandent une bonne\faptitude en Technique.\r“Bataille de Neige”\nVisez et lancez de la neige !\r“Roule-But”\nRoulez les ballons dans le but !\r“Prise de Fanion”\nVirez vite et prenez les Fanions !\rSi vous gagnez, vous recevrez la\nMédaille Technique.\rChoisissez trois Pokémon techniques\npour ces épreuves.\r
+19	Bravo !\rVous allez recevoir des Points Athlète\nselon votre score.\r
+20	{STRVAR_1 3, 0, 0} reçoit\n{STRVAR_1 53, 2, 0} points !
+22	Pour avoir gagné ces épreuves, vous\nrecevez {STRVAR_1 52, 2, 0} points supplémentaires.\r
+23	Vu sa performance, le Pokéathlète\n{STRVAR_1 3, 0, 0} est autorisé à entrer dans\fla salle “Confiance”. Félicitations !\r
+24	Vu sa performance, le Pokéathlète\n{STRVAR_1 3, 0, 0} est autorisé à entrer dans\fla salle “Potentiel”. Félicitations !\r
+25	Vu sa performance, le Pokéathlète\n{STRVAR_1 3, 0, 0} est autorisé à entrer dans\fla salle “Amitié”. Félicitations !\r
+26	Bienvenue. C’est l’accueil du\nPokéathlon en réseau.\rVous pouvez concourir avec vos amis\nsur le même parcours.\rVoulez-vous essayer ? {YESNO 0}
+27	Décidez qui sera le chef du groupe.\rLes autres joueurs doivent ensuite\nchoisir “REJOINDRE”. {YESNO 0}
+28	La communication sans fil DS va être\nlancée. {YESNO 0}
+29	Erreur de communication.\rVeuillez recommencer l’inscription\ndepuis le début.
+30	Inscription au {STRVAR_4 1, 3, 0}.\nVotre équipe est rouge.
+31	Inscription au {STRVAR_4 1, 3, 0}.\nVotre équipe est bleue.
+32	Inscription au {STRVAR_4 1, 3, 0}.\nVotre équipe est verte.
+33	Inscription au {STRVAR_4 1, 3, 0}.\nVotre équipe est jaune.
+34	En plus, vous recevez un bonus de\ndeuxième place de {STRVAR_1 52, 2, 0} points.\r
+35	{STRVAR_1 3, 0, 0} s’est changé.
+36	Par ici, je vous prie !
+37	Oh non ! On dirait que vous n’avez pas\nassez de Pokémon.\rPour participer au Pokéathlon, il faut\nau moins trois Pokémon.\rLe Pokéathlon rassemble toutes sortes\nde Pokémon venus de partout.\rPlus on est de fous, plus on rit ! Venez\navec plein de Pokémon et vous verrez.
+38	Bienvenue. C’est l’accueil du\nPokéathlon en réseau.\rOh, mais ! C’est votre première fois,\nn’est-ce pas ?\rDans ce cas, allez plutôt à l’accueil\n“Solo”.\rC’est le comptoir du milieu, à droite\nd’ici.\rVous pourrez vous renseigner sur le\nPokéathlon et choisir un parcours.
+39	Le Pokéathlon en réseau est une fête\nsportive où vous participez avec trois\fPokémon à quatre épreuves.\rVos amis peuvent participer aux mêmes\népreuves.\rLe Pokéathlon propose des épreuves\nvariées qui font appel à de nombreuses\faptitudes des Pokémon.\rVenez au Pokéathlon en réseau avec\nvos amis.\r
+40	Le Parcours Vitesse & Saut comprend\nquatre épreuves qui demandent une\fbonne aptitude en Vitesse et en Saut.\r“Course de Haies”\nSautez les haies pour être le premier !\r“Saut Lampion”\nTouchez vite les Lampions !\r“Attrape-Disque”\nAttrapez vite les Disques !\r“Course Relais”\nIl faut une Vitesse exceptionnelle !\rSi vous gagnez, vous recevrez la\nMédaille Vitesse et la Médaille Saut.\rChoisissez trois Pokémon rapides et\nbons sauteurs, et venez avec vos amis.\r
+41	Le Parcours Saut & Technique comprend\nquatre épreuves qui demandent une\fbonne aptitude en Saut et en\fTechnique.\r“Saut Lampion” Montrez votre talent\npour toucher les Lampions !\r“Attrape-Disque”\nSautez et attrapez les Disques !\r“Prise de Fanion” Montrez vos\nmouvements et ramassez les Fanions !\r“Bataille de Neige”\nVisez avec précision !\rSi vous gagnez, vous recevrez la\nMédaille Saut et la Médaille Technique.\rChoisissez trois Pokémon bons sauteurs\net techniques, et venez avec vos amis.\r
+42	Le Parcours Technique & Force\ncomprend quatre épreuves qui\fdemandent une bonne aptitude en\fTechnique et en Force.\r“Roule-But”\nVisez le but et tirez !\r“Bataille de Neige”\nStable, visez, feu !\r“Prise de Fanion” Montrez vos\nmouvements et ramassez les Fanions !\r“Casse-Bloc” Les Blocs arrivent sans\ncesse ! Cassez-les tous !\rSi vous gagnez, vous recevrez la\nMédaille Technique et la Médaille Force.\rChoisissez trois Pokémon techniques et\nforts, et venez avec vos amis.\r
+43	Le Parcours Force & Endurance\ncomprend quatre épreuves qui\fdemandent une bonne aptitude en Force\fet en Endurance.\r“Casse-Bloc” Les Blocs arrivent sans\ncesse ! Cassez-les tous !\r“Pousse-Cercle”\nPoussez-les et restez dans le Cercle !\r“Roule-But”\nRoulez jusqu’à épuisement !\r“Ring Sumo” Faites-les tomber du Ring\net restez dessus !\rSi vous gagnez, vous recevrez la\nMédaille Force et la Médaille Endurance.\rChoisissez trois Pokémon forts et\nendurants, et venez avec vos amis.\r
+44	Le Parcours Endurance & Vitesse\ncomprend quatre épreuves qui\fdemandent une bonne aptitude en\fEndurance et en Vitesse.\r“Course Relais”\nEndurance et Vitesse sont la clé !\r“Ring Sumo”\nFaites-les tomber et tenez bon !\r“Course de Haies”\nPar-dessus ! Visez la première place !\r“Pousse-Cercle”\nPoussez-les et restez dans le Cercle !\rSi vous gagnez, vous recevrez la\nMédaille Endurance et la Médaille\fVitesse.\rChoisissez trois Pokémon endurants et\nrapides, et venez avec vos amis.\r
+45	Le Parcours Maître est un parcours\ndifficile aux épreuves différentes à\fchaque fois.\rLes équipes doivent tout donner pour\nle terminer, quel qu’il soit !\rLe Parcours Maître ne rapporte aucune\nmédaille.\rMais vous recevrez deux fois plus de\nPoints Athlète.\rN’hésitez pas à réunir vos amis pour\nessayer.\r
+46	Cette fois, le score de {STRVAR_1 3, 0, 0} est\nde {STRVAR_1 52, 1, 0} ! {STRVAR_1 53, 2, 0} points gagnés !\r
+47	Cette fois, le score de {STRVAR_1 3, 0, 0} est\nde {STRVAR_1 52, 1, 0} !\rComme c’était le Parcours Maître, {STRVAR_1 53, 2, 0}\npoints ont été gagnés !\r
