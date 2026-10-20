@@ -1,0 +1,73 @@
+0	Tout d’abord, je dois garder les\nobjets tenus par vos Pokémon.\r
+1	Veuillez patienter.
+3	Bien joué !\nNous allons soigner vos Pokémon.
+4	Prochaine partie : n° {STRVAR_1 53, 0, 0} !\nÊtes-vous prêt ?
+5	Voulez-vous sauvegarder le dernier\ncombat dans votre Vidéo Combat ?
+6	Le combat de {STRVAR_1 3, 0, 0} a été\nsauvegardé dans la Vidéo Combat.\r
+7	Une erreur est survenue. La Vidéo\nCombat n’a pas pu être sauvegardée.\r
+8	Effacer votre Vidéo Combat actuelle et\nsauvegarder le dernier combat ?
+9	Sauvegarde en cours...\nN’éteignez pas la console.
+10	Voulez-vous sauvegarder et faire une\npause ?
+13	Voulez-vous abandonner ce défi ?
+16	{STRVAR_1 3, 0, 0} est en train de choisir.\nVeuillez patienter.
+18	{STRVAR_1 3, 0, 0} a choisi d’abandonner.
+19	Bienvenue à l’Arcade de Combat !\r
+20	Partie n° {STRVAR_1 53, 0, 0} !\nAllez !
+21	Sans plus attendre...\nActivons le plateau de jeu !
+22	Voici l’événement en cours !
+23	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} sans tous leurs PV !
+24	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0} sans\ftous leurs PV !
+25	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} montés de niveau !
+26	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0}\fmontés de niveau !
+27	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} empoisonnés !
+28	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0}\fempoisonnés !
+29	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} paralysés !
+30	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0}\fparalysés !
+31	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} brûlés !
+32	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0}\fbrûlés !
+33	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} endormis !
+34	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0}\fendormis !
+35	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} gelés !
+36	Le combat commence avec les Pokémon\nde {STRVAR_1 3, 0, 0} et de {STRVAR_1 3, 1, 0}\fgelés !
+37	Les Pokémon de {STRVAR_1 3, 0, 0} se voient\nprêter {STRVAR_1 8, 2, 0}.
+38	Les Pokémon de {STRVAR_1 3, 0, 0} et de\n{STRVAR_1 3, 1, 0} se voient prêter\f{STRVAR_1 8, 2, 0}.
+39	Voilà !\r
+40	Ce combat se déroulera sous un soleil\nécrasant.
+41	Ce combat se déroulera sous une pluie\nbattante.
+42	Ce combat se déroulera dans une\nviolente tempête de sable.
+43	Ce combat se déroulera sous la grêle.
+44	Ce combat se déroulera dans un épais\nbrouillard.
+45	Ce combat se déroulera sur un sol où\nle temps et l’espace sont déformés.
+46	Vos Pokémon seront échangés avec\nceux de l’autre Dresseur pour ce\fcombat.
+47	À partir de la prochaine partie, le\nplateau de jeu ira plus vite.
+48	À partir de la prochaine partie, le\nplateau de jeu ira moins vite.
+49	À la prochaine partie, le plateau de\njeu bougera au hasard.
+50	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 2, 0} PCo !
+51	{STRVAR_1 3, 0, 0} et {STRVAR_1 3, 1, 0} reçoivent\n{STRVAR_1 51, 2, 0} PCo !
+52	Êtes-vous prêt ?
+53	Oh ! Quelle chance !\nVous pouvez sauter le combat !
+54	Dommage !\nPas d’événement cette fois !
+55	Bien ! Que le combat commence !
+56	Les Pokémon de {STRVAR_1 3, 0, 0} vont\ncommencer empoisonnés...\rOh ! Quelle chance !\r{STRVAR_1 3, 0, 0} n’a aucun Pokémon qui\npuisse être empoisonné !
+57	Les Pokémon de {STRVAR_1 3, 0, 0} et de\n{STRVAR_1 3, 1, 0} vont commencer\fempoisonnés...\rOh ! Quelle chance !\rAucun d’eux n’a de Pokémon qui puisse\nêtre empoisonné !
+58	Les Pokémon de {STRVAR_1 3, 0, 0} vont\ncommencer paralysés...\rOh ! Quelle chance !\r{STRVAR_1 3, 0, 0} n’a aucun Pokémon qui\npuisse être paralysé !
+59	Les Pokémon de {STRVAR_1 3, 0, 0} et de\n{STRVAR_1 3, 1, 0} vont commencer\fparalysés...\rOh ! Quelle chance !\rAucun d’eux n’a de Pokémon qui puisse\nêtre paralysé !
+60	Les Pokémon de {STRVAR_1 3, 0, 0} vont\ncommencer brûlés...\rOh ! Quelle chance !\r{STRVAR_1 3, 0, 0} n’a aucun Pokémon qui\npuisse être brûlé !
+61	Les Pokémon de {STRVAR_1 3, 0, 0} et de\n{STRVAR_1 3, 1, 0} vont commencer brûlés...\rOh ! Quelle chance !\rAucun d’eux n’a de Pokémon qui puisse\nêtre brûlé !
+62	Les Pokémon de {STRVAR_1 3, 0, 0} vont\ncommencer endormis...\rOh ! Quelle chance !\r{STRVAR_1 3, 0, 0} n’a aucun Pokémon qui\npuisse être endormi !
+63	Les Pokémon de {STRVAR_1 3, 0, 0} et de\n{STRVAR_1 3, 1, 0} vont commencer endormis...\rOh ! Quelle chance !\rAucun d’eux n’a de Pokémon qui puisse\nêtre endormi !
+64	Les Pokémon de {STRVAR_1 3, 0, 0} vont\ncommencer gelés...\rOh ! Quelle chance !\r{STRVAR_1 3, 0, 0} n’a aucun Pokémon qui\npuisse être gelé !
+65	Les Pokémon de {STRVAR_1 3, 0, 0} et de\n{STRVAR_1 3, 1, 0} vont commencer gelés...\rOh ! Quelle chance !\rAucun d’eux n’a de Pokémon qui puisse\nêtre gelé !
+66	Vous avez remporté votre septième\ncombat ! Félicitations !\rVous avez gagné des PCo en\nrécompense !\r
+67	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} PCo !\r
+69	Nous vous rendons les objets que nous\ngardions.\r
+70	Sauvegarde en cours...\nN’éteignez pas la console.
+72	CONTINUER
+73	SAUVEGARDER
+74	PAUSE
+75	ABANDONNER
+76	Félicitations, Dresseur !\rEn reconnaissance de votre talent\nexceptionnel, notre Tête de l’Élite\fexige un combat contre vous.\rVotre prochain adversaire est donc la\nStar de l’Arcade, sans discussion !\rÊtes-vous prêt ?\r
+77	Dahlia : Ne t’inquiète pas. ♫ Laisse le\nhasard faire.\rComme les surprises du plateau de jeu,\nla vie est pleine de rebondissements.\rNe t’inquiète pas. ♫ Les choses se\nferont comme elles se feront.\rMais assez parlé. Il y a une chose dont\nje suis sûre.\rTu n’es pas arrivé ici seulement grâce\nà la chance.\rNe perdons pas de temps. Je veux\ntester tes talents moi-même !\r
+78	Dahlia : Ne t’inquiète pas. ♫ Laisse le\nhasard faire.\rComme les surprises du plateau de jeu,\nla vie est pleine de rebondissements.\rNe t’inquiète pas. ♫ Les choses se\nferont comme elles se feront.\rMais assez parlé. Tu te montres\nincroyable.\rEs-tu incroyable parce que tu as tant\nde chance que la malchance glisse sur\ftoi ?\rOu as-tu tant de talent que la chance,\nbonne ou mauvaise, ne t’atteint pas ?\rJe veux voir de mes yeux ce qui t’a\nmené jusqu’à moi !\r
+79	Dahlia : Comme c’est fabuleux !\rTon amour des Pokémon a brillé, et tes\nPokémon ont cru en toi.\rC’est pour ça que tu as surmonté tout\nce qui t’est arrivé avec brio.\rQuelle merveilleuse victoire !\r
+80	Dahlia : Vraiment, vous avez tous été\nfabuleux !\rLa malchance, tu l’as écartée, et la\nchance, tu l’as saisie.\rC’est la preuve de ton talent.\rEn battant Dahlia, tu as brillamment\nprouvé ta maîtrise !\rJe suis sincèrement heureuse d’avoir\nlivré ce combat contre toi !\r

@@ -1,0 +1,11 @@
+0	Ding-dong !\rLe temps est écoulé !\nVotre partie Safari est terminée.\r
+1	Ding-dong !\rVous n’avez plus de Safari Balls.\nVotre partie Safari est terminée.\r
+2	Ding-dong !\rVous n’avez plus de place pour\nd’autres Pokémon. Votre partie\fSafari est terminée !\r
+3	Voulez-vous quitter le Parc Safari\nmaintenant ? {YESNO 0}
+4	Placer un objet ? {YESNO 0}
+5	{STRVAR_1 8, 0, 0} placé !
+6	Retirer {STRVAR_1 8, 0, 0} ? {YESNO 0}
+7	{STRVAR_1 8, 0, 0} retiré !
+8	Impossible de placer d’autres objets\ndans cette Zone !
+9	Vous n’avez aucun objet à placer.
+10	Il n’y a pas de place pour un objet !

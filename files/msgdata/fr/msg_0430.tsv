@@ -1,0 +1,57 @@
+0	Placer {STRVAR_1 8, 0, 0} ?
+1	{STRVAR_1 8, 0, 0} placé.
+2	Il en reste {STRVAR_1 51, 0, 0} à placer.
+3	Impossible d’en placer plus.
+4	Plus aucune place libre.
+5	Impossible de le placer sur terre.
+6	Impossible de le placer au bord de l’eau.
+7	Impossible d’en placer plus.
+8	Retour
+14	Buisson
+15	Fleur Rouge
+16	Fleur Blanche
+17	Arbre
+18	Souche
+19	Branches
+20	Petit Rocher
+21	Gros Rocher
+22	Rocher Moussu
+23	Flaque
+24	Fontaine
+25	Trou d’Eau
+26	Banc
+27	Barrière C1
+28	Barrière C2
+29	Barrière L1
+30	Barrière L2
+31	Panneau
+32	Votre Statue
+33	Votre Drapeau
+34	Lampadaire
+35	Poteau (D)
+36	Poteau (G)
+37	Poubelle
+38	Une épaisse touffe d’herbe. Les Pokémon\ndes Plaines ont l’air de l’aimer.
+39	Une fleur aux couleurs très vives. Les\nPokémon des Plaines ont l’air de l’aimer.
+40	Une fleur aux couleurs très tendres.\nLes Pokémon des Plaines ont l’air de\nl’aimer.
+41	Un arbre plutôt petit. Les Pokémon des\nForêts ont l’air de l’aimer.
+42	Le reste d’un arbre coupé. Les Pokémon\ndes Forêts ont l’air de l’aimer.
+43	Un tas de branches cassées. Les\nPokémon des Forêts ont l’air de l’aimer.
+44	Un petit rocher rond. Les Pokémon des\nZones rocheuses ont l’air de l’aimer.
+45	Un gros rocher rugueux. Les Pokémon\ndes Zones rocheuses ont l’air de\nl’aimer.
+46	Un rocher couvert de mousse. Les\nPokémon des Zones rocheuses ont l’air\nde l’aimer.
+47	De l’eau accumulée au sol. Les Pokémon\ndu bord de l’eau ont l’air de l’aimer.
+48	Se place avec Surf. Les Pokémon du bord\nde l’eau ont l’air de l’aimer.
+49	De l’eau fraîche et délicieuse. Les\nPokémon du bord de l’eau ont l’air de\nl’aimer.
+50	Un long banc étroit, comme on en trouve\ndans les parcs et les aires de repos.
+51	Une barrière courte et horizontale.\nAvec plusieurs, on pourrait entourer un\nlac ou un parterre.
+52	Une barrière courte et verticale. Avec\nplusieurs, on pourrait entourer un lac\nou un parterre.
+53	Une barrière longue et horizontale. Avec\nplusieurs, on pourrait entourer un lac\nou un parterre.
+54	Une barrière longue et verticale. Avec\nplusieurs, on pourrait entourer un lac\nou un parterre.
+55	Un panneau en bois. En plantant un\npiquet dans le sol, on pourrait y fixer\nce panneau.
+56	Une statue de pierre à votre image. En\nla plaçant, vous vous sentiriez comme un\ngrand héros.
+57	Votre propre drapeau, que vous avez\ndessiné. En le plaçant, vous vous\nsentiriez maître des lieux.
+58	Une lampe électrique qui éclaire la Zone.\nPlacée dans le noir, elle formerait un\nbeau chemin de lumière.
+59	Un panneau qui indique la droite. En le\nvoyant, on a naturellement envie d’aller\nvoir ce qu’il indique.
+60	Un panneau qui indique la gauche. En le\nvoyant, on a naturellement envie d’aller\nvoir ce qu’il indique.
+61	Une poubelle pour les déchets. Si vous\navez des déchets, jetez-les ou\nemportez-les.
