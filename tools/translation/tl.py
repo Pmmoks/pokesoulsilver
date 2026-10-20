@@ -330,8 +330,8 @@ def cmd_wrap(args):
     rows = dict(bank.translated)
     changed = 0
     for index, text in rows.items():
-        if '\\n' not in bank.rows.get(index, '') and '\\r' not in bank.rows.get(index, '') \
-                and '\\f' not in bank.rows.get(index, ''):
+        if not args.one_line and '\\n' not in bank.rows.get(index, '') \
+                and '\\r' not in bank.rows.get(index, '') and '\\f' not in bank.rows.get(index, ''):
             continue  # one-line rows (labels, names) are not dialogue
         wrapped = wrap_text(text, width, scroll)
         if wrapped != text:
@@ -366,6 +366,8 @@ def main():
     p = sub.add_parser('wrap')
     p.add_argument('bank')
     p.add_argument('--width', type=int)
+    p.add_argument('--one-line', action='store_true',
+                   help='also break rows that are one line in English (message boxes only)')
     p = sub.add_parser('stats')
     p.add_argument('-v', '--verbose', action='store_true')
     args = ap.parse_args()

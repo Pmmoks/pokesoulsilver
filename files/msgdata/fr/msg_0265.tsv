@@ -1,0 +1,509 @@
+0	Hein ? {STRVAR_1 1, 0, 0} tient quelque\nchose...\rVoulez-vous le prendre ?{YESNO 0}
+1	{STRVAR_1 1, 0, 0} a l’air content d’avoir\ntrouvé quelque chose !
+2	Oh ! On dirait que c’est trop important\npour le lâcher !
+3	{STRVAR_1 1, 0, 0} vous l’a donné avec\nplaisir !
+4	..................\nOh ?\r{STRVAR_1 1, 0, 0} tient une étrange Feuille\nBrillante...
+5	Il regarde par ici et hoche la tête.
+6	Un son étrange sort de {STRVAR_1 1, 0, 0}...
+7	{STRVAR_1 1, 0, 0} grogne d’une façon qui\nressemble presque à des paroles...
+8	Hm ? On dirait qu’il a entendu rugir au\nloin !
+9	{STRVAR_1 1, 0, 0} avait presque oublié qu’il\ntenait {STRVAR_1 8, 4, 0} !
+10	{STRVAR_1 1, 0, 0} donne un petit coup à\n{STRVAR_1 3, 2, 0} ! Lui en donner un aussi ?{YESNO 0}
+11	{STRVAR_1 1, 0, 0} touche à tout ce qui se\ntrouve autour...
+12	{STRVAR_1 1, 0, 0} reste près de vos pieds.
+13	{STRVAR_1 1, 0, 0} s’est soudain mis en\ncolère !
+14	{STRVAR_1 1, 0, 0} a sursauté de surprise !
+15	{STRVAR_1 1, 0, 0} a l’air un peu découragé...
+16	{STRVAR_1 1, 0, 0} vient vers vous avec\nquelque chose dans la bouche. Prendre\fl’objet ?{YESNO 0}
+17	{STRVAR_1 1, 0, 0} se blottit contre vous en\ngrelottant de froid !
+18	{STRVAR_1 1, 0, 0} est vraiment content !
+19	{STRVAR_1 1, 0, 0} a l’air un peu soulagé !
+20	{STRVAR_1 1, 0, 0} a l’air très content d’être\nsi près !
+21	{STRVAR_1 1, 0, 0} a l’air tellement heureux !
+22	{STRVAR_1 1, 0, 0} est très excité !
+23	{STRVAR_1 1, 0, 0} a fait un petit bond !
+24	{STRVAR_1 1, 0, 0} est très content !
+25	{STRVAR_1 1, 0, 0} a l’air un peu nerveux...\nVoulez-vous lui dire quelque chose ?{YESNO 0}
+26	{STRVAR_1 1, 0, 0} a été surpris et a arrêté\nses bêtises !
+27	{STRVAR_1 1, 0, 0} vous suit de très près !\nVoulez-vous le caresser ?{YESNO 0}
+28	{STRVAR_1 1, 0, 0} fait très attention à ce qui\nl’entoure !
+29	{STRVAR_1 1, 0, 0} a l’air très satisfait !
+30	{STRVAR_1 1, 0, 0} ne regardait pas et vous\nest rentré dedans !
+31	{STRVAR_1 1, 0, 0} a l’air de vouloir jouer et\nvous regarde plein d’espoir. Vous\fcédez ? {YESNO 0}
+32	{STRVAR_1 1, 0, 0} vous a soudain poussé ! Le\ngronder ?{YESNO 0}
+33	{STRVAR_1 1, 0, 0} a l’air de s’assoupir...\nL’appeler par son nom ? {YESNO 0}
+34	{STRVAR_1 1, 0, 0} vous regarde d’un air\nabsent.
+35	{STRVAR_1 1, 0, 0} se roule dans un buisson et\nil est couvert de feuilles ! L’aider à se\frelever ? {YESNO 0}
+36	{STRVAR_1 1, 0, 0} s’est soudain rapproché de\nvous ! Lui montrer de l’affection ?{YESNO 0}
+37	{STRVAR_1 1, 0, 0} regarde par ici d’un air\nabsent... L’appeler par son nom ?{YESNO 0}
+38	{STRVAR_1 1, 0, 0} a l’air de vouloir passer\ndevant !
+39	{STRVAR_1 1, 0, 0} veut de l’attention ! Jouer\navec lui ?{YESNO 0}
+40	{STRVAR_1 1, 0, 0} a l’air un peu inquiet et\ns’agite nerveusement. Le rassurer ?{YESNO 0}
+41	{STRVAR_1 1, 0, 0} a l’air perdu dans ses\nrêves. L’appeler ?{YESNO 0}
+42	{STRVAR_1 1, 0, 0} a l’air de vouloir retourner\nau Labo.
+43	{STRVAR_1 1, 0, 0} s’est soudain rapproché !
+44	{STRVAR_1 1, 0, 0} mâchouille vos chaussures !\nLe gronder ? {YESNO 0}
+45	La feuille de {STRVAR_1 1, 0, 0} s’affaisse un\npeu.
+46	Les joues de {STRVAR_1 1, 0, 0} rosissent !
+47	{STRVAR_1 1, 0, 0} a l’air d’avoir du mal à\nbouger !
+48	{STRVAR_1 1, 0, 0} vous suit sans faiblir !
+49	{STRVAR_1 1, 0, 0} a l’air de vouloir jouer avec\n{STRVAR_1 3, 2, 0} !
+50	{STRVAR_1 1, 0, 0} vous regarde avec\nadoration !
+51	{STRVAR_1 1, 0, 0} fait de son mieux pour vous\nsuivre !
+52	{STRVAR_1 1, 0, 0} saute de joie !
+53	{STRVAR_1 1, 0, 0} se blottit joyeusement\ncontre vous !
+54	{STRVAR_1 1, 0, 0} a l’air très content !
+55	{STRVAR_1 1, 0, 0} a l’air ravi de marcher avec\nvous !
+56	{STRVAR_1 1, 0, 0} redouble d’efforts !
+57	{STRVAR_1 1, 0, 0} a tourné sur lui-même !
+58	{STRVAR_1 1, 0, 0} a toute son attention sur\nvous.
+59	{STRVAR_1 1, 0, 0} s’est tourné vers vous et a\nsouri !
+60	{STRVAR_1 1, 0, 0} montre son agilité !
+61	{STRVAR_1 1, 0, 0} sautille joyeusement !
+62	{STRVAR_1 1, 0, 0} a l’air très heureux !
+63	{STRVAR_1 1, 0, 0} saute partout sans souci !
+64	{STRVAR_1 1, 0, 0} bouge joyeusement !
+65	{STRVAR_1 1, 0, 0} regarde droit par ici !
+66	{STRVAR_1 1, 0, 0} a détourné le regard...
+67	{STRVAR_1 1, 0, 0} fouille dans le Sac de\n{STRVAR_1 3, 2, 0} ! Le gronder ?{YESNO 0}
+68	{STRVAR_1 1, 0, 0} regarde {STRVAR_1 3, 2, 0} droit\ndans les yeux.
+69	{STRVAR_1 1, 0, 0} vous fait un grand sourire !
+70	{STRVAR_1 1, 0, 0} a salué l’adversaire !
+71	{STRVAR_1 1, 0, 0} a poussé un cri !
+72	{STRVAR_1 1, 0, 0} s’est tourné vers\nl’adversaire et a crié fort !
+73	{STRVAR_1 1, 0, 0} intimide l’adversaire !
+74	{STRVAR_1 1, 0, 0} foudroie l’adversaire du\nregard !
+75	{STRVAR_1 1, 0, 0} fixe l’adversaire !
+76	{STRVAR_1 1, 0, 0} a l’air très intéressé par\nAmphy !
+77	{STRVAR_1 1, 0, 0} a l’air de vouloir jouer avec\nAmphy !
+78	{STRVAR_1 1, 0, 0} a salué Amphy !
+79	{STRVAR_1 1, 0, 0} a l’air intéressé par\nAmphy...
+80	{STRVAR_1 1, 0, 0} commence à bâiller... ... va\npresque bâiller... presque... Bon, tant\fpis.
+81	{STRVAR_1 1, 0, 0} contemple le soleil du\nmatin...
+82	{STRVAR_1 1, 0, 0} a essayé de vous mordre les\njambes !
+83	{STRVAR_1 1, 0, 0} vous mordille les pieds !
+84	{STRVAR_1 1, 0, 0} vous a mâchouillé les pieds !\nLe gronder ?{YESNO 0}
+85	{STRVAR_1 1, 0, 0} vous a mordillé les pieds !\nVous fâcher un peu ?{YESNO 0}
+86	{STRVAR_1 1, 0, 0} fixe votre tête d’un air\nabsent.
+87	{STRVAR_1 1, 0, 0} inspecte attentivement les\nenvirons !
+88	{STRVAR_1 1, 0, 0} surveille les environs !
+89	{STRVAR_1 1, 0, 0} n’a pas l’air content qu’il\nfasse si chaud...
+90	{STRVAR_1 1, 0, 0} baisse la tête à cause de la\nchaleur.
+91	{STRVAR_1 1, 0, 0} a l’air de vraiment\napprécier la chaleur !
+92	{STRVAR_1 1, 0, 0} a l’air content qu’il\npleuve !
+93	{STRVAR_1 1, 0, 0} est très content qu’il\npleuve !
+94	{STRVAR_1 1, 0, 0} a l’air très surpris qu’il\npleuve !
+95	{STRVAR_1 1, 0, 0} a l’air sur le point de\ntomber !
+96	{STRVAR_1 1, 0, 0} crache du feu avec\nvigueur !
+97	{STRVAR_1 1, 0, 0} s’est soudain mis en\ncolère !
+98	{STRVAR_1 1, 0, 0} a soudain rugi !
+99	{STRVAR_1 1, 0, 0} s’est soudain retourné et\ns’est mis à aboyer !
+100	{STRVAR_1 1, 0, 0} s’est soudain retourné !
+101	{STRVAR_1 1, 0, 0} mordille le sol en jouant.
+102	{STRVAR_1 1, 0, 0} touche le sol en jouant.
+103	{STRVAR_1 1, 0, 0} mordille le sol en jouant.
+104	{STRVAR_1 1, 0, 0} fait rouler un caillou en\njouant.
+105	{STRVAR_1 1, 0, 0} hume les odeurs de l’air\nambiant.
+106	{STRVAR_1 1, 0, 0} regarde le rocher avec\nsurprise !
+107	{STRVAR_1 1, 0, 0} regarde en l’air, bouche\nbée.
+108	{STRVAR_1 1, 0, 0} regarde en l’air, la bouche\ngrande ouverte.
+109	{STRVAR_1 1, 0, 0} est de bonne humeur !
+110	{STRVAR_1 1, 0, 0} agite les bras en criant !
+111	{STRVAR_1 1, 0, 0} a poussé un rugissement !
+112	{STRVAR_1 1, 0, 0} a poussé un rugissement !
+113	{STRVAR_1 1, 0, 0} contemple la mer.
+114	{STRVAR_1 1, 0, 0} est tout excité de voir la\nmer !
+115	{STRVAR_1 1, 0, 0} est si content qu’il se met\nà danser !
+116	{STRVAR_1 1, 0, 0} est si content qu’il se met\nà se rouler par terre.
+117	{STRVAR_1 1, 0, 0} a l’air très content de vous\nvoir.
+118	{STRVAR_1 1, 0, 0} a l’air très content et se\nroule par terre !
+119	{STRVAR_1 1, 0, 0} a l’air très content et\nsaute partout !
+120	{STRVAR_1 1, 0, 0} barbote joyeusement !
+121	{STRVAR_1 1, 0, 0} a l’air de vouloir prendre le\ntrain !
+122	{STRVAR_1 1, 0, 0} s’est pris dans les\nbranches et a failli tomber !
+123	{STRVAR_1 1, 0, 0} a été surpris en se prenant\nune branche !
+124	{STRVAR_1 1, 0, 0} a ouvert la bouche très\ngrand !
+125	{STRVAR_1 1, 0, 0} a crié très fort !
+126	{STRVAR_1 1, 0, 0} a bâillé à s’en décrocher la\nmâchoire !
+127	{STRVAR_1 1, 0, 0} fixe les profondeurs...
+128	{STRVAR_1 1, 0, 0} regarde les profondeurs en\ntremblant...
+129	{STRVAR_1 1, 0, 0} a rugi !
+130	{STRVAR_1 1, 0, 0} joue dans les feuilles\nmortes.
+131	{STRVAR_1 1, 0, 0} se méfie du piège.
+132	{STRVAR_1 1, 0, 0} vous donne des petits coups\ndans le ventre !
+133	Une goutte de sueur perle sur le visage\nde {STRVAR_1 1, 0, 0}...
+134	{STRVAR_1 1, 0, 0} a peur de la falaise...
+135	{STRVAR_1 1, 0, 0} a l’air de ressentir une\nsensation électrisante !
+136	{STRVAR_1 1, 0, 0} se sent revigoré !
+137	{STRVAR_1 1, 0, 0} tremble !
+138	{STRVAR_1 1, 0, 0} observe attentivement le\ncourant de la rivière.
+139	{STRVAR_1 1, 0, 0} a poussé un cri de guerre !
+140	{STRVAR_1 1, 0, 0} écoute le bruit de la\nmachine.
+141	{STRVAR_1 1, 0, 0} a l’air de vouloir toucher la\nmachine !
+142	{STRVAR_1 1, 0, 0} fixe intensément la machine.
+143	{STRVAR_1 1, 0, 0} foudroie du regard le voyou\nde la Team Rocket !
+144	{STRVAR_1 1, 0, 0} a soudain aboyé !
+145	{STRVAR_1 1, 0, 0} s’est déplacé pour montrer\nses talents !
+146	{STRVAR_1 1, 0, 0} a l’air très intéressé !
+147	{STRVAR_1 1, 0, 0} regarde partout, agité.
+148	{STRVAR_1 1, 0, 0} se promène en écoutant les\ndifférents bruits.
+149	{STRVAR_1 1, 0, 0} se promène en cherchant\nquelque chose.
+150	{STRVAR_1 1, 0, 0} se promène.
+151	{STRVAR_1 1, 0, 0} se promène en profitant du\npaysage de la forêt.
+152	{STRVAR_1 1, 0, 0} se promène en écoutant le\nbruit de l’eau qui coule.
+153	{STRVAR_1 1, 0, 0} se promène en surveillant\nles environs.
+154	{STRVAR_1 1, 0, 0} a l’air très intéressé par\nl’arbre.
+155	{STRVAR_1 1, 0, 0} se prépare mentalement !
+156	{STRVAR_1 1, 0, 0} est tendu par la nervosité.
+157	{STRVAR_1 1, 0, 0} joue en arrachant des brins\nd’herbe.
+158	{STRVAR_1 1, 0, 0} mâchonne de l’herbe.
+159	{STRVAR_1 1, 0, 0} joue en arrachant l’herbe !
+160	{STRVAR_1 1, 0, 0} s’inquiète du sol, qui a l’air\nde pouvoir s’effondrer.
+161	{STRVAR_1 1, 0, 0} s’inquiète du plafond, qui a\nl’air de pouvoir s’effondrer.
+162	{STRVAR_1 1, 0, 0} ouvre grand la bouche.
+163	{STRVAR_1 1, 0, 0} claque des dents !
+164	{STRVAR_1 1, 0, 0} a tourné la tête et a\npoussé un cri de guerre !
+165	{STRVAR_1 1, 0, 0} fait de gros efforts pour\nvous suivre...
+166	{STRVAR_1 1, 0, 0} a tourné en rond !
+167	{STRVAR_1 1, 0, 0} renifle l’air et sent la\nmarée.
+168	{STRVAR_1 1, 0, 0} monte la garde !
+169	{STRVAR_1 1, 0, 0} déborde de santé !
+170	{STRVAR_1 1, 0, 0} vous a salué\nchaleureusement !
+171	{STRVAR_1 1, 0, 0} a sauté de joie en l’air !
+172	{STRVAR_1 1, 0, 0} touche la glace.
+173	{STRVAR_1 1, 0, 0} ronge la glace.
+174	{STRVAR_1 1, 0, 0} gratte le sol comme s’il\ncherchait quelque chose.
+175	{STRVAR_1 1, 0, 0} a tourné la tête par ici et\nvous fixe intensément.
+176	{STRVAR_1 1, 0, 0} s’est tourné par ici avec un\ngrand sourire.
+177	{STRVAR_1 1, 0, 0} s’est tourné par ici et a\nhoché la tête.
+178	{STRVAR_1 1, 0, 0} regarde la lumière qui filtre\nà travers les arbres.
+179	{STRVAR_1 1, 0, 0} se roule par terre.
+180	{STRVAR_1 1, 0, 0} a peur et se blottit contre\n{STRVAR_1 3, 2, 0} !
+181	{STRVAR_1 1, 0, 0} a peur et se blottit contre\nvous !
+182	{STRVAR_1 1, 0, 0} est de bonne humeur grâce\nau froid !
+183	{STRVAR_1 1, 0, 0} n’a pas l’air d’aimer le\nfroid...
+184	{STRVAR_1 1, 0, 0} se réjouit du froid !
+185	{STRVAR_1 1, 0, 0} se recroqueville un peu à\ncause du froid...
+186	{STRVAR_1 1, 0, 0} a l’air de se sentir mieux\ngrâce à la brise marine !
+187	{STRVAR_1 1, 0, 0} regarde en bas, nerveux !
+188	{STRVAR_1 1, 0, 0} a regardé en bas et a été\nsurpris !
+189	{STRVAR_1 1, 0, 0} a fait flamboyer sa queue !
+190	{STRVAR_1 1, 0, 0} a l’air de s’intéresser aux\nBicyclettes !
+191	{STRVAR_1 1, 0, 0} regarde les empreintes de\n{STRVAR_1 3, 2, 0}.
+192	{STRVAR_1 1, 0, 0} fixe intensément le reflet\nde son visage.
+193	{STRVAR_1 1, 0, 0} regarde le reflet de son\nvisage.
+194	{STRVAR_1 1, 0, 0} n’a pas du tout l’air\ncontent d’être mouillé...
+195	{STRVAR_1 1, 0, 0} renifle le sol.
+196	{STRVAR_1 1, 0, 0} tapote le sol sans relâche.
+197	{STRVAR_1 1, 0, 0} regarde fixement vers le\nbas.
+198	{STRVAR_1 1, 0, 0} tapote le sol.
+199	{STRVAR_1 1, 0, 0} creuse le sol en jouant.
+200	{STRVAR_1 1, 0, 0} tapote le sol sans relâche.
+201	{STRVAR_1 1, 0, 0} a l’air de faire des\nexercices d’échauffement...
+202	{STRVAR_1 1, 0, 0} avance prudemment !
+203	{STRVAR_1 1, 0, 0} se tait, nerveux...
+204	{STRVAR_1 1, 0, 0} a l’air très content !
+205	{STRVAR_1 1, 0, 0} a l’air un peu nerveux.
+206	{STRVAR_1 1, 0, 0} est un peu excité !
+207	{STRVAR_1 1, 0, 0} est tombé et s’est un peu\nénervé !
+208	{STRVAR_1 1, 0, 0} a l’air un peu fatigué.
+209	{STRVAR_1 1, 0, 0} s’agite dans tous les sens\npour montrer sa vitesse !
+210	{STRVAR_1 1, 0, 0} a eu l’air de trembler un\npeu de surprise !
+211	{STRVAR_1 1, 0, 0} a glissé et vous est rentré\ndedans !
+212	{STRVAR_1 1, 0, 0} est un peu nerveux dans cet\nespace étroit !
+213	{STRVAR_1 1, 0, 0} se méfie de cet endroit\nexigu !
+214	{STRVAR_1 1, 0, 0} s’inquiète de sortir !
+215	{STRVAR_1 1, 0, 0} est content de voir\nl’extérieur !
+216	{STRVAR_1 1, 0, 0} meurt d’envie de voir\nl’extérieur !
+217	{STRVAR_1 1, 0, 0} vous donne des petits coups\ncar il veut voir l’extérieur !
+218	{STRVAR_1 1, 0, 0} a l’air ébloui après avoir vu\nle ciel !
+219	{STRVAR_1 1, 0, 0} lève les yeux vers la haute\nmontagne...
+220	{STRVAR_1 1, 0, 0} a crié en regardant la\nhaute montagne !
+221	{STRVAR_1 1, 0, 0} a l’air de s’inquiéter de la\ncascade !
+222	{STRVAR_1 1, 0, 0} écoute le bruit de la\ncascade.
+223	{STRVAR_1 1, 0, 0} a l’air d’entendre quelque\nchose à l’intérieur de la cascade...
+224	{STRVAR_1 1, 0, 0} a l’air d’avoir trouvé\nquelque chose dans la cascade... ?
+225	{STRVAR_1 1, 0, 0} a gardé un bon rythme pour\nmontrer son endurance !
+226	{STRVAR_1 1, 0, 0} ressent une présence\ninhabituelle...
+227	{STRVAR_1 1, 0, 0} renifle les tatamis du sol.
+228	{STRVAR_1 1, 0, 0} écoute les bruits du\nbâtiment.
+229	{STRVAR_1 1, 0, 0} lève les yeux vers la tour.
+230	{STRVAR_1 1, 0, 0} grogne doucement...
+231	{STRVAR_1 1, 0, 0} fait de gros efforts pour\nmontrer sa force !
+232	{STRVAR_1 1, 0, 0} fait une tête mécontente...
+233	{STRVAR_1 1, 0, 0} est un peu nerveux...
+234	{STRVAR_1 1, 0, 0} a un peu peur.
+235	{STRVAR_1 1, 0, 0} a l’air d’avoir pris une\npetite décharge !
+236	{STRVAR_1 1, 0, 0} a l’air d’hésiter un peu...
+237	{STRVAR_1 1, 0, 0} observe attentivement la\npêche.
+238	{STRVAR_1 1, 0, 0} a fait claquer sa liane !
+239	{STRVAR_1 1, 0, 0} a agité sa liane !
+240	{STRVAR_1 1, 0, 0} fixe intensément les\narticles exposés !
+241	{STRVAR_1 1, 0, 0} fixe le plafond, surpris !
+242	{STRVAR_1 1, 0, 0} fixait le plafond et a failli\ntomber !
+243	{STRVAR_1 1, 0, 0} lève les yeux vers le\nplafond.
+244	{STRVAR_1 1, 0, 0} a regardé au loin et a\naboyé !
+245	{STRVAR_1 1, 0, 0} a l’air d’avoir très\nchaud...
+246	{STRVAR_1 1, 0, 0} a salué votre maman !
+247	{STRVAR_1 1, 0, 0} a l’air très content !
+248	{STRVAR_1 1, 0, 0} a l’air d’avoir très froid !
+249	{STRVAR_1 1, 0, 0} a l’air de vraiment\ns’amuser !
+250	{STRVAR_1 1, 0, 0} joue dans le sable !
+251	{STRVAR_1 1, 0, 0} s’amuse à s’emmêler dans\nles hautes herbes !
+252	{STRVAR_1 1, 0, 0} s’est emmêlé dans les\nhautes herbes !
+253	{STRVAR_1 1, 0, 0} trébuche dans les hautes\nherbes !
+254	{STRVAR_1 1, 0, 0} mordille les hautes herbes !
+255	{STRVAR_1 1, 0, 0} fixe intensément la mer\nagitée.
+256	{STRVAR_1 1, 0, 0} a l’air d’avoir peur de\nquelque chose...
+257	{STRVAR_1 1, 0, 0} a été surpris par un bruit\nsoudain !
+258	{STRVAR_1 1, 0, 0} a senti quelque chose\nd’étrange et a été surpris !
+259	{STRVAR_1 1, 0, 0} sent quelque chose...
+260	{STRVAR_1 1, 0, 0} a l’air d’avoir trouvé\nquelque chose !
+261	{STRVAR_1 1, 0, 0} écoute attentivement le\nbruit des vagues.
+262	{STRVAR_1 1, 0, 0} regarde joyeusement les\nvagues !
+263	{STRVAR_1 1, 0, 0} a l’air d’entendre un bruit\nétrange.
+264	{STRVAR_1 1, 0, 0} a l’air incroyablement\nheureux !
+265	{STRVAR_1 1, 0, 0} a l’air en colère, on ne sait\npas pourquoi !
+266	{STRVAR_1 1, 0, 0} est nerveux, on ne sait pas\npourquoi !
+267	{STRVAR_1 1, 0, 0} a l’air d’avoir un peu\nfroid...
+268	{STRVAR_1 1, 0, 0} a l’air de s’amuser un peu !
+269	{STRVAR_1 1, 0, 0} a l’air un peu timide.
+270	{STRVAR_1 1, 0, 0} a l’air très content, on ne\nsait pas pourquoi !
+271	{STRVAR_1 1, 0, 0} renifle une odeur d’un air\nsoupçonneux.
+272	{STRVAR_1 1, 0, 0} regarde par ici en souriant.
+273	{STRVAR_1 1, 0, 0} se détend.
+274	{STRVAR_1 1, 0, 0} est ébloui par l’éclat du\npont !
+275	{STRVAR_1 1, 0, 0} danse autour du pilier !
+276	{STRVAR_1 1, 0, 0} recule pour prendre son\nélan !
+277	{STRVAR_1 1, 0, 0} s’est caché derrière vous,\nl’air gêné !
+278	{STRVAR_1 1, 0, 0} s’est enfui, tout gêné !
+279	{STRVAR_1 1, 0, 0} joue avec une feuille !
+280	{STRVAR_1 1, 0, 0} a l’air de se détendre en\nécoutant le bruissement des feuilles...
+281	{STRVAR_1 1, 0, 0} a l’air d’écouter le\nbruissement des feuilles.
+282	{STRVAR_1 1, 0, 0} joue en touchant les\nfeuilles.
+283	{STRVAR_1 1, 0, 0} se protège les yeux de la\nlumière étincelante !
+284	{STRVAR_1 1, 0, 0} danse et éclabousse\npartout !
+285	{STRVAR_1 1, 0, 0} danse et éclabousse\npartout !
+286	{STRVAR_1 1, 0, 0} bondit partout pour\nmontrer qu’il saute très haut !
+287	{STRVAR_1 1, 0, 0} saute partout !
+288	{STRVAR_1 1, 0, 0} a l’air inquiet et donne des\npetits coups à {STRVAR_1 3, 2, 0}.
+289	{STRVAR_1 1, 0, 0} regarde la machine d’un air\nbizarre.
+290	{STRVAR_1 1, 0, 0} a salué les deux !
+291	{STRVAR_1 1, 0, 0} a regardé les deux et a\ncrié.
+292	{STRVAR_1 1, 0, 0} se balance avec le bateau !
+293	{STRVAR_1 1, 0, 0} a le tournis !
+294	{STRVAR_1 1, 0, 0} frissonne...
+295	{STRVAR_1 1, 0, 0} fixe intensément la\nfontaine.
+296	{STRVAR_1 1, 0, 0} regarde joyeusement la\nfontaine !
+297	{STRVAR_1 1, 0, 0} foudroie du regard la\nstatue de PERSIAN !
+298	{STRVAR_1 1, 0, 0} regarde la statue de\nPERSIAN en hurlant !
+299	{STRVAR_1 1, 0, 0} a envoyé dans les airs un\nnuage de spores en forme d’anneau !
+300	{STRVAR_1 1, 0, 0} renifle l’herbe du pâturage.
+301	{STRVAR_1 1, 0, 0} fixe droit la Ligue Pokémon.
+302	{STRVAR_1 1, 0, 0} a craché du feu !
+303	{STRVAR_1 1, 0, 0} a craché du feu en criant !
+304	{STRVAR_1 1, 0, 0} fixe le sol qui s’effrite.
+305	{STRVAR_1 1, 0, 0} a l’air d’apprécier la balade\nen bateau !
+306	{STRVAR_1 1, 0, 0} est toujours en pleine\nforme !
+307	{STRVAR_1 1, 0, 0} ne veut pas encore\ndescendre du bateau !
+308	{STRVAR_1 1, 0, 0} est content de voir l’eau\nsur la vitre !
+309	{STRVAR_1 1, 0, 0} regarde partout, agité, car\nil se sent perdu.
+310	{STRVAR_1 1, 0, 0} écoute prudemment les\nbruits alentour !
+311	{STRVAR_1 1, 0, 0} regarde partout, agité.
+312	{STRVAR_1 1, 0, 0} regarde partout d’un air\ndistrait.
+313	{STRVAR_1 1, 0, 0} regarde le lac, agité !
+314	{STRVAR_1 1, 0, 0} est surpris par l’eau qui\ngoutte !
+315	{STRVAR_1 1, 0, 0} joue dans la flaque !
+316	{STRVAR_1 1, 0, 0} glisse dans l’eau et a failli\ntomber !
+317	{STRVAR_1 1, 0, 0} a craché un jet d’eau !
+318	{STRVAR_1 1, 0, 0} remue les oreilles en\nécoutant le bruit du vent.
+319	{STRVAR_1 1, 0, 0} a salué tout le monde !
+320	{STRVAR_1 1, 0, 0} a remarqué le chapeau de\npaille.
+321	{STRVAR_1 1, 0, 0} se concentre, le regard\nperçant !
+322	{STRVAR_1 1, 0, 0} reste calme, l’air\npaisible...
+323	{STRVAR_1 1, 0, 0} serre fort {STRVAR_1 8, 4, 0} qu’il\ntient !
+324	{STRVAR_1 1, 0, 0} regarde {STRVAR_1 8, 4, 0} qu’il\ntient.
+325	{STRVAR_1 1, 0, 0} fixe intensément {STRVAR_1 8, 4, 0}\nqu’il tient.
+326	{STRVAR_1 1, 0, 0} crie en regardant les\nécrans !
+327	{STRVAR_1 1, 0, 0} regarde la forêt, agité.
+328	La brûlure de {STRVAR_1 1, 0, 0} a l’air\ndouloureuse !
+329	{STRVAR_1 1, 0, 0} a l’air d’avoir trouvé\nquelque chose sur la montagne !
+330	{STRVAR_1 1, 0, 0} a l’air d’avoir trouvé\nquelque chose sur la montagne !
+331	{STRVAR_1 1, 0, 0} fixe intensément la\nmontagne.
+332	{STRVAR_1 1, 0, 0} fixe intensément la\nmontagne.
+333	{STRVAR_1 1, 0, 0} regarde la montagne comme\ns’il avait hâte de la gravir.
+334	{STRVAR_1 1, 0, 0} est très motivé !
+335	{STRVAR_1 1, 0, 0} est encore plus motivé !
+336	{STRVAR_1 1, 0, 0} vole gracieusement dans le\nciel !
+337	{STRVAR_1 1, 0, 0} contemple le ciel rouge...
+338	{STRVAR_1 1, 0, 0} s’est roulé par terre !
+339	{STRVAR_1 1, 0, 0} a glissé sur le sol et risque\nde tomber !
+340	{STRVAR_1 1, 0, 0} a été surpris par les bruits\ndu plancher !
+341	{STRVAR_1 1, 0, 0} renifle le sol.
+342	{STRVAR_1 1, 0, 0} renifle le sol.
+343	{STRVAR_1 1, 0, 0} s’est lentement tourné\npour regarder votre visage.
+344	{STRVAR_1 1, 0, 0} se détend confortablement.
+345	{STRVAR_1 1, 0, 0} vacille et a l’air sur le\npoint de tomber.
+346	{STRVAR_1 1, 0, 0} s’inquiète du pilier qui\noscille.
+347	{STRVAR_1 1, 0, 0} danse au rythme du roulis\ndu bateau !
+348	{STRVAR_1 1, 0, 0} contemple le ciel\nnocturne...
+349	{STRVAR_1 1, 0, 0} est très calme et sûr de\nlui.
+350	{STRVAR_1 1, 0, 0} a bâillé bruyamment.
+351	{STRVAR_1 1, 0, 0} s’est rapproché de\n{STRVAR_1 3, 2, 0} !
+352	{STRVAR_1 1, 0, 0} est rentré dans\n{STRVAR_1 3, 2, 0} !
+353	{STRVAR_1 1, 0, 0} regarde le visage de\n{STRVAR_1 3, 2, 0}.
+354	{STRVAR_1 1, 0, 0} dit bonjour !
+355	{STRVAR_1 1, 0, 0} vous tapote les pieds.
+356	{STRVAR_1 1, 0, 0} fait le guet !
+357	{STRVAR_1 1, 0, 0} risque de tomber !
+358	{STRVAR_1 1, 0, 0} crache du feu avec\nvigueur !
+359	{STRVAR_1 1, 0, 0} a l’air sur le point de\ntomber !
+360	{STRVAR_1 1, 0, 0} a été surpris par son\npropre reflet !
+361	{STRVAR_1 1, 0, 0} chante joyeusement !
+362	{STRVAR_1 1, 0, 0} est content mais timide !
+363	{STRVAR_1 1, 0, 0} a bâillé bruyamment !
+364	{STRVAR_1 1, 0, 0} vous tapote le ventre.
+365	{STRVAR_1 1, 0, 0} fixe intensément le visage\nde {STRVAR_1 3, 2, 0}.
+366	{STRVAR_1 1, 0, 0} a salué CANARTICHO !
+367	{STRVAR_1 1, 0, 0} sent une douce brise\nagréable.
+368	{STRVAR_1 1, 0, 0} regarde le bâtiment, agité.
+369	{STRVAR_1 1, 0, 0} renifle l’herbe.
+370	{STRVAR_1 1, 0, 0} est content d’avoir trouvé\nun caillou dans l’herbe !
+371	{STRVAR_1 1, 0, 0} s’abrite de la pluie dans\nl’herbe.
+372	{STRVAR_1 1, 0, 0} se roule dans l’herbe.
+373	{STRVAR_1 1, 0, 0} barbote dans l’herbe\nmouillée.
+374	{STRVAR_1 1, 0, 0} a l’air d’être coincé dans\nles touffes d’herbe !
+375	{STRVAR_1 1, 0, 0} a été surpris par les bruits\ndu buisson !
+376	{STRVAR_1 1, 0, 0} remarque l’odeur de\nl’herbe.
+377	{STRVAR_1 1, 0, 0} fixe l’herbe.
+378	{STRVAR_1 1, 0, 0} piétine l’herbe !
+379	{STRVAR_1 1, 0, 0} arrache l’herbe !
+380	{STRVAR_1 1, 0, 0} remue la mâchoire.
+381	{STRVAR_1 1, 0, 0} serre fort la bouche.
+382	{STRVAR_1 1, 0, 0} ouvre et ferme la bouche.
+383	{STRVAR_1 1, 0, 0} a salué Mary !
+384	{STRVAR_1 1, 0, 0} renifle partout dans la\npièce.
+385	{STRVAR_1 1, 0, 0} vous suit joyeusement !
+386	{STRVAR_1 1, 0, 0} grelotte de froid...
+387	{STRVAR_1 1, 0, 0} regarde en bas.
+388	{STRVAR_1 1, 0, 0} a l’air d’avoir un peu\npeur...
+389	{STRVAR_1 1, 0, 0} a glissé et a l’air sur le\npoint de tomber !
+390	{STRVAR_1 1, 0, 0} a l’air d’adorer glisser !
+391	{STRVAR_1 1, 0, 0} regarde dehors en\ngambadant !
+392	{STRVAR_1 1, 0, 0} fixe intensément le ciel.
+393	{STRVAR_1 1, 0, 0} lève les yeux vers le ciel.
+394	{STRVAR_1 1, 0, 0} fixe intensément le lointain.
+395	{STRVAR_1 1, 0, 0} frissonne à cause du\npoison...
+396	{STRVAR_1 1, 0, 0} est très content !
+397	{STRVAR_1 1, 0, 0} sautait sur place !
+398	{STRVAR_1 1, 0, 0} ressent quelque chose...
+399	{STRVAR_1 1, 0, 0} ressent quelque chose et\nhurle !
+400	{STRVAR_1 1, 0, 0} fixe patiemment... rien du\ntout.
+401	{STRVAR_1 1, 0, 0} se force à continuer.
+402	{STRVAR_1 1, 0, 0} lutte contre le sommeil...
+403	{STRVAR_1 1, 0, 0} dodeline de la tête, il\ncommence à s’endormir...
+404	{STRVAR_1 1, 0, 0} a l’air d’avoir sommeil...
+405	{STRVAR_1 1, 0, 0} danse partout, plein\nd’entrain !
+406	{STRVAR_1 1, 0, 0} fait frémir sa feuille.
+407	{STRVAR_1 1, 0, 0} agite sa feuille.
+408	{STRVAR_1 1, 0, 0} lance une feuille partout !
+409	{STRVAR_1 1, 0, 0} a l’air de vouloir jouer avec\nMARILL !
+410	{STRVAR_1 1, 0, 0} a craché une boule de feu.
+411	{STRVAR_1 1, 0, 0} a craché quelques boules de\nfeu.
+412	{STRVAR_1 1, 0, 0} crache du feu !
+413	{STRVAR_1 1, 0, 0} essaie de toucher la\nmachine.
+414	{STRVAR_1 1, 0, 0} s’inquiète pour votre\nmaman !
+415	{STRVAR_1 1, 0, 0} barbote dans la flaque !
+416	{STRVAR_1 1, 0, 0} fixe les reflets dans l’eau.
+417	{STRVAR_1 1, 0, 0} dit bonjour à tout le\nmonde !
+418	{STRVAR_1 1, 0, 0} se trémousse devant tout le\nmonde...
+419	{STRVAR_1 1, 0, 0} est très motivé !
+420	{STRVAR_1 1, 0, 0} est très calme !
+421	{STRVAR_1 1, 0, 0} a l’air de croire que\n{STRVAR_1 3, 2, 0} a disparu !
+422	......\nVotre Pokémon a éternué, on dirait !
+423	...... Votre Pokémon a remarqué que vos\nchaussures sont un peu sales.
+424	...... Votre Pokémon a l’air d’avoir un\npeu froid.
+425	...... Il a l’air d’avoir mangé quelque\nchose de bizarre. Il fait une drôle de\ftête...
+426	...... Votre Pokémon est surpris par\nquelque chose.
+427	......\nVotre Pokémon a peur de quelque chose.
+428	...... Votre Pokémon a l’air de sentir\nquelque chose de bon.
+429	......\nVotre Pokémon regarde le ciel rouge.
+430	...... Votre Pokémon fixe le bateau qui\ntangue.
+431	... Oh ! Il est sur le point de toucher\naux étagères ! Le gronder ? {YESNO 0}
+432	... Oh ! Il a l’air de vouloir faire une\nbêtise avec des objets ! Le gronder ?
+433	......\nVotre Pokémon fait la grimace par ici.
+434	...... Votre Pokémon a l’air surpris que\nles étagères puissent tomber !
+435	......\nLes étagères sont bien en désordre.
+436	......\nVotre Pokémon refuse de vous regarder.
+437	...... Votre Pokémon ne vient pas, même\nquand vous l’appelez.
+438	Oh ! {STRVAR_1 1, 0, 0} a un bout de papier\ndans la bouche ! Vous fâcher ?{YESNO 0}
+439	Oh ! {STRVAR_1 1, 0, 0} a le câble dans la\nbouche ! Vous fâcher ?{YESNO 0}
+440	Oh ! {STRVAR_1 1, 0, 0} touche une sorte\nd’interrupteur ! L’arrêter ?{YESNO 0}
+441	Oh ! Il glisse et vient chercher votre\nappui !
+442	Oh ! Il vole de la nourriture ! Le\ngronder ?{YESNO 0}
+443	Oh ! Il a mangé quelque chose ! Lui\nouvrir la bouche ?{YESNO 0}
+444	Oh ! Votre Sac est un peu sale...
+445	Oh ! Il y a une feuille !
+446	Votre Pokémon contemple joyeusement le\nsoleil du matin !
+447	Votre Pokémon fait voler du sable !
+448	Votre Pokémon regarde joyeusement les\nempreintes de {STRVAR_1 3, 2, 0} !
+449	Votre Pokémon regarde joyeusement les\nempreintes de {STRVAR_1 3, 2, 0} !
+450	Votre Pokémon n’aime pas patauger par\nterre...
+451	Votre Pokémon est content de patauger\npar terre !
+452	Votre Pokémon a chaud et il est de\nbonne humeur !
+453	Votre Pokémon n’a pas l’air content\nqu’il fasse chaud...
+454	Attention ! Votre Pokémon a l’air sur le\npoint de tomber...
+455	Attention ! Le sol pourrait\ns’effondrer, il risque de tomber.
+456	Votre Pokémon a failli glisser et\ntomber !
+457	{STRVAR_1 1, 0, 0} reste près de vous.
+458	{STRVAR_1 1, 0, 0} s’est mis à tourner en\nrond.
+459	Votre Pokémon a l’air content qu’il\nfasse si beau !
+460	Snif, snif ! Quelque chose sent bon !
+461	{STRVAR_1 1, 0, 0} a soudain hurlé !
+462	Votre Pokémon a été surpris que vous\nlui parliez tout à coup !
+463	Votre Pokémon salue Fraisy !
+464	Votre Pokémon danse avec vous !
+465	{STRVAR_1 1, 0, 0} s’est soudain fâché !
+466	Votre Pokémon regarde les différents\nobjets.
+467	{STRVAR_1 1, 0, 0} creuse joyeusement le sol !
+468	{STRVAR_1 1, 0, 0} s’est mis à frotter les\nrochers !
+469	{STRVAR_1 1, 0, 0} s’amuse à cogner des\nrochers entre eux !
+470	{STRVAR_1 1, 0, 0} s’amuse à se rouler par\nterre !
+471	{STRVAR_1 1, 0, 0} s’est mis à tasser le sol !
+472	{STRVAR_1 1, 0, 0} s’est mis à danser et à se\ndandiner bizarrement.
+473	{STRVAR_1 1, 0, 0} s’est dandiné et a dansé\nmystérieusement.
+474	{STRVAR_1 1, 0, 0} s’est mis à danser et à se\nbalancer bizarrement.
+475	{STRVAR_1 1, 0, 0} s’est dandiné et a dansé\nmystérieusement.
+476	Votre Pokémon fixe intensément la mer !
+477	Votre Pokémon marmonne joyeusement.
+478	Votre Pokémon a bâillé bruyamment !
+479	{STRVAR_1 1, 0, 0} a fait trembler la tour de\nsa voix !
+480	{STRVAR_1 1, 0, 0} a hurlé très fort !
+481	On dirait que la brise vient d’ici.
+482	Votre Pokémon regarde la danse avec\nexcitation !
+483	Votre Pokémon regarde le souvenir,\nagité.
+484	{STRVAR_1 1, 0, 0} est plein d’entrain !
+485	{STRVAR_1 1, 0, 0} agite joyeusement\n{STRVAR_1 8, 4, 0} en chantant.
+486	{STRVAR_1 1, 0, 0} danse joyeusement !
+487	Votre Pokémon s’étire et se détend.
+488	Votre Pokémon se sent bien et a\nsommeil.
+489	{STRVAR_1 1, 0, 0} a hurlé très très fort !
+490	Votre Pokémon cherche quelque chose\npartout, agité.
+491	Votre Pokémon inspecte les étagères,\nagité.
+492	Votre Pokémon observe avec inquiétude\nles girouettes qui tournoient.
+493	Votre Pokémon a senti une odeur de\nfumée.
+494	Votre Pokémon sent le parfum des\nfleurs.
+495	Votre Pokémon sent l’odeur du sol.
+496	Snif, snif ! Il y a quelque chose tout\nprès ?
+497	{STRVAR_1 1, 0, 0} renifle la fille.
+498	Snif, snif ! Quelque chose sent vraiment\nbon !
+499	Votre Pokémon sent le parfum des\nfleurs.
+500	{STRVAR_1 1, 0, 0} vous lance un regard\nradieux !
+501	{STRVAR_1 1, 0, 0} bondit partout plus que\nd’habitude !
+502	Votre Pokémon a l’air surpris de\ntoucher la glace !
+503	{STRVAR_1 1, 0, 0} fixe intensément son\nadversaire !
+504	Votre Pokémon fixe intensément le\ntableau noir... Mais il n’a pas l’air de\fcomprendre.
+505	{STRVAR_1 1, 0, 0} fouille dans les ordures...
+506	{STRVAR_1 1, 0, 0} a l’air de s’intéresser à ce\nqu’il y a de l’autre côté de la clôture.
+507	{STRVAR_1 1, 0, 0} a l’air très content qu’il\nfasse froid !
+508	{STRVAR_1 1, 0, 0} se blottit pour se\nréchauffer !
