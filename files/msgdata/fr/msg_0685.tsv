@@ -1,0 +1,23 @@
+0	Chad
+1	Hein ? C’est un Pokédex, ce truc ? Tu\nas rencontré le Professeur Chen ?\rHein ? Oui ? C’est trop cool !\rMon rêve, c’est de devenir chercheur\nPokémon comme le Professeur Chen.\rJe peux avoir ton numéro, s’il te\nplaît ?\rOn pourrait discuter du Professeur\nChen.\rJe suis sûr que ce sera super amusant !\n{YESNO 0}
+2	Tu écoutes forcément Pokémon Talk du\nProfesseur Chen, hein ?
+3	Oh... J’aimerais tellement avoir\nl’occasion de rencontrer le Professeur\fChen...
+4	Je peux avoir ton numéro, s’il te\nplaît ?\rOn pourrait discuter du Professeur\nChen. Ce sera super amusant ! {YESNO 0}
+5	Hein ? Attends, tu n’es pas tout près ?\nTu aimes le téléphone à ce point ?
+6	Récemment, j’ai commencé à observer\ndes {STRVAR_1 0, 10, 0} sauvages.\rJ’apprends toutes sortes de nouvelles\nchoses grâce à mes observations.\rJ’aimerais devenir bientôt chercheur\nPokémon comme le Professeur Chen.\rÀ plus tard !
+7	Ah oui, j’ai réussi à mettre K.O. un\n{STRVAR_1 0, 11, 0} sauvage il y a quelque\ftemps.\rBon, avec toutes les études sur les\nPokémon que je fais chaque jour,\fc’était inévitable.\rÀ plus tard !
+8	Ah oui, j’ai failli attraper un\n{STRVAR_1 0, 11, 0} sauvage, mais il s’est enfui.\rÇa fait une éternité que je veux\nobserver un {STRVAR_1 0, 11, 0}. Bon sang...\rÀ plus tard !
+9	Tu connais Blue ?\rC’est le petit-fils du Professeur Chen\net un ancien Maître de la Ligue\fPokémon ! C’est un super Dresseur de\fPokémon !\rÀ plus tard !
+10	Le Professeur Chen a une petite-fille\nqui s’appelle Daisy.\rQuand elle est là, même les Pokémon les\nplus féroces se calment tout de suite.\rÀ plus tard !
+11	Tout le monde parle du Professeur\nOrme.\rIl était l’assistant du grand\nProfesseur Chen !\rC’est trop cool ! Je l’envie !\rÀ plus tard !
+12	Le rêve du Professeur Chen, c’est de\ncompiler un Pokédex complet.\rJe t’envie de participer à ce projet...\rÀ plus tard !
+13	Tu connais Fargas, le fabricant de Poké\nBalls ?\rLui et le Professeur Chen se\nconnaissent depuis longtemps. Les\fgrands esprits se rencontrent,\fj’imagine !\rÀ plus tard !
+14	La Ligue Pokémon est le grand lieu de\nrassemblement de tous les Dresseurs\fqui veulent devenir Maître.\rLe Professeur Chen est conseiller au\nsiège de la Ligue Pokémon.\rC’est vraiment un grand homme.\rÀ plus tard !
+15	Pokémon Talk du Professeur Chen est\nune émission de radio populaire, hein ?\rTu savais qu’au début, il allait refuser\nl’émission ?\rMais l’énergie et l’insistance de Mary\nont eu raison de lui. C’est donc Mary\fqu’il faut remercier !\rÀ plus tard !
+16	Le Professeur Chen était Dresseur il y\na longtemps.\rMais plutôt que les combats, ce sont\nles Pokémon eux-mêmes qu’il trouvait\fintéressants.\rAlors il a abandonné l’entraînement\npour devenir chercheur.\rÀ plus tard !
+17	Le Professeur Chen a une petite-fille\nqui s’appelle Daisy.\rElle prend le thé tous les jours\npendant une heure à partir de trois\fheures de l’après-midi.\rJ’aimerais tellement prendre le thé\navec elle et parler du Professeur Chen.\rÀ plus tard !
+18	Tu savais ? Le Professeur Chen a\nvoyagé dans le monde entier quand il\fétait jeune.\rEn voyageant, il a dû apprendre\nnaturellement à connaître les Pokémon.\rJe l’envie... J’aimerais voyager et\napprendre des choses, moi aussi...\rÀ plus tard !
+19	Tu savais ? Le Professeur Chen a\nvoyagé dans le monde entier quand il\fétait jeune.\rEn voyageant, il a dû apprendre\nnaturellement à connaître les Pokémon.\rJe l’envie... J’aimerais voyager et\napprendre des choses, moi aussi...\rÀ plus tard !
+20	Tu veux te battre ?\rJe dois combattre de temps en temps\npour ne pas rouiller.\rJe serai sur {STRVAR_1 4, 3, 0} !
+21	Tu te souviens de notre combat ?\rC’est sur {STRVAR_1 4, 3, 0}. Dépêche-toi, je\nt’attends.
+22	Je vais tout apprendre sur les Pokémon\npour que le Professeur Chen fasse de\fmoi son assistant !

@@ -1,0 +1,14 @@
+0	Alan
+1	Quand je lis mes manuels en marchant,\nje dois regarder vers le bas, alors je\fremarque les objets par terre.\rLa prochaine fois que je trouve quelque\nchose, je te le donnerai.\rJe peux avoir ton numéro ? {YESNO 0}
+2	Je t’appellerai dès que je trouverai\nquelque chose. Tu peux compter sur\fmoi !
+3	Oh... Je pensais que ce serait une\nbonne pause de t’appeler pendant mes\frévisions...
+4	Si je trouve quelque chose, c’est pour\ntoi. Alors je peux avoir ton numéro ? {YESNO 0}
+5	Ça, ça ! C’est pour toi ! Tadaa !\r
+6	Hein ? Attends. Ne me dis pas que tu es\ntout près ?\rTu n’as rien remarqué parce que toi\naussi, tu regardais par terre ?
+7	Mon {STRVAR_1 0, 10, 0} devient plus fort,\nexactement comme je l’avais calculé !\rAu fait, on a mis K.O. un {STRVAR_1 0, 11, 0}\nsauvage l’autre jour.\rÇa valait le coup de réviser à\nl’avance !\rÀ plus tard !
+8	Mon {STRVAR_1 0, 10, 0} devient plus fort,\nexactement comme je l’avais calculé !\rAu fait, un {STRVAR_1 0, 11, 0} sauvage m’a\néchappé hier.\rUne erreur de calcul de ma part...\rÀ plus tard !
+9	J’ai beaucoup étudié depuis, et j’ai fait\nde gros progrès !\rJe traîne sur {STRVAR_1 4, 3, 0}. Tu peux\nvenir pour un combat ?
+10	Si on ne se bat pas bientôt, je vais\noublier ma stratégie !\rJe t’attends sur {STRVAR_1 4, 3, 0} !
+11	Je n’ai encore rien ramassé. Je\nt’appellerai si je trouve quelque\fchose.
+12	Hé hé. J’ai trouvé un truc vraiment\ngénial tout à l’heure !\rJe te le donne. Tu peux venir le\nchercher sur {STRVAR_1 4, 3, 0} ?
+13	Je dois faire mes devoirs, alors tu peux\nvenir chercher ton cadeau tout de\fsuite ?\rJe t’attends sur {STRVAR_1 4, 3, 0} !

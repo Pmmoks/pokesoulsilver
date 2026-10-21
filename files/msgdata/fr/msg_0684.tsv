@@ -1,0 +1,17 @@
+0	Wade
+1	Quel combat ! Je t’aime bien ! Je\ncherche des Pokémon ici tous les\fjours.\rDans les hautes herbes, je trouve\ntoutes sortes de Baies.\rSi tu veux, je t’en donnerai. Je peux\navoir ton numéro ? {YESNO 0}
+2	Je t’appellerai dès que je trouverai\nquelque chose qui pourrait te plaire.
+3	Tant pis.\rN’hésite pas si tu veux mon numéro.
+4	Dans les hautes herbes, je trouve\ntoutes sortes de Baies.\rSi tu veux, je t’en donnerai. Je peux\navoir ton numéro ? {YESNO 0}
+5	Content de te voir ! Regarde ! Voilà\nce que j’ai trouvé. C’est pour toi !\r
+6	Tu es tout près, hein ? Alors viens\ndonc me parler en personne !
+7	Tes Pokémon grandissent ?\rLes miens grandissent un peu trop\nvite pour moi. C’est trop !\r{STRVAR_1 0, 10, 0} grandit particulièrement\nvite. Je crois qu’il va devenir\fcostaud.\rÀ plus tard !
+8	Ah oui, on a mis K.O. un {STRVAR_1 0, 11, 0}\nsauvage en un seul coup il y a\fquelque temps.\rIl est tombé si facilement que j’ai eu\nun peu pitié de la pauvre bête.\rÀ plus tard !
+9	Ah oui, un {STRVAR_1 0, 11, 0} sauvage m’a\néchappé à la dernière seconde.\rJe sais que c’est un Pokémon\ncourant...\rMais ça m’embête qu’il se soit\néchappé alors que je l’avais\fpresque.\rÀ plus tard !
+10	Tu as envie d’un combat Pokémon ? Ce\nne sera pas comme la dernière fois !\rJe serai sur {STRVAR_1 4, 3, 0}.\nPréviens-moi quand tu y es.
+11	Battons-nous enfin !\rJe suis sur {STRVAR_1 4, 3, 0}. Viens dès\nque tu peux, s’il te plaît !
+12	Hein ? Des Baies ?\rDésolé, je n’en ai pas encore\ntrouvé. Je t’appellerai si j’en\ftrouve. Tu veux bien attendre ?
+13	J’ai trouvé toutes sortes de Baies.\nSi tu veux, je t’en donne.\rJe t’attendrai sur {STRVAR_1 4, 3, 0}.
+14	Pourquoi tu n’es pas encore là ?\rJe suis sur {STRVAR_1 4, 3, 0}. Viens dès\nque tu peux, s’il te plaît !
+15	Le Concours de Capture d’Insectes a\nlieu au Parc Naturel aujourd’hui. Tu\fy vas, {STRVAR_1 3, 0, 0} ?\rMoi, j’hésite encore.
+16	Le Concours de Capture d’Insectes a\nlieu au Parc Naturel aujourd’hui. Tu\fy vas, {STRVAR_1 3, 0, 0} ?\rMoi, j’hésite encore.

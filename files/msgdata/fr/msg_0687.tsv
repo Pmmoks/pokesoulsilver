@@ -1,0 +1,12 @@
+0	Kyler
+1	J’aimerais bien refaire un combat\nPokémon avec toi un de ces jours. On\féchange nos numéros ? {YESNO 0}
+2	Hé ! Merci !
+3	Hé ! Tant pis !
+4	J’aimerais bien refaire un combat\nPokémon avec toi un de ces jours. On\féchange nos numéros ? {YESNO 0}
+5	Même si tu es tout près, au téléphone,\ntu as l’air loin.\rNe sois pas timide. Pourquoi ne pas\nvenir me parler en personne ?
+6	Il y a des gens qui disent : “Pas besoin\nde donner de l’appât à ses Pokémon\fcapturés”, mais moi, je suis différent.\rMon {STRVAR_1 0, 10, 0} fait du super boulot.\rAlors je lui donne de bonnes choses à\nmanger, je le brosse, je le caresse, je\flui montre de l’affection et je le\fchouchoute !
+7	Hier, je suis allé pêcher et j’ai mis K.O.\nun {STRVAR_1 0, 11, 0} !\rJe sais qu’en allant à la montagne, en\nforêt, dans les prairies, dans les\fgrottes ou ailleurs, je pourrais\ftrouver toutes sortes de Pokémon.\rMais j’adore vraiment les Pokémon comme\n{STRVAR_1 0, 11, 0}, tu sais...
+8	Le plus gros Pokémon, c’est toujours\ncelui qu’on a failli attraper, tu sais ?\rL’autre jour, j’avais presque attrapé\nun {STRVAR_1 0, 11, 0} quand il s’est enfui !\fJ’étais trop déçu !\rQuand on pêche, pas de regrets ! Pêche\nde toutes tes forces ! Hé ! Courage !
+9	J’en ai marre de pêcher. Je préfère un\ncombat Pokémon avec toi !\rHé ! Je t’attends sur {STRVAR_1 4, 3, 0}.
+10	Allô ? On a prévu de se retrouver sur\n{STRVAR_1 4, 3, 0} pour un combat, non ? Hé !\fDépêche-toi d’arriver.
+11	Le vrai charme de la pêche, c’est qu’on\nne sait jamais ce qu’on va attraper\favant de le sortir de l’eau.\rUn jour, peut-être que je relèverai ma\ncanne et qu’il y aura un Pokémon\flégendaire au bout de ma ligne...\rOuais, c’est ça. Les chances que ça\narrive sont quasi nulles.\rPar exemple, RAIKOU et les autres, à\nforce de bondir partout, ils pourraient\fglisser et tomber dans la mer...\rQu’en penses-tu, je pourrais attraper\nRAIKOU par accident en pêchant ?\r... C’est bête, hein ?

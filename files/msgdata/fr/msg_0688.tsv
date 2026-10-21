@@ -1,0 +1,23 @@
+0	Brent
+1	Au fait, tu es un Pokémaniac... Ça se\nvoit. Si, si.\rMais tes connaissances sont encore\nsuperficielles !\rTu connais Léo ? C’est un Pokémaniac\nincroyable. Je le vénère.\rJe vais t’apprendre tout ce que je\nsais sur Léo, alors laisse-moi ton\fnuméro. {YESNO 0}
+2	Léo... il est plus qu’incroyable !\rDevenir un jour un Pokémaniac comme\nlui... C’est mon rêve.
+3	Tu vas vraiment le regretter...
+4	Je vais t’apprendre tout ce que je\nsais sur Léo, alors laisse-moi ton\fnuméro. {YESNO 0}
+6	Hein ? Tu aimes parler au téléphone\naux gens qui sont tout près ?\rTu sais, c’est comme ça que je parle à\nma mère quand je suis à la maison ?
+7	Ah oui, j’ai eu un Pokémon\nextrêmement rare lors d’un échange il\fy a quelque temps.\rTu veux savoir lequel ? Hé hé, c’est\nun secret !\rBon, voilà.
+8	Ah oui, j’ai battu ce {STRVAR_1 0, 11, 0}\nsauvage.\rIl n’était pas assez rare pour que je\nl’attrape.\rBon, voilà.
+9	Ah oui, j’ai vu un Pokémon rare il y a\nenviron une heure.\rC’était la première fois que j’en\nvoyais un. Mais je n’avais pas de Poké\fBalls...\rLéo se moquerait-il de mes erreurs ?\rBon, voilà.
+10	Tu savais... ? Le père de Léo serait\nun grand Pokémaniac.\rBon, voilà.
+11	Tu savais... ? Apparemment, le\ngrand-père de Léo n’est pas\fPokémaniac.\rBon, voilà.
+12	Tu savais... ? Léo est originaire de\nDoublonville.\rBon, voilà.
+13	Tu savais... ? Léo habiterait sur la\nRoute 25, à Kanto.\rBon, voilà.
+14	Tu savais... ? Le premier Pokémon que\nLéo aurait attrapé est un ABRA.\rBon, voilà.
+15	Tu savais... ? La petite sœur de Léo\nne saurait pas faire de clin d’œil.\rBon, voilà.
+16	Tu savais... ? Léo déteste le lait et\nn’arrive pas à en boire, paraît-il.\rBon, voilà.
+17	Tu savais... ? Apparemment, Léo n’est\npas très doué au combat.\rBon, voilà.
+18	Tu savais... ? Léo aurait un faible\npour la fleuriste.\rBon, voilà.
+19	Tu savais... ? La mère de Léo aurait\nété une Kimono Girl.\rBon, voilà.
+20	Tu savais... ? La mère de Léo aurait\nété une Kimono Girl.\rBon, voilà.
+21	Tu as du temps comme d’habitude,\nhein ? Ça te dit de te battre ?\rTu pourras voir mon Pokémon rare. Ça\nvaut le coup !\rTu sais où : {STRVAR_1 4, 3, 0}.
+22	Tu veux voir mon Pokémon rare ?\nDépêche-toi de venir sur {STRVAR_1 4, 3, 0}.
+23	Tu voulais entendre parler de Léo ?\rDésolé, mais je suis trop occupé pour\ntoi.\rJe t’appellerai quand j’aurai le\ntemps. Merci beaucoup !

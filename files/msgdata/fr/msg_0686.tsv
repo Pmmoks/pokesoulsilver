@@ -1,0 +1,13 @@
+0	Hillary
+1	J’aimerais bien faire encore un peu de\npréparation et de révision de combat\favec toi...\rC’est ça ! Et si on échangeait nos\nnuméros ? {YESNO 0}
+2	Très bien, j’ai hâte de te reparler. Je\nt’appellerai s’il y a quoi que ce soit !
+3	Dis donc, il faut écouter quand une\nInstitutrice te parle !
+4	Tu as changé d’avis pour l’échange de\nnuméros ? {YESNO 0}
+5	Tu sais, je suis presque sûre de t’avoir\naperçu...\rSi tu es tout près, il ne faut pas parler\nau téléphone. Il faut venir me parler en\fpersonne.
+6	Dis donc !\rTu as encore eu zéro à un contrôle ! Tu\nn’écoutes rien de ce que je dis en\fclasse, hein ? Tu crois vraiment pouvoir\fbattre un Champion avec ce genre de...\rHein ?\rTu n’es pas Travis...\rOh, mon Dieu ! Je suis vraiment\ndésolée !
+7	Tu sais, j’utilise souvent {STRVAR_1 0, 10, 0}.\rTu n’aimes pas combattre avec tes\nPokémon préférés ?\rMais c’est un peu triste d’utiliser\ntoujours le même Pokémon encore et\fencore.\rParfois, j’aime me promener avec des\nPokémon que je viens d’attraper.\rÇa peut être très amusant aussi, tu\nsais ?
+8	L’autre jour, j’affrontais un\n{STRVAR_1 0, 11, 0} sur la Route 15. Les gens\fse sont arrêtés pour regarder, et\fbientôt il y avait une foule énorme !\fJ’étais si nerveuse...\rTu sais, j’ai l’habitude de parler\ndevant une classe d’enfants... mais les\fcombats Pokémon, c’est autre chose.\rJe n’arrive pas à être à l’aise en\ncombattant devant une foule !
+9	Tu sais... Ça reste entre nous,\nd’accord ?\rL’autre jour, j’essayais d’attraper un\n{STRVAR_1 0, 11, 0}.\rJe me suis trompée et j’ai lancé la\nmauvaise Poké Ball, et le Pokémon s’est\fenfui.\rHeureusement qu’aucun de mes élèves ne\nregardait. Mais quand même, j’avais\fvraiment honte.
+10	Au fait, tu aimerais te préparer aux\ncombats Pokémon et réviser un peu,\fnon ?\rOn devrait refaire un combat Pokémon !\rJe suis toujours sur {STRVAR_1 4, 3, 0}. Je t’y\nattendrai !
+11	Dis donc ! Tu te souviens de notre\nrendez-vous ?\rOn a dit qu’on se retrouverait sur\n{STRVAR_1 4, 3, 0} pour un combat Pokémon,\fnon ? N’oublie pas !
+12	C’est vrai... Si on me demande qui est le\nplus mignon, mes élèves ou les Pokémon,\fj’aurai du mal à choisir.\rMaintenant que j’y pense, pour\nbeaucoup d’enfants, leur premier\fPokémon est le plus mignon du monde à\fleurs yeux.\rEt rien ne peut les faire changer\nd’avis.
