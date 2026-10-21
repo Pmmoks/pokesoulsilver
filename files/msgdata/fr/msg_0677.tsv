@@ -1,0 +1,13 @@
+0	Jamie
+1	Tu te bats vraiment bien. On devrait se\nrebattre un jour.\rEn défiant un Dresseur coriace comme\ntoi, je crois que je peux m’améliorer\faussi.\rAlors, qu’en dis-tu ? Tu me donnes ton\nnuméro ? {YESNO 0}
+2	On se rebattra un jour !
+3	Dommage... Dis-moi si tu changes\nd’avis.
+4	En défiant un Dresseur coriace comme\ntoi, je crois que je peux m’améliorer\faussi.\rAlors, qu’en dis-tu ? Tu me donnes ton\nnuméro ? {YESNO 0}
+6	Hein ? Tu... Tu n’es pas tout près ?\rPourquoi ne pas venir me parler en\nface ?
+7	Tu te souviens de mon adorable\n{STRVAR_1 0, 10, 0} ?\r{STRVAR_1 0, 10, 0} court très vite.\rC’est grisant de monter sur son dos\nquand il est lancé.\rSalut !
+8	Oh, tu as déjà vu un {STRVAR_1 0, 11, 0} ?\rJe viens d’en affronter un... Il était\nbien plus rapide que prévu.\rJ’ai été un peu choquée. J’ai quand\nmême gagné, bien sûr.\rSalut !
+9	Oh, je viens de voir un {STRVAR_1 0, 11, 0}\nsauvage. J’essayais de l’attraper\fquand j’ai remarqué que je n’avais plus\fde Poké Balls.\rSi tu ne vérifies pas tes objets, tu\nrisques d’en manquer au pire moment.\fJ’espère que tu retiendras la leçon de\fmon erreur.\rSalut !
+10	Tu veux te battre ? Cette fois, je vais\ngagner !\rJe t’attendrai vers {STRVAR_1 4, 3, 0}.\nCherche-moi, d’accord ?
+11	Euh... {STRVAR_1 3, 0, 0} ? Qu’est-ce qui se\npasse ? Tu as oublié notre accord ?\r{STRVAR_1 4, 3, 0}. C’est là que je t’attends.
+12	Euh... {STRVAR_1 3, 0, 0} ? Qu’est-ce qui se\npasse ? Tu as oublié notre accord ?\r{STRVAR_1 4, 3, 0}. C’est là que je t’attends.
+13	On se rebattra un jour !

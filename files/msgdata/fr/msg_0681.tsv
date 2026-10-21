@@ -1,0 +1,15 @@
+0	Rob
+1	Et si on échangeait nos numéros ? {YESNO 0}
+2	Appelle-moi quand tu veux si tu veux te\nbattre !
+3	Je me disais que si je trouvais quelque\nchose dans le coin, je te le\fdonnerais...
+4	Finalement, tu veux échanger nos\nnuméros ? {YESNO 0}
+5	Oh, te voilà !\rJe te donne cette Baie que mon Pokémon\na trouvée. Tiens !\r
+6	Je dois dire que c’est un peu bizarre de\nparler au téléphone alors que tu es\fjuste à côté.
+7	Mon {STRVAR_1 0, 10, 0} s’entraîne sans arrêt !\rIl ne perdra contre aucun {STRVAR_1 0, 11, 0} !
+8	Hé ! Psst ! Écoute ! Le {STRVAR_1 0, 11, 0} que\nj’ai croisé tout à l’heure s’est enfui\fd’un coup !\rJ’étais trop déçu ! Je voulais vraiment\nl’attraper, en plus !
+9	Tu as déjà attrapé des {STRVAR_1 0, 11, 0} ? On\nen trouve toujours par ici.
+10	Tu veux affronter mes Pokémon\nentraînés ?\rOn est sur {STRVAR_1 4, 3, 0}, alors fais-moi\nsigne quand tu es dans le coin !
+11	Où es-tu maintenant ? Près de\n{STRVAR_1 4, 3, 0} ? Ne me dis pas que tu as\foublié qu’on devait se battre ?
+12	En me promenant dans la forêt pour\ntrouver des Pokémon, je me suis coupé\fle doigt sur une feuille !\rÇa a un peu saigné, mais ça va.
+13	Mon Pokémon a trouvé sa Baie\npréférée !\rOn est sur {STRVAR_1 4, 3, 0} si tu la veux !
+14	Ouais... On aimerait vraiment te donner\ncette Baie... On est sur {STRVAR_1 4, 3, 0},\falors viens la chercher, s’il te plaît !

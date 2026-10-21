@@ -1,0 +1,15 @@
+0	Josh
+1	C’était amusant de t’affronter !\nJ’aimerais bien échanger nos numéros,\fs’il te plaît ! Allez, échangeons nos\fnuméros ! {YESNO 0}
+2	Merci ! On se refera un combat un de\nces jours !\rAppelle-moi quand tu veux.
+3	Glups !\rTu veux dire que tu me trouves si faible\nque je ne suis pas à la hauteur ?
+4	Je ferais n’importe quoi pour avoir ton\nnuméro !\rS’il te plaît, échangeons nos numéros ! {YESNO 0}
+5	Ah oui. Voici une Pierre Éclat.\rT’inquiète, ne sois pas timide ! Tu peux\nl’avoir. Vas-y !\r
+6	Hein ? Ta voix a quelque chose de\nbizarre... Ne me dis pas... Tu es juste\fà côté, hein ?\rSi tu es déjà si près, pourquoi ne pas\nvenir me parler en personne ?
+7	Je suis toujours un poids plume...\rMon fidèle compagnon, {STRVAR_1 0, 10, 0},\ns’entraîne dur !\rIl a même mis K.O. un {STRVAR_1 0, 11, 0} en\nmoins de deux secondes lors d’un\fcombat récent !\rBon, bon, deux secondes, c’est un peu\nexagéré... C’était en fait cinq minutes\fet 37 secondes...
+8	Mon {STRVAR_1 0, 10, 0} est devenu plutôt\nfort !\rBon, il est devenu fort, mais le\n{STRVAR_1 0, 11, 0} qu’il affrontait s’est enfui\favant la fin du combat...\rC’est la faute de {STRVAR_1 0, 10, 0}, hein ?\rC’est ma faute ?\rC’est possible, j’imagine !
+9	Tout à l’heure, je réfléchissais à un\ntruc en marchant...\rSoudain, ce {STRVAR_1 0, 11, 0} a surgi !\rJ’ai été plutôt surpris, et puis il s’est\nenfui !\rEn y repensant, j’avais prévu un\néchange avec un ami, alors je cherchais\fun {STRVAR_1 0, 11, 0}...\rDommage...
+10	Où es-tu maintenant ? Moi, je suis\ntoujours sur {STRVAR_1 4, 3, 0}.\rQue dirais-tu de te rebattre contre\nmoi ? Bonne idée ? Je t’attends !
+11	Je t’attends sur {STRVAR_1 4, 3, 0}. N’oublie\npas !
+12	Ah... Ah... Atchoum !\rAh... Ah... Ah... Atchoum !\rOh, ce n’est rien. C’est juste que mon\nPokémon oiseau s’est mis à battre des\failes... alors il y a de la poussière de\fses ailes qui flotte autour de mon\fvisage... Ah... Ah... Ça me chatouille le\fnez...\rAtchoum !
+13	Mon Pokémon tenait quelque chose dans\nla bouche récemment.\rJe me suis dit “Mais qu’est-ce que c’est\n?” et je l’ai sorti... C’était une Pierre\fÉclat ! J’ai été surpris. Pas toi ?\r... Mais c’est quoi, une Pierre Éclat ?\rJe n’en ai pas vraiment l’utilité, et je\nne sais pas ce que ça vaut... alors je\fte la donne !\rJe t’attendrai sur {STRVAR_1 4, 3, 0}. Viens la\nchercher !
+14	Tu veux une Pierre Éclat, hein ? Je suis\nsur {STRVAR_1 4, 3, 0}. Viens la chercher !

@@ -1,0 +1,32 @@
+0	Liz
+1	Oh ? Tu fais un grand voyage pour\nvisiter le pays ? Génial !\rSoyons amies ! Je peux avoir ton\nnuméro ?\rJe veux que tu me racontes tout ce que\ntu as vu ! {YESNO 0}
+2	Je te téléphonerai si j’apprends\nquelque chose d’intéressant.
+3	Oh... Tu ne veux pas être mon amie ?
+4	Soyons amies ! Je peux avoir ton\nnuméro ?\rJe veux que tu me racontes tout ce que\ntu as vu ! {YESNO 0}
+5	Si tu es tout près, viens donc me parler\nen personne !
+6	Oh, il faut que tu entendes ça.\rMon {STRVAR_1 0, 10, 0} est trop adorable ! Il\nveut toujours se blottir contre moi !\rEt, et ! Euh...\rOn a battu un {STRVAR_1 0, 11, 0} sauvage en un\nseul coup il y a peu. On l’a plaint,\fquand même.\rBon, je te rappelle !
+7	Oh, il faut que tu entendes ça.\rMon {STRVAR_1 0, 10, 0} est trop adorable ! Il\nme fait toujours des yeux mignons !\rEt, et ! Euh...\rOn vient de voir un {STRVAR_1 0, 11, 0} vraiment\nmagnifique.\rMais j’étais au téléphone, alors il s’est\nenfui. Ça nous a vraiment énervés !\rBon, je te rappelle !
+8	Écoute, écoute !\rJ’écoutais la radio aux Ruines d’Alpha\nquand une étrange émission a soudain\finterrompu le programme habituel. Je me\fdemande ce que c’était. Trop bizarre !\rBon, je te rappelle !
+9	Écoute, écoute !\rTu ne trouves pas qu’Albert, de l’Arène\nde Mauville, est cool et beau ?\rMais il paraît que son père, qui\ns’entraîne sur les routes, est encore\fplus cool et plus beau qu’Albert.\rJ’aimerais tellement le rencontrer !\rBon, je te rappelle !
+10	Écoute, écoute !\rTu connais Earl, le professeur qui\ndirige l’École Pokémon de Mauville ?\rJe l’ai vu faire des pirouettes en\ncourant. C’était à mourir de rire !\rBon, je te rappelle !
+11	Écoute, écoute !\rLes Kimono Girls de Rosalia n’étudient\npas que la danse !\rElles travaillent aussi à faire revenir\ndes Pokémon légendaires qui ne se sont\fplus montrés aux humains depuis très,\ftrès longtemps.\rC’est incroyable, non ?\rBon, je te rappelle !
+12	Écoute, écoute !\rTu connais le Lait Meumeu ?\rOn peut en acheter à la Ferme Meumeu.\nIl paraît que c’est bon pour la santé\fet la beauté.\rJ’ai trop envie d’y goûter. Je parie que\nc’est délicieux !\rBon, je te rappelle !
+13	Écoute, écoute !\rIl y a un Salon Pokémon à Doublonville\ntenu par deux frères.\rL’aîné est doué, mais le cadet, pas\nvraiment.\rMais le cadet est moins cher, et parfois\nil fait mieux que son frère.\rChaque fois que j’y vais, j’ai du mal à\nchoisir lequel prendre...\rBon, je te rappelle !
+14	Écoute, écoute !\rBlanche, de l’Arène de Doublonville, n’a\ncommencé à combattre que depuis peu !\rMais la Ligue Pokémon l’a choisie comme\nChampionne ! Elle doit être super\fdouée.\rBon, je te rappelle !
+15	Écoute, écoute !\rTu as déjà participé au Concours de\nCapture d’Insectes du Parc Naturel ?\rMoi, une fois, mais je n’ai attrapé qu’un\nCHENIPAN.\rMais devine quoi ! J’ai gagné avec ce\nCHENIPAN. C’est génial, non ?\rBon, je te rappelle !
+16	Écoute, écoute !\rJ’ai vu une magnifique {STRVAR_1 14, 4, 0} !\rJ’aimerais tellement devenir une\nmagnifique {STRVAR_1 14, 4, 0}, moi aussi.\rBon, je te rappelle !
+17	Écoute, écoute !\rEuh... Hum... Oups ! J’ai oublié ce que\nj’allais dire !\rBon, je te rappelle !
+18	Écoute, écoute !\rJ’ai participé à la loterie au cinquième\nétage du Centre Commercial de\fDoublonville.\rPour 300 $, on a une chance de gagner\nune CT. C’est une super affaire !\rMais j’ai essayé dix fois et je n’ai eu\nque des Baies ! Je crois que je n’ai pas\fassez de chance pour gagner le gros\flot.\rBon, je te rappelle !
+19	Salut ! Tu as un peu de temps libre ?\rMoi, j’ai tout mon temps. Si tu es libre,\nça te dit de te battre ?\rJe t’attendrai sur {STRVAR_1 4, 3, 0}.\nPréviens-moi quand tu arrives !
+20	J’ai beaucoup trop de temps libre !\nBattons-nous tout de suite !\rJe t’attendrai sur {STRVAR_1 4, 3, 0} !
+21	Salut, Tania. Comment ça va ? C’est Liz.\nMoi, ça va, mais je m’ennuie à mourir !\rHein... Mauvais numéro ? Oups !\nDésolée !
+22	Écoute, écoute !\rMon {STRVAR_1 0, 10, 0}... il est... si joli...\net... hi hi... si génial... oui... mais...\fvraiment... iiik ! Et... adorable... à\fcroquer... Oh, trop ! Le câliner... Il\fdort... C’est ça... joli... Soupir...\fTrop bien... mignon...\r... Oups ! T’as vu l’heure ! J’ai trop\nbavardé !\rDésolée de t’avoir pris autant de\ntemps ! J’adore bavarder !
+23	Topdresseuse
+24	Canon
+25	Sbire Rocket
+26	Institutrice
+27	Nageuse
+28	Kimono Girl
+29	Skieuse
+30	Médium
+31	Pokéfan

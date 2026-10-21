@@ -1,0 +1,15 @@
+0	Kay & Tia
+1	C’était amusant de nous affronter,\nhein ?\rAlors si on échangeait nos numéros ?\nComme ça, si on veut se rebattre, on\fn’aura qu’à s’appeler ! {YESNO 0}
+2	Bien, maintenant tu as notre numéro et\non a le tien.
+3	Oh ? Mais... Tant pis.
+4	Finalement, tu veux bien échanger nos\nnuméros ? {YESNO 0}
+5	Bien, voilà ! C’est une Pierre Ovale.\r
+6	Hein ? Attends, tu n’es pas tout près ?\rTu aimes vraiment parler au téléphone\nou quoi ? Quel drôle de passe-temps.
+7	Notre {STRVAR_1 0, 10, 0} est bien plus fort\nmaintenant !\rOn a combattu un {STRVAR_1 0, 11, 0} récemment\net c’était fini avant qu’on s’en rende\fcompte !\rAh oui, au fait, c’est Tia.
+8	Notre {STRVAR_1 0, 10, 0} est bien plus fort\nmaintenant !\rOn a combattu un {STRVAR_1 0, 11, 0} récemment\net c’était fini avant qu’on s’en rende\fcompte !\rAh oui, au fait, c’est Kay.
+9	Tout à l’heure, on a vu un {STRVAR_1 0, 11, 0}\nsur la Route 15. Pas vrai, Tia ?\rOui, et puis soudain un {STRVAR_1 0, 11, 0} est\nsorti de nulle part. Pas vrai, Kay ?\rOui, et on a été si surprises qu’on\ns’est enfuies. Pas vrai, Tia ?\rJ’y repense, Kay, et je crois que\npuisqu’on a des Pokémon, on aurait dû\fse battre, non ?\rC’est difficile de savoir qui parle quand\ntu nous as toutes les deux au\ftéléphone ?
+10	On devrait refaire un combat, rien que\nnous trois.\rOn est sur {STRVAR_1 4, 3, 0}, alors viens\nquand tu peux.
+11	On n’avait pas prévu de refaire un\ncombat ?\rOn t’attend sur {STRVAR_1 4, 3, 0}, alors\nn’oublie pas, d’accord ?
+12	Bon, puisqu’on est au téléphone, si on\nte faisait un quiz ?\r...\rAlors, qui parle en ce moment ? Kay ou\nTia ?\r... ... ... ... La bonne réponse est...\rÉléonore, du Fan Club Pokémon, qui est\nà côté des jumelles !
+13	Dis, Tia a trouvé une Pierre Ovale.\rOn te la donne si tu viens nous trouver\nsur {STRVAR_1 4, 3, 0}. Compris ?
+14	On t’attend sur {STRVAR_1 4, 3, 0}. On va te\ndonner une Pierre Ovale...

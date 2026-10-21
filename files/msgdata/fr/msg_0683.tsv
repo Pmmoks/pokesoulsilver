@@ -1,0 +1,20 @@
+0	Billy
+1	Je fais des recherches sur les\nChampions pour un projet d’école !\rOn peut obtenir les numéros des\nChampions, alors on peut leur parler en\fdehors de l’Arène !\rDis, on devrait échanger nos numéros ! {YESNO 0}
+2	Les lieux et les horaires des Champions\nchangent, alors je te tiendrai au\fcourant par téléphone !
+3	Hein ? Tu ne veux rien savoir sur les\nChampions ?
+4	Je le savais. Je savais que tu voudrais\ntout savoir sur les Champions ! {YESNO 0}
+5	Dis, tu es tout près, non ? Alors\nparlons en face !
+6	Blanche aime se détendre au cinquième\nétage du Centre Commercial de\fDoublonville.
+7	Jeannine apporte le dîner à son père\ntous les soirs. On la trouve toujours\fau Portail d’Accueil de la Ligue Pokémon\fen fin d’après-midi !
+8	Albert aime venir à Céladopole le lundi,\napparemment.
+9	On dirait qu’Ondine adore la Route 25 !\rTous les soirs, elle y va pour regarder\nle coucher du soleil !
+10	Morgane aime aller au port d’Oliville le\nvendredi soir.\rElle apparaît vraiment dans les\nendroits les plus bizarres, hein !
+11	Je ne devrais peut-être le dire qu’à\ntoi...\rEn vérité, Jasmine est un peu\ngourmande !\rSi tu vas au Café d’Oliville après midi,\ntu tomberas forcément sur Jasmine !
+12	Auguste, le Champion de Cramois’Île,\npense vraiment beaucoup à la ville de\fCramois’Île, tu sais ?\rTous les mardis matin, il s’assoit à\nl’endroit où se trouvait l’Arène de\fCramois’Île et médite.
+13	Pierre, le Champion d’Argenta, adore\nvraiment les cailloux !\rIl va à la Grotte Taupiqueur tous les\njours après midi.
+14	Hector part à la recherche de Pokémon\nInsecte. Il va même jusqu’à la Forêt de\fJade, dans la région de Kanto !
+15	Frédo est un homme aux goûts raffinés,\ntu ne trouves pas ?\rTous les matins à sept heures, il sort\nseul contempler le Lac Colère.
+16	Mortimer regarde toujours la Tour\nCarillon, n’est-ce pas ?\rIl est absorbé par cette seule chose.\nAu point d’être devenu Champion.
+17	Il faut vraiment que je m’entraîne. On\nse rebat, d’accord ? Je t’attendrai\fsur {STRVAR_1 4, 3, 0} !
+18	Ça va ? On doit se rebattre sur\n{STRVAR_1 4, 3, 0} ! Dépêche-toi !
+19	Si quelque chose change chez les\nChampions, je t’appellerai, c’est sûr !

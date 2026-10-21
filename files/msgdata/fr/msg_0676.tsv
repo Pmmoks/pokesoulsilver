@@ -1,0 +1,14 @@
+0	Wilton
+1	Eh bien, c’était un combat très\nintéressant, n’est-ce pas ?\rQuand je pêche ici, j’attrape parfois\ndes objets que des gens ont perdus. Si\fj’en trouve, je te les donnerai.\rTu me donnes ton numéro de téléphone ?\n{YESNO 0}
+2	Si j’attrape quelque chose de bien, je\nte préviendrai.
+3	D’accord... Reviens si tu changes\nd’avis.
+4	Si j’attrape un objet en pêchant, il est\nà toi. On échange nos numéros ? {YESNO 0}
+5	Ah ! Le voilà !\rRegarde ! J’ai pêché une Poké Ball !\rElle est un peu couverte d’algues. Je\nne vois pas trop quel genre de Poké Ball\fc’est, mais toi, tu le sauras sûrement !\r
+6	Chuuut !!! Le TÊTARTE va s’enfuir !\rNe m’appelle pas, viens me parler en\npersonne, comme ça on pourra\fchuchoter !
+7	Mon {STRVAR_1 0, 10, 0} est devenu\nimpressionnant ! Je pêche mieux aussi !\rOn a battu un {STRVAR_1 0, 11, 0} sauvage... Tu\nsais, je m’amuse plus à pêcher qu’à\fbattre des Pokémon sauvages.\rBon, à plus.
+8	Mon {STRVAR_1 0, 10, 0} est devenu\nimpressionnant ! Je pêche mieux aussi !\rMais il y a quelque temps, on a failli\nattraper un {STRVAR_1 0, 11, 0} sauvage. Je te\fle dis, il était énorme. Crois-moi.\rBon, à plus.
+9	Je pêche sur {STRVAR_1 4, 3, 0}, mais ça ne\nmord pas aujourd’hui.\rAide-moi à passer le temps... viens te\nbattre.
+10	Soupir... Ça ne mord plus comme avant\nsur {STRVAR_1 4, 3, 0}...\rIl faut que tu viennes te battre !
+11	Non, je n’ai rien trouvé qui vaille la\npeine.\rIl faut être patient.
+12	J’ai pêché un objet. Viens le chercher\nsur {STRVAR_1 4, 3, 0} !
+13	Tu ne veux pas cet objet ? Hein ? Tu ne\nsais pas où ?\r{STRVAR_1 4, 3, 0}... Va d’Acajou vers\nEbenelle !

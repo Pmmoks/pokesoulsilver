@@ -1,0 +1,13 @@
+0	Ernest
+1	T’as du cran ! C’est génial ! C’est ce\nque je cherche chez un ami !\rQu’est-ce que tu dirais d’échanger nos\nnuméros et de devenir meilleurs amis ? {YESNO 0}
+2	Super ! Appelle-moi quand tu veux !\rPour les études, les Pokémon, une\nénigme ou un piège d’Arène. Même si t’as\fpas de problème, tu peux m’appeler\fquand même !\rJe connaîtrai sûrement pas la réponse,\nmais au moins je pourrai t’écouter !\rParce qu’on est amis, tu vois ?
+3	Hé ! Qu’est-ce qui t’arrive, t’as la\ntrouille ?
+4	Oh, je vois que t’as enfin compris à quel\npoint je suis génial ?\rBon, c’était à prévoir. Échangeons nos\nnuméros ! {YESNO 0}
+5	Bon, j’ai sûrement l’air bien plus\neffrayant que je ne le suis. Tu me\fcroirais si je te disais que je suis un\fgars sympa ?\rJe mords pas, alors viens me parler en\npersonne !
+6	Yo, Teddy ! T’imites super bien une\nmoto !\rLa prochaine fois, toi et moi, on devrait\naller rouler en criant comme des motos.\fT’en dis quoi ?\r...... Attends, c’est qui ?\rOh non ! Mauvais numéro ! Désolé !
+7	Mon {STRVAR_1 0, 10, 0} assure ! En tout cas,\nson esprit combatif est à part.\rIl n’a jamais perdu, sauf contre les\nPokémon les plus forts !\rEt tes Pokémon ? Ils ont l’esprit\ncombatif ?\rLaisse tomber, t’as pas besoin de\nrépondre.\rJe sais mieux que personne à quel point\ntes Pokémon sont forts !
+8	On est une bande de Motards, tu sais.\nOn a des Pokémon venimeux, couverts de\fpiquants, avec des crocs, et même des\fPokémon Spectre. Tout ça pour montrer\fà quel point on est durs.\rMais...\rMoi...\rJ’adore les Pokémon mignons comme\nMARILL !
+9	Alors, hier, j’ai cru que j’allais\nattraper un {STRVAR_1 0, 11, 0}. Mais ce\f{STRVAR_1 0, 11, 0}, il m’a regardé une fois et\fil s’est enfui !\rC’était super impoli !\rToi, tu t’enfuirais pas en me voyant,\nhein... ?
+10	Yo ! Alors, je veux vraiment\nt’affronter encore. Je veux dire, j’ai\ftrop envie de frimer !\rJe traîne toujours sur {STRVAR_1 4, 3, 0}.\nPrends pas peur et te sauve pas,\fcompris ?!
+11	Qu’est-ce que tu fabriques ? Je\nt’attends sur {STRVAR_1 4, 3, 0} !\rTu oublierais pas une promesse faite à\nun pote, hein ?
+12	Tu sais, mon pote Markey en parlait\ntout à l’heure... T’as pensé à\frejoindre notre bande ?\rOn traîne sur la Piste Cyclable et on\nfait plein de bruit, on jette nos\fdéchets partout, puis on ramasse nos\fdéchets et on les rapporte à la maison\fpour les jeter. C’est trop marrant !
