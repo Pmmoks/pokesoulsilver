@@ -210,8 +210,7 @@ else
 # These producers accept only the untranslated build's objects and compiler command line. Their
 # code does not depend on the text, so a translated build copies them from the untranslated one.
 UNTRANSLATED_DIR := build/$(buildname)
-UNTRANSLATED_OBJS := src/to91_msl_shared_ptr_char_d1.o src/to91_msl_scalar_new.o src/to91_msl_array_new.o \
-                     lib/NitroDWC/src/to91_ov45_iterator_advance108.o
+UNTRANSLATED_OBJS := src/to91_msl_shared_ptr_char_d1.o src/to91_msl_scalar_new.o src/to91_msl_array_new.o
 .PHONY: untranslated_objs
 untranslated_objs:
 	$(MAKE) TRANSLATION= $(addprefix $(UNTRANSLATED_DIR)/,$(UNTRANSLATED_OBJS))
