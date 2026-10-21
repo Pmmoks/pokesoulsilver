@@ -1,0 +1,58 @@
+0	Prof. Chen
+1	Allô, ici le Professeur Chen...\rHmm... C’est étrange. Je connais ta\nvoix, {STRVAR_1 3, 0, 0}, mais au téléphone,\felle paraît si différente.
+2	Allô, ici le Professeur Chen...\rHmm... C’est étrange. Je connais ta\nvoix, {STRVAR_1 3, 0, 0}, mais au téléphone,\felle paraît si différente.
+3	Allô, ici le Professeur Chen !\rTu attrapes beaucoup de Pokémon,\nn’est-ce pas ?
+4	Allô, ici le Professeur Chen ! Ton\nPokédex se remplit vraiment bien !
+5	Allô, ici le Professeur Chen !\rTu avances à une vitesse incroyable !\nTu me rappelles moi quand j’étais\fjeune !
+6	Allô, ici le Professeur Chen !\rSi la fatigue se fait sentir, fais une\npause. Ne te surmène pas !
+7	Ici le Professeur Chen...\rQuand j’enregistre mon émission de\nradio, je dois faire des allers-retours\fentre Kanto et Johto. C’est un peu\ffatigant...\rOh, mais peu importe ! Tu fais du très\nbon travail avec ton Pokédex !
+8	Allô, ici le Professeur Chen !\rOn dirait que tu as trouvé des Pokémon\nqui ne viennent ni de Johto ni de Kanto,\fn’est-ce pas ?\rTu as de la force, et tu fais de vraies\ndécouvertes !
+9	... Ici le Professeur Chen. Je suis si\npris par mes recherches que je n’ai pas\fbeaucoup dormi ces temps-ci...\rOh, mais peu importe ! Ton Pokédex a\ntellement progressé. J’ai hâte de le\fvoir !
+10	Allô, ici le Professeur Chen !\rTu as remarqué que ton cercle d’amis\ns’est agrandi depuis que tu travailles\fsur le Pokédex ? C’est ce qu’il y a de\fmieux avec les Pokémon !
+11	Allô, ici le Professeur Chen ! Tu sais,\nje ne vois plus très souvent de\fmerveilleux Dresseurs comme toi !\rJe devrai remercier le Professeur Orme\nde nous avoir présentés !
+12	Allô, ici le Professeur Chen ! Oh, inutile\nde dire quoi que ce soit ! Je sais mieux\fque personne à quel point tu travailles\fdur !\rJe me suis dit que je devrais t’offrir un\ncadeau pour te remercier... J’ai trouvé\fquelque chose, mais j’ai complètement\foublié de te le donner ! Ha ha ha !\rOh, inutile de te demander ce que c’est.\nJe sais que ça te sera très utile. Viens\fsimplement le chercher !\rJe t’attendrai à mon Laboratoire de\nBourg Palette !
+13	Allô, ici le Professeur Chen... Oh,\nbonjour, {STRVAR_1 3, 0, 0} !\r
+14	Allô, ici le Professeur Chen... Oh,\nbonjour, {STRVAR_1 3, 0, 0} !\r
+15	Alors, comment avance ton Pokédex ?
+16	Quitter
+17	Faire évaluer le Pokédex
+18	Évaluer le Pokédex de Johto
+19	Évaluer le Pokédex National
+20	Hmm, voyons... Tu as vu {STRVAR_1 52, 5, 0} Pokémon,\net tu en as attrapé {STRVAR_1 52, 6, 0} ! Je vois !\r
+21	Reviens me montrer ton Pokédex quand\ntu veux !
+22	Ça alors ! C’est un Pokédex de Johto\ncomplet !\rGrâce à toi, {STRVAR_1 3, 0, 0}, le Pokédex de\nJohto est complet !\rÇa alors... Tu as fait un travail\nincroyable !
+23	Ça alors ! C’est un Pokédex de Johto\ncomplet !\rGrâce à toi, {STRVAR_1 3, 0, 0}, le Pokédex de\nJohto est complet !\rÇa alors... Tu as fait un travail\nincroyable !
+24	Excellent ! C’est un Pokédex National\nincroyable !\rÇa alors... Tu as merveilleusement\nrépondu à mes attentes !\rNon, tu les as dépassées, {STRVAR_1 3, 0, 0}.\nTu es devenu un Dresseur incroyable !\rMerci, {STRVAR_1 3, 0, 0} !
+25	Excellent ! C’est un Pokédex National\nincroyable !\rÇa alors... Tu as merveilleusement\nrépondu à mes attentes !\rNon, tu les as dépassées, {STRVAR_1 3, 0, 0}.\nTu es devenue une Dresseuse\fincroyable !\rMerci, {STRVAR_1 3, 0, 0} !
+26	Vraiment, tu m’as surpris !\rMais comme je m’y attendais, tu as\ncomplété le Pokédex de Johto. Je te\fsuis si reconnaissant !\rAvec une telle détermination, des\naventures encore plus passionnantes\ft’attendent dans le monde des\fPokémon !
+27	Tu m’as vraiment surpris !\rTu as largement dépassé mes attentes\nen complétant le Pokédex National !\rJe n’ai plus de mots... !\rGrâce à cela, le monde des Pokémon et\ndes Dresseurs est plus vaste, plus\fprofond et plus riche !\rLa recherche sur les Pokémon n’aura\nplus de fin !
+28	Cherche des Pokémon dans les hautes\nherbes !\r
+29	Bien. Je vois que tu sais utiliser les\nPoké Balls.\r
+30	Tu te débrouilles bien, mais tu as\nencore du chemin à faire.\r
+31	Hmm, tu attrapes des Pokémon à un bon\nrythme !\r
+32	Tu fais des efforts, je le vois. Ton\nPokédex prend forme.\r
+33	Tu les entraînes bien. Tu sais que\ncertains Pokémon n’évoluent pas\fseulement en combattant, hein ?\r
+34	Tu as une canne à pêche ? Certains\nPokémon ne se trouvent qu’en pêchant !\r
+35	Excellent ! Tu as l’air doué pour\ncollectionner !\r
+36	Certains Pokémon n’apparaissent qu’à\ncertains moments de la journée.\r
+37	Ton Pokédex se remplit vraiment bien.\nContinue comme ça !\r
+38	Je suis impressionné. Tu fais évoluer\ntes Pokémon, tu ne te contentes pas de\fles attraper.\r
+39	Si tu apprends à bien utiliser les Poké\nBalls spéciales fabriquées par Fargas,\ftu attraperas mieux les Pokémon !\r
+40	Quand tu échanges des Pokémon, tu peux\naussi échanger des informations. Tes\famis peuvent vraiment t’aider !\r
+41	Tu échanges tes Pokémon ? C’est\ndifficile de faire ça tout seul !\r
+42	Ça alors ! Tu en es à 200 ! Ton Pokédex\na fière allure !\r
+43	Tu as trouvé tant de Pokémon ! Tu as\nvraiment aidé mes recherches !\r
+44	Magnifique ! Tu pourrais devenir un jour\nun grand Professeur Pokémon !\r
+45	Ton Pokédex est incroyable ! Te voilà\ndigne d’un professionnel !\r
+46	Le but est peut-être loin, mais\nn’abandonne pas ! Continue !\r
+47	N’oublie pas, certains Pokémon\nn’apparaissent qu’à certains moments\fde la journée !\r
+48	Si tu casses des rochers, des Pokémon\nqui s’y cachaient pourraient en sortir !\r
+49	C’est merveilleux d’avoir réuni autant\nde Pokémon ! Le chemin est encore long.\fContinue ce beau travail !\r
+50	Si tu donnes un Coup d’Boule à un\narbre, un Pokémon peut parfois en\ftomber !\r
+51	Beaucoup de Pokémon absents de Johto\naiment se rassembler au Parc Safari.\r
+52	La musique à la radio peut aussi attirer\ndes Pokémon !\r
+53	Ça alors, tu as fait tant de chemin... !\nJe suis même un peu surpris !\r
+54	C’est un moment critique ! Ne te\ndécourage pas !\r
+55	Encore un petit effort ! Je compte\nbeaucoup sur toi !\r
+56	En toutes mes années, je n’ai jamais vu\nun talent aussi incroyable !\r
+57	Alors, comment avance ton Pokédex ? {YESNO 0}

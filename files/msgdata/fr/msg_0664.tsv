@@ -1,0 +1,30 @@
+0	Maman
+1	Allô ? {STRVAR_1 3, 0, 0} ?\rJ’ai tellement l’habitude d’entendre ta\nvoix, mais au téléphone, on dirait\fpresque quelqu’un d’autre. C’est si\fétrange...
+2	Allô ? {STRVAR_1 3, 0, 0} ?\rJ’ai tellement l’habitude d’entendre ta\nvoix, mais au téléphone, on dirait\fpresque quelqu’un d’autre. C’est si\fétrange...
+3	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Ça a l’air vraiment difficile.\rMais, {STRVAR_1 3, 0, 0}, je sais que tu as de\nla volonté. Ça va aller, hein ?
+4	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Le\nProfesseur Orme ne t’attendait pas ?
+5	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Alors,\ncomment se passe la course que tu fais\fpour le Professeur Orme ?\rJe sais que tu as de la volonté. Ça va\naller !
+6	Allô ?\rCoucou, {STRVAR_1 3, 0, 0} ! Si tu as fini ta\ncourse, rentre à la maison, mon\ftrésor.
+7	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Qu’est-ce qui\nse passe ? Comment ça va avec tes\fPokémon ?\rTu sais, j’ai remarqué que si on est\naffectueux avec ses Pokémon, ils le\frendent bien.\r
+8	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Tu es à Ville Griotte ?\rTu sais, tu es tout près... Et si tu\nrentrais un peu à la maison ?\r
+9	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Oh, tu es à Mauville...\rC’est là qu’il y a la Tour Chétiflor,\nnon ? Tu as pu la voir ?\r
+10	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Oh, tu es à Écorcia...\rC’est là qu’il y a le Puits Ramoloss,\nnon ? Tu as pu le voir ?\r
+11	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Oh, tu es à Irisia...\rC’est là qu’ils construisent le Parc\nSafari, non ? Il est déjà ouvert ?\r
+12	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Oh, tu es à Doublonville...\rC’est là qu’il y a la Tour Radio, non ?\nTu as pu la voir ?\r
+13	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Oh, tu es à Oliville...\rC’est là qu’il y a ce grand Phare, non ?\nTu as pu le voir ?\r
+14	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Oh, tu es à Rosalia...\rC’est là qu’il y a la Tour Carillon,\nnon ? Tu as pu la voir ?\r
+15	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Ça alors, tu es à {STRVAR_1 4, 2, 0} ?\rBonne chance pour ta quête Pokémon !\r
+16	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ?\rÇa alors, tu es à {STRVAR_1 4, 2, 0} ?\rEn tant que maman, je sais que tu fais\nde ton mieux où que tu ailles !\r
+17	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu as l’air de\nbonne humeur ! Ça me rassure !\r
+18	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ? Ça a l’air vraiment difficile.\rMais, {STRVAR_1 3, 0, 0}, je sais que tu as de\nla volonté. Ça va aller, hein ?\r
+19	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu travailles\ndur ?\rTu es à Kanto ?! Ça alors, c’est\nmerveilleux, {STRVAR_1 3, 0, 0} !\r
+20	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Tu essaies le\nPokéathlon ? Fais de ton mieux ! Ta\fmaman t’encourage !\r
+21	Tu n’as pas encore récupéré les objets\nque je t’ai achetés, hein ?\rN’oublie pas d’aller à la Boutique\nPokémon parler au livreur.
+22	Allô ?\r... {STRVAR_1 3, 0, 0} ?\rLe Professeur Orme m’a dit que tu étais\nen voyage.\rTu aurais pu me le dire... Et ton\nargent ? Je le mets de côté ?
+23	Au fait, tu as économisé {STRVAR_1 55, 10, 0} $. Tu\nveux continuer à économiser ?
+24	Au fait, {STRVAR_1 3, 0, 0}, tu as économisé\n{STRVAR_1 55, 10, 0} $. Tu veux recommencer à\féconomiser ?
+25	D’accord. Je mets ton argent de côté.\r{STRVAR_1 3, 0, 0}, continue comme ça ! Je\nsuis avec toi, mon trésor !
+26	D’accord. Je ne mets pas ton argent de\ncôté.\r{STRVAR_1 3, 0, 0}, continue comme ça ! Je\nsuis avec toi, mon trésor !
+27	C’est important d’économiser son\nargent.
+28	Oh, {STRVAR_1 3, 0, 0}, tu n’économises pas\nd’argent. Tu veux économiser ? {YESNO 0}
+29	Allô ?\rOh, coucou, {STRVAR_1 3, 0, 0} ! Comment\nvas-tu ?\rJ’ai trouvé un objet utile en faisant\nles courses, alors je l’ai acheté avec\fton argent. Désolée !\rMais j’ai demandé au livreur de te\nl’apporter, alors passe à la Boutique\fPokémon ou au Centre Commercial le plus\fproche pour le récupérer ! Je sais\fqu’il te sera utile !
