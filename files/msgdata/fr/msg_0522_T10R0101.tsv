@@ -1,0 +1,27 @@
+0	À la Ligue Pokémon, tu seras mis à\nl’épreuve par le Conseil 4.\fIl faut les battre tous.\rSi tu perds, tu dois tout\nrecommencer !
+1	Certains Dresseurs se découragent\nsoudain et partent.\rMon ABRA peut te ramener chez toi.\nMais...\rEn ce moment, les Dresseurs\nrentrent en Vol... Je me sens à\fl’écart. Je suis sûr que mon ABRA\fressent la même chose.
+2	ABRA : Aabra...
+3	{STRVAR_1 3, 0, 0} : Stop.\rTu vas relever le défi de la Ligue\nPokémon maintenant ?\rIl faudra y renoncer.\rMes Pokémon, entraînés au point d’en\nêtre méconnaissables, vont te\fpulvériser.\rMaintenant, ici même !\nJe te défie !\r
+4	{STRVAR_1 3, 0, 0} : ...Oh non... Je n’arrive\ntoujours pas à gagner malgré tout\fcet entraînement...\rJe...Je dois avoir plus confiance en\nmes Pokémon...\r...Ce n’est pas grave.\nPardon d’avoir été sur ton chemin.\rN’oublie pas de reposer tes Pokémon\navant de défier le Maître !\r
+5	Une fois cette porte franchie, tu\nferas face à un membre du Conseil 4.\rIls sont vraiment coriaces ! On ne\npeut pas ressortir une fois entré. On\fy va ? Sois courageux et fonce !\r
+6	Une fois cette porte franchie, tu\nferas face à un membre du Conseil 4.\rIls sont vraiment coriaces ! On ne\npeut pas ressortir une fois entré. On\fy va ? Sois courageux et fonce !
+7	Quel classement voulez-vous\nconsulter ? {YESNO 0}
+8	CLASSEMENT DE GROUPE
+9	CLASSEMENT MONDIAL
+10	QUITTER
+11	Quel type de classement\nvoulez-vous consulter ? {YESNO 0}
+12	RECORDS POKéMON
+13	RECORDS TOUR DE COMBAT
+14	QUITTER
+15	Quel record voulez-vous\nconsulter ? {YESNO 0}
+16	POKéMON\nBATTUS
+17	POKéMON\nCAPTURÉS
+18	ŒUFS\nÉCLOS
+19	RENCONTRES\nEN PÊCHANT
+20	COMBATS\nSIMPLES
+21	COMBATS\nDOUBLES
+22	COMBATS\nMULTI
+23	COMBATS MULTI\nRÉSEAU
+24	SALLE\nWI-FI
+25	SÉRIE DE\nVICT. MOY.
+26	RETOUR

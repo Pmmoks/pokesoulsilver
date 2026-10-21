@@ -1,6 +1,6 @@
 0	Tanner
 1	Hé, et si on échangeait nos numéros\navant de manger ?{YESNO 0}
-2	J’ai toujours mon Pokégear à portée\nde main, alors si tu m’appelles, je\fréponds vite !\n
+2	J’ai toujours mon Pokématos à portée\nde main, alors si tu m’appelles, je\fréponds vite !\n
 3	T’en fais pas !\rJe suis un Campeur très gentil...
 4	Tu as finalement décidé d’échanger\nnos numéros ?{YESNO 0}
 5	Ouais ! Hé, te voilà !\rJe l’ai gardé exprès pour toi.\nNe sois pas timide, vas-y,\fprends-le. C’est un cadeau !\r

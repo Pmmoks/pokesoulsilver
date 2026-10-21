@@ -1,0 +1,9 @@
+0	Bonjour, bonjour ! Je suis\nl’Évaluateur de Surnoms officiel !\rTu veux que j’évalue les surnoms\nde tes Pokémon ? {YESNO 0}
+1	Quel surnom de Pokémon dois-je\ncritiquer ?
+2	{STRVAR_1 1, 0, 0}, c’est ça ? Hmm...\nC’est un surnom correct !\rMais puis-je lui trouver un plus\nbeau nom ? Qu’en dis-tu ? {YESNO 0}
+3	Bien, alors. Quel sera le nouveau\nsurnom ?\r
+4	C’est fait !\nQu’en dis-tu ?\rDésormais, ce Pokémon s’appellera\n{STRVAR_1 1, 0, 0} !\rC’est un meilleur nom qu’avant,\nn’est-ce pas ?\fTant mieux pour toi !
+5	Ah, bien. Je vois. Reviens me voir si\ntu changes d’avis.
+6	C’est fait ! Désormais, ce Pokémon\ns’appellera {STRVAR_1 1, 0, 0} !\rIl n’a pas l’air différent d’avant ?\nC’est toi qui le vois ainsi !\fC’est largement supérieur !\fQuelle chance pour toi !
+7	{STRVAR_1 1, 0, 0}, c’est ça ? C’est un\nsurnom vraiment impeccable !\rPrends bien soin de {STRVAR_1 1, 0, 0} !
+8	Allons, allons.\nCe n’est qu’un Œuf !

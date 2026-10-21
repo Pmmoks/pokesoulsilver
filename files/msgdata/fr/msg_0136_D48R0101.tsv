@@ -1,0 +1,12 @@
+0	Tu savais ? On construit un Parc Safari\njuste au coin de la rue.\rIl paraît que ce sera vraiment\namusant ! On y verra plein de sortes de\fPokémon différents, et on peut tous\fles attraper !\rAucune raison de ne pas y aller, non ?\nJe me réjouis tellement pour le Parc\fSafari !\rQu’ils finissent la construction !
+1	Tu savais ? Il y a un Parc Safari juste\nau coin de la rue.\rC’est vraiment amusant ! On y voit\nplein de sortes de Pokémon différents,\fet on peut tous les attraper !\rAucune raison de ne pas y aller, non ?\nJuste au coin de la rue.\rÇa ne prend pas longtemps. Pourquoi ne\npas y faire un saut ? Hein ? {YESNO 0}
+2	Super !\nC’est juste là-bas.\rMonte les escaliers, et tu seras\ndehors. Ensuite, c’est à quelques\fpas !
+3	C’est une affaire en or, tu sais ?
+4	Alors ? Le Parc Safari t’a plu ? Pas\nbesoin de dire quoi que ce soit ! Ça se\flit sur ton visage : c’était vraiment\famusant !
+5	Quoi ? Tu veux aller au Parc Safari, toi\naussi ?\rIl est encore en construction.\nReviens plus tard.
+6	C’est bien que tout le monde l’attende\navec impatience. Mais la dame de\fl’accueil me semble un peu trop\fdramatique... N’en attends pas trop\fnon plus !
+7	Chuck : Hé, {STRVAR_1 3, 0, 0} ! Content de te\nrevoir ! Mais je ne m’attendais pas à te\fvoir ici.\rSerait-ce que... tu te rends à la Tour\nEnfouie ?\rLa Tour Enfouie est une immense tour\nqui perce le ciel.\rOn dit qu’elle a un lien avec le Pokémon\nmythique qui a étendu les mers et celui\fqui a élargi les terres. Mais la tour\fn’existe plus.\r
+8	Chuck : Le chemin de la Tour Enfouie\nest plus dur que tu ne l’imagines.\rIl faut utiliser Escalade en plus de\nSurf.\r
+9	Chuck : Je vois ! Tu as aussi battu\ntous les Champions d’Arène de Kanto !\rAlors il n’y a pas à s’inquiéter.\nCrois en toi et suis ta voie.\rYahaha !\r
+10	Tout est palpitant ! Explorez pour\ntrouver des Pokémon sauvages !\rLe Parc Safari du Gardien Baoba\nBientôt disponible !
+11	Tout est palpitant ! Explorez pour\ntrouver des Pokémon sauvages !\rLe Parc Safari du Gardien Baoba\nOuvert dès maintenant !

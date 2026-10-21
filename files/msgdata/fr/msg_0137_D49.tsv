@@ -1,0 +1,50 @@
+0	Muhaha !\r
+1	Je le sens !\rCe scintillement dans tes yeux !\nLe scintillement de l’amitié !\rTu es remarquable.\nTon {STRVAR_1 0, 1, 0} est un sacré Pokémon !\rIl est prêt à participer au\nPokéathlon !\rEt surtout, ta solidarité et ta\nconfiance envers les Pokémon me font\fcroire en un potentiel infini !\rBon. Suis-moi !\r
+2	Qu’en penses-tu ?\nVoici le Dôme Pokéathlon !\r
+3	Le Pokéathlon est une fête du sport\npour les Dresseurs et les Pokémon !\rDans le Dôme, divers défis attendent\nles Dresseurs et les Pokémon pour\ftester leur amitié. Tu ne veux pas\fessayer ?\r
+4	Tu es incroyable !\nQuelle agréable surprise !\rVoir un Pokéathlète au potentiel aussi\nfort est un tel plaisir ! Je suis\fcontent d’avoir organisé le Pokéathlon\fà Johto.\r...Je m’appelle Magnus.\nNous nous reverrons.\rMagnus : À bientôt, jeune Pokéathlète !\r
+5	Je le sens !\rCe scintillement dans tes yeux !\nLe scintillement de l’amitié !\rTu peux participer au Pokéathlon !\rEt surtout, ta confiance mutuelle et\nton travail d’équipe avec les Pokémon\fme font croire que tout est possible !\rBon. Suis-moi !\r
+6	Hmmm...\r
+7	Courir, sauter et... Il y a tellement\nd’épreuves au choix pour les Pokémon.\fLaquelle essayer ?
+8	MYSTHERBE : Myss ! Myss !
+9	Il n’y a pas que les combats dans la vie\ndes Pokémon !
+10	MIAOUSS : Miaaouh !
+11	Il n’est pas bon au combat... mais\naucun Pokémon ne le bat à la course,\fgrâce à la marche que nous faisons\fchaque matin !
+12	Pff pff ! S’entraîner tous les jours\nest la voie sûre vers la gloire !\rFoncer 1 000 fois !\nC’est mon objectif pour l’instant.\r
+13	Et toi, quel est ton objectif ? Avoir un\nobjectif aide à mieux profiter de la vie.
+14	............\nOh, tu as foncé 1 000 fois ?\rJe croyais que c’était quasi impossible,\nmais tu me donnes du courage.\rMerci !\nTiens, prends ceci !\r
+15	Je suis ton fan ! Je courrais n’importe\noù pour toi ! Je t’encourage !
+16	ROUCOOL : Pô pô !
+17	Tu connais le Jus Noigrume ?\rLes Pokémon peuvent améliorer leur\nPerformance grâce à la nourriture et\faux boissons.\rLe Jus Noigrume est une boisson mise au\npoint à partir de recherches en\fnutrition pour améliorer la\fPerformance.\rSi tu en fais boire à ton Pokémon avant\nune épreuve du Pokéathlon, il montrera\fson vrai potentiel !
+18	FLAGADOSS : Ouic !
+19	Chaque Pokémon a ses particularités.\rUn vrai Pokéathlète les connaît et\nrévèle la vraie Performance de ses\fPokémon !
+20	MACHOC : Machaaa !
+21	Oh !\nIls ont bonne mine aujourd’hui !\rIls n’étaient pas en forme hier, mais on\nva sûrement gagner aujourd’hui !
+22	RAMOLOSS : Moââ !
+23	CANARTICHO : Térée !
+24	PSYKOKWAK : Couac !
+25	Boisson énergétique !\nBienvenue au stand de Jus Noigrume !\rVous donnez du Jus Noigrume à vos\nPokémon ? Je peux vous expliquer tout\fce que vous devez savoir ! {YESNO 0}
+26	Boisson énergétique !\nBienvenue au stand de Jus Noigrume !\rHein ? Pourquoi cet air perplexe ? Vous\nne connaissez pas le Jus Noigrume ?\fTenez, prenez ça !\r
+27	{STRVAR_1 3, 0, 0} reçoit\nle Mixeur Noigrume !
+28	Vous rangez le Mixeur Noigrume\ndans la Boîte Noigrume.\r
+29	Avec le Mixeur Noigrume, vous pouvez\npréparer du Jus Noigrume pour que vos\fPokémon montrent leur vrai potentiel !\rC’est tellement facile ! Il suffit de\nmettre des Noigrumes dans le Mixeur\fNoigrume. Mettez-en autant que vous\fpouvez !\rPlus on est de fous, plus on rit !\nEnsuite, marchez !\rVous pouvez courir si vous voulez...\n98...99...100 pas !\rVoilà ! Ouvrez-le, donnez-le à votre\nPokémon ou buvez-le vous-même.\rVous pouvez acheter du Jus Noigrume\nici. Pourquoi ne pas essayer pour voir\fcomment ça marche ?\rAvez-vous d’autres questions ? {YESNO 0}
+30	Le Jus Noigrume améliore la Performance\nd’un Pokémon ! Les Pokémon ont des\fpoints forts et des points faibles.\rMais pas d’inquiétude. Donnez-lui du Jus\nNoigrume et sa Performance sera au\fmaximum !\rVous en aurez besoin !\rAvez-vous d’autres questions ? {YESNO 0}
+31	Choisissez parmi les trois Mixeurs\nNoigrume.\rLes étiquettes indiquent le type de\nboisson. Chaque boisson a des effets\fdifférents.\rUtilisez-les selon l’épreuve à laquelle\nvous voulez participer. C’est ainsi\fqu’on devient un grand Pokéathlète.\rMais retenez ceci ! Si la Performance de\nvotre Pokémon est au maximum,\fimpossible de l’augmenter.\rVérifiez la Performance de votre\nPokémon avant de lui donner du Jus\fNoigrume.\rAvez-vous d’autres questions ? {YESNO 0}
+32	Rechargez-vous d’amitié !\nTout savoir sur le Jus Noigrume !\fChoisissez-en un sur l’étagère !
+33	Quel bon goût !\nLe {STRVAR_1 8, 1, 0} de {STRVAR_1 3, 0, 0} !\fSeulement {STRVAR_1 53, 2, 0} $ ! Une vraie affaire ! {YESNO 0}
+34	Merci !\nÀ quel Pokémon voulez-vous le donner ?\r
+35	Rechargez-vous d’amitié ! Revenez\nquand vous en voudrez encore !\r
+36	Dommage !\nRevenez quand vous voudrez gagner !\r
+37	Oh, vous n’avez pas assez d’argent !\r
+38	Le {STRVAR_1 8, 1, 0} de {STRVAR_1 3, 0, 0} !\nSeulement {STRVAR_1 53, 2, 0} $ ! Une vraie affaire ! {YESNO 0}
+39	Bonjour ! Que puis-je faire pour vous ?\r
+40	Son goût est de {STRVAR_1 52, 3, 0} !\nSa douceur est de {STRVAR_1 52, 4, 0} !\r
+41	Commentaire du Gérant\nQuelqu’un, quelque part, l’a concocté !\fLe mystérieux {STRVAR_1 8, 1, 0} !\rIl peut monter.\nIl peut descendre.\fQue la chance soit avec ce jus !\r
+42	Commentaire du Gérant\nPeu de gens le connaissent !\rC’est le {STRVAR_1 8, 1, 0} de {STRVAR_1 3, 0, 0},\nnouvelle recrue du Pokéathlon !\rLa perfection est encore loin !\nMais certains n’y résistent pas !\fUn éclat de {STRVAR_1 8, 1, 0} !\r
+43	Commentaire du Gérant\nVous savez qui est dans le coin !\rCe {STRVAR_1 8, 1, 0} est ce qui a aidé\nquelqu’un de bien connu à devenir ce\fqu’il est aujourd’hui ! Essayez-le si\fvous êtes à plat !\r
+44	Commentaire du Gérant Vous ne le\nconnaissez pas ? C’est ce qu’on ne veut\fsurtout pas entendre !\rIl est temps d’essayer le {STRVAR_1 8, 1, 0}\nde {STRVAR_1 3, 0, 0}, le signe d’une nouvelle\fère !\r
+45	Commentaire du Gérant Le {STRVAR_1 8, 1, 0} a\nété mis au point par ce célèbre\fPokéathlète !\rVous ne lui serrerez peut-être jamais\nla main, mais vous pouvez boire le même\fjus !\rUn jus à acheter absolument pour tout\nPokéathlète !\r
+46	Commentaire du Gérant {STRVAR_1 8, 1, 0} ! Mis\nau point par ce Pokéathlète d’élite !\rVous ne le reverrez peut-être jamais.\nSi vous ne gagnez pas aujourd’hui,\fquand ?\rPour ceux qui veulent gagner\naujourd’hui, voici le jus de la victoire !\r
+47	Commentaire du Gérant Le {STRVAR_1 8, 1, 0} du\nPokéathlète légendaire !\rIl a grandi aux côtés de {STRVAR_1 3, 0, 0} !\rLa voie de la victoire s’ouvre quand on\nle boit ! Il fera de vous une légende !\r
+48	Il améliore la Performance de votre\nPokémon !\rLaissez-le briller de tout son éclat\navec du Jus Noigrume !
+49	Le Dôme Pokéathlon\nLe lieu des vrais Pokéathlètes !

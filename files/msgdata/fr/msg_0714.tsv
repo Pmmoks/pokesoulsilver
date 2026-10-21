@@ -6,6 +6,6 @@
 5	Ouais, je t’entends très bien !\nIci, on est à ciel ouvert, alors le\fsignal est excellent !
 6	Je suis toujours avec mon {STRVAR_1 0, 10, 0} !\nIl est trop mignon ! Je l’adore !\rPour changer de sujet, j’ai vu ce\n{STRVAR_1 0, 11, 0} pour la première fois.\fIl était facile à battre, en fait.\rOn se reparle, hein ?
 7	Je suis toujours avec mon {STRVAR_1 0, 10, 0} !\nIl est trop mignon ! Je l’adore !\rDis-moi, tu aurais un {STRVAR_1 0, 11, 0},\npar hasard ?\rJe n’arrive pas à en attraper un. Quel\nest son point faible, je me demande.\rOn se reparle, hein ?
-8	Hé, faisons combattre nos Pokémon !\rJe suis sur {STRVAR_1 4, 3, 0}, alors\npréviens-moi quand tu arrives !\rSi tu regardes la Carte de ton\nPokégear, tu peux toucher\f{STRVAR_1 4, 3, 0} et un “!” apparaîtra\fpour que tu n’oublies pas le lieu !
-9	Combattons. Je t’attends sur\n{STRVAR_1 4, 3, 0} !\rSi tu ne sais pas où je suis, regarde\nsimplement la Carte de\fton Pokégear !
+8	Hé, faisons combattre nos Pokémon !\rJe suis sur {STRVAR_1 4, 3, 0}, alors\npréviens-moi quand tu arrives !\rSi tu regardes la Carte de ton\nPokématos, tu peux toucher\f{STRVAR_1 4, 3, 0} et un “!” apparaîtra\fpour que tu n’oublies pas le lieu !
+9	Combattons. Je t’attends sur\n{STRVAR_1 4, 3, 0} !\rSi tu ne sais pas où je suis, regarde\nsimplement la Carte de\fton Pokématos !
 10	Pour des Pokémon Insecte, je vais\nn’importe où !\rEnfin, je dis ça, mais je suis toujours\nsur la Route 35.\rMais il y a un étang tout près, beaucoup\nd’herbes hautes, et surtout, le Parc\fNaturel n’est qu’à 28 pas.\fC’est vraiment l’endroit idéal !

@@ -1,0 +1,96 @@
+0	Bienvenue au Parc Safari !\rPour seulement {STRVAR_1 52, 1, 0} $, vous pouvez\njouer au Jeu Safari.\rVous pouvez parcourir le vaste Parc\nSafari et attraper ce que vous voulez.\fVoulez-vous jouer ? {YESNO 0}
+1	Propriétaire !\nBienvenue au Parc Safari !\rPour seulement {STRVAR_1 52, 1, 0} $, vous pouvez\njouer au Jeu Safari.\rVous pouvez parcourir le vaste Parc\nSafari et attraper ce qui vous plaît.\fVoulez-vous jouer ? {YESNO 0}\n
+2	Ce sera {STRVAR_1 52, 1, 0} $, s’il vous plaît !\r
+3	D’accord.\nÀ bientôt !
+4	Voici vos Safari Balls !\r
+5	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} Safari Balls\nde la part du personnel.
+6	Nous vous appellerons quand vous\nn’aurez plus de Safari Balls. Bref,\famusez-vous bien !\rEn avant, et bon amusement !\r
+7	Il vous reste des Safari Balls.\nQuitter le Parc Safari ? {YESNO 0}
+8	Très bien.\rVeuillez rendre les Safari Balls qu’il\nvous reste.\r
+9	Ça vous a plu ?\nÀ bientôt !
+10	Veuillez m’excuser.\nVous n’avez pas assez d’argent.\rJ’espère vous revoir bientôt.
+11	Propriétaire !\nVous n’avez pas assez d’argent.\rJ’espère vous revoir bientôt.
+12	Veuillez m’excuser.\nIl n’y a plus de place dans le PC !\rRevenez après avoir fait de la place.
+13	Propriétaire !\nIl n’y a plus de place dans le PC !\rRevenez après avoir fait de la place.
+14	Bonjour ! C’est votre première fois\nau Parc Safari ? {YESNO 0}
+15	Bienvenue, Propriétaire !\nDois-je vous expliquer le Parc Safari ? {YESNO 0}
+16	Au Parc Safari, vous pouvez profiter\nd’un Jeu Safari où l’on vous donne {STRVAR_1 51, 1, 0}\fSafari Balls pour tenter d’attraper des\fPokémon.\rQuand vous n’avez plus de Safari Balls,\nla partie est terminée.\rQuand vous voyez un Pokémon, vous\npouvez choisir de lancer un Appât ou de\fla Boue.\rSi vous lancez un Appât, les Pokémon\nont tendance à rester, mais deviennent\fplus difficiles à attraper.\rSi vous lancez de la Boue, ils deviennent\nplus faciles à attraper, mais risquent\fde s’enfuir.\rAmusez-vous bien au Parc Safari !
+17	Amusez-vous bien au Parc Safari !
+18	Le Gardien Baoba a quelque chose\nd’important à vous dire !
+19	Voici le Modificateur de Zones.\nQue voulez-vous savoir ? {YESNO 0}
+20	Le Parc Safari compte six Zones.\rZone Plaine...\nZone Sommet...\fet ainsi de suite.\rLe Modificateur de Zones permet de\nchanger la combinaison de ces Zones.\rQue voulez-vous savoir ? {YESNO 0}
+21	Regardez la machine : vous verrez\nl’écran du Modificateur de Zones.\rLa fenêtre du bas montre la\nconfiguration actuelle du Parc Safari.\rSélectionnez une Zone avec le bouton A\npour l’échanger avec une autre.\rQue voulez-vous savoir ? {YESNO 0}
+22	Quand vous sélectionnez une Zone, puis\nÉchanger, 12 nouvelles Zones\fapparaissent.\rSélectionnez-en une en la mettant en\nsurbrillance et en appuyant sur le\fbouton A.\rQue voulez-vous savoir ? {YESNO 0}
+23	Quand vous sélectionnez une Zone, puis\nOrdre, le type de Zone ne change pas,\fmais son emplacement peut être modifié.\rQue voulez-vous savoir ? {YESNO 0}
+24	Chaque Zone abrite des Pokémon\ndifférents : en changeant de Zones,\fvous verrez donc d’autres Pokémon.\rN’hésitez pas à essayer les différentes\nZones ! Que voulez-vous savoir ? {YESNO 0}
+25	Toutes nos excuses, mais on ne peut pas\nencore l’utiliser. Le Gardien Baoba a un\fgrand projet pour cette machine... du\fmoins, c’est ce qu’il dit. Mais même\fnous, nous ne savons pas lequel. C’est\fun secret.
+26	Profitez bien du Modificateur de Zones !
+27	{STRVAR_1 3, 0, 0} a activé\nle Modificateur de Zones !\r
+28	C’est encore en cours de\ndéveloppement.
+29	Salut, je t’attendais !\nAlors, qu’en penses-tu ?\rC’est un tout nouveau Parc Safari.\nAu fait...\rJe viens d’avoir une idée. Tu voudrais\npasser le Test d’Aptitude du\fPropriétaire ? {YESNO 0}
+30	Super !\nJe t’explique comment ça marche.\fC’est très simple.\rTout ce que tu dois faire, c’est\nattraper un RACAILLOU au Parc Safari\fet me le montrer.\rIls sont dans l’herbe la plus proche de\nl’entrée. Tu ne devrais pas tarder à en\fattraper un.\rBonne chance !
+31	Waouh, je ne pensais pas que quelqu’un\nrefuserait !\rTu pourrais devenir le Propriétaire du\nParc Safari, tu comprends ?\rPropriétaire...\nÇa sonne bien, non ?\rTu devrais tenter le test ! {YESNO 0}
+32	Oh, formidable !\nTu as attrapé un RACAILLOU !\fTu as réussi le premier test.\r..................\rHein ? Je ne t’ai pas dit qu’il y avait\ndeux tests ?\rEh oui ! Devenir propriétaire, ce n’est\npas si facile.\rLe deuxième test, c’est... Eh bien, je\nsuis encore en train de le préparer.\rJe te préviendrai quand il sera prêt.\nIl faut patienter un petit peu.\fJe t’appellerai avec le Pokématos.
+33	Montre-moi le RACAILLOU dès que tu en\nas attrapé un.\rIls sont dans l’herbe la plus proche de\nl’entrée. Ça ne devrait pas prendre\flongtemps.\rBonne chance !
+34	Je t’attendais !\nLe test est prêt.\rCette fois, peux-tu attraper un\nSABELETTE et me le montrer ?\rÇa a l’air facile, non ? Pas vraiment !\nLes SABELETTE n’apparaissent pas dans\fla configuration actuelle du Parc\fSafari.\rEt c’est là que ceci devient utile !\r
+35	Cette machine sophistiquée et high-tech\nte permet de modifier les Zones du Parc\fSafari. Je l’appelle le Modificateur de\fZones !\rTu veux savoir comment ça marche,\nn’est-ce pas ? C’est un... secret !\rEnfin, tu ne devrais pas avoir de mal à\nl’utiliser. Parle simplement au\fpersonnel à côté de moi !\r
+36	J’allais oublier !\rJe t’expliquais le deuxième test, non ?\rTu ne verras pas de SABELETTE avec les\nZones actuelles du Parc Safari,\rdonc tu dois utiliser le Modificateur de\nZones pour les changer.\rLes SABELETTE vivent dans le désert !\nBonne chance !
+37	Tu as réussi !\rTu as attrapé un SABELETTE !\nJe savais que tu y arriverais.\rTu as réussi le test ! Tu es maintenant\nle Propriétaire du Parc Safari !\r
+38	J’ai toujours voulu voir des jeunes\njouer au safari !\rJe me disais que ça me donnerait de\nnouvelles idées. Ça devrait t’aider à\fcompléter ton Pokédex.\rC’est ce que je pensais.\r
+39	Au fait, même si tu es maintenant le\nPropriétaire du Parc Safari,\fvoudrais-tu continuer à payer\fl’entrée ? Nous avons nos raisons.\rNe m’en veux pas. Je continuerai à\nréfléchir à de nouveaux moyens de\ft’amuser pour t’aider à compléter ton\fPokédex.\rAmuse-toi bien au Parc Safari !
+40	Je te préviendrai par Pokématos dès que\nj’aurai trouvé quelque chose de\fnouveau !
+41	Montre-moi le SABELETTE dès que tu en\nas attrapé un. Les SABELETTE vivent\fdans le désert ! Bonne chance !
+42	Doucement.\rQuand le prochain test sera prêt, je\nt’appellerai avec le Pokématos.\rDonne-moi un peu de temps, d’accord ?
+43	Salut, je t’attendais !\rJ’ai eu une révélation !\nUne nouvelle attraction !\rJe l’ai appelée...\nAménagement d’Objets !\rÇa va être amusant ! Tu peux placer des\nobjets sur le terrain pendant que tu\fjoues au Parc Safari !\r
+44	Et ce n’est pas tout : les types de\nPokémon que tu verras changeront selon\fles types d’objets que tu places.\rC’est incroyable, non ? Je t’appellerai\navec le Pokématos si autre chose se\fprésente !\r
+45	Je vais t’expliquer l’Aménagement\nd’Objets. Tu veux savoir quelque\fchose ? {YESNO 0}
+46	Je vais t’expliquer l’Aménagement\nd’Objets. N’hésite pas à me poser des\fquestions.\r
+47	Tu peux placer plein d’objets n’importe\noù quand tu te promènes dans le Parc\fSafari, sauf sur les escaliers et\fl’herbe où apparaissent les Pokémon !\rN’oublie pas non plus que tu peux placer\njusqu’à 30 objets dans une Zone.\rTu veux savoir autre chose ? {YESNO 0}
+48	Placer des objets est facile. Il suffit\nde vérifier que l’endroit devant toi est\flibre.\rS’il est vide, tu peux choisir un objet.\rCertains objets sont grands et\ndemandent beaucoup de place.\rTu veux savoir autre chose ? {YESNO 0}
+49	Si tu veux retirer un objet,\napproche-toi simplement et examine-le.\fLes objets que tu as placés brillent\fdans le noir. Ça devrait t’aider la nuit.\rTu veux savoir autre chose ? {YESNO 0}
+50	Il existe de nombreux objets\ndifférents. Des objets qui ressemblent\fà de l’herbe, à des arbres, à des\frochers, à de l’eau, et d’autres\ftypes...\rEssaie de placer différents objets. Le\nnombre d’objets placés dans une Zone\fs’affiche dans le Modificateur de Zones,\fsur l’écran du haut.\rIl y aura d’autres objets, car je\ncontinuerai à en ajouter.\rTu veux savoir autre chose ? {YESNO 0}
+51	Les types de Pokémon que tu verras\nchangeront selon les types d’objets\fque tu places.\rLe Parc Safari change aussi à ce\nmoment-là. Essaie de placer différents\ftypes d’objets.\rTu veux savoir autre chose ? {YESNO 0}
+52	Attention !\rUne fois que tu as échangé des Zones,\ntous les objets que tu avais placés\fsont retirés.\rTu veux savoir autre chose ? {YESNO 0}
+53	J’espère que ça te plaira !\nEn avant, et amuse-toi bien !
+54	Bienvenue au Parc Safari de\n{STRVAR_1 3, 0, 0} !\rPour seulement 500 $, vous pouvez\njouer au Jeu Safari.\rVous pouvez parcourir le vaste Parc\nSafari et attraper ce qui vous plaît.\fVoulez-vous jouer ? {YESNO 0}
+55	Ce sera {STRVAR_1 52, 1, 0} $, s’il vous plaît !\r
+56	D’accord.\nÀ bientôt !
+57	Voici vos Safari Balls.\r
+58	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 51, 1, 0} Safari Balls.
+59	Nous vous appellerons quand vous\nn’aurez plus de Safari Balls.\rEh bien, bonne chance !\r
+60	Vous n’avez pas le Parc Safari d’un ami.\nVeuillez m’excuser, mais vous ne pouvez\fpas entrer ici.\rVeuillez parler au personnel à côté de\nmoi.
+61	Il vous reste du temps. Voulez-vous\nvraiment quitter le Parc Safari ?
+62	Très bien.\rVeuillez rendre les Safari Balls qu’il\nvous reste.\r
+63	Ça vous a plu ?\nÀ bientôt !
+64	Veuillez m’excuser.\nVous n’avez pas assez d’argent.\rJ’espère vous revoir bientôt.
+65	Propriétaire !\rVoici le comptoir de la Liaison Parc\nSafari.\rVous pouvez y échanger des Parcs\nSafari.\rVoulez-vous vous connecter avec des\namis pour échanger des Parcs Safari ? {YESNO 0}
+66	Voici le comptoir de la Liaison Parc\nSafari.\rVous pouvez y échanger des Parcs\nSafari.\rVoulez-vous vous connecter avec des\namis pour échanger des Parcs Safari ? {YESNO 0}
+67	Voulez-vous sauvegarder la partie ?
+68	Une partie est déjà sauvegardée.\nL’écraser ?
+69	Sauvegarde en cours...\nN’éteignez pas la console.
+70	{STRVAR_1 3, 0, 0} a sauvegardé la partie.
+71	Décidez lequel de vous deux sera le chef\ndu groupe.\rL’autre joueur devra ensuite choisir\n“REJOINDRE”. {YESNO 0}
+72	Choisissez le joueur avec qui échanger\ndes Parcs Safari. {YESNO 0}
+73	En attente de la réponse de\n{STRVAR_1 3, 0, 0}...
+74	{STRVAR_1 3, 0, 0} a renvoyé un “OK” !
+75	{STRVAR_1 3, 0, 0} a répondu “Non”...
+76	Voulez-vous quitter le groupe ?
+77	Vous avez quitté le groupe.
+78	En attente du contact de votre ami.
+79	{STRVAR_1 3, 0, 0} a répondu !\rVoulez-vous échanger des Parcs Safari\navec {STRVAR_1 3, 0, 0} ? {YESNO 0}
+80	Un “OK” a été envoyé\nà {STRVAR_1 3, 0, 0}.
+81	Vous allez recevoir un Parc Safari.\nVeuillez patienter.
+82	Vous avez reçu\nle Parc Safari de {STRVAR_1 3, 0, 0} !\r
+83	La Liaison Parc Safari est terminée !\rVeuillez vous rendre au comptoir à côté\nde vous.
+84	Cela ne peut pas encore être utilisé.
+85	À bientôt.
+86	La Communication sans fil DS va être\nlancée. {YESNO 0}
+87	Erreur de communication.\rVeuillez reprendre la procédure\nd’enregistrement depuis le début.
+88	Sauvegarde en cours...\nN’éteignez pas la console.
+89	{STRVAR_1 3, 0, 0} a sauvegardé la partie.
+91	Les Zones du Parc Safari ont\nété échangées.
+92	Voici l’accueil de la Liaison Parc Safari.\r...Ou plutôt, ce sera bientôt le cas.\rNous ne sommes pas encore prêts.\nVeuillez revenir plus tard.
+93	Propriétaire !\nVoici l’accueil de la Liaison Parc Safari.\rSouhaitez-vous en savoir plus sur la\nLiaison Parc Safari ? {YESNO 0}
+94	Voici l’accueil de la Liaison Parc Safari.\rSouhaitez-vous en savoir plus sur la\nLiaison Parc Safari ? {YESNO 0}
+95	La Liaison Parc Safari vous permet\nd’échanger des Parcs Safari avec vos\famis.\rVous pourrez jouer dans leur Parc\nSafari !\rLes Zones et les Pokémon seront\ndifférents. Attention !\rLe Parc Safari que vous recevez\ndisparaîtra au bout de 24 heures ou si\fvous en recevez un autre.\rÀ votre droite se trouve l’accueil de la\nLiaison Parc Safari.\rÀ votre gauche se trouve l’accueil pour\njouer dans le Parc Safari de votre ami.\rProfitez bien de la Liaison Parc Safari !
+96	D’accord ! Profitez bien de la Liaison\nParc Safari !

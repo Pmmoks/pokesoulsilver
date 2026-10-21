@@ -1,0 +1,15 @@
+0	Léo : Salut, {STRVAR_1 3, 0, 0} ! Peux-tu me\nrendre service et prendre cet EVOLI ?\rIl est arrivé pendant que je réglais\nla Connexion Wi-Fi Nintendo.\rIl faut que quelqu’un s’en occupe,\nmais je n’aime pas sortir.\rPuis-je compter sur toi pour jouer\navec lui, {STRVAR_1 3, 0, 0} ? {YESNO 0}
+1	Léo : Je savais que tu viendrais !\nTu es vraiment au top ! Bravo !\fBon, je compte sur toi.\fPrends-en bien soin !\r
+2	{STRVAR_1 3, 0, 0} reçoit\nEVOLI !
+3	Léo : Le Prof. Orme dit qu’EVOLI peut\névoluer en sept sortes de\fPokémon différents !
+4	Oh, attends. Tu ne peux pas porter\nplus de Pokémon.
+5	Oh... Et maintenant, que faire ?
+6	Léo : Je faisais des expériences sur le\ntransfert d’objets.\rLa GTS et la Connexion Wi-Fi Nintendo\nsont nées de ma machine\fà transférer des choses !
+7	Veux-tu donner un surnom à\nEVOLI ? {YESNO 0}
+9	Oh, tu collectionnes les Pokémon ?\nMon fils Léo est un expert.\rIl vient d’être appelé au Centre\nPokémon de Rosalia.
+10	Quoi qu’il arrive, je suis heureuse\nde voir mon fils.
+11	Mon grand frère Léo a créé le\nSystème de Stockage Pokémon.
+12	Tu fais partie des Dresseurs ?\rJ’ai un numéro de téléphone utile\npour toi. {YESNO 0}
+13	{STRVAR_1 3, 0, 0} enregistre Léo\ndans le Pokématos !
+14	Mon frère a créé le\nSystème de Stockage Pokémon.\rJ’allais te donner le numéro de Léo...
+15	Quand tu appelles mon frère, il peut te\nparler des Boîtes du PC où tu\franges tes Pokémon !
