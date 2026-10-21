@@ -1,0 +1,29 @@
+0	Un seul Pokémon peut faire une Balade\navec toi dans un Pokéwalker...\rJe n’arrive pas à choisir lequel !
+1	Ça ne se voit pas, mais j’ai plein de\nPokéwalkers sur moi !\fIls font un bruit fou quand je marche.\rFaire une Balade n’est peut-être pas\naussi simple que je le pensais...
+2	Attention, s’il vous plaît !\r...Oups, je dois arrêter de parler\ncomme à l’école.\rTu fais sûrement partie des\nDresseurs Pokémon.\rComme tu t’appliques tant,\nje veux que tu aies ceci.\r
+4	Fais tenir cette Vive Griffe à un\nPokémon.\rIl pourra parfois attaquer en premier\npendant un combat.
+5	C’est amusant de se promener avec un\nPokémon sorti de sa Poké Ball,\fmais le Pokéwalker, c’est une toute\fnouvelle dimension.
+6	Ma mère ne veut pas que je garde mon\nPokémon et me dit de ne pas jouer\fdedans.\rMais, hé !\rJe peux le garder dans mon Pokéwalker.\nComme ça, il est toujours avec moi !
+7	Je me promène dans le parc, mais je ne\nvais jamais dans les hautes herbes.\rLes Dresseurs veulent toujours\nse battre...
+8	PERSIAN : Fufushaa !
+9	Pfff... Hah... Pfff...\rJe n’en... peux... plus !\nJe cours pour essayer\fde recharger le Pokéwalker !
+22	Place de détente pour tous\nParc Naturel
+23	Qu’est-ce que cet avis ?\rMerci de ne combattre que dans l’herbe\ndu parc.\r           Parc Naturel\n           Bureau du Gardien
+24	Qu’est-ce que cet avis ?\rInterdit de jouer à la balle, sauf\navec des Poké Balls.\r           Parc Naturel\n           Bureau du Gardien
+42	Venez aussi participer au prochain\nConcours de Capture d’Insectes !
+45	Don : Que tu obtiennes le bon Pokémon\nou non, c’est à moitié une question de\fchance.
+48	Ed : La taille du Pokémon n’est pas le\nseul critère pour désigner le\fvainqueur.
+51	Abby : Quelqu’un m’a dit que les\nPokémon colorés avaient plus de\fchances de gagner. Je me demande si\fc’est vrai...
+54	William : J’ai eu le Pokémon que je\nvoulais, donc je suis très content.
+57	Benny : Tu sais quoi ? J’ai capturé un\nINSECATEUR l’autre jour, et je n’ai\ftoujours pas gagné...
+60	Barry : Tu as plus de chances de\ngagner quand ton Pokémon a un niveau\félevé. Mais il semble qu’il y ait autre\fchose pour gagner.
+63	Cindy : J’adore les Pokémon de type\nInsecte.\rJe me répète ?
+66	Josh : Quelqu’un a gagné le Concours\navec un CHENIPAN !
+69	Samuel : Argh ! Je pensais que ça\nrapporterait plus de points.
+72	Kipp : Étudier à fond les Pokémon de\ntype Insecte ne garantit pas la\fvictoire ici.
+84	Hector : Salut, {STRVAR_1 3, 0, 0} ! Il y a un\nConcours de Capture d’Insectes\fdemain !\rJ’ai souvent gagné le Concours,\ndonc je n’y participe pas.\rMais tu devrais essayer.\fJe suis sûr que tu peux gagner !
+85	Hector : Salut, {STRVAR_1 3, 0, 0} ! Il y a un\nConcours de Capture d’Insectes\fdemain !\rJ’ai souvent gagné le Concours,\ndonc je n’y participe pas.\rMais tu devrais essayer.\nJe suis sûr que tu peux gagner !\rAu fait, tu veux bien prendre une\nphoto avec moi ? {YESNO 0}
+86	Hector : OK ! Prenons-en une.\nSouris !\r
+87	Hector : Youpi ! Elle est réussie !
+88	Hector : Ah, je vois...\nPas de souci. Je ne suis pas triste.
+89	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.

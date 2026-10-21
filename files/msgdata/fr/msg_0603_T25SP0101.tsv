@@ -1,0 +1,40 @@
+0	Nous échangeons vos jetons contre\nde superbes lots ! {YESNO 0}
+1	Mettez vos jetons de côté et\nrevenez nous voir !
+2	Désolé ! Il vous faut plus de jetons. {YESNO 0}
+3	{STRVAR_1 8, 0, 0}.\nC’est bien cela ? {YESNO 0}
+4	Voilà pour vous !\r
+5	Désolé. Vous ne pouvez pas en porter\nplus.\r
+6	Votre équipe est pleine !\nFaites de la place avant de\frevenir.
+7	Désirez-vous {STRVAR_1 0, 1, 0} ? {YESNO 0}
+8	{STRVAR_1 3, 0, 0} reçoit\n{STRVAR_1 0, 1, 0} ! {YESNO 0}
+9	Bienvenue !\rNous échangeons vos jetons contre\nde superbes lots ! {YESNO 0}
+10	Rangement de {STRVAR_1 8, 0, 0}\ndans la poche {STRVAR_1 18, 1, 0}. {YESNO 0}
+11	ANNULER
+12	CT
+13	OBJETS
+14	CLONAGE\n2 000 jetons
+15	DANSE-LAMES\n4 000 jetons
+16	REPOS\n6 000 jetons
+17	LANCE-FLAMME\n10 000 jetons
+18	LASER GLACE\n10 000 jetons
+19	TONNERRE\n10 000 jetons
+20	MOUCHOIR SOIE\n1 000 jetons
+21	LOUPE\n1 000 jetons
+22	LENTILLE ZOOM\n1 000 jetons
+23	MÉTRONOME\n1 000 jetons
+24	ABRA{CURSOR_X 103}200 jetons
+25	ABO{CURSOR_X 103}700 jetons
+26	MINIDRACO{CURSOR_X 90}2 100 jetons
+27	SABELETTE{CURSOR_X 103}700 jetons
+28	Je m’appelle M. Jeu !\rMon cœur bat la chamade quand les\ngens s’amusent avec mon jeu de\fjetons !\rC’est même ma raison de vivre !\nTu m’as l’air d’un sacré challenger !\rPourquoi ne pas jouer à mon jeu de\njetons ?\rSi tu récoltes beaucoup de jetons, tu\npeux gagner de superbes lots. {YESNO 0}
+31	Parfait !\nVoici ta Boîte Jetons !\r
+32	Montre-moi comment tu joues, et mon\ncœur battra la chamade !\r
+33	Jouer à mon jeu fera battre ton cœur\net le mien à tout rompre, tu sais ?
+34	Je m’appelle M. Jeu !\rMon cœur bat la chamade quand les\ngens s’amusent avec mon jeu de\fjetons !\rC’est même ma raison de vivre !\nAllez, joue !\rFais battre mon cœur à tout rompre !
+35	Allez, joue à mon jeu de jetons !\fFais battre mon cœur à tout rompre !
+36	Quelle sensation !\rRien ne vaut le plaisir de regarder\njouer au jeu de jetons !\rOh ! J’allais oublier !\rTu peux échanger tes jetons contre\ndes lots avec les deux messieurs à la\ftable au fond.
+37	Tu reviens jouer à mon jeu de jetons ?
+38	Il semblerait qu’il te faille une\nBoîte Jetons pour jouer...\r
+39	M. Jeu : Aha !\rTu viens sûrement jouer à mon jeu !\nApproche, je te donne une Boîte\fJetons !
+40	M. Jeu : Montre-moi comment tu joues\net fais battre mon cœur à tout\frompre !\r
+41	M. Jeu : Hein ?\rPourquoi ne pas t’asseoir en face de\nmoi et me montrer comment tu joues ?

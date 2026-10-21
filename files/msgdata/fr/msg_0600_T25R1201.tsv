@@ -1,0 +1,37 @@
+0	Bienvenue ! Ici, c’est la Global Trade\nStation, ou GTS pour les intimes.\rNous permettons d’échanger des\nPokémon avec des gens du monde entier\fvia la Connexion Wi-Fi Nintendo.\rSouhaitez-vous faire un échange\nmondial de Pokémon ? {YESNO 0}
+1	Bonjour !\nBienvenue à la GTS !\rSouhaitez-vous faire un échange mondial\nde Pokémon via la Connexion Wi-Fi\fNintendo ? {YESNO 0}
+2	À la GTS, vous pouvez échanger des\nPokémon de deux façons.\rVous pouvez proposer un Pokémon à\nl’échange, ou chercher parmi les\fPokémon proposés.\rDois-je vous expliquer plus en détail ? {YESNO 0}
+3	On vous demandera de déposer le\nPokémon que vous proposez.\rOn vous demandera aussi quel Pokémon\nvous voulez en échange.\rSi un autre joueur propose le Pokémon\nque vous voulez contre le vôtre,\fl’échange aura lieu.\rDois-je expliquer autre chose ? {YESNO 0}
+4	Vous pouvez chercher parmi les Pokémon\nproposés par d’autres Dresseurs.\rChacun indique quel Pokémon son\nDresseur veut en retour.\rSi l’un d’eux vous plaît, vous devrez\nnous fournir le type de Pokémon\fdemandé en échange.\rDois-je expliquer autre chose ? {YESNO 0}
+5	Souhaitez-vous faire un échange\nmondial de Pokémon ? {YESNO 0}
+6	Revenez nous voir.
+7	Passez un bon moment à la GTS !\r
+8	...Oh, zut !\rJe suis désolé, mais votre équipe et\ntoutes vos Boîtes PC sont pleines.\rPour utiliser la GTS, il faut de la place\ndans votre équipe ou dans une Boîte PC.
+9	...Oh, zut ! Vous n’avez qu’un seul\nPokémon sur vous.\rPour utiliser la GTS, il faut avoir au\nmoins deux Pokémon avec soi.\rRevenez avec plus de Pokémon\ndans votre équipe.
+10	Le monde est petit, hein ?\rHein ? Attends, c’est une maquette ?\nLa vraie Terre est des millions de fois\fplus grande que ça ?\rWouaaaaaah !
+11	Il paraît que quand on communique avec\nquelqu’un, son emplacement est\fenregistré sur ce globe géant.
+12	Il me suffit de laisser un Pokémon ici\npour l’échange.\rQui sait, il sera peut-être échangé\npendant mon sommeil cette nuit.
+13	Avec le matériel d’ici, on peut échanger\nfacilement des Pokémon avec des fans\fde l’autre bout du monde !\rC’est incroyable !
+14	Tu peux enregistrer ton lieu de\nrésidence sur ce globe géant.\rUne fois fait, tu peux le montrer à\ntous ceux avec qui tu communiques.
+15	La Connexion Wi-Fi Nintendo est si simple\nque même moi, je peux échanger des\fPokémon maintenant !
+16	Cette semaine, j’y arrive !\rJe veux vraiment entrer dans le Top 4\ndes classements.
+17	Le Centre Global compte trois étages.\rOn passe de l’un à l’autre grâce à des\npanneaux de téléportation.\rLe panneau bleu mène à la GTS, au\nrez-de-chaussée.\rLe panneau vert mène aux studios des\nDonnées de Boîte et d’habillage,\fau 1er étage.\rLe panneau rose mène à la Galerie des\nVidéos de Combat, au 2e étage.
+18	Ton préféré, c’est {STRVAR_1 0, 0, 0},\nnon ? {YESNO 0}
+19	Ton préféré, c’est cet Œuf,\nnon ? {YESNO 0}
+20	Oui, j’avais raison !\nJe m’en doutais !
+21	...Oh ? Ton préféré, c’est vraiment\n{STRVAR_1 0, 0, 0}, non ?
+22	...Oh ? Ton préféré, c’est vraiment\ncet Œuf, non ?
+23	Je veux connaître les types de Pokémon\npréférés de tout le monde.
+24	Yo, yo, yo !\rTu veux te faire connaître du monde ?\nAlors dis-moi tout, yo ! {YESNO 0}
+25	Yo, je sais tout ce qu’il faut savoir\nsur toi maintenant.\rSi tu veux changer ton message,\nc’est moi qu’il faut voir, yo !
+26	Yo ! Tu n’as rien à dire ?\rSi tu veux changer ton message,\nc’est moi qu’il faut voir, yo !
+27	Il y a plusieurs bornes de portail ici,\nau Centre Global.\rIl faut y placer ton Magnéto VS pour\ncommuniquer.\rEssaie-les donc, elles te guident\npendant toute l’opération.
+28	Bienvenue au Centre Global !\rIci, vous pouvez rejoindre l’immense\ncommunauté des Dresseurs du monde.\rVous pouvez consulter les résultats de\nDresseurs comme vous aux quatre coins\fdu monde.\rVous pouvez aussi échanger des\nPokémon avec eux.
+29	Se connecter à la Connexion Wi-Fi\nNintendo pour les Classements\fdes Dresseurs ? {YESNO 0}
+30	Les Classements des Dresseurs, c’est\nun système de classement par équipes\fpour les Dresseurs du monde entier.\rLes Dresseurs sont répartis en\nplusieurs groupes et classés dans de\fnombreuses catégories.\rSi vous participez, vos exploits de\nDresseur sont envoyés automatiquement\nà votre équipe.\rAutrement dit, ce que vous faites en\ntant que Dresseur peut aider votre\féquipe à monter au classement.\rAttention !\rSi vous participez plusieurs fois à une\ncatégorie, seuls les points de votre\fprécédent envoi seront comptés.\r
+31	Se connecter à la Connexion Wi-Fi\nNintendo et consulter les Classements\fdes Vidéos de Combat ? {YESNO 0}
+32	Les Classements des Vidéos de Combat,\nc’est une galerie des Vidéos de Combat\fles plus populaires.\rÉtudiez de nombreux combats\nclassiques pour perfectionner vos\fpropres talents de Dresseur.\r
+33	UTILISER
+34	INFOS
+35	ANNULER
+36	Le panneau vert mène aux studios des\nDonnées de Boîte et d’habillage,\fau 1er étage.\rLe panneau rose mène à la Galerie des\nVidéos de Combat, au 2e étage.

@@ -1,0 +1,16 @@
+0	Bienvenue à bord du navire rapide\nM.S. Aqua.\r...Sauf que l’équipe d’entretien des\nmoteurs prend un peu de repos, et\fnous ne savons pas quand nous\fpourrons partir...
+1	Bienvenue à bord du navire rapide\nM.S. Aqua.\nPuis-je voir votre Passe Bateau ?\r
+2	{STRVAR_1 3, 0, 0} a essayé de montrer\nle Passe Bateau...\r...Mais il n’y en a pas !\r
+3	Je suis désolé...\rUne personne sans Passe Bateau de\nplus ne changerait pas grand-chose,\fje pense.\rMais le règlement, c’est le règlement.\nDésolé, c’est comme ça.
+4	{STRVAR_1 3, 0, 0} a montré le Passe Bateau.\r
+5	Bien, vous avez un Passe Bateau !\rNous partons bientôt.\nMontez vite à bord !\r
+6	Quoi ? Vous m’avez déjà montré le\nPasse Bateau.
+7	Bienvenue à bord du M.S. Aqua !\rVotre Passe Bateau est...juste là.\nVous pouvez passer.\r
+8	Faire naviguer un bateau tous les\njours, ça épuise ! Il ne navigue pas\faujourd’hui.\rIl part pour Carmin sur Mer\nle lundi et le vendredi !
+9	Professeur Chen : Bonjour !\nTu commences à avoir l’attitude d’un\fMaître, {STRVAR_1 3, 0, 0} !\rIl est temps que ton Pokédex soit à\nla hauteur de ce que tu es.\fMontre-moi ton Pokédex un instant.\rJe vais le mettre à niveau avec\nle mode National.\r
+10	Professeur Chen : Bonjour !\nTu commences à avoir l’attitude...\fd’un Maître, {STRVAR_1 3, 0, 0} !\rIl est temps que ton Pokédex soit à\nla hauteur de ce que tu es.\fMontre-moi ton Pokédex un instant.\rJe vais le mettre à niveau avec\nle mode National.\r
+11	Le Pokédex de {STRVAR_1 3, 0, 0} a été mis à\nniveau avec le mode National !
+12	Professeur Chen : Compléter le\nPokédex National ne sera pas facile...\rMais je suis sûr que tu feras de ton\nmieux pour nous tous !\r
+13	Oh, le temps passe vite !\rJe dois enregistrer une émission à\nla Tour Radio de Doublonville.\rTu dois te rendre à Kanto.\rSi tu passes près de Bourg Palette,\nviens donc voir mon Laboratoire !\r
+14	Le M.S. Aqua se déplace grâce à des\nréacteurs. Il glisse sur l’eau !
+15	Tu es déjà allé à Kanto ?\rOn dit que de nombreux Pokémon rares\ny vivent.\rÇa a l’air passionnant.\nJ’adorerais y aller !

@@ -1,0 +1,10 @@
+0	Pierre : Tiens, ce n’est pas souvent\nqu’on voit un challenger de Johto.\rJe suis Pierre, le Champion de l’Arène\nd’Argenta. Je suis un expert des\fPokémon de type Roche.\rMes Pokémon résistent à la plupart\ndes attaques physiques.\rTu auras du mal à infliger\nle moindre dégât.\rAllez, viens !\r
+1	Pierre : Les attaques puissantes de\nton Pokémon ont eu raison de ma\frésistance solide comme un roc...\rTu es plus fort que ce que\nj’imaginais...\fVoilà, prends ce Badge.\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Roche de Pierre !
+3	Pierre : J’ai adoré le combat avec\ntoi, {STRVAR_1 3, 0, 0} ! Je te donne aussi la\fcapacité Éboulement.\rElle peut parfois faire\nflancher l’ennemi.\r
+4	Pierre : J’ai adoré le combat avec\ntoi, {STRVAR_1 3, 0, 0} ! Je te donne aussi la\fcapacité Éboulement.\rElle peut parfois faire\nflancher l’ennemi.\r
+5	Pierre : Le monde est vaste. Il reste\nencore beaucoup de Dresseurs forts\fcomme toi.\rVous verrez.\rMoi aussi, je vais devenir\nbeaucoup plus fort.
+6	Yo ! Futur légende ! Tu as l’air...\ren pleine forme.\rTu affrontes les Champions d’Arène\nde Kanto ?\rCe sont des gens forts et dévoués,\ncomme ceux de Johto.
+7	Yo ! Futur légende ! Cette Arène ne\nt’a pas posé beaucoup de problèmes.\rTa façon de prendre les choses en\nmain était vraiment inspirante. Je suis\fsérieux.
+8	Arène Pokémon d’Argenta
+9	Arène Pokémon d’Argenta\rChampion : Pierre\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

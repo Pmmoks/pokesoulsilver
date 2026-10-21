@@ -1,0 +1,12 @@
+0	Merci de votre visite aujourd’hui.\rÀ quel étage souhaitez-vous aller ? {YESNO 0}
+1	Au plaisir de vous revoir.
+2	Très bien.\nL’ascenseur monte.\r
+3	Très bien.\nL’ascenseur descend.\r
+4	Nous sommes déjà à cet étage ?!
+5	Le rez-de-chaussée abrite le Comptoir\nd’accueil et l’entrée principale.
+6	Le 1er étage abrite le Marché des\nDresseurs, riche en objets utiles.
+7	Le 2e étage abrite l’Espace Combat,\npour des Pokémon forts et coriaces.
+8	Le 3e étage abrite la Pharmacie, pour\nrévéler le potentiel de vos Pokémon.
+9	Le 4e étage abrite le Rayon CT, pour\ndonner un nouvel atout à vos Pokémon.
+10	Le 5e étage abrite le Toit-terrasse.\nNe manquez pas le Tirage du Jour !
+11	Le sous-sol abrite l’entrepôt.\nIl n’est pas ouvert aux clients.

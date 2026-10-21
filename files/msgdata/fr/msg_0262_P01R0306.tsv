@@ -1,0 +1,9 @@
+0	Je vois.\rAlors tu joues à cache-cache\navec ma petite-fille.\rJe suppose qu’il n’y a pas de souci\ntant qu’elle est sur le navire !
+1	Oh, bonjour...\rMa petite-fille est toujours\nintrouvable. Tant qu’elle est sur le\fnavire, ça va.\rC’est une enfant pleine d’énergie, elle\npeut déranger quelqu’un. Ça\fm’inquiète...
+2	Papi, je suis là !\rJe jouais à cache-cache\navec ce garçon !\r
+3	Papi, je suis là !\rJe jouais à cache-cache\navec cette fille !\r
+4	{STRVAR_1 3, 0, 0}, c’est bien ça ?\nJ’ai appris que tu as diverti\fma petite-fille.\rJe tiens à t’en remercier.\nPrends ceci.\r
+5	{STRVAR_1 3, 0, 0}, c’est bien ça ?\nJ’ai appris que tu as diverti\fma petite-fille.\rJe tiens à t’en remercier.\nPrends ceci.\r
+6	Le navire rapide M.S. Aqua\nest arrivé à Carmin sur Mer.
+7	Nous voyageons autour du monde.
+8	Je me suis bien amusée !

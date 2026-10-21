@@ -1,0 +1,30 @@
+0	Bienvenue !\rJe vous préviens, tous les grands\nspécimens ont été envoyés dans\fd’autres musées pour être exposés.\rAlors pour le moment, l’entrée\nest gratuite !\rEntrez donc.
+1	Saviez-vous qu’on peut extraire\ndes Pokémon de Fossiles ?\rSi vous en avez besoin, laissez-moi\nm’en occuper !\r
+2	Revenez si vous voulez un jour extraire\ndes Pokémon.
+3	Je vais l’extraire pour vous.\rRevenez dans un moment !
+4	Bonjour !\rJ’ai extrait un Pokémon de\nvotre Fossile !\rIl s’appelle {STRVAR_1 0, 0, 0}.\nPrenez-en bien soin !\r
+5	Oups !\nVotre équipe est complète.\rPourquoi n’allez-vous pas au PC\npour lui faire de la place ?
+6	Tiens !\nVous n’avez aucun Fossile.\rIl paraît qu’on en trouve parfois en\nbrisant des rochers aux\fRuines d’Alpha et ailleurs.
+7	Voulez-vous extraire un Pokémon\ndu {STRVAR_1 8, 0, 0} ? {YESNO 0}
+8	{STRVAR_1 3, 0, 0} a reçu\n{STRVAR_1 0, 1, 0} !
+9	Voulez-vous donner un surnom\nà {STRVAR_1 0, 1, 0} que vous avez reçu ? {YESNO 0}
+10	On dit que des météorites sont tombées\nquelque part près d’Argenta.\rNous aimerions les exposer dans notre\nmusée, mais...\rCes météorites émettraient une étrange\nénergie et ne peuvent pas être\femportées...
+11	J’aime deux endroits !\nLes Ruines d’Alpha à Johto...\rEt le Musée d’Argenta !\nIl est si calme et m’apaise.\rSentez-vous sa belle histoire\nvous envahir en silence ?
+12	Je dois être reconnaissant d’avoir\nvécu si longtemps.\rJamais je n’aurais cru voir\nles os d’un dragon !
+13	..................\rToutes ces étoiles qui brillent la nuit\nsont des pierres que je ne connaîtrai\fjamais...
+14	Steven : Ceux qui se consacrent à ce\nen quoi ils croient se distinguent\fdans la foule.\rMais ma passion n’est pas moins forte\nque la vôtre.\r
+15	Waouh !\nCe que vous avez là...\r
+16	Cette pierre est...tellement\nmystérieuse !\rQuelque chose semble briller à\nl’intérieur... La pierre est\fdiscrète...mais cache quelque chose de\fmerveilleux !\rVous devriez la faire étudier\npar des experts.\r
+17	{STRVAR_1 3, 0, 0} a confié la Pierre Énigme\nau chercheur !\r
+18	Je vais la vérifier.\nPouvez-vous patienter un instant ?\r
+19	Merci de votre patience !\nCela m’a pris un peu de temps,\fmais j’ai pu le confirmer !\rC’est un Orbe qui contient ce qu’on\nappelle la {COLOR 2}Rosée Âme{COLOR 0}.\r
+20	La Rosée Âme n’a rien d’ordinaire\net se voit rarement.\fJ’aimerais l’étudier de près.
+21	Steven : La Rosée Âme serait l’esprit\nsolidifié de LATIAS et LATIOS.\rElle a le pouvoir de révéler le vrai\npotentiel de LATIAS et LATIOS.\rLes esprits de ces Pokémon et la Rosée\nÂme se répondraient l’un à l’autre...\rLa seule chose qui me laisse perplexe,\nc’est le lieu où la Rosée Âme a été\ftrouvée. Pourquoi Kanto ?\r
+22	Filamenteux et sinueux...\nSerait-ce un Fossile de plante ?
+23	C’est un Fossile courbe et acéré.\nÇa pourrait être...\fle Fossile d’un carnivore ?
+24	Il est plat et semble dur.\nÇa pourrait être...\fune partie qui protégeait son corps ?
+25	De la sève d’arbre durcie\ncontient quelque chose !\rSi on peut l’en sortir, on pourrait\nextraire un Pokémon des temps\fanciens...?
+26	De petits os assemblés forment\nune sorte de Pokémon !
+27	Des mots sont gravés dans la\npierre brute...\r“Objet non identifié trouvé au Mont\nSélénite. Il s’agit peut-être d’une\fpierre lunaire.”
+28	Il y a des livres épais et très lus !\r“Les principes de l’extraction de\nFossiles” “Manuel d’archéologie”\f“Pokémon perdus” “Ancêtres des\fPokémon” “L’amitié des Dresseurs et\fdes Pokémon” “Soins dans la couche\flimoneuse de Kanto”
+29	Notre musée expose principalement\ndes Fossiles et des spécimens de Kanto.\rAdmirez les Pokémon disparus à travers\nleur souvenir, et remontez le temps\fjusqu’au monde ancien.

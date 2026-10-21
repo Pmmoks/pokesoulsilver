@@ -1,0 +1,8 @@
+0	...Ouais, et l’Arène de Cramois’Île a\ndisparu. J’étais vraiment sidéré.\r...Oui ? Je suis au téléphone.\nVa-t’en !
+1	RONDOUDOU : Pou poupou.
+2	La plupart des Pokémon s’endorment\nen entendant chanter un RONDOUDOU.\rCertaines capacités ne peuvent être\nutilisées que pendant le sommeil.
+3	Ah...\nSi seulement j’avais un SPECTRUM...\rSi tu as un SPECTRUM,\ntu l’échangeras contre mon XATU,\fn’est-ce pas ? {YESNO 0}
+4	Formidable ! Tu me fais plaisir !\rGrâce à toi, j’ai enfin le Pokémon\nque je cherchais...\fdepuis toujours !
+5	Ça doit être un SPECTRUM !\rSPECTRUM !!
+6	Tu ne refuserais jamais un échange\nsi tu avais un SPECTRUM.\rDonc tu n’en as pas.\nÇa doit être ça...
+7	Que penses-tu du XATU classe que\nje t’ai échangé ?\rIl est classe parce qu’il était\navec moi, le classe !
