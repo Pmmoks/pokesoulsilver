@@ -1,0 +1,15 @@
+0	Major Bob
+1	Quoi ? Je t’entends mal. La connexion\nest peut-être mauvaise ?\rEssaie de rappeler d’un autre endroit.
+2	Allô ? Quoi de neuf ? Moi, je vais super\nbien !\r
+3	Il n’y a pas d’autres Dresseurs que tu\npréférerais affronter plutôt que moi ?
+4	Mon temps libre ? Je suis souvent dispo\nle vendredi matin. Rappelle-moi à ce\fmoment-là !
+5	Hé, toi !\rAffronte-moi encore ! Qu’en dis-tu ? {YESNO 0}
+6	Très bien !\rJe t’attendrai au Dojo Combat de\nSafrania. Ne sois pas en retard !
+7	Je vois... Tu dois être bien occupé.
+8	Hmm... Ça me fait plaisir que tu veuilles\nencore m’affronter, mais tu n’as pas\ffait une promesse à quelqu’un d’autre ?
+9	Je t’attendrai au Dojo Combat de\nSafrania. N’oublie pas ! Allez !
+10	Yo ! C’est le Major Bob. Comment ça\nva ?\r
+11	Hé, tu as oublié que je t’attends au\nDojo Combat de Safrania ?\rJe crois que je suis arrivé avant toi.\nJe t’attends !
+12	Alors, pourquoi tu crois que j’ai mis\ntous ces pièges dans l’Arène de Carmin\fsur Mer ?\rC’est ça ! Pour tester l’intelligence\ndes Dresseurs qui viennent combattre !\rLes combats Pokémon, ce n’est pas que\nde la force ou de l’endurance.\rSi tu sais équilibrer force et\nintelligence, tu as l’étoffe d’un grand\fDresseur !
+13	Quand je me battais pour mon pays, j’ai\naidé à former beaucoup de Dresseurs,\fje leur ai appris les ficelles.\rMais !\rQuand tu m’as rencontré, tu avais déjà\nperfectionné tes capacités !\rOù t’es-tu entraîné ? Qui t’a appris à\ncombattre ?\rC’est si étrange et incroyable !
+14	J’étudie le parler de la région depuis\nque je suis Champion ici, à Carmin sur\fMer.\rMais il y a encore plein d’expressions\nque je ne comprends pas.\rDis, tu veux bien parler encore avec\nmoi ? On pourrait s’apprendre de\fnouvelles expressions !

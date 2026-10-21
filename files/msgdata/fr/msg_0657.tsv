@@ -1,0 +1,15 @@
+0	Pierre
+1	Hein ? Je t’entends pas. Je crois que la\nconnexion est mauvaise.\rVa ailleurs et rappelle !
+2	Allô... Quoi de neuf ? Je vais super\nbien !\r
+3	Hmm... J’aimerais t’affronter encore,\nmais il reste des Arènes que tu n’as pas\fvisitées, non ?
+4	Je peux faire une pause le samedi soir,\nsi tu veux me rappeler à ce moment-là.
+5	Hé, tu appelles pile au bon moment ! Je\nsuis libre là. Tu veux m’affronter\fencore ? {YESNO 0}
+6	D’accord, d’accord ! J’ai hâte !\rRendez-vous au Dojo Combat de\nSafrania !\rJe ne serai pas à l’Arène d’Argenta,\nd’accord ? Ne te trompe pas !
+7	Ah bon... Bon, j’imagine que tu as plein\nde choses à faire, toi aussi...
+8	Ouais, j’aimerais vraiment me rebattre\ncontre toi... Mais je crois que tu as\frendez-vous avec quelqu’un d’autre ?\rUne fois que tu auras tenu tes\nengagements envers les autres\fDresseurs, rappelle-moi !
+9	Je t’attendrai au Dojo Combat de\nSafrania. C’est une promesse entre\fDresseurs !
+10	C’est Pierre. Oh, salut, comment ça\nva ?\r
+11	On a prévu un combat au Dojo Combat de\nSafrania, non ? Tu n’as pas oublié,\fhein ?
+12	Un gros séisme a frappé récemment.\nCertains murs de mon Arène se sont un\fpeu effrités.\rBon, c’est un peu ce qui fait la\nréputation de mon Arène.\rAlors même si les murs se sont un peu\neffrités, personne ne le remarquera\fvraiment !
+13	Il y a tant de types de Pokémon\ndifférents dans le monde. Comme tu peux\ft’en douter, je préfère les Pokémon de\ftype Roche.\rIls sont solides et rugueux, et\npourtant un peu fragiles en même temps.\fUne fois qu’on les connaît bien, ils sont\fmême plutôt mignons.\rQu’en penses-tu ?
+14	Chaque Arène Pokémon est différente !\nLe design, les pièges, tout est si\fdifférent. C’est intéressant !\rChaque Champion à qui la Ligue Pokémon\nconfie une Arène peut l’aménager comme\fil veut.\rBien sûr, le design de l’Arène d’Argenta\nfait ma fierté !\rLes pièges ne sont pas grand-chose,\nmais avoue que quand on entre, le\fdesign en met plein la vue, non ?

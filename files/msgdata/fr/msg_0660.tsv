@@ -1,0 +1,11 @@
+0	Dame Pension
+1	Allô... Oh, bonjour. C’est\n{STRVAR_1 3, 0, 0} ?\rQu’y a-t-il ? Pourquoi appeler alors\nque tu es tout près ?
+2	Allô... Oh, bonjour. C’est\n{STRVAR_1 3, 0, 0} ?\rQu’y a-t-il ? Pourquoi appeler alors\nque tu es tout près ?
+3	Allô... Oh, bonjour. C’est\n{STRVAR_1 3, 0, 0} ?\r
+4	Allô... Oh, bonjour. C’est\n{STRVAR_1 3, 0, 0} ?\r
+5	Vos Pokémon vont très bien.\r
+6	Votre {STRVAR_1 0, 10, 0} a gagné environ {STRVAR_1 52, 11, 0}\nniveau(x).\r
+7	Votre {STRVAR_1 0, 12, 0} a gagné environ {STRVAR_1 52, 13, 0}\nniveau(x).\r
+8	Nous pouvons élever deux de vos\nPokémon.\rSi vous voulez nous en confier un\nautre, passez quand vous voulez.
+9	Vous devriez passer voir vos Pokémon\nun de ces jours.
+10	Si vous voulez que nous gardions vos\nPokémon, passez quand vous voulez.

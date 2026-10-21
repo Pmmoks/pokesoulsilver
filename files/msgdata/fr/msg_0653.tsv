@@ -1,0 +1,15 @@
+0	Mortimer
+1	Hein ? Je t’entends mal. La connexion\ndoit être mauvaise.\rEssaie de rappeler d’un autre endroit !
+2	Allô... Quoi de neuf ? Je vais très bien.\r
+3	Il y a des Champions plus forts que moi.\nIls attendent tous de t’encourager !
+4	C’est ça... Si on devait se rebattre, il\nfaudrait que ce soit quand je suis\flibre, comme le mardi soir.\rAppelle-moi à ce moment-là.
+5	Je suis complètement libre aujourd’hui.\nEt si on se battait ? {YESNO 0}
+6	Très bien !\rTu sais où est le Dojo Combat de\nSafrania ? Je t’y attendrai.
+7	Je vois... Tu as tes propres projets,\nje comprends.
+8	Hé ! Avant de m’affronter encore, tu\nn’as pas promis un combat à quelqu’un\fd’autre ?
+9	Je serai au Dojo Combat de Safrania.\nPrépare-toi et viens m’y retrouver !
+10	C’est Mortimer ! Comment ça va ?\r
+11	Dis, on n’avait pas prévu de se\nretrouver au Dojo Combat de Safrania ?\fMoi, je m’en souviens ! Tu n’as pas\foublié, hein ?
+12	Les Pokémon légendaires : Suicune,\nEntei et Raikou... lequel préfères-tu ?\rContrairement à Eusine, Suicune ne\nm’intéresse pas vraiment.\rAlors je dirais Entei... Mais je ne peux\npas oublier Raikou... Hmm... Je n’arrive\fpas à me décider.
+13	Tu sais, j’ai vu Entei une fois. De près,\nje veux dire. C’était incroyable.\rEntei m’a regardé dans les yeux. Je\nn’oublierai jamais ses yeux.\rC’était comme s’il voyait à travers moi,\njusqu’au fond de mon cœur...
+14	Comment vas-tu ? Rien d’intéressant ?\rMoi, rien de neuf, juste mes tâches\nhabituelles de Champion.\rIl n’y a pas eu de Dresseur vraiment\nfort ici depuis ton passage.\rOn dirait que tu es l’un de ces\nDresseurs de génie qu’on rencontre\frarement.\rHa ha ha ! Je ne cherche pas à te\nflatter !
