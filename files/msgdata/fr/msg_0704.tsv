@@ -1,3 +1,4 @@
+0	Jack
 1	Tes connaissances sont\nimpressionnantes ! J’aime ça !\rOn échange des astuces de combat ?\nJ’appelle si j’ai de bonnes infos.\rTu me donnes ton numéro ?{YESNO 0}
 2	Je t’appelle si j’apprends quelque\nchose !
 3	Ah, d’accord. Dommage...\rBon, si un jour tu veux mon numéro,\nviens me voir, OK ?
