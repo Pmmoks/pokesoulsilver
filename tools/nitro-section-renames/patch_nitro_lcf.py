@@ -4,7 +4,8 @@ import json, sys
 from pathlib import Path
 if len(sys.argv) != 2:
     raise SystemExit('usage: patch_nitro_lcf.py MAIN.LCF')
-path=Path(sys.argv[1]); text=path.read_text(); lines=text.splitlines()
+# latin-1 keeps every byte as is: a Japanese Nitro SDK's template has Shift-JIS comments.
+path=Path(sys.argv[1]); text=path.read_text(encoding='latin-1'); lines=text.splitlines()
 plan=json.loads((Path(__file__).with_name('nitro_link_order.json')).read_text())
 basenames={Path(x).name for x in plan['objects']}
 for sec, rows in plan['sections'].items():
@@ -35,4 +36,4 @@ def apply_finite_interleaves(lines, groups):
         lines[at:at + len(old)] = [indent + row for row in group['output']]
     return lines
 lines = apply_finite_interleaves(lines, plan.get('finite_interleaves', []))
-path.write_text('\n'.join(lines)+'\n')
+path.write_text('\n'.join(lines)+'\n', encoding='latin-1')

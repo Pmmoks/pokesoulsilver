@@ -34,5 +34,6 @@ if __name__ == '__main__':
     if len(sys.argv) != 2:
         raise SystemExit('usage: patch_os_thread_lcf.py MAIN.LCF')
     path = Path(sys.argv[1])
-    original = path.read_text()
-    path.write_text(rewrite(original))
+    # latin-1 keeps every byte as is: a Japanese Nitro SDK's template has Shift-JIS comments.
+    original = path.read_text(encoding='latin-1')
+    path.write_text(rewrite(original), encoding='latin-1')
