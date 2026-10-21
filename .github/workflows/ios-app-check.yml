@@ -1,9 +1,13 @@
 # Compiles the iOS app around ssrecomp's synthetic stand-in for the game code, to check the
 # iOS changes in ios/ssrecomp-ios.patch. No ROM, game code or save is used or produced.
-# Started by hand only (Actions tab > iOS app check > Run workflow).
+# Runs when the iOS files change on the iOS_version branch, or by hand (Actions tab > iOS app
+# check > Run workflow, once this file is on the default branch).
 name: iOS app check
 on:
   workflow_dispatch:
+  push:
+    branches: [iOS_version]
+    paths: ['ios/**', '.github/workflows/ios-app-check.yml']
 permissions:
   contents: read
 jobs:
