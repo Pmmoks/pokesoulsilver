@@ -1,0 +1,29 @@
+0	Quelle capacité apprendre à\n{STRVAR_1 1, 0, 0} ?
+1	Apprendre la capacité\n{STRVAR_1 6, 1, 0} ?
+2	Renoncer à apprendre une\nnouvelle capacité à\f{STRVAR_1 1, 0, 0} ?
+3	{STRVAR_1 1, 0, 0} a appris\n{STRVAR_1 6, 1, 0}.\r
+4	{STRVAR_1 1, 0, 0} essaie d’apprendre\n{STRVAR_1 6, 1, 0}.\rMais {STRVAR_1 1, 0, 0} ne peut pas\napprendre plus de quatre\fcapacités.\rOublier une ancienne capacité\npour apprendre {STRVAR_1 6, 1, 0} ?
+5	1, {PAUSE 20}2, et{PAUSE 20}... {PAUSE 20}... Tadaa !{WAIT 3}{WAIT 5}\r{STRVAR_1 1, 0, 0} a oublié\n{STRVAR_1 6, 1, 0}.\rEt...\r
+6	{STRVAR_1 1, 0, 0} a appris\n{STRVAR_1 6, 1, 0}.{WAIT 4}{WAIT 2}\r
+7	Arrêter d’apprendre\n{STRVAR_1 6, 1, 0} ?
+8	{STRVAR_1 1, 0, 0} n’a pas appris\n{STRVAR_1 6, 1, 0}.\r
+10	C’est {STRVAR_1 6, 0, 0} que tu\nveux faire oublier ?
+11	Quelle capacité {STRVAR_1 1, 0, 0}\ndoit-il se rappeler ?
+12	Se rappeler la capacité\n{STRVAR_1 6, 1, 0} ?
+13	Renoncer à faire se rappeler\nune capacité à {STRVAR_1 1, 0, 0} ?
+14	{STRVAR_1 1, 0, 0} s’est rappelé la\ncapacité {STRVAR_1 6, 1, 0} qu’il avait\foubliée !\r
+15	{STRVAR_1 1, 0, 0} veut se rappeler\nla capacité {STRVAR_1 6, 1, 0}.\rMais {STRVAR_1 1, 0, 0} ne peut pas\napprendre plus de quatre\fcapacités.\rOublier une capacité pour faire\nde la place à {STRVAR_1 6, 1, 0} ?
+16	1, {PAUSE 20}2, et{PAUSE 20}... {PAUSE 20}... Tadaa !{WAIT 3}{WAIT 5}\r{STRVAR_1 1, 0, 0} a oublié\n{STRVAR_1 6, 1, 0}.\rEt...\r
+17	{STRVAR_1 1, 0, 0} s’est rappelé la\ncapacité {STRVAR_1 6, 1, 0}.{WAIT 4}{WAIT 2}\r
+18	Renoncer à faire se rappeler\n{STRVAR_1 6, 1, 0} au Pokémon ?
+19	{STRVAR_1 1, 0, 0} ne s’est pas rappelé\nla capacité {STRVAR_1 6, 1, 0}.\r
+21	Faire oublier la capacité\n{STRVAR_1 6, 0, 0} à ce Pokémon ?
+22	CATÉGORIE
+23	PUISSANCE
+24	PRÉCISION
+25	PP
+34	RETOUR
+35	APPRENDRE
+36	QUELLE CAPACITÉ ?
+38	N. {STRVAR_1 52, 0, 0}
+39	CAPACITÉS APPRISES

@@ -1,0 +1,56 @@
+0	Monica : Ravie de te rencontrer. Je suis\nMonica du Lundi.\rEn gage d’amitié, j’ai un cadeau\npour toi !\r
+1	Monica : C’est un objet qui augmente\nla puissance des capacités Vol.\rTu devrais le faire tenir à un Pokémon\noiseau.
+2	Monica : Mes frères et sœurs sont\néparpillés un peu partout.\rEssaie de tous les trouver !
+3	Monica : Oh non ! On n’est pas lundi.\nÀ une autre fois !
+4	Tuscany : Permettez-moi de me\nprésenter. Je suis Tuscany du Mardi.\rEn guise de présentation, veuillez\naccepter ce cadeau : une Cuiller\fTordue.\r
+5	Tuscany : Ne la trouvez-vous pas\ntout à fait adorable ?\rElle renforce les capacités Psy.\rJe suis certaine qu’elle vous sera\nutile.
+6	Tuscany : Avez-vous rencontré Monica,\nma grande sœur ?\rOu mon petit frère, Wesley ?\rJe suis la deuxième de sept enfants.
+7	Tuscany : Mardi est passé sans que\nje m’en aperçoive...\rÀ mardi prochain...
+8	Wesley : Je suis Wesley du Mercredi.\rEnchanté. Prends donc un\nsouvenir.\r
+9	Wesley : La Ceinture Noire augmente\nla puissance des capacités Combat.
+10	Wesley : Si tu m’as trouvé, tu as dû\nrencontrer mes frères et sœurs.\rOu tu as juste eu de la chance ?
+11	Wesley : Pas possible !\nMercredi est déjà fini !\fÀ la semaine prochaine !
+12	Arthur : Qui es-tu ?\rJe suis Arthur du Jeudi.\rTiens, prends ça !\r
+13	Arthur : Si tu utilises des capacités\nRoche, donne ça à ton Pokémon.\rÇa augmente la puissance des\ncapacités Roche.
+14	Arthur : Je suis Arthur du Jeudi !\nLe deuxième fils d’une fratrie\fde sept enfants !
+15	Arthur : Pour toi, le milieu de la\nsemaine, c’est mercredi ?\fOu c’est jeudi ?\rDécide-toi, et on se revoit\njeudi prochain !
+16	Frieda : Youpi ! C’est vendredi !\rJe suis Frieda du Vendredi !\nEnchantée !\rTiens, un Pic Venin pour toi !\r
+17	Frieda : Donne-le à un Pokémon qui\nconnaît des capacités Poison.\rOh ! C’est trop fort !\rL’effet sur les capacités Poison va\nte bluffer !
+18	Frieda : Coucou ! Tu préfères quel\njour de la semaine ?\rMoi, j’adore le vendredi. Sans hésiter !\rTu ne trouves pas que c’est génial ?
+19	Frieda : Oh, on n’est pas vendredi ?\rPff... Si seulement tous les jours\nétaient des vendredis, ce serait trop\fbien !
+20	Santos : ... C’est samedi...\rJe suis Santos du Samedi...\rTiens...\r
+21	Santos : ...\rLe Sable Doux...\rLes capacités Sol deviennent plus\nfortes... Ça va te surprendre...
+22	Santos : ...\rÀ un autre samedi...
+23	Santos : Aujourd’hui, c’est samedi...\nNon... Attends... Hein ?\rÀ samedi prochain, alors...
+24	Sunny : Salut ! Je suis Sunny du\nDimanche, donc aujourd’hui, c’est\fdimanche !\rOn m’a dit de te donner ça si je te\nvoyais !\r
+25	Sunny : Ce truc...\rEuh...\r... C’était quoi déjà...\r...\rAh ! Ça me revient !\rUn Pokémon qui connaît des capacités\nÉlectrik doit le tenir.\rMa sœur Monica a dit que ça renforce\nles capacités Électrik !
+26	Sunny : Ma sœur Monica...\nMa sœur Tuscany...\fMon frère Wesley...\fMon frère Arthur...\fMa sœur Frieda...\fEt mon frère Santos.\rIls sont tous plus vieux que moi !
+27	Sunny : Hein ? On n’est pas dimanche ?\nEuh... J’ai oublié !
+28	Monica : Hé, toi !\nC’est toi qui as trouvé tous mes frères\fet sœurs ! Oui, toi !\rOn est bons amis, maintenant, tu ne\ntrouves pas ?\rComme on est si proches, je te donne\nce Ruban Vigilance !\r
+29	Monica : Ce Ruban Vigilance va super\nbien à ton Pokémon...
+30	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Vigilance !
+31	On ne peut recevoir qu’un ruban par\nsemaine...\rSi tu en veux un autre, reviens me\nvoir la semaine prochaine !
+32	Tuscany : Hé, vous !\nC’est vous qui avez trouvé tous mes\ffrères et sœurs ! Oui, vous !\rNous sommes de bons amis, à présent,\nne trouvez-vous pas ?\rPuisque nous sommes si proches, je vous\noffre ce Ruban Choc !\r
+33	Tuscany : Ce Ruban Choc va à merveille\nà votre Pokémon...
+34	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Choc !
+35	On ne peut recevoir qu’un ruban par\nsemaine...\rSi vous en voulez un autre, revenez\nme voir la semaine prochaine !
+36	Wesley : Hé, toi !\nC’est toi qui as trouvé tous mes frères\fet sœurs ! Oui, toi !\rOn est bons amis, maintenant, tu ne\ntrouves pas ?\rComme on est si proches, je te donne\nce Ruban Abattement !\r
+37	Wesley : Ce Ruban Abattement va super\nbien à ton Pokémon...
+38	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Abattement !
+39	On ne peut recevoir qu’un ruban par\nsemaine...\rSi tu en veux un autre, reviens me\nvoir la semaine prochaine !
+40	Arthur : Hé, tu as trouvé tous mes\nfrères et sœurs, pas vrai ?\rOn est bons amis, maintenant, tu ne\ntrouves pas ?\rComme on est si proches, je te donne\nce Ruban Étourderie !\r
+41	Arthur : Ce Ruban Étourderie va super\nbien à ton Pokémon...
+42	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Étourderie !
+43	On ne peut recevoir qu’un ruban par\nsemaine...\rSi tu en veux un autre, reviens me\nvoir la semaine prochaine !
+44	Frieda : Hé, c’est toi qui as trouvé\ntous mes frères et sœurs, non ?\rOn est bons amis, maintenant, tu ne\ntrouves pas ?\rComme on est si proches, je te donne\nce Ruban Détente !\r
+45	Frieda : Ce Ruban Détente va super bien\nà ton Pokémon...
+46	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Détente !
+47	On ne peut recevoir qu’un ruban par\nsemaine...\rSi tu en veux un autre, reviens me\nvoir la semaine prochaine !
+48	Santos : ... Tu as trouvé tous mes\nfrères et sœurs...\rOn est bons amis...\n... Pas vrai ?\rTiens... Prends ce Ruban Somme...\r
+49	Santos : Ce Ruban Somme va super bien\nà ton Pokémon...
+50	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Somme !
+51	On ne peut recevoir qu’un ruban par\nsemaine...\rSi tu en veux un autre, reviens me\nvoir la semaine prochaine !
+52	Sunny : Hé, tu as trouvé tous mes\nfrères et sœurs !\rOn est bons amis, maintenant, hein ?\rComme on est si proches, je te donne\nce Ruban Sourire !\r
+53	Sunny : Ce Ruban Sourire va super bien\nà ton Pokémon...
+54	{STRVAR_1 0, 0, 0} porte maintenant le\nRuban Sourire !
+55	On ne peut recevoir qu’un ruban par\nsemaine...\rSi tu en veux un autre, reviens me\nvoir la semaine prochaine !

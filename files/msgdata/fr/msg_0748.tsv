@@ -1,0 +1,41 @@
+0	{STRVAR_1 6, 0, 0}{CURSOR_X 120}{STRVAR_1 51, 1, 0} PCo
+1	{STRVAR_1 6, 0, 0}\n           {STRVAR_1 51, 1, 0} PCo
+2	SUITE
+3	QUITTER
+4	Si tu es devenu un peu fanatique de\ncombats, je suis celui qui peut\fapprendre toutes sortes de capacités\fà tes Pokémon.\rJe peux apprendre des capacités à\ntes Pokémon contre des PCo ? {YESNO 0}
+5	Oh, pas de chance ! Je ne peux\napprendre aucune capacité à ce\fPokémon !\r
+6	Oh, quel malheur !\nTu n’as pas assez de PCo !\r
+7	Tu renonces à apprendre une\ncapacité à {STRVAR_1 0, 0, 0} !\fC’est bien ce que tu veux ? {YESNO 0}
+8	{STRVAR_1 0, 0, 0} veut apprendre la capacité\n{STRVAR_1 6, 1, 0}...\rMais {STRVAR_1 0, 0, 0} connaît déjà quatre\ncapacités, alors c’est impossible !\rOublier une capacité pour apprendre\n{STRVAR_1 6, 1, 0} ?{YESNO 0}
+9	{STRVAR_1 6, 2, 0} va être oubliée.\nC’est d’accord ? {YESNO 0}
+10	Alors tu renonces à\n{STRVAR_1 6, 1, 0}, c’est bien ça ? {YESNO 0}
+11	{STRVAR_1 0, 0, 0} a renoncé à apprendre\n{STRVAR_1 6, 1, 0} !\r
+12	1, {PAUSE 20}2, et{PAUSE 20}... {PAUSE 20}... Tadaa !
+13	{STRVAR_1 0, 0, 0} a oublié comment\nutiliser {STRVAR_1 6, 1, 0}.\rEt...\r
+14	{STRVAR_1 0, 0, 0} a appris à utiliser\n{STRVAR_1 6, 1, 0}. Waouh !\r
+15	Bon, eh bien !\nÀ la prochaine !
+16	Si tu as consacré ta vie aux combats\nPokémon, je suis celui qui peut\fapprendre toutes sortes de capacités\fà tes Pokémon.\rJe peux apprendre des capacités à\ntes Pokémon contre des PCo ? {YESNO 0}
+17	Oh non !\nJe ne peux apprendre aucune\fcapacité à ce Pokémon !\r
+18	Oh non !\nTu n’as pas assez de PCo !\r
+19	Arrêter d’apprendre de nouvelles\ncapacités à {STRVAR_1 0, 0, 0} ? {YESNO 0}
+20	{STRVAR_1 0, 0, 0} veut apprendre la capacité\n{STRVAR_1 6, 1, 0}...\rMais {STRVAR_1 0, 0, 0} connaît déjà quatre\ncapacités !\rOublier une capacité pour apprendre\n{STRVAR_1 6, 1, 0} ?{YESNO 0}
+21	Oublier {STRVAR_1 6, 2, 0}, c’est bien\nça ? {YESNO 0}
+22	Alors tu renonces à\n{STRVAR_1 6, 1, 0}, c’est bien ça ? {YESNO 0}
+23	{STRVAR_1 0, 0, 0} a renoncé à apprendre\n{STRVAR_1 6, 1, 0} !\r
+24	1, {PAUSE 20}2, et{PAUSE 20}... {PAUSE 20}... Tadaa !
+25	{STRVAR_1 0, 0, 0} a oublié comment\nutiliser {STRVAR_1 6, 1, 0}.\rEt...\r
+26	{STRVAR_1 0, 0, 0} a appris à utiliser\n{STRVAR_1 6, 1, 0}. Super !\r
+27	Bon, eh bien ! À la prochaine !
+28	Si tu as mis tout ton cœur et ton âme\ndans les combats Pokémon, je suis celui\fqui peut apprendre toutes sortes de\fcapacités à tes Pokémon.\rJe peux apprendre des capacités à\ntes Pokémon contre des PCo ? {YESNO 0}
+29	Oh... Je ne peux apprendre aucune\ncapacité à ce Pokémon !\r
+30	Quelle tristesse...\nTu n’as pas assez de PCo !\r
+31	Tu renonces à apprendre une\ncapacité à {STRVAR_1 0, 0, 0}, c’est ça ? {YESNO 0}
+32	{STRVAR_1 0, 0, 0} veut apprendre la capacité\n{STRVAR_1 6, 1, 0}...\rMais {STRVAR_1 0, 0, 0} connaît déjà quatre\ncapacités !\rOublier une capacité pour apprendre\n{STRVAR_1 6, 1, 0} ? {YESNO 0}
+33	{STRVAR_1 6, 2, 0} va être oubliée.\nC’est bien ça ? {YESNO 0}
+34	Alors tu renonces à\n{STRVAR_1 6, 1, 0}, c’est ça ? {YESNO 0}
+35	{STRVAR_1 0, 0, 0} a renoncé à apprendre\n{STRVAR_1 6, 1, 0} !\r
+36	1, {PAUSE 20}2, et{PAUSE 20}... {PAUSE 20}... Tadaa !
+37	{STRVAR_1 0, 0, 0} a oublié comment\nutiliser {STRVAR_1 6, 1, 0}.\rEt...\r
+38	{STRVAR_1 0, 0, 0} a appris à utiliser\n{STRVAR_1 6, 1, 0} !\r
+39	À la prochaine !\nReviens quand tu auras des\fPoints Combat à dépenser !
+40	Comment diable apprendre quelque\nchose à un Œuf...

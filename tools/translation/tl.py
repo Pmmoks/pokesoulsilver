@@ -56,6 +56,7 @@ WIDTH_OVERRIDES = {
     'msg_0720': 88, 'msg_0721': 88,  # abilities
     # Trainer classes: the Pokegear phone list leaves 122 px for them, the rest is sentences.
     'msg_0730': 80, 'msg_0731': 100,
+    'msg_0719': 240,  # "TOUCH TO START": centred in a 32-tile window
 }
 
 # The Pokegear radio's scripts: the show prints them a line at a time and scrolls, so they
@@ -96,6 +97,7 @@ NAME_LIMITS = {
     'msg_0731': 32,  # trainer classes with an article: read into MessageFormat's buffer
     # Trainer texts: the battle copies them into its message buffer (String_New(320), battle_main.c).
     'msg_0723': 320, 'msg_0724': 320, 'msg_0728': 320,
+    'msg_0719': 64,  # "TOUCH TO START" (title_screen.c)
 }
 
 
