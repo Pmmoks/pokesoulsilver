@@ -1,0 +1,41 @@
+0	Irwin
+1	Tu es le meilleur adversaire que j’aie\njamais affronté !\rHein ? C’est toi qui as sauvé tous les\nRAMOLOSS ?\rAlors pas étonnant que je n’aie pas pu\nte battre ! Je peux avoir ton numéro ?\rJe ne veux rien manquer de ce que tu\nferas à partir de maintenant ! {YESNO 0}
+2	Waouh ! Merci !\rMaintenant, je peux t’appeler quand je\nveux, qu’il se passe quelque chose ou\fpas.\rJuste pour discuter, quoi !
+3	Oh, mais... Je ne suis pas dangereux !\rJe veux juste t’appeler pour parler de\ntout et de rien !
+4	Tu vas me donner ton numéro ?{YESNO 0}
+5	Hein ? Attends, tu n’es pas tout près ?
+6	{STRVAR_1 3, 0, 0}, tu as entendu ?\rLa Tour Radio de Doublonville a été\nprise par la Team Rocket !\r... Euh... C’est quoi, la Team Rocket ?
+7	{STRVAR_1 3, 0, 0}, tu as entendu ?\rLa Tour Radio de Doublonville a été\nprise par la Team Rocket !\r... Euh... C’est quoi, la Team Rocket ?
+8	{STRVAR_1 3, 0, 0}, j’ai appris ! Tu as battu\nBlanche ?\rJe suis fier d’être ton ami ! Je te\nrappelle !
+9	{STRVAR_1 3, 0, 0}, j’ai appris ! Tu as battu\nBlanche ?\rJe suis fier d’être ton ami ! Je te\nrappelle !
+10	Je l’ai vu, je l’ai entendu !\rTu as battu Mortimer de l’Arène de\nRosalia ! C-c’est tout simplement\fincroyable !\rEn fait, je suis allé à l’entrée de\nl’Arène pour t’encourager.\rTu le savais ? Mais tout le monde avait\ndes bougies sur la tête, c’était un peu\fflippant...\rAlors je me suis dégonflé et je suis\nrentré chez moi...\rJe te rappelle !
+11	Je l’ai vu, je l’ai entendu !\rTu as battu Mortimer de l’Arène de\nRosalia ! C-c’est tout simplement\fincroyable !\rEn fait, je suis allé à l’entrée de\nl’Arène pour t’encourager.\rTu le savais ? Mais tout le monde avait\ndes bougies sur la tête, c’était un peu\fflippant...\rAlors je me suis dégonflé et je suis\nrentré chez moi...\rJe te rappelle !
+12	Dis, on m’a parlé de toi !\rTu as sauvé ce Pokémon au Phare,\nn’est-ce pas ?\r{STRVAR_1 3, 0, 0}, j’aimerais que tu viennes\nme voir quand je suis au lit avec un\frhume !\rJe te rappelle !
+13	Dis, on m’a parlé de toi !\rTu as sauvé ce Pokémon au Phare,\nn’est-ce pas ?\r{STRVAR_1 3, 0, 0}, j’aimerais que tu viennes\nme voir quand je suis au lit avec un\frhume !\rJe te rappelle !
+14	J’ai appris, j’ai appris, j’ai appris !\rTu as démoli la planque de la Team\nRocket ! Tu es comme un héros de film !\rMais, euh... C’était quoi, la Team\nRocket ?\rJe ne suis vraiment pas dans le coup,\nhein ?
+15	J’ai appris, j’ai appris, j’ai appris !\rTu as démoli la planque de la Team\nRocket ! Tu es comme une héroïne de\ffilm !\rMais, euh... C’était quoi, la Team\nRocket ?\rJe ne suis vraiment pas dans le coup,\nhein ?
+16	J’ai appris, j’ai appris, j’ai appris !\rTu as héroïquement libéré la Tour\nRadio ! Tu es trop fort !\rJe voulais juste être sûr que tu saches\nà quel point tu es génial !\rJe te rappelle !
+17	J’ai appris, j’ai appris, j’ai appris !\rTu as héroïquement libéré la Tour\nRadio ! Tu es trop forte !\rJe voulais juste être sûr que tu saches\nà quel point tu es géniale !\rJe te rappelle !
+18	Je t’ai vu, je t’ai vu, je t’ai vu,\n{STRVAR_1 3, 0, 0} ! Je t’ai vu entrer dans\fl’Antre du Dragon !\rJe suis sûr que tu as réussi ! Oh, pas\nbesoin d’être modeste ! Tu ne peux pas\féchouer !\rJe te rappelle !
+19	Je t’ai vue, je t’ai vue, je t’ai vue,\n{STRVAR_1 3, 0, 0} ! Je t’ai vue entrer dans\fl’Antre du Dragon !\rJe suis sûr que tu as réussi ! Oh, pas\nbesoin d’être modeste ! Tu ne peux pas\féchouer !\rJe te rappelle !
+20	Hier, je suis allé à Bourg Geon. Il y\navait une dame qui te ressemblait\fbeaucoup, {STRVAR_1 3, 0, 0}.\rQuoi ? Cette dame était ta mère ? Oh,\nj’aurais dû me présenter !\rJe parie que ta mère est très fière de\ntout ce que tu as accompli.\rJe te rappelle !
+21	Hier, je suis allé à Bourg Geon. Il y\navait une dame qui te ressemblait\fbeaucoup, {STRVAR_1 3, 0, 0}.\rQuoi ? Cette dame était ta mère ? Oh,\nj’aurais dû me présenter !\rJe parie que ta mère est très fière de\ntout ce que tu as accompli.\rJe te rappelle !
+22	Je t’ai vu, je t’ai vu, je t’ai vu !\rTu montais à bord d’un bateau,\n{STRVAR_1 3, 0, 0} !\rJe n’en reviens pas de ton allure avec\nla mer en arrière-plan !\rÇa m’embête de devoir raccrocher ! Je\nte rappelle !
+23	Je t’ai vue, je t’ai vue, je t’ai vue !\rTu montais à bord d’un bateau,\n{STRVAR_1 3, 0, 0} !\rJe n’en reviens pas de ton allure avec\nla mer en arrière-plan !\rÇa m’embête de devoir raccrocher ! Je\nte rappelle !
+24	J’ai appris, j’ai appris !\rTu as eu un Passe Train Magnétique !\rQuand je t’ai vu partir en bateau,\nj’étais triste de ne pas pouvoir te voir\fpendant un moment.\rMais avec ce Passe, tu peux revenir\nquand tu veux ! Ça me rassure !\rQuoi ? Tu peux revenir en Vol quand tu\nveux ?\rComment ça, en Vol ?\rJe te rappelle !
+25	J’ai appris, j’ai appris !\rTu as eu un Passe Train Magnétique !\rQuand je t’ai vue partir en bateau,\nj’étais triste de ne pas pouvoir te voir\fpendant un moment.\rMais avec ce Passe, tu peux revenir\nquand tu veux ! Ça me rassure !\rQuoi ? Tu peux revenir en Vol quand tu\nveux ?\rComment ça, en Vol ?\rJe te rappelle !
+26	Je l’ai vu, je l’ai vu !\rTu as réveillé RONFLEX !\rJe regardais de loin, alors je n’ai pas\nbien vu ce que tu as fait.\rTu as joué de la flûte pour le\nréveiller ?\rWaouh ! C’est comme de la magie ! Je te\nrappelle !
+27	Je l’ai vu, je l’ai vu !\rTu as réveillé RONFLEX !\rJe regardais de loin, alors je n’ai pas\nbien vu ce que tu as fait.\rTu as joué de la flûte pour le\nréveiller ?\rWaouh ! C’est comme de la magie ! Je te\nrappelle !
+28	{STRVAR_1 3, 0, 0}, j’ai appris !\rTu fais un sacré raffut à Kanto !\rQuelle glorieuse épopée ça doit être !\nTu es trop fort !\rJe te rappelle !
+29	{STRVAR_1 3, 0, 0}, j’ai appris !\rTu fais un sacré raffut à Kanto !\rQuelle glorieuse épopée ça doit être !\nTu es trop forte !\rJe te rappelle !
+30	J’entends parler de toi partout.\rÇa me fait soupirer, {STRVAR_1 3, 0, 0}.\nComment es-tu devenu si fort ?\rVise le titre de champion du monde\nmaintenant ! Je t’encouragerai\ftoujours !\rJe te rappelle ! ... D’accord ?
+31	J’entends parler de toi partout.\rÇa me fait soupirer, {STRVAR_1 3, 0, 0}.\nComment es-tu devenue si forte ?\rVise le titre de championne du monde\nmaintenant ! Je t’encouragerai\ftoujours !\rJe te rappelle ! ... D’accord ?
+32	J’ai toujours hâte de voir ce que tu\nferas ensuite, {STRVAR_1 3, 0, 0} !
+33	J’ai toujours hâte de voir ce que tu\nferas ensuite, {STRVAR_1 3, 0, 0} !
+34	Entendre parler de tes exploits, ça me\nremue l’âme ! C’est sûr !
+35	Entendre parler de tes exploits, ça me\nremue l’âme ! C’est sûr !
+36	Tu sais, chaque fois que je repense à\ntes exploits, {STRVAR_1 3, 0, 0}, je suis\fprofondément ému !
+37	Tu sais, chaque fois que je repense à\ntes exploits, {STRVAR_1 3, 0, 0}, je suis\fprofondément ému !
+38	Entendre parler de tes exploits, ça me\nremue l’âme ! C’est sûr !
+39	Je suis si content que tu appelles !\rJ’allais justement t’appeler aussi ! On\ndoit être faits pour s’entendre !
+40	Comment vas-tu ?\rQu’est-ce que tu fais ?\rOù es-tu ?\rCombien de Badges as-tu maintenant ?\rCombien d’argent as-tu économisé ?\rComment va ta mère ?\rTu as plein de Pokémon ?\rIl va faire beau demain ?\rAaargh, j’ai tellement de choses à te\ndire ! Ça ne mène nulle part !

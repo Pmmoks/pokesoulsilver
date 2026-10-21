@@ -1,0 +1,15 @@
+0	Doug
+1	On devrait échanger nos numéros, comme\nça je pourrai t’en apprendre plus sur\fles mérites des Pokémon Insecte !{YESNO 0}
+2	Et comment ! Merci ! Je t’appellerai un\nde ces jours !
+3	Ne dis pas des choses si tristes...
+4	Oh, finalement, tu veux échanger nos\nnuméros ? {YESNO 0}
+5	Oh, te voilà !\rJe voulais te donner une Baie, alors je\nt’attendais ici !\rTiens !\r
+6	Attends, quoi ?\rSi tu es tout près, pas besoin du\ntéléphone. Viens me parler en\fpersonne !
+7	Mon {STRVAR_1 0, 10, 0} grandit bien, si je puis\ndire !\rTiens, lors d’un combat récent contre\nun {STRVAR_1 0, 11, 0}, il l’a mis K.O. avant que\fj’aie le temps de cligner des yeux !\rAvant même que je cligne des yeux !\nIncroyable, hein ?
+8	Argh, j’abandonne ! Mon {STRVAR_1 0, 10, 0} est\ndevenu plutôt fort, tu sais.\rJe me disais qu’il devrait facilement\nmettre K.O. un {STRVAR_1 0, 11, 0}...\rMais en le regardant bien, on a vu qu’il\nétait de très haut niveau... On s’est\ffait battre à plate couture...
+9	Tu sais, tout à l’heure au bord de la\nroute, ce {STRVAR_1 0, 11, 0} m’a sauté\fdessus !\rJ’adore les Pokémon, mais... bam ! Il\nm’a vraiment fait sursauter !\rSi on saute sur quelqu’un, on pourrait\nau moins avoir la politesse de se\fprésenter d’abord !
+10	Tu sais, j’aimerais vraiment m’asseoir\npour parler avec toi des vertus des\fPokémon Insecte !\rQu’en dis-tu ? Je suis sur {STRVAR_1 4, 3, 0}.\nEt si tu venais pour un combat ?
+11	Faisons un combat. Ça fait longtemps !\nJe suis sur {STRVAR_1 4, 3, 0}... N’oublie pas !
+12	Tu sais, mon père était chercheur, il\nétudiait les Pokémon Insecte.\rDepuis tout petit, il y a toujours eu\ndes Pokémon Insecte partout dans la\fmaison.\rC’est pour ça que je me suis mis à tant\naimer les Pokémon Insecte.\rMa mère... Bon, elle criait beaucoup.
+13	J’ai trouvé des Baies. J’en ai déjà plus\nqu’il ne m’en faut, alors je t’en\fdonne !\rJe suis sur {STRVAR_1 4, 3, 0}. Viens les\nchercher !
+14	Tu veux des Baies, hein ?\rJe t’en donne si tu viens me voir sur\n{STRVAR_1 4, 3, 0} !

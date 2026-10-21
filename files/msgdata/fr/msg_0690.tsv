@@ -1,0 +1,12 @@
+0	Beverly
+1	Ton Pokémon est trop mignon et\nadorable ! Tu aimes les Pokémon\fautant que moi !\rOn échange nos numéros ? On pourra\ndiscuter ! Ce sera trop amusant !{YESNO 0}
+2	Pour être honnête, je voudrais un\nMARILL. Mais je me contente de mon\fmignon SNUBBULL.\rOh ! Je plaisante ! Je plaisante,\nSNUBBULL ! Tu es le Pokémon le plus\fmignon du monde, vraiment !
+3	Oh... C’est décevant...
+4	Tu as des Pokémon si mignons et\nadorables avec toi !\rOn devrait vraiment échanger nos\nnuméros, tu ne crois pas ?{YESNO 0}
+5	Oh, désolée de t’avoir fait attendre,\n{STRVAR_1 3, 0, 0}. Tiens, je te donne ceci.\r
+6	Voyons... Tu es au Parc Naturel,\nn’est-ce pas ?\rEh bien, tu devrais venir me parler en\npersonne, tu ne crois pas ?
+7	J’ai bichonné mon {STRVAR_1 0, 10, 0} et je l’ai\nrendu encore plus mignon qu’avant !\rJ’ai croisé un SNUBBULL sauvage\nrécemment.\rMon SNUBBULL, je te l’assure, était\nbien plus mignon que le sauvage.\rJe t’appellerai, compte sur moi.
+8	J’ai bichonné mon {STRVAR_1 0, 10, 0} et je l’ai\nrendu encore plus mignon qu’avant !\rL’autre jour, j’ai cru voir un MARILL\nsauvage.\rEn regardant de plus près, c’était un\n{STRVAR_1 0, 11, 0}. J’étais plutôt vexée.\rJe t’appellerai, compte sur moi.
+9	Mon mari a reçu des Pépites.\rSi tu veux, tu peux en avoir une pour\nme remercier de ton aide.\rJe serai à {STRVAR_1 4, 3, 0}. Viens me voir\nquand tu peux.
+10	Pardon ? Oh, la Pépite ?\rCe n’est rien ! Pas besoin de te\npresser. Viens me voir à {STRVAR_1 4, 3, 0}\fquand tu peux.
+11	Tes Pokémon sont en pleine forme ?\nReparlons de Pokémon.

@@ -1,0 +1,14 @@
+0	Tully
+1	Dis, toi aussi, tu vises le sommet ?\nAlors on est camarades !\rSi je trouve d’autres objets au bord\nde l’eau, je t’en donnerai.\rDonne-moi juste ton numéro. {YESNO 0}
+2	Tu auras de mes nouvelles si je trouve\nquelque chose de bien.
+3	Ah bon ? Alors je les utiliserai\nmoi-même.
+4	Si je trouve d’autres objets au bord\nde l’eau, je t’en donnerai.\rDonne-moi juste ton numéro.{YESNO 0}
+5	Ah, te voilà ! Voici un cadeau, comme\npromis !\r
+6	Dis, si tu es tout près, viens discuter\navec moi en personne !
+7	Mon {STRVAR_1 0, 10, 0} a encore grandi.\rIl était grand comme ça quand je l’ai\nattrapé, mais maintenant il est bien\fplus grand.\rAh oui, j’ai mis K.O. un {STRVAR_1 0, 11, 0}\nsauvage. Il était énorme... grand\fcomme ÇA, même.\rHé, j’imagine que tu ne peux pas voir\nau téléphone...\rBon, à la prochaine.
+8	Mon {STRVAR_1 0, 10, 0} a encore grandi.\rIl était grand comme ça quand je l’ai\nattrapé, mais maintenant il est bien\fplus grand.\rAh oui, un {STRVAR_1 0, 11, 0} sauvage m’a\néchappé. Il était énorme... grand\fcomme ÇA, même.\rHé, j’imagine que tu ne peux pas voir\nau téléphone...\rBon, à la prochaine.
+9	On devrait faire un combat !\rJe pêcherai sur {STRVAR_1 4, 3, 0}. Passe si\ntu as le temps.
+10	Quoi ? Tu ne trouves pas ou quoi ?\nNotre combat, c’est sur {STRVAR_1 4, 3, 0} !
+11	Si j’ai trouvé quelque chose de bien ?\nNon, pas encore.\rC’est comme la pêche, il faut de la\npatience.
+12	J’ai ramassé un petit truc sympa au\nbord de l’eau. Comme promis, il est à\ftoi. Je t’attendrai sur {STRVAR_1 4, 3, 0}.
+13	J’ai quelque chose de bien pour toi.\nDépêche-toi de venir sur {STRVAR_1 4, 3, 0}.

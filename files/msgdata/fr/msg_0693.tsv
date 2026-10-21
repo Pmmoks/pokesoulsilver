@@ -1,0 +1,14 @@
+0	Derek
+1	Dis, soyons amis ! Je pense que\nquelqu’un qui aime les Pokémon ne peut\fpas être méchant.\rParlons de PIKACHU, de RAMOLOSS, de\nTENTACRUEL et de toutes sortes\fd’autres Pokémon. Ce sera amusant !\fQu’en dis-tu ?\rJe peux avoir ton numéro ?{YESNO 0}
+2	Bien sûr ! S’il y a du nouveau côté\nPokémon, je t’appelle !
+3	Toi... Je parie que tu n’aimes même pas\nles Pokémon...
+4	Parlons de Pokémon ! Je peux avoir ton\nnuméro ?{YESNO 0}
+5	Je te cherchais ! Tiens, tu vois ça ?\nC’est ça !\rJe suis sûr que tes Pokémon vont\nadorer mon cadeau, eux aussi !\r
+6	Quoi ? Attends, tu es près de moi,\nhein ?\rJe le sens.\rComment ? Parce que tu dégages une\naura d’affection pour les Pokémon !\rSi tu es tout près, viens donc me\nparler de Pokémon en personne !
+7	Dis, écoute ça. Mon {STRVAR_1 0, 10, 0} fait un\ngrand sourire quand je lui pince la\fjoue.\rMais il ne sourit jamais comme ça pour\nquelqu’un d’autre. Je dois être\fspécial.\rOh, et à l’instant, mon PIKACHU a\nbattu un {STRVAR_1 0, 11, 0} sauvage ! Un\f{STRVAR_1 0, 11, 0} sauvage, je te dis !\rOuais, incroyable, hein ?\rMon PIKACHU est génial !\rMon PIKACHU est le meilleur ! À plus.
+8	Dis, écoute ça. Mon {STRVAR_1 0, 10, 0} fait un\ngrand sourire quand je lui pince la\fjoue.\rMais il ne sourit jamais comme ça pour\nquelqu’un d’autre. Je dois être\fspécial.\rOh, et j’ai vu un {STRVAR_1 0, 11, 0} sauvage il\ny a peu. Mais il n’était pas très\fmignon, alors je l’ai laissé...\rLes Pokémon doivent être mignons.\nSinon, ils ne valent rien.\rÀ plus.
+9	Comment vont tes Pokémon ?\rRetrouvons-nous pour nous vanter de\nnos Pokémon !
+10	J’aimerais te donner une Pépite.\rMon PIKACHU l’adore.\rJe suis sûr que tes Pokémon vont\nl’adorer aussi !
+11	Qu’est-ce qui se passe ? Je t’attends\nsur {STRVAR_1 4, 3, 0}. Viens la chercher\fquand tu veux.
+12	Tu t’en souviens ? Le Concours de\nCapture d’Insectes, c’est\faujourd’hui.\rTu vas y aller, hein ?\rJe crois que je vais participer avec\nPIKACHU pour montrer à quel point il\fest mignon.
+13	Le Concours de Capture d’Insectes a\nlieu au Parc Naturel aujourd’hui.\rTu y vas, {STRVAR_1 3, 0, 0} ? Moi, j’hésite\nencore.
