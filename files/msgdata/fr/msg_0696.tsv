@@ -1,0 +1,12 @@
+1	Tu as vraiment du talent. Mais je ne\nveux pas partir la queue basse...\rJe sais ! Tu me donnes ton numéro ?\nOn se reverra pour d’autres combats !{YESNO 0}
+2	N’oublie pas de venir me voir\nquand je te défierai !
+3	Avoir un ami Ornithologue, ce n’est pas\nsi mal, je trouve...\rTu ne veux pas y repenser ?
+4	Je veux affronter des Dresseurs\ncoriaces aussi souvent que possible !\rTu me donnes ton numéro ?\nOn se reverra pour d’autres combats !{YESNO 0}
+5	Quelle force, vraiment, vraiment !\rMerci de m’avoir affronté si souvent.\nJ’ai énormément appris grâce à toi.\rJe sais ! Voilà pour te remercier !\r
+6	Tu es tout près, non ?\rPourquoi ne pas venir me parler en\nface ?
+7	Mon {STRVAR_1 0, 10, 0} est devenu plus fort.\nOn a décollé !\rOn bat facilement les {STRVAR_1 0, 11, 0} !\r... Hein ? Toi aussi ? Génial, non ?\nOn en reparle plus tard !
+8	Mon {STRVAR_1 0, 10, 0} est devenu plus fort.\nOn a décollé !\rMais écoute ça : un {STRVAR_1 0, 11, 0} sauvage\nnous a échappé de justesse.\fJ’ai voulu le poursuivre en volant...\rOn en reparle plus tard !
+9	Là, je suis sur {STRVAR_1 4, 3, 0}.\nTu sais, là où on s’est rencontrés ?\rUn combat ? Je t’attends ici.
+10	Oh, {STRVAR_1 3, 0, 0} !\nVite, vite !\r{STRVAR_1 4, 3, 0} ! Viens vite à tire-d’aile !
+11	Oh, {STRVAR_1 3, 0, 0} !\nVite, vite !\r{STRVAR_1 4, 3, 0} ! Viens vite à tire-d’aile !
+12	J’ai hâte de faire notre\nprochain combat !

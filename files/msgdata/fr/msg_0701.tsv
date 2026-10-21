@@ -1,0 +1,14 @@
+1	Je n’étais pas au mieux de ma forme\naujourd’hui, c’est tout !\rOn devrait échanger nos numéros,\ncomme ça on pourra se refaire un\fcombat ! {YESNO 0}
+2	La prochaine fois qu’on se verra, je\nserai bien plus fort, promis !
+3	Tu gagnes et tu te tires, c’est ça ?\nC’est plutôt minable !
+4	Je n’étais pas au mieux de ma forme\naujourd’hui, c’est tout !\rOn devrait échanger nos numéros,\ncomme ça on pourra se refaire un\fcombat ! {YESNO 0}
+5	Tu viens chercher une Pierre Nuit ?\nLa voilà...\rNe sois pas timide ! Ça devient\ngênant, alors prends-la, c’est tout !\r
+6	Hé, dis donc...\nJe te fais vraiment si peur que ça ?\rTu sais que je sais que tu es sur la\nPiste Cyclable, hein ?\rTant qu’à venir jusqu’ici, autant\nme parler en face !
+7	Bwa ha ha ha !\nMon {STRVAR_1 0, 10, 0} est devenu tellement\fplus fort. Tu n’en reviendrais pas\fsi tu le voyais !\rRécemment, on affrontait un\n{STRVAR_1 0, 11, 0} et on l’a mis K.O. --\fBOUM ! Comme ça !\rPlus rien ne nous fait peur... tant\nque leur niveau est assez bas !
+8	Mon {STRVAR_1 0, 10, 0} est devenu bien plus\nfort, mais on a quand même laissé\ffiler un {STRVAR_1 0, 11, 0} sauvage\fqu’on affrontait !\rQuoi, tu crois qu’il nous a échappé ?\nPas du tout ! On l’a LAISSÉ filer !
+9	Récemment, on a trouvé un {STRVAR_1 0, 11, 0}\nsauvage au bord de la route !\rIl a bondi d’un coup et m’a tellement\nsurpris que je suis tombé !\rSi je me suis fait mal ?\rNon, j’ai atterri sur mon Pokémon,\net il a amorti ma chute !
+10	Waouh... Je n’en reviens pas d’être\naussi balèze.\rJe vais montrer mes capacités sur\n{STRVAR_1 4, 3, 0}, alors viens te faire\fécraser ! Je t’attends pour te\fmontrer !
+11	C’est quoi, ce délire ?!\nTu n’avais pas dit que tu viendrais\fici prendre une leçon ?!\rAllez ! Je t’attends sur\n{STRVAR_1 4, 3, 0}, alors grouille !
+12	Depuis que ma bande de Motards est\nsur la Piste Cyclable, l’ambiance a\ftourné au vinaigre...\rC’est du moins ce que certains\nracontent.\rPourtant, on ne fait de mal\nà personne !\rOn se contente de défier les\nDresseurs forts en combat Pokémon,\fc’est tout !\rDes gens comme toi, par exemple !
+13	Je roulais en pleine nuit, et j’ai\ntrouvé un truc appelé\fPierre Nuit !\rTu as l’air de quelqu’un de très\nprometteur, alors je veux te la\fdonner.\rSi tu la veux, je t’attends sur\n{STRVAR_1 4, 3, 0}.
+14	Tu sais, j’ai eu du mal à te garder\ncette Pierre Nuit, et tu n’en veux\fmême pas !\rJe suis sur {STRVAR_1 4, 3, 0}, alors viens\nquand tu veux. Non... Viens tout de\fsuite !

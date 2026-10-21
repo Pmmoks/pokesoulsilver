@@ -1,0 +1,11 @@
+1	Pour ne pas oublier à quel point c’est\ngénial de t’affronter, si on\féchangeait nos numéros ? {YESNO 0}
+2	Super ! Comme ça, je ne t’oublierai\njamais !
+3	Je vois...\nDommage...
+4	Oh ! Tu as changé d’avis pour\nl’échange de numéros, on dirait !{YESNO 0}
+5	Hm ? Attends, je devine. Tu es tout\nprès, pas vrai ?\rSi tu veux me parler, pourquoi ne pas\nle faire en face ?
+6	Mon {STRVAR_1 0, 10, 0} travaille très dur !\rFin du rapport !
+7	Tu sais... Hier, on a battu un\n{STRVAR_1 0, 11, 0} !\rFin du rapport !
+8	Oh non... Il y a un instant, un\n{STRVAR_1 0, 11, 0} s’est échappé...\rFin du rapport !
+9	Tu te souviens ?\rLe moment de notre premier combat !\rJe veux t’affronter à nouveau, pour\nrevivre ce moment intense !\rJe t’attends sur {STRVAR_1 4, 3, 0}.
+10	Tu te souviens ?\nOn avait prévu un combat !\rJe t’attends sur\n{STRVAR_1 4, 3, 0}, alors dépêche-toi !
+11	Alors, enfin...\nTu as enfin décidé d’apprendre auprès\fdu meilleur des pêcheurs.\rTrès bien.\nJe vais t’apprendre.\rPour commencer...\nRegarde la surface de l’eau.\fInspire profondément.\fTiens ta canne et ne bouge plus.\fVise un point en silence.\fEt, FIOUUU-OUUU ! Lance ta ligne !\rQuand tu lances, tiens bien ta canne,\nsinon elle partira avec la ligne.\fAccroche-toi bien !\rL’hameçon et la ligne vont couler\ndans l’eau, et tu attends comme ça,\fsans bouger.\rBon, si ton nez te gratte,\nje suppose que tu peux bouger un peu.\rEt là, TCHOC ! Ça mord !\nTu TIRES sur la ligne et tu la sors\fde l’eau !\rCompris ? TCHOC et TIRE !\nSi tu TIRES sans TCHOC,\ftu auras l’air bête à ne rien\fremonter ! Bon, ce n’est pas toujours\fun TCHOC, ça peut être un BLOUP ou un\fPLOUCH, ou un BLOUCH, ou même un\fSPLOUCH-SPLOUCH...\f... Hein ? Je crois qu’on va être cou...\fpés... Tu... m’entends... Allô... ? Al...

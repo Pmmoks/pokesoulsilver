@@ -1,0 +1,11 @@
+1	Alors, et si on échangeait nos\nnuméros ?{YESNO 0}
+2	Appelle-nous si quelque chose te vient\nà l’esprit !
+3	Ah, d’accord. Dommage...
+4	Tu as décidé d’échanger nos\nnuméros ? {YESNO 0}
+5	Hein ? Tu appelles d’où ?\rSi tu es tout près, autant venir\nnous parler en face, non ?
+6	C’est Sue !\rComment ça va depuis la dernière fois ?\fTu entraînes bien tes Pokémon ?\nNous, ça va super bien !\r{STRVAR_1 0, 10, 0} travaille dur.\rToi aussi, tu as un bon Pokémon. Avec\nle temps, tu verras, il deviendra\fun partenaire sensationnel ! Hi hi !
+7	C’est Sue !\rComment ça va depuis la dernière fois ?\nTes Pokémon gagnent leurs combats ?\rNous, ça va super bien ! On a même\nbattu un {STRVAR_1 0, 11, 0} sauvage.\rToi aussi, tu as un bon Pokémon.\nIl ne te manque qu’un super\fpartenaire... Tu vois ce que je veux\fdire ? Hi hi !
+8	C’est Sue !\rComment ça va depuis la dernière fois ?\nJ’ai plein de Pokémon... Ah !\rAllô ? C’est Tim !\nLaisse-moi parler au téléphone... Wah !\rBref, il a laissé filer un {STRVAR_1 0, 11, 0}\nsauvage récemment !\rIl dit parfois des choses bizarres.\nIl a dit qu’il ne pouvait pas comparer\fles Pokémon avec moi, mais... Ah !\rAllô ! C’est Tim !\nElle est vraiment... Wah !\rOuais, c’est comme ça, hein !\nJe m’arrête là. On te rappellera\fplus tard. Bye-bye !
+9	Hé, ça te dirait de nous affronter\nà nouveau ?\rÇa te va ?\rOn t’attend sur {STRVAR_1 4, 3, 0}.\nÀ tout à l’heure !
+10	Hé, tu as oublié notre promesse ?\rJe suis avec Tim, alors je ne m’ennuie\npas trop, mais quand même...\rOn t’attend sur {STRVAR_1 4, 3, 0},\nalors dépêche-toi, s’il te plaît.
+11	Hé, c’est Sue !\nJe m’ennuie tellement, tellement !\rTim est sorti, mais il devrait\nbientôt revenir. Ça me fait penser !\rOn a vu un type vraiment incroyable\nrécemment.\rIl portait un smoking violet et un\nnœud papillon rouge. Ça lui allait\fsuper bien.\rOh, mon copain est de retour !\nOn se reparle plus tard !

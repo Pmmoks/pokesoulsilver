@@ -1,0 +1,15 @@
+1	Quand je vois un Dresseur fort,\nj’ai envie de l’encourager.\rQuand je me promène,\nje ramasse parfois des objets.\rSi j’en trouve, ils sont pour toi !\rTu me donnes ton numéro ? Je\nt’appellerai dès que j’aurai un truc.{YESNO 0}
+2	Je t’appelle dès que j’ai un truc !
+3	Vraiment ? Bon, je t’encouragerai\nquand même !
+4	Si je trouve un objet, il est pour toi !\nTu me donnes ton numéro ?{YESNO 0}
+5	Te voilà enfin !\nJe crois que ça va te faire plaisir.\r
+6	Tu dois vraiment adorer le téléphone\npour m’appeler alors que tu es à côté !
+7	Mon {STRVAR_1 0, 10, 0} et moi, on est de plus\nen plus en phase.\rOn a affronté un {STRVAR_1 0, 11, 0} sauvage\net on l’a battu de justesse.\fOn trouve notre rythme !\rSalut ! On se rappelle !
+8	Mon {STRVAR_1 0, 10, 0} et moi, on est de plus\nen plus en phase.\rMais tu sais quoi ?\rJe n’ai toujours pas attrapé de\n{STRVAR_1 0, 11, 0}. Ça devient vraiment\frageant...\rSalut ! On se rappelle !
+9	Tu veux bien être encore mon\npartenaire d’entraînement ?\rJe t’attendrai sur {STRVAR_1 4, 3, 0}...\rTu pourrais y aller plus doucement\navec moi la prochaine fois ?
+10	Tu arrives quand ?\nN’oublie pas : {STRVAR_1 4, 3, 0} !
+11	Tu arrives quand ?\nN’oublie pas : {STRVAR_1 4, 3, 0} !
+12	Désolée, je n’ai encore rien trouvé\nd’utile... Promis, si je trouve quelque\fchose, ce sera pour toi !
+13	J’ai ramassé un truc sympa\naujourd’hui. Je veux te le donner,\falors j’appelle !\rTu vas venir le chercher, hein ?\nJe suis sur {STRVAR_1 4, 3, 0}.
+14	Je suis trop impatiente de te donner\nton cadeau !\rDépêche-toi de venir sur {STRVAR_1 4, 3, 0} !
+15	Tu as entendu parler de la Team\nRocket ?\rElle a pris le contrôle de la Tour Radio\nde Doublonville.\rLes gens à l’intérieur vont bien ?

@@ -1,0 +1,11 @@
+1	Pas mal... Tu dois avoir du talent\npour me battre, même par un\fcoup de chance improbable...\rTu me plais !\nDonne-moi ton numéro !\rTu seras mon partenaire\nd’entraînement ! {YESNO 0}
+2	Ne prends pas la grosse tête parce que\ntu m’as battue ! C’était un coup de\fchance !
+3	Je n’y crois pas ! Tu vas\nle regretter !
+4	Donne-moi ton numéro de téléphone !\rTu seras mon partenaire\nd’entraînement !{YESNO 0}
+6	Qu’est-ce que tu racontes ?\nTu aimes vraiment la Route 27 ?\rMoi aussi, bien sûr !\rJe veux dire, je suis toujours sur la\nRoute 27 !
+7	Écoute-moi bien...\nTu te souviens de mon {STRVAR_1 0, 10, 0} ?\rOui, exactement. Ce ravissant\n{STRVAR_1 0, 10, 0}. Tu ne trouves pas qu’il me\fva à merveille ?\rBon, tu peux disposer.
+8	Si j’ai déjà affronté un {STRVAR_1 0, 11, 0}\nsauvage ? Tu as besoin de le demander ?\rJ’ai battu des {STRVAR_1 0, 11, 0} à de\nnombreuses reprises !\rBon, tu peux disposer.
+9	Si j’ai déjà raté la capture d’un\nPokémon sauvage ?\rTu as besoin de le demander ?\rJe ne raterais jamais la capture d’un\n{STRVAR_1 0, 11, 0}... Oh ! Laisse tomber !
+10	Nous allons nous affronter !\rLe lieu sera {STRVAR_1 4, 3, 0} !\nNe me fais pas attendre ! Compris ?
+11	Mais qu’est-ce que tu fais ?\rJe t’ai dit que le lieu était\n{STRVAR_1 4, 3, 0} ! N’essaie pas de te\fdéfiler !
+12	Ne te vante pas simplement parce\nque tu m’as battue par hasard...\fC’était un coup de chance !

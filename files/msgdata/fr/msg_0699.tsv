@@ -1,0 +1,11 @@
+1	Même adversaire, mêmes Pokémon,\nmais le résultat du combat change\fà chaque fois !\rJ’aimerais t’affronter à nouveau.\nÉchangeons nos numéros !{YESNO 0}
+2	Une fois prêt, je te passerai\nun coup de fil !
+3	Je vois... Bon, ça me va.\nJ’ai toujours ma montagne !
+4	J’aimerais t’affronter à nouveau.\nÉchangeons nos numéros ! {YESNO 0}
+5	C’est bizarre...\nJ’entends ta voix si clairement...\rAttends, tu es tout près, hein !\nParlons-en face à face !
+6	Les Pokémon s’attachent facilement\nà nous, les Montagnards amoureux\fde la nature !\rNon, non, je ne l’imagine pas !\nJ’ai des preuves ! Sérieux, mon\f{STRVAR_1 0, 10, 0} ne me désobéit jamais !
+7	Hé, écoute ça !\rHier, je suis tombé sur un {STRVAR_1 0, 11, 0}\nsauvage ! En pleine nature !\rBien sûr, mes Pokémon étaient en\npleine forme pour le combat. Génial.\fTout s’est passé si naturellement !\rComment décrire ce sentiment\nmerveilleux... Comment le dire ?\fBon, pour l’instant, disons...\rHOURRRRA !
+8	Il y a quelques jours, pendant une\nrandonnée en montagne, un {STRVAR_1 0, 11, 0}\fsauvage m’a sauté dessus.\rJe n’étais pas du tout préparé,\net il s’est enfui.\rOn dit que nous, les Montagnards,\njurons d’être prêts à tout. Je dois\fdonc compter ça comme un échec !
+9	Il nous faut absolument un autre\ncombat !\fC’est pour ça qu’on se parle là !\rJ’ai raison ? J’espère bien !\nJe t’attendrai sur {STRVAR_1 4, 3, 0} !
+10	On a un combat sur\n{STRVAR_1 4, 3, 0}, souviens-toi. Je\ft’attends en pleine nature !
+11	Eh oui... Je suis sur cette montagne\npresque toute l’année...\rLe bain ?\rÇa n’existe pas, à la montagne !\rÀ la place, je cherche une rivière\net je m’y lave.\rAh oui ! Il y a quelques jours, pendant\nque je me lavais dans la rivière, on m’a\fpris pour un Nageur♂ !

@@ -1,0 +1,13 @@
+1	Tu sais vraiment t’y prendre avec les\nPokémon !\rLes garçons me donnent des objets\naprès les combats, mais parfois trop.\rLa prochaine fois, je pourrai t’en\ndonner si tu veux. Je peux avoir\fton numéro ? {YESNO 0}
+2	La prochaine fois qu’un garçon me fait\nun cadeau après un combat, je\fpartage !\rÇa fait un peu ingrate, non ?
+3	Oh, tu ne veux rien ?\nMais c’est gratuit...
+4	Je partagerai mes cadeaux avec toi.\rJe peux avoir ton numéro ?{YESNO 0}
+5	Salut ! Tu viens pour ton cadeau ?\rÇa va te faire très plaisir !\r
+6	Hé, dis-moi, tu ne trouves pas qu’une\nfille au téléphone, c’est charmant ?\rNon ?\rHa ha ha, tu es tout près, hein ?\nPourquoi tu ne viens pas me parler\fen face ?
+7	Mon {STRVAR_1 0, 10, 0} devient de plus en plus\njoli ! Je le prends sans cesse en\fphoto !\rIl n’a fallu qu’une seconde pour battre\nun {STRVAR_1 0, 11, 0} sauvage.\r... Sûrement grâce aux conseils de\ncombat que tu m’as donnés !\rÀ plus !
+8	Mon {STRVAR_1 0, 10, 0} devient de plus en plus\njoli ! Je le prends sans cesse en\fphoto !\rTu sais quoi ? Un {STRVAR_1 0, 11, 0}\nsauvage m’a encore échappé.\rC’était si près !\nVraiment, encore un tout petit peu,\fet j’aurais...\rÀ plus !
+9	Là, je suis sur {STRVAR_1 4, 3, 0}.\rSi tu es dans le coin, on se bat !\nJe t’attends !
+10	Salut ! Tu n’as pas oublié ta promesse\nde m’affronter, hein ?\rJe t’attends sur {STRVAR_1 4, 3, 0} !
+11	Oh ! Tu voulais un cadeau, c’est ça ?\nJ’en ai eu un, mais je veux le garder.\rTu peux attendre encore un peu ?
+12	Tu sais quoi ? J’ai eu un super cadeau !\nComme promis, il est pour toi !\rIl va te plaire, c’est sûr. Viens le\nchercher ! Je t’attends sur\f{STRVAR_1 4, 3, 0} !
+13	Allô ?\rSi tu ne viens pas vite chercher ton\ncadeau, je le donnerai à quelqu’un\fd’autre.\rJe t’attends sur {STRVAR_1 4, 3, 0} !
