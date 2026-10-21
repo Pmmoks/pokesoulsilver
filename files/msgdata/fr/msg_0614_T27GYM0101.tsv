@@ -1,0 +1,11 @@
+0	Mortimer : Heureux de te voir ici.\rÀ Rosalia, les Pokémon sont vénérés\ndepuis longtemps.\rOn dit qu’un Pokémon arc-en-ciel\ndescendra se montrer à un Dresseur\fvraiment puissant.\rJ’ai cru à cette histoire, alors je\nm’entraîne en secret ici toute ma vie.\rRésultat, je vois maintenant ce que\nles autres ne voient pas.\rJe vois l’ombre de la personne qui\nfera apparaître le Pokémon.\rJe crois que cette personne, c’est\nmoi !\rTu vas m’aider à atteindre ce niveau !\r
+1	Mortimer : Je ne crois pas que nos\npotentiels soient si différents. Mais tu\fsembles avoir quelque chose en plus...\rSoit. Ce Badge est à toi.\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Brume de Mortimer !
+3	Mortimer : Avec le Badge Brume, les\nPokémon jusqu’au N. 50, même ceux\féchangés, t’obéiront.\rEn outre, tes Pokémon pourront\nutiliser Surf.\rEt autre chose...\nJe veux que tu prennes ceci aussi.\r
+5	Mortimer : C’est Ball’Ombre. Elle inflige\ndes dégâts et peut baisser la\fDéfense Spéciale.\fUtilise-la si elle te plaît.
+6	Mortimer : Je vois...\rLa personne dont parlaient les\nKimono Girls, c’est toi, sans doute...\rPeu importe.\rTu as sûrement la force de traverser\nla mer.\rEn allant à l’ouest puis au sud, tu\narriveras à Oliville.\fPourquoi ne pas t’y rendre ?
+7	Yo ! Étoile montante !\nLes Dresseurs d’ici utilisent des\fPokémon Spectre à volonté.\rUn fantôme, c’est comme une ombre,\nun spectre... La force physique seule\fne servira à rien.
+8	Ouf, {STRVAR_1 3, 0, 0}.\nTu as été super !\rJe me cachais dans le coin tellement\nj’avais peur !
+9	Tu as affaire au Champion d’Arène ?\rMortimer est parti à la Tour Cendrée.\rDésolé, mais il faut partir.\nHo ho ho.\r
+10	Arène Pokémon de Rosalia
+11	Arène Pokémon de Rosalia\rChampion : Mortimer\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

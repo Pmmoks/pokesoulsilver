@@ -1,0 +1,6 @@
+0	Hé !\rJe suis le Roi du Karaté !\nJe m’entraîne seul dans cette grotte !\rToi !\nAffronte-moi ! Hwaaarggh !\r
+1	Je... Je suis écrasé...\rMon entraînement est encore\ninsuffisant... Mais une défaite est une\fdéfaite. Je l’admets.\rEn preuve de ta victoire, je te donne\nun rare Pokémon de type Combat.\r
+2	{STRVAR_1 3, 0, 0} reçoit DEBUGANT du\nRoi du Karaté !
+3	DEBUGANT est de type Combat.\nIl évolue en un Pokémon plus costaud.\rContinue à travailler dur. Moi aussi, je\nvais continuer à m’entraîner. Adieu !
+4	Tu n’as plus de place dans ton équipe !
+5	Donner un surnom au DEBUGANT reçu ? {YESNO 0}

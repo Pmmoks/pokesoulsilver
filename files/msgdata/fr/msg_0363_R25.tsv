@@ -1,0 +1,19 @@
+0	Ondine : Oh non ! Pourquoi faut-il que\ntu viennes nous embêter maintenant ?\rSais-tu comment on appelle les gens\ncomme toi ?\rDes casse-pieds ! Tu as bien entendu,\ndes casse-pieds !\r...\r...Oh ? Ces Badges que tu as...\nCe sont des Badges d’Arène de Johto ?\rSi tu en as huit, tu dois avoir du\ntalent.\rBon, d’accord. Viens à l’Arène\nd’Azuria. Je me ferai un plaisir de\ft’affronter.\rJe suis Ondine, la Championne d’Arène\nd’Azuria.\r
+1	Ondine : J’adore le coucher de soleil\nici ! Ça me donne du courage, tu sais ?\rAllez !\rOn échange nos numéros ? {YESNO 0}
+2	{STRVAR_1 3, 0, 0} a enregistré Ondine\ndans le Pokématos !
+3	Ondine : Appelle-moi mercredi matin\nsi tu veux un autre combat avec moi !
+4	Ondine : Quel dommage !
+5	Ondine : Alors tu veux vraiment\nmon numéro ? {YESNO 0}
+6	Ondine : Ah ! Tu as un super Pokémon\nde type Eau !\fJe peux faire une photo avec lui ? {YESNO 0}
+7	Ondine : Génial !\rMontre-moi un grand sourire !\r
+8	Ondine : On est bien !\nJ’adore les Pokémon de type Eau !
+9	Ondine : Quelle déception...
+10	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\ndes photos.
+11	Tu as livré un combat de plus que\nprévu, mais tu as gagné quand même.\rComme promis, tu remportes un prix.\r
+13	Mais après avoir vu comment tu te bats,\nj’ai envie de voir ce que je vaux.\fAlors ? Laisse-moi t’affronter.\r
+14	Je n’ai jamais eu un combat aussi\nmerveilleux !\rToi et tes Pokémon, vous êtes\nvraiment forts !
+15	Cabane Marine\nMaison de Léo
+16	Eusine : Pfff, pfff...\nJe ne fais pas le poids face à toi.\f...Comme je le prévoyais.\r..................\n...Vas-y.\rDepuis que je t’ai rencontré à la Tour\nCendrée de Rosalia, je savais un peu\fque SUICUNE te choisirait.\r
+17	Eusine : Regarde-le ! SUICUNE\nt’attend ! Il attendait un combat avec\fun Dresseur digne de lui, à qui il\fpourrait se confier !
+18	Eusine : {STRVAR_1 3, 0, 0}...\nVous êtes vraiment incroyables,\ftoi et lui...\rJe n’ai jamais vu un combat aussi\nintense !\fJe n’ai aucun regret...\rAdieu, SUICUNE !\nAdieu...{STRVAR_1 3, 0, 0} !\r
+19	Eusine : {STRVAR_1 3, 0, 0}...\nIl n’y a pas de quoi avoir honte.\rPersonne ne peut te chercher des\nnoises parce que tu as fui devant\fSUICUNE.\rC’est juste que SUICUNE est un Pokémon\nextraordinaire. C’est tout.\fEnfin, SUICUNE a de nouveau disparu.\fOn repart de zéro...\r

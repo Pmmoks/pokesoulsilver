@@ -1,0 +1,11 @@
+0	Albert : Je suis Albert, le Champion de\nl’Arène Pokémon de Mauville !\rOn dit qu’une décharge électrique\nsuffit à couper les ailes des Pokémon\fde type Vol...\rJe ne laisserai pas insulter ainsi les\nPokémon oiseaux !\rJe vais te montrer la vraie puissance\ndes magnifiques Pokémon oiseaux !\r
+1	Albert : ...Zut alors ! Le Pokémon\noiseau chéri de mon père...\rMais une défaite est une défaite.\nTrès bien.\rPrends ce Badge officiel de la\nLigue Pokémon.\fC’est le Badge Zéphyr.\r
+2	{STRVAR_1 3, 0, 0} reçoit le Badge Zéphyr\nde la part d’Albert !
+3	Albert : Avec ce Badge, les Pokémon,\ny compris ceux échangés jusqu’au Niv.\f20, t’obéiront sans discuter.\rIl te permet aussi d’utiliser la CS\nÉclate-Roc à tout moment en dehors\fdes combats.\r
+4	Albert : Avec une CT, un Pokémon\napprend immédiatement une nouvelle\fcapacité.\rRéfléchis avant d’agir : une CT ne\npeut être utilisée qu’une seule fois.\rLa CT51 contient Atterrissage.\nElle restaure la moitié des PV max.\rIl y a des Arènes Pokémon dans les\nvilles à venir. Profites-en bien !\rPour ta prochaine étape...\fje te suggère Écorcia.
+5	Albert : Il y a des Arènes Pokémon\ndans les villes à venir.\rTu devrais tester tes compétences\ndans ces Arènes.\rPour ta prochaine étape...\fje te suggère Écorcia.\rJe vais m’entraîner encore plus dur\npour devenir le plus grand\fOrnithologue de tous !
+6	Yo ! Futur Champion !\nTu es sûrement ici pour défier\fAlbert, le Champion d’Arène, non ?\rTu es le bienvenu.\n...Presque !\rCette ville a une tour appelée\nla Tour Chétiflor où les Dresseurs\fviennent s’entraîner.\rDéfier Albert sera peut-être trop\ndifficile si tu n’as pas suivi\fleur entraînement.\fHa ha ha !
+7	Yo, futur Champion !\nJe ne suis pas Dresseur, mais je peux\fdonner des conseils !\fCrois-moi !\fSi tu crois, un rêve de Championnat\fpeut se réaliser.\rTu y crois ?\nAlors écoute.\rLe type Plante est faible contre le\ntype Vol. Garde ça en tête.
+8	Beau combat ! Continue comme ça et tu\nseras Champion en un rien de temps !
+9	Arène Pokémon de Mauville
+10	Arène Pokémon de Mauville\rChampion d’Arène : Albert\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

@@ -1,0 +1,25 @@
+0	Bravo !\rUne jeune promesse de l’archéologie,\nsur le point de commencer son voyage,\fvient d’arriver !\r
+1	Quoi ? Un simple visiteur ?\nAh, je vois...\fTu m’as fait m’emballer pour rien.
+2	Mon équipe du Centre de Recherche des\nRuines est excellente, et les\frecherches avancent très bien sans que\fj’aie le moindre effort à fournir.\rSi tu as des questions, n’hésite pas à\nparler à mon équipe !
+3	Grâce à toi, j’ai réussi à percer une\ngrande partie du mystère des ZARBI !\rMerci, merci.\nMerci encore !
+4	Les ruines ont environ 1 500 ans.\nC’est tout ce que nous en savons.\rMais on ignore pourquoi elles ont été\nconstruites... ni par qui.
+5	Waouh, tu as capturé un ZARBI ?\nC’est merveilleux !\rÀ y réfléchir... Pourquoi voit-on\nsoudain des ZARBI ?
+6	Il faut que tu entendes ça !\nC’est une grande découverte !\rC’est toi qui as résolu le puzzle des\npanneaux de pierre qui a fait\fapparaître les ZARBI.\rCes tablettes sont la clé pour réveiller\nles ZARBI !\rMais... pourquoi quelqu’un aurait-il\nfabriqué une telle clé ?\r
+7	Il faut que tu entendes ça !\nC’est une grande découverte !\rSi tu allumes la radio dans les ruines,\ntu captes de mystérieuses ondes !\rC’est la preuve que les ZARBI\ncommuniquent par ondes radio !\r
+8	Il faut que tu entendes ça !\nC’est une grande découverte !\rIl y a autant de ZARBI que de lettres\nde l’alphabet !\rOn en a confirmé 26 sortes.\nPourquoi ne pas tous les collecter ?\r
+9	Que penses-tu du Rapport ZARBI\nque je t’ai donné ?\rLes ZARBI y sont enregistrés au fur et\nà mesure de tes captures. C’est très\futile !
+10	Il faut que tu entendes ça !\nC’est une grande découverte !\rNous avons compris que les ZARBI\nsuivent un certain ordre !\fMontre-moi ton rapport.\r
+11	Voilà !\nJ’ai remis les ZARBI dans le bon ordre !\fOn pourra peut-être en apprendre plus.\r
+12	Quoi ? Tu as trouvé une salle avec des\nsymboles ZARBI ? C’est une grande\fdécouverte !\rNous allons les étudier tout de suite.\r
+13	Il faut que tu entendes ça !\nC’est une grande découverte !\rNous avons trouvé deux nouveaux\nsymboles ZARBI !\rÇa veut dire que...\nIl doit exister deux autres sortes de\fZARBI quelque part...\r
+14	Il faut que tu entendes ça !\nNous en apprenons de plus en plus sur\fles symboles au sol !\r...Il semble que les ZARBI vivaient dans\nles ruines avec un clan humain.\rOn pense que ce clan a créé les statues\nde Pokémon souterraines.\rLes ZARBI s’effrayaient facilement et\nne sortaient pas.\rQuand de plus en plus de gens ont\ncommencé à apparaître près des ruines,\fle clan qui souhaitait vivre en harmonie\favec les ZARBI a fini par partir...\rGrâce à nos recherches et à ton aide,\nnous avons percé une grande partie\fde leur mystère !\rIl nous reste évidemment encore\nbeaucoup de choses à découvrir.\rL’archéologie ne s’arrête jamais.\r
+15	Je te préviendrai si je découvre\nautre chose.
+16	{STRVAR_1 3, 0, 0} a ouvert le Rapport ZARBI\net pris des notes !
+17	Grâce à nos recherches et à ton aide,\nnous avons percé une grande partie\fde leur mystère !\rIl nous reste évidemment encore\nbeaucoup de choses à découvrir.\rL’archéologie ne s’arrête jamais.
+18	D’étranges motifs sont dessinés sur\nles murs des ruines.\rIls doivent être la clé pour percer\nle mystère des ruines.
+19	Les étranges Pokémon que tu as vus\ndans les ruines ?\rIls ressemblent beaucoup aux dessins\nsur les murs.\rHmm...\rCela voudrait dire qu’il en existe\nbeaucoup de sortes différentes...
+20	Hein ?\nJe ne fais rien, c’est ça ?\rAllons !\nÇa ne se voit pas, mais c’est moi qui\fai mis au point le Rapport ZARBI !
+21	Ruines d’Alpha\nExploration, année 10
+22	Pokémon Mystère\nNom : ZARBI\f26 sortes trouvées au total.
+23	Rapport de Recherche des Ruines\nd’Alpha\rJe dédie ce rapport au fondateur du\nCentre de Recherche,\fle Prof. Mimosa...
+24	Il y a beaucoup d’ouvrages savants.\r“Mystères des Anciens”\n“Guide du décryptage”\f“Ruines et érosion”

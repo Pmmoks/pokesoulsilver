@@ -1,0 +1,46 @@
+0	Bienvenue à la Tour Radio de\nDoublonville !
+1	Bienvenue à la Tour Radio de\nDoublonville !\r...Enfin, plutôt non.\nJe suis désolée, mais personne\fne peut visiter la tour pour l’instant.
+2	Euh, oui. J’ai dit aux visiteurs de\nrentrer chez eux, comme vous me l’aviez\fdemandé...
+3	Nous organisons un Quiz spécial !\rRépondez correctement à cinq questions\nde suite pour gagner une Carte Radio !\rEn la chargeant dans le Pokématos,\nvous pourrez écouter la radio... quand\fvous voulez, où vous voulez !\rSouhaitez-vous tenter notre Quiz ? {YESNO 0}
+4	Première question !\rPeut-on consulter la Carte avec\nle Pokématos ? {YESNO 0}
+5	Bonne réponse.\nDeuxième question !\rNIDORINA ne peut être que femelle.\nVrai ? {YESNO 0}
+6	Bonne réponse.\nTroisième question !\rFargas, le créateur de Poké Balls,\nutilise des abricots comme ingrédients ?\f{YESNO 0}
+7	Encore bonne réponse.\nQuatrième question !\rIl est impossible d’utiliser une CT\nsur MAGICARPE. Vrai ? {YESNO 0}
+8	Waouh !\nIl ne reste plus qu’une question.\rDans la célèbre émission du Prof. Chen,\nPokémon Talk, est-il avec Marie ? {YESNO 0}
+9	Bingo ! C’est ça !\nFélicitations !\fVoici votre lot, une Carte Radio !\r
+10	{STRVAR_1 3, 0, 0} peut maintenant écouter la\nradio avec le Pokématos !
+11	Écoutez nos émissions de radio !
+12	Oh là là. Désolée, mais ce n’est pas la\nbonne réponse. Réessayez !
+13	Oh. Je vois.\nVenez me voir si vous changez d’avis.
+14	Blanche : Salut !\nJe m’appelle Blanche !\rJ’ai entendu parler du Quiz pour gagner\nune Carte Radio, alors je suis venue\fen chercher une...\rMais ce Quiz est trop dur !\r
+15	Blanche : Waouh, tu as réussi !\rJe pensais que la réponse à la troisième\nquestion, c’étaient sûrement les\fabricots !\rOups !\nIl est temps de retourner à l’Arène !\r
+16	Ben est un DJ fabuleux !\nSa douce voix me fait fondre !
+17	J’adore Mary, de Pokémon Talk.\rMais je ne connais que le son de\nsa voix !
+18	Qui es-tu ?\nOn a des affaires en cours ici.\rOn m’a dit de ne laisser passer\npersonne sauf la Team Rocket !\rTu as compris ?\rTu n’as le droit de passer que si tu\nportes le superbe uniforme noir\fde la Team Rocket !
+19	Ha ! Tu dois être une recrue !\nL’uniforme de la Team Rocket te va\fplutôt bien !\rVas-y, entre !\r
+20	Qu’est-ce que tu fais ?\nMonte à l’étage et prends ton poste !
+21	{STRVAR_1 3, 1, 0} : Hé, Team Rocket !\rArrêtez de traîner en bande et\nd’embêter les gens. Bande de lâches !\r
+22	{STRVAR_1 3, 1, 0} : ...Hein ?\nC’est toi, {STRVAR_1 3, 0, 0} ?\fQu’est-ce que tu fais ici ?\rIncroyable... Tu te crois costaud\nmaintenant que tu leur ressembles ?\rC’est ridicule !\nTu ne devrais pas porter ça !\r
+23	Quoi ? Toi !\nTu n’es pas une recrue ?\fAlors bats-toi contre moi !\r
+24	Ta puissance est trop grande.\rTu pourrais faire échouer notre plan.\nIl faut que je prévienne les autres...\r
+25	{STRVAR_1 3, 1, 0} : Je vois.\nTu essayais de te faufiler...\rHa !\nUne idée typique d’un faible !\rPeu importe.\nJe te laisse t’en occuper.\rMoi, je dois battre le Dompteur de\nDragons... Comment il s’appelle... ?\fPeter !\rEnsuite... ce sera ton tour.\nPrépare-toi !\r
+26	RDC Accueil\n1er ÉT. Ventes\f2e ÉT. Personnel\f3e ÉT. Production\f4e ÉT. Bureau du Directeur\f5e ÉT. Observatoire
+27	Chaîne Chance !\nGagnez avec les N° ID des Pokémon !\rÉchangez vos Pokémon pour collecter\ndes N° ID différents !
+28	Voici le coin Loterie Pokémon.\nJe suis Felicity, votre hôtesse du jour.\rSi le numéro tiré correspond au N° ID\nde l’un de vos Pokémon, vous pouvez\fgagner de superbes cadeaux.\rSouhaitez-vous consulter le numéro\nchanceux du jour ? {YESNO 0}
+29	Vous avez déjà tiré un Ticket Loto\naujourd’hui. Revenez demain.
+30	Oh. Je vois.\nN’hésitez pas à revenir nous voir.
+31	Je consulte d’abord le numéro chanceux\ndu jour du coin Loterie Pokémon.\r...\r
+32	Le numéro de votre Ticket Loto\nest le {STRVAR_1 54, 0, 0}.\rVoyons maintenant s’il correspond au\nN° ID de l’un de vos Pokémon.\r
+33	Félicitations !\rLe N° ID du {STRVAR_1 1, 0, 0} de votre équipe\ncorrespond au numéro de votre\fTicket Loto !\r
+34	Félicitations !\rLe N° ID du {STRVAR_1 1, 0, 0} de votre Boîte\nPC correspond au numéro de votre\fTicket Loto !\r
+35	Je suis désolée.\nAucun numéro ne correspond...
+36	Le dernier chiffre correspond,\ndonc vous gagnez le quatrième prix !\r
+37	Vous obtenez un nouveau Décor pour\nles Cabines d’Essayage.
+38	Les deux derniers chiffres\ncorrespondent, donc vous gagnez le\ftroisième prix !\r
+39	Les trois derniers chiffres\ncorrespondent, donc vous gagnez le\fdeuxième prix !\r
+40	Les quatre derniers chiffres\ncorrespondent, donc vous gagnez le\fpremier prix !\r
+41	Oh là là, les cinq chiffres\ncorrespondent !\rVous avez décroché le gros lot !\nC’est tout simplement incroyable !\r...Oh, pardon ! Votre prix !\nJe me suis laissée emporter.\rLe voici !\r
+42	...Oh ?\nVous n’avez plus de place pour ceci.\rFaites de la place dans votre Sac,\npuis revenez me voir.
+43	{STRVAR_1 3, 0, 0} ?\nOui, je vous attendais.\rVoici le prix que nous vous gardions.\nTenez !\r
+44	À bientôt ! Felicity, votre hôtesse,\nvous dit au revoir !
+45	Voici le coin Loterie Pokémon.\rSouhaitez-vous consulter de nouveau\nle numéro chanceux du jour ? {YESNO 0}

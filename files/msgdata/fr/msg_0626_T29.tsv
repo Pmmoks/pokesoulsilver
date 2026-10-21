@@ -1,0 +1,28 @@
+0	LEVIATOR : Gyashaa !
+1	DRACOLOSSE : Gyafooha !
+2	Ce LEVIATOR rouge n’avait pas un\ncomportement normal.\rComme je le craignais, quelqu’un a dû\nle forcer à évoluer...\r
+3	Tu viens à cause de ces rumeurs ?\rTu es {STRVAR_1 3, 0, 0} ?\nJe suis Peter, un Dresseur comme toi.\rJ’ai entendu des grondements, alors\nje suis venu enquêter...\rJ’ai vu ton combat tout à l’heure,\n{STRVAR_1 3, 0, 0}.\rJe vois que tu es un Dresseur doté\nd’un talent considérable.\rSi cela ne te dérange pas, peux-tu\nm’aider à enquêter ? {YESNO 0}
+4	Tu viens à cause de ces rumeurs ?\rTu es {STRVAR_1 3, 0, 0} ?\nJe suis Peter, un Dresseur comme toi.\rJ’ai entendu des grondements, alors\nje suis venu enquêter...\rJ’ai vu ton combat tout à l’heure,\n{STRVAR_1 3, 0, 0}.\rJe vois que tu es un Dresseur doté\nd’un talent considérable.\rSi cela ne te dérange pas, peux-tu\nm’aider à enquêter ? {YESNO 0}
+5	Peter : Excellent !\rIl semble que les MAGICARPE du\nLac Colère soient forcés d’évoluer.\rUne mystérieuse émission radio venant\nd’Acajou en est probablement la cause.\rEt cette boutique de souvenirs\nsuspecte...\rJe t’attends à Acajou, {STRVAR_1 3, 0, 0}.
+6	Peter : Excellent !\rIl semble que les MAGICARPE du\nLac Colère soient forcés d’évoluer.\rUne mystérieuse émission radio venant\nd’Acajou en est la cause.\rJe t’attends, {STRVAR_1 3, 0, 0}.
+7	Oh... Eh bien, si tu changes d’avis,\naide-moi s’il te plaît.
+8	Peter : Qu’en dis-tu ?\nVas-tu m’aider ? {YESNO 0}
+9	Les LEVIATOR sont en colère !\nC’est un mauvais présage !
+10	Hahah ! Les MAGICARPE mordent !
+11	Il paraît que ce lac a été formé par\ndes LEVIATOR déchaînés.\rJe me demande s’il y a un lien avec\nleur prolifération actuelle ?
+12	Mes yeux m’ont-ils trompé ? J’ai vu un\nLEVIATOR rouge au Lac Colère...\rMais je croyais que les LEVIATOR\nétaient plutôt bleus ?
+13	Frédo : La forte pluie qui tombe en\nsurface semble agiter le lac en colère.\rCe doit être pour une raison que\nnous nous retrouvions.\rEt si nous échangions nos numéros\nde téléphone ? {YESNO 0}\n
+14	{STRVAR_1 3, 0, 0} a enregistré Frédo\ndans le Pokématos !
+15	Frédo : J’ai pour habitude de\nm’entraîner le lundi matin pour donner\fde la colonne à ce corps paresseux.\rTu pourrais être un bon partenaire\nd’entraînement.\rJ’attends ton appel !
+16	Frédo : Très bien aussi.\nChacun doit avoir ses propres idées.\fAinsi va la vie.
+17	Frédo : Alors ? On échange\nnos numéros ? {YESNO 0}
+18	Bats-toi contre la belle prise\nque je viens de faire !
+21	Je n’attrape que le même genre de\nPokémon. Peu importe combien de temps\fje pêche !
+24	Quand on voit un Dresseur, c’est\nl’heure du défi ! C’est comme ça chez\fles Dresseurs !
+27	Qu’est-il arrivé au LEVIATOR rouge ?\rIl a disparu ?\nJ’ai fait tout ce chemin pour lui...\rBon, c’est toi que je défie !
+30	Lac Colère\nAussi appelé le Lac LEVIATOR
+31	Maison du Gourou de la Pêche
+32	Maison du Gourou de la Pêche\rRecord actuel\n{STRVAR_1 52, 0, 0}.{STRVAR_1 50, 1, 0} po {STRVAR_1 3, 2, 0}
+33	{STRVAR_1 3, 0, 0} trouve\n{STRVAR_1 8, 1, 0} !
+34	{STRVAR_1 3, 0, 0} range {STRVAR_1 8, 1, 0}\ndans la poche {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0}.
+35	Tu obtiens {STRVAR_1 8, 0, 0} !\rDommage !\nLe Sac est plein...

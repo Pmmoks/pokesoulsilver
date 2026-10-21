@@ -1,0 +1,11 @@
+0	Quand tu captures un Pokémon pour la\npremière fois, il est peut-être faible.\rMais il finira par devenir fort.\rIl est important de traiter les Pokémon\navec amour.
+1	Les Pokémon peuvent tenir des objets\ncomme une Potion ou un Antidote.\rMais ils ne semblent pas savoir utiliser\nles objets fabriqués par l’homme.
+2	Ça fait longtemps, {STRVAR_1 3, 0, 0}.\nJe t’attendais.\fCeci vient du Prof. Orme.\rVoilà, nous aimerions que tu\nprennes soin d’un Œuf ! {YESNO 0}
+3	Ça fait longtemps, {STRVAR_1 3, 0, 0}.\nJe t’attendais.\fCeci vient du Prof. Orme.\rVoilà, nous aimerions que tu\nprennes soin d’un Œuf ! {YESNO 0}
+4	{STRVAR_1 3, 0, 0} reçoit\nl’Œuf de l’assistant !
+5	Après ton départ, le Prof. Orme a reçu\nun appel téléphonique. Je ne sais pas\fde quoi ils parlaient.\rMais au bout d’un moment, le Prof. Orme\na soudain crié : “Je ne vois personne\fde plus qualifié que {STRVAR_1 3, 0, 0} !”\rPuis il a insisté pour que je te remette\ncet Œuf.\rC’est pour ça que je suis venu te\nl’apporter.\rApparemment, un Pokémon n’éclora que\nsi tu le gardes dans ton équipe de\fPokémon.\rC’est une autre raison pour laquelle\nnous t’avons choisi, {STRVAR_1 3, 0, 0}.\rPrends-en bien soin !\r
+6	Après ton départ, le Prof. Orme a reçu\nun appel téléphonique. Je ne sais pas\fde quoi ils parlaient, mais au bout d’un\fmoment, le Prof. Orme a soudain crié :\f“Je ne vois personne de plus qualifié\fque {STRVAR_1 3, 0, 0} pour ça !”\rPuis il a insisté pour que je te remette\ncet Œuf.\rC’est pour ça que je suis venu te\nl’apporter.\rApparemment, un Pokémon n’éclora que\nsi tu le gardes dans ton équipe de\fPokémon.\rC’est une autre raison pour laquelle\nnous t’avons choisi, {STRVAR_1 3, 0, 0}.\rPrends-en bien soin !\r
+7	Ton équipe est pleine.\nTu ne peux pas encore prendre l’Œuf.\fJe t’attends ici.
+8	Quoi ?\nJe ne m’attendais pas à un refus !\fTu plaisantes, n’est-ce pas ?\rLe Prof. Orme tient vraiment à ce que\ntu prennes soin de lui...\n\n
+9	{STRVAR_1 3, 0, 0},\nprends-tu cet Œuf ? {YESNO 0}
+10	{STRVAR_1 3, 0, 0},\nprends-tu cet Œuf ? {YESNO 0}

@@ -1,0 +1,9 @@
+0	Hum, vous m’entendez ?\r...Ici le Directeur.\rNous avons décidé de diffuser de\nmagnifiques émissions à la gloire de\fla Team Rocket !\rJe ne veux entendre aucune plainte de\nvotre part. Faites simplement du bon\fboulot...\r
+1	Aïe ! Je suis occupé à me faire passer\npour le... Qui es-tu ?\r
+2	...Oh non, c’est encore toi,\n{STRVAR_1 3, 0, 0} ?\r
+3	Pétrel : Non, non, non ! Je me faisais\npasser pour le Directeur afin d’inciter\ftoute la région à soutenir la Team\fRocket !\rCette fois, je ne me retiendrai pas !\nDonne-moi tout ce que tu as !\r
+4	Pétrel : Écoute bien.\rNous avons caché le vrai Directeur\ndans l’entrepôt souterrain.\rIl est tout au fond du Souterrain\nde Doublonville.\rJe suis un type bien. Je vais te donner\nla Clé Sous-Sol pour accéder à\fl’entrepôt souterrain.\fPrends-la avec gratitude !\r
+5	Pétrel : Nous avons caché le Directeur\ndans l’entrepôt souterrain.\rIl est tout au fond du Souterrain\nde Doublonville.\rHahaha... Je doute qu’un gamin comme\ntoi aille si loin.
+6	Directeur : Bonjour, c’est vous ! Vous\nsavez, j’adore les Pokémon.\rJ’ai construit cette Tour Radio pour\npouvoir exprimer mon amour des\fPokémon.\rJ’aimerais que les gens apprécient\nnos programmes.
+7	4e ÉT. Bureau du Directeur
+8	L’Observatoire est en haut

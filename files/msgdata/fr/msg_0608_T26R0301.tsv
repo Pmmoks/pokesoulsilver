@@ -1,0 +1,5 @@
+0	Salut, je cherche ce Pokémon.\rSi tu as un KRABBY, tu\nl’échangerais contre mon\fVOLTORBE ? {YESNO 0}
+1	Super ! Merci !\rJ’ai enfin un KRABBY !
+2	Tu n’as pas de KRABBY ?\nDommage, alors.
+3	Tu n’en as pas non plus ?\rZut, quelle déception...
+4	Salut ! Le KRABBY que tu m’as\néchangé va très bien !

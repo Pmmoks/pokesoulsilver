@@ -1,0 +1,16 @@
+0	Hein ?\rVous entendez du vent dans cette\npièce ? C’est...juste moi qui siffle.\rBref. Pourquoi n’achetez-vous pas\nquelque chose ? {YESNO 0}
+1	Arrgh...\nVous avez trouvé l’escalier secret...\rComment avez-vous fait ?\nJe le croyais bien camouflé...
+2	Hé hé hé ! L’expérience a marché\ncomme sur des roulettes.\rLes MAGICARPE ne valent rien, mais les\nLEVIATOR rapportent gros.
+3	Urrgh...\rLes Pokémon de type Dragon de ce type\nsont coriaces...
+4	Peter : DRACOLOSSE, Ultralaser.\r
+5	Tu en as mis du temps, {STRVAR_1 3, 0, 0} !\rJ’avais raison : cet étrange signal\nradio vient bien d’ici.\r
+6	Tu en as mis du temps, {STRVAR_1 3, 0, 0} !\rJ’avais raison : cet étrange signal\nradio vient bien d’ici.\r
+7	Les escaliers sont juste ici.\r
+8	Peter : {STRVAR_1 3, 0, 0}, séparons-nous\npour fouiller cet endroit. J’y vais en\fpremier.\r
+9	Peter : {STRVAR_1 3, 0, 0}, séparons-nous\npour fouiller cet endroit. J’y vais en\fpremier.\r
+10	Fiii...fiii...\rCe bruit vous dérange ? C’est moi.\nMon dentier est mal ajusté,\fet l’air passe par l’interstice.\rBref. Pourquoi n’achetez-vous pas\nquelque chose ?\r
+11	La radio est allumée.\rL’émission de variétés en cours est\nExpédition Pokémon !
+12	La radio est allumée.\rL’émission de variétés en cours est\nFeuilleton Radio !
+13	La radio est allumée.\rL’émission de variétés en cours est\nMot de Passe de Buena !
+14	La Team Rocket annonce son retour\nà la radio !
+15	Tu entends quelque chose\nd’étrange...!

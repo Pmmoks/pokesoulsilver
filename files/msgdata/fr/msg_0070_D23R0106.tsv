@@ -1,0 +1,10 @@
+0	Amaury : Oh ? Tu as réussi à venir\njusqu’ici... ?\fTu dois avoir un sacré talent.\rNous comptons prendre le contrôle de\ncette Tour Radio et annoncer\fofficiellement notre retour.\rCela devrait faire revenir notre chef\nGiovanni de son entraînement solitaire.\rNous allons retrouver notre gloire\nd’antan...\rJe ne te laisserai pas perturber\nnos plans minutieux !\r
+1	Amaury : Comment est-ce possible... ?\rNos rêves sont réduits à néant.\nJe n’étais finalement pas à la hauteur.\rComme Giovanni avant moi, je vais\ndissoudre la Team Rocket aujourd’hui.\rAdieu...\r
+2	Directeur : Oh... !\rVous les avez déjà battus ?\nMerci !\rVos actes courageux ont sauvé\nles Pokémon de tout le pays.\rVous méritez bien ceci.\nPrenez-le !\r
+3	{STRVAR_1 3, 0, 0} a reçu\nl’Arcenci’Aile !
+4	{STRVAR_1 3, 0, 0} a reçu\nl’Argent’Aile !
+5	Il y avait une tour juste ici.\rQuand la tour a été remplacée par\nla Tour Radio, cette Arcenci’Aile a été\ftrouvée au sommet de la tour.\rUn ami d’Irisia m’a dit qu’on peut\nmonter dans la Tour Carillon de\fRosalia quand on a une Arcenci’Aile.\rJe dois retourner à mon bureau.\nÀ bientôt !\r
+6	Il y avait une tour juste ici.\rQuand la tour a été remplacée par\nla Tour Radio, cette Argent’Aile a été\ftrouvée au sommet de la tour.\rUn ami d’Irisia m’a dit qu’on peut\ndescendre dans la grotte des\fTourb’Îles quand on a une Argent’Aile.\rJe dois retourner à mon bureau.\nÀ bientôt !\r
+7	Ah, j’allais oublier !\rSelon mon ami d’Irisia, le Pokémon\nlégendaire n’apparaîtra pas si on monte\fsimplement au sommet de la Tour Carillon\favec cette seule Arcenci’Aile.\rApparemment, il faut autre chose...\nOu quelque chose comme ça.\rJe me demande ce que c’était...\rJe ne m’en souviens plus.\r
+8	Ah, j’allais oublier !\rSelon mon ami d’Irisia, le Pokémon\nlégendaire n’apparaîtra pas si on\fdescend simplement dans la grotte des\fTourb’Îles avec cette seule\fArgent’Aile.\rApparemment, il faut autre chose...\nOu quelque chose comme ça.\rJe me demande ce que c’était...\rJe ne m’en souviens plus.\r
+9	Tu t’attendais à quelque chose ?\nC’est ce qu’on appelle Bluff.\rIl faut vraiment que je retourne à\nmon bureau cette fois. À plus !\r

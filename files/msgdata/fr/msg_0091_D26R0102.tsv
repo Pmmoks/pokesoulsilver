@@ -1,0 +1,6 @@
+0	Fargas : Bien joué, {STRVAR_1 3, 0, 0} !\rLa Team Rocket a décampé.\rMon dos va mieux aussi.\nSortons d’ici.\r
+1	Lance : Tiens, tiens, qu’avons-nous\nlà ?\rOn me qualifie souvent de type le plus\neffrayant et le plus cruel de la Team\fRocket...\rJe te conseille vivement de ne pas\nte mêler de nos affaires !\r
+2	Lance : Pfff... La Team Rocket a bien\nété dissoute il y a trois ans. Mais\fnous avons continué nos activités\fdans l’ombre.\rUn petit obstacle comme toi ne sera\npas un gros problème pour notre\fmission.\rJe te conseille d’avoir très peur de\nce qui t’attend !\r
+3	Un RAMOLOSS sans sa queue...\rHein ? Il a une Lettre. La lire ? {YESNO 0}
+4	{STRVAR_1 3, 0, 0} a lu la Lettre.\rSois sage et garde la maison\navec Papi et RAMOLOSS.\f           Bisous, Papa
+5	Un RAMOLOSS sans sa queue...

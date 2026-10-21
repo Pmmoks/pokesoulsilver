@@ -1,0 +1,17 @@
+0	Seuls les Dresseurs qui ont fait\nleurs preuves peuvent passer.\rOh ! Les huit Badges de Johto !\nVas-y, passe !
+1	Ce chemin mène au Mont Argenté.\rLà-bas, tu croiseras des Pokémon\nterriblement forts.\fTu n’es pas à la hauteur.
+2	Ce chemin mène au Mont Argenté.\rLà-bas, tu croiseras des Pokémon\nterriblement forts.\fTu n’es pas à la hauteur.\r
+3	Ce chemin mène au Mont Argenté.\rLà-bas, tu croiseras des Pokémon\nterriblement forts.\rMais ça devrait aller.\nFais quand même attention.
+4	Hein ?\nCe chemin mène à Kanto...\fMais il est bloqué pour le moment,\fje le crains.
+5	Halte !\rCe chemin mène à Kanto...\nMais il est bloqué pour le moment,\fje le crains.\r
+6	À l’ouest, le Mont Argenté.\nÀ l’est, la région de Kanto.\rAu nord, le Conseil 4 ! Mais tu\ndevrais déjà le savoir, puisque tu as\fbattu le Maître !
+7	Jeannine : Je vais chez mon père pour\nlui apporter son déjeuner.\rLe Conseil 4 n’a pas le temps de se\nreposer, jour et nuit. C’est un\ftravail si dur, tu sais ?\rDis !\nOn échange nos numéros ? {YESNO 0}
+8	{STRVAR_1 3, 0, 0} a enregistré Jeannine\ndans le Pokématos !
+9	Jeannine : Appelle-moi lundi vers midi\nsi tu veux te battre !
+10	Jeannine : Tu n’as pas l’air d’avoir\npeur, mais c’est le cas, n’est-ce\fpas ?
+11	Jeannine : Maintenant, tu veux mon\nnuméro, n’est-ce pas ? {YESNO 0}
+12	Jeannine : J’ai fini d’apporter le\ndéjeuner à mon père, et je rentre à\fla maison.\rTu veux faire une photo\navec moi ? {YESNO 0}
+13	Jeannine : Tu peux avoir l’air aussi\ncool que moi pour la photo ?\r
+14	Jeannine : Tu ne trouves pas qu’on\nest bien sur la photo ?
+15	Jeannine : Quel dommage !
+16	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\ndes photos.

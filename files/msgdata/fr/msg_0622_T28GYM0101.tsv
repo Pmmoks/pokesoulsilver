@@ -1,0 +1,11 @@
+0	Frédo : Les Pokémon vivent de\nnombreuses expériences, comme nous.\rMoi aussi, j’ai beaucoup vu et souffert\ndans ma vie.\rPuisque je suis ton aîné, laisse-moi\nte montrer ce que je veux dire.\rJe dresse des Pokémon depuis avant\nta naissance.\rJe ne perds pas facilement.\nMoi, Frédo, le Dresseur de l’Hiver,\fje vais te démontrer ma puissance !\r
+1	Frédo : Ton talent m’impressionne.\rAvec ta volonté, je sais que tu\nsurmonteras tous les obstacles de la\fvie. Tu mérites ce Badge !
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Glacier de Frédo !
+3	Frédo : Ce Badge augmente les stats\nSpéciales de tes Pokémon.\rIl leur permet aussi d’utiliser Siphon\npour traverser de vrais tourbillons.\rEt ceci... C’est un cadeau de ma part !\r
+4	Frédo : Cette CT contient Grêle.\rElle déclenche une tempête de grêle de\ncinq tours. La grêle blesse tous les\ftypes sauf Glace.
+5	Frédo : Quand la glace et la neige\nfondent, le printemps arrive.\rToi et tes Pokémon serez ensemble\npendant de longues années. Chéris le\ftemps que vous passez ensemble !
+6	Frédo : C’est toi...\rPuisque tu es là, et si on prenait\nune photo ensemble ? {YESNO 0}
+7	Frédo : Un conseil avant la photo.\rInspire et détends-toi d’abord.\nPuis commence doucement à sourire.\fOn y va ?\r
+8	Frédo : Voyons...\nOn a fait une bonne photo ?
+9	Frédo : Ça va aussi.\nComme tu veux.
+10	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\nquelques photos.

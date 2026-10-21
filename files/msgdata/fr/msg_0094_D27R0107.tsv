@@ -1,0 +1,13 @@
+0	Jasmine : ...Ce Pokémon éclairait\ntoujours la mer la nuit.\r...Mais il est soudain tombé malade...\nIl a du mal à respirer...\r...Je sais qu’il y a une merveilleuse\nPharmacie à Irisia...\rMais c’est de l’autre côté de la\nmer... Et je ne peux pas laisser Amphy\fseul...\r
+1	...Puis-je te demander d’aller me\nchercher un médicament ? S’il te\fplaît ?\r
+2	Jasmine : ...Ce médicament\nguérira-t-il Amphy ? {YESNO 0}
+3	{STRVAR_1 3, 0, 0} a remis la Potion Secrète\nà Jasmine.
+4	Jasmine : ...Euh, ne te vexe pas...\rAmphy n’accepte rien de personne\nd’autre que moi...\r
+5	Jasmine : ...\rAmphy, comment te sens-tu ?\r
+6	Amphy : Palu !\nPalulu !\r
+7	Jasmine : ...Oh, je suis si soulagée...\nC’est tout simplement merveilleux...\rMerci infiniment.\n...Je retourne à l’Arène...\r
+8	Jasmine : ...Je vois...\r
+9	...Amphy, tiens bon !\r
+10	Amphy : ...\n...Pa...paloo...\r
+11	Sa respiration est faible...
+12	Amphy : Palu !\nPalulu !

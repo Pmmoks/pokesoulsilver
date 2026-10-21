@@ -1,0 +1,18 @@
+0	Salut, toi !\rTu viens d’arriver à Acajou, je vois.\nPuisque c’est nouveau pour toi, goûte\fun délicieux Bonbon Rage !\rEn ce moment, il est à toi pour\nseulement 300 $ ! Tu en veux un ? {YESNO 0}
+1	Je ne veux pas te vexer après que tu\nm’en as acheté un, mais...\rAcheter un Bonbon Rage n’a rien à voir\navec ma décision de te laisser\fpasser par ici.\r...Johto regorge d’endroits à visiter,\ncomme le Phare d’Oliville et la\fPharmacie d’Irisia.\rPourquoi ne pas ralentir et profiter\ndu tourisme ?
+2	Je ne veux pas te vexer après que tu\nm’en as acheté un, mais...\rAcheter un Bonbon Rage n’a rien à voir\navec ma décision de te laisser\fpasser par ici.\r...Johto regorge d’endroits à visiter,\ncomme le Phare d’Oliville et la\fPharmacie d’Irisia.\rPourquoi ne pas ralentir et profiter\ndu tourisme ?\r
+3	Quoi ? Un Bonbon Rage ?\nTu en veux un ?\rSuper !\rComme avant, il est à toi pour\nseulement 300 $ ! Tu en veux un ? {YESNO 0}
+4	Quoi ? Un Bonbon Rage ?\nTu en veux encore un ?\rJe pense qu’un seul te suffit.
+5	Une personne est venue de Kanto, il y\na longtemps, pour en acheter un.\rJe n’en avais plus en stock à ce\nmoment-là. Cette personne est\frepartie plutôt fâchée.\rÇa m’a fait un peu de peine.
+6	Une personne est venue de Kanto, il y\na longtemps, pour en acheter un.\rJe n’en avais plus en stock à ce\nmoment-là. Cette personne est\frepartie plutôt fâchée.\rÇa m’a fait un peu de peine.\r
+7	Tu n’as pas assez d’argent.
+8	Tu n’as pas assez d’argent.\r
+9	Oh, très bien alors...
+10	Oh, très bien alors...\r
+13	Tu as vu ce type à la cape noire ?\rIl fait des allers-retours entre ici et\nle Lac Colère en disant que d’étranges\fondes radio sont émises.\rQui peut-il bien être ?\n
+14	Tu vas voir le LEVIATOR se déchaîner\nau lac ?
+15	Les MAGICARPE sont revenus au\nLac Colère.\rC’est sûrement une excellente\nnouvelle pour les pêcheurs de là-bas.
+16	Va visiter la boutique de Mamie. Elle\nvend des trucs que personne d’autre\fn’a...\rTu veux acheter des trucs, non ?\nAlors achète chez ma mamie !
+17	Acajou\nLe repaire des Ninjas
+18	Simple boutique de souvenirs\rRien de suspect\nPas de panique
+19	Arène Pokémon d’Acajou\nChampion : Frédo\fLe Maître de la Rigueur de l’Hiver

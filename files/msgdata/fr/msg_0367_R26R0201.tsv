@@ -1,0 +1,3 @@
+0	Quelque chose est écrit ici.\nLe lire ? {YESNO 0}
+1	À mes frères et sœurs :\rNous sommes fiers de servir les\nDresseurs Pokémon.\rQuand des Dresseurs vous parlent,\ndonnez-leur quelque chose d’utile.\rAvec amour,\nMonica\rContinuer la lecture ? {YESNO 0}
+2	Lundi, Monica\nRoute 40\rMardi, Tuscany\nRoute 29\rMercredi, Wesley\nLac Colère\rJeudi, Arthur\nRoute 36\rVendredi, Frieda\nRoute 32\rSamedi, Santos\nEbenelle\rDimanche, Sunny\nRoute 37

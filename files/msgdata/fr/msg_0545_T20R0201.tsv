@@ -1,0 +1,39 @@
+0	Salut, {STRVAR_1 3, 0, 0} !\nTu es enfin réveillé.\fTon amie Lyra était juste là.\rElle jouait à cache-cache avec\nson MARILL.\rOh, j’allais oublier ! Notre\nconnaissance, le Prof. Orme, te\fcherchait.\rIl a dit qu’il avait un service à te\ndemander.\rTu sais où est le labo, non ?\nC’est juste à côté de chez nous.\rAu fait, as-tu tout ce qu’il te faut\npour sortir ? Tiens, utilise ce Sac pour\ftransporter tes affaires...\r
+1	Salut, {STRVAR_1 3, 0, 0} !\nTu es enfin réveillée.\fTon ami Ethan était juste là.\rIl jouait à cache-cache avec\nson MARILL.\rOh, j’allais oublier ! Notre\nconnaissance, le Prof. Orme, te\fcherchait.\rIl a dit qu’il avait un service à te\ndemander.\rTu sais où est le labo, non ?\nC’est juste à côté de chez nous.\rAu fait, as-tu tout ce qu’il te faut\npour sortir ? Tiens, utilise ce Sac pour\ftransporter tes affaires...\r
+2	Voici ta Carte Dresseur...\r
+3	Ici, tu peux sauvegarder ta\nprogression...\r
+4	Ceux-ci sont aussi très utiles...\r
+5	Touche simplement les boutons, et tu\nsauras vite quoi faire.\r
+6	Le Prof. Orme t’attend,\nmon cœur. Va l’aider, s’il te plaît.
+7	Oh ! {STRVAR_1 3, 0, 0} !\nQuel joli Pokémon tu as là.\rC’est le Prof. Orme qui te l’a donné ?\rOh, le Prof. Orme a une mission pour\ntoi ? Quel genre de mission ?\r...\rJe vois. Ça a l’air un peu difficile.\rMais quand quelqu’un te demande ça,\nc’est que c’est important !\rAh, c’est vrai !\nJ’ai complètement oublié !\rTon Pokématos est revenu de chez\nle réparateur !\rTiens, voilà !\r
+8	{STRVAR_1 3, 0, 0} reçoit\nle Pokématos !\r
+9	Le Pokémon Gear... ou Pokématos,\ncomme on dit souvent, est ce que tout\fDresseur devrait avoir.\r
+10	Tu sais quoi ?\nTu peux aussi passer un appel avec\fle Pokématos.\fTu te rappelles comment faire ? {YESNO 0}
+11	Allume simplement le Pokématos et\ntouche le bouton du téléphone,\fd’accord ?\r
+12	Sélectionne le bouton POKéMATOS sur\nl’écran tactile. Puis sélectionne\fle bouton du téléphone.\r
+13	Les noms des personnes que tu peux\nappeler sont enregistrés\fautomatiquement.\rChoisis-en un pour l’appeler.\rWaouh, je n’arrive pas à croire que\nc’est si facile de téléphoner !
+14	Qu’y a-t-il ?\rTu as oublié comment aller chez\nM. Pokémon ?\rVa vers le nord sur la Route 30.\nFais attention à toi, mon cœur.
+15	...\nAlors, tu pars à l’aventure...\rD’accord ! Je vais t’aider, moi aussi.\nMais que puis-je faire pour toi ?\rJe sais !\nÀ chaque fois que tu recevras un gain,\fj’en mettrai un peu de côté pour toi.\rEn voyage, l’argent, c’est important.\rVeux-tu que je mette de côté\ntout ton argent ? {YESNO 0}
+16	Je veux te soutenir dans ton\naventure, {STRVAR_1 3, 0, 0}.\fD’accord ! Je vais t’aider, moi aussi.\fMais que puis-je faire pour toi ?\rJe sais !\rÀ chaque fois que tu recevras un gain,\nj’en mettrai un peu de côté pour toi.\rEn voyage, l’argent, c’est important.\nVeux-tu que je mette de côté\ftout ton argent ? {YESNO 0}
+17	D’accord, je m’occupe de ton argent.\rFais attention à toi.\rLes Pokémon sont tes amis.\nEn faisant équipe,\fvous pouvez tout accomplir !\fAllez, vas-y !
+18	D’accord, mais fais attention\nlà-bas.\rLes Pokémon sont tes amis.\nEn faisant équipe,\fvous pouvez tout accomplir !\fAllez, vas-y !
+19	{STRVAR_1 3, 0, 0}, tiens bon !\nJe suis toujours là pour toi !
+20	Salut ! Bienvenue à la maison !\nTu t’en sors bien, à ce que je vois.\rJ’ai gardé ta chambre propre et\nrangée. Ou... C’est à propos de ton\fargent ? {YESNO 0}
+21	Fais de ton mieux, c’est tout.
+22	Oh !\nTu n’as pas d’argent de côté.
+23	Ton argent est en sécurité ici !\nPrends soin de toi !
+24	{STRVAR_1 3, 0, 0} Réfléchis bien à la façon de\nle dépenser !
+25	Veux-tu mettre de l’argent de côté ? {YESNO 0}
+26	Oh ! Tu n’as plus d’argent à mettre de\ncôté.\rNe gaspille pas ton argent en\nfutilités, d’accord ?\rJe sais que tu es raisonnable comme moi\net que je peux compter sur toi !
+27	J’en ai déjà mis tellement de côté.\nJe ne peux plus en garder.
+28	Tu as déjà beaucoup d’argent.\nJe ne peux pas t’en donner plus.
+29	RETIRER
+30	DÉPOSER
+31	CHANGER
+32	SORTIE
+33	Salut, {STRVAR_1 3, 0, 0} !\nLe Prof. Orme m’a dit qu’il avait\fquelque chose à te donner !\r
+34	Le Prof. Orme m’a dit qu’il avait\nquelque chose à te donner.\fPourquoi ne passes-tu pas à son labo ?
+35	La télé diffuse un film !\rDeux garçons dans une grotte\ncherchent un trésor !\rJe ferais mieux d’y aller...
+36	Burger Volcan de Cramois’Île !\nLa spécialité de maman !
+37	Un évier impeccable !\nMaman adore qu’il soit propre.
+38	Qu’y a-t-il dans le frigo...?\rBeaucoup d’eau potable et de la\nlimonade bien suuucrée !

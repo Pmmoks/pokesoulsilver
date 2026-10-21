@@ -1,0 +1,14 @@
+0	Toi !\nComment avance l’entraînement\fde tes Pokémon ?\rAs-tu remarqué que dans les\nmontagnes, il y a parfois des rochers\fronds en travers du chemin... ?\rTu peux les déplacer avec la\ncapacité cachée Force !\rParaît-il que les Montagnards du Mont\nCreuset en ont parfois en plus...
+1	Glou... glou...\r...Étouff ! Argh... Je m’étouffe !\rOuf ! Je l’ai échappé belle.\nJe devrais mâcher avant d’avaler.
+2	Chaque fois que je passe à Oliville,\nje vais au Café d’Oliville.\rTout ce qu’il y a au menu me rend plus\nfort. Je ne peux pas m’arrêter de\fmanger !
+3	Le menu du Café d’Oliville regorge de\nplats copieux pour les Marins\fcostauds !
+4	Jasmine : Salut !\n...!\rCes assiettes vides devant moi ne sont\npas toutes à moi...\rEuh...\rEn fait, la personne qui était assise\nlà avant moi a beaucoup mangé...\rBref, on échange nos numéros\nde téléphone ? {YESNO 0}
+5	{STRVAR_1 3, 0, 0} a enregistré Jasmine\ndans le Pokématos !
+6	Jasmine : Maintenant, on peut se\ncontacter quand on veut.\rJe devrais pouvoir me battre contre\ntoi vers midi le mercredi. J’attends\fton appel !
+7	Jasmine : Oh... Je comprends...
+8	Jasmine : Tu as changé d’avis ?\nOn échange nos numéros ? {YESNO 0}
+9	Jasmine : On dirait qu’on se... croise\nsouvent.\rEt si on prenait une photo\npour en garder un souvenir ? {YESNO 0}
+10	Jasmine : On y va ?\r
+11	Jasmine : Très bien.\nOn est bien, là.
+12	Jasmine : Je vois...
+13	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\nquelques photos.

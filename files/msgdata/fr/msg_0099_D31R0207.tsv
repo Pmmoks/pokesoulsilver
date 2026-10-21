@@ -1,0 +1,18 @@
+0	Veuillez trouver un partenaire parmi\nles Dresseurs réunis ici.\r
+1	{STRVAR_1 3, 0, 0}, vous n’avez pas encore\ntrouvé de partenaire pour votre\féquipe.\rSouhaitez-vous arrêter de chercher et\nretourner au comptoir d’accueil ? {YESNO 0}
+2	Merci d’avoir choisi un partenaire.\rJe vais maintenant vous conduire à\nvotre Salle de Combat Multiple.\r
+3	Riley : Mes partenaires actuels ?\rEh bien, mon {STRVAR_1 0, 0, 0} est redoutable\navec {STRVAR_1 6, 1, 0}.\rEt mon {STRVAR_1 0, 2, 0} est une valeur sûre\navec {STRVAR_1 6, 3, 0}.\rTu veux faire équipe avec moi ? {YESNO 0}
+4	Riley : ...Ah, c’est comme ça ?\nTant pis.
+5	Riley : Haha, merci.\nJe t’attends.\r
+6	Cheryl : Mon {STRVAR_1 0, 0, 0} est très doué\navec {STRVAR_1 6, 1, 0}\ret mon {STRVAR_1 0, 2, 0} adore frimer\favec {STRVAR_1 6, 3, 0}.\rVeux-tu faire équipe avec moi ? {YESNO 0}
+7	Cheryl : Oh...\nDommage...
+8	Cheryl : Alors, je pars devant.\r
+9	Buck : Yo, tu cherches à faire équipe ?\nJe te dis ce que j’ai.\rMon {STRVAR_1 0, 0, 0} est de première classe\navec {STRVAR_1 6, 1, 0}.\rEt mon {STRVAR_1 0, 2, 0} est imbattable\navec {STRVAR_1 6, 3, 0}.\rTu veux venir avec moi, pas vrai ? {YESNO 0}
+10	Buck : Hein ? Quoi ?\nC’est plutôt froid de ta part !
+11	Buck : Hé hé hé ! Bon choix !\nAvec moi, pas de souci !\r
+12	Marley : ...Mon {STRVAR_1 0, 0, 0} se sert\nbien de {STRVAR_1 6, 1, 0}...\rEt mon {STRVAR_1 0, 2, 0} aime utiliser\n{STRVAR_1 6, 3, 0}.\r...Qu’est-ce que tu veux ?\nJe suis censée aller avec toi ? {YESNO 0}
+13	Marley : ...Peu importe...
+14	Marley : ...Je pars devant...\r
+15	Mira : Coucou, coucou !\nJe suis avec mon {STRVAR_1 0, 0, 0} !\fIl est super fort avec {STRVAR_1 6, 1, 0} !\rL’autre, c’est mon {STRVAR_1 0, 2, 0}.\nSon {STRVAR_1 6, 3, 0} est génial !\rTu veux faire équipe avec moi ? {YESNO 0}
+16	Mira : Ah, d’accord.\nAlors une autre fois !
+17	Mira : D’accord ! Je t’attends !\n{STRVAR_1 3, 0, 0}, ne tarde pas !\r

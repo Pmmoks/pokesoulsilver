@@ -1,0 +1,15 @@
+0	J’écoutais la radio aux ruines.\rJ’y ai entendu une émission étrange.
+1	Mary : Pourquoi ? Pourquoi dois-je\nsubir ça ?\rMIAOUSS, aide-moi !
+2	Mary : Oh ! Tu me sauves la mise !\nVeux-tu accepter ceci en guise de\fremerciement ?\r
+3	{STRVAR_1 3, 0, 0} a reçu la Poudre Claire\nde Mary !
+4	Mary : Quand un Pokémon la porte,\nla précision de l’adversaire baisse.
+5	Noooon ! Ton Sac est plein !
+6	Mary : Écoute-moi dans l’émission\nPokémon Talk du Prof. Chen.
+7	MIAOUSS : Miaouss...
+8	3e ÉT. Production
+9	3e ÉT. Studio 1
+10	Ben : Team Rocket... Il leur manque\nquelque chose. La musique !\rLa musique enrichit le cœur et l’âme.\rLes amoureux de la musique ne feraient\njamais de telles horreurs dans un\flieu comme la Tour Radio !
+11	Ben : Tu écoutes notre musique ?
+12	Lance, le chef de cette mission à la\nTour Radio... Qu’est-ce qu’il est\fclasse.\r
+13	Qui es-tu ?\rSi tu gênes Lance... Je veux dire la\nTeam Rocket. Je ne le permettrai pas !\r
+14	La Team Rocket et Lance, c’est tout\nce qu’il me faut !\rLes Pokémon, on s’en fiche !

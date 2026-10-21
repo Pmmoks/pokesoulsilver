@@ -1,0 +1,11 @@
+0	Le Lac Colère est en fait un cratère\nformé par des LEVIATOR déchaînés.\rLe cratère s’est rempli d’eau de pluie\net le lac est né.\rC’est l’histoire transmise depuis\nl’arrière-arrière-grand-père de mon\fgrand-père.\rAvant, on pouvait y attraper de vifs\nMAGICARPE, mais...\rJe ne comprends pas ce qui se passe.
+1	Le Lac Colère n’est plus normal depuis\nl’arrivée de ces hommes en noir.
+2	Le Lac Colère est redevenu normal.\nLes MAGICARPE sont de retour.\rJe pourrai peut-être réaliser mon\nrêve de voir le plus grand MAGICARPE\fdu monde.\rAs-tu une Canne ?\nAide-moi si c’est le cas.
+3	Ah, tu as un MAGICARPE !\nVoyons quelle taille il fait.\r
+4	{STRVAR_1 52, 0, 0}.{STRVAR_1 50, 1, 0} pouces !\nUn MAGICARPE de {STRVAR_1 52, 0, 0}.{STRVAR_1 50, 1, 0} pouces !\rWaouh ! Il est exceptionnel !\nJe te tire mon chapeau !\rPrends ceci en souvenir !\r
+5	L’important, c’est le record.\nConsidère ça comme un bonus !
+6	{STRVAR_1 52, 0, 0}.{STRVAR_1 50, 1, 0} pouces !\rC’est merveilleux !\n...Ou pas.\fJ’ai déjà vu un MAGICARPE\fde la même taille.
+7	Ce MAGICARPE fait {STRVAR_1 52, 0, 0}.{STRVAR_1 50, 1, 0} pouces.\rMais j’en ai déjà vu un de\n{STRVAR_1 52, 2, 0}.{STRVAR_1 50, 3, 0} pouces.
+8	Quoi ? Ce n’est pas un MAGICARPE !
+9	...Ton Sac est trop plein !\nRien n’y rentrera...
+10	Oh... Tu n’en as pas attrapé un assez\nbien pour me le montrer ?\fPeut-être la prochaine fois.

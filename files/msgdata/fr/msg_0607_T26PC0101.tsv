@@ -1,0 +1,9 @@
+0	Les Pokémon deviennent plus amicaux\nquand on passe du temps avec eux.
+1	Ils peuvent briller comme une lumière\nvive, comme un phare dans la nuit...\rIls peuvent nous porter sur leur dos\nà travers l’eau quand on n’a pas\fde bateau...\rLes Pokémon nous aident partout. Je\nne peux pas imaginer la vie sans eux !
+2	Il y a quelqu’un à Irisia,\nde l’autre côté de la mer.\rJe l’ai entendu se vanter de ses\nPokémon rares.
+3	...Voilà !\nC’est fini !\fÇa va surprendre tout le monde !\r
+4	Oh, tu fais des combats ?\rTu tombes à pic ! Je viens de poser ma\nCapsule sur ma Poké Ball.\rTu veux te battre et être ébloui par\nma décoration ? {YESNO 0}
+5	Très bien !\nJ’arrive !\r
+6	Avec des Sceaux, tu peux transformer\ntes Poké Balls en créations uniques.\rUne Poké Ball que personne d’autre\nau monde n’a, c’est génial, non ?\fEssaie !\rOh, pense à mettre la Capsule sur une\nPoké Ball quand elle est prête !
+7	Ah bon ?\rParle-moi si tu veux voir ma Capsule\nun jour !
+8	Tu veux voir ma Capsule maintenant ?\rBats-toi contre moi et je te la\nmontre ! {YESNO 0}

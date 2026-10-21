@@ -1,0 +1,28 @@
+0	Peter : Ça va ?\rTes Pokémon sont blessés et fatigués.\nTiens, donne-leur un peu de mon remède.\r
+1	Peter : {STRVAR_1 3, 0, 0}, donnons le meilleur\nde nous-mêmes pour les Pokémon.\r
+2	Peter : {STRVAR_1 3, 0, 0}, donnons le meilleur\nde nous-mêmes pour les Pokémon.\r
+3	Ariane : Halte-là !
+4	Ariane : On ne peut pas laisser un\ncasse-pieds comme toi faire ce qu’il\fveut éternellement.\rÇa blesse sans cesse la fierté de la\nTeam Rocket. Elle s’amenuise, tu vois.\r...Alors il est temps d’en finir avec toi.\nAussi redoutable que tu sois, à deux\fcontre un, tu n’as aucune chance de\fgagner. N’est-ce pas ?\rHi hi hi ! Désolée, mon chou. Maintenant,\nprépare-toi à te faire écraser.\r
+5	Peter : Une minute !\rUn deux contre un ?\nC’est tellement injuste !\rCe serait bien dans le style de la Team\nRocket d’être aussi sournoise.\nLaissez-moi me joindre au combat !\r
+6	Ariane : Quoi ? Tu as un complice ?\nOù est ta dignité ?\rEn tant que chef par intérim à la place\nde Giovanni, je vais t’apprendre ce qu’il\fen coûte de se mêler des affaires de la\fTeam Rocket !\r
+7	Tch, tu es vraiment coriace.\nC’est dommage.\rSi tu rejoignais la Team Rocket, tu\npourrais devenir Admin.\r
+8	Ariane : Mais ce n’est pas grave.\nL’expérience de diffusion a été un\fsuccès total.\rCe qui arrive à cette planque n’a plus\nd’importance.\rNous avons des projets bien plus\ngrands. Tu comprendras bientôt la vraie\fpuissance de la Team Rocket.\rProfite tant que tu peux...\nHi hi hi...\r
+9	Peter : Ça y est. Nous avons vaincu\ntous les membres de la Team Rocket ici.\rMais je m’inquiète pour le jeune homme\naux cheveux roux que j’ai affronté au\fpassage...\r
+10	Désolé, {STRVAR_1 3, 0, 0}. Je voyais que tu te\ndébrouillais bien, alors je suis resté en\fretrait.\rIl ne reste plus qu’à couper\ncet étrange signal radio.\r
+11	Désolé, {STRVAR_1 3, 0, 0}. Je voyais que tu te\ndébrouillais bien, alors je suis resté en\fretrait.\rIl ne reste plus qu’à couper\ncet étrange signal radio.\r
+12	C’est cette machine qui cause tous les\nproblèmes. Je ne vois aucun\finterrupteur...\rPas le choix. Il faut mettre K.O. tous\nles ELECTRODE.\rÇa devrait empêcher la machine\nd’émettre ce signal étrange.\rCe n’est pas la faute des ELECTRODE,\nalors ça me peine.\r{STRVAR_1 3, 0, 0}, partageons-nous la tâche.\r
+13	C’est cette machine qui cause tous les\nproblèmes. Je ne vois aucun\finterrupteur...\rPas le choix. Il faut mettre K.O. tous\nles ELECTRODE.\rÇa devrait empêcher la machine\nd’émettre ce signal étrange.\rCe n’est pas la faute des ELECTRODE,\nalors ça me peine.\r{STRVAR_1 3, 0, 0}, partageons-nous la tâche.\r
+14	Peter : Laisse-moi ce côté-ci.\r
+15	Peter : Cet étrange signal s’est enfin\narrêté. Le lac devrait redevenir\fnormal. Tu es formidable !\rPermets-moi de te remercier au nom de\ntous les Pokémon. Ah, oui. Prends ceci.\rJe l’ai trouvé ici, mais je n’en ai\npas l’usage.\r
+16	{STRVAR_1 3, 0, 0} reçoit la CS05 de Peter !
+17	Peter : C’est Siphon.\rEnseigne-le à un Pokémon pour\ntraverser les eaux agitées. Mais\fretiens ceci.\rHors combat, tu ne pourras l’utiliser\nqu’avec le Badge de l’Arène d’Acajou.\r
+18	{STRVAR_1 3, 0, 0}...\rLe chemin pour devenir Maître Pokémon\nest long et difficile.\rSachant cela, vas-tu continuer ?\r..................\rJe vois. Non, tu as raison.\rSi tu abandonnais aussi facilement, tu\nn’aurais jamais poursuivi ce rêve.\rJe me réjouis de te revoir !\r
+19	{STRVAR_1 3, 0, 0}...\rLe chemin pour devenir Maître Pokémon\nest long et difficile.\rSachant cela, vas-tu continuer ?\r..................\rJe vois. Non, tu as raison.\rSi tu abandonnais aussi facilement, tu\nn’aurais jamais poursuivi ce rêve.\rJe me réjouis de te revoir !\r
+20	“L’Émetteur Radio”\rCette porte semble vérifier la voix de la\npersonne qui prononce le mot de passe\favant de s’ouvrir...
+21	La porte est fermée...\r{STRVAR_1 3, 0, 0} entre le mot de passe.\rLa porte s’est ouverte !\r
+22	C’est l’émetteur radio qui envoie le\nsignal sinistre.\rIl tourne à plein régime.
+23	L’émetteur radio a enfin cessé sa\ndiffusion maléfique.
+24	CORNEBRE : Le mot de passe est...\fGloire à Giovanni.\r
+25	CORNEBRE : Le mot de passe est...\fGloire à Giovanni.\r
+26	CORNEBRE : Le mot de passe est...\fGloire à Giovanni.\r
+27	CORNEBRE crie le mot de passe en\nimitant la voix de Pétrel.\r..................\rLe système de reconnaissance vocale a\ndéverrouillé la porte !\r

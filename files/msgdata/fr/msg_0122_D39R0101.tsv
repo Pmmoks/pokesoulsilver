@@ -1,0 +1,8 @@
+0	Tu vois l’objet là-bas ?\rC’est moi qui l’ai laissé tomber, mais je\nne peux pas aller le ramasser.\rPourquoi ?\rMarcher sur la glace, ça gèle les\npieds !\rMes chaussures sont tellement usées\nqu’il n’y a plus de semelles !
+1	Tu vois l’objet là-bas ?\rC’est moi qui l’ai laissé tomber, mais je\nne peux pas aller le ramasser.\rPourquoi ?\rMarcher sur la glace, ça gèle les\npieds !\rMes chaussures sont tellement usées\nqu’il n’y a plus de semelles !\r
+2	L’objet que tu as ramassé là-bas...\nc’était une CS, n’est-ce pas ?\rC’est moi qui l’avais laissée tomber...\nmais je veux que tu la gardes. Tu as\fpris la peine d’aller la chercher, non ?\rElle contient Cascade.\nAmuse-toi à grimper les cascades !\rMoi ?\rIl me faut d’abord une nouvelle paire\nde chaussures pour profiter des\fcascades.
+3	Oh là là...\nC’est toi, {STRVAR_1 3, 0, 0} ?\fQuelle surprise de te voir ici !\rÀ vrai dire... mes sandales sont gelées\nsur la glace, et je suis coincée ici.\rAutrement dit, mes tongs sont\nsurgelées au sol.\rHi hi.\rEnfin, ce n’est pas drôle. Tu veux bien\nvenir me pousser dans le dos ?
+4	Oh là là...\nC’est toi, {STRVAR_1 3, 0, 0} ?\fQuelle surprise de te voir ici !\rÀ vrai dire... mes sandales sont gelées\nsur la glace, et je suis coincée ici.\rAutrement dit, mes tongs sont\nsurgelées au sol.\rHi hi.\rEnfin, ce n’est pas drôle.\nTu veux bien me pousser dans le dos ? {YESNO 0}
+5	{SIZE 200}POUSSE !{SIZE 100}\r
+6	Ne me laisse pas comme ça.\nTu vas me pousser dans le dos,\fn’est-ce pas ? {YESNO 0}
+7	Tu as vraiment bon cœur.\rMerci mille fois !\r

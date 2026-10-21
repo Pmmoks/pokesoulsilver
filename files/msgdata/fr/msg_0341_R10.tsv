@@ -1,0 +1,10 @@
+0	Major Bob : Oh, génial !\nTu as mon Pokémon préféré :\fPIKACHU !\rExcellent ! Je te donne mon numéro\nde téléphone ! {YESNO 0}
+1	{STRVAR_1 3, 0, 0} a enregistré Major Bob\ndans le Pokématos !
+2	Major Bob : Appelle-moi vendredi\nmatin !\rOn pourra se faire un combat\nélectrisant !
+3	Major Bob : Oh non !\nQuelle déception !
+4	Major Bob : Aha !\nMaintenant tu veux mon numéro de\ftéléphone, n’est-ce pas ? {YESNO 0}
+5	Major Bob : Oh ! Quelle chance de te\ncroiser dans un endroit pareil !\rJe sens de l’énergie électrique près\nde la Centrale.\rTu devrais capturer un PIKACHU dans\nla Forêt de Jade et l’amener ici !
+6	Un gros Pokémon te fixe...!\r
+7	ELECTHOR : Rorrrrrkoom !\r
+8	Centrale de Kanto
+9	Grotte

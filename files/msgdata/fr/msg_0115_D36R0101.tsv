@@ -1,0 +1,66 @@
+0	Oh là là... Mon patron va être\nfurieux...\rLes CANARTICHO qui coupent les arbres\npour le charbon se sont enfuis dans la\fforêt.\rPeux-tu les attraper pour moi ?\nLes CANARTICHO ont l’oreille fine.\rSi tu marches sur une branche, ils se\ntournent vers toi. C’est ta chance.\rApproche-toi par-derrière et\nattrape-les... Tu crois que tu peux y\farriver ?
+1	Waouh ! Tu as trouvé un CANARTICHO !\nMerci !\rMais...\nIl en manque encore un.\rSi tu marches sur une branche, il se\ntourne de ce côté, souviens-t’en.\rC’est ta chance de l’attraper.\nApproche-toi doucement par-derrière.
+2	Waouh !\nTu me les as ramenés tous les deux !\fMerci infiniment !\rLes Pokémon de mon patron ne\nm’obéissent pas, parce que je n’ai pas\fde Badge.\rOuf. Tu m’as sauvé.
+3	CANARTICHO : Couac !\r
+4	CANARTICHO : Couac !
+5	{STRVAR_1 3, 0, 0} a attrapé le CANARTICHO !\r
+6	Ah !\nMon Far et mon Fetch’d !\rC’est toi qui nous les as retrouvés ?\nSans eux, on ne pourrait plus couper\fd’arbres pour le charbon.\rMerci à toi !\rComment te remercier... ?\nJ’ai une idée ! Tiens, prends ça.\r
+8	C’est Coupe. Enseigne cette capacité à\nun Pokémon pour dégager les petits\farbres.\rBien sûr, il te faut le Badge de l’Arène\nd’Écorcia pour l’utiliser.
+10	Tu veux devenir apprenti charbonnier\navec moi ?\rDans dix ans, tu seras de premier\nordre !
+11	Ce que je fais ?\rJe secoue les arbres avec Coup\nd’Boule.\rC’est amusant. Tiens, essaie aussi avec\ntes Pokémon ! {YESNO 0}
+12	Tu veux l’essayer avec ton\nPokémon ? {YESNO 0}
+13	Je vois...\nPrends bien soin de sa tête.
+14	Quel Pokémon doit l’apprendre ?\r
+15	Hmm... Même moi, je ne peux rien\napprendre à un Œuf.\r
+16	Désolé... Ce Pokémon ne peut pas\napprendre Coup d’Boule.\r
+17	{STRVAR_1 1, 0, 0} essaie d’apprendre\nCoup d’Boule.\rMais {STRVAR_1 1, 0, 0} ne peut pas apprendre\nplus de quatre capacités.\rOublier une ancienne capacité pour\nfaire de la place à Coup d’Boule ? {YESNO 0}
+18	Faut-il oublier la capacité\n{STRVAR_1 6, 1, 0} ? {YESNO 0}
+19	Renoncer à enseigner Coup d’Boule ? {YESNO 0}
+20	1,{PAUSE 20} 2 et{PAUSE 20}...{PAUSE 20} ...{PAUSE 20} Pouf !
+21	1,{PAUSE 20} 2 et{PAUSE 20}...{PAUSE 20} ...{PAUSE 20} Pouf !
+22	Voilà. Qu’en penses-tu ?\nTon {STRVAR_1 0, 0, 0} a l’air plus fort !
+23	Ton {STRVAR_1 0, 0, 0}\nconnaît déjà Coup d’Boule.\r
+24	{STRVAR_1 1, 0, 0} a oublié\n{STRVAR_1 6, 1, 0}.\rEt...
+25	{STRVAR_1 1, 0, 0} apprend Coup d’Boule.
+26	{STRVAR_1 1, 0, 0} apprend Coup d’Boule !
+27	Conseils aux Dresseurs !\rLe Bois aux Chênes est si envahi\nd’arbres qu’on n’y voit pas le ciel.\rFaites attention aux objets qui ont pu\nêtre laissés par terre.
+28	Sanctuaire du Bois aux Chênes...\rUn hommage au protecteur de la\nforêt...
+29	Kimono Girl, Kimono Girl, perdue et\ntoute seule. Pauvre fille perdue dans le\fnoir du Bois aux Chênes.\r
+30	Quoi ?\nTu te souviens de moi à Mauville ?\fTu dois te tromper.\rEn tout cas, tu veux bien me montrer\ncomment sortir de cette forêt ? {YESNO 0}
+31	Tu veux bien... ? Tu ne tournes pas en\nrond dans la forêt, toi aussi ? Comment\fsais-tu en sortir ?\r
+32	Oh là là...\nTu tournes en rond toi aussi, non ?\r
+33	Waouh ! Tu vas me montrer la sortie ?\fQuel Pokémon intelligent !\r
+34	À plus.\r
+35	Un CANARTICHO t’a remarqué !\nIl semble se tourner vers le bruit\fquand tu marches sur une branche.
+36	Il faut l’attraper par-derrière.
+37	Tu l’as pris par surprise et attrapé\npar derrière avant qu’il ne te\fremarque !
+38	C’est un PICHU...!\nUne de ses oreilles est pointue !\r
+39	Il veut rejoindre ton équipe.\nAccepte-le !\r
+40	Le PICHU aux oreilles pointues a\nrejoint ton équipe !
+41	...Ton équipe est pleine !\r
+42	...Ton équipe est pleine !\rVa d’abord stocker un Pokémon dans une\nBoîte du PC.
+43	PICHU aux oreilles pointues : Zapzap\nchu !\r
+44	{STRVAR_1 3, 0, 0} reçoit la Poké Ball !
+45	Veux-tu donner un surnom au\nPICHU aux oreilles pointues ? {YESNO 0}
+46	Hé, hé ! Il ne faut pas toucher à ce\nsanctuaire ! On dit que les gens\fdisparaissent.\r
+47	Des enfants et des Pokémon\ndisparaissent parfois autour de ce\fsanctuaire.\rOn croit qu’un Pokémon qui voyage à\ntravers le temps en est la cause.\rC’est vraiment étrange...\r
+48	Eh bien, eh bien, ce doit être...\rCe doit être le PICHU qui vit dans cette\nforêt depuis un certain temps.\rQuand je l’ai vu la première fois, il\nparaissait seul. Aujourd’hui, il déborde\fd’énergie.\r
+49	Je vois. On dirait que ces vieux amis se\nretrouvent enfin après si longtemps.\r
+50	Tu transportes beaucoup de Pokémon.\rPourquoi ne pas en déposer un\nau Centre Pokémon ?\fJe m’en occuperai en attendant.
+51	Être avec des amis devrait le rendre\nheureux. Prends-en bien soin.\r
+52	Ah, la voici !\rJe vais te donner cette Poké Ball, à toi\nqui voyages avec des Pokémon.\rJe m’en servais quand j’étais plus\njeune.\rNe t’inquiète pas.\nElle est encore en bon état.\r
+53	Il semble que le PICHU aux oreilles\npointues veuille rester dans ta Poké\fBall.\r
+54	Tu l’as appelé {STRVAR_1 1, 0, 0} ?\nQuel joli nom !\r
+55	Il t’attendait depuis tout ce temps.\rParle-lui. Ça lui fera plaisir.
+56	Ethan : Salut, {STRVAR_1 3, 0, 0}. Tu as\nentendu parler de la légende du\fsanctuaire ?\rOn dit que les gens disparaissent quand\nils y touchent.\r
+57	Lyra : Salut, {STRVAR_1 3, 0, 0}. Tu as\nentendu parler de la légende du\fsanctuaire ?\rOn dit que les gens disparaissent quand\nils y touchent.\r
+58	Ethan : ...\nC’était quoi, ça ?\r
+59	Lyra : ...\nC’était quoi, ça ?\r
+60	Ethan : Voyager dans le temps, ce n’est\nvraiment pas agréable.\r
+61	Lyra : Voyager dans le temps, ce n’est\nvraiment pas agréable.\r
+62	Hé, mon MARILL !\r
+63	Hé, mon MARILL !\r
+64	Je croyais que je ne te reverrais\njamais !\rAttends...\nOn doit être de retour à notre époque !\r
+65	Tu m’as tellement manqué !\rAttends...\nOn doit être de retour à notre époque !\r
+66	C’était vraiment bizarre. Mais\nmaintenant qu’on est de retour à notre\fépoque et que le terrible plan de la\fTeam Rocket a échoué, on peut dire...\fque tout est bien qui finit bien, non ?\r{STRVAR_1 3, 0, 0}, tu ne cesses de nous\nentraîner dans de grandes aventures !\rC’était quand même une journée\népuisante. Je ferais mieux d’y aller.\rÀ plus !\r
+67	C’était vraiment bizarre. Mais\nmaintenant qu’on est de retour à notre\fépoque et que le terrible plan de la\fTeam Rocket a échoué, on peut dire...\fque tout est bien qui finit bien, non ?\r{STRVAR_1 3, 0, 0}, tu ne cesses de nous\nentraîner dans de grandes aventures !\rC’était quand même une journée\népuisante. Je ferais mieux d’y aller.\rÀ plus !\r

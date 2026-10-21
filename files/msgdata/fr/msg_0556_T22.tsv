@@ -1,0 +1,28 @@
+0	Allô, {STRVAR_1 3, 0, 0} ? On a découvert\nquelque chose sur l’Œuf !\rMon assistant est au Centre Pokémon\nde Mauville.\fPeux-tu aller lui parler ?
+1	Bonjour !\nDresseur, tu es ?\rChampion d’Arène, battu tu as ? {YESNO 0}
+2	Ooh, là là !\nTrès bien, c’est !
+3	Ah bon ? Alors étudier, tu devras !\fSuis-moi !\r
+4	Ici, professeur je suis.\nBien c’est que tu étudies ici !\r
+5	On dit que des Pokémon de type Spectre\napparaissent dans la Tour Chétiflor.\rParaît-il que les capacités de type\nNormal n’ont aucun effet sur eux.
+6	Hé, tu es un Dresseur Pokémon ?\rSi tu bats le Champion d’Arène d’ici,\ntu seras prêt pour la gloire !
+7	Albert, de l’Arène Pokémon de Mauville,\nest un excellent Dresseur !\rIl a hérité de l’Arène de son père et\nla dirige à merveille.
+8	On ne peut pas faire marcher son\nPokémon dehors à côté de soi partout.\rDans des endroits comme les bâtiments,\nles grottes et les lieux très\ffréquentés.\rMais il suffit de le remettre dans\nsa Poké Ball !
+9	Mauville\nLa ville aux parfums nostalgiques
+10	Arène Pokémon de Mauville\nChampion : Albert\fL’élégant maître des Pokémon Vol
+11	Tour Chétiflor\rApprends la Voie des Pokémon\npour dissiper tes doutes.
+12	École Pokémon\rEarl t’apprend tout\nsur les Pokémon !
+13	Mon Dieu...\nCet Œuf doit être...!\r
+14	Je vois...\nIl est passé de M. Pokémon au\fProf. Orme, puis du Prof. Orme\fà toi.\rMaintenant je comprends...\r
+15	Cet Œuf est vraiment très important.\nPrends-en bien soin pour moi, s’il te\fplaît.\rC’est bien compris ?\r
+16	Je compte sur toi.\r
+17	Un Tesson contre une Baie !\nUn Tesson contre une Baie !\rOuais, ouais !\nMoi échanger Baie contre Tesson.\rSi toi m’apporter des Tessons,\nmoi te donner trois Baies, ouais.\r
+18	Un Tesson contre une Baie !\nUn Tesson contre une Baie !\rOuais, ouais !\nMoi échanger Baie contre Tesson.\rSi toi m’apporter des Tessons,\nmoi te donner trois Baies, ouais.\rQuel Tesson toi échanger\ncontre Baies ? {YESNO 0}
+19	Encore des Tessons à échanger\ncontre des Baies ? {YESNO 0}
+20	Ouais, ouais !\nReviens quand toi avoir changé\fd’avis, ouais.\r
+21	Moi te donner le lot de Baies A\ncontre le Tesson Rouge, ouais.\r
+22	Moi te donner le lot de Baies B\ncontre le Tesson Bleu, ouais.\r
+23	Moi te donner le lot de Baies C\ncontre le Tesson Jaune, ouais.\r
+24	Moi te donner le lot de Baies D\ncontre le Tesson Vert, ouais.\r
+25	Toi avoir déjà beaucoup de Baies\nde ce lot.\rReviens quand toi en vouloir plus,\nouais.\r
+26	Nous tenons aux bâtiments\ntraditionnels de la ville. C’est\fpourquoi même la Boutique Pokémon et\fle Centre Pokémon sont peints de façon\fun peu sobre pour s’y fondre.
+27	Tu savais que le Pokématos permet\nd’ajouter des marques et des mémos\fsur sa Carte ?\rJ’aimerais bien en avoir un,\nmais maman ne veut pas.

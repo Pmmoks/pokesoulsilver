@@ -17,7 +17,7 @@
 16	NON
 17	Ce MOTISMA n’est entré dans aucun\nmoteur.
 18	Il y avait un appareil ici.\nCelui avec le moteur de forme bizarre.
-19	ANNULER
+19	RETOUR
 20	C’est un four à micro-ondes.\nIl a un moteur de forme bizarre.\r
 21	C’est un four à micro-ondes.\nIl a un moteur de forme bizarre.\rOh ? MOTISMA semble vouloir entrer\ndans le moteur.\rLe laisser entrer dans le moteur ? {YESNO 0}
 22	MOTISMA a renoncé à contrecœur à\nentrer dans le moteur du four à\fmicro-ondes...

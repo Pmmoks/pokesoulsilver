@@ -1,0 +1,7 @@
+0	Ah. Tu es en aventure avec tes\nPokémon ?\rEh bien, une aventure sans chasse au\ntrésor, ce n’est pas une aventure !\rJ’ai raison, ou j’ai raison ? {YESNO 0}
+1	Bien ! Tu comprends le véritable esprit\nde l’aventure.\rÇa me plaît ! Prends ça avec toi.
+3	Il y a plein d’objets cachés qui ne se\nremarquent pas.\rTouche le Cherch’Objet un moment pour\nvoir s’il émet un son aigu.\rQuand c’est le cas, c’est qu’il y a\nun objet près de toi.\rEn marchant pendant que tu l’utilises,\ntu les trouveras plus facilement.\rAh oui, il paraît qu’il y a des objets\ndans la Tour Cendrée de Rosalia.
+4	Oh... Chacun ses goûts, je suppose...
+5	Histoire de Rosalia\rVeux-tu la lire ? {YESNO 0}
+6	À Rosalia, il y avait deux tours.\nChacune servait de perchoir à un\fpuissant Pokémon volant.\rMais l’une des tours a brûlé\njusqu’au sol.\rOn n’a plus revu les deux Pokémon\ndepuis...\rContinuer la lecture ? {YESNO 0}
+7	Rosalia abritait aussi trois Pokémon\nqui couraient autour de la ville.\rOn disait qu’ils étaient nés de l’eau,\nde la foudre et du feu.\rMais ils ne pouvaient pas contenir\nleur pouvoir excessif.\rAlors, dit-on, les trois ont filé comme\nle vent dans la prairie.

@@ -1,0 +1,63 @@
+0	Bonjour, mon enfant.\rJe vends des remèdes à base de plantes\npas chers. Ils sont efficaces, mais un\fbrin amers.\rTes Pokémon risquent de ne pas aimer.\nHé hé hé... {YESNO 0}
+1	Salut ! Tu veux voir des bonnes\naffaires ?\rJe vends des objets rares que\npersonne d’autre n’a... mais un seul\fexemplaire de chacun. {YESNO 0}
+2	{STRVAR_1 8, 0, 0} coûte\n{STRVAR_1 53, 1, 0} $. Tu le veux ?
+3	Merci.\r
+4	Rangement de {STRVAR_1 8, 0, 0}\ndans la poche {STRVAR_1 18, 1, 0}. {YESNO 0}
+5	Tu l’as déjà acheté. Je n’en ai plus en\nstock. {YESNO 0}
+6	Oups, tu n’as pas assez d’argent. {YESNO 0}
+7	Oups, ton Sac est plein à craquer. {YESNO 0}
+8	C’est fermé pour aujourd’hui.
+9	Reviens me voir un de ces jours.
+10	Bienvenue !\rJe tiens le Salon Pokémon !\rJe suis l’aîné, et le meilleur, des deux\nFrères Coiffeurs.\rJe peux embellir votre Pokémon pour\nseulement 500 $.\rUn toilettage améliore l’apparence.\nVotre Pokémon deviendra plus amical et\fplus beau.\rSouhaitez-vous que je m’en occupe ? {YESNO 0}
+11	Sur quel Pokémon dois-je travailler ?
+12	D’accord ! Regardez-le embellir !
+13	Voilà ! C’est terminé !
+14	Vraiment ? Quel dommage !
+15	Il vous faudra plus d’argent que ça.
+16	Je ne fais qu’une coupe par jour,\ndésolé. J’ai fini pour aujourd’hui.
+17	Bienvenue au Salon Pokémon !\rJe suis le cadet, et le moins cher, des\ndeux Frères Coiffeurs.\rJe bichonne votre Pokémon pour\nseulement 300 $.\rUn toilettage améliore l’apparence.\nVotre Pokémon deviendra plus amical et\fplus beau.\rAlors ? Qu’en dites-vous ?
+18	D’accord, quel Pokémon dois-je\nbichonner ?
+19	D’accord ! J’espère faire du bon\ntravail !
+20	Et voilà ! C’est fini !
+21	Non ? Quelle déception !
+22	Il vous manque un peu d’argent.
+23	J’ai l’impression que ça se passera mal\nla prochaine fois. Je ferme pour\faujourd’hui !
+24	{STRVAR_1 0, 0, 0} a retrouvé un peu le\nsourire.
+25	{STRVAR_1 0, 0, 0} rayonne de joie.
+26	{STRVAR_1 0, 0, 0} est aux anges !
+27	ENTRÉE INTERDITE AU-DELÀ DE CE POINT
+28	{STRVAR_1 3, 0, 0} insère la\nClé Sous-Sol.\r
+29	Bienvenue au Studio Photo Souvenir.\nNous ne sommes pas un studio\fordinaire !\rVous pouvez porter un uniforme de la\nTeam Rocket pour vous faire\fphotographier !\rVoulez-vous essayer ? {YESNO 0}
+30	Placez-vous devant l’appareil\nune fois votre tenue enfilée.\r
+31	On y va ?\rAllez ! Prenez un air cool, comme si le\nmonde vous appartenait !\r
+32	Bien joué.\rVous pouvez voir la photo sur le PC.
+33	Vous pouvez porter un uniforme de la\nTeam Rocket pour vous faire\fphotographier !\rVoulez-vous essayer ? {YESNO 0}
+34	...Je comprends.\rPersonne ne devrait admirer la Team\nRocket.
+35	Hmm. Votre Album Photo est plein.\rAllez sur votre PC et supprimez\nquelques photos.
+36	Hein ?\rTu es une nouvelle recrue, toi aussi ?\rOn a dû recruter de nouveaux membres\npour la mission à la Tour Radio. Puis on\fa manqué d’uniformes.\rJ’ai entendu dire que ce studio en\navait, alors j’ai décidé d’en\f“emprunter” un.\rComme tu es là, pourquoi ne pas te\nchanger aussi ?\r
+37	Regarde-toi ! Pas mal du tout !\rMais ne va pas faire peur aux gens en\nte promenant comme ça, d’accord ?
+39	Ooh, vos Pokémon sont si charmants !\nQuel enchantement !\rSi vous habillez votre Pokémon ici,\nrendez-le magnifique !\rEt j’accrocherai même une photo de\nl’un d’eux dans l’autre salle !\rVous allez le faire, n’est-ce pas ? {YESNO 0}
+40	Oh, vous alors...\nOù est votre goût de l’aventure ?
+41	Ooh, ooh, oui ! Merveilleux !\nNe perdons pas de temps !\rDois-je vous expliquer comment habiller\nvotre Pokémon ? {YESNO 0}
+42	Ooh, quel Pokémon allez-vous habiller,\nje me demande ?\r
+43	Hi hi hi... J’espère que vous\nl’habillerez de façon adorable !\r
+44	Vous avez un Coffre Mode, n’est-ce\npas ? Ah, oui, merveilleux !\rChoisissez simplement les Accessoires\net mettez-les sur votre Pokémon.\rQuand vous aurez fini, je prendrai une\nphoto et je l’accrocherai à côté de\fmoi !\rSi vous mélangez vos records avec ceux\nd’autres Dresseurs, vous pourrez\faussi obtenir leurs photos !\rJe pense que ce sera bien plus simple si\nvous essayez directement ! {YESNO 0}
+45	Ooh, beau travail !\nAccrochons la photo tout de suite !\fOh, mais il lui faut un titre !\r
+46	{STRVAR_1 28, 0, 0}...\rOoh, oui, oui ! Je comprends\nmaintenant ! Votre sens esthétique\ftransparaît !\r
+47	Oh, non, non, non !\nSans titre, elle sera bien triste.\r
+48	Oh... Vous repartez sans rien avoir\nfait... Quelle déception.
+49	Si vous habillez à nouveau un Pokémon,\nla photo ici sera remplacée.\rSouhaitez-vous habiller un Pokémon,\nmon chou ? {YESNO 0}
+50	Et si je m’habillais moi-même pour\naccrocher une photo... ?\rLe titre serait... Hmm... que\ndiriez-vous de “Paradis des Filles” ?
+51	Ooh, non, non, non ! C’est un Œuf !\nIl est trop jeune pour s’habiller !\r
+52	J’ai accroché votre photo juste ici.\nElle est tellement parfaite à cet\fendroit !
+53	C’est un cadre qui sert à exposer\nune photo.
+55	Des membres de la Team Rocket en\ncostume noir courent partout...\rJe me demandais ce qui se passait.\nAlors, tu as affronté la Team Rocket ?\fC’est impressionnant !\rTu pourrais peut-être affronter le\nlégendaire Poké...\r
+56	Hahaha ! Oublie ça.\rJe dois y aller.\r
+57	Regarde ça !\rC’est un tirage au sort d’Accessoires.\nOn ne sait jamais ce qu’on va avoir.\rTu veux tenter ta chance pour 100 $ ? {YESNO 0}
+58	Waouh, tu as de la chance !\nQuantité d’Accessoires et de fonds !\rVas-y, habille ton Pokémon !
+59	À bientôt !
+60	Oh non !\nTu n’as pas assez d’argent.
+61	C’est parti !\r..................\n..................\f......\fTu as gagné !\r
+62	Et un fond, ça te dit ?\r
+63	Reviens quand tu veux !
+64	Oh, tu n’as rien gagné. Désolé.\r

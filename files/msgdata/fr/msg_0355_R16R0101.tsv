@@ -1,0 +1,6 @@
+0	Si tu descends la Piste Cyclable,\ntu arriveras à Parmanie.
+1	Salut, salut. Tu veux entendre\nune expression à la mode ? {YESNO 0}
+2	Très bien...\rL’expression à la mode pour toi,\nce serait...\r{STRVAR_1 28, 0, 0} !\rC’est une expression très tendance.
+3	Oh, allons ! Avec une attitude\npareille, tu vas être ringard !
+4	J’espère que tu utiliseras les\nexpressions à la mode de façon\fbranchée.
+5	Salut, salut. Tu utilises\ndes expressions à la mode ?

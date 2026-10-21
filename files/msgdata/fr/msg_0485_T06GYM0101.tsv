@@ -1,0 +1,15 @@
+0	Major Bob : Hé, petit morveux !\rDéfier un type comme moi n’est pas très\nmalin, mais il faut avoir du cran !\rQuand il s’agit de Pokémon de type\nÉlectrik, je suis le numéro un !\rJe n’ai jamais perdu sur un champ de\nbataille.\rJe vais te foudroyer comme je le fais\navec tous mes ennemis au combat !\r
+1	Major Bob : Arrrgh !\nTu es costaud !\rD’accord, gamin.\nTu mérites le Badge Foudre !\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Foudre de Major Bob !
+3	Major Bob : Ce Badge Foudre convient\nà ceux qui m’ont vaincu !\fPrends-en bien soin, d’accord ?\rIl y a autre chose.\nVoici une super CT pour toi !\r
+4	Major Bob : Cette CT contient\nOnde de Choc... Zzzap !\rUtilise-la pour filer comme l’éclair !\rQuand tu iras au nord, tu verras\nune grande ville appelée Safrania !
+5	Major Bob : Hé, gamin !\nTu es toujours en train de t’échiner ?\rQuand tu iras au nord, tu verras une\ngrande ville appelée Safrania !
+6	Yo ! Futur légende !\nTu as eu de la chance cette fois.\rLes pièges de cette Arène étaient\nen panne depuis un moment.\rMais ils refonctionnent maintenant !\fPourquoi de la chance, me diras-tu...\rParce que tu peux mieux t’entraîner\ncomme ça !\rPrends ta décision et fonce sur Major\nBob !
+7	Ouf ! Quel combat électrisant !\nÇa m’a fait vibrer les nerfs.
+8	Non ! Il n’y a que des ordures ici.
+9	...\nOh, un interrupteur secret au fond\fde la poubelle !\fOn l’actionne.
+10	Non ! Il n’y a que des ordures ici.\nOh non, la clôture électrique est\fde nouveau verrouillée !
+11	La première clôture électrique est\nouverte !
+12	La deuxième clôture électrique est\nouverte !\rLes clôtures électriques ont disparu,\net le chemin vers le Champion est libre !
+13	Arène Pokémon de Carmin sur Mer
+14	Arène Pokémon de Carmin sur Mer\rChampion : Major Bob\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

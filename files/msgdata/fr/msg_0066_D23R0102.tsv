@@ -1,0 +1,69 @@
+0	La radio, c’est bien, tu sais ?\rDe la bonne musique et des infos sur\nles Pokémon...\fDes nouvelles surprenantes et des\fdrames émouvants... On y trouve tout !\rIl ne manque que les images.\r..................\nOups, ça s’appelle la télé !
+1	Les berceuses à la radio endorment\nles Pokémon sauvages.\rC’est pour ça qu’on voit peu de\nPokémon quand la radio diffuse des\fberceuses dans les hautes herbes.
+2	Pourquoi voudraient-ils prendre le\ncontrôle de la Tour Radio ?
+3	RONDOUDOU : Rondou...
+4	Désolé. Réservé au personnel autorisé\npassé ce point.\rCe n’était pas comme ça avant. Il y a\nquelque chose qui cloche chez le\fDirecteur...
+5	Visitez librement.\nLe Directeur est redevenu gentil,\fcomme avant.
+6	1er ÉT. Ventes
+7	Pokémon Talk avec le Prof. Chen\nL’émission la plus en vogue !
+8	1er ÉT. Studio 2
+9	Buena : Hein ?\nLe mot de passe du jour ?\rAU SECOURS, évidemment !
+10	Buena : Salut ! Moi, c’est Buena !\rTu connais l’émission de radio\nle Mot de Passe de Buena ?\rSi tu me dis le mot de passe de\nl’émission, tu gagnes des points.\rÉconomise ces points et échange-les\navec cette charmante jeune fille là-bas\fcontre de superbes cadeaux !\rTiens !\nVoici ta propre carte de points !\r
+11	Buena : Merci de nous écouter\ntous les jours !\r
+12	Buena : {STRVAR_1 3, 0, 0} !\nMerci d’écouter mon émission !\r
+13	Buena : {STRVAR_1 3, 0, 0} !\nMerci d’écouter mon émission !\r
+14	Buena : Tu te souviens du mot de passe\nd’aujourd’hui ? {YESNO 0}
+15	Buena : Oh, waouh ! Merci !\nComment tu t’appelles, déjà ?\r...{STRVAR_1 3, 0, 0} !\rAllez, {STRVAR_1 3, 0, 0}.\nParticipe à l’émission.\r
+16	Buena : Oh, waouh ! Merci !\nComment tu t’appelles, déjà ?\r...{STRVAR_1 3, 0, 0} !\rAllez, {STRVAR_1 3, 0, 0}.\nParticipe à l’émission.\r
+17	Buena : Merci, {STRVAR_1 3, 0, 0} !\rParticipe à l’émission comme\nd’habitude !\r
+18	Buena : Merci, {STRVAR_1 3, 0, 0} !\rParticipe à l’émission comme\nd’habitude !\r
+19	Buena : Reviens après avoir écouté\nmon émission, d’accord ? À plus !
+20	Buena : Tout le monde est prêt ?\rJe veux vous entendre crier le mot de\npasse du jour pour {STRVAR_1 3, 0, 0} !\r
+21	Buena : Tout le monde est prêt ?\rJe veux vous entendre crier le mot de\npasse du jour pour {STRVAR_1 3, 0, 0} !\r
+22	Buena : Youpi ! C’est ça !\rTu as bien écouté ! Je suis ravie !\nTu gagnes un point ! Félicitations !\r
+23	Buena : Oh... Ce n’est pas ça...\nTu as oublié le mot de passe ?
+24	Buena : Oh ! Ta Carte Bleue a atteint\n30 points aujourd’hui ! Quelle folie !\rHmm... Tu viens si souvent, {STRVAR_1 3, 0, 0},\nque je te fais une offre spéciale !\rÇa te dirait d’avoir mon numéro de\ntéléphone ?\r
+25	Buena : Oh ! Ta Carte Bleue a atteint\n30 points aujourd’hui ! Quelle folie !\rHmm... Tu viens si souvent, {STRVAR_1 3, 0, 0},\nque je te fais une offre spéciale !\rÇa te dirait d’avoir mon numéro de\ntéléphone ?\r
+26	{STRVAR_1 3, 0, 0} a enregistré Buena\ndans le Pokématos !\r
+27	Buena : J’attends ton appel\navec impatience !\r
+28	Buena : Écoute mon émission de mot de\npasse !
+29	Buena : Désolée...\nTu n’as qu’une chance par jour.\rReviens demain pour un autre essai !
+30	Buena : Ton Sac est plein !
+32	Buena : Écoute encore mon émission\ndemain !\r
+33	Économise les points de la Carte Bleue\npour de superbes cadeaux !
+34	Le total des points de ta Carte Bleue\nest maintenant de {STRVAR_1 51, 0, 0}.
+35	Félicitations !\rTon total de points est maintenant de\n{STRVAR_1 51, 0, 0}. Le prix est {STRVAR_1 8, 1, 0}. Tiens !\r
+36	Les points de ta Carte Bleue ont\natteint le maximum. Je te donne une\fnouvelle carte !\r
+37	Tu as reçu une nouvelle Carte Bleue !
+38	Reviens participer à l’émission !\r
+39	Il faut que quelqu’un donne une bonne\nraclée à cette méchante Team Rocket !\fComme il y a trois ans, tiens !
+40	HERICENDRE
+41	KAIMINUS
+42	GERMIGNON
+43	Potion
+44	Antidote
+45	Anti-Para
+46	Poké Ball
+47	Super Ball
+48	Hyper Ball
+49	PIKACHU
+50	RATTATA
+51	RACAILLOU
+52	HOOTHOOT
+53	MIMIGAL
+54	SOPORIFIK
+55	Bourg Geon
+56	Ville Griotte
+57	Écorcia
+58	Pokémon Insecte
+59	Pokémon Oiseau
+60	Pokémon Plante
+61	Charge
+62	Rugissement
+63	Coud’Boue
+64	Attaque +
+65	Défense +
+66	Vitesse +
+67	Pokémon Talk
+68	Musique Pokémon
+69	Mot de Passe de Buena

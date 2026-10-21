@@ -1,0 +1,12 @@
+0	On m’a défié en combat en bas.\rC’est rude là-dessous. Fais\nattention.
+1	Tu m’as l’air d’avoir bon fond.\nComment as-tu pu te retrouver dans\fla Team Rocket... ?
+2	La Team Rocket n’arrête jamais\nd’embêter les gens, hein ?
+3	Il y a des boutiques en bas...\rMais il y a aussi des Dresseurs.\nJ’ai peur d’y descendre.
+4	Oui... La Team Rocket peut emprunter\nle tunnel, elle aussi.
+5	Tous ceux qui travaillaient dans le\ntunnel sont partis. Personne ne veut\favoir d’ennuis avec la Team Rocket.
+6	Lyra : Salut, {STRVAR_1 3, 0, 0}.\nTu tombes à pic !\r
+7	Lyra : En suivant ce tunnel, tu\ntrouveras une Boutique d’Habillage.\rC’est là que ton Pokémon peut mettre\ndes Accessoires pour se faire beau et\fprendre des photos !\rAu fait, voici le Coffre Mode !\rTu en veux un ?\nJe le savais !\rC’est un cadeau de ma part !\r
+8	Lyra : Range tes Accessoires dans le\nCoffre Mode, d’accord ?\rJe dois y aller.\nÀ plus !\r
+9	Ethan : Salut, {STRVAR_1 3, 0, 0}.\nTu tombes à pic !\r
+10	Ethan : En suivant ce tunnel, tu\ntrouveras une Boutique d’Habillage.\rC’est là que ton Pokémon peut mettre\ndes Accessoires pour se faire beau et\fprendre des photos !\rAu fait, voici le Coffre Mode !\rTu en veux un ?\nJe le savais !\rC’est un cadeau de ma part !\r
+11	Ethan : Range tes Accessoires dans\nle Coffre Mode, d’accord ?\rJe dois y aller.\nÀ plus !\r

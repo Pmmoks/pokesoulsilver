@@ -1,0 +1,38 @@
+0	La Tour de Combat... Qu’elle est\nhaute ! Elle doit faire combien de fois\fma taille ?
+1	Tous les lieux de la Zone de Combat\npermettent de faire équipe avec un\fami ! C’est génial, non ? J’aimerais\favoir un ami avec qui faire équipe...
+2	Je suis la super Idole de Johto !\rJe suis venue jusqu’à la Zone de Combat\npour promouvoir ma dernière chanson !\rMais...\rTout le monde ici a l’air d’être\nun Pokémaniac !
+3	La pêche ne me calme plus depuis que\nj’ai découvert la Zone de Combat.\fQuand je vais pêcher, j’arrête vite\fet je viens ici.
+4	Mon endroit préféré parmi les cinq\ninstallations ici, c’est le\fChâteau de Combat, car on peut\fy voir Lady Caitlin !
+5	Qu’est-ce qui me rend le plus heureux\nd’être Dresseur ?\rLe fait que les Pokémon m’apportent\ntoujours plein d’amis !
+6	Comme les gens traversent des\népreuves qui leur apprennent des\fchoses, les Pokémon apprennent\fdifférentes choses en combattant.\rDerrière chaque expérience, il y a une\nhistoire. N’est-ce pas, mon cœur ?
+7	Toute expérience mène à un récit. Je\nn’ai pas tort, n’est-ce pas, mon\fcœur ?
+8	Je suis venu à la Zone de Combat pour\ntrouver du travail !\rGrâce à mon ancien emploi, je me\ndébrouille en cuisine, ménage et\flessive !
+9	Être fort, c’est être faible.\nÊtre faible, c’est être fort.\rQuelqu’un me l’a déjà dit. Je ne\ncomprends pas encore très bien,\fmais ça sonne profond.\rJe vais me donner un peu de temps\npour y réfléchir.
+10	Voir ces gens qui tiennent tant aux\nPokémon me fait honte de mon égoïsme.\rJe vais essayer d’affronter mes\nPokémon pour de vrai !
+11	Ça fait combien d’années que j’ai\nrencontré mon premier Pokémon ?\f...Quarante-neuf !\rOh, j’ai perdu la page où je notais\nles années, les jours et les heures...\rSerait-ce mon Pokémon qui la grignote ?
+12	Les Dresseurs tiennent à leurs Pokémon\nau fil du combat.\rEn retour, les Pokémon leur rendent\ncette confiance en utilisant leurs\fcapacités au mieux.\rCe qu’on voit dans un combat, c’est la\nconfiance entre les gens et les\fPokémon.\rÇa peut sembler évident, mais c’est\nen réalité incroyablement fabuleux !
+13	On ne peut rien tenter si on a peur\nde perdre des combats.\rMais !\rEntrer dans un combat en sachant\nqu’on n’a aucune chance de gagner ne\ffera que faire souffrir ses Pokémon.\rCe n’est pas du courage ! Les vrais\nbons Dresseurs savent trouver\fl’équilibre entre courage et prudence.
+14	Si tu veux cesser d’être un Dresseur\nmoyen, retiens bien mes paroles !\rLe type du Pokémon !\rLes capacités à apprendre !\rLes objets à faire porter !\rTu ne peux négliger aucun détail.
+15	Quand certains gagnent un combat, ils\nse moquent de leur adversaire.\rD’autres vantent leurs points forts.\rD’autres encore se mettent à danser\nen proclamant qu’ils sont les numéros\fun du monde.\rJe respecte ceux qui gagnent et\nse soucient ensuite de leur adversaire.
+16	Tu as entendu parler des Cerveaux de\nla Zone de Combat ?\rIl y a cinq installations dans la\nZone de Combat.\rDans chacune, on peut enchaîner les\nvictoires pour défier les boss appelés\fCerveaux de la Zone.\fIls sont d’une force surnaturelle !
+17	Nous permettre de profiter des\ncombats, nous aider à travailler, nous\femmener loin d’ici, ou simplement être\fde bons amis...\rLes Pokémon sont tellement profonds.\nJe veux être comme les Pokémon.
+18	À l’Usine de Combat, il faut enchaîner\nles victoires avec des Pokémon de\flocation.\rJe n’aurais peut-être aucune chance\ndans les autres installations, mais ici,\fje peux aller jusqu’au bout !
+19	Le Palais de Combat, c’est là où les\nPokémon s’affrontent en un contre un\faussi longtemps que possible.\rMême mon MAGICARPE a une chance\nd’être numéro un !\rWaouh !\rRien que d’y penser, je suis excité !
+20	La vie est faite de hauts et de bas.\nJe garde ma bouée près de moi.\rOn pourrait appeler ça la sagesse\nacquise au cours des cinq dernières\fannées de ma vie.
+21	Bienvenue au Comptoir d’Échange !\rSouhaitez-vous échanger vos PCo\ncontre des lots ? {YESNO 0}
+22	Revenez quand vous voulez !\n
+23	{STRVAR_1 8, 0, 0} coûte {STRVAR_1 50, 1, 0} PCo.\nC’est d’accord ? {YESNO 0}
+24	{STRVAR_1 8, 0, 0} {STRVAR_1 6, 1, 0} coûte\n{STRVAR_1 51, 2, 0} PCo.\fC’est d’accord ? {YESNO 0}
+26	Vous rangez {STRVAR_1 8, 0, 0}\ndans la poche {STRVAR_1 18, 1, 0}.\r
+27	Désolé, mais vous n’avez pas\nassez de PCo.\r
+29	Désolé, mais votre Sac est plein.\r
+30	Choisissez la CT que vous\nsouhaitez. {YESNO 0}
+31	Choisissez l’objet que vous\nsouhaitez. {YESNO 0}
+34	Tour de Combat\nNe jamais perdre ! Continuer à gagner !
+35	Palais de Combat\nChaque Pokémon vise la première place
+36	Château de Combat Gérez vos combats\navec les Points Château
+37	Arcade de Combat Là où les événements\ndécident du résultat
+38	Usine de Combat Gagnez d’affilée avec\ndes Pokémon de location
+39	Un Dresseur qui vient de capturer un\nPokémon. Voilà ce que représente cette\fstatue.
+40	“Fier de sa Capture”...\nIl semble que ce soit le titre.
+41	Ça alors... !\nUne maquette de la Zone de Combat.

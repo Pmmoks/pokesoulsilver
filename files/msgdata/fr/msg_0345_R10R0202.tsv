@@ -1,0 +1,20 @@
+0	Un voleur s’est introduit dans la\nCentrale... Où va le monde ?
+1	Je viens de recevoir des nouvelles\nd’Azuria. Il paraît qu’un individu\flouche rôde dans les environs.\r
+2	Puis-je compter sur ta coopération ?\rL’individu louche traînait près de\nl’Arène d’Azuria...\r
+3	Puis-je compter sur ta coopération ?\rL’individu louche traînait près de\nl’Arène d’Azuria...
+4	Quelqu’un a emporté une pièce\nessentielle du générateur.\rSans elle, le nouveau générateur\nne sert à rien !
+5	Cette Centrale avait été abandonnée\nautrefois.\rNous l’avons remise en marche pour\nalimenter le Train Magnétique.
+6	Le Directeur de la Centrale est plus\nloin.\rMais depuis que quelqu’un a saccagé le\ngénérateur, il est à la fois triste et,\fparfois, furieux...\rParfois il éclate de rire de désespoir.\fOn en a vu de toutes les couleurs...
+7	Le Train Magnétique consomme beaucoup\nd’électricité.\rIl ne peut pas rouler si le nouveau\ngénérateur ne fonctionne pas.
+8	Je collectionne les Pokémon.\nAs-tu un TRIOPIKEUR ?\rVeux-tu l’échanger contre mon\nMAGNETON ? {YESNO 0}
+9	Youpi ! J’ai un TRIOPIKEUR !\nMerci !
+10	Hein ? Ce n’est pas un TRIOPIKEUR.\nQuelle déception...
+11	Tu ne veux pas échanger ? Oh...
+12	Salut, comment va mon ancien\nMAGNETON ?
+13	Directeur : J-J-Je suis prêt à tout\nfaire sauter !\rQui oserait voler une pièce du\ngénérateur ?\rJ’ai passé tant de temps à le réparer !\nSi je l’attrape, il va voir\fce que je fais avec mon Rayon Chargé !
+14	Directeur : Ah ! Oui !\nCe que tu as là...\rC’est la pièce qui a été volée à mon\ncher générateur ?\rTu l’as retrouvée ?\nMerci infiniment !\rIl ne me reste plus qu’à...\nfixer cette pièce ici...\r
+15	Directeur : Vrrrrrrrr !\rOui, ça marche !\nVrrr, vrrr !\r
+16	Directeur : Wahah ! Merci !\rTiens ! Prends cette CT en\nrécompense !\r
+17	Directeur : La CT57, c’est mon Rayon\nChargé !\rIl tire des rayons et peut aussi parfois\naugmenter l’Attaque Spéciale !
+18	Devises du personnel :\r1. L’électricité n’est pas infinie. 2.\nÉconomisons partout où c’est possible.\f3. Veillons les uns sur les autres. 4.\fPas de bras croisés. 5. Portons des\fchaussures à semelles de caoutchouc.\f6. Le Directeur est génial.
+19	Utilisons l’électricité à bon escient\npour une vie belle et agréable.\f           Centrale de Kanto

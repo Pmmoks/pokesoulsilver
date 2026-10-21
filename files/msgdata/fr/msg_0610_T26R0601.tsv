@@ -1,0 +1,5 @@
+0	Oliville est au bord de la mer !\rEt s’il y a la mer, il y a forcément\nquelque chose à attraper !\rJe pêche ici depuis 30 ans.\rVeux-tu te mettre face à la mer\net pêcher ? {YESNO 0}
+1	Ah, hahah !\nVoilà un nouveau pêcheur !
+3	Les Pokémon de type Eau ne se\ntrouvent pas que dans la mer. Ils\fvont partout où il y a de l’eau.
+4	Quoiii ? Tu n’aimes pas pêcher !?\fIncompréhensible !
+5	Alors, comment ça va ?\nTu as sorti du gros ?

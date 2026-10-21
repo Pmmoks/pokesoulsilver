@@ -1,0 +1,25 @@
+0	Tu es un Dresseur débutant, n’est-ce\npas ? Ça se voit !\rPas de souci ! Tout le monde est\ndébutant un jour !\rSi tu veux, je peux t’apprendre\ndeux ou trois choses.\fAlors c’est parti ! Suis-moi !\r
+1	Ohh... Désolé.\nJ’avais oublié que tu n’avais pas les\fChaussures de Course !\rJe vais essayer d’aller le plus\nlentement possible, alors essaie de\fsuivre !\r
+2	Ici, c’est un Centre Pokémon. On y\nsoigne tes Pokémon en un rien de\ftemps.\rTu en auras souvent besoin, alors\nmieux vaut les connaître.\r
+3	Ici, c’est une Boutique Pokémon. On y\nvend des Poké Balls pour capturer des\fPokémon sauvages et d’autres objets\futiles.\r
+4	La Route 30 est par là.\rLes Dresseurs y font combattre\nleurs Pokémon.\rUn peu plus loin, tu verras\nla maison de M. Pokémon.\r
+5	Voici la mer, comme tu peux le voir.\rCertains Pokémon ne vivent que dans\nl’eau.\r
+6	Voilà...\nC’est ma maison !\rPour l’effort que tu as fait pour me\nsuivre, je te donne mes Chaussures de\fCourse ! Elles sont encore chaudes !\r...\n...\rTu y as cru, hein ? Rassure-toi, elles\nsont toutes neuves !\r
+7	{STRVAR_1 3, 0, 0} reçoit les Chaussures de\nCourse de la part du Guide !
+8	Le mode d’emploi dit :\n“Touche le Bouton Sprint sur\fl’écran tactile pour sprinter.”\rIl dit aussi : “Maintiens le Bouton B\nenfoncé pour sprinter.”\r
+9	...Pfff... Pfff...\nJe suis arrivé...\rJ’avais oublié une chose.\nVoici un autre cadeau de ma part !\rPrends-le.\r
+10	Le Guide a chargé la Carte\nsur le Pokématos de {STRVAR_1 3, 0, 0} !
+11	Le Pokématos de {STRVAR_1 3, 0, 0}\npeut désormais afficher la Carte !\r
+12	Sélectionne le Pokématos sur l’écran\ntactile, puis l’icône de la Carte.\rTu verras la carte de la région\noù tu te trouves !\rLe Pokématos devient plus utile à\nchaque Carte que tu ajoutes.\rJe te souhaite bonne chance pour ton\nvoyage !\r
+13	...\rTu as obtenu un Pokémon au labo.\nQuel gâchis.\rC’est un Pokémon bien trop bon pour\nune mauviette comme toi.\r...\nTu ne comprends pas ce que je dis ?\rEh bien, moi aussi j’ai un bon Pokémon.\nJe vais te montrer ce que je veux\fdire !\r
+14	...\rTu veux savoir qui je suis ?\n...\rJe vais devenir le plus grand\nDresseur Pokémon du monde.\r
+15	Rends-la-moi !\nC’est ma Carte Dresseur !\rOh non !\nTu as vu mon nom...\r
+16	Tu as parlé au vieux monsieur près du\nCentre Pokémon ?\rIl va installer une Carte de Johto sur\nton Pokématos.
+17	Quand on est avec des Pokémon,\non s’amuse partout où l’on va.
+18	La maison de M. Pokémon est encore\nplus loin devant.\rTu pourrais utiliser les Chaussures de\nCourse si tu en avais une paire.\rMais méfie-toi des Pokémon sauvages\net des Dresseurs !\rQuand tu cours, le bruit les attire.
+19	J’ai affronté les Dresseurs sur la\nroute. Mes Pokémon ont perdu.\rIls sont dans un sale état ! Je dois\nles emmener au Centre Pokémon.
+20	Un Pokémon que j’ai capturé avait un\nobjet. Je crois que c’est une Eau\fMystique.\rJe n’en ai pas besoin, alors tu la\nveux ?\r
+21	Bon, je retourne à la pêche, alors.
+22	Tu n’as plus de place pour ça.
+23	Ville Griotte\nLa ville aux fleurs parfumées
+24	Maison du Guide Vieil homme plein\nd’énergie et ultra-rapide

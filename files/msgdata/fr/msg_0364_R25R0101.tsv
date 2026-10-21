@@ -1,0 +1,19 @@
+0	Hmm ? Tu viens pour mon petit-fils ?\nIl s’appelle Léo.\rIl est à Johto.\nIl fait des choses avec des PC,\falors je garde la maison.\r
+1	Ah, mon petit-fils m’a parlé d’un\nPokémon rond et bleu qui a des feuilles\fsur la tête.\r
+2	Léo m’a parlé d’un Pokémon très fidèle\nà son Dresseur.\fC’est un Pokémon de type Feu censé\fbien Hurler.\r
+3	Tu connais ce Pokémon aux grands yeux\nronds ?\rCelui qui chante une berceuse de sa\njolie voix !\r
+4	Tu connais ce Pokémon si populaire ?\rLe Pokémon au corps jaune et aux\njoues rouge vif...\rJ’adorerais voir à quoi il ressemble\navant son évolution.\r
+5	J’ai entendu dire qu’il y a un Pokémon\nbleu et rond à Johto.\rLéo m’a dit que le bout de sa queue\nsert de flotteur.\rSon ventre est blanc. Juste le\nventre. J’adorerais voir à quoi il\fressemble.\r
+6	Mon petit-fils Léo m’a parlé d’un\nPokémon à la langue longue.\rIl paraît qu’il a des marques en forme\nd’anneaux sur le devant des pattes !\r
+7	Ah, mon petit-fils m’a parlé d’un\nPokémon rond et bleu qui a des feuilles\fsur la tête.\r
+8	Connais-tu un Pokémon marin qui a une\nsphère rouge dans le corps ?\fTu sais, celui qui a la forme d’une\fétoile ?\rJ’ai entendu dire qu’il apparaît la\nnuit. J’aimerais beaucoup le voir.\r
+9	J’ai entendu parler d’un joli Pokémon\nà six queues.\rJ’adorerais câliner un joli Pokémon\ncomme ça.\r
+10	Tu connais ce Pokémon si populaire ?\rLe Pokémon au corps jaune et aux\njoues rouge vif...\rJ’adorerais voir à quoi il ressemble\navant son évolution.\r
+11	Si tu as ce Pokémon,\npourrais-je le voir, s’il te plaît ? {YESNO 0}
+12	Tu vas me le montrer ?\nQuelle gentillesse !\r
+13	Tu ne l’as pas ?\nC’est dommage...
+14	Hm ?\rCe n’est pas le Pokémon dont on\nm’a parlé...
+15	Oh !\nCe Pokémon s’appelle {STRVAR_1 0, 0, 0} !\rQuel merveilleux Pokémon !\nEn signe de ma reconnaissance,\fj’aimerais te donner ceci !\r
+16	Reviens me voir\nun de ces jours.
+17	Merci de m’avoir montré tant de jolis\nPokémon.\fJe me suis vraiment amusé.\rJe suis heureux d’avoir vécu si\nlongtemps.
+18	Il y a une machine poussiéreuse sous\nla bâche...\fElle n’a pas servi depuis un moment.

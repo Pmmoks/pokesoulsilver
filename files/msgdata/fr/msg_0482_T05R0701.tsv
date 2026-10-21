@@ -1,0 +1,12 @@
+0	Bienvenue !\rN’hésitez pas à visiter tout\nl’étage.
+1	Désolé, mais vous ne pouvez visiter que\nle rez-de-chaussée.\rDepuis que la Tour Radio de Johto a été\nprise par un gang de criminels,\fnous avons dû renforcer la sécurité.
+2	Beaucoup de gens travaillent dur\nici à la Tour Radio.\rIls font sûrement de leur mieux pour\nproduire de bonnes émissions.
+3	Oh non, non, non !\rNous ne sommes plus à l’antenne depuis\nque la Centrale s’est arrêtée.\rTous mes efforts pour lancer cette\nstation seraient vains si je ne peux\fpas émettre. Je suis ruiné !
+4	Ah ! C’est donc vous, {STRVAR_1 3, 0, 0}, qui\navez résolu le problème de la\fCentrale ?\rGrâce à vous, je n’ai pas perdu mon\nemploi. Vous m’avez vraiment sauvé la\fmise ! Veuillez accepter ceci en\fremerciement.\r
+5	Ah ! C’est donc vous, {STRVAR_1 3, 0, 0}, qui\navez résolu le problème de la\fCentrale ?\rGrâce à vous, je n’ai pas perdu mon\nemploi. Vous m’avez vraiment sauvé la\fmise ! Veuillez accepter ceci en\fremerciement.\r
+6	Le Directeur a installé la Carte\nExtension sur le Pokématos de\f{STRVAR_1 3, 0, 0} !\rLe Pokématos de {STRVAR_1 3, 0, 0} a été\namélioré !
+7	Avec ça, tu pourras capter encore\nplus d’émissions de radio ici à Kanto.\fGahahahaha !
+8	Salut !\nJe suis le super Directeur Musical !\rHein ? Ton Pokématos ne capte pas mes\némissions de musique.\rQuel dommage !\rSi tu le mets à niveau avec la Carte\nExtension, tu pourras les capter.\fTu ferais bien d’en prendre une !
+9	Salut !\nJe suis le super Directeur Musical !\rC’est moi qui m’occupe des superbes\nmélodies diffusées sur les ondes.\rNe reste pas planté là. Va chercher ta\nmusique sur les ondes !
+10	RDC Accueil\n1er ÉT. Ventes\f2e ÉT. Personnel\f3e ÉT. Production\f4e ÉT. Bureau du Directeur\n
+11	Remontez le moral des Pokémon avec les\ndoux sons de la Pokéflûte.\rL’émission Pokéflûte n’est diffusée\nqu’autour de la région de Kanto.\rEssayez de capter vers le haut\nde la radio !

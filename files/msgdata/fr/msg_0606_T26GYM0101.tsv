@@ -1,0 +1,24 @@
+0	Jasmine : Merci de ton aide au Phare...\rMais là, c’est différent. Permets-moi\nde me présenter.\rJe suis Jasmine, Championne d’Arène.\nJ’utilise le type... clang !\fAcier !\r...Tu connais le type Acier ?\rIls sont très durs, froids, tranchants\net vraiment forts !\fEuh... Je ne mens pas.\r
+1	Jasmine : ...Tu me surpasses, en talent\ncomme en gentillesse.\rConformément au règlement de la Ligue,\nje te remets ce Badge.\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Minéral de Jasmine !
+3	Jasmine : Avec ce Badge, tous les\nPokémon, même ceux reçus par échange,\fjusqu’au N. 70, t’obéiront sans\fdiscuter.\fEuh... Prends aussi ceci...\r
+5	Jasmine : Cela s’appelle Queue de Fer...\rTon Pokémon frappera sa cible avec sa\nqueue dure, et pourra parfois\fbaisser sa Défense...
+6	Jasmine : Euh...\rJe ne sais pas comment dire ça, mais\nbonne chance...
+7	Jasmine : Ça faisait longtemps.\rEuh... Je vais bien, merci.\rJe ne sais pas comment dire ça,\nmais... rien...
+8	Jasmine : Euh... Heu...\rVeux-tu échanger ton Pokémon\ncontre le mien ? {YESNO 0}
+9	Jasmine : Vraiment ? Merci beaucoup !\rJe serai contente avec n’importe quel\nPokémon !\r
+10	Jasmine : Oh, euh, je vois.\nC’est décevant, mais je comprends.
+11	Jasmine : Merci infiniment.\nJe vais bien m’en occuper.
+12	Jasmine : Tu n’as jamais envie de\nfrotter des Pokémon de type Acier ?\fN’est-ce pas ?
+13	Veux-tu échanger {STRVAR_1 1, 1, 0} ? {YESNO 0}
+14	Jasmine : J’aime aussi les Œufs, mais\nj’aimerais un Pokémon, {STRVAR_1 3, 0, 0}. Un\fqui aurait déjà un peu\fd’entraînement...
+15	Jasmine : J’en serais ravie...\nSauf que je ne peux pas accepter un\fPokémon aussi précieux.
+16	Jasmine, la Championne d’Arène ?\nElle est au Phare.\rElle s’occupe d’un Pokémon malade.\rUn Dresseur fort est aussi quelqu’un\nde compatissant...
+17	Jasmine utilise des Pokémon de type\nAcier.\rElle essaie de cacher sa tendresse\nderrière sa froideur d’acier.
+18	C’était génial.\fLe type Acier, hein ?\fQuel combat enflammé !
+19	Je savais que tu viendrais ici.\rMerci d’avoir aidé la Championne,\nmais le combat, c’est autre chose.\rVas-y !
+20	Impressionnant !\rTu devrais continuer ton voyage vers\nd’autres horizons.\rPuisque tu sais utiliser Surf, pourquoi\nne pas l’essayer au Lac Colère ?
+21	Hi hi...\rJe sais de quoi tu es capable depuis\nle Phare.\rIl est temps de le montrer à Jasmine !\nBonne chance !
+22	Tu es incroyable...\rTu devrais viser encore plus haut,\ntu as tant de potentiel.\rTu connais Acajou ?
+23	Arène Pokémon d’Oliville
+24	Arène Pokémon d’Oliville\rChampionne : Jasmine\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

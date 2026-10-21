@@ -1,0 +1,18 @@
+0	Je suis le Président du\nFan Club Pokémon.\rJ’ai élevé plus de 150 Pokémon.\rJe suis très tatillon en ce qui\nconcerne les Pokémon.\rViens-tu juste pour entendre parler\nde mes Pokémon ? {YESNO 0}
+1	Bien ! Alors écoute-moi !\rDonc...mon précieux GALOPA...\rIl est...mignon...adorable...malin...\nadorable...irrésistible...et puis...\fextraordinaire... Tu ne trouves pas ?\fOh, si...fougueux...beau...\fgentil... Je l’adore !\rLe serrer... Il est chaud et câlin...\nOh, il\fest...spectaculaire...captivant...\fsimplement divin... Je le chéris...\fOups ! Déjà cette heure ! Je t’ai fait\fperdre trop de temps !\rMerci de m’avoir écouté. Je veux te\ndonner ce cadeau !\r
+3	C’est un Super Bonbon qui rend\nles Pokémon plus forts.\rJe préfère renforcer mes Pokémon en\ncombattant, alors garde-le.
+4	Bonjour, {STRVAR_1 3, 0, 0} !\rViens-tu me voir encore au sujet de\nmes Pokémon ?\rNon ? Oh... J’avais encore des\nhistoires à raconter...
+5	Bonjour, {STRVAR_1 3, 0, 0} !\rViens-tu me voir encore au sujet de\nmes Pokémon ?\rNon ? Oh... J’avais encore des\nhistoires à raconter...
+6	Quelle déception...\rReviens si tu veux m’écouter\nencore !
+7	Ton Sac est complètement plein.
+8	Notre Président est très bavard\nquand il s’agit de Pokémon...
+9	J’adore la façon dont MELOFEE ouvre\nles bras !\rC’est tellement adorable !
+10	J’adore MELOFEE, mais je n’ai jamais pu\nen capturer un.\rAlors je me contente d’une Poképoupée\nque j’ai trouvée.
+11	J’adore MELOFEE, mais je n’ai jamais pu\nen capturer un. Alors je me contente\fd’une Poképoupée que j’ai trouvée.\rQuoi ?\nLa fille qui a perdu cette Poképoupée\fest triste...!\rD’accord. Pourrais-tu rapporter\ncette Poképoupée à cette pauvre\fpetite fille ?\rUn jour, je me ferai un vrai MELOFEE\ncomme ami tout seul !\r
+12	{STRVAR_1 3, 0, 0} a reçu\nla Poképoupée perdue !
+13	Tu verras. Je vais me faire un vrai\nMELOFEE comme ami.
+14	Regarde mon adorable MACRONIUM !\rLa feuille sur sa tête est si mignonne\net à la mode !
+15	C’est un MELOFEE !\nHein ?\rAh, oui. C’est une Poképoupée\nMELOFEE.
+16	MACRONIUM : Li liif !
+17	Écoutons tous poliment\nles autres Dresseurs.
+18	Si quelqu’un se vante, vante-toi\nencore plus !

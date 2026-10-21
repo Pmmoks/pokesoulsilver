@@ -1,0 +1,25 @@
+0	Ligue Pokémon\nEntrée de la Route Victoire
+1	On dirait que CELEBI t’a fait voyager\ndans le temps...\fvers le passé !\r
+2	{STRVAR_1 3, 0, 0} : Tu m’avais dit...\nque tu étais le numéro un du monde !\rTu abandonnes ?\rQu’est-ce que tu vas faire maintenant ?\r
+3	{STRVAR_1 3, 0, 0} : En quoi étais-tu le numéro\nun ?\rRassembler tant de monde pour se faire\nbattre par un simple gamin !\r
+4	{STRVAR_1 3, 0, 0} : Je ne te comprends pas !\rTu n’as aucun sens !\r
+5	{STRVAR_1 3, 0, 0} : Je ne veux pas te\ncomprendre !\rJe ne deviendrai jamais quelqu’un\ncomme toi.\rUn lâche quand il est seul, et un tyran\nquand il est devant d’autres lâches !\rJe deviendrai fort !\rJe deviendrai plus fort tout seul !\r
+6	{SIZE 200}Tout seul !{SIZE 100}\r
+7	{STRVAR_1 3, 0, 0} : ...Qu’est-ce que tu\nregardes ?\r
+8	..................\rIl faut reconnaître sa défaite avant de\npouvoir avancer...\rJe vais agir seul...pour l’instant...\rAfin qu’un jour, je forme\nune organisation plus puissante !\r
+9	Réunir le potentiel de nombreux\nindividus, c’est ainsi qu’on produit une\fimmense puissance... Voilà ce qu’est\fune organisation...\rVoilà la force d’une organisation !\rJ’ai échoué...à exploiter au mieux le\npotentiel de mes subordonnés...!\rMais tu verras un jour le retour de moi\net de ma {COLOR 1}Team Rocket{COLOR 0} !\r
+10	..................\nUn jour, tu comprendras.\r
+11	Ethan : Où sommes-nous...?\r
+12	Lyra : Où sommes-nous...?\r
+13	Ethan : Le Bois aux Chênes a disparu !\r...Non, ce n’est pas ça.\nOn dirait plutôt qu’on a été\ftransportés ailleurs...?\r
+14	Lyra : Le Bois aux Chênes a disparu !\r...Non, ce n’est pas ça.\nOn dirait plutôt qu’on a été\ftransportés ailleurs...?\r
+15	{STRVAR_1 3, 0, 0}, il se passe quelque chose\nd’étrange !\rLa radio vient de donner la date\nd’il y a trois ans !\r
+16	{STRVAR_1 3, 0, 0}, il se passe quelque chose\nd’étrange !\rLa radio vient de donner la date\nd’il y a trois ans !\r
+17	C’est...je rêve...\nCELEBI ?\rÇa explique tout !\nC’est CELEBI qui a causé tout ça !\rMon grand-père m’a dit un jour que\nCELEBI peut voyager dans le temps\fgrâce à son pouvoir mystique, le {COLOR 1}Voyage\fTemporel{COLOR 0} !\rCELEBI nous a ramenés dans le temps !\nAu sens propre !\r
+18	C’est...je rêve...\nCELEBI ?\rÇa explique tout !\nC’est CELEBI qui a causé tout ça !\rMon grand-père m’a dit un jour que\nCELEBI peut voyager dans le temps\fgrâce à son pouvoir mystique, le {COLOR 1}Voyage\fTemporel{COLOR 0} !\rCELEBI nous a ramenés dans le temps !\nAu sens propre !\r
+19	{STRVAR_1 3, 0, 0}, il y a quelqu’un d’autre ici\nen dehors de nous ! Allons voir qui !\r
+20	{STRVAR_1 3, 0, 0}, il y a quelqu’un d’autre ici\nen dehors de nous ! Allons voir qui !\r
+21	Ethan : Pour qui il se prend ?\nC’était vraiment inutile !\rMais de quoi parlaient-ils ?\nDe la renaissance de la {COLOR 1}Team Rocket{COLOR 0}...?\rOn dit que la Team Rocket a été chassée\nde Kanto par un enfant il y a trois ans.\rDonc on est vraiment trois ans\nen arrière !\r
+22	Lyra : Pour qui il se prend ?\nC’était vraiment inutile !\rMais de quoi parlaient-ils ?\nDe la renaissance de la {COLOR 1}Team Rocket{COLOR 0}...?\rOn dit que la Team Rocket a été chassée\nde Kanto par un enfant il y a trois ans.\rDonc on est vraiment trois ans\nen arrière !\r
+23	Oh non ! Ça recommence...!\rC’est le {COLOR 1}Voyage Temporel{COLOR 0} de CELEBI !\r
+24	Oh non ! Ça recommence...!\rC’est le {COLOR 1}Voyage Temporel{COLOR 0} de CELEBI !\r

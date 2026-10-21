@@ -1,0 +1,44 @@
+0	{SIZE 200}Hé ! Hé !{SIZE 100}\r
+1	Arrête de danser une danse aussi\nsérieuse ! Montre-moi plutôt un truc\fgenre hula !\r
+2	...Vous ne devriez pas me demander\nune chose pareille.\r
+3	Hein ?\nTu veux dire que tu ne respectes pas\fce que veut le client ?\r
+4	Eh bien, je vais te montrer comment on\ndanse.\rJe vais t’en montrer une superbe.\nWahahaha !\r
+5	Hein ? Qui es-tu ?\rTu oses te mettre en travers de mon\nchemin ?\r
+6	Oh non !\nTu me fais passer pour un méchant !\r
+7	Oups !\nJ’ai une mission importante.\rS’ils découvrent que je perdais mon\ntemps ici, ils me feront recommencer\fcomme simple Sbire Rocket !\rMieux vaut filer !\r
+9	Vous devez être {STRVAR_1 3, 0, 0}, n’est-ce\npas ? C’était vraiment excellent. De la\fgentillesse et de la force... Du talent\fpour élever les Pokémon aussi...\rCette personne sait vraiment ce qu’il\nfaut chercher chez les gens...\rOhoho ! Je me parlais juste à moi-même.\fPeu importe.
+10	Pour des Kimono Girls comme moi, la\ndanse est tout.\rJe n’ai jamais passé un jour sans\nm’exercer à danser.\rIl en va de même pour les Pokémon.\rIls grandissent avec toi petit à petit,\njour après jour.
+11	Bienvenue. Je m’appelle Zuki. Nos\nchemins se sont déjà croisés à Mauville.\rPour ramener HO-OH, il nous fallait\nquelqu’un ayant le bon lien avec\fles Pokémon.\rNous avons demandé à M. Pokémon de\nconfier cet Œuf Mystère à quiconque\fmontrerait un vrai potentiel.\rL’Œuf est passé de M. Pokémon au\nProfesseur Orme, puis à toi.\rCependant, la pureté seule ne suffira\npas à affronter la puissance de\fce Pokémon.\fJe dois te mettre à l’épreuve.\rPeut-on commencer ? {YESNO 0}
+12	Bienvenue. Je m’appelle Zuki. Nos\nchemins se sont déjà croisés à Mauville.\rPour ramener LUGIA, il nous fallait\nquelqu’un ayant le bon lien avec\fles Pokémon.\rNous avons demandé à M. Pokémon de\nconfier cet Œuf Mystère à quiconque\fmontrerait un vrai potentiel.\rL’Œuf est passé de M. Pokémon au\nProfesseur Orme, puis à toi.\rCependant, la pureté seule ne suffira\npas à affronter la puissance de\fce Pokémon.\fJe dois te mettre à l’épreuve.\rPeut-on commencer ? {YESNO 0}
+13	Je vais te mettre à l’épreuve pour voir\nsi tu es un bon Dresseur Pokémon.\rPeut-on commencer ? {YESNO 0}
+14	Très bien...\nJ’attendrai que tu te prépares.
+15	Tu as de la force.\rTu m’as aidée dans le Bois aux Chênes.\rJe m’appelle Naoko. C’est moi qui n’ai\npas le sens de l’orientation.\rJ’ai vu de mes yeux comment tu as battu\nla Team Rocket quand Fargas était en\fdifficulté au Puits Ramoloss.\rPermets-moi de vous défier, toi\net tes Pokémon !\r
+16	Quel talent de Dresseur.\rJe me souviens que tu as chassé ce\nSbire Rocket de cet endroit même.\rJe dois t’en remercier.\rMais en réalité, je suis moi-même\nDresseuse.\rCelle qui en sait le plus parle le moins !\fJe suis Miki, la Kimono Girl !\rPermets-moi de vous défier, toi\net tes Pokémon !\r
+17	Quel excellent esprit combatif !\rTu m’as aidée à quitter la glace en\nme poussant par derrière.\rC’est moi qui patine en sandales.\fJe suis Sayo, la Kimono Girl !\rJe t’écoutais dans l’Antre du Dragon\nquand tu as réussi l’épreuve de\fl’Ancien.\rPermets-moi de vous défier, toi\net tes Pokémon !\r
+18	Je suis la dernière.\rTu as été d’un grand secours dans\nle Souterrain. C’est moi qui tournoie\fmême sous terre.\rJe suis Kuni, la Kimono Girl !\rTu m’as émerveillée quand tu as déjoué\nla mission de la Team Rocket visant\fà s’emparer de la Tour Radio.\fMontre-moi maintenant ta force.\rPermets-moi de vous défier, toi\net tes Pokémon !\r
+19	Parle à Zuki, au milieu,\nquand tu voudras commencer.
+20	Nous ne nous étions pas trompées sur\ntoi. Tu es bien digne de ceci...\rPrends-le, je t’en prie.\r
+21	Grandes sœurs !\rJe viens de voir la grande ombre d’un\nPokémon au-dessus de la Tour Carillon !\rÇa pourrait être...\r
+22	Grandes sœurs !\rJe viens de voir la grande ombre d’un\nPokémon dans les eaux des Tourb’Îles !\rÇa pourrait être...\r
+23	Zuki : {STRVAR_1 3, 0, 0} !\nNous serons à la Tour Carillon.\fOn s’y retrouve !\r
+24	Zuki : {STRVAR_1 3, 0, 0} !\nNous serons aux Tourb’Îles.\fOn s’y retrouve !\r
+25	Qu’est-ce qui lui prend, à ce Sbire\nRocket, de s’en prendre à ma Kimono\fGirl ?\rTu fais des combats, non ?\fAide-la, s’il te plaît !
+26	Magnifique !\nQuel courage pour ton âge !\rC’était un spectacle rare !\nJe veux que tu aies ceci.\fNe sois pas timide, prends-le !\r
+28	C’est Surf. C’est une capacité qui\npermet aux Pokémon de nager sur l’eau\favec aisance.\r
+29	Les Kimono Girls ne sont pas seulement\nde grandes danseuses, elles sont aussi\fdouées avec les Pokémon.\rMais elles ne se battent que pour de\nbonnes raisons.\rJe ne sais pas si tu pourrais les battre\nsi elles montraient de quoi elles sont\fcapables...
+30	PSYKOKWAK : Kwak kwak !
+31	Cet homme est toujours avec son\nPSYKOKWAK.\rIl dit vouloir un Pokémon qui sait faire\ndu Surf et danser.\rEssaie-t-il de créer un Pokémon star\nde la natation synchronisée ?
+32	Oh... Aïe...!\rCe mal de ventre !\rJe ne laisserais pas ce type agir ainsi\nsans cette douleur...!
+33	Le héros, c’était censé être moi...!\rAdieu l’idée de me rapprocher\nd’une Kimono Girl !\n
+34	Oh... Aïe...!\rCe mal de dos !\rJe ne laisserais pas ce type agir ainsi\nsans cette douleur...!
+35	Oh... Aïe...!\rCe mal de dents !\rJe ne laisserais pas ce type agir ainsi\nsans cette douleur...! 
+36	Les Kimono Girls sont si belles...\rMais elles suivent un entraînement\nrigoureux.\rEt elles doivent apprendre à respecter\nles coutumes avant de se produire en\fpublic.\rMais quand on aime quelque chose,\ntout est possible.
+37	Faire une chose aussi horrible à\nune Kimono Girl !\rJe ne comprends pas comment les jeunes\nse comportent de nos jours.
+38	Quel talent de Dresseur pour ton âge !
+39	Ce bureau sert pour certains\nprogrammes...
+40	Merci pour ton aide l’autre jour.
+41	Nous répétons une danse.
+42	Merci pour ton aide l’autre jour.\rTu as magnifiquement prouvé que le lien\nentre les gens peut s’étendre au lien\fentre les gens et les Pokémon...\rNous te sommes toutes reconnaissantes\nd’avoir été à la hauteur de nos\fattentes, {STRVAR_1 3, 0, 0} !\rSi tu penses que cette expérience t’a\nappris quelque chose, ce n’est pas à\fnous qu’il faut dire merci, mais à M.\fPokémon et au Professeur Orme...
+43	Nous répétons une danse.
+44	Merci pour ton aide l’autre jour.
+45	Je vais voir quel lien t’unit à tes\nPokémon !\r

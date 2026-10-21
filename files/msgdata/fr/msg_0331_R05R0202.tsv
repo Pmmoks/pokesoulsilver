@@ -1,0 +1,10 @@
+0	N’aie pas peur. Je ne suis pas\nméchant.\rUn endroit comme celui-ci...\nattire les gens malfaisants.\rIls finiraient par causer des ennuis...\rC’est pourquoi Tonton Rage veille à\nça...\rL’écho dans le Passage Souterrain\nest... formidable...
+1	N’aie pas peur. Je ne suis pas\nméchant.\rUn endroit comme celui-ci...\nattire les gens malfaisants.\rIls finiraient par causer des ennuis...\rRien que d’y penser, ça me met\nen rage...\r
+2	Aha !\nC’est un Bonbon Rage !\rJe peux l’avoir ?\nS’il te plaît ! {YESNO 0}\n
+3	{STRVAR_1 3, 0, 0} a donné le Bonbon Rage\nà l’homme du Passage Souterrain.\r
+4	Miam !\rQuelle rage !\rMais c’est tellement bon !\rMiam miam !\rAargh ! Ça me rend furieux !\rMiam miam !\rAargh...\r..................Ouf !\rJe me sens beaucoup mieux.\nMerci pour ton bonbon !\fJe veux que tu aies ceci !\r
+5	La CT64 contient......\rtic-\n    tac\ftic-\f    tac\ftic-\f    tac\ftic-\f    tac\ftic...\f..................\f..................\r
+6	{SIZE 200}Ka-Boum !!
+7	Un endroit comme celui-ci...\nattire les gens malfaisants.\rIls finiraient par causer des ennuis...\rC’est pourquoi Tonton Rage veille à\nça...\rL’écho dans le Passage Souterrain\nest... formidable...
+8	Tu comptes tout manger sans\npartager ?!
+9	Aha ! Merci !\r...Mais ton Sac est plein... Fais de la\nplace, puis reviens plus tard...

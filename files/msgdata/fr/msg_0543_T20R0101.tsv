@@ -92,7 +92,7 @@
 91	Prof. Orme : Ton PICHU Troizépi\nme paraît en pleine forme !\rJe n’ai jamais entendu parler d’un\nPokémon qui n’évolue pas alors qu’il\fdevrait. Prends-en bien soin.
 92	Veux-tu soigner\ntes Pokémon ? {YESNO 0}
 93	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°1 : touche l’icône\ndu Bouton A sur l’écran tactile.\rTu peux examiner des choses, parler\naux gens, etc.
-94	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°2 : la Carte\nDresseur est ta carte d’identité de\fDresseur pour voyager avec tes\fPokémon.\rEnregistre ton aventure avec\nSAUVEGARDER !
+94	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°2 : la Carte\nDresseur est ta carte d’identité de\fDresseur pour voyager avec tes\fPokémon.\rEnregistre ton aventure avec SAUVER !
 95	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°3 : les objets de\nton Sac sont triés par catégorie.
 96	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°4 : le Pokématos\nest un outil pratique.\rTu peux passer un appel,\nécouter la radio, consulter la carte,\fetc.
 97	Tu as trouvé un mémo...\nSi un Pokémon essaie d’évoluer,\fon peut l’en empêcher.\rAppuie sur le Bouton B pendant\nl’évolution.
