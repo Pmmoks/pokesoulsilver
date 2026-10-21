@@ -1,0 +1,159 @@
+0	Lyra
+1	Lyra : J’allais oublier !\nOn devrait échanger nos numéros !
+2	Lyra : Appelle-moi quand tu veux ! On\npourra échanger des infos sur les\fPokémon !
+3	Quoi de neuf, {STRVAR_1 3, 0, 0} ?\rMême si tu es tout près, au téléphone\ntu as l’air loin. Si tu cries, tu auras\fpeut-être l’air plus près !
+4	Oh, {STRVAR_1 3, 0, 0} ?\nBonjour !\r
+5	Oh, {STRVAR_1 3, 0, 0} !\nComment ça va ?\r
+6	{STRVAR_1 3, 0, 0} ?\nBonsoir !\r
+7	Allô ? C’est Lyra...\nBonjour !\r
+8	Allô ? C’est Lyra...\nComment ça va ?\r
+9	Allô ? C’est Lyra...\nBonsoir !\r
+10	Tu sais, mon père pense que tu\ndeviendras un Dresseur incroyable un\fjour, {STRVAR_1 3, 0, 0} ! Qu’est-ce que je\fraconte ?\rJe commence à parler comme le\nprofesseur !\rBon, fais de ton mieux ! Je te\nrappellerai !
+11	Un jour, j’ai senti l’odeur de MARILL.\nIl sentait la serpillière ! J’étais\ftellement surprise !\rDu coup, j’ai décidé de lui donner des\nbains plus souvent !\rBon, on se reparle plus tard ! Salut !
+12	Je marchais avec MARILL à côté de moi\nquand je me suis tournée vers lui et je\fl’ai vu évoluer en AZUMARILL !\rJ’étais tellement surprise ! Je ne\npensais pas que ça arriverait !\rBon, on se reparle plus tard,\n{STRVAR_1 3, 0, 0}.
+13	J’ai emmené un BULBIZARRE se promener\nsur la Route 1 l’autre jour !\rIl avait vraiment l’air de s’amuser !
+14	Tu sais, je me demande comment ce\nserait d’emmener un SALAMÈCHE se\fpromener sur la Route 2...\rIl paraît que les SALAMÈCHE adorent ce\ncoin.
+15	Tu sais, il paraît que les gens qui\nemmènent un CARAPUCE se promener sur\fla Route 3 ont tendance à tomber !
+16	Au fait... le Mont Sélénite est sur la\nRoute 4, non ?\rSi je me souviens bien, les MÉLOFÉE\nadorent le Mont Sélénite !
+17	Tu savais qu’il y a un Dojo Combat à\nSafrania ? Les Pokémon que j’avais avec\fmoi ont tous été très surpris !
+18	Tu sais, je suis allée au port de Carmin\nsur Mer. Tous mes Pokémon se sont bien\famusés à bord du M.S. Aqua !
+19	Tu sais, j’ai emmené un PORYGON se\npromener à Céladopole... et j’ai\fentendu un drôle de bruit, “Jijiji...”.\fOn aurait dit qu’il essayait de parler !
+20	Tu sais qu’il y a un monsieur appelé M.\nPsy à Safrania ?\rJe me demande ce qui se passerait si on\ny emmenait des Pokémon Psy ?
+21	Dis, tu es déjà allé à la Grotte ?\rSi tu y emmènes un ONIX, il est trop\ncontent !
+22	Dis, si tu as l’occasion d’aller à la\nCentrale, emmène un PIKACHU avec toi.\rC’est vraiment amusant !
+23	Dis, tu connais la Grotte Taupiqueur\nprès de la Route 11 ?\rQuant au Pokémon à emmener là-bas...\nBon, pas besoin de te le dire !
+24	Où es-tu en ce moment ? Route 12 ?\rJe vois... Oh ! Tu devrais aller voir la\nMaison Pokémon de Lavanville !
+25	Où es-tu maintenant ? Route 13 ?\rC’est là que la route devient un peu un\nlabyrinthe, non ?\rC’est peut-être pour ça que les\nPokémon de ce coin ont toujours l’air\fun peu perdus.
+26	Tu es vers la Route 14 en ce moment,\nnon ?\rIl y a un énorme moulin dans ce coin,\nc’est très beau, hein ?
+27	Où es-tu maintenant ? Route 15 ?\rEt si tu passais chez le Gardien du Parc\ndes Amis à Parmanie ?\rIl y a plein de CAPUMAIN là-bas. C’est\namusant !
+28	Tu es sur la Route 16 en ce moment ?\rAlors tu es tout près de la Piste\nCyclable, non ?\rC’est super amusant de courir avec ses\nPokémon... mais bien sûr, là-bas, ce\fserait un peu dangereux !
+29	Tu es sur la Route 17 en ce moment ?\rAlors ça veut dire... que tu es sur la\nPiste Cyclable !\rC’est super amusant de courir avec ses\nPokémon... mais bien sûr, là-bas, ce\fserait un peu dangereux !
+30	Tu es sur la Route 18 en ce moment ?\rAlors tu es tout près de la Piste\nCyclable, non ?\rC’est super amusant de courir avec ses\nPokémon... mais bien sûr, là-bas, ce\fserait un peu dangereux !
+31	Tu sais, chaque fois que je passe vers\nla Route 19, j’ai toujours envie d’aller\fjouer dans l’eau avec mes Pokémon, pas\ftoi ? Je crois que ce serait trop\famusant...
+32	Maintenant que j’y pense... quand on\nest près de l’eau avec des Pokémon\fFeu, ils n’ont vraiment pas l’air d’aimer\fça... Je les comprends !
+33	S’asseoir sur la Route 21 avec ses\nPokémon pour regarder le soleil se\fcoucher sur la plage... Qu’en\fpenses-tu ? Ça me paraît bizarre, c’est\fplutôt un truc de couple romantique !
+34	Tu sais, la Route 22 mène à la Ligue\nPokémon, alors je parie que ça rend tes\fPokémon plutôt nerveux, hein ?
+35	Tu sais, le pont de la Route 24\ns’appelle le “Pont Pépite”.\rCe n’est pas un nom officiel, mais on\ndirait que beaucoup de gens l’appellent\fcomme ça.\rLa lumière du soleil se reflète sur l’eau\nlà-bas, c’est un peu éblouissant...
+36	Tu sais, je crois que la plupart des\nPokémon n’ont jamais vu leur propre\fvisage.\rAlors si tu les emmènes près d’une\nflaque de la Route 25 pour voir leur\freflet, je me demande ce qu’ils vont\fpenser...
+37	Tu sais, la Route 26 est si pleine de\nbeauté naturelle que ça doit être un\fendroit merveilleux pour les Pokémon.\rMais c’est aussi une route qui mène à la\nLigue Pokémon, alors ça doit les rendre\fanxieux aussi.
+38	Tu sais, il paraît que les Pokémon\ntrouvent parfois des choses le long de\fla Route 27.\rC’est sûrement une bonne idée\nd’emmener le Pokémon avec qui tu es le\fplus ami.
+39	La Route 28, c’est celle qui mène au\nMont Argenté, non ?\rJe suis sûre que ça inquiète un peu tes\nPokémon aussi.
+40	Ah oui, c’est vrai. Et si tu emmenais\nGERMIGNON sur la Route 29 ?\rJe parie qu’il aurait l’air de s’amuser\ncomme un fou !
+41	Ah oui, c’est vrai. Et si tu emmenais\nKAIMINUS sur la Route 30 ?\rJe parie qu’il aurait l’air de s’amuser\ncomme un fou !
+42	Tu sais, je parie que ce serait vraiment\nintéressant d’emmener HÉRICENDRE sur\fla Route 31 !\rIl paraît que les HÉRICENDRE adorent\nce coin !
+43	Dis, on trouve des ZARBI dans les\nRuines d’Alpha, non ? Je me demande ce\fqui se passerait si on en avait déjà un\fet qu’on l’emmenait se promener dans\fles ruines ?
+44	Tu sais, il pleut toujours sur la Route\n33. Ça ne s’arrête jamais !\rLes jours de pluie, je déprime un peu,\nmais je sais qu’il y a des Pokémon qui\fadorent la pluie !\r... Comme KAIMINUS !
+45	Tu sais, les CANARTICHO ont une\nétrange fascination pour le Bois aux\fChênes. Quand ils y sont, c’est comme\fs’ils ne t’entendaient même plus.\rJe crois que j’y emmènerai un\nCANARTICHO un jour pour voir par\fmoi-même.
+46	Dis, tu savais ? Quand les Pokémon vont\nau Pokéathlon, ils sont tout excités et\fenflammés !\rJe crois que j’y emmènerai bientôt mes\nPokémon, moi aussi !
+47	Tu savais qu’il se passe un truc\nvraiment intéressant si tu emmènes un\fSIMULARBRE sur la Route 36 ?\rQuel genre de truc ? Eh bien, tu n’as\nqu’à essayer pour voir !
+48	Dis, tu as rencontré les jumelles de la\nRoute 37 ?\rElles sont trop mignonnes, et leurs\nPokémon sont très populaires.
+49	J’ai emmené un TAUROS à la Ferme Meumeu\nrécemment. Ça a fait un tel raffut que\fje ne savais plus quoi faire !
+50	Tu sais, tu devrais emmener un ÉCRÉMEUH\nsur la Route 39.\rIl va s’y faire plein d’amis. Ce sera\ntrop amusant !
+51	Tu devrais emmener un PTITARD sur la\nRoute 40 un jour pour voir ce qui se\fpasse !\rTu verras quelque chose d’intéressant.\nC’est sûr !
+52	Tu sais, les Pokémon Eau adorent\nvraiment la mer...\rVoir ses Pokémon s’amuser et être\nheureux, ça suffit pour être heureux\faussi !
+53	Tout va bien ? Tu sais, la Route 42 est\nune route de montagne. Si tu y emmènes\fun Pokémon Roche, je parie qu’il va\fadorer.
+54	Tu sais, si tu veux voir un MAGICARPE\nvraiment excité, emmène-le au Lac\fColère et regarde ce qui se passe !
+55	En ce moment, tu es... sur la Route\n44 !\rJ’ai bon ? Super !\rIl fait plutôt froid là-bas, non ? Je\nplains les Pokémon qui craignent le\ffroid...\rMais je parie que les Pokémon Glace s’y\nsentent comme chez eux !
+56	Tu sais, il y a cette rivière qui\nserpente près de la Route 45. C’est\fune route amusante.\rJ’y suis allée récemment, et mes\nPokémon étaient vraiment intéressés\fpar la rivière. Ils n’arrêtaient pas de\fla regarder.
+57	Dis, tu sais qu’il y a plein de hautes\nherbes sur la Route 46 ? Eh bien, les\fPokémon avec toi se demandent aussi\favec inquiétude quand un Pokémon\fsauvage va surgir !
+58	Tu sais, la Route 47 a une vue naturelle\nmagnifique !\r... Au fait, tu connais MÉTAMORPH ?\rLes MÉTAMORPH sont pleins d’énergie\nvers la Route 47. C’est un peu\fbizarre...
+59	Dis... Tu sais, il y a cette très haute\nfalaise près de la Route 48 ?\rQuand on se promène là-bas, les\nPokémon qui nous accompagnent ont tous\fun peu peur aussi...\rMoi ? Moi, je... tremble toujours de\npeur !
+60	Où es-tu maintenant ? Bourg Palette...\nAlors tu es près de chez le Professeur\fChen !\rLe professeur adore les Pokémon.\rTu devrais emmener un Pokémon au\nLaboratoire du Professeur Chen un\fjour !
+61	Où es-tu maintenant ? Jadielle ? C’est\nlà qu’il y a la Maison des Dresseurs,\fnon ?\rQuand les Pokémon y vont, ils\ns’enflamment complètement, tu sais !
+62	Alors, où es-tu maintenant ? Jadielle ?\nOh, tu es à Argenta !\rÀ Argenta, il y a un musée, non ?\rTu peux emmener tes Pokémon au musée\npour une sortie amusante !
+63	Alors, où es-tu maintenant ? Azuria, tu\ndis ?\rAlors... tu as rencontré la Championne\nd’Azuria, Ondine ?\rOh, rien. Je me demandais.
+64	Où es-tu maintenant ? Lavanville ? Tu\nes allé loin, hein ?\rDans cette ville, il y a un lieu appelé la\nMaison des Souvenirs, où se trouvent\fdes tombes de Pokémon, tu sais.\rEn tant que Dresseur, tu devrais y\naller au moins une fois par respect.
+65	Où es-tu maintenant ? Carmin sur Mer ?\rC’est là qu’il y a le Fan Club Pokémon,\nsi je me souviens bien !\rSi tu as un MACRONIUM, tu devrais l’y\nemmener pour leur dire bonjour !
+66	Alors, où es-tu maintenant ?\nCéladopole ? Je vois...\rÇa me fait penser. Un jour, j’ai emmené\nun SAQUEDENEU à Céladopole. Il était si\fcontent... et il s’est passé quelque\fchose !\rTu devrais essayer aussi pour voir ce\nqui se passe !
+67	Alors, où es-tu maintenant ? Parmanie ?\nTu apparais toujours dans les endroits\fles plus bizarres, hein ?\rÇa me fait penser. Il paraît que si on\nemmène un TAUROS à Parmanie, il devient\ftrès agité !\rJe me demande pourquoi... Je ne\ncomprends pas trop. Mais ce serait\fsûrement intéressant d’essayer pour\fvoir !
+68	Alors, où es-tu maintenant ?\nCramois’Île ? Tu es allé loin, hein ?\rÊtre là avec ses Pokémon, à regarder la\nmer depuis une ville ensevelie sous la\flave...\rOn dirait presque la scène finale d’un\nfilm !
+69	Tu sais, quand un ami est allé au\nPlateau Indigo, ses Pokémon étaient si\fexcités qu’ils soufflaient bruyamment\fpar le nez !
+70	Alors, où es-tu maintenant ? Oh, tu es\nà Safrania ?\rC’est là qu’habite la Copieuse, non ?\rTu devrais y emmener un MIME JR. pour\nvoir ce qui se passe.\rJe parie que ce sera intéressant !
+71	Où es-tu maintenant ? Qu’est-ce que tu\nfais à Bourg Geon ?\rTu es rentré chez toi ? Tu devrais\nmontrer tes Pokémon à ta mère. Je\fparie qu’elle serait contente !
+72	Où es-tu ? Ville Griotte ? Il y a ce\nmerveilleux chemin sinueux à Ville\fGriotte, non ?\rC’est trop amusant de courir sur la\nplage avec ses Pokémon en écoutant le\fbruit des vagues !
+73	Où es-tu ? Mauville ? Si tu es à\nMauville, ça veut dire... que tu es près\fde la Tour Chétiflor !\rTu devrais y emmener un CHÉTIFLOR ! Il\nparaît qu’ils dansent !\rJe me demande si c’est vrai... Tu\nessaieras et tu me diras ?
+74	Alors, où es-tu en ce moment ?\rTu es à... Irisia !\rNon ? Tu es à Écorcia ?\rL’Arène d’Écorcia est vraiment géniale,\nnon ? Tu as déjà essayé de monter sur\fles MIMIGAL ?\rJe me demande ce qui se passerait si on\nemmenait un vrai MIMIGAL dans cette\fArène ?\rJe crois que ce serait intéressant !
+75	Alors, où es-tu en ce moment ?\rLaisse-moi deviner... Irisia !\rOui ! J’ai trouvé ! Si tu es à Irisia, tu\ndevrais essayer de te promener avec un\fKRABBY.\rComment c’est ? Eh bien, tu n’as qu’à\nessayer pour voir !
+76	Alors, où es-tu maintenant ?\nDoublonville ?\rTu sais, si tu regardes bien cette\nArène, elle a la forme d’un MÉLOFÉE.\rC’est vrai ! Tu devrais y emmener un\nMÉLOFÉE !\rJe parie que quoi qu’il arrive, ce sera\nincroyablement mignon !
+77	Tu sais, quand on parle d’Oliville, je ne\npense qu’au Phare du port !\rTu devrais y emmener un PHARAMP pour\nvoir ce qui se passe ! Je parie que ça\fva briller...
+78	Alors, où es-tu maintenant ? Tu es à\nRosalia ?\rTu devrais emmener un PICHU au Théâtre\nde Danse de Rosalia !\rC’est un endroit merveilleux. Chaque\nfois que j’y suis, j’ai envie de danser !
+79	Ça me fait penser... tu as déjà attrapé\ndes Pokémon Glace ?\rLes Pokémon Glace adorent jouer sur la\nglace. Ils ont l’air de tellement\fs’amuser !
+80	Tu sais, si tu vas au Lac Colère, tu\nverras à quel point les MAGICARPE\fpeuvent être énergiques !\rSi tu as un MAGICARPE, emmène-le là-bas\npour voir par toi-même !
+81	Tu sais, il y a quelqu’un à Ebenelle qui\npeut faire oublier aux Pokémon des\fcapacités qu’ils ont apprises. Dans ce\fcas, ils n’oublient pas seulement leurs\fcapacités, ils oublient presque aussi\fqu’ils tiennent un objet.\rBon, ils n’oublient pas vraiment qu’ils\ntiennent un objet, alors ne t’inquiète\fpas !
+82	Tu sais, je ne suis jamais allée au Mont\nArgenté.\rJe parie que c’est un endroit qui rend\nmême les Pokémon plutôt nerveux.
+83	Alors, où es-tu maintenant ? Oh, tu es\nau Parc Naturel ! J’aime beaucoup ce\fParc, moi aussi.\rC’est peut-être mon imagination, mais je\ncrois que les Pokémon Insecte aussi !
+84	Alors, tu es aux Ruines d’Alpha en ce\nmoment ?\rC’est là qu’on trouve des ZARBI, non ?\nTu en as déjà attrapé ?\rTu sais, si tu as un ZARBI, tu devrais\nl’y emmener.
+85	Alors, où es-tu maintenant ? Au Parc\nSafari ?\rC’est un peu loin à pied, mais ça vaut\nvraiment le coup. Il y a tellement de\fPokémon différents là-bas !
+86	Tu sais, si tu as l’occasion d’aller sur\nla Route 1, emmène un BULBIZARRE avec\ftoi !\rIl va tellement s’amuser !
+87	Tu sais, si tu vas sur la Route 2, tu\ndevrais emmener un SALAMÈCHE...\rIl paraît que les SALAMÈCHE adorent ce\ncoin.
+88	Dis, tu es déjà allé sur la Route 3 ?\rIl paraît que les gens qui y emmènent un\nCARAPUCE ont tendance à tomber !
+89	Tu sais, le Mont Sélénite est sur la\nRoute 4.\rIl paraît que les MÉLOFÉE adorent le\nMont Sélénite !
+90	Tu sais qu’il y a un Dojo Combat à\nSafrania ?\rC’est un endroit rien que pour les\ncombats. Tous les Pokémon que j’avais\favec moi ont été surpris !
+91	Tu sais, je suis allée au port de Carmin\nsur Mer. Tous mes Pokémon se sont bien\famusés à bord du M.S. Aqua !
+92	Tu es déjà allé à Céladopole ?\rTu sais, j’ai emmené un PORYGON se\npromener à Céladopole... et j’ai\fentendu un drôle de bruit, “Jijiji...”.\fOn aurait dit qu’il essayait de parler !
+93	Tu sais qu’il y a un monsieur appelé M.\nPsy à Safrania ?\rJe me demande ce qui se passerait si on\ny emmenait des Pokémon Psy ?
+94	Dis, si tu as l’occasion d’aller à la\nGrotte, tu devrais emmener un ONIX.\rSi tu y emmènes un ONIX, il est trop\ncontent !
+95	Dis, tu es déjà allé à la Centrale ?\rTu devrais emmener un PIKACHU à la\nCentrale. C’est trop amusant !
+96	Tu es déjà allé à la Grotte Taupiqueur ?\rQuant au Pokémon à emmener là-bas...\nBon, pas besoin de te le dire !
+97	Il y a une Maison Pokémon à Lavanville.\nTu devrais y emmener tes Pokémon. Je\fcrois qu’ils aimeraient.
+98	Dis, la Route 13, c’est celle qui est un\npeu un labyrinthe, non ?\rC’est peut-être pour ça que les\nPokémon de ce coin ont toujours l’air\fun peu perdus.
+99	Dis, si tu n’es pas encore allé sur la\nRoute 14, il faut absolument que tu y\failles !\rIl y a un énorme moulin dans ce coin.\nC’est vraiment impressionnant...
+100	Tu es déjà allé chez le Gardien du Parc\ndes Amis à Parmanie ?\rIl y a plein de CAPUMAIN là-bas. C’est\nincroyable !
+101	Tu as déjà eu l’occasion de prendre la\nPiste Cyclable ?\rC’est super amusant de courir avec ses\nPokémon... mais bien sûr, là-bas, ce\fserait un peu dangereux !
+102	Tu as déjà eu l’occasion de prendre la\nPiste Cyclable ?\rC’est super amusant de courir avec ses\nPokémon... mais bien sûr, là-bas, ce\fserait un peu dangereux !
+103	Tu as déjà eu l’occasion de prendre la\nPiste Cyclable ?\rC’est super amusant de courir avec ses\nPokémon... mais bien sûr, là-bas, ce\fserait un peu dangereux !
+104	C’est trop amusant de jouer avec ses\nPokémon au bord de l’eau !\rSi je me souviens bien, on voit la mer\ndepuis la Route 19...
+105	Maintenant que j’y pense... quand on\nest près de l’eau avec des Pokémon\fFeu, ils n’ont vraiment pas l’air d’aimer\fça... Je les comprends !
+106	Tu sais, si tu vas sur la Route 21, j’ai\nune suggestion.\rTu pourrais t’asseoir avec tes Pokémon\npour regarder le soleil se coucher sur\fla plage...\rQu’en penses-tu... ? C’est plutôt un\ntruc de couple romantique, non !
+107	La Route 22 mène à la Ligue Pokémon,\nnon ?\rJe parie que ça rend tes Pokémon plutôt\nnerveux, hein ?
+108	Tu sais, il y a un très grand pont sur la\nRoute 24 qu’on appelle le “Pont\fPépite”.\rCe n’est pas un nom officiel, mais on\ndirait que beaucoup de gens l’appellent\fcomme ça.\rLa lumière du soleil se reflète sur l’eau\nlà-bas, c’est un peu éblouissant...
+109	Dis, tu sais qu’il y a une grande flaque\nsur la Route 25 ? Je crois que la\fplupart des Pokémon n’ont jamais vu\fleur propre visage.\rJe me demande ce qu’ils penseraient en\nvoyant leur reflet dans cette flaque...
+110	Tu sais, la Route 26 est si pleine de\nbeauté naturelle que ça doit être un\fendroit merveilleux pour les Pokémon.\rMais c’est aussi une route qui mène à la\nLigue Pokémon, alors ça doit les rendre\fnerveux aussi.
+111	Tu sais, il paraît que les Pokémon\ntrouvent parfois des choses le long de\fla Route 27.\rC’est sûrement une bonne idée\nd’emmener le Pokémon avec qui tu es le\fplus ami.
+112	La Route 28, c’est celle qui mène au\nMont Argenté, non ?\rTes Pokémon font sûrement semblant\nd’être courageux, mais je parie qu’ils\fs’inquiètent un peu aussi...
+113	Et si tu emmenais GERMIGNON sur la\nRoute 29 ?\rJe parie qu’il aurait l’air de s’amuser\ncomme un fou !
+114	Et si tu emmenais KAIMINUS sur la Route\n30 ?\rJe parie qu’il aurait l’air de s’amuser\ncomme un fou !
+115	Et si tu emmenais HÉRICENDRE sur la\nRoute 31 ?\rJe parie qu’il aurait l’air de s’amuser\ncomme un fou !
+116	Quelqu’un m’a dit qu’on pouvait trouver\nun Pokémon appelé ZARBI dans les Ruines\fd’Alpha.\rSi c’est vrai... je me demande si ça\nchangerait quelque chose si on en avait\fdéjà un et qu’on l’emmenait aux Ruines\fd’Alpha...
+117	Tu sais, il pleut toujours sur la Route\n33. Ça ne s’arrête jamais !\rLes jours de pluie, je déprime un peu,\nmais je sais qu’il y a des Pokémon qui\fadorent la pluie !\r... Comme KAIMINUS !
+118	Tu sais, les CANARTICHO ont une\nétrange fascination pour le Bois aux\fChênes. Quand ils y sont, c’est comme\fs’ils ne t’entendaient même plus.\rJe crois que j’y emmènerai un\nCANARTICHO un jour pour voir par\fmoi-même.
+119	Dis, tu connais le Pokéathlon ? Quand\nles Pokémon vont au Pokéathlon, ils\fsont tout excités !\rJe crois que j’y emmènerai mes Pokémon\nun jour, moi aussi !
+120	Tu savais qu’il se passe un truc\nvraiment intéressant si tu emmènes un\fSIMULARBRE sur la Route 36 ?\rQuel genre de truc ? Eh bien, tu n’as\nqu’à essayer pour voir !
+121	Dis, tu as rencontré les jumelles de la\nRoute 37 ?\rElles sont trop mignonnes, et leurs\nPokémon sont très populaires.
+122	J’ai emmené un TAUROS à la Ferme Meumeu\nsur la Route 39 récemment. Ça a fait un\ftel raffut que je ne savais plus quoi\ffaire !
+123	Tu sais, si tu vas sur la Route 39, tu\ndevrais emmener un ÉCRÉMEUH avec toi.\rIl va s’y faire plein d’amis, ce sera\ntrop amusant !
+124	Tu sais, si tu vas sur la Route 40, tu\ndevrais emmener un PTITARD pour voir\fce qui se passe !\rTu verras quelque chose d’intéressant.\nC’est sûr !
+125	Je suis allée m’amuser sur la Route 41\nrécemment. Tu sais, les Pokémon Eau\fadorent vraiment la mer...\rVoir ses Pokémon s’amuser et être\nheureux, ça suffit pour être heureux\faussi !
+126	Tu sais, la Route 42 est une route de\nmontagne. Si tu y emmènes un Pokémon\fRoche, je parie qu’il va adorer.
+127	Tu sais, si tu veux voir un MAGICARPE\nvraiment excité, emmène-le au Lac\fColère et regarde ce qui se passe !
+128	En parlant de la Route 44, c’est un\nendroit si froid. Je plains les Pokémon\fqui craignent le froid...\rMais je parie que les Pokémon Glace s’y\nsentent comme chez eux !
+129	Tu sais, il y a cette rivière qui\nserpente près de la Route 45. C’est\fune route amusante.\rJ’y suis allée récemment, et mes\nPokémon étaient vraiment intéressés\fpar la rivière. Ils n’arrêtaient pas de\fla regarder.
+130	Dis, tu sais qu’il y a plein de hautes\nherbes sur la Route 46 ? Eh bien, les\fPokémon avec toi se demandent aussi\favec inquiétude quand un Pokémon\fsauvage va surgir !
+131	Tu es déjà allé sur la Route 47 ? Elle a\nune vue naturelle magnifique !\r... Au fait, tu connais MÉTAMORPH ?\rLes MÉTAMORPH sont pleins d’énergie\nvers la Route 47. C’est un peu\fbizarre...
+132	Tu sais, il y a cette très haute falaise\nprès de la Route 47 ?\rQuand on se promène là-bas, les\nPokémon qui nous accompagnent ont tous\fun peu peur aussi...\rMoi ? Moi, je... tremble toujours de\npeur !
+133	Le Professeur Chen de Bourg Palette\nadore les Pokémon.\rTu devrais emmener un Pokémon au\nLaboratoire du Professeur Chen un\fjour !
+134	Il y a une Maison des Dresseurs à\nJadielle. Tu le savais ?\rQuand les Pokémon y vont, ils\ns’enflamment complètement, tu sais !
+135	À Argenta, il y a un musée, non ?\rTu peux emmener tes Pokémon au musée\npour une sortie amusante !
+136	Alors... tu as rencontré la Championne\nd’Azuria, Ondine ?\rOh, rien. Je me demandais.
+137	À Lavanville, il y a un lieu appelé la\nMaison des Souvenirs, où se trouvent\fdes tombes de Pokémon, tu sais.\rEn tant que Dresseur, tu devrais y\naller au moins une fois par respect.
+138	Le Fan Club Pokémon est à Carmin sur\nMer, si je me souviens bien !\rSi tu as un MACRONIUM, tu devrais l’y\nemmener pour leur dire bonjour !
+139	Tu sais, un jour, j’ai emmené un\nSAQUEDENEU à l’Arène de Céladopole. Il\fétait si content, et il s’est passé\fquelque chose !\rTu devrais essayer aussi pour voir ce\nqui se passe !
+140	Tu sais, il paraît que si on emmène un\nTAUROS à Parmanie, il devient très\fagité !\rJe me demande pourquoi... Je ne\ncomprends pas trop. Mais ce serait\fsûrement intéressant d’essayer pour\fvoir !
+141	Si tu es à Cramois’Île avec tes\nPokémon, à regarder la mer depuis une\fville ensevelie sous la lave...\rOn dirait presque la scène finale d’un\nfilm !
+142	Tu sais, le Plateau Indigo est tout près\nde la Ligue Pokémon. Tes Pokémon vont\fsûrement crier pour se donner du\fcourage !
+143	La Copieuse habite à Safrania, non ?\rTu devrais y emmener un MIME JR. pour\nvoir ce qui se passe.\rJe parie que ce sera intéressant !
+144	Si tu rentres chez toi à Bourg Geon, tu\ndevrais montrer tes Pokémon à ta mère.\fJe parie qu’elle serait contente !
+145	J’aime beaucoup ce merveilleux chemin\nsinueux de Ville Griotte.\rC’est trop amusant de courir sur la\nplage avec ses Pokémon en écoutant le\fbruit des vagues !
+146	Si tu es à Mauville, ça veut dire que tu\nes près de la Tour Chétiflor !\rTu devrais y emmener un CHÉTIFLOR ! Il\nparaît qu’ils dansent !\rJe me demande si c’est vrai... Tu\nessaieras et tu me diras ?
+147	L’Arène d’Écorcia est vraiment géniale,\ntu ne trouves pas ?\rTu as déjà essayé de monter sur les\nMIMIGAL ?\rJe me demande ce qui se passerait si on\nemmenait un vrai MIMIGAL dans cette\fArène ?\rJe crois que ce serait intéressant !
+148	Si tu vas à Irisia, tu devrais essayer\nd’emmener un KRABBY avec toi.\rComment c’est ? Eh bien, tu n’as qu’à\nessayer pour voir !
+149	Tu sais, si tu regardes bien l’Arène de\nDoublonville, elle a la forme d’un\fMÉLOFÉE ?\rC’est vrai ! Tu devrais y emmener un\nMÉLOFÉE !\rJe parie que quoi qu’il arrive, ce sera\nincroyablement mignon !
+150	Quand on parle d’Oliville, je ne pense\nqu’au Phare du port !\rTu devrais y emmener un PHARAMP pour\nvoir ce qui se passe ! Je parie que ça\fva briller...
+151	Si tu as un PICHU, tu devrais l’emmener\nau Théâtre de Danse de Rosalia !\rC’est un endroit merveilleux. Chaque\nfois que j’y suis, j’ai envie de danser !
+152	Ça me fait penser... tu as déjà attrapé\ndes Pokémon Glace ?\rLes Pokémon Glace adorent jouer sur la\nglace. Ils ont l’air de tellement\fs’amuser !
+153	Tu sais, si tu vas au Lac Colère, tu\nverras à quel point les MAGICARPE\fpeuvent être énergiques !
+154	Il y a quelqu’un à Ebenelle qui peut\nfaire oublier aux Pokémon des capacités\fqu’ils ont apprises. Mais dans ce cas,\fils n’oublient pas seulement leurs\fcapacités, ils oublient aussi qu’ils\ftenaient un objet.\rBon, ça paraît peu probable, alors ne\nt’inquiète pas !
+155	Tu as entendu parler d’un endroit\nappelé le Mont Argenté ?\rJe n’y suis pas encore allée.\rJe parie que c’est un endroit qui rend\nmême les Pokémon plutôt nerveux.
+156	Tu savais qu’il y a un grand Concours de\nCapture d’Insectes au Parc Naturel ?\rC’est pour ça qu’il y a tant de Pokémon\nInsecte là-bas. Si tu y emmenais tes\fPokémon Insecte, je parie qu’ils\fadoreraient !
+157	Quelqu’un m’a dit qu’on pouvait trouver\nun Pokémon appelé ZARBI dans les Ruines\fd’Alpha.\rSi c’est vrai... je me demande si ça\nchangerait quelque chose si on en avait\fdéjà un et qu’on l’emmenait aux Ruines\fd’Alpha...
+158	C’est un peu loin à pied pour aller au\nParc Safari, mais ça vaut vraiment le\fcoup. Il y a tellement de Pokémon\fdifférents là-bas !
