@@ -1,0 +1,67 @@
+48	Bonjour. Oh, on dirait que c’est votre\npremière visite. Bienvenue à la Boutique\fAthlète !\rVous et vos Pokémon, vous faites de\nl’exercice ?\rLa sueur qui vole !\nLa respiration à l’unisson !\fL’amitié qui naît !\rNous soutenons votre mode de vie de\nPokéathlète. Les Points Athlète que\fvous avez gagnés peuvent être\féchangés ici contre des lots.\rJe le répète.\nBienvenue à la Boutique Athlète ! {YESNO 0}
+49	Bienvenue à la Boutique Athlète ! {YESNO 0}
+50	Nous sommes fermés pour aujourd’hui.\nRevenez demain pour découvrir de tout\fnouveaux lots !
+51	Merci, à bientôt.
+52	Les scores du Pokéathlon... La preuve\nde votre amitié avec vos Pokémon, en\fquelque sorte, vous rapportent des\fPoints Athlète.\rVous pouvez les échanger ici contre\ndivers lots.\rMarquez le plus de points possible et\nrevenez ici pour les lots !\rPuis-je faire autre chose pour vous ? {YESNO 0}
+53	Bienvenue !\rC’est ici que nous conservons la base\nde données du Pokéathlon.\rEn utilisant la Carte Info sur le\nmoniteur à côté de moi, vous pourrez\fconsulter vos records.\rCertains sont cool, et d’autres...\ngênants !\rFaites-en bon usage.\rVoulez-vous acheter une Carte Info\ncontenant des records du Pokéathlon ? {YESNO 0}
+54	Bienvenue !\rLa Carte Info, qui contient les records\ndu Pokéathlon, est vendue ici.\rVoulez-vous acheter une Carte Info ? {YESNO 0}
+55	Hi hi !\nEn fait, j’en sais beaucoup sur vous !\fVoyons voir...\r
+56	Vous avez participé au Pokéathlon...\f{STRVAR_1 51, 0, 0} fois !\fHi hi !\r
+57	Vous avez participé au Pokéathlon...\fOh là là, plus de 100 fois !\rBravo !\r
+58	Comme je viens de le montrer, la base de\ndonnées du Pokéathlon semble tout\fsavoir. Ça ne vous intéresse pas ?\rVous pouvez échanger vos Points\nAthlète contre une Carte Info et\fconsulter vos records sur le moniteur à\fcôté de moi.\rFaites-en bon usage.\nPuis-je faire autre chose pour vous ? {YESNO 0}
+59	Merci. À bientôt !
+60	Bonjour, Pokéathlète {STRVAR_1 3, 0, 0} !\rVous travaillez à battre vos propres\nrecords ? Vous pouvez les consulter\fsur le moniteur à côté de moi.\rJetez-y un œil de temps en temps !
+61	Nous n’avons plus de Cartes Info.\nMais pas de panique.\rIl y aura d’autres Cartes Info !\nJe ferai en sorte de vous en procurer.\fRevenez plus tard.
+62	Nous n’avons plus de Cartes Info.\nMais pas de panique.\rIl y aura d’autres Cartes Info...\nOu pas !\rVous avez collecté toutes les Cartes\nInfo ! Merveilleux !\rVous êtes un vrai Pokéathlète,\n{STRVAR_1 3, 0, 0} !\rContinuez à travailler à battre vos\npropres records !\rMerci de votre visite !
+63	Alors il y a dix épreuves ?\n...Quel Pokémon choisir ?
+64	Il y a cinq parcours au Pokéathlon !\rIls se répartissent en Vitesse, Force,\nEndurance, Saut et Technique.\rIl faut choisir ses Pokémon avec soin\nselon le parcours.
+65	Certains Pokémon sont doués pour les\népreuves de Vitesse. D’autres non. Il\ffaut former une équipe dont les membres\fs’entraident.
+66	Si vous continuez, vous verrez le Musée\ndes Records des Pokéathlètes.\rUn jour, je serai un Pokéathlète qui\ndétient un record exposé là !
+67	Le score que vous obtenez au\nPokéathlon devient des Points Athlète,\fque vous pouvez échanger contre des\flots.\rMême si votre équipe finit dernière,\nvotre score compte quand même !
+68	“Course de Haies”\rDe nombreuses Haies attendent vos\nPokémon ! Soyez plus rapides et plus\fprécis que tous les autres ! Sautez\fpar-dessus les Haies et visez la\fpremière place !
+69	“Prise de Fanion”\rDes Fanions sont cachés sur la plage.\nBattez-vous pour les avoir et revenez\favec autant de Fanions que possible !
+70	“Pousse-Cercle”\rIl est temps de montrer la Force de vos\nPokémon ! Repoussez-les et restez dans\fle Cercle !
+71	“Casse-Bloc”\rUne montagne de Blocs attend vos\nPokémon ! Utilisez leur Force pour tous\fles casser !
+72	“Attrape-Disque”\rOn vous lance des Disques. Sautez et\nattrapez-les en l’air !\rNe vous laissez pas acculer par les\nautres. Attrapez-en le plus possible !
+73	“Saut Lampion”\rOn ne sait jamais à quelle hauteur on va\nrebondir ! Utilisez le Saut et la\fTechnique de vos Pokémon pour\fmarquer !
+74	“Course Relais”\rCourez jusqu’à ne plus pouvoir ! Trois\nPokémon collaborent pour la victoire !
+75	“Ring Sumo”\rLes Pokémon se chargent ! Dépassez\nvotre limite d’Endurance et restez sur\fle Ring !
+76	“Bataille de Neige”\rSur un terrain incroyablement froid,\ndes millions de boules de Neige\fattendent !\rVisez et lancez ! Choisissez bien votre\nmoment pour montrer votre Technique !
+77	“Roule-But”\rMettez tout votre cœur à frapper la\nballe ! Attaquez ! Défendez votre But !\rVisez les autres Buts !\nQui aura la victoire ?
+78	Travaillez avec vos Pokémon. Croyez en\neux, et aidez-les à croire en vous !\fCroyez en leur potentiel. Laissez\fl’amitié guider votre équipe vers la\fvictoire !\rLe Pokéathlon est toujours avec vous !
+79	Rechargez votre énergie avec l’amitié !\nDonnez du Jus Noigrume à vos Pokémon !
+80	Blanche : Salut, {STRVAR_1 3, 0, 0} ! Tu viens\npour le Pokéathlon ? Moi aussi !\rJe suis surexcitée depuis sa\nconstruction. C’est près de\fDoublonville, tu sais ?\r
+81	Hein ?\rTu comptais participer au Pokéathlon\ndans cette tenue ?\rTu n’as rien prévu du tout, pas vrai ?\rAlors...\nTu fais du M ou du S ?\fTu as plutôt une carrure de M...\rOK ! Je vais te trouver un maillot à ta\ntaille !\rIl faut être au top pour participer au\nPokéathlon, non ?\rAttends là !\r
+82	C’est exactement ce qu’il te faut !\r
+83	{STRVAR_1 3, 0, 0} reçoit un maillot !
+84	Ça te va parfaitement. Maintenant que\ntout est prêt, je vais...\rOh non !\nOù sont mes Pokémon ?\rIl faut que je retourne les chercher.\nÀ plus !\r
+85	Le distributeur est réservé aux\nparticipants ! Vous pouvez même utiliser\fvos Points Athlète. {YESNO 0}
+86	Quelle boisson désirez-vous ? {YESNO 0}
+87	Clang !\rUne canette de {STRVAR_1 8, 0, 0} est tombée.\r
+88	Clang !\rBonus ! Une autre canette de\n{STRVAR_1 8, 0, 0} est tombée.\r
+89	Pas assez d’argent...
+90	Pas assez de points...
+91	Vous décidez de ne pas acheter de\nboisson.
+92	Ouverture des données du Pokéathlon...\r
+93	Quelles données voulez-vous voir ? {YESNO 0}
+94	DONNÉES GÉNÉRALES {ALN_CENTER}
+95	DONNÉES D’ÉPREUVES {ALN_CENTER}
+96	DONNÉES D’ACTIONS {ALN_CENTER}
+97	QUITTER {ALN_CENTER}
+98	Accès en cours......
+99	Accès en cours............
+100	Accès en cours..................
+101	Merci de votre consultation !
+102	Bienvenue à la Boutique du Musée !\r
+103	Waouh, tu as l’œil ! Je peux te\nraconter mon dernier rêve ? {YESNO 0}
+104	Hmmm... Mon œil perspicace a dû\nfaiblir...
+105	J’adorais les épreuves de Saut.\rMon record, du temps où j’étais en\npleine forme comme Pokéathlète, est de\f998 sauts !\rIl n’en manquait que deux ! Je n’avais\nque deux sauts de plus à faire !\rJ’ai dû prendre ma retraite à cause de\nmon âge... Pourrais-tu sauter 1 000\ffois à ma place ?\r
+106	Bon, ce record peut donner le vertige.\nMais tu es encore jeune.\fTu peux y arriver !\rJe vais m’asseoir et attendre.
+107	Oh ! Toi !\nC’est tellement formidable de ta part !\fTu as sauté 1 000 fois.\rMerci infiniment ! Voici un petit\ntémoignage de ma reconnaissance.\r
+108	Je suis ton fan, maintenant. Je suis\nvieux, comme tu vois, mais je te\fsoutiendrai quoi qu’il arrive.
+109	Tu sais quoi ?\nJ’ai enfin chargé plus de 500 fois !\r
+110	Haha ! Tu t’en sors bien, mais pas aussi\nbien que moi. Je me demande si un\fPokéathlète peut être meilleur que moi à\fla Charge. Soupir...
+111	Tu sais quoi ?\nJ’ai chargé plus de 1 000 fois !\fEnfin !\r
+112	Tu sais quoi ? J’ai enfin chargé plus de\n2 000 fois ! Je parie que personne ne\fbattra facilement ce record !\r
+113	......!\nNon ! Ce n’est pas possible !\fTon record bat le mien ?\rNoooon !\n...OK. Tu as gagné.\rJe m’avoue complètement vaincu.\nPrends ceci.\r
+114	Ouf ! C’est étrange, mais je me sens\ntrès bien.\rJe regrette d’avoir perdu, mais ça m’a\nfait comprendre où j’en suis.\rJe sais qu’il y a de nombreux\nPokéathlètes meilleurs que moi.\rC’est ici que je recommence à\nprogresser ! Continue comme ça !

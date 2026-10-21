@@ -1,0 +1,10 @@
+0	Morgane : Je savais que tu viendrais...\rIl y a trois ans, j’ai eu une vision de\nton arrivée. Tu viens chercher mon\fBadge.\rJe n’aime pas les combats, mais c’est\nmon devoir de Championne d’Arène de\fremettre un Badge à quiconque s’en\fest montré digne.\rPuisque tu le souhaites, je vais te\nmontrer mes pouvoirs psychiques !\r
+1	Morgane : Ta puissance... Elle dépasse\nde loin ce que j’avais prévu...\rPeut-être n’est-il pas possible de\nprédire entièrement ce que l’avenir\fnous réserve...\rD’accord, tu as gagné. Tu as mérité\nle Badge Marais.\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Marais !
+3	Morgane : Je n’ai pas su prédire ta\npuissance. Cela signifie que ta\fpuissance dépasse mes capacités\fpsychiques.\rTu le mérites.\nPrends aussi cette CT !\r
+4	Morgane : Elle contient Échange !\nElle échange les Talents du lanceur\fet de la cible.\rTu deviendras un Maître célèbre\net aimé de tous !
+5	Morgane : Ton amour pour tes Pokémon\na anéanti mes capacités psychiques...\rLa capacité d’aimer est, je pense,\nune sorte de capacité psychique...
+6	Yo ! Futur légende !\rUn Dresseur aussi talentueux que toi\nn’a pas besoin qu’on lui explique\fcomment gérer les Pokémon de type\fPsy, n’est-ce pas ?\rJ’attends de grandes choses de toi !\rBonne chance !
+7	Encore un combat fantastique !
+8	Arène Pokémon de Safrania
+9	Arène Pokémon de Safrania\rChampionne : Morgane\nDresseur certifié !\f{STRVAR_1 3, 0, 0}
