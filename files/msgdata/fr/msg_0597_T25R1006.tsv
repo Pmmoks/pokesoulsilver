@@ -1,0 +1,34 @@
+0	Tu écoutes la radio ?\rQuelles émissions préfères-tu ?\rMoi, j’adore le Mot de Passe de Buena !\rQuand je le capte, je prends des notes\npour ne pas l’oublier.\rRésultat, mon Pokématos est plein\nde gribouillis !
+1	Même la Team Rocket doit comprendre\nà quel point c’est reposant d’écouter\fla Radio sur le toit, non ?
+2	Si tu es fatigué, essaie les boissons\ndu distributeur.\fTes Pokémon les adoreront aussi.
+3	Team Rocket...\rTu devrais prendre une boisson au\ndistributeur et faire une pause.\rIl serait temps que tu réfléchisses\nà ce que tu veux faire de ta vie.
+4	Faites une pause shopping !\n5e étage - Toit-terrasse
+5	C’est un distributeur automatique.\nQuelle boisson veux-tu ? {YESNO 0}
+6	Clang !\rUne canette de {STRVAR_1 8, 0, 0} est tombée.\r
+7	Clang !\rBonus ! Une autre canette de\n{STRVAR_1 8, 0, 0} est tombée.\r
+8	Tu n’as pas assez d’argent...
+9	Tu as renoncé à acheter une boisson.
+10	L’attraction à ne pas manquer du\nCentre Commercial de Doublonville !\fBienvenue au Tirage du Jour !\rVous pouvez tenter votre chance pour\n300 $ et gagner de superbes lots !\rVoulez-vous essayer ? {YESNO 0}
+11	Très bien. Tirez donc un numéro !\r...\n...\r
+12	Waouh !\nVous avez gagné le lot n° {STRVAR_1 50, 0, 0} !\rTenez, prenez-le.\r
+14	Oh là là...
+15	Oh là là...\nVotre Sac est plein.\rNous allons donc vous rembourser.\r
+16	Oh là là...\nVous n’avez pas assez d’argent.\rRevenez nous voir.
+17	Revenez nous voir.
+18	Les lots du dimanche :\rN° 1, CT02 !\nN° 2, Luxe Ball !\fN° 3, une Baie !
+19	Les lots du lundi :\rN° 1, CT65 !\nN° 2, Faiblo Ball !\fN° 3, une Baie !
+20	Les lots du mardi :\rN° 1, CT91 !\nN° 2, Bis Ball !\fN° 3, une Baie !
+21	Les lots du mercredi :\rN° 1, CT57 !\nN° 2, Filet Ball !\fN° 3, une Baie !
+22	Les lots du jeudi :\rN° 1, CT60 !\nN° 2, Rapide Ball !\fN° 3, une Baie !
+23	Les lots du vendredi :\rN° 1, CT42 !\nN° 2, Sombre Ball !\fN° 3, une Baie !
+24	Les lots du samedi :\rN° 1, CT62 !\nN° 2, Chrono Ball !\fN° 3, une Baie !
+25	Blanche : Quelle coïncidence !\nC’était écrit.\rOn échange nos numéros de téléphone ?\nAllez, s’il te plaît ! {YESNO 0}
+26	{STRVAR_1 3, 0, 0} a enregistré Blanche\ndans le Pokématos !
+27	Blanche : Je suis dispo vers midi\nle samedi.\rAppelle-moi quand tu auras le temps.
+28	Blanche : Ne sois pas si méchant.
+29	Blanche : Tu veux mon numéro\nmaintenant ? {YESNO 0}
+30	Blanche : Et si on prenait une photo\nensemble ? {YESNO 0}
+31	Blanche : OK !\nMets-toi juste à côté de moi, là !\r
+32	Blanche : On est bien ensemble, non ?
+33	Blanche : Dommage !
+34	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\nquelques photos.

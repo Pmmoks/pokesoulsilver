@@ -1,0 +1,25 @@
+0	Voici la salle “Potentiel”.\nElle montre le potentiel infini\fdes Pokémon comme des gens.
+1	Seuls les Pokéathlètes qui détiennent\nle meilleur record de chaque épreuve\fpeuvent entrer ici.\rContinue tes efforts pour battre\ntous les records !
+2	Voici la salle “Amitié”.\nTu peux entrer.
+3	Tu as du talent de Pokéathlète pour\nvenir jusqu’ici !\rMais il te reste du chemin avant de\ndevenir le meilleur Pokéathlète.\rJe te montre quelques techniques\nspéciales ? {YESNO 0}
+4	Salut, {STRVAR_1 3, 0, 0} !\nTu veux savoir autre chose ? {YESNO 0}
+5	Salut, {STRVAR_1 3, 0, 0} !\nTu veux savoir autre chose ? {YESNO 0}
+6	Sur quel parcours ? {YESNO 0}
+7	Sur quelle épreuve veux-tu\nen savoir plus ? {YESNO 0}
+8	À la Course de Haies, tout est une\nquestion de timing.\rTes Pokémon prennent de la vitesse\ns’ils attendent le dernier moment\fpour sauter les haies.\r
+9	Prise de Fanion...\rCette épreuve ne se joue pas qu’avec\nles fanions de la plage, mais aussi\favec ceux des autres Pokémon.\rSi tu les bouscules par derrière,\nils tombent et ton Pokémon\fprend leurs fanions.\rC’est comme ça que les experts font.\r
+10	Le principe, c’est de pousser les\nautres Pokémon hors des cercles... ça,\ftu t’en doutais.\rEn fait, ton Pokémon pousse plus fort\nsi tu choisis le bon moment\fpour lui dire de pousser.\rEn donnant des ordres de poussée\nrégulièrement, tu peux repousser\fdes Pokémon puissants.\r
+11	Casse-Bloc, ce n’est pas que casser.\rTu as remarqué qu’il y a parfois\nde petites fissures dans les blocs ?\rSi tu frappes ces fissures,\nils se brisent très vite !\rSi tu vises plusieurs fissures\nd’affilée, ton Pokémon se sent en\fforme et montre tout son potentiel.\rAutre chose...\rPour changer de Pokémon, fais glisser\nton Pokémon vers le haut,\fça va plus vite.\r
+12	À Attrape-Disque, tout dépend du temps\nque tu attends avant d’attraper\fles disques.\rLes Pokémon Oiseau bougent dans les\nairs, donc c’est plus facile d’attraper\fles disques avec une équipe d’oiseaux.\r
+13	Saut Lampion, ce n’est pas que sauter.\rTrois Pokémon rebondissent ensemble :\nun Pokémon ne peut pas bien sauter\fsi un autre retombe au moment où\fil veut s’élancer.\rLa clé, c’est de les faire sauter\nau bon moment.\r
+14	La Course Relais demande de changer\nde Pokémon au bon moment.\rTu as remarqué que les Pokémon\ncommencent à transpirer quand\fils sont fatigués ?\rCela veut dire qu’ils ont beaucoup\nralenti.\rIl ne faut pas les laisser transpirer.\rChanger avant qu’ils transpirent,\nvoilà la clé.\r
+15	Ce n’est pas facile de viser le sommet\nau Ring Sumo en chargeant sans arrêt.\fTu connais l’“Attaque Corps” ?\rC’est comme ça que je l’appelle,\nen tout cas...\rTon Pokémon peut sauter tout en\navançant.\rSi tu lui fais faire une Attaque Corps\ncontre les autres, tu peux les faire\ftomber carrément hors du ring !\r
+16	Bataille de Neige, ce n’est pas que\nlancer.\rTu t’assures que les boules de neige\nsont bien grosses ?\rLes grosses boules de neige font\ntomber plus facilement les autres\fPokémon.\rTu peux aussi empêcher les boules\nadverses de toucher ton Pokémon en\flui faisant tenir des boules de neige.\r
+17	Roule-But demande les talents d’un\nPokéathlète.\rLa situation change à chaque seconde,\nmais garde ton calme pour donner\fdes ordres à tes Pokémon.\rLe placement est essentiel.\rJe conseille d’en garder un devant\nton propre but pour le protéger,\fun au milieu du terrain pour la\fsouplesse et un devant le but où tu\fveux faire rouler la balle.\r
+18	J’espère que tu deviendras le meilleur\nPokéathlète. Bonne chance !
+19	Ceux qui ont remporté le Pokéathlon\n100 fois sont honorés ici pour avoir\fétabli ce nouveau record légendaire.
+20	C’est un superbe Pokématos pour fêter\nta 100e victoire au Pokéathlon.\rC’est ton modèle !\nUn Pokématos spécial avec le logo\fdu Pokéathlon au dos.
+21	Les Pokéathlètes qui ont fini premiers\nà chaque épreuve du Pokéathlon\f50 fois sont honorés ici pour leur\fpuissance écrasante et l’arrivée\fd’une nouvelle légende.
+22	C’est une superbe Poké Ball pour fêter\ntes 50 victoires à chaque épreuve\fdu Pokéathlon.\rC’est ta Poké Ball modèle ! Elle porte\nla gravure “Reste au sommet”.
+23	{STRVAR_1 3, 0, 0} a consulté\nles records des épreuves.\r
+24	DODRIO : Kiiwn !

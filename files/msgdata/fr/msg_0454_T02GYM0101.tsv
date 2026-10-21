@@ -1,0 +1,11 @@
+0	Blue : Yo ! Tu es enfin là, hein ?\rÀ Cramois’Île, je n’étais pas\nd’humeur, mais là je suis prêt à\ft’affronter.\r...\rTu me dis que tu as vaincu toutes\nles Arènes de Johto ?\rHahaha ! Heh ! Les Arènes de Johto\nsont si nulles ?\rBah, ne t’en fais pas.\nJe saurai si tu es bon ou pas\fen te combattant tout de suite.\r
+1	Blue : Pas possible !\rComment j’ai pu perdre contre toi ?\r...\rTss, bon, d’accord...\fTiens, prends ça.\fC’est le Badge Terre.\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Terre de Blue !
+3	Blue : Avec ce Badge, tu pourras\nutiliser la CS Escalade !\fTiens !\rPrends ça aussi !\r
+4	Blue : Elle contient Distorsion !\rElle permet aux Pokémon lents\nd’attaquer avant les rapides pendant\fun moment.\rC’est une capacité bien vicieuse,\nnon ? D’où son nom !
+5	Blue : ...\rBon, j’avais tort. Tu es à la hauteur.\fTu es un bon Dresseur.\rMais je te battrai un jour.\nNe l’oublie pas !
+6	Yo, futur légende !\rLe sol est instable ici,\nalors range tes Pokémon\f...tout de suite !\rLe Champion d’Arène est un gars qui a\naffronté le Maître il y a trois ans.\rIl n’est pas facile à battre.\nDonne tout ce que tu as !
+7	Wow, tu es vraiment coriace...\rCe combat était tellement inspirant.\nÇa m’a mis les larmes aux yeux.
+8	Yo, futur légende !\rLe sol est instable ici,\nalors range tes Pokémon\f...tout de suite !\rLe Champion d’Arène est un gars qui a\naffronté le Maître il y a trois ans.\rIl n’est pas facile à battre.\nDonne tout ce que tu as !\r
+9	Arène Pokémon de Jadielle
+10	Arène Pokémon de Jadielle\rChampion : Blue\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

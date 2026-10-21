@@ -1,0 +1,19 @@
+0	C’est la catastrophe !\rLa machine de la Centrale est en panne\net on n’a plus d’électricité !\rJe ne sais pas quand on pourra\nrelancer le Train Magnétique.
+1	Grâce à quelqu’un qui a remis la\nCentrale en marche,\fle Train Magnétique roule de nouveau !\rLes voyageurs doivent passer le\nportique pour le contrôle automatique\fdes billets...\r
+2	...Bip !\rJe suis navré, mais il vous faut un\nPasse Train pour monter dans\fle Train Magnétique...\r
+3	Les voyageurs doivent passer le\nportique pour le contrôle automatique\fdes billets...\r
+4	Ding... fiouu !\nVoici votre Passe, je vous le rends.\rCe train va bientôt partir\npour Doublonville.
+5	Bon voyage à bord du Train Magnétique,\nattirant et envoûtant !
+6	Nous sommes arrivés à Safrania !\nSafrania ! Attention à l’accent !
+7	Bon voyage à bord du Train Magnétique,\nattirant et envoûtant !\r
+8	Le Train Magnétique est un train ultra-\nmoderne qui utilise l’électricité et des\faimants pour atteindre des vitesses\ffolles.\rMais là, il n’y a plus d’électricité.\nCe n’est qu’une boîte en fer.
+9	Ouf...\rCombien de fois ai-je fait\nl’aller-retour entre Kanto et Johto ?
+10	Avant la construction de la gare du\nTrain Magnétique, il y avait une maison\fici.\rUne petite fille que l’on appelait\nCopieuse y habitait.
+11	Salut. Tu as un Passe Train ?\rMoi, j’en ai un.\rTous les habitants de Safrania qui\nprennent le Train Magnétique en ont\fun.
+12	Major Bob : Oh ! Je ne m’attendais pas\nà te voir dans un endroit pareil !\fQuelle coïncidence !\rJe sens une énorme puissance\nélectrique autour de la gare du Train\fMagnétique !\rTu avais un PIKACHU, non ?\nÇa te dit de l’échanger contre mon\fPIKACHU étranger ? {YESNO 0}
+13	Major Bob : Mon PIKACHU contre\nton PIKACHU, qu’est-ce que\fça te dit ?
+14	Major Bob : Waouh ! Électrisant !\nOn l’échange tout de suite !\r
+15	Major Bob : Choquant !\nJ’aurais voulu partager mon amour\fdes PIKACHU avec toi !\rJe suis prêt quand tu veux, alors\napporte-moi un PIKACHU, d’accord ?
+16	Major Bob : Ouais !\nJe suis aux anges ! À la prochaine.\fAu revoir !\r
+17	Major Bob : Quoi ? Ce n’est pas\nle bon Pokémon !\rJe n’échangerai mon PIKACHU contre\nrien d’autre qu’un PIKACHU.
+18	Nous vous prions de bien surveiller vos\nPokémon ou de les ranger dans leur\fPoké Ball, pour qu’ils ne lèchent pas\fle visage des autres voyageurs.\fMerci.

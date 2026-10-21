@@ -1,0 +1,26 @@
+0	Auguste : Hé, toi !\rMon Arène de Cramois’Île a brûlé\nà cause de l’éruption !\rMais je n’abandonne pas !\nRegarde cette grotte.\rOn en a fait une Arène, et je suis\ntoujours Champion d’Arène !\rJe te donnerai le Badge de l’Arène\nsi tu parviens à me battre !\rPrêt ? C’est parti !\r
+1	Auguste : Génial. Je suis cramé...\fPrends ce Badge Volcan !\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Volcan d’Auguste !
+3	Auguste : Tiens, je te donne ça aussi.\nC’est Surchauffe !\rÇa a un petit inconvénient, mais c’est\npuissant et ça vaut largement le coup !\r
+4	Auguste : J’ai perdu cette fois, mais je\ngagnerai la prochaine.\rQuand j’aurai reconstruit mon Arène\nde Cramois’Île, on fera la revanche.
+5	Auguste : Mes Pokémon de type Feu\nseront encore plus forts ! Tu verras !
+6	Wow, une Arène dans une grotte ?\nJ’aimerais bien l’explorer.\r
+7	L’amertume prépare\nles succès de demain.
+8	L’amertume prépare\nles succès de demain.\r
+9	Je suis en train de recueillir\ndes données de combat.\rTu peux m’aider ?\r
+10	Je ne m’attendais pas à une telle\nforce ! Qui es-tu donc ?
+11	Je ne m’attendais pas à une telle\nforce ! Qui es-tu donc ?\r
+12	Ooh !\nTu as l’air facile à battre !\r
+13	Pardon !\nJe n’avais pas senti ta force.
+14	Pardon !\nJe n’avais pas senti ta force.\r
+15	La blouse blanche, c’est la vie d’un\nchercheur. On vit peut-être dans une\fgrotte, mais on fait toujours la\flessive.\r
+16	Avec cette blouse blanche, j’ai\nl’impression d’être plus intelligent,\nje ne sais pas pourquoi.
+17	Avec cette blouse blanche, j’ai\nl’impression d’être plus intelligent,\nje ne sais pas pourquoi.\r
+18	Auguste a peut-être perdu son Arène,\nmais il n’abandonne jamais. Sa\fpersévérance me motive !\r
+19	Avec Auguste, nous allons reconstruire\nnotre Arène !
+20	Avec Auguste, nous allons reconstruire\nnotre Arène !\r
+21	Nous avons perdu l’Arène de\nCramois’Île et nous étions perdus\favant de venir ici.\r
+22	On recule d’un pas quand on est\nbattu...\rN’est-ce pas la preuve que nous\nsommes d’une honnêteté exemplaire ?\rNe nous mets jamais dans le même\npanier que les Scientifiques\fqui aident les méchants.
+23	On recule d’un pas quand on est\nbattu...\rN’est-ce pas la preuve que nous\nsommes d’une honnêteté exemplaire ?\rNe nous mets jamais dans le même\npanier que les Scientifiques\fqui aident les méchants.\r
+24	Yo ! Légende en devenir !\rDans cette Arène, il y a beaucoup de\nDresseurs et de rochers à cause des\ftravaux de reconstruction.\rAtteindre Auguste ne sera pas facile !\nMais garde ton sang-froid, bats les\fDresseurs un par un et tu trouveras\fsûrement le chemin !
+25	Le Champion d’Arène qui reconstruit\nson Arène et le Dresseur de Johto venu\fdéfier ce Champion...\rJ’ai assisté à un combat brûlant !

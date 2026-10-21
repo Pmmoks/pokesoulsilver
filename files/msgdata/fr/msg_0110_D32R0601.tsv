@@ -1,0 +1,56 @@
+0	Bienvenue à l’Arcade de Combat !\rJe suis votre guide pour les défis\nCombat Simple et Combat Double.\rVeuillez noter que ces défis sont\nconçus pour un seul Dresseur.\r
+1	Quel défi souhaitez-vous relever ?{YESNO 0}
+2	À l’Arcade de Combat, vous pouvez\nrelever un défi Combat Simple ou Double.\rIci, un plateau de jeu s’active\navant chaque match.\rSelon ce qui sort sur le plateau,\nun événement se produit.\rCertains événements avantagent\nle challenger, d’autres non.\rLe but est de garder une série de\nvictoires le plus longtemps possible.\rPendant votre défi, les objets tenus\npar vos Pokémon seront mis en dépôt.\rSi vous remportez sept matchs\nd’affilée, vous gagnerez des\fPoints Combat (PC).\rSi vous voulez interrompre\nvotre défi, veuillez sauvegarder.\rSi vous ne sauvegardez pas, votre\ndéfi sera disqualifié.\rVeuillez en tenir compte !\r
+3	Bienvenue à l’Arcade de Combat !\rJe suis votre guide pour le défi\nCombat Multi.\rVeuillez noter que ce défi\nnécessite deux Dresseurs.\r
+4	Souhaitez-vous relever le défi Combat\nMulti de l’Arcade de Combat ?{YESNO 0}
+5	Vous pouvez faire équipe avec un autre\nDresseur pour un défi Combat Multi.\rIci, un plateau de jeu s’active\navant chaque match.\rSelon ce qui sort sur le plateau,\nun événement se produit.\rCes événements peuvent influer\nénormément sur l’issue du match,\fen bien ou en mal.\rLe but est de garder une série de\nvictoires le plus longtemps possible.\rPendant votre défi, les objets tenus\npar vos Pokémon seront mis en dépôt.\rSi vous remportez sept matchs\nd’affilée, vous gagnerez des\fPoints Combat (PC).\rÀ noter : un défi Combat Multi de\nl’Arcade de Combat ne peut pas être\finterrompu.\r
+6	Nous espérons vous revoir !
+7	Veuillez choisir les Pokémon que vous\nsouhaitez inscrire.\r
+8	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rVous devez avoir {STRVAR_1 50, 1, 0} Pokémon\ndifférents pour participer.\r
+9	De plus, les Œufs ne sont pas admis.\r
+10	Les Œufs et {STRVAR_1 0, 1, 0} ne sont
+11	Les Œufs, {STRVAR_1 0, 1, 0} et {STRVAR_1 0, 2, 0}
+12	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0} et\n{STRVAR_1 0, 3, 0} ne sont pas admis.\r
+13	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0} et {STRVAR_1 0, 4, 0}\fne sont pas admis.\r
+14	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0} et {STRVAR_1 0, 5, 0}\fne sont pas admis.\r
+15	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0} et\f{STRVAR_1 0, 6, 0} ne sont pas admis.\r
+16	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0} et {STRVAR_1 0, 7, 0}\fne sont pas admis.\r
+17	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0} et {STRVAR_1 0, 8, 0}\fne sont pas admis.\r
+18	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0} et\f{STRVAR_1 0, 9, 0} ne sont pas admis.\r
+19	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0} et {STRVAR_1 0, 10, 0}\fne sont pas admis.\r
+20	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0} et {STRVAR_1 0, 11, 0}\fne sont pas admis.\r
+21	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0} et\f{STRVAR_1 0, 12, 0} ne sont pas admis.\r
+22	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0} et {STRVAR_1 0, 13, 0}\fne sont pas admis.\r
+23	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0} et {STRVAR_1 0, 14, 0}\fne sont pas admis.\r
+24	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}, {STRVAR_1 0, 14, 0} et\f{STRVAR_1 0, 15, 0} ne sont pas admis.\r
+25	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}, {STRVAR_1 0, 14, 0},\f{STRVAR_1 0, 15, 0} et {STRVAR_1 0, 16, 0}\fne sont pas admis.\r
+26	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}, {STRVAR_1 0, 14, 0},\f{STRVAR_1 0, 15, 0}, {STRVAR_1 0, 16, 0} et {STRVAR_1 0, 17, 0}\fne sont pas admis.\r
+27	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}, {STRVAR_1 0, 8, 0},\f{STRVAR_1 0, 9, 0}, {STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}, {STRVAR_1 0, 14, 0},\f{STRVAR_1 0, 15, 0}, {STRVAR_1 0, 16, 0}, {STRVAR_1 0, 17, 0} et\f{STRVAR_1 0, 18, 0} ne sont pas admis.\r
+28	Revenez me voir quand vous voudrez.\r
+29	Les deux Dresseurs ont choisi le\nPokémon {STRVAR_1 0, 0, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.\r
+30	Les deux Dresseurs ont choisi les\nPokémon {STRVAR_1 0, 0, 0} et {STRVAR_1 0, 1, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.\r
+31	Vous devez sauvegarder la partie avant\nque je vous fasse entrer. D’accord ?{YESNO 0}
+32	Par ici, je vous prie !
+33	Vous nous avez manqué !\rVous devez sauvegarder la partie avant\nde reprendre votre défi. Veuillez\fpatienter.
+34	Excusez-moi !\rVous n’avez pas sauvegardé avant\nd’arrêter votre dernier défi.\rPour cette raison, votre défi\nest disqualifié !\r
+35	Félicitations !\rEn l’honneur de votre victoire, nous\nvous offrons cette impression\fcommémorative !\r
+36	L’Impression Or a été ajoutée\nau Magnéto VS de {STRVAR_1 3, 0, 0} !\r
+37	L’Impression Argent a été ajoutée\nau Magnéto VS de {STRVAR_1 3, 0, 0} !\r
+38	COMBAT SIMPLE
+39	COMBAT DOUBLE
+40	RELEVER LE DÉFI
+41	INFOS
+42	ANNULER
+43	Un Dresseur doit choisir\n“ÊTRE LE CHEF”.\rL’autre Dresseur doit choisir\n“REJOINDRE”.{YESNO 0}
+44	Nous devons lancer la Communication\nsans fil DS.{YESNO 0}
+45	Vous devez sauvegarder la partie avant\nque je vous fasse entrer. Veuillez\fpatienter.
+46	Le plateau de jeu, c’est comme la vie.\rIl tourne et tourne,\ncomme ta chance monte et descend...\fAlors, qu’en dis-tu ?\rÇa avait presque un sens, non ?
+47	Il y a une part de chance dans\nles combats Pokémon...\rL’Arcade de Combat me le rappelle,\nc’est évident. Très évident...
+48	Quelle qualité faut-il avant tout ici ?\nLa force ?\fLa sagesse ?\fLa chance ?\fNon. La réponse, c’est... la souplesse.\fC’est mon instinct qui me le dit.
+49	Tu sais ce que j’appelle “l’arrêt pile” ?\rC’est l’art d’arrêter le plateau\nau bon moment !\rMais attention...\fSi tu ne l’arrêtes pas en 30 secondes,\nil s’arrêtera tout seul.
+50	Je pensais avoir tout prévu avec mes\nPokémon préférés, mais j’ai dû les\féchanger contre ceux de mon\fadversaire ! Il faut que je revoie\ftoute ma stratégie.
+51	J’avais choisi des Pokémon doués pour\nl’attaque. Mais mon adversaire a misé\fsur la vitesse !\rLa prochaine fois, j’essaierai des\nPokémon plus rapides.
+52	L’“arrêt pile” offre des avantages !\rMais s’en remettre à la main invisible du\nhasard, c’est très amusant...
+53	Plus on gagne, meilleurs sont les choix\nque propose le plateau...\rCe plateau serait-il vivant... ?
+54	Tu as compris ça ?\rLes événements de paralysie\nn’affectent pas les Pokémon de type\fSol.\rFais passer le mot !
+55	Je vais te dire un truc.\rLes événements de poison ou de gel\npeuvent être rendus sans effet...\r...si le type ou le talent du Pokémon\nle protège de ces problèmes de statut.\rÇa peut servir !

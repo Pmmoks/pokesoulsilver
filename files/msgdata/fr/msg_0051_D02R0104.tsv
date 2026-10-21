@@ -1,0 +1,6 @@
+0	MELOFEE : Pip Pip !
+1	Ici, la Place du Mont Sélénite.\rMerci de ne pas jeter vos\ndéchets n’importe où. Utilisez\fles poubelles !
+2	{STRVAR_1 3, 0, 0} trouve\n{STRVAR_1 8, 1, 0} !
+3	{STRVAR_1 3, 0, 0} range {STRVAR_1 8, 1, 0}\ndans la poche {COLOR 2}{STRVAR_1 31, 2, 0}{COLOR 0}.
+4	Vous obtenez {STRVAR_1 8, 0, 0} !\rDommage !\nLe Sac est plein...
+5	C’est fermé pour aujourd’hui.

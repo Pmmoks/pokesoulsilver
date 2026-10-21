@@ -1,0 +1,34 @@
+0	Cynthia : Voici la {COLOR 1}Scène Mystri{COLOR 0}. La\nscène mythique bâtie en hommage à\fARCEUS.\rOn dit qu’autrefois, les gens\ncélébraient sa magnifique puissance\favec de la musique et de la danse.\rCertains habitants de Johto\nperpétuent encore cette tradition.\r
+1	Cynthia : Voici la {COLOR 1}Scène Mystri{COLOR 0}. La\nscène mythique bâtie en hommage à\fARCEUS.\rOn dit qu’autrefois, les gens\ncélébraient sa magnifique puissance\favec de la musique et de la danse.\rCertains habitants de Johto\nperpétuent encore cette tradition.
+2	Cynthia : La {COLOR 1}Scène Mystri{COLOR 0} n’accepte\nqu’un seul ARCEUS, et rien d’autre...\rSi tu veux y monter, il faut déposer\ntes autres Pokémon dans une boîte\fdu PC de la cabane.
+3	Cynthia : Amène plutôt ton ARCEUS.\rTout autre Pokémon pourrait être\némporté par la puissante force qui\fplane sur les ruines.\r
+4	Cynthia : C’est là qu’on pourrait\ndire : “Le héros entre enfin sur la\f{COLOR 1}Scène Mystri{COLOR 0}.”\rToutes mes études sur les ruines et la\nmythologie Pokémon de Sinnoh avaient\fpeut-être pour but de te mener\fsur cette scène aujourd’hui...\r
+5	Cynthia : Sur la {COLOR 1}Scène Mystri{COLOR 0} sont\nreprésentés les Pokémon qui ont\ffaçonné ce monde.\rLe cercle du milieu, c’est ARCEUS,\nl’origine de tout...\r
+6	Cynthia : Selon un document ancien,\nle temps, l’espace et l’antimatière,\fce qui forme ce que l’on appelle le\fmonde, naîtront quand ARCEUS se\ftiendra sur la {COLOR 1}Scène Mystri{COLOR 0}.\r
+7	Cynthia : Voici le motif qui représente\nPALKIA, le maître de l’espace et\fdes dimensions...\r
+8	Cynthia : Voici le motif qui représente\nDIALGA, le gardien du temps...\r
+9	Cynthia : Voici le motif qui représente\nGIRATINA, le souverain du monde\fqui est de l’autre côté du nôtre,\fle monde de l’antimatière...\r
+10	Cynthia : ARCEUS t’accepte comme\nDresseur.\rARCEUS, qui a façonné le monde,\nvoudrait te laisser entrevoir\fsa véritable puissance.\rLe pouvoir de faire naître la vie\nà partir de rien, peut-être...\r
+11	Cynthia : Il semble que quelque chose\nse produira quand tu choisiras\fl’un des cercles...\rIl vaut mieux être bien préparé.
+12	Cynthia : Dès que tu le souhaites,\nchoisis un cercle et place-toi en son\fmilieu.
+13	Cynthia : Alors tu choisis DIALGA,\nle gardien du temps ? {YESNO 0}
+14	Cynthia : Alors tu choisis PALKIA, le\nmaître de l’espace et des dimensions ? {YESNO 0}
+15	Cynthia : Alors tu choisis GIRATINA,\nle souverain du Monde Distorsion ? {YESNO 0}
+16	Cynthia : Cette sphère lumineuse...\nSerait-ce...un Œuf ?\rVenons-nous d’assister au moment même\noù un Œuf est venu au monde ?\fUn instant que nul n’a jamais vu ?\r
+17	Cynthia : Un Œuf est le berceau de\ntout être. Cette planète est\felle-même un Œuf, en quelque sorte...\rLa vie qui sort d’un Œuf prendra fin\nen son temps...\fpour recommencer...\rC’est peut-être ce qu’ARCEUS voulait\nnous montrer.\r\n
+18	Cynthia : C’était...?\r
+19	Cynthia : Cette puissante force nous\nentoure de nouveau...!\r
+20	Cynthia : Mais bien sûr... ARCEUS !\rLa source de la force que je sentais,\nc’était ARCEUS !\r
+21	Cynthia : Ce que l’on appelle les\n{COLOR 1}Ruines Sinjoh\n{COLOR 0}ont été bâties en l’honneur d’ARCEUS\fpar le peuple de Sinnoh...\rC’est un temple pris dans les glaces\nqui attend ARCEUS depuis des\fcentaines d’années...\r
+22	Cynthia : Voici la {COLOR 1}Scène Mystri{COLOR 0}.\rElle est conçue pour libérer le pouvoir\nque possède ARCEUS.\r
+23	Cynthia : Dans la mythologie, ARCEUS\nest décrit comme l’origine de tout\fet la source de tous les êtres.\rOn dit que la puissance d’ARCEUS\nest libérée sur la {COLOR 1}Scène Mystri{COLOR 0} !\r
+24	Cynthia : Les {COLOR 1}Ruines Sinjoh{COLOR 0} sont les\nvestiges d’un temple bâti en hommage\fà ARCEUS.
+25	L’étrange objet rond a pris\nla forme d’un Pokémon !\r
+26	{STRVAR_1 3, 0, 0} a obtenu\n{STRVAR_1 0, 1, 0} !
+27	Choisis-tu DIALGA ? {YESNO 0}
+28	Choisis-tu PALKIA ? {YESNO 0}
+29	Choisis-tu GIRATINA ? {YESNO 0}
+30	Cet endroit ne semble pas réagir...
+31	Il semble que seul un ARCEUS\npuisse se tenir ici...
+32	Veux-tu donner un surnom\nà {STRVAR_1 0, 1, 0} ? {YESNO 0}
+33	Il ne semble plus réagir\nà cet ARCEUS...

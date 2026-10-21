@@ -1,0 +1,56 @@
+0	Professeur Chen : Ah, {STRVAR_1 3, 0, 0} !\nC’est gentil d’avoir fait tout ce\fchemin jusqu’à Kanto.\rQue penses-tu des Dresseurs d’ici ?\nIls sont coriaces, hein ?\r
+1	Professeur Chen : Ah, {STRVAR_1 3, 0, 0} !\nC’est gentil d’avoir fait tout ce\fchemin jusqu’à Kanto.\rQue penses-tu des Dresseurs d’ici ?\nIls sont coriaces, hein ?\r
+3	Si tu passes dans le coin, reviens\nme voir !
+4	Tu ne cesseras jamais de m’étonner !\rAvoir complété le Pokédex National\ndépasse toutes mes attentes !\rTa rencontre est un souvenir que je\nchérirai toute ma vie !\r
+5	Tu ne cesseras jamais de m’étonner !\rAvoir complété le Pokédex National\ndépasse toutes mes attentes !\rTa rencontre est un souvenir que je\nchérirai toute ma vie !\r
+6	Professeur Chen : Ces Badges...\rOh ! Tu es devenu Maître de Johto\net tu as aussi récolté tous\fles Badges de Kanto ! Bravo !\rHmm... Pas étonnant que j’aie senti\nquelque chose en toi dès notre\frencontre.\rÉcoute-moi bien, {STRVAR_1 3, 0, 0}.\rJe vais faire le nécessaire pour que tu\npuisses aller au Mont Argenté.\rLe Mont Argenté est une grande\nmontagne habitée par de nombreux\fPokémon sauvages.\rC’est trop dangereux pour un Dresseur\nordinaire, alors l’accès est interdit.\rMais nous pouvons faire une exception\npour toi, {STRVAR_1 3, 0, 0}.\rVa au Poste de Contrôle de la\nLigue Pokémon.\rTu pourras rejoindre le Mont Argenté\nde là-bas.
+7	Professeur Chen : Ces Badges...\rOh ! Tu es devenue Maître de Johto\net tu as aussi récolté tous\fles Badges de Kanto ! Bravo !\rHmm... Pas étonnant que j’aie senti\nquelque chose en toi dès notre\frencontre.\rÉcoute-moi bien, {STRVAR_1 3, 0, 0}.\rJe vais faire le nécessaire pour que tu\npuisses aller au Mont Argenté.\rLe Mont Argenté est une grande\nmontagne habitée par de nombreux\fPokémon sauvages.\rC’est trop dangereux pour un Dresseur\nordinaire, alors l’accès est interdit.\rMais nous pouvons faire une exception\npour toi, {STRVAR_1 3, 0, 0}.\rVa au Poste de Contrôle de la\nLigue Pokémon.\rTu pourras rejoindre le Mont Argenté\nde là-bas.
+8	Professeur Chen : Hmm ? Tu ne\ncollectionnes pas les Badges d’Arène de\fKanto ?\rLes Champions d’Arène de Kanto sont\naussi forts que ceux que tu as\faffrontés à Johto. Je te conseille de\fles défier.\r
+9	Professeur Chen : Ah, tu collectionnes\nles Badges d’Arène de Kanto.\rJ’imagine que c’est dur, mais cette\nexpérience te servira sûrement.\rReviens me voir quand tu les auras\ntous. J’aurai un cadeau pour toi.\fCourage, {STRVAR_1 3, 0, 0} !\r
+10	Professeur Chen : Ah, tu collectionnes\nles Badges d’Arène de Kanto.\rJ’imagine que c’est dur, mais cette\nexpérience te servira sûrement.\rReviens me voir quand tu les auras\ntous. J’aurai un cadeau pour toi.\fCourage, {STRVAR_1 3, 0, 0} !\r
+11	Professeur Chen : Oh, {STRVAR_1 3, 0, 0} !\nQu’est-ce qui t’amène ?\r
+12	Professeur Chen : Oh, {STRVAR_1 3, 0, 0} !\nQu’est-ce qui t’amène ?\r
+13	Professeur Chen : Les Pokémon\nlégendaires du mythe de Hoenn ?\rTu veux sûrement parler de KYOGRE\net GROUDON !\r
+14	Professeur Chen : La Tour Enfouie est\nprobablement une ruine liée au mythe de\fHoenn. Si c’est le cas, l’autre doit\fêtre dans les parages.\rOn dit que KYOGRE et GROUDON ont\nfaçonné les mers et les terres !\rLà où se trouvent ces deux-là, l’autre\nPokémon apparaîtrait aussi...\fTout cela est tout à fait possible !\r
+15	Professeur Chen : Il n’est pas difficile\nd’imaginer que l’Orbe Rouge fera\fapparaître GROUDON à la Tour Enfouie...\rCependant, d’après M. Pokémon,\nGROUDON ne se montre pas aux\fDresseurs aux coeurs d’or, mais\fseulement aux âmes d’argent\fétincelant.\rIl te sera peut-être difficile\nd’y arriver seul, {STRVAR_1 3, 0, 0}.\rMais si tu obtiens un GROUDON\nvenu de la Tour Enfouie,\rviens me montrer les deux Pokémon\nlégendaires !\rJe te dévoilerai alors la suite\ndu mythe de Hoenn !\r
+16	Professeur Chen : Il n’est pas difficile\nd’imaginer que l’Orbe Rouge fera\fapparaître GROUDON à la Tour Enfouie...\rCependant, d’après M. Pokémon,\nGROUDON ne se montre pas aux\fDresseurs aux coeurs d’or, mais\fseulement aux âmes d’argent\fétincelant.\rIl te sera peut-être difficile\nd’y arriver seule, {STRVAR_1 3, 0, 0}.\rMais si tu obtiens un GROUDON\nvenu de la Tour Enfouie,\rviens me montrer les deux Pokémon\nlégendaires !\rJe te dévoilerai alors la suite\ndu mythe de Hoenn !\r
+17	Professeur Chen : Il n’est pas difficile\nd’imaginer que l’Orbe Bleu fera\fapparaître KYOGRE à la Tour Enfouie...\rCependant, d’après M. Pokémon,\nKYOGRE ne se montre pas aux Dresseurs\faux âmes d’argent étincelant, mais\fseulement aux coeurs d’or.\rIl te sera peut-être difficile\nd’y arriver seul, {STRVAR_1 3, 0, 0}.\rMais si tu obtiens un KYOGRE\nvenu de la Tour Enfouie,\rviens me montrer les deux Pokémon\nlégendaires !\rJe te dévoilerai alors la suite\ndu mythe de Hoenn !\r
+18	Professeur Chen : Il n’est pas difficile\nd’imaginer que l’Orbe Bleu fera\fapparaître KYOGRE à la Tour Enfouie...\rCependant, d’après M. Pokémon,\nKYOGRE ne se montre pas aux Dresseurs\faux âmes d’argent étincelant, mais\fseulement aux coeurs d’or.\rIl te sera peut-être difficile\nd’y arriver seule, {STRVAR_1 3, 0, 0}.\rMais si tu obtiens un KYOGRE\nvenu de la Tour Enfouie,\rviens me montrer les deux Pokémon\nlégendaires !\rJe te dévoilerai alors la suite\ndu mythe de Hoenn !\r
+19	Professeur Chen : Tu as réussi,\n{STRVAR_1 3, 0, 0} !\fTu as capturé KYOGRE et GROUDON !\fBien !\fJe voudrais te confier ceci !\r
+20	Professeur Chen : Tu as réussi,\n{STRVAR_1 3, 0, 0} !\fTu as capturé KYOGRE et GROUDON !\fBien !\fJe voudrais te confier ceci !\r
+21	Professeur Chen : Il ressemble à l’Orbe\nque tu as reçu de M. Pokémon, non ?\rC’est l’Orbe Jade.\nIl a un lien avec RAYQUAZA.\rSelon la légende, le combat entre\nGROUDON et KYOGRE a façonné les terres\fet les mers de Hoenn.\rLes éruptions volcaniques et les\nraz-de-marée auraient complètement\fchangé la forme du territoire.\rMais alors RAYQUAZA est descendu\npour mettre fin au combat.\rC’est le Pokémon qui règne sur les\ncieux !\rSi la Tour Enfouie est liée\nà KYOGRE et GROUDON,\ralors y aller avec l’Orbe Jade fera\nsûrement se produire quelque chose.\r
+22	Professeur Chen : Va à la Tour Enfouie\navec l’Orbe Jade !\r
+23	Professeur Chen : Tu as capturé\nRAYQUAZA !\rLa grande puissance de l’Orbe Jade\na dû attirer RAYQUAZA là-bas !\rLes Pokémon sont parfois fortement\nattirés par certains Orbes et Pierres.\fPersonne ne sait pourquoi.\rPeut-être les souvenirs d’une époque\nlointaine...\fquand cette planète est née...\fet les Pokémon aussi...\fles poussent-ils à agir ainsi.\r
+24	Professeur Chen : Bonjour,\n{STRVAR_1 3, 0, 0} ! L’étude des Pokémon ne\fs’arrête jamais.\rC’est un tel bonheur de tendre\nvers la perfection !\rAu fait...\rHmm ? Ces Pokémon !\fIls étaient à la Tour Enfouie ?\rC’est KYOGRE et GROUDON,\nles Pokémon du mythe de Hoenn !\rJe n’aurais jamais cru que tu\ncapturerais de tels Pokémon...\rTu as prouvé ta valeur !\nFélicitations !\rJe voudrais te confier ceci,\n{STRVAR_1 3, 0, 0} !\r
+25	Professeur Chen : Bonjour,\n{STRVAR_1 3, 0, 0} ! L’étude des Pokémon ne\fs’arrête jamais.\rC’est un tel bonheur de tendre\nvers la perfection !\rAu fait...\rHmm ? Ces Pokémon !\fIls étaient à la Tour Enfouie ?\rC’est KYOGRE et GROUDON,\nles Pokémon du mythe de Hoenn !\rJe n’aurais jamais cru que tu\ncapturerais de tels Pokémon...\rTu as prouvé ta valeur !\nFélicitations !\rJe voudrais te confier ceci,\n{STRVAR_1 3, 0, 0} !\r
+26	Professeur Chen : Tiens, prends ça !\r
+28	Professeur Chen : Dis donc !\nTu ne voudrais pas faire une photo\favec moi, pour changer ? {YESNO 0}
+29	Professeur Chen : Oui ? Parfait !\nOn y va ?\r
+30	Professeur Chen : Voilà !\nUn beau souvenir !
+31	Professeur Chen : Non ?\nIl ne faut pas être timide...
+32	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.\n
+33	L’émission radio Pokémon Talk du\nProfesseur est diffusée ici et\faussi à Johto.\rLe Professeur Chen est\ntellement...cool !
+34	{STRVAR_1 3, 0, 0}, grâce à ton travail sur le\nPokédex, les recherches du Professeur\favancent bien.
+35	Alors c’est toi, {STRVAR_1 3, 0, 0} ?\r...Entre nous, l’émission du\nProfesseur, Pokémon Talk, n’est pas en\fdirect !
+36	Il y a beaucoup de livres.\nLa plupart ont la couverture usée.
+37	Il y a un e-mail sur le PC.\r...\rBonjour, Professeur Chen !\nOù en sont vos recherches ?\rMoi, ça...va bien.\rJ’ai entendu dire que {STRVAR_1 3, 0, 0} se\nfait une sacrée réputation.\rC’est ce qu’on dit par ici.\nJ’en suis ravi.\f           Orme, Bourg Geon 8-)
+38	Il y a un e-mail sur le PC.\r...\rBonjour, Professeur Chen !\nOù en sont vos recherches ?\rMoi, ça...va bien.\rJ’ai entendu dire que {STRVAR_1 3, 0, 0} se\nfait une sacrée réputation.\rC’est ce qu’on dit par ici.\nJ’en suis ravi.\f           Orme, Bourg Geon 8-)
+39	Professeur Chen : Bonjour, {STRVAR_1 3, 0, 0}.\nContent de te voir.\fOn m’a beaucoup parlé de toi.\rTon Pokédex doit être presque\ncomplet, non ?\rPour te remercier de ton travail,\nj’aimerais te donner quelque chose.\r
+40	Professeur Chen : Bonjour, {STRVAR_1 3, 0, 0}.\nContent de te voir.\fOn m’a beaucoup parlé de toi.\rTon Pokédex doit être presque\ncomplet, non ?\rPour te remercier de ton travail,\nj’aimerais te donner quelque chose.\r
+41	Professeur Chen : Haha !\rCe qu’il y a derrière moi...\nTu as dû deviner tout de suite.\rOui, c’est un Pokémon !\r
+42	Professeur Chen : On n’en voit pas\nsouvent à Kanto. Choisis-en un, il sera\fà toi !\r...Vas-y !
+43	Alors, tu choisis le Pokémon Feu\nSALAMECHE ? {YESNO 0}
+44	Alors, tu as décidé de prendre le\nPokémon Eau CARAPUCE ? {YESNO 0}
+45	Alors, tu veux prendre le\nPokémon Plante BULBIZARRE ? {YESNO 0}
+46	Ce Pokémon est vraiment plein\nd’énergie !\r
+47	Pas la peine de te presser.\nPrends ton temps.
+48	{STRVAR_1 3, 0, 0} a reçu\n{STRVAR_1 0, 1, 0} du Professeur Chen !
+49	Veux-tu donner un surnom à\n{STRVAR_1 0, 1, 0} que tu as reçu ? {YESNO 0}
+50	{STRVAR_1 1, 1, 0} est-il le surnom\nque tu veux donner ? {YESNO 0}
+51	Hein ?\nTu n’as plus de place pour l’instant.\rReviens quand tu auras fait de la place.
+52	Professeur Chen : Si un Pokémon\nsauvage apparaît, ton Pokémon peut le\fcombattre.\rAvec lui à tes côtés, tu devrais pouvoir\natteindre la prochaine ville...\rMais qu’est-ce que je dis ?\nTu sais déjà tout ça !\fHahaha !
+53	Professeur Chen : Je ne peux rien faire\nde plus pour toi.\rProfite bien du reste de ton voyage\navec ce nouveau Pokémon !
+54	C’est le Pokémon du Professeur Chen.\n{STRVAR_1 3, 1, 0} ne va sans doute pas\fle voler comme avant...
+55	Professeur Chen : Content de te voir !\nVoilà ce que je voulais\fte donner !\r
+56	Professeur Chen : Cette Capsule\nSecrète contient la capacité Escalade !\rSi tu l’apprends à un Pokémon, tu\npourras grimper les parois rocheuses\favec des marches taillées.\r
+57	Avec Escalade, tu peux grimper\nles parois rocheuses taillées\fen marches.\rTu vas découvrir plein de choses !

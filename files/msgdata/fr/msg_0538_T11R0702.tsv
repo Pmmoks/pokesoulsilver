@@ -1,0 +1,36 @@
+0	{STRVAR_1 0, 0, 0} est entré dans le moteur.\r{STRVAR_1 0, 0, 0} veut apprendre\n{STRVAR_1 6, 1, 0}.\rMais {STRVAR_1 0, 0, 0} ne peut pas connaître\nplus de quatre capacités.\rOublier une capacité pour\napprendre {STRVAR_1 6, 1, 0} ? {YESNO 0}
+1	Renoncer à apprendre la capacité\n{STRVAR_1 6, 1, 0} ? {YESNO 0}
+2	{STRVAR_1 0, 0, 0} n’a pas appris\n{STRVAR_1 6, 1, 0}.\r{STRVAR_1 0, 0, 0} est sorti du moteur.
+3	La capacité {STRVAR_1 6, 1, 0} sera oubliée.\nC’est bien ce que tu veux ? {YESNO 0}
+4	1,{PAUSE 20} 2 et...{PAUSE 20} ...{PAUSE 20} Pouf !
+5	{STRVAR_1 1, 0, 0} oublie comment\nutiliser {STRVAR_1 6, 1, 0}.\rEt...
+6	{STRVAR_1 1, 0, 0} apprend\n{STRVAR_1 6, 1, 0} !
+7	Quel MOTISMA choisis-tu ?\r
+8	Un Œuf ne peut pas entrer dans un\nmoteur.
+9	Ce Pokémon ne peut pas entrer dans un\nmoteur.
+10	{STRVAR_1 0, 0, 0} est entré dans le moteur.\r
+11	{STRVAR_1 0, 0, 0} est sorti du moteur.\r
+12	Quel MOTISMA doit retrouver\nsa forme d’origine ? {YESNO 0}
+13	Oh ? MOTISMA semble vouloir retrouver\nsa forme d’origine.\rVeux-tu le faire sortir du\nmoteur ? {YESNO 0}
+14	SORTIR
+15	OUI
+16	NON
+17	Ce MOTISMA n’est entré dans aucun\nmoteur.
+18	Il y avait un appareil ici.\nCelui avec le moteur de forme bizarre.
+19	ANNULER
+20	C’est un four à micro-ondes.\nIl a un moteur de forme bizarre.\r
+21	C’est un four à micro-ondes.\nIl a un moteur de forme bizarre.\rOh ? MOTISMA semble vouloir entrer\ndans le moteur.\rLe laisser entrer dans le moteur ? {YESNO 0}
+22	MOTISMA a renoncé à contrecœur à\nentrer dans le moteur du four à\fmicro-ondes...
+23	C’est un réfrigérateur.\nIl a un moteur de forme bizarre.\r
+24	C’est un réfrigérateur.\nIl a un moteur de forme bizarre.\rOh ? MOTISMA semble vouloir entrer\ndans le moteur.\rLe laisser entrer dans le moteur ? {YESNO 0}
+25	MOTISMA a renoncé à contrecœur à\nentrer dans le moteur du\fréfrigérateur...
+26	C’est un lave-linge.\nIl a un moteur de forme bizarre.\r
+27	C’est un lave-linge.\nIl a un moteur de forme bizarre.\rOh ? MOTISMA semble vouloir entrer\ndans le moteur.\rLe laisser entrer dans le moteur ? {YESNO 0}
+28	MOTISMA a renoncé à contrecœur à\nentrer dans le moteur du lave-linge...
+29	C’est un ventilateur.\nIl a un moteur de forme bizarre.\r
+30	C’est un ventilateur.\nIl a un moteur de forme bizarre.\rOh ? MOTISMA semble vouloir entrer\ndans le moteur.\rLe laisser entrer dans le moteur ? {YESNO 0}
+31	MOTISMA a renoncé à contrecœur à\nentrer dans le moteur du ventilateur...
+32	C’est une tondeuse à gazon.\nElle a un moteur de forme bizarre.\r
+33	C’est une tondeuse à gazon.\nElle a un moteur de forme bizarre.\rOh ? MOTISMA semble vouloir entrer\ndans le moteur.\rLe laisser entrer dans le moteur ? {YESNO 0}
+34	MOTISMA a renoncé à contrecœur à\nentrer dans le moteur de la tondeuse...
+35	Il y a un mystérieux carnet ici.\nIl est impossible d’en deviner l’âge.\r“Par pur hasard, j’ai obtenu des\ninformations sur le Pokémon MOTISMA.\r“Chose remarquable, MOTISMA peut\nentrer dans des moteurs spéciaux et\fs’y fondre.\r“On sait maintenant que MOTISMA peut\nrester dans un moteur presque\findéfiniment.\r“Cependant, il en sort s’il entre au\nClub Union ou au Club Wi-Fi.\r“MOTISMA sort aussi du moteur\ns’il est laissé à la Pension.\r“MOTISMA peut aussi oublier certaines\ncapacités en quittant un moteur.\r“Ce Pokémon demande une observation\net une analyse approfondies.\r“Pour que tout le mérite me revienne,\nmes recherches sur MOTISMA doivent\frester secrètes.\r“On me vénérera comme le génie\nscientifique Char...”\rLe reste du carnet est vierge.

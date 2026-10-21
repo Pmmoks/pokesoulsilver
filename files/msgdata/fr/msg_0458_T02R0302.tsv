@@ -1,0 +1,14 @@
+0	Bonjour, bienvenue dans notre Salle\nd’Entraînement.\rVous pouvez affronter nos meilleurs\nDresseurs et leurs Pokémon favoris\fune fois par jour.\rSouhaitez-vous participer ? {YESNO 0}
+2	Tout est prêt !\nVeuillez passer par ici.\r
+3	Je vois...\nRevenez nous voir.\r
+4	Voulez-vous sortir ? {YESNO 0}
+5	Merci d’avoir joué !\r
+6	Je vois.\nBonne chance !\r
+7	Oh, bonjour !\nPar ici, je vous prie !\r
+8	Ici, c’est la Maison des Dresseurs,\nl’endroit rêvé pour les Dresseurs.\rLe Pokéwalker amènera vos amis ici !\rVous pouvez défier divers Dresseurs\nune fois par jour.\rVous gagnerez des Points Combat en\ncas de victoire. Donnez le meilleur de\fvous-même !\r
+9	Oh ! Je vais vous emprunter votre\nMagnéto VS un instant.\rVoyons... On fait coulisser cette\npartie, et tic-tac-clac par là !\rVoilà, c’est fini !\rVous pouvez maintenant consulter vos\nPoints Combat avec votre Magnéto VS !\r
+10	Le Magnéto VS de {STRVAR_1 3, 0, 0} a été\namélioré.
+11	Vous pouvez échanger vos Points\nCombat contre de superbes lots à la\fZone de Combat de Johto !\r
+12	Voulez-vous vous entraîner\nmaintenant ? {YESNO 0}
+13	Voulez-vous combattre ? {YESNO 0}
+14	À demain !

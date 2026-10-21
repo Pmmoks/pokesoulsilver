@@ -1,0 +1,19 @@
+0	Une horde de TAUPIQUEUR a jailli du\nsol ! Quelle surprise !
+1	Pierre : Un petit espace entouré de\nrochers, ça apaise, tu ne trouves\fpas ? Au fait, on échange nos\fnuméros ? {YESNO 0}
+2	{STRVAR_1 3, 0, 0} a enregistré Pierre\ndans le Pokématos !
+3	Pierre : J’adorerais faire un combat\nPokémon contre toi !\fAppelle-moi le samedi soir !
+4	Pierre : Je vois... Quel dommage.\nJ’aurais adoré faire un combat\fPokémon contre toi...
+5	Pierre : On échange nos numéros ? {YESNO 0}
+6	Pierre : Hé, toi ! Et si on prenait\nune photo ensemble ? {YESNO 0}
+7	Pierre : Parfait !\nMets-toi à côté de moi et détends-toi !\r
+8	Pierre : Super !\nEncore un beau souvenir !
+9	Pierre : Bon...\nTant pis.
+10	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.
+11	Pierre : Salut, {STRVAR_1 3, 0, 0} ! As-tu\ndéjà vu un Pokémon appelé MANZAI ?\rIl paraît qu’il faut l’obtenir à partir\nd’un Œuf...\rJ’ai du mal à en trouver un. Si tu as un\nMANZAI, accepterais-tu de l’échanger\fcontre mon RHINOCORNE ? {YESNO 0}
+12	Pierre : Salut, {STRVAR_1 3, 0, 0} ! As-tu\ndéjà vu un Pokémon appelé MANZAI ?\rIl paraît qu’il faut l’obtenir à partir\nd’un Œuf...\rJ’ai du mal à en trouver un. Si tu as un\nMANZAI, accepterais-tu de l’échanger\fcontre mon RHINOCORNE ? {YESNO 0}
+13	Pierre : Super !\nFaisons l’échange !\r
+14	Pierre : Je pensais que tu en avais un,\nmais ce n’est pas si facile, on dirait...\rSi tu en trouves un, pense à\nl’échanger avec moi, d’accord ?
+15	Pierre : Je cherche un MANZAI.\nTu veux bien l’échanger\fcontre mon RHINOCORNE ? {YESNO 0}
+16	Pierre : Merci ! Je cherchais un MANZAI\ndepuis longtemps !\rLe RHINOCORNE que je t’ai donné\nconnaît Crocs Éclair ! Je l’ai élevé\fdepuis l’Œuf.\rJ’en suis très fier, car il peut battre\ndes Pokémon de type Eau, qui sont\fd’habitude un adversaire difficile.\rPrends-en bien soin pour moi !
+17	Pierre : Ce RHINOCORNE que je t’ai\ndonné connaît Crocs Éclair ! Je l’ai\félevé depuis l’Œuf.\rJ’en suis très fier, car il peut battre\ndes Pokémon de type Eau, qui sont\fd’habitude un adversaire difficile.\rPrends-en bien soin pour moi !\n\n
+18	Pierre : Hé, minute !\nCe n’est pas un MANZAI !

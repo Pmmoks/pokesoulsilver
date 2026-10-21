@@ -1,0 +1,26 @@
+0	Bienvenue. Vous êtes au siège de\nla Sylphe SARL.
+1	Hé, toi ! L’ascenseur est en panne\npour l’instant.\rIl y a un problème d’électricité et\nil ne marche pas bien.\rJe suis désolé que tu te sois déplacé\npour rien, alors voici un cadeau !\r
+2	C’est le dernier produit de la Sylphe\nSARL. Il n’est pas encore en vente.
+3	Cet ascenseur est en panne.\rIl risque de t’électrocuter. Reste\nloin.
+7	Steven : On se retrouve !\nTu es déjà allé à Hoenn ?\rC’est un endroit magnifique, avec la\nmer la plus limpide qu’on puisse\fimaginer.\rTu devrais y faire un tour.\fHé !\rEt si on échangeait des Pokémon ?\rJe cherche un FORETRESS. Je peux\nt’échanger mon TERHAL contre. {YESNO 0}
+8	Steven : Tu échanges ton FORETRESS\ncontre mon TERHAL ? {YESNO 0}
+9	Steven : Parfait, échangeons !\r
+10	Steven : Dommage.
+11	Steven : Tu es en train de me dire que\ntu crois que c’est un FORETRESS ?
+12	Steven : On ne trouve pas de\nFORETRESS dans la région de Hoenn.\rC’est la première fois que j’en vois un.\nMerci beaucoup !\rOh, regarde l’heure. Je dois vraiment y\naller.\r
+13	Steven : Ce Pokémon a l’air de\nbeaucoup t’apprécier. Tu aimes les\fPokémon de type Acier ?\rJe m’en doutais.\nCette texture si particulière !\rCes corps frais et luisants !\nUne telle singularité n’appartient\faux Pokémon de type Acier !\rQuand il s’agit de la solitude et de la\nnoblesse qu’on perçoit à travers un\fcorps rude, presque repoussant quand\fon le serre dans ses bras, rien ne vaut\fTERHAL, je dois bien l’avouer...\rBref, mon METALOSSE est vraiment\nfort et classe !\r...\nOh, je crois que je me suis emballé.\rCe fut un plaisir de discuter avec toi.\nSalut !\r
+14	Allô...\nTu coupes...\fJe crois que ça dépend de ce que\nmon père en pense.\rJe vois...\nJe m’en vais. À bientôt.\r
+15	Steven : Tu es...\nJe me souviens de tes yeux.\rQuand je vois un Dresseur dont les\nyeux pétillent, je m’en souviens\ftoujours.\r
+16	Steven : Tu as un Pokédex !\nTu cherches donc aussi des Pokémon.\fVoyons voir...\rJe crois que je peux t’aider.\rImagine que tu as des pierres\ndevant toi.\fQuelle couleur choisirais-tu ? {YESNO 0}
+17	PIERRE VERTE
+18	PIERRE ROUGE
+19	PIERRE BLEUE
+20	Steven : Bon choix !\nJe te donne {STRVAR_1 0, 1, 0} !\r
+21	{STRVAR_1 3, 0, 0} reçoit\n{STRVAR_1 0, 1, 0} de la part de Steven !
+22	Steven : Prends-en bien soin.\nTa gentillesse me rendra\fvraiment heureux.\r
+23	Steven : Je vois...\nPour le choix que tu as fait,\fj’aimerais te donner ce Pokémon.\rMais ton équipe est pleine.\rVa donc au PC faire de la place.\nJe t’attends ici.
+24	Steven : Je te redemande.\nQuelle couleur choisis-tu ? {YESNO 0}
+25	Veux-tu donner un surnom\nà {STRVAR_1 0, 1, 0} ? {YESNO 0}
+26	Steven : Tu as trouvé un super nom !\r
+27	QUITTER
+28	Steven : Tu as l’air très prudent.\rTu évites toute occasion où l’on\npourrait te piéger ?\fTu es vraiment mieux que je ne pensais.

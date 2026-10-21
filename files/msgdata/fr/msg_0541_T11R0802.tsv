@@ -1,0 +1,17 @@
+0	{STRVAR_1 3, 0, 0} : Salut ! Tu aimes les\nPokémon ?\r{STRVAR_1 3, 0, 0} : Euh, non, c’est moi qui te\nai posé la question.\r{STRVAR_1 3, 0, 0} : Hein ? Tu es bizarre !\r
+1	{STRVAR_1 3, 0, 0} : Salut. Tu dois aimer\nles Pokémon.\r{STRVAR_1 3, 0, 0} : Non, pas moi. C’est toi\nque j’interroge.\r{STRVAR_1 3, 0, 0} : Pardon ? Tu es bizarre !\r
+2	Copieuse : Hmm ? Arrêter d’imiter ?\nMais c’est mon passe-temps préféré !\r
+3	{STRVAR_1 3, 0, 0} : Salut ! J’ai entendu dire\nque tu avais perdu ta Poképoupée\fchérie.\r{STRVAR_1 3, 0, 0} : Si je la retrouve, tu me\ndonneras un Passe Train ?\r{STRVAR_1 3, 0, 0} : Je vais la chercher pour\ntoi.\r{STRVAR_1 3, 0, 0} : Tu crois que tu l’as\nperdue quand tu es allé à Carmin sur\fMer ?\r
+4	{STRVAR_1 3, 0, 0} : Salut ! J’ai entendu dire\nque tu avais perdu ta Poképoupée\fchérie.\r{STRVAR_1 3, 0, 0} : Si je la retrouve, tu me\ndonneras un Passe Train ?\r{STRVAR_1 3, 0, 0} : Je vais la chercher pour\ntoi.\r{STRVAR_1 3, 0, 0} : Tu crois que tu l’as\nperdue quand tu es allée à Carmin sur\fMer ?\r
+5	Copieuse : Pardon ?\rJe ne devrais pas décider de ce que tu\ndois faire ?\rMais je m’inquiète vraiment...\nEt si quelqu’un la trouvait ?\r
+6	Copieuse : Youpi ! C’est ma Poképoupée\nMELOFEE !\rRegarde la déchirure là où le bras droit\nest cousu ! C’est la preuve !\rD’accord. Je te donne ce Passe Train\ncomme promis !\r
+8	Copieuse : Tu le montres au portique\npour monter dans le Train Magnétique.\rL’homme de la compagnie ferroviaire me\nl’a donné quand ils ont démoli notre\fancienne maison pour la gare.
+9	{STRVAR_1 3, 0, 0} : Salut !\nMerci beaucoup pour le Passe Train !\r{STRVAR_1 3, 0, 0} : Pardon ?\r{STRVAR_1 3, 0, 0} : C’est si drôle d’imiter\ntous mes gestes ?\r
+10	{STRVAR_1 3, 0, 0} : Salut !\nMerci beaucoup pour le Passe Train !\r{STRVAR_1 3, 0, 0} : Pardon ?\r{STRVAR_1 3, 0, 0} : C’est si drôle d’imiter\ntous mes gestes ?\r
+11	Copieuse : Et comment ! C’est\nhilarant !\r
+12	Cette Poképoupée ressemble trait pour\ntrait à un vrai Pokémon...\rAh ! Elle a bougé !\nC’est un vrai BRANETTE !
+13	BRANETTE : Hihihi !
+14	C’est une Poképoupée en forme de\nfleur... C’est une Poképoupée\fCERIFLOR !
+15	C’est une Poképoupée en forme de\nnez... C’est une Poképoupée TARINOR !
+16	C’est un MELOFEE !\nHein ?\rAh oui. C’est une Poképoupée MELOFEE.
+17	C’est une Poképoupée MELOFEE.\rElle a une déchirure là où le bras droit\nest cousu.

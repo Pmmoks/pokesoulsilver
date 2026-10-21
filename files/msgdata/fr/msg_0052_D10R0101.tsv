@@ -1,0 +1,11 @@
+0	Tu n’as pas encore capturé tous\ntes Pokémon, mais...\rTu veux abandonner le\nSpectacle de Capture ?
+1	Je vois...\rJe suis déçu que tu abandonnes.\nRattrape-toi la prochaine fois !\r
+2	Voilà l’esprit, {STRVAR_1 3, 0, 0} !\nJ’aime que tu ne lâches rien !
+3	Voilà l’esprit, {STRVAR_1 3, 0, 0} !\nJ’aime que tu ne lâches rien !
+4	Ding-dong !\nFélicitations !\r{STRVAR_1 3, 0, 0} a réussi à capturer\nles Pokémon prévus !\r
+5	Tu veux abandonner ?
+6	Que le compte à rebours\ncommence !
+7	Trois...
+8	Deux...
+9	Un...
+10	C’est parti !
