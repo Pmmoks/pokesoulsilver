@@ -432,7 +432,7 @@
 431	... Oh ! Il est sur le point de toucher\naux étagères ! Le gronder ? {YESNO 0}
 432	... Oh ! Il a l’air de vouloir faire une\nbêtise avec des objets ! Le gronder ?
 433	......\nVotre Pokémon fait la grimace par ici.
-434	...... Votre Pokémon a l’air surpris que\nles étagères puissent tomber !
+434	...... Votre Pokémon a l’air surpris que\nles étagères puissent tomber !\n
 435	......\nLes étagères sont bien en désordre.
 436	......\nVotre Pokémon refuse de vous regarder.
 437	...... Votre Pokémon ne vient pas, même\nquand vous l’appelez.

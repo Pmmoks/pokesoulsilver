@@ -8,8 +8,8 @@
 7	Veuillez choisir les Pokémon que vous\nsouhaitez inscrire.\r
 8	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rVous devez avoir {STRVAR_1 50, 1, 0} Pokémon\ndifférents pour participer.\r
 9	De plus, les Œufs ne sont pas admis.\r
-10	Les Œufs et {STRVAR_1 0, 1, 0} ne sont
-11	Les Œufs, {STRVAR_1 0, 1, 0} et {STRVAR_1 0, 2, 0}
+10	Les Œufs et {STRVAR_1 0, 1, 0} ne sont\r
+11	Les Œufs, {STRVAR_1 0, 1, 0} et {STRVAR_1 0, 2, 0}\r
 12	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0} et\n{STRVAR_1 0, 3, 0} ne sont pas admis.\r
 13	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0} et {STRVAR_1 0, 4, 0}\fne sont pas admis.\r
 14	Les Œufs, {STRVAR_1 0, 1, 0}, {STRVAR_1 0, 2, 0},\n{STRVAR_1 0, 3, 0}, {STRVAR_1 0, 4, 0} et {STRVAR_1 0, 5, 0}\fne sont pas admis.\r

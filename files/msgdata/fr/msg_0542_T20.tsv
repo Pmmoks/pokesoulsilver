@@ -1,0 +1,38 @@
+0	Waouh, ton Pokématos est\nimpressionnant !
+1	Attends, {STRVAR_1 3, 0, 0} !
+2	Attends, {STRVAR_1 3, 0, 0} !
+3	Qu’est-ce que tu fabriques ?\r
+4	C’est dangereux de sortir sans\nPokémon !\rDes Pokémon sauvages surgissent des\nherbes sur le chemin de la ville\fsuivante.
+5	Oh ! Ton Pokémon est adorable !\nJ’aimerais bien en avoir un !
+6	Salut, {STRVAR_1 3, 0, 0} !\nTu repars déjà ?\rTu devrais le dire à ta maman si\ntu t’en vas.
+7	Salut, {STRVAR_1 3, 0, 0} !\nTu repars déjà ?\rTu devrais le dire à ta maman si\ntu t’en vas.
+8	Appelle ta maman avec ton Pokématos\npour lui dire comment ça va.
+9	J’adore ton Sac !
+10	Attends une seconde !\r
+11	Tu as laissé ton Pokématos à la maison ?\rDemande à ta maman.
+12	Yo, {STRVAR_1 3, 0, 0} !\rJ’ai entendu dire que le Prof. Orme\navait découvert de nouveaux Pokémon.
+13	...\rC’est donc ça, le célèbre Laboratoire\nPokémon d’Orme...\r
+14	...Qu’est-ce que tu regardes ?\r
+15	Lyra : {STRVAR_1 3, 0, 0} !\rAlors, tu as choisi...\n{STRVAR_1 0, 1, 0} !\rIl est mignon, ton Pokémon !\rQuand tu te promènes avec lui, il\ndevient plus amical.\rN’oublie pas de te retourner pour\nlui parler de temps en temps !\rAh, mais oui ! Pourquoi tu ne le montres\npas à ta maman ? À plus !\r
+16	Ethan : {STRVAR_1 3, 0, 0} !\rAlors, tu as choisi...\n{STRVAR_1 0, 1, 0} !\rIl est mignon, ton Pokémon !\rQuand tu te promènes avec lui, il\ndevient plus amical.\rN’oublie pas de te retourner pour\nlui parler de temps en temps !\rAh, mais oui ! Pourquoi tu ne le montres\npas à ta maman ? À plus !\r
+17	Prof. Orme : Attends une seconde !\r
+18	J’ai failli complètement oublier...\fTiens, je te donne mon numéro.\r
+19	{STRVAR_1 3, 0, 0} enregistre le Prof. Orme\ndans le Pokématos !
+20	Prof. Orme : Je t’appellerai s’il y a\ndu nouveau.\r
+21	{STRVAR_1 1, 0, 0} ! Où vas-tu comme ça ?\r
+22	Le Prof. Orme t’attend. Il dit qu’il a\nquelque chose à te donner.\r
+23	Tu n’as pas entendu que le Prof. Orme\nt’attend ?\r
+24	Je m’énerve !\r
+25	Lyra : Je me demande ce qu’une Kimono\nGirl te veut...
+26	Ethan : Je me demande ce qu’une Kimono\nGirl te veut...
+27	Lyra : Salut, {STRVAR_1 3, 0, 0} !\r
+28	Ethan : Salut, {STRVAR_1 3, 0, 0} !\r
+29	Où crois-tu aller comme ça,\n{STRVAR_1 3, 0, 0} ?\r
+30	Où crois-tu aller comme ça,\n{STRVAR_1 3, 0, 0} ?\r
+31	Lyra : Hmm... Mes Pokémon ont\npeut-être un peu pris du poids ces\fderniers temps...
+32	Ethan : Hmm... Mes Pokémon ont\npeut-être un peu pris du poids ces\fderniers temps...
+33	MARILL : Murfu.\r
+34	Bourg Geon\nLe vent des nouveaux départs
+35	Maison de {STRVAR_1 3, 0, 0}
+36	Laboratoire Pokémon d’Orme
+37	Maison de {STRVAR_1 3, 0, 0}

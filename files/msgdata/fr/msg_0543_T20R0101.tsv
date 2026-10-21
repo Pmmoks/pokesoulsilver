@@ -1,0 +1,106 @@
+0	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nJe t’attendais !\rSais-tu quelque chose sur mes\nrecherches ?\rComme tu le sais, de nos jours, les\nPokémon se transportent dans des Poké\fBalls.\rMais avant l’invention de la Poké Ball,\nles gens se promenaient avec leurs\fPokémon. Comme ton amie Lyra le fait !\rLes Poké Balls sont géniales, car on\npeut transporter beaucoup de Pokémon.\rMais se promener avec un Pokémon doit\nprésenter des avantages.\rÇa pourrait avoir un rapport avec la\nfaçon dont les Pokémon grandissent ou\févoluent...\rAlors je vais te confier un Pokémon !\rPeux-tu marcher à côté de ce Pokémon,\nhors de sa Poké Ball, pour voir si cela\fcrée des sentiments ou des liens\fparticuliers entre les Pokémon et les\fgens ?\rL’appareil là-bas contient des Pokémon\nque tu peux choisir...\r
+1	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nJe t’attendais !\rSais-tu quelque chose sur mes\nrecherches ?\rComme tu le sais, de nos jours, les\nPokémon se transportent dans des Poké\fBalls.\rMais avant l’invention de la Poké Ball,\nles gens se promenaient avec leurs\fPokémon. Comme ton ami Ethan le fait !\rLes Poké Balls sont géniales, car on\npeut transporter beaucoup de Pokémon.\rMais se promener avec un Pokémon doit\nprésenter des avantages.\rÇa pourrait avoir un rapport avec la\nfaçon dont les Pokémon grandissent ou\févoluent...\rAlors je vais te confier un Pokémon !\rPeux-tu marcher à côté de ce Pokémon,\nhors de sa Poké Ball, pour voir si cela\fcrée des sentiments ou des liens\fparticuliers entre les Pokémon et les\fgens ?\rL’appareil là-bas contient des Pokémon\nque tu peux choisir...\r
+2	Prof. Orme : Oh, tiens ! J’ai reçu un\ne-mail !\r
+3	Prof. Orme : ...\nHm... Ah ouais... D’accord...\r
+4	Prof. Orme : Écoute.\nJ’ai une connaissance que les gens\fappellent M. Pokémon.\rIl n’arrête pas de trouver des trucs\nbizarres et de s’extasier dessus.\rEnfin bref, il vient de m’envoyer un\ne-mail disant que cette fois, c’est du\fsérieux.\rC’est sans doute encore un Œuf\nPokémon, mais nous sommes tellement\foccupés par nos recherches sur les\fPokémon...\rAttends !\nJ’ai une idée !\rTu peux y aller à notre place, non ?\nOn peut compter sur toi ?\rTu peux choisir un des Pokémon\nlà-bas.\r
+5	Prof. Orme : Si un Pokémon sauvage\napparaît, fais-le combattre par ton\fPokémon !
+6	Prof. Orme : Où vas-tu ?\nLes Poké Balls sont dans cet appareil.\r
+7	{STRVAR_1 3, 0, 0} reçoit {STRVAR_1 0, 1, 0}\nde la part du Prof. Orme !
+8	Donner un surnom à {STRVAR_1 0, 1, 0}\nque tu viens de recevoir ? {YESNO 0}
+9	{STRVAR_1 1, 1, 0} est-il bien le surnom\nque tu veux donner ? {YESNO 0}
+10	Prof. Orme : Alors, ça te plaît de te\npromener avec ton Pokémon ? Pas mal,\fnon ?\rTu peux l’emmener jusque chez\nM. Pokémon.\rSi ton Pokémon est blessé...\r
+11	Soigne-le avec cette machine.\rElle est très simple à utiliser. Regarde\nsimplement le PC sur mon bureau !\r
+12	Prof. Orme : M. Pokémon voyage partout\net déniche des raretés.\fSa maison est après Ville Griotte.\rVa un peu vers le nord après Ville\nGriotte. Je compte sur toi,\f{STRVAR_1 3, 0, 0} !
+13	Prof. Orme : M. Pokémon voyage partout\net déniche des raretés.\fSa maison est après Ville Griotte.\rVa un peu vers le nord après Ville\nGriotte. Je compte sur toi,\f{STRVAR_1 3, 0, 0} !
+14	Ce PC est relié à la machine\nde soin !
+15	Il reste deux Pokémon précieux !\n...Mais ils appartiennent au Prof. Orme.
+16	Il reste un Pokémon précieux ! Tu ne\nl’avais pas remarqué avant, mais il est\fmaintenant derrière d’épaisses parois\fde verre, il ne peut donc rien lui\farriver !
+17	Il ne reste plus de Pokémon précieux...\rÀ qui le Prof. Orme a-t-il bien pu\ndonner le dernier Pokémon ?
+18	Hein ? Moi ?\nJe ne suis pas le professeur.\rIl est au fond de la pièce.\n
+19	{STRVAR_1 3, 0, 0}, je veux que tu aies ceci\npour t’aider dans ta mission.\r
+20	{STRVAR_1 3, 0, 0}, je veux que tu aies ceci\npour t’aider dans ta mission.\r
+21	Les Pokémon sont faibles au début.\rN’hésite pas à utiliser une Potion si tu\ncrois que le tien est en danger.\r
+22	Les Pokémon sont faibles au début.\rN’hésite pas à utiliser une Potion si tu\ncrois que le tien est en danger.
+23	Qui es-tu ?\nNous enquêtons sur la disparition du\fPokémon ici...\rRègle numéro un !\n“Le coupable revient toujours sur\fles lieux du crime.”\rOh là là... Alors c’est toi\nqui as fait le coup ?\r
+24	Lyra : Attendez une seconde !\nIl n’a rien à voir là-dedans !\rJ’ai vu quelqu’un.\nUn garçon aux cheveux rouges\fregardait à l’intérieur du bâtiment !\r
+25	Ethan : Attendez une seconde !\nElle n’a rien à voir là-dedans !\rJ’ai vu quelqu’un.\nUn garçon aux cheveux rouges\fregardait à l’intérieur du bâtiment !\r
+26	Quoi ?\nTu as combattu un garçon comme ça ?\rC’est sûrement lui le coupable...\nAs-tu pu avoir son nom ?\r
+27	Je vois ! Il s’appelait donc\n{STRVAR_1 3, 1, 0}. {YESNO 0}
+28	Merci de m’aider dans mon enquête !\rMa prochaine mission est de rechercher\nce garçon aux cheveux rouges.\r
+29	Ce n’est pas ça ?\rAlors peux-tu me dire\ncomment il s’appelait ?\r
+30	Lyra : {STRVAR_1 3, 0, 0} ! Je suis contente\nqu’ils comprennent que tu es innocent.\rÀ plus tard !\r
+31	Ethan : {STRVAR_1 3, 0, 0} ! Je suis content\nqu’ils comprennent que tu es\finnocente.\rÀ plus tard !\r
+32	Prof. Orme : {STRVAR_1 3, 0, 0}, c’est\nterrible...\rAh oui, quelle était la grande\ndécouverte de M. Pokémon ?\r
+33	Prof. Orme : {STRVAR_1 3, 0, 0}, c’est\nterrible...\rAh oui, quelle était la grande\ndécouverte de M. Pokémon ?\r
+34	{STRVAR_1 3, 0, 0} remet l’Œuf Mystère\nau Prof. Orme.
+35	Prof. Orme : Hein ?\nC’est un... Œuf, non ?\rCet Œuf est peut-être quelque chose\nque je n’ai jamais vu... mais ce n’est\fqu’un Œuf.\rM. Pokémon est toujours fasciné\npar les Œufs.\rEnfin, puisqu’il nous l’a donné, autant\nsavoir quel secret il renferme.\rJe vais le garder quelque temps pour\nen apprendre plus sur cet Œuf.\r
+36	Prof. Orme : Quoi ?!\rLe Prof. Chen t’a donné un Pokédex ?\r{STRVAR_1 3, 0, 0}, c’est vrai ? C-c’est\nincroyable !\rIl sait superbement déceler le\npotentiel des gens comme Dresseurs.\rWaouh, {STRVAR_1 3, 0, 0}. Je savais que tu\nétais un peu différent. Ça va être\famusant !\rTes Pokémon ont l’air de vraiment\nt’aimer, alors pourquoi ne pas...\ftenter le défi des Arènes Pokémon ?\rSi tu parviens à battre tous les\nChampions d’Arène, tu pourras\fdéfier le Maître de la\fLigue Pokémon !\r...Ou pas ! Ha ha !\rDevenir Maître n’est pas du tout\nfacile, mais tu peux sans problème\fdéfier l’Arène de Mauville.\r
+37	Prof. Orme : Quoi ?!\rLe Prof. Chen t’a donné un Pokédex ?\r{STRVAR_1 3, 0, 0}, c’est vrai ? C-c’est\nincroyable !\rIl sait superbement déceler le\npotentiel des gens comme Dresseurs.\rWaouh, {STRVAR_1 3, 0, 0}. Je savais que tu\nétais un peu différente. Ça va être\famusant !\rTes Pokémon ont l’air de vraiment\nt’aimer, alors pourquoi ne pas...\ftenter le défi des Arènes Pokémon ?\rSi tu parviens à battre tous les\nChampions d’Arène, tu pourras\fdéfier le Maître de la\fLigue Pokémon !\r...Ou pas ! Ha ha !\rDevenir Maître n’est pas du tout\nfacile, mais tu peux sans problème\fdéfier l’Arène de Mauville.\r
+38	...{STRVAR_1 3, 0, 0}. Défier les Arènes\néparpillées un peu partout sera\fun long voyage.\rAvant de partir, va parler\nà ta maman.\r
+39	...{STRVAR_1 3, 0, 0}. Défier les Arènes\néparpillées un peu partout sera\fun long voyage.\rAvant de partir, va parler\nà ta maman.\r
+40	Prof. Orme : Ne baisse pas les bras !\nJe t’appellerai si j’apprends quoi que\fce soit sur cet Œuf !
+41	Il y a eu un grand bruit dehors...\nQuand on est allés voir, quelqu’un\favait volé un Pokémon.\rSnif...\nCe Pokémon volé.\rJe me demande comment il va.\nOn dit qu’un Pokémon élevé par un\fméchant devient méchant lui aussi.
+42	Prof. Orme : {STRVAR_1 3, 0, 0} ?\nTu n’as pas rencontré mon assistant ?\rIl devait te retrouver avec l’Œuf à la\nBoutique Pokémon de Mauville.
+43	Prof. Orme : {STRVAR_1 3, 0, 0} ?\nTu n’as pas rencontré mon assistant ?\rIl devait te retrouver avec l’Œuf à la\nBoutique Pokémon de Mauville.
+44	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nComment ça va ?\rComment va l’Œuf ?\nTu l’emmènes partout avec toi ?\rAvec du temps et des soins, il finira\npar éclore et te donner un\fPokémon en pleine forme !
+45	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nComment ça va ?\rComment va l’Œuf ?\nTu l’emmènes partout avec toi ?\rAvec du temps et des soins, il finira\npar éclore et te donner un\fPokémon en pleine forme !
+46	Prof. Orme : Quoi ?\nCe Pokémon !?\r
+47	Hmm... Pour autant que je sache, il n’y\na pas de Pokémon comme celui-ci à\fJohto...\rExactement comme M. Pokémon le disait\nau téléphone...\rLe Pokémon légendaire pourrait être...\nOh, oublie ça.\rEn tout cas, je suis sûr qu’il va se\npasser des choses autour de toi,\f{STRVAR_1 3, 0, 0} !\rTu me remplis d’excitation !\nJe vais te faire un cadeau pour ça.\fPrends-le, je t’en prie.\r
+48	Hmm... Pour autant que je sache, il n’y\na pas de Pokémon comme celui-ci à\fJohto...\rExactement comme M. Pokémon le disait\nau téléphone...\rLe Pokémon légendaire pourrait être...\nOh, oublie ça.\rEn tout cas, je suis sûr qu’il va se\npasser des choses autour de toi,\f{STRVAR_1 3, 0, 0} !\rTu me remplis d’excitation !\nJe vais te faire un cadeau pour ça.\fPrends-le, je t’en prie.\r
+49	Prof. Orme : C’est une Pierre Stase.\rUn Pokémon change de forme\nquand il évolue.\rMais s’il tient une Pierre Stase,\non peut l’empêcher d’évoluer.\rSi tu aimes un Pokémon tel qu’il est\nmaintenant, fais-lui tenir une Pierre\fStase !\r
+50	Prof. Orme : {STRVAR_1 3, 0, 0}, bonne chance\npour ton voyage !\rAh, encore une chose...\nN’oublie pas mes recherches !
+51	Prof. Orme : {STRVAR_1 3, 0, 0}, bonne chance\npour ton voyage !\rAh, encore une chose...\nN’oublie pas mes recherches !
+52	Oups, ton Sac est plein à craquer.
+53	Prof. Orme : {STRVAR_1 3, 0, 0} ?\nJe croyais que l’Œuf avait éclos.\fOù est le Pokémon ?\r
+54	Prof. Orme : {STRVAR_1 3, 0, 0} ?\nJe croyais que l’Œuf avait éclos.\fOù est le Pokémon ?\r
+55	Snif...\nCe Pokémon volé.\rJe me demande comment il va.\nOn dit qu’un Pokémon élevé par un\fméchant devient méchant lui aussi.
+56	{STRVAR_1 3, 0, 0} !\nDevine quoi !\rCelui qui a pris le Pokémon du\nProfesseur a... est revenu le rendre !\rJe ne m’y attendais vraiment pas !\nDevine ce que le Prof. Orme lui a dit.\r...\n“Il semble que ton Pokémon t’aime\ndéjà beaucoup.\rPour un Pokémon, le plus grand\nbonheur, c’est d’être avec quelqu’un\fqu’il aime. Je pense qu’il devrait\frester avec toi.”\r... C’est touchant, non ? Ça m’a fait\npleurer !\r
+57	Celui qui l’avait pris...\nJe veux dire le garçon aux cheveux\frouges est venu avec le Pokémon.\rMais j’ai vu son visage quand il est\npassé devant moi. Il avait l’air si\fheureux !
+58	Lyra : {STRVAR_1 3, 0, 0} !\nTu as déjà obtenu huit Badges ?\fC’est trop cool !\rLe professeur t’attend.\r
+59	Ethan : {STRVAR_1 3, 0, 0} !\nTu as déjà obtenu huit Badges ?\fC’est trop cool !\rLe professeur t’attend.\r
+60	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nTu ne cesseras jamais de m’étonner !\rGrâce à toi, mes recherches avancent\nà merveille !\rPrends ceci en signe de ma\ngratitude.\r
+61	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nTu ne cesseras jamais de m’étonner !\rGrâce à toi, mes recherches avancent\nà merveille !\rPrends ceci en signe de ma\ngratitude.\r
+62	La Master Ball est la meilleure !\rC’est la Poké Ball suprême ! Elle\ncapture n’importe quel Pokémon à coup\fsûr.\rElle n’est donnée qu’aux chercheurs\nPokémon renommés.\rJe pense que tu en feras un bien\nmeilleur usage que moi, {STRVAR_1 3, 0, 0} !\r
+63	La Master Ball est la meilleure !\rC’est la Poké Ball suprême ! Elle\ncapture n’importe quel Pokémon à coup\fsûr.\rElle n’est donnée qu’aux chercheurs\nPokémon renommés.\rJe pense que tu en feras un bien\nmeilleur usage que moi, {STRVAR_1 3, 0, 0} !\r
+64	Au fait...\rUn groupe de magnifiques\nKimono Girls te cherchait.\r
+65	Au fait...\rUn groupe de magnifiques\nKimono Girls te cherchait.\r
+66	Les Kimono Girls m’ont dit qu’elles\nt’attendent au Théâtre de Danse de\fRosalia.\rJe sais que tu as traversé bien des\népreuves depuis que cet Œuf\ft’entraîne dans tout ça...\rJ’espère que tu iras jusqu’au bout.\r
+67	Lyra : {STRVAR_1 3, 0, 0}, on parle de\ntoi partout !\rIl paraît que tu as aidé les Kimono\nGirls ?\rTu as aidé tous ces gens !\nJe suis fière d’être ton ami.\r
+68	Ethan : {STRVAR_1 3, 0, 0}, on parle de\ntoi partout !\rIl paraît que tu as aidé les Kimono\nGirls ?\rTu as aidé tous ces gens !\nJe suis fier d’être ton amie.\r
+69	Prof. Orme : Les Kimono Girls\nt’attendent au Théâtre de Danse de\fRosalia.
+70	Prof. Orme : Hahaha... Bien joué !\rCet Œuf qui semblait rare t’a causé\nbien des ennuis, je suppose.\rLes Kimono Girls ont dit quelque chose\nà mon sujet ?\fJe n’y suis pour rien.\rTu as pris ta décision toi-même\net tu l’as assumée jusqu’au bout.\rAprès un tel exploit, tu dois être\ncapable d’affronter la\fLigue Pokémon !\rDirige-toi vers le\nPlateau Indigo !\rSais-tu comment y aller ? Suis la Route\n27 pour rejoindre la Route 26. Une fois\flà-bas, va tout droit vers le nord !
+71	Prof. Orme : {STRVAR_1 3, 0, 0} !\nTe voilà !\rJe t’ai appelé parce que j’ai quelque\nchose pour toi.\rVoilà, un Passe Bateau. Tu peux\nmaintenant capturer des Pokémon à\fKanto.\r
+72	Prof. Orme : {STRVAR_1 3, 0, 0} !\nTe voilà !\rJe t’ai appelée parce que j’ai quelque\nchose pour toi.\rVoilà, un Passe Bateau. Tu peux\nmaintenant capturer des Pokémon à\fKanto.\r
+73	Prof. Orme : Ce Passe te permettra de\nprendre le Bateau Rapide qui part\fd’Oliville.\rMais tu le savais déjà,\n{STRVAR_1 3, 0, 0}.\rAprès tout, tu as parcouru toute la\nrégion avec tes Pokémon.\rTransmets mes amitiés au Prof. Chen\nà Kanto !
+74	Prof. Orme : Ce Passe te permettra de\nprendre le Bateau Rapide qui part\fd’Oliville.\rMais tu le savais déjà,\n{STRVAR_1 3, 0, 0}.\rAprès tout, tu as parcouru toute la\nrégion avec tes Pokémon.\rTransmets mes amitiés au Prof. Chen\nà Kanto !
+75	Prof. Orme : Quel PICHU rare !\fPuis-je l’examiner de plus près ?\r
+76	Hmm...\nUne de ses oreilles est pointue...\fC’est étrange.\fIl y a quelque chose de plus.\rC’est vraiment un spectacle rare.\r
+77	Tu l’as rencontré au Bois aux Chênes ?\rOn dit qu’un Pokémon mystérieux nommé\nCELEBI y a été aperçu.\r
+78	À ce propos...\r
+79	Le Prof. Chen a écrit sur CELEBI et le\n{COLOR 1}Voyage Temporel{COLOR 0} dans un article qu’il a\fprésenté lors d’une conférence !\r
+80	Prof. Orme : CELEBI peut utiliser son\npouvoir mystique, le {COLOR 1}Voyage Temporel{COLOR 0}...\fpour voyager dans le passé et le\ffutur.\r
+81	Si ce PICHU a voyagé dans le temps, il\nfaut peut-être faire particulièrement\fattention à lui, {STRVAR_1 3, 0, 0}.\rIl semble que ce PICHU ait été affecté\npar ses longs voyages dans le temps\favec CELEBI.\rJe préviens le Centre Pokémon.\rLa réceptionniste pourra te dire si\nquoi que ce soit peut affecter\fce PICHU.
+82	Si ce PICHU a voyagé dans le temps, il\nfaut peut-être faire particulièrement\fattention à lui, {STRVAR_1 3, 0, 0}.\rIl semble que ce PICHU ait été affecté\npar ses longs voyages dans le temps\favec CELEBI.\rJe préviens le Centre Pokémon.\rLa réceptionniste pourra te dire si\nquoi que ce soit peut affecter\fce PICHU.
+83	Prof. Orme : Ce PICHU n’a pas l’air\nd’un PICHU ordinaire.\fJe vais me renseigner davantage.
+84	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\r
+85	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\r
+86	Oh là là, ton PICHU Troizépi a l’air\nde déjà beaucoup t’aimer, {STRVAR_1 3, 0, 0}.\r
+87	Oh là là, ton PICHU Troizépi a l’air\nde déjà beaucoup t’aimer, {STRVAR_1 3, 0, 0}.\r
+88	Il y a quelque chose d’étrange...\nJe m’attendrais à ce qu’il évolue en\fPIKACHU, vu à quel point il aime son\fDresseur...\r
+89	Voyons voir...\rHmm...\rSerait-ce possible...\rC’est bien ce que je pensais !\r
+90	Il semble que ce PICHU n’évoluera\njamais. C’est si étrange !\rSa structure et ses voyages dans le\ntemps ont dû affecter son ADN.\rJe n’ai jamais entendu parler d’un\nPokémon qui n’évolue pas alors qu’il\fdevrait...!
+91	Prof. Orme : Ton PICHU Troizépi\nme paraît en pleine forme !\rJe n’ai jamais entendu parler d’un\nPokémon qui n’évolue pas alors qu’il\fdevrait. Prends-en bien soin.
+92	Veux-tu soigner\ntes Pokémon ? {YESNO 0}
+93	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°1 : touche l’icône\ndu Bouton A sur l’écran tactile.\rTu peux examiner des choses, parler\naux gens, etc.
+94	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°2 : la Carte\nDresseur est ta carte d’identité de\fDresseur pour voyager avec tes\fPokémon.\rEnregistre ton aventure avec\nSAUVEGARDER !
+95	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°3 : les objets de\nton Sac sont triés par catégorie.
+96	{STRVAR_1 3, 0, 0} ouvre un livre.\rConseil de voyage n°4 : le Pokématos\nest un outil pratique.\rTu peux passer un appel,\nécouter la radio, consulter la carte,\fetc.
+97	Tu as trouvé un mémo...\nSi un Pokémon essaie d’évoluer,\fon peut l’en empêcher.\rAppuie sur le Bouton B pendant\nl’évolution.
+98	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nComment ça va ?\rJe suis sûr que tu peux devenir le\nprochain Maître après avoir pris soin\fde cet Œuf !
+99	Prof. Orme : Salut, {STRVAR_1 3, 0, 0} !\nComment ça va ?\rJe suis sûr que tu peux devenir le\nprochain Maître après avoir pris soin\fde cet Œuf !
+100	J’aimerais beaucoup voir le\nPokémon qui est sorti de\fcet Œuf, {STRVAR_1 3, 0, 0}.
+101	J’aimerais beaucoup voir le\nPokémon qui est sorti de\fcet Œuf, {STRVAR_1 3, 0, 0}.
+102	Prof. Orme : {STRVAR_1 3, 0, 0} !\nJe suis vraiment surpris !\rJe n’arrive pas à croire qu’un si grand\nDresseur ait été si près de\fmoi tout ce temps !\r{STRVAR_1 3, 0, 0}, tu m’as aidé à comprendre\nce que signifie marcher avec des\fPokémon.\rC’est que...\fla relation entre les gens et les\fPokémon n’a pas de limite !\rPermets-moi de te remercier encore\nune fois pour ton soutien !
+103	Prof. Orme : {STRVAR_1 3, 0, 0} !\nJe suis vraiment surpris !\rJe n’arrive pas à croire qu’une si\ngrande Dresseuse ait été si près de moi\ftout ce temps !\r{STRVAR_1 3, 0, 0}, tu m’as aidé à comprendre\nce que signifie marcher avec des\fPokémon.\rC’est que...\fla relation entre les gens et les\fPokémon n’a pas de limite !\rPermets-moi de te remercier encore\nune fois pour ton soutien !
+104	Hmm... Pour autant que je sache, il n’y\na pas de Pokémon comme celui-ci à\fJohto...\rExactement comme M. Pokémon le disait\nau téléphone.\rTu sembles toujours présent quand\nil se passe quelque chose d’excitant,\f{STRVAR_1 3, 0, 0} !\rTu me remplis d’excitation !\nJe vais te faire un cadeau pour ça.\fPrends-le, je t’en prie.\r
+105	Hmm... Pour autant que je sache, il n’y\na pas de Pokémon comme celui-ci à\fJohto...\rExactement comme M. Pokémon le disait\nau téléphone.\rTu sembles toujours présente quand\nil se passe quelque chose d’excitant,\f{STRVAR_1 3, 0, 0} !\rTu me remplis d’excitation !\nJe vais te faire un cadeau pour ça.\fPrends-le, je t’en prie.\r

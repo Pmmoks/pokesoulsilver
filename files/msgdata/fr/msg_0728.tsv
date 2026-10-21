@@ -904,7 +904,7 @@
 903	Oh, j’ai perdu !\n
 904	Je retourne à la Route de Glace\nd’Ebenelle pour m’entraîner encore.\n
 905	Yo ! Tu es coriace ! Mais tu sais quoi ?\nQuand il s’agit d’être coriace,\fc’est moi le meilleur !\r
-906	Mes Pokémon n’étaient pas assez\ncostauds !
+906	Mes Pokémon n’étaient pas assez\ncostauds !\n
 907	Ah, ce que j’aime le PV Plus ! Miam !\rJe bois toujours celui de mes Pokémon !\nC’est plus fort que moi !\n
 908	Mes Pokémon débordent de puissance !\r
 909	Wahahah !\nC’est moi le grand perdant !\n
@@ -924,20 +924,20 @@
 923	Si tu as promis un match retour, la\nposition de ton adversaire sera marquée\fd’un “!” sur la carte.\rTu peux la consulter sur ton Pokégear.\n
 924	Hé, tu as visité beaucoup d’Arènes\ndepuis la dernière fois ?\r
 925	Oh, quelle force incroyable...\n
-926	Oh, c’était si serré ! J’y étais\npresque.
+926	Oh, c’était si serré ! J’y étais\npresque.\n
 927	Je n’ai plus de Pokémon...\n
 928	Oh, c’est merveilleux...\n
 929	Oh, vous excellez aussi avec les\nPokémon.\n
 930	On dirait que j’ai perdu...\n
 931	Quand deux Dresseurs se croisent, ils\ndoivent s’affronter.\fC’est notre destin.\r
 932	Ouf...\nBeau combat.\n
-933	Les Pokémon et leur Dresseur\ndeviennent puissants à force de\fcombattre.
+933	Les Pokémon et leur Dresseur\ndeviennent puissants à force de\fcombattre.\n
 934	Le LEVIATOR rouge ?\nÇa a l’air effrayant.\fIl doit être rouge de colère !\fMoi ?\rJe ne suis pas en colère, mais\nbattons-nous quand même !\r
 935	Bien joué !\n
 936	Maintenant que j’y pense, j’ai déjà vu\nun PAPILUSION rose.\n
 937	Je vais combattre avec le Pokémon que\nje viens d’attraper !\r
 938	Je suis peut-être un pêcheur expert,\nmais je suis nul comme Dresseur...\n
-939	Comme pêcheur, je ne perdrai pas !\nJ’attrape des Pokémon toute la\fjournée.
+939	Comme pêcheur, je ne perdrai pas !\nJ’attrape des Pokémon toute la\fjournée.\n
 940	Quoi que je fasse, je n’attrape que\nles mêmes Pokémon...\r
 941	Ma ligne est tout emmêlée...\n
 942	Pourquoi je n’attrape jamais de bons\nPokémon ?\n
@@ -972,7 +972,7 @@
 971	J’abandonne. Inutile de chercher.\nOubliez tout cela !\n
 972	Je vais à Kanto pour mettre mes talents\nà l’épreuve.\r
 973	Je voulais gagner !\n
-974	Les Dresseurs de Johto peuvent\naffronter les Champions d’Arène de\fKanto.
+974	Les Dresseurs de Johto peuvent\naffronter les Champions d’Arène de\fKanto.\n
 975	Je m’entraîne pour devenir Maître !\r
 976	Qu’est-ce qui nous différencie ?\n
 977	Un jour, je te battrai !\n
@@ -1075,10 +1075,10 @@
 1074	On n’est pas toujours méchants. On fait\njuste ce qui nous plaît.\n
 1075	Hé, hé ! Dégage de notre chemin !\r
 1076	Argh. J’abandonne.\n
-1077	Nos Admins essaient de prendre le\ncontrôle de cet endroit. Ils ont un\fgrand plan. Je me demande ce que c’est.
+1077	Nos Admins essaient de prendre le\ncontrôle de cet endroit. Ils ont un\fgrand plan. Je me demande ce que c’est.\n
 1078	Ha ha ha !\fQuel ennui. C’était bien trop facile de\nprendre cet endroit !\rAllez, divertis-moi un peu !\r
 1079	Qu-qui es-tu ?\n
-1080	Tu m’as battue, et je ne l’oublierai\npas !
+1080	Tu m’as battue, et je ne l’oublierai\npas !\n
 1081	Qui ose se promener par ici ?\nQui es-tu ?\r
 1082	Tsss ! J’ai pris ce combat trop à la\nlégère !\n
 1083	Bwahahaha...\rD’ici, je peux émettre un signal aussi\npuissant que je le veux.\n
@@ -1090,7 +1090,7 @@
 1089	Perdre, ça me dégoûte ! Bah !\nJe déteste les Pokémon inutiles !\n
 1090	Pourquoi la porte s’est-elle ouverte ?\nTu y es pour quelque chose ?\r
 1091	Glups ! C’est un bien triste moment.\n
-1092	Quoi ?! Tu as réussi à passer nos gars\ndans le Souterrain ? Comment as-tu\ffait ?
+1092	Quoi ?! Tu as réussi à passer nos gars\ndans le Souterrain ? Comment as-tu\ffait ?\n
 1093	Lance : Attends une seconde !\rCe ne serait pas toi qui nous as gênés\nau Puits Ramoloss ?\rJe vois... Tu fais tout ça pour me\nmettre en colère. Fais attention !\rMais puisque tu sembles le vouloir, je\nvais te montrer toute l’étendue de la\fcolère d’un Admin de la Team Rocket !\r
 1094	Sérieusement, tu m’as poursuivi\njusqu’ici ?!\n
 1095	Argh... Qu’est-ce que tu es ?!\n
@@ -1108,7 +1108,7 @@
 1107	OK, OK. Je vais te dire où il est.\n
 1108	Ariane : Hé, toi...\nTu te souviens de moi ? La planque\fd’Acajou ?\rCette fois...\rHi hi hi. Cette fois... on dirait que\npersonne n’est là pour t’aider.\fPersonne...\rÇa devrait être facile.\nAllez ! Finissons-en !\r\n
 1109	Hé, qu’est-ce que tu crois faire ?!\n
-1110	Qu... Quoi... D’où te vient cette\nforce ?!
+1110	Qu... Quoi... D’où te vient cette\nforce ?!\n
 1111	Aaaiiiie !\nC’est pas possible !\rJ’ai lutté de toutes mes forces, et j’ai\nquand même perdu...\n
 1112	Quel gâchis...\nde ne pas utiliser ta force pour faire\fle mal !\rPfff... Les gens comme toi ne\ncomprendront jamais notre génie !\rC’est dommage... Je commence vraiment\nà respecter ta force.\n
 1113	Hors de question que tu nous gênes\navant que la nouvelle de notre retour\fne parvienne à Giovanni !\n
@@ -1149,7 +1149,7 @@
 1148	Je l’admets, ton style de combat est\nsuperbe et plein de vie.\rTu ne vas cesser de progresser !\n
 1149	Je m’entraîne.\nUne petite partie ?\r
 1150	Oh, non ! Tu me surpasses de loin.\n
-1151	Je vais m’entraîner seule jusqu’à ce\nque je progresse.
+1151	Je vais m’entraîner seule jusqu’à ce\nque je progresse.\n
 1152	Si les Pokémon que j’aime s’y\ntrouvaient, j’irais n’importe où.\rC’est ça, l’esprit d’un vrai Dresseur.\r
 1153	Je préfère caresser mes Pokémon plutôt\nque de combattre !\n
 1154	Une seule fois par semaine, un Pokémon\nvient au bord de l’eau.\rJe voulais voir ce Pokémon...\n
@@ -1164,13 +1164,13 @@
 1163	Ouais, on coupe les queues des RAMOLOSS\npour les vendre.\rLa Team Rocket ferait n’importe quoi\npour de l’argent !\n
 1164	Arrêter de prendre les Queues\nRamoloss ?\rQuoi ?! Tu veux qu’on désobéisse à un\nordre direct de l’Admin Lance ?\rSi tu veux nous arrêter, il faudra tous\nnous battre ! Vas-y, essaie !\r
 1165	Sale petite peste !\n
-1166	Les Queues Ramoloss repoussent vite !\rEt puis, c’était un ordre de Lance,\nalors c’est surtout ça qui m’inquiète !
+1166	Les Queues Ramoloss repoussent vite !\rEt puis, c’était un ordre de Lance,\nalors c’est surtout ça qui m’inquiète !\n
 1167	Tu viens juste regarder bouche bée ?\nJe te conseille de partir !\r
 1168	Tu te fais vraiment du souci...\n
-1169	Comment on fait pour monter, bon sang ?\rJe veux rendre visite au Pokémon\nmalade, mais je n’arrive pas à monter...
+1169	Comment on fait pour monter, bon sang ?\rJe veux rendre visite au Pokémon\nmalade, mais je n’arrive pas à monter...\n
 1170	On est plutôt haut, ici. Mes Pokémon\noiseaux sont en pleine forme.\r
 1171	Oups...\nIls se sont écrasés...\n
-1172	Mes Pokémon oiseaux se sont entraînés\nà Irisia. Vu que j’ai perdu, on va\fpeut-être traverser la mer.
+1172	Mes Pokémon oiseaux se sont entraînés\nà Irisia. Vu que j’ai perdu, on va\fpeut-être traverser la mer.\n
 1173	Je parcours le monde pour entraîner\nmes Pokémon. Je souhaiterais à présent\fvous affronter.\r
 1174	... Ah... Je dois encore m’entraîner...\n
 1175	Jasmine utilisait autrefois des Pokémon\nde type Roche comme ONIX.\n
@@ -1189,7 +1189,7 @@
 1188	Tu as à la fois du cœur et de la\nforce...\n
 1189	Chaque fois que je reviens à Oliville,\nje passe à l’Arène.\rLe type des Pokémon de la Championne a\nchangé sans que je le remarque.\n
 1190	Jasmine doit être malade d’inquiétude\npour le Pokémon d’ici. Elle ne sourit\fmême plus ces jours-ci.\r
-1191	Moi non plus, je n’arrive pas à\nsourire...
+1191	Moi non plus, je n’arrive pas à\nsourire...\n
 1192	En parlant de malade, il paraît qu’il\ny a une bonne Pharmacie à Irisia.\n
 1193	Je voulais affronter Jasmine, mais elle\nn’est pas en état. Et toi, alors ?\r
 1194	Ouh là, ouh là. Quelle puissance\nécrasante !\n
@@ -1235,7 +1235,7 @@
 1234	Tes Pokémon t’aimeront davantage si tu\nles fais toiletter.\n
 1235	Je crois que tu as des Pokémon rares\navec toi. Montre-les-moi !\r
 1236	Gah ! J’ai perdu !\nÇa m’énerve !\n
-1237	Tu remplis un Pokédex ?\nVoici un bon tuyau.\rAffronte autant de Dresseurs que\npossible quand tu en vois sur les routes\fet dans les grottes.\rLeurs Pokémon seront enregistrés dans\nle Pokédex, et en plus, tes Pokémon\fprogresseront !
+1237	Tu remplis un Pokédex ?\nVoici un bon tuyau.\rAffronte autant de Dresseurs que\npossible quand tu en vois sur les routes\fet dans les grottes.\rLeurs Pokémon seront enregistrés dans\nle Pokédex, et en plus, tes Pokémon\fprogresseront !\n
 1238	Je me suis fait virer du Casino.\nJe gagnais tout le temps au nouveau jeu\fà jetons, et ils ont cru que je\ftrichais...\r
 1239	... Grmbl...\n
 1240	Faut croire que je dois jouer\nhonnêtement...\n
@@ -1272,7 +1272,7 @@
 1271	Waaaargh !\nJe suis battu !\n
 1272	Toi ! Comment oses-tu entrer sans\ninvitation !\r
 1273	Qu-quelle force !\n
-1274	Le Sanctuaire, plus loin, est la demeure\ndu Maître de notre clan de Dompteurs.\rTu n’as pas le droit d’y entrer comme\nça !
+1274	Le Sanctuaire, plus loin, est la demeure\ndu Maître de notre clan de Dompteurs.\rTu n’as pas le droit d’y entrer comme\nça !\n
 1275	Tu n’as rien à faire ici !\r
 1276	Oh, zut, j’ai perdu !\n
 1277	Bientôt, notre Maître m’autorisera à\nutiliser des dragons.\rAlors, je deviendrai une Dompteuse\nadmirable et j’obtiendrai\fl’approbation du Maître.\n
@@ -1311,7 +1311,7 @@
 1310	Argh, perdre si loin de tout !\n
 1311	C’était un combat brûlant !\n
 1312	Ce que ça fait de perdre ?\nÇa fait mal !\n
-1313	Je n’ai pas fini de mesurer les\ndonnées !
+1313	Je n’ai pas fini de mesurer les\ndonnées !\n
 1314	J-je n’ai pas gagné.\n
 1315	C’est le blanc total dans ma tête !\n
 1316	Argh... Je n’en peux plus...\n
@@ -1355,7 +1355,7 @@
 1354	Lulu : Oh oh, tu n’as qu’un seul\nPokémon. Tu ne peux pas nous affronter\fcomme ça !\n
 1355	Je ne suis qu’un Gentleman qui s’est\narrêté en chemin. Me feriez-vous\fl’honneur d’un petit duel ?\r
 1356	Vous avez été très habile.\n
-1357	S’arrêter en chemin pour un combat\nn’est pas impoli. Quoi qu’il arrive, je\fsuis avant tout un Gentleman !
+1357	S’arrêter en chemin pour un combat\nn’est pas impoli. Quoi qu’il arrive, je\fsuis avant tout un Gentleman !\n
 1358	Hein ? Le vent a tourné !\r
 1359	Pfiou...\n
 1360	Puisque le vent a tourné, je vais me\nfaire discret...\n
@@ -1369,7 +1369,7 @@
 1368	Tara : J’adore regarder le profil de\nmon copain pendant qu’il combat !\r
 1369	Tara : Oh non, oh non...\n
 1370	Tara : Même s’il a perdu, mon copain\nest toujours merveilleux.\n
-1371	Tara : Oh ? Tu n’as qu’un seul\nPokémon ? Bon, on réessaiera une autre\ffois.
+1371	Tara : Oh ? Tu n’as qu’un seul\nPokémon ? Bon, on réessaiera une autre\ffois.\n
 1372	Les combats Pokémon, c’est le meilleur\nappât pour attirer les gens !\r
 1373	Mon seau à Pokémon est vide !\n
 1374	Vraiment ? Plutôt que d’attraper sans\narrêt de nouveaux Pokémon, mieux vaut\fles entraîner ?\n\n
@@ -1399,14 +1399,14 @@
 1398	Au lieu de parler aux Pokémon avec des\nmots, tu peux communiquer avec eux en\fsifflant !\n
 1399	Bien, commençons ce combat Pokémon !\r
 1400	Bien !\nCe sera tout pour le combat\fd’aujourd’hui.\n
-1401	Ne te relâche pas parce que tu as\ngagné. En rentrant chez toi, fais une\frévision complète !
+1401	Ne te relâche pas parce que tu as\ngagné. En rentrant chez toi, fais une\frévision complète !\n
 1402	Je suis dans la catégorie poids\nplume !\r... Hein ? Comment ça, ça n’a pas\nl’air très fort ?\r
 1403	J’ai perdu, léger comme une plume !\n
 1404	Je devrais peut-être mentir et dire que\nje suis poids lourd...\n
 1405	Je suis un poids plume tenace.\nJe t’attendais ici !\r
 1406	J’ai hâte de rentrer pour poser mon\nSac !\r
 1407	J’étais trop pressé.\n
-1408	Ne te précipite pas et avance pas à\npas. Un excellent conseil !
+1408	Ne te précipite pas et avance pas à\npas. Un excellent conseil !\n
 1409	C’est bien de mettre tout de suite en\npratique ce qu’on apprend !\r
 1410	Je vois. Je vois.\n
 1411	Très bien !\nLa prochaine fois, je ne ferai aucune\ferreur !\n
@@ -1565,7 +1565,7 @@
 1564	Waouh, quelle force...\n
 1565	Toi...\nJe me demande ce que l’avenir te\fréserve...\n
 1566	Mmmmph... Je viens de me réveiller.\nJe n’arrivais pas à me concentrer...\n
-1567	Qu’est-ce que c’était ? Une telle\nforce, à ton âge et avec si peu\fd’expérience ?! Impossible !
+1567	Qu’est-ce que c’était ? Une telle\nforce, à ton âge et avec si peu\fd’expérience ?! Impossible !\n
 1568	Qu’est-ce que c’était ?\n
 1569	Mais qu’es-tu donc ?\n
 1570	Cui !\n

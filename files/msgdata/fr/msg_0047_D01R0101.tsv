@@ -1,5 +1,5 @@
 0	Une horde de TAUPIQUEUR a jailli du\nsol ! Quelle surprise !
-1	Pierre : Un petit espace entouré de\nrochers, ça apaise, tu ne trouves\fpas ? Au fait, on échange nos\fnuméros ? {YESNO 0}
+1	Pierre : Un petit espace entouré de\nrochers, ça apaise, tu ne trouves\fpas ? Au fait, on échange nos\fnuméros ? {YESNO 0}\n
 2	{STRVAR_1 3, 0, 0} a enregistré Pierre\ndans le Pokématos !
 3	Pierre : J’adorerais faire un combat\nPokémon contre toi !\fAppelle-moi le samedi soir !
 4	Pierre : Je vois... Quel dommage.\nJ’aurais adoré faire un combat\fPokémon contre toi...

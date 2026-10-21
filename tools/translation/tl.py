@@ -37,6 +37,8 @@ from translate_gmm import ROW, read_tsv  # noqa: E402
 
 COMMAND = re.compile(r'\{[^}]*\}')
 LINE_BREAK = re.compile(r'\\[nrf]')
+# How a row ends (a box or line break of its own) tells the game how to go on after it.
+ENDING = re.compile(r'(\\[nrf])*$')
 # A placeholder's width is not known before the game fills it in: one about the size of a
 # Pokemon name is assumed, for the English text and the translation alike.
 PLACEHOLDER_WIDTH = 60
@@ -253,7 +255,9 @@ def check_bank(bank):
         # The same commands, each at least once: a name may be said once where English says it twice.
         if set(COMMAND.findall(text)) != set(COMMAND.findall(english)):
             problems.append(f'{where}: commands differ: {COMMAND.findall(english)} -> {COMMAND.findall(text)}')
-        if text.count('{YESNO') and not text.rstrip().endswith('}'):
+        if not fixed_box and ENDING.search(text).group(0) != ENDING.search(english).group(0):
+            problems.append(f'{where}: ends with {ENDING.search(text).group(0)!r}, the English with {ENDING.search(english).group(0)!r}')
+        if text.count('{YESNO') and not ENDING.sub('', text).rstrip().endswith('}'):
             problems.append(f'{where}: {{YESNO}} must end the row')
         for line in lines(text):
             w = line_width(line)
@@ -305,6 +309,9 @@ def wrap_text(text, width, scroll=True):
         if box == '\\r' or all(line_width(l) <= width for l in lines(box)):
             out.append(box)
             continue
+        # A box may end with a line break of its own (a trailing \\n): keep it.
+        ending = re.search(r'(\\[nf])*$', box).group(0)
+        box = box[:len(box) - len(ending)]
         # Words, each {COMMAND ...} whole.
         words = re.findall(r'(?:\{[^}]*\}|[^ {])+', re.sub(r'\\[nf]', ' ', box))
         # French puts a space before these; they stay with the word before.
@@ -327,7 +334,7 @@ def wrap_text(text, width, scroll=True):
         joined = rows[0] if rows else ''
         for i, row in enumerate(rows[1:], 1):
             joined += ('\\n' if i == 1 or not scroll else '\\f') + row
-        out.append(joined)
+        out.append(joined + ending)
     return ''.join(out)
 
 

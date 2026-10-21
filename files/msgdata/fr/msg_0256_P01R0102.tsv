@@ -5,10 +5,10 @@
 4	Morgane : Tout à coup...\nJ’ai envie de voir l’océan...\rÇa pourrait être sympa d’échanger\nnos numéros...\rVeux-tu le mien ? {YESNO 0}
 5	{STRVAR_1 3, 0, 0} a enregistré Morgane\ndans le Pokématos !
 6	Morgane : Je pense pouvoir tenir mes\npromesses si tu m’appelles le dimanche\fvers midi.
-7	Morgane : Je vois...\nJe pensais que tu ferais un bon ami.
+7	Morgane : Je vois... Je pensais que\nnous nous entendrions bien.
 8	Morgane : Maintenant, tu veux mon\nnuméro ?\fJe le vois dans tes yeux... {YESNO 0}
 9	Morgane : C’est toi...\rUne photo ici, face à l’agréable brise\nmarine, ça te dit ? {YESNO 0}
-10	Morgane : Tu es prêt ?\r
+10	Morgane : On y va ?\r
 11	Morgane : Je trouve qu’elle est\nréussie.
 12	Morgane : Je vois...\nJe pensais que tu ferais un bon\fsujet de photo...
 13	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\ndes photos.

@@ -1,0 +1,17 @@
+0	{SIZE 200}Boum !{SIZE 100}\r
+1	Oh là là ! Moi désolé !\nToi pas blessé, d’accord ?\fMoi très occupé.\fPas le temps de parler avec toi.\fPas bon pour moi si vu par quelqu’un.\r
+2	Oh non ! Toi avoir déjà vu moi !\fMoi faire grosse erreur !\r
+3	Hé, toi ! Oublier que toi voir moi,\nd’accord ? Toi rien vu, rien entendu,\frien su, d’accord ? Au revoir !\fSalut-salut à gogo !\r
+4	Désolée, je m’absente un moment.\nOndine, Championne d’Arène
+5	Comme Ondine est sortie, nous partons\naussi. Les Dresseurs de l’Arène
+6	Arène Pokémon d’Azuria
+7	Arène Pokémon d’Azuria\rChampionne : Ondine\nDresseur certifié !\f{STRVAR_1 3, 0, 0}
+8	Ondine : Je t’attendais,\npeste !\rTu as peut-être beaucoup de Badges\nd’Arène de Johto, mais ne me prends\fpas à la légère.\rMes Pokémon de type Eau sont\ncoriaces !\r
+9	Ondine : Tu es vraiment bon...\rJe l’admets, tu as du talent...\rTiens.\nC’est le Badge Cascade.\r
+10	{STRVAR_1 3, 0, 0} a reçu\nle Badge Cascade d’Ondine !
+11	Ondine : Voici un autre souvenir\nde ce combat. Prends-le !\r
+12	Ondine : Elle contient la capacité\nVibraqua.\rElle peut parfois rendre l’ennemi\nconfus.\rTu as réussi à battre des Dresseurs\ndepuis Johto jusqu’ici.\fJe suis sûre que tu en feras bon usage.
+13	Ondine : Il y a beaucoup de Dresseurs\npuissants à Johto ?\rUn jour, je partirai en voyage pour\naffronter des Dresseurs puissants !
+14	Yo ! Futur légende !\rComme Ondine était absente, je suis\nsorti m’amuser aussi. Hé hé hé.
+15	Houlà, tu m’as montré ta force.\rComme toujours, quel super combat !
+16	...!\r{STRVAR_1 3, 0, 0} a ramassé l’objet noir\nqui était près de la piscine.\rC’est une pièce de machine !\r
