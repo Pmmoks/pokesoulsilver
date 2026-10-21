@@ -1,0 +1,10 @@
+0	Mortimer : Le Pokémon légendaire ne m’a\npas choisi...\rMais cela ne veut pas dire que j’ai\nperdu mon avenir.\rJe continuerai à m’entraîner jusqu’à\ntrouver un nouvel avenir pour moi.\rDis-moi, veux-tu faire partie de\nmon entraînement ? {YESNO 0}
+1	{STRVAR_1 3, 0, 0} a enregistré Mortimer\ndans le Pokématos !
+2	Mortimer : Appelle-moi le mardi soir si\ntu veux un combat !
+3	Mortimer : Oh...\nC’est dommage...
+4	Mortimer : Alors, veux-tu faire partie\nde mon entraînement ? {YESNO 0}
+5	Mortimer : Tiens, c’est toi !\rEt si on prenait une photo ici,\nen souvenir ? {YESNO 0}
+6	Mortimer : Très bien !\nViens te mettre à côté de moi.\r
+7	Mortimer : Mmmm...\nVoilà une très belle photo !
+8	Mortimer : Je comprends...\nTu dois avoir beaucoup à faire.
+9	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.

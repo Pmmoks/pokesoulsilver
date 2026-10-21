@@ -1,0 +1,12 @@
+0	Tant de gens sont montés en haut de\nla tour avec une Arcenci’Aile\fpour tenter de ramener HO-OH.\rMais aucun n’a réussi à faire\napparaître HO-OH...\rL’Arcenci’Aile permet simplement\nde monter dans cette tour.\rCe que HO-OH désire, c’est la confiance\ninvisible entre les gens et les\fPokémon...\rOu celui qui saura rétablir une telle\nrelation...\r
+1	Il y a longtemps, un Pokémon se\ntrouvait au sommet de cette tour :\fHO-OH.\rMais il s’est envolé, et personne ne\nl’a revu depuis...\rSi quelqu’un capable de rétablir une\nprofonde confiance entre les gens et\fles Pokémon venait ici avec un objet lié\fà HO-OH... Il descendrait peut-être\fpour cette personne...\r
+2	Ce que tu as là...!\r
+3	Tu as réussi...\nTu peux passer.
+4	Cette Arcenci’Aile te permet seulement\nde monter dans la tour.\rSi tu n’es pas capable de rétablir\nla confiance entre les gens\fet les Pokémon, HO-OH ne se montrera\fjamais à toi...
+5	Hmmm.\rC’était donc toi, avec la Cloche !
+6	Tu as un talent remarquable\npour ton âge...
+7	Mortimer : La Tour Carillon est un lieu\noù les gens et les Pokémon éprouvent\fleur confiance.\rTu as peut-être du talent de\nnaissance... On échange nos numéros ?\rJ’aimerais examiner la confiance qui\nt’unit à tes Pokémon. {YESNO 0}
+8	{STRVAR_1 3, 0, 0} a enregistré Mortimer\ndans le Pokématos !
+9	Mortimer : Appelle-moi le mardi soir.\nJe devrais être libre et prêt.
+10	Mortimer : J’aurais vraiment aimé voir\nla confiance qui t’unit à tes Pokémon...
+11	Mortimer : Tu veux qu’on échange\nnos numéros ? {YESNO 0}
