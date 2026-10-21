@@ -1,0 +1,139 @@
+0	VUS
+1	PRIS
+8	INFO
+10	TAI
+11	PDS
+12	Mode Recherche
+13	Entrez les critères de recherche.
+14	Résultats
+15	RÉSULTATS {STRVAR_1 52, 0, 0}
+16	Choisissez le mode d’affichage.
+17	Classer par initiale du nom.
+18	Classer par type.
+19	Classer par catégorie de poids.
+20	Classer par catégorie de taille.
+21	Classer par morphologie.
+22	Classer par zone.
+23	Aucun Pokémon ne correspond.
+24	Introuvable...
+25	Recherche...
+26	ORDRE
+27	NOM
+28	TYPE
+29	TAI
+30	PDS
+31	ZONE
+32	FORME
+35	EFFACER
+36	OK
+37	RETOUR
+39	OK
+40	RETOUR
+41	Numérique
+42	A à Z
+43	Plus lourd
+44	Plus léger
+45	Plus grand
+46	Plus petit
+47	Ténèbres
+48	Roche
+49	Psy
+50	Combat
+51	Plante
+52	Glace
+53	Spectre
+54	Sol
+55	Électrik
+56	Poison
+57	Dragon
+58	Normal
+59	Acier
+60	Vol
+61	Feu
+62	Eau
+63	Insecte
+65	JOHTO
+66	KANTO
+67	INCONNU
+69	A
+70	B
+71	C
+72	D
+73	E
+74	F
+75	G
+76	H
+77	I
+78	J
+79	K
+80	L
+81	M
+82	N
+83	O
+84	P
+85	Q
+86	R
+87	S
+88	T
+89	U
+90	V
+91	W
+92	X
+93	Y
+94	Z
+114	Mâle
+115	Femelle
+116	Mer Occident
+117	Mer Orient
+118	Cape Plante
+119	Cape Sable
+120	Cape Déchet
+121	Une forme
+122	Pokédex JP
+123	Pokédex AN
+124	Pokédex FR
+125	Pokédex AL
+126	Pokédex IT
+127	Pokédex ES
+128	Zone inconnue
+129	Matin
+130	Jour
+131	Nuit
+132	CHANGER
+134	TOUT VOIR
+135	TOUT VOIR
+136	Comparer taille
+137	Comparer poids
+140	40,0 kg
+141	41,0 kg
+142	ZONE
+143	TAILLE
+144	Pokémon ajouté au Pokédex.
+145	Forme Normale
+146	Forme Attaque
+147	Forme Défense
+148	Forme Vitesse
+149	Forme Terrestre
+150	Forme Céleste
+151	Forme Alternative
+152	Forme Originelle
+153	MOTISMA
+154	MOTISMA Chaleur
+155	MOTISMA Lavage
+156	MOTISMA Froid
+157	MOTISMA Hélice
+158	MOTISMA Tonte
+160	Normale
+161	Forme Solaire
+162	Forme Eau de Pluie
+163	Forme Blizzard
+164	Temps Couvert
+165	Temps Ensoleillé
+166	Troizépi
+168	COMPARER
+169	Comparer avec {STRVAR_1 0, 0, 0}
+170	FORMES
+171	CHANGER
+172	RETOUR
+173	RETOUR
+174	RETOUR À LA LISTE

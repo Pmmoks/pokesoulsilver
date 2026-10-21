@@ -1,0 +1,29 @@
+0	Connexion à la CWF Nintendo\nimpossible.\n\nPour obtenir de l’aide, consultez\nle mode d’emploi du jeu ou\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+1	La CWF Nintendo est saturée ou\nle service est interrompu.\nRéessayez plus tard.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+2	Cet identifiant CWF Nintendo a\nété supprimé car il était\ninactif depuis longtemps.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+3	Le service CWF Nintendo de ce\nlogiciel a pris fin.\n\nLa liste des logiciels\ncompatibles avec la CWF Nintendo\nest sur support.nintendo.com.\n\nCode d’erreur : {STRVAR_1 54, 0, 0}
+4	Le point d’accès est saturé.\nConnexion impossible.\nRéessayez plus tard.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+5	Aucun point d’accès à portée.\nRéessayez plus près d’un\npoint d’accès.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+6	Aucun point d’accès compatible\nà portée. Vérifiez vos\nparamètres de connexion.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+7	Connexion au Connecteur USB Wi-Fi\nNintendo impossible. Vérifiez\nles paramètres de la CWF\nNintendo.\n\nAide : support.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+8	Connexion à la CWF Nintendo\nimpossible.\nVérifiez vos paramètres.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+9	Aucune réponse.\nLe joueur s’est déconnecté,\nou il vous a retiré de\nsa liste d’amis.\nCode d’erreur : {STRVAR_1 54, 0, 0}\n\n
+10	Erreur de communication.\nLa connexion à la CWF Nintendo\na été interrompue.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+11	Erreur de communication.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+12	Échec du téléchargement.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.\nCode d’erreur : {STRVAR_1 54, 0, 0}
+13	Erreur de communication.\nLa connexion à la CWF Nintendo\na été interrompue.\nVeuillez réessayer.\n\nPour obtenir de l’aide, consultez\nsupport.nintendo.com.
+14	Erreur de communication...
+16	Vos informations de connexion\nCWF Nintendo ont peut-être été\neffacées. Vérifiez vos\nparamètres dans la configuration\nde la CWF Nintendo.
+17	Se connecter à la CWF Nintendo ?
+18	La CWF Nintendo associe votre\ncarte de jeu Nintendo DS et\nvotre console. Sauvegarder les\ninformations de connexion de\ncette console sur cette carte\net se connecter à la\nCWF Nintendo ?
+19	Les informations de connexion\nde cette console ont été\nsauvegardées sur la carte de jeu.\nDésormais, utilisez cette\nconsole pour vous connecter\nà la CWF Nintendo.
+20	Connexion à la CWF Nintendo\nimpossible : les informations\nde connexion de la console et\ncelles de la carte de jeu ne\ncorrespondent pas.
+21	Mettre à jour les informations\nde connexion CWF Nintendo de\nla carte de jeu ?\nEn les mettant à jour, vous\nperdrez toutes les données\nutilisées pour vous connecter\nà la CWF Nintendo.
+22	Se connecter à la CWF Nintendo\npour mettre à jour les\ninformations de connexion ?\n\nAttention :\ntous les amis enregistrés dans\nvotre Carnet Ami seront effacés.
+23	Connexion à la CWF Nintendo...\nVeuillez patienter...
+24	Ce nom d’utilisateur ne permet\npas d’accéder à la CWF Nintendo.\n\nVeuillez changer de nom\nd’utilisateur.
+25	Se déconnecter de la\nCWF Nintendo ?
+26	Déconnexion de la CWF\nNintendo...
+27	La connexion à la CWF Nintendo\nest terminée.
+30	Sauvegarde...\nN’éteignez pas la console.
+32	Une erreur de communication est\nsurvenue sur la Place Wi-Fi.\nCode d’erreur : {STRVAR_1 54, 0, 0}

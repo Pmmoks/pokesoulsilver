@@ -510,3 +510,364 @@
 546	Ce que tu entends ?
 547	Ça sent quoi ?
 548	Ce qui t’intéresse ?
+549	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nSalut ! Faisons connaissance !\r
+550	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nSalut, {STRVAR_1 3, 1, 0} !\fÇa me fait plaisir de te revoir !\r
+551	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nÀ la prochaine !\r
+552	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAutre chose...\r
+553	Pardon ! J’ai un imprévu !\nJe ne peux pas parler !\r
+554	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOui ? Qu’est-ce qu’il y a ?\r
+555	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nSalut, tu as une minute ?\r
+556	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nPardon ! C’est dur à dire.\fJe ne peux pas répondre.\r
+557	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nNe t’en fais pas. Si tu ne veux pas\frépondre, ce n’est pas grave.\r
+558	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois...\r
+559	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nPareil que moi !\fC’est chouette !\r
+560	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMerci d’avoir répondu !\r
+561	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nBon, sinon...\r
+562	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu voulais autre chose ?\r
+563	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est quoi, ta couleur préférée ?\r
+564	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQuel genre de Pokémon tu aimes ?\r
+565	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQuel temps fait-il aujourd’hui ?\r
+566	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu faisais quoi avant de venir ?\r
+567	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu as des projets pour demain ?\r
+568	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOù aimerais-tu aller pendant\ftes vacances ?\r
+569	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ressembles à qui ?\r
+570	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce que tu veux le plus,\fen ce moment ?\r
+571	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce que tu trouves difficile ?\r
+572	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu vas où pour t’amuser ?\r
+573	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+574	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+575	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+576	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... De mon côté...\r
+577	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+578	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+579	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+580	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+581	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+582	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+583	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais le rouge.\r
+584	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais le bleu.\r
+585	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais le jaune.\r
+586	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais le vert.\r
+587	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aime les Pokémon costauds.\r
+588	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aime les Pokémon mignons.\r
+589	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aime les jolis Pokémon.\r
+590	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aime les Pokémon bizarres.\r
+591	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il fait beau.\r
+592	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, le ciel est nuageux.\r
+593	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il pleut.\r
+594	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il grêle.\r
+595	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEuh... Je dormais, je crois.\r
+596	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEuh... J’étais dehors, je crois.\r
+597	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEuh... Je travaillais, je crois.\r
+598	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEuh... Je mangeais, je crois.\r
+599	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe n’ai rien de prévu demain.\r
+600	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDemain, ma journée sera chargée.\r
+601	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDemain, c’est jour de congé.\r
+602	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est un secret.\r
+603	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aimerais aller dans un endroit chaud.\r
+604	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aimerais aller dans un endroit froid.\r
+605	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aimerais aller là où il y a plein\fde monde.\r
+606	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’aimerais aller là où il n’y a\fpersonne.\r
+607	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe crois que je ressemble à mon\fgrand frère.\r
+608	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe crois que je ressemble à ma\fgrande sœur.\r
+609	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe crois que je ressemble à mon oncle.\r
+610	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe crois que je ressemble à ma tante.\r
+611	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais du temps.\r
+612	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais de l’argent.\r
+613	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais des amis.\r
+614	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais un bon dîner.\r
+615	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien... L’école, je dirais...\r
+616	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien... Le sport, je dirais...\r
+617	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien... Me lever tôt, je dirais...\r
+618	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien... Le ménage, je dirais...\r
+619	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’irais bien dans un parc.\r
+620	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’irais bien dans un grand magasin.\r
+621	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’irais bien dans un parc\fd’attractions.\r
+622	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’irais bien au théâtre.\r
+623	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... C’est dur à dire...\fPardon, je ne peux pas répondre.\r
+624	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ta couleur préférée est le rouge.\r
+625	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ta couleur préférée est le bleu.\r
+626	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ta couleur préférée est le jaune.\r
+627	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ta couleur préférée est le vert.\r
+628	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, tu aimes les Pokémon costauds.\r
+629	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, tu aimes les Pokémon mignons.\r
+630	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, tu aimes les jolis Pokémon.\r
+631	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, tu aimes les Pokémon bizarres.\r
+632	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, il fait beau chez toi.\r
+633	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, le ciel est nuageux chez toi.\r
+634	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, il pleut chez toi.\r
+635	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, il grêle chez toi !\r
+636	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu dormais.\r
+637	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu étais dehors.\r
+638	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu travaillais.\r
+639	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu mangeais.\r
+640	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, rien de prévu.\r
+641	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ta journée sera chargée.\r
+642	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu as congé demain.\r
+643	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh ? Tu ne peux pas me le dire ?\r
+644	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit chaud...\r
+645	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit froid...\r
+646	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit plein de monde...\r
+647	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit sans personne...\r
+648	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ressembles à ton grand frère ?\r
+649	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ressembles à ta grande sœur ?\r
+650	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ressembles à ton oncle ?\r
+651	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ressembles à ta tante ?\r
+652	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDu temps, hein ? Je vois...\r
+653	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDe l’argent, hein ? Je vois...\r
+654	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDes amis, hein ? Je vois...\r
+655	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn bon dîner, hein ? Je vois...\r
+656	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, l’école, c’est dur pour toi...\r
+657	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, le sport, c’est dur pour toi...\r
+658	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, te lever tôt, c’est dur...\r
+659	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, le ménage, c’est dur pour toi...\r
+660	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu aimes t’amuser au parc.\r
+661	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn grand magasin ?\fTu dois aimer le shopping.\r
+662	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn parc d’attractions ! Évidemment !\r
+663	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLe théâtre, ça a l’air divertissant !\r
+664	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+665	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+666	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+667	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+668	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+669	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+670	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+671	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+672	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+673	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+674	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh ! Tu as le même Jouet Tactile\fque moi : {STRVAR_3 0, 1, 0} !\rC’est chouette !\r
+675	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTon Jouet Tactile, c’est {STRVAR_3 2, 1, 0} ?\rLe mien, c’est {STRVAR_3 2, 2, 0}.\nTu veux que je le partage avec toi ?\r
+676	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt voilà !\fAmuse-toi bien avec !\r
+677	Tu as reçu le Jouet Tactile\n{STRVAR_3 2, 1, 0} de {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} !\r
+678	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu as le Jouet Tactile {STRVAR_3 0, 1, 0} ?\fTrop bien !\r
+679	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\n... Tu peux partager ton Jouet\fTactile {STRVAR_3 0, 1, 0} avec moi ?\r
+680	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMerci ! J’en prendrai bien soin !\r
+681	{STRVAR_1 3, 0, 0} :\nSalut, {COLOR 2}{STRVAR_1 3, 1, 0}{COLOR 0} !\fÇa me fait plaisir de te revoir !\r
+682	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nSalut, {COLOR 2}{STRVAR_1 3, 1, 0}{COLOR 0} !\fÇa me fait plaisir de te revoir !\r
+683	{STRVAR_1 3, 0, 0} :\nQu’est-ce qui se passe ? Ça va ?
+684	{STRVAR_1 3, 0, 0} :\nEuh... Attends une seconde...
+685	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce qui se passe ? Ça va ?
+686	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEuh... Attends une seconde...
+687	{STRVAR_1 3, 0, 0} :\nAllez, on discute !\r
+688	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAllez, on discute !\r
+689	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu assures à quel Jeu de la Place ?\r
+690	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce qui est à la mode chez toi ?\r
+691	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est quoi, ton point fort ?\r
+692	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDe quoi tu ne peux pas te passer ?\r
+693	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est quoi, ta passion secrète ?\r
+694	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu vas faire quoi après ?\r
+695	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce qu’il y a près de chez toi ?\r
+696	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu fais quoi avec tes amis ?\r
+697	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQui compte le plus pour toi ?\r
+698	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nComment les gens te décrivent ?\r
+699	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQuand est-ce que tu te sens\fvraiment bien ?\r
+700	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce qui t’inquiète ?\r
+701	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nDans quoi tu te donnes à fond ?\r
+702	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu assures dans quelle activité\fphysique ?\r
+703	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est quoi, le métier de tes rêves ?\r
+704	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce qui rend ta région\fspéciale ?\r
+705	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQuelle température fait-il chez toi ?\r
+706	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce que tu entends autour\fde toi ?\r
+707	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nÇa sent quoi, autour de toi ?\r
+708	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nQu’est-ce qui t’intéresse le plus ?\r
+709	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+710	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+711	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+712	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+713	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+714	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+715	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+716	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+717	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+718	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+719	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+720	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+721	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+722	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+723	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+724	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+725	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+726	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+727	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nVoyons... Chez moi...\r
+728	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEh bien, moi...\r
+729	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais AVALTOUT Plop.\r
+730	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais MIME JR. Top.\r
+731	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais QULBUTOKE Pop.\r
+732	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe n’y ai jamais joué.\r
+733	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa télé et la musique, je pense.\r
+734	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes jeux et les ordis, je pense.\r
+735	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nL’école et le sport, je pense.\r
+736	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa mode et l’amour, je pense.\r
+737	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMe dépenser, je dirais.\r
+738	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nRéfléchir, je dirais.\r
+739	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe sais vraiment me faire remarquer !\r
+740	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMe faire des amis, je dirais.\r
+741	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nCe serait la lecture.\r
+742	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nCe serait la musique.\r
+743	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nCe serait les ordis.\r
+744	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nCe serait de veiller tard.\r
+745	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa mode, bien sûr !\r
+746	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa déco, bien sûr !\r
+747	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa gastronomie, bien sûr !\r
+748	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa vie, bien sûr !\r
+749	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn Jeu de la Place, je pense.\r
+750	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLe Tampon Empreinte, je pense.\r
+751	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes Profils Visiteurs, je pense.\r
+752	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes Infos de la Place, je pense.\r
+753	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois la maison des voisins.\r
+754	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois toutes sortes de magasins.\r
+755	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois une grande usine.\r
+756	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIl y a beaucoup de nature par ici.\r
+757	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Faire du sport, je dirais.\r
+758	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Jouer, je dirais.\r
+759	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Discuter, je dirais.\r
+760	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Faire du shopping, je dirais.\r
+761	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais ma famille.\r
+762	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais mes amis.\r
+763	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMoi-même, bien sûr !\r
+764	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nÇa, c’est un secret.\r
+765	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Enthousiaste, peut-être ?\r
+766	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Drôle, peut-être ?\r
+767	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Aimable, peut-être ?\r
+768	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Énigmatique, peut-être ?\r
+769	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe me sens bien quand je joue !\r
+770	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe me sens bien quand je bosse dur !\r
+771	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe me sens bien quand je dors.\r
+772	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe me sens bien quand je mange !\r
+773	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais mon argent de poche.\r
+774	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais l’école.\r
+775	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais ma forme.\r
+776	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe dirais mes amis.\r
+777	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nL’école, je pense.\r
+778	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMon régime, je pense.\r
+779	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nL’amour, peut-être ?\r
+780	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nMon entraînement, je pense.\r
+781	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTous les sports collectifs !\r
+782	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa course, c’est sûr !\r
+783	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa natation, c’est sûr !\r
+784	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa danse, c’est sûr !\r
+785	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe rêve d’être athlète pro.\r
+786	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe rêve d’être scientifique.\r
+787	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe rêve d’être une rock star.\r
+788	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe rêve d’être humoriste.\r
+789	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est un endroit très pratique.\r
+790	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIl y a beaucoup de nature ici.\r
+791	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est très calme ici.\r
+792	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIl y a plein de choses rares ici.\r
+793	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il fait chaud.\r
+794	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il fait doux.\r
+795	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il fait froid.\r
+796	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nIci, il fait frais.\r
+797	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’entends des voix.\r
+798	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’entends de la musique.\r
+799	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJ’entends la télé.\r
+800	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est très calme ici.\r
+801	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Ça sent la cuisine.\r
+802	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Ça sent les gens.\r
+803	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nHmm... Les parfums de la saison.\r
+804	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nBeurk... Ça sent vraiment mauvais.\r
+805	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes derniers jouets, je dirais.\r
+806	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes habits branchés, je dirais.\r
+807	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa météo de demain, je dirais.\r
+808	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes nouvelles stars, je dirais.\r
+809	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu assures à AVALTOUT Plop !\r
+810	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu assures à MIME JR. Top !\r
+811	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu assures à QULBUTOKE Pop !\r
+812	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh. Tu n’y as jamais joué.\r
+813	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa télé et la musique ! Je vois.\r
+814	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes jeux et les ordis ! Je vois.\r
+815	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nL’école et le sport ! Je vois.\r
+816	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLa mode et l’amour ! Je vois.\r
+817	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu aimes te dépenser.\fC’est bien.\r
+818	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu aimes faire travailler ta tête.\fC’est bien.\r
+819	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu sais te faire remarquer ?\fTu attires l’attention !\r
+820	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te fais facilement des amis ?\fC’est une belle qualité.\r
+821	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ne peux pas te passer de lecture !\r
+822	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ne peux pas te passer de musique !\r
+823	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ne peux pas vivre sans ordi !\r
+824	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu ne peux pas t’empêcher de veiller !\r
+825	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu as un faible pour la mode.\r
+826	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, la déco, c’est ton truc.\r
+827	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, la gastronomie, c’est ton truc.\r
+828	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, ta passion, c’est la vie.\r
+829	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu vas jouer à un Jeu de la Place ?\fAmuse-toi bien !\r
+830	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu vas t’amuser avec le Tampon\fEmpreinte ? Sympa !\r
+831	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes Profils Visiteurs ? On y voit\fd’où viennent les gens.\r
+832	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu vas lire les Infos de la Place ?\fC’est instructif.\r
+833	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu vois la maison des voisins.\r
+834	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu habites près des magasins.\r
+835	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu vis près d’une grande usine ? Waouh.\r
+836	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu vis en pleine nature.\r
+837	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu fais du sport avec tes amis.\r
+838	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nCool. Tu fais des jeux avec tes amis.\r
+839	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, avec tes amis, vous discutez.\r
+840	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu fais du shopping avec tes\famis pour le plaisir.\r
+841	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTa famille compte pour toi...\r
+842	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTes amis comptent pour toi...\r
+843	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nToi-même, hein ? C’est bien normal.\r
+844	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn secret ? Intrigant...\r
+845	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, on te trouve enthousiaste.\r
+846	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, on te trouve drôle.\r
+847	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, on te trouve aimable.\r
+848	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, on te trouve énigmatique.\r
+849	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te sens bien quand tu joues.\fÇa se comprend.\r
+850	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te sens bien quand tu bosses dur.\fQuelle motivation !\r
+851	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te sens bien quand tu dors.\fC’est chouette.\r
+852	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te sens bien quand tu manges.\fC’est chouette.\r
+853	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTon argent de poche t’inquiète ? Aïe.\r
+854	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nL’école t’inquiète ? Aïe.\r
+855	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTa forme t’inquiète ? Aïe.\r
+856	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTes amis t’inquiètent ? Aïe.\r
+857	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu bosses dur pour l’école ?\fBravo !\r
+858	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te donnes à fond pour ton régime ?\fNe te prive pas trop, hein !\r
+859	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu te donnes à fond en amour ?\fÇa doit être chouette !\r
+860	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu te donnes à fond à l’entraînement ?\fBon courage !\r
+861	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAlors, tu assures dans tous les\fsports collectifs. Compris.\r
+862	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu cours bien, alors. Compris.\r
+863	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu nages bien, alors. Compris.\r
+864	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu danses bien, alors. Compris.\r
+865	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu veux devenir athlète pro.\r
+866	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu veux devenir scientifique.\r
+867	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu veux devenir une rock star.\r
+868	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nTu veux devenir humoriste.\r
+869	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit très pratique ?\fÇa doit être cool.\r
+870	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit plein de nature ?\fÇa doit être cool.\r
+871	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit très calme ?\fÇa doit être agréable.\r
+872	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nUn endroit plein de choses rares ?\fÇa doit être cool.\r
+873	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois. Il fait chaud chez toi.\r
+874	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois. Il fait doux chez toi.\r
+875	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois. Il fait froid chez toi.\r
+876	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nJe vois. Il fait frais chez toi.\r
+877	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, il y a d’autres gens autour de toi.\r
+878	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu entends de la musique.\r
+879	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, il y a une télé pas loin.\r
+880	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nAh, tu n’entends pas grand-chose.\r
+881	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ça sent la cuisine ?\fÇa a l’air bon !\r
+882	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, ça sent les gens ? D’accord.\r
+883	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nOh, tu sens les parfums de la saison,\fhein ? C’est chouette.\r
+884	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nÇa pue chez toi ? Beurk.\r
+885	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes derniers jouets t’intéressent\fle plus ? Intéressant.\r
+886	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes habits branchés t’intéressent\fle plus ? Intéressant.\r
+887	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nC’est la météo de demain qui\ft’intéresse le plus ? D’accord.\r
+888	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nLes nouvelles stars t’intéressent\fle plus ? Sympa.\r
+889	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+890	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+891	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+892	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+893	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+894	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+895	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+896	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+897	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+898	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+899	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+900	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+901	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+902	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+903	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+904	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+905	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+906	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+907	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt chez toi ?\r
+908	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} :\nEt toi ?\r
+909	Tu as partagé le Jouet Tactile\n{STRVAR_3 2, 1, 0} avec {COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0}.\r
