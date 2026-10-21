@@ -1,0 +1,54 @@
+0	CARNET AMI
+1	VOIR LA LISTE D’AMIS
+2	ENTRER UN CODE AMI
+3	CODE AMI DE {STRVAR_1 3, 0, 0}
+4	SORTIE
+5	LISTE D’AMIS
+7	{ALN_CENTER}RETOUR
+8	DÉTAILS
+9	RENOMMER
+10	EFFACER
+11	RETOUR
+12	Que faire des données\nde {STRVAR_1 3, 0, 0} ?
+13	RÉSULTATS AVEC {STRVAR_1 3, 0, 0}
+14	{ALN_CENTER}A : Retour à l’écran précédent
+15	GROUPE
+19	RÉSULTATS COMBATS
+20	VICTOIRES
+21	DÉFAITES
+23	ÉCHANGES POKéMON
+27	DERNIÈRE PARTIE
+29	TOUR DE COMBAT
+30	USINE DE COMBAT
+31	CHÂTEAU DE COMBAT
+32	PALAIS DE COMBAT
+33	ARCADE DE COMBAT
+34	PRÉC.
+35	ACTUEL
+36	RECORD
+37	SÉRIE : {STRVAR_1 53, 0, 0}
+38	NIVEAU 50
+39	NIVEAU LIBRE
+40	LOCATION/ÉCHANGE
+41	{ALN_RIGHT}POINTS CHÂTEAU
+42	RÉSULTATS DE {STRVAR_1 0, 0, 0}
+44	{ALN_RIGHT}{STRVAR_1 53, 0, 0} PCh
+45	SÉRIE : {STRVAR_1 53, 0, 0}
+46	JEUX FINIS : {STRVAR_1 53, 0, 0}
+47	JEUX DE LA PLACE JOUÉS
+50	CODE AMI DE {STRVAR_1 3, 0, 0}
+51	{ALN_CENTER}RETOUR
+53	En échangeant vos Codes Ami avec\nd’autres joueurs, vous pourrez\néchanger et combattre avec eux via\nla Connexion Wi-Fi Nintendo.
+54	Pour obtenir votre Code Ami,\nconnectez-vous à la CWF Nintendo.
+55	{STRVAR_1 53, 1, 0} {STRVAR_1 53, 2, 0} {STRVAR_1 53, 3, 0}\nAjout de {STRVAR_1 3, 0, 0} à la liste.
+56	Ce Code Ami est incorrect.\n{STRVAR_1 53, 1, 0} {STRVAR_1 53, 2, 0} {STRVAR_1 53, 3, 0}
+57	Les données de {STRVAR_1 3, 0, 0} vont être\neffacées. Vous confirmez ?
+58	Votre Liste d’amis est pleine !
+59	Ce Code Ami a déjà été\nenregistré.
+60	Code Ami de {STRVAR_1 3, 0, 0} :\n{STRVAR_1 53, 1, 0} {STRVAR_1 53, 2, 0} {STRVAR_1 53, 3, 0}
+61	VOIR LE CODE AMI
+62	Enregistrer {STRVAR_1 3, 0, 0} dans votre\nCarnet Ami ?
+63	Votre Liste d’amis est pleine.\nEffacer quelqu’un ?
+64	Renoncer à enregistrer\n{STRVAR_1 3, 0, 0} ?
+65	Effacer les données de {STRVAR_1 3, 0, 0}\nde votre Liste d’amis ?
+66	Connectez-vous encore une fois\navec {STRVAR_1 3, 0, 0}, s’il vous plaît.

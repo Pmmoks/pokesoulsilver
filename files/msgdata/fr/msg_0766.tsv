@@ -233,3 +233,280 @@
 269	{STRVAR_1 3, 0, 0} :\nEh bien... Le sport, je dirais...\r
 270	{STRVAR_1 3, 0, 0} :\nEh bien... Me lever tôt, je dirais...\r
 271	{STRVAR_1 3, 0, 0} :\nEh bien... Le ménage, je dirais...\r
+272	{STRVAR_1 3, 0, 0} :\nJ’irais bien dans un parc.\r
+273	{STRVAR_1 3, 0, 0} :\nJ’irais bien dans un grand magasin.\r
+274	{STRVAR_1 3, 0, 0} :\nJ’irais bien dans un parc\fd’attractions.\r
+275	{STRVAR_1 3, 0, 0} :\nJ’irais bien au théâtre.\r
+276	{STRVAR_1 3, 0, 0} :\nJe dirais AVALTOUT Plop.\r
+277	{STRVAR_1 3, 0, 0} :\nJe dirais MIME JR. Top.\r
+278	{STRVAR_1 3, 0, 0} :\nJe dirais QULBUTOKE Pop.\r
+279	{STRVAR_1 3, 0, 0} :\nJe n’y ai jamais joué.\r
+280	{STRVAR_1 3, 0, 0} :\nLa télé et la musique, je pense.\r
+281	{STRVAR_1 3, 0, 0} :\nLes jeux et les ordis, je pense.\r
+282	{STRVAR_1 3, 0, 0} :\nL’école et le sport, je pense.\r
+283	{STRVAR_1 3, 0, 0} :\nLa mode et l’amour, je pense.\r
+284	{STRVAR_1 3, 0, 0} :\nMe dépenser, je dirais.\r
+285	{STRVAR_1 3, 0, 0} :\nRéfléchir, je dirais.\r
+286	{STRVAR_1 3, 0, 0} :\nJe sais vraiment me faire remarquer !\r
+287	{STRVAR_1 3, 0, 0} :\nMe faire des amis, je dirais.\r
+288	{STRVAR_1 3, 0, 0} :\nCe serait la lecture.\r
+289	{STRVAR_1 3, 0, 0} :\nCe serait la musique.\r
+290	{STRVAR_1 3, 0, 0} :\nCe serait les ordis.\r
+291	{STRVAR_1 3, 0, 0} :\nCe serait de veiller tard.\r
+292	{STRVAR_1 3, 0, 0} :\nLa mode, bien sûr !\r
+293	{STRVAR_1 3, 0, 0} :\nLa déco, bien sûr !\r
+294	{STRVAR_1 3, 0, 0} :\nLa gastronomie, bien sûr !\r
+295	{STRVAR_1 3, 0, 0} :\nLa vie, bien sûr !\r
+296	{STRVAR_1 3, 0, 0} :\nUn Jeu de la Place, je pense.\r
+297	{STRVAR_1 3, 0, 0} :\nLe Tampon Empreinte, je pense.\r
+298	{STRVAR_1 3, 0, 0} :\nLes Profils Visiteurs, je pense.\r
+299	{STRVAR_1 3, 0, 0} :\nLes Infos de la Place, je pense.\r
+300	{STRVAR_1 3, 0, 0} :\nJe vois la maison des voisins.\r
+301	{STRVAR_1 3, 0, 0} :\nJe vois toutes sortes de magasins.\r
+302	{STRVAR_1 3, 0, 0} :\nJe vois une grande usine.\r
+303	{STRVAR_1 3, 0, 0} :\nIl y a beaucoup de nature par ici.\r
+304	{STRVAR_1 3, 0, 0} :\nHmm... Faire du sport, je dirais.\r
+305	{STRVAR_1 3, 0, 0} :\nHmm... Jouer, je dirais.\r
+306	{STRVAR_1 3, 0, 0} :\nHmm... Discuter, je dirais.\r
+307	{STRVAR_1 3, 0, 0} :\nHmm... Faire du shopping, je dirais.\r
+308	{STRVAR_1 3, 0, 0} :\nJe dirais ma famille.\r
+309	{STRVAR_1 3, 0, 0} :\nJe dirais mes amis.\r
+310	{STRVAR_1 3, 0, 0} :\nMoi-même, bien sûr !\r
+311	{STRVAR_1 3, 0, 0} :\nÇa, c’est un secret.\r
+312	{STRVAR_1 3, 0, 0} :\nHmm... Enthousiaste, peut-être ?\r
+313	{STRVAR_1 3, 0, 0} :\nHmm... Drôle, peut-être ?\r
+314	{STRVAR_1 3, 0, 0} :\nHmm... Aimable, peut-être ?\r
+315	{STRVAR_1 3, 0, 0} :\nHmm... Énigmatique, peut-être ?\r
+316	{STRVAR_1 3, 0, 0} :\nJe me sens bien quand je joue !\r
+317	{STRVAR_1 3, 0, 0} :\nJe me sens bien quand je bosse dur !\r
+318	{STRVAR_1 3, 0, 0} :\nJe me sens bien quand je dors.\r
+319	{STRVAR_1 3, 0, 0} :\nJe me sens bien quand je mange !\r
+320	{STRVAR_1 3, 0, 0} :\nJe dirais mon argent de poche.\r
+321	{STRVAR_1 3, 0, 0} :\nJe dirais l’école.\r
+322	{STRVAR_1 3, 0, 0} :\nJe dirais ma forme.\r
+323	{STRVAR_1 3, 0, 0} :\nJe dirais mes amis.\r
+324	{STRVAR_1 3, 0, 0} :\nL’école, je pense.\r
+325	{STRVAR_1 3, 0, 0} :\nMon régime, je pense.\r
+326	{STRVAR_1 3, 0, 0} :\nL’amour, peut-être ?\r
+327	{STRVAR_1 3, 0, 0} :\nMon entraînement, je pense.\r
+328	{STRVAR_1 3, 0, 0} :\nTous les sports collectifs !\r
+329	{STRVAR_1 3, 0, 0} :\nLa course, c’est sûr !\r
+330	{STRVAR_1 3, 0, 0} :\nLa natation, c’est sûr !\r
+331	{STRVAR_1 3, 0, 0} :\nLa danse, c’est sûr !\r
+332	{STRVAR_1 3, 0, 0} :\nJe rêve d’être athlète pro.\r
+333	{STRVAR_1 3, 0, 0} :\nJe rêve d’être scientifique.\r
+334	{STRVAR_1 3, 0, 0} :\nJe rêve d’être une rock star.\r
+335	{STRVAR_1 3, 0, 0} :\nJe rêve d’être humoriste.\r
+336	{STRVAR_1 3, 0, 0} :\nC’est un endroit très pratique.\r
+337	{STRVAR_1 3, 0, 0} :\nIl y a beaucoup de nature ici.\r
+338	{STRVAR_1 3, 0, 0} :\nC’est très calme ici.\r
+339	{STRVAR_1 3, 0, 0} :\nIl y a plein de choses rares ici.\r
+340	{STRVAR_1 3, 0, 0} :\nIci, il fait chaud.\r
+341	{STRVAR_1 3, 0, 0} :\nIci, il fait doux.\r
+342	{STRVAR_1 3, 0, 0} :\nIci, il fait froid.\r
+343	{STRVAR_1 3, 0, 0} :\nIci, il fait frais.\r
+344	{STRVAR_1 3, 0, 0} :\nJ’entends des voix.\r
+345	{STRVAR_1 3, 0, 0} :\nJ’entends de la musique.\r
+346	{STRVAR_1 3, 0, 0} :\nJ’entends la télé.\r
+347	{STRVAR_1 3, 0, 0} :\nC’est très calme ici.\r
+348	{STRVAR_1 3, 0, 0} :\nHmm... Ça sent la cuisine.\r
+349	{STRVAR_1 3, 0, 0} :\nHmm... Ça sent les gens.\r
+350	{STRVAR_1 3, 0, 0} :\nHmm... Les parfums de la saison.\r
+351	{STRVAR_1 3, 0, 0} :\nBeurk... Ça sent vraiment mauvais.\r
+352	{STRVAR_1 3, 0, 0} :\nLes derniers jouets, je dirais.\r
+353	{STRVAR_1 3, 0, 0} :\nLes habits branchés, je dirais.\r
+354	{STRVAR_1 3, 0, 0} :\nLa météo de demain, je dirais.\r
+355	{STRVAR_1 3, 0, 0} :\nLes nouvelles stars, je dirais.\r
+356	{STRVAR_1 3, 0, 0} :\nHmm... C’est dur à dire...\fPardon, je ne peux pas répondre.\r
+357	{STRVAR_1 3, 0, 0} :\nOh, ta couleur préférée est le rouge.\r
+358	{STRVAR_1 3, 0, 0} :\nOh, ta couleur préférée est le bleu.\r
+359	{STRVAR_1 3, 0, 0} :\nOh, ta couleur préférée est le jaune.\r
+360	{STRVAR_1 3, 0, 0} :\nOh, ta couleur préférée est le vert.\r
+361	{STRVAR_1 3, 0, 0} :\nAlors, tu aimes les Pokémon costauds.\r
+362	{STRVAR_1 3, 0, 0} :\nAlors, tu aimes les Pokémon mignons.\r
+363	{STRVAR_1 3, 0, 0} :\nAlors, tu aimes les jolis Pokémon.\r
+364	{STRVAR_1 3, 0, 0} :\nAlors, tu aimes les Pokémon bizarres.\r
+365	{STRVAR_1 3, 0, 0} :\nOh, il fait beau chez toi.\r
+366	{STRVAR_1 3, 0, 0} :\nOh, le ciel est nuageux chez toi.\r
+367	{STRVAR_1 3, 0, 0} :\nOh, il pleut chez toi.\r
+368	{STRVAR_1 3, 0, 0} :\nOh, il grêle chez toi !\r
+369	{STRVAR_1 3, 0, 0} :\nOh, tu dormais.\r
+370	{STRVAR_1 3, 0, 0} :\nOh, tu étais dehors.\r
+371	{STRVAR_1 3, 0, 0} :\nOh, tu travaillais.\r
+372	{STRVAR_1 3, 0, 0} :\nOh, tu mangeais.\r
+373	{STRVAR_1 3, 0, 0} :\nOh, rien de prévu.\r
+374	{STRVAR_1 3, 0, 0} :\nOh, ta journée sera chargée.\r
+375	{STRVAR_1 3, 0, 0} :\nOh, tu as congé demain.\r
+376	{STRVAR_1 3, 0, 0} :\nOh ? Tu ne peux pas me le dire ?\r
+377	{STRVAR_1 3, 0, 0} :\nUn endroit chaud...\r
+378	{STRVAR_1 3, 0, 0} :\nUn endroit froid...\r
+379	{STRVAR_1 3, 0, 0} :\nUn endroit plein de monde...\r
+380	{STRVAR_1 3, 0, 0} :\nUn endroit sans personne...\r
+381	{STRVAR_1 3, 0, 0} :\nTu ressembles à ton grand frère ?\r
+382	{STRVAR_1 3, 0, 0} :\nTu ressembles à ta grande sœur ?\r
+383	{STRVAR_1 3, 0, 0} :\nTu ressembles à ton oncle ?\r
+384	{STRVAR_1 3, 0, 0} :\nTu ressembles à ta tante ?\r
+385	{STRVAR_1 3, 0, 0} :\nDu temps, hein ? Je vois...\r
+386	{STRVAR_1 3, 0, 0} :\nDe l’argent, hein ? Je vois...\r
+387	{STRVAR_1 3, 0, 0} :\nDes amis, hein ? Je vois...\r
+388	{STRVAR_1 3, 0, 0} :\nUn bon dîner, hein ? Je vois...\r
+389	{STRVAR_1 3, 0, 0} :\nAlors, l’école, c’est dur pour toi...\r
+390	{STRVAR_1 3, 0, 0} :\nAlors, le sport, c’est dur pour toi...\r
+391	{STRVAR_1 3, 0, 0} :\nAlors, te lever tôt, c’est dur...\r
+392	{STRVAR_1 3, 0, 0} :\nAlors, le ménage, c’est dur pour toi...\r
+393	{STRVAR_1 3, 0, 0} :\nOh, tu aimes t’amuser au parc.\r
+394	{STRVAR_1 3, 0, 0} :\nUn grand magasin ?\fTu dois aimer le shopping.\r
+395	{STRVAR_1 3, 0, 0} :\nUn parc d’attractions ! Évidemment !\r
+396	{STRVAR_1 3, 0, 0} :\nLe théâtre, ça a l’air divertissant !\r
+397	{STRVAR_1 3, 0, 0} :\nOh, tu assures à AVALTOUT Plop !\r
+398	{STRVAR_1 3, 0, 0} :\nOh, tu assures à MIME JR. Top !\r
+399	{STRVAR_1 3, 0, 0} :\nOh, tu assures à QULBUTOKE Pop !\r
+400	{STRVAR_1 3, 0, 0} :\nOh. Tu n’y as jamais joué.\r
+401	{STRVAR_1 3, 0, 0} :\nLa télé et la musique ! Je vois.\r
+402	{STRVAR_1 3, 0, 0} :\nLes jeux et les ordis ! Je vois.\r
+403	{STRVAR_1 3, 0, 0} :\nL’école et le sport ! Je vois.\r
+404	{STRVAR_1 3, 0, 0} :\nLa mode et l’amour ! Je vois.\r
+405	{STRVAR_1 3, 0, 0} :\nAh, tu aimes te dépenser.\fC’est bien.\r
+406	{STRVAR_1 3, 0, 0} :\nAh, tu aimes faire travailler ta tête.\fC’est bien.\r
+407	{STRVAR_1 3, 0, 0} :\nTu sais te faire remarquer ?\fTu attires l’attention !\r
+408	{STRVAR_1 3, 0, 0} :\nTu te fais facilement des amis ?\fC’est une belle qualité.\r
+409	{STRVAR_1 3, 0, 0} :\nTu ne peux pas te passer de lecture !\r
+410	{STRVAR_1 3, 0, 0} :\nTu ne peux pas te passer de musique !\r
+411	{STRVAR_1 3, 0, 0} :\nTu ne peux pas vivre sans ordi !\r
+412	{STRVAR_1 3, 0, 0} :\nTu ne peux pas t’empêcher de veiller !\r
+413	{STRVAR_1 3, 0, 0} :\nAh, tu as un faible pour la mode.\r
+414	{STRVAR_1 3, 0, 0} :\nAh, la déco, c’est ton truc.\r
+415	{STRVAR_1 3, 0, 0} :\nAh, la gastronomie, c’est ton truc.\r
+416	{STRVAR_1 3, 0, 0} :\nAh, ta passion, c’est la vie.\r
+417	{STRVAR_1 3, 0, 0} :\nTu vas jouer à un Jeu de la Place ?\fAmuse-toi bien !\r
+418	{STRVAR_1 3, 0, 0} :\nTu vas t’amuser avec le Tampon\fEmpreinte ? Sympa !\r
+419	{STRVAR_1 3, 0, 0} :\nLes Profils Visiteurs ? On y voit\fd’où viennent les gens.\r
+420	{STRVAR_1 3, 0, 0} :\nTu vas lire les Infos de la Place ?\fC’est instructif.\r
+421	{STRVAR_1 3, 0, 0} :\nOh, tu vois la maison des voisins.\r
+422	{STRVAR_1 3, 0, 0} :\nAh, tu habites près des magasins.\r
+423	{STRVAR_1 3, 0, 0} :\nTu vis près d’une grande usine ? Waouh.\r
+424	{STRVAR_1 3, 0, 0} :\nAh, tu vis en pleine nature.\r
+425	{STRVAR_1 3, 0, 0} :\nAh, tu fais du sport avec tes amis.\r
+426	{STRVAR_1 3, 0, 0} :\nCool. Tu fais des jeux avec tes amis.\r
+427	{STRVAR_1 3, 0, 0} :\nAh, avec tes amis, vous discutez.\r
+428	{STRVAR_1 3, 0, 0} :\nAh, tu fais du shopping avec tes\famis pour le plaisir.\r
+429	{STRVAR_1 3, 0, 0} :\nTa famille compte pour toi...\r
+430	{STRVAR_1 3, 0, 0} :\nTes amis comptent pour toi...\r
+431	{STRVAR_1 3, 0, 0} :\nToi-même, hein ? C’est bien normal.\r
+432	{STRVAR_1 3, 0, 0} :\nUn secret ? Intrigant...\r
+433	{STRVAR_1 3, 0, 0} :\nAlors, on te trouve enthousiaste.\r
+434	{STRVAR_1 3, 0, 0} :\nAlors, on te trouve drôle.\r
+435	{STRVAR_1 3, 0, 0} :\nAlors, on te trouve aimable.\r
+436	{STRVAR_1 3, 0, 0} :\nAlors, on te trouve énigmatique.\r
+437	{STRVAR_1 3, 0, 0} :\nTu te sens bien quand tu joues.\fÇa se comprend.\r
+438	{STRVAR_1 3, 0, 0} :\nTu te sens bien quand tu bosses dur.\fQuelle motivation !\r
+439	{STRVAR_1 3, 0, 0} :\nTu te sens bien quand tu dors.\fC’est chouette.\r
+440	{STRVAR_1 3, 0, 0} :\nTu te sens bien quand tu manges.\fC’est chouette.\r
+441	{STRVAR_1 3, 0, 0} :\nTon argent de poche t’inquiète ? Aïe.\r
+442	{STRVAR_1 3, 0, 0} :\nL’école t’inquiète ? Aïe.\r
+443	{STRVAR_1 3, 0, 0} :\nTa forme t’inquiète ? Aïe.\r
+444	{STRVAR_1 3, 0, 0} :\nTes amis t’inquiètent ? Aïe.\r
+445	{STRVAR_1 3, 0, 0} :\nTu bosses dur pour l’école ?\fBravo !\r
+446	{STRVAR_1 3, 0, 0} :\nTu te donnes à fond pour ton régime ?\fNe te prive pas trop, hein !\r
+447	{STRVAR_1 3, 0, 0} :\nOh, tu te donnes à fond en amour ?\fÇa doit être chouette !\r
+448	{STRVAR_1 3, 0, 0} :\nTu te donnes à fond à l’entraînement ?\fBon courage !\r
+449	{STRVAR_1 3, 0, 0} :\nAlors, tu assures dans tous les\fsports collectifs. Compris.\r
+450	{STRVAR_1 3, 0, 0} :\nTu cours bien, alors. Compris.\r
+451	{STRVAR_1 3, 0, 0} :\nTu nages bien, alors. Compris.\r
+452	{STRVAR_1 3, 0, 0} :\nTu danses bien, alors. Compris.\r
+453	{STRVAR_1 3, 0, 0} :\nTu veux devenir athlète pro.\r
+454	{STRVAR_1 3, 0, 0} :\nTu veux devenir scientifique.\r
+455	{STRVAR_1 3, 0, 0} :\nTu veux devenir une rock star.\r
+456	{STRVAR_1 3, 0, 0} :\nTu veux devenir humoriste.\r
+457	{STRVAR_1 3, 0, 0} :\nUn endroit très pratique ?\fÇa doit être cool.\r
+458	{STRVAR_1 3, 0, 0} :\nUn endroit plein de nature ?\fÇa doit être cool.\r
+459	{STRVAR_1 3, 0, 0} :\nUn endroit très calme ?\fÇa doit être agréable.\r
+460	{STRVAR_1 3, 0, 0} :\nUn endroit plein de choses rares ?\fÇa doit être cool.\r
+461	{STRVAR_1 3, 0, 0} :\nJe vois. Il fait chaud chez toi.\r
+462	{STRVAR_1 3, 0, 0} :\nJe vois. Il fait doux chez toi.\r
+463	{STRVAR_1 3, 0, 0} :\nJe vois. Il fait froid chez toi.\r
+464	{STRVAR_1 3, 0, 0} :\nJe vois. Il fait frais chez toi.\r
+465	{STRVAR_1 3, 0, 0} :\nAh, il y a d’autres gens autour de toi.\r
+466	{STRVAR_1 3, 0, 0} :\nAh, tu entends de la musique.\r
+467	{STRVAR_1 3, 0, 0} :\nAh, il y a une télé pas loin.\r
+468	{STRVAR_1 3, 0, 0} :\nAh, tu n’entends pas grand-chose.\r
+469	{STRVAR_1 3, 0, 0} :\nOh, ça sent la cuisine ?\fÇa a l’air bon !\r
+470	{STRVAR_1 3, 0, 0} :\nOh, ça sent les gens ? D’accord.\r
+471	{STRVAR_1 3, 0, 0} :\nOh, tu sens les parfums de la saison,\fhein ? C’est chouette.\r
+472	{STRVAR_1 3, 0, 0} :\nÇa pue chez toi ? Beurk.\r
+473	{STRVAR_1 3, 0, 0} :\nLes derniers jouets t’intéressent\fle plus ? Intéressant.\r
+474	{STRVAR_1 3, 0, 0} :\nLes habits branchés t’intéressent\fle plus ? Intéressant.\r
+475	{STRVAR_1 3, 0, 0} :\nC’est la météo de demain qui\ft’intéresse le plus ? D’accord.\r
+476	{STRVAR_1 3, 0, 0} :\nLes nouvelles stars t’intéressent\fle plus ? Sympa.\r
+477	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+478	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+479	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+480	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+481	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+482	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+483	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+484	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+485	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+486	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+487	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+488	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+489	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+490	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+491	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+492	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+493	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+494	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+495	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+496	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+497	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+498	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+499	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+500	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+501	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+502	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+503	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+504	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+505	{STRVAR_1 3, 0, 0} :\nEt chez toi ?\r
+506	{STRVAR_1 3, 0, 0} :\nEt toi ?\r
+507	{STRVAR_1 3, 0, 0} :\nOh ! Tu as le même Jouet Tactile\fque moi : {STRVAR_3 0, 1, 0} !\rC’est chouette !\r
+508	{STRVAR_1 3, 0, 0} :\nTon Jouet Tactile, c’est {STRVAR_3 2, 1, 0} ?\rLe mien, c’est {STRVAR_3 2, 2, 0}.\nTu veux que je le partage avec toi ?\r
+509	{STRVAR_1 3, 0, 0} :\nEt voilà !\fAmuse-toi bien avec !\r
+510	Tu as reçu le Jouet Tactile\n{STRVAR_3 2, 1, 0} de {STRVAR_1 3, 0, 0} !\r
+511	{STRVAR_1 3, 0, 0} :\nTu as le Jouet Tactile {STRVAR_3 0, 1, 0} ?\fTrop bien !\r
+512	{STRVAR_1 3, 0, 0} :\n... Tu peux partager ton Jouet\fTactile {STRVAR_3 0, 1, 0} avec moi ?\r
+513	Tu as partagé le Jouet Tactile\n{STRVAR_3 2, 1, 0} avec {STRVAR_1 3, 0, 0}.\r
+514	{STRVAR_1 3, 0, 0} :\nMerci ! J’en prendrai bien soin !\r
+515	JOUETS TACTILES
+516	DISCUTER
+517	ANNULER
+518	OBTENIR
+519	Couleur préférée ?
+520	Genre de Pokémon préféré ?
+521	Météo du jour ?
+522	Tu faisais quoi ?
+523	Projets pour demain ?
+524	Destination de vacances ?
+525	À qui tu ressembles ?
+526	Ton plus grand désir ?
+527	Ta plus grande difficulté ?
+528	Où tu t’amuses ?
+529	Ton meilleur Jeu de la Place ?
+530	Ce qui est à la mode ?
+531	Ton point fort ?
+532	Ton truc indispensable ?
+533	Ta passion secrète ?
+534	Et après, tu fais quoi ?
+535	Près de chez toi ?
+536	Activité entre amis ?
+537	Qui compte pour toi ?
+538	Comment on te décrit ?
+539	Ton moment de bonheur ?
+540	Ce qui t’inquiète ?
+541	Tes efforts du moment ?
+542	Ton meilleur sport ?
+543	Métier de rêve ?
+544	Ce qui rend ta région spéciale ?
+545	Quelle température ?
+546	Ce que tu entends ?
+547	Ça sent quoi ?
+548	Ce qui t’intéresse ?

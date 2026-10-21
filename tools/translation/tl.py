@@ -58,6 +58,8 @@ WIDTH_OVERRIDES = {
     'msg_0730': 80, 'msg_0731': 100,
     'msg_0719': 240,  # "TOUCH TO START": centred in a 32-tile window
 }
+# Countries and their regions are shown in the same windows: as wide as the widest English one.
+WIDTH_OVERRIDES.update({f'msg_{n:04d}': 176 for n in range(780, 799)})
 
 # The Pokegear radio's scripts: the show prints them a line at a time and scrolls, so they
 # may have any number of lines, each read into a 50-character buffer, from a script of at
@@ -99,6 +101,8 @@ NAME_LIMITS = {
     'msg_0723': 320, 'msg_0724': 320, 'msg_0728': 320,
     'msg_0719': 64,  # "TOUCH TO START" (title_screen.c)
 }
+# Countries and regions: read into MessageFormat's buffer (BufferCountryName, BufferCityName).
+NAME_LIMITS.update({f'msg_{n:04d}': 32 for n in range(780, 799)})
 
 
 def load_charmap():
