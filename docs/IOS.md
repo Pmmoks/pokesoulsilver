@@ -9,8 +9,9 @@ The app is [ssrecomp](https://github.com/ClickingMaster/ssrecomp), which turns
 the game's ARM9 code into native code and runs it on the melonDS core.
 `ios/ssrecomp-ios.patch` adds an iOS port to its v0.4.2 release, plus the R2
 switch and support for this repository's build output. Everything is built on
-your Mac from your own copy of the game. The finished app contains the game:
-never share the `.app` or `.ipa`.
+your Mac from this repository; no ROM dump is needed, but building needs the
+Metrowerks compiler and Nitro SDK that [INSTALL.md](../INSTALL.md) describes.
+The finished app contains the game: never share the `.app` or `.ipa`.
 
 ## What you need
 
