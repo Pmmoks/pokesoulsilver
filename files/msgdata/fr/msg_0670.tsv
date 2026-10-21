@@ -1,0 +1,12 @@
+0	Alfred
+1	Eh bien, maintenant que nous avons fait\nconnaissance, si nous échangions nos\fnuméros de téléphone ? {YESNO 0}
+2	Charmant ! Je pourrai désormais vous\nappeler quand je le souhaite.
+3	Je vois...\rComme on pouvait s’y attendre, les\nenfants préfèrent passer du temps\favec ceux de leur âge...
+4	Vous ne voulez pas vraiment échanger\nnos numéros, n’est-ce pas ? {YESNO 0}
+5	Qu’y a-t-il ? Ne sommes-nous pas au\nmême étage en ce moment ?\rPourquoi ne pas parler en personne ?
+6	J’ai été si surpris ! Il y a quelques\njours, j’ai reçu un NOARFANG lors d’un\féchange.\rIl s’avère que c’était le même NOARFANG\nque j’avais cédé à un autre Dresseur il\fy a des années !\rC’est un cas de “ce qui part finit par\nrevenir”, puisqu’il m’est revenu.\rLe monde est bien petit !
+7	C’est un peu décevant. Il y a quelques\njours, j’ai reçu un NOARFANG lors d’un\féchange.\rC’était un NOARFANG si familier...\rJ’ai cru que c’était le NOARFANG que\nj’avais entraîné à l’origine !\rIl était revenu d’une façon ou d’une\nautre... J’étais si ému... Mais en\fregardant de plus près, j’ai vu que ce\fn’était pas le NOARFANG que je croyais.\rCe genre de chose n’arrive pas vraiment\ndans ce monde, n’est-ce pas ?
+8	Vous savez, chaque fois que j’essaie\nd’attraper un Pokémon sauvage, il\fsemble toujours s’enfuir. C’est arrivé\ftant de fois.\rIl y a quelques jours, un RATTATA m’a\néchappé...\rVous savez, chaque fois que je\nrencontre une personne ou un Pokémon,\fje prends toujours soin d’ôter mon\fchapeau et de me présenter\fcorrectement, et c’est là qu’il\fs’enfuit.\rLes RATTATA sont des créatures si\nimpolies...
+9	Ha ha, vous voulez vous rebattre ? Je\ntrouve que c’est une excellente idée !\rRendez-vous sur {STRVAR_1 4, 3, 0} !
+10	Tout va bien ? Auriez-vous oublié notre\nrendez-vous ?\rJ’attends sur {STRVAR_1 4, 3, 0}. À tout à\nl’heure !
+11	Comme ceci, en appelant une jeune\npersonne comme vous, on peut échanger\fdes informations.\rAinsi, les Pokémon rapprochent les\ngens, n’est-ce pas ?\rLes Pokémon sont vraiment des\ncréatures extraordinaires.

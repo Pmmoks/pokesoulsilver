@@ -1,0 +1,13 @@
+0	Joey
+1	Dis, je peux avoir ton numéro ? Je\nt’appellerai pour un combat. {YESNO 0}
+2	Je t’appellerai dès que j’aurai envie de\nme battre !
+3	Oh, d’accord... Mais je ne perdrai plus\ncontre toi !
+4	Je peux avoir ton numéro de\ntéléphone ?\rJe ne veux pas perdre contre toi ! Il\nfaut qu’on se rebatte, d’accord ? {YESNO 0}
+5	Et encore une défaite... Pas de doute,\ntu es trop fort pour moi.\rÊtre battu aussi souvent, ça fait\npresque du bien maintenant !\rTiens, prends ça. Sers-t’en pour\ndevenir encore plus coriace. Ça\fm’endurcira moi aussi !\r
+6	Dis, tu es tout près, non ? C’est quoi,\nce coup de fil ? Viens me parler !
+7	Dis, tu te souviens de mon super\n{STRVAR_1 0, 10, 0} ?\rMon {STRVAR_1 0, 10, 0} n’est pas un\n{STRVAR_1 0, 10, 0} ordinaire.\rC’est comme s’il faisait partie de\nl’élite des {STRVAR_1 0, 10, 0}.\rTu vois ce que je veux dire ?
+8	Ah oui, j’ai battu un {STRVAR_1 0, 11, 0}\nsauvage l’autre jour.\rC’était du gâteau. Bon, on n’y peut\nrien, on est trop forts.\rBon. À plus !
+9	Ah oui, j’ai vu un {STRVAR_1 0, 11, 0} sauvage !\nJ’ai voulu l’attraper, mais j’ai raté !\rTant pis. C’est comme ça. Je ne suis\npas très doué pour attraper les\fPokémon...
+10	Retrouvons-nous pour un combat ! Je\nte promets que ce sera différent !\rJe serai sur {STRVAR_1 4, 3, 0}. Fais-moi signe\nquand tu arrives.\rBon. À plus !
+11	Qu’est-ce que tu fabriques,\n{STRVAR_1 3, 0, 0} ?\rOn se bat, oui ou non ? Je t’attends\nsur {STRVAR_1 4, 3, 0} !
+12	J’étudie les capacités de {STRVAR_1 0, 10, 0}\net je prépare des stratégies.\rQuand j’en aurai une bonne, on se\nbattra !\rBon. À plus !

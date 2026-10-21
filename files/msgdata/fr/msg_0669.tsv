@@ -1,0 +1,22 @@
+0	Tiffany
+1	Salut ! Toi aussi, tu aimes les\nMÉLOFÉE ? Ils sont trop mignons,\fhein ?\rJe crois qu’on peut devenir de bons\namis ! Je veux ton numéro de\ftéléphone !\rParlons des MÉLOFÉE ! {YESNO 0}
+2	Mon MÉLOFÉE est super adorable, non ?
+3	Oh... Tant pis. Viens me voir si tu veux\nparler des MÉLOFÉE.
+4	Tu ne veux pas me donner ton numéro ?\nParlons des MÉLOFÉE ! {YESNO 0}
+5	Oh, te voilà ! Alors je te donne ceci.\nC’est une Poképoupée MÉLOFÉE !\r
+6	Euh... Bon... C’est si difficile de venir\nme parler ?\rJe veux dire, au téléphone, c’est\nbien, mais quand on est si près, pas\fbesoin de rester loin. Tu peux juste\fvenir me parler.
+7	{STRVAR_1 14, 4, 0} ! C’est terrible. Mon\nMÉLOFÉE...\rHein ? C’est {STRVAR_1 3, 0, 0} ?\rOh, pardon ! J’étais pressée, et je...\nJe dois y aller ! Salut !
+8	{STRVAR_1 14, 4, 0} ! C’est terrible. Mon\nMÉLOFÉE...\rHein ? C’est {STRVAR_1 3, 0, 0} ?\rOh, pardon ! J’étais pressée, et je...\nJe dois y aller ! Salut !
+9	Mon {STRVAR_1 0, 10, 0} est adorable, tu ne\ntrouves pas ?\rJe dors toujours à côté de lui, il est\nsi doux et si chaud !\rOh, et on a dû affronter un\n{STRVAR_1 0, 11, 0} sauvage il y a peu...\rMon MÉLOFÉE a failli tomber K.O. !\nC’est affreux, non ?\rJe déteste ces méchants {STRVAR_1 0, 11, 0} !\nSalut !
+10	Mon {STRVAR_1 0, 10, 0} est adorable, tu ne\ntrouves pas ?\rJe dors toujours à côté de lui, il est\nsi doux et si chaud !\rOh, et on a dû affronter un\n{STRVAR_1 0, 11, 0} sauvage il y a peu...\rMon MÉLOFÉE a eu peur, alors on s’est\nenfuis aussi vite que possible !\rJe ne peux pas m’empêcher de\nprotéger mon MÉLOFÉE.\rSalut !
+11	Ça va peut-être te surprendre, mais\ntu veux te battre ?\rJe t’attendrai avec MÉLOFÉE sur\n{STRVAR_1 4, 3, 0}.
+12	Qu’est-ce qui se passe ? Tu ne peux\npas venir ?\rMÉLOFÉE s’est fatigué et s’est\nendormi. Je ne sais pas si je pourrai le\fréveiller...\rDépêche-toi de venir sur {STRVAR_1 4, 3, 0} !
+13	J’adore habiller mon MÉLOFÉE !
+14	Quand j’étais au Centre Commercial de\nDoublonville récemment, j’ai trouvé\fces Poképoupées trop mignonnes ! Je\ft’en donne une !\rViens la chercher sur {STRVAR_1 4, 3, 0}.
+15	Qu’est-ce qui se passe ? Tu ne peux\npas venir ?\rCette Poképoupée est trop mignonne,\nelle aussi ! Dépêche-toi de venir sur\f{STRVAR_1 4, 3, 0} !
+16	Papy
+17	Mamie
+18	Maman
+19	Papa
+20	Sœurette
+21	Frérot

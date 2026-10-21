@@ -1,0 +1,12 @@
+0	Huey
+1	Cool ! Ça faisait longtemps que je\nn’avais pas perdu !\rDis, donne-moi ton numéro.\rCe serait amusant de t’affronter,\nalors je t’appellerai quand je serai\fplus fort ! {YESNO 0}
+2	Dis, on se rebat !
+3	Tu te dégonfles, on dirait...
+4	Dis, donne-moi ton numéro.\rCe serait amusant de t’affronter,\nalors je t’appellerai quand je serai\fplus fort ! {YESNO 0}
+5	Bon sang ! Toujours aussi redoutable !\rJe t’ai affronté encore et encore, mais\n{STRVAR_1 3, 0, 0}, je n’ai jamais gagné une\fseule fois.\rJ’ai acheté des tonnes d’objets pour\nrenforcer mes Pokémon, mais en vain...\rLes objets seuls ne suffisent pas. Ça\ndoit être ça...\rTiens, prends ça, {STRVAR_1 3, 0, 0}. Je n’en\naurai plus besoin...\r
+6	Waouh, quand tu appelles de l’intérieur\ndu Phare, ta voix résonne. C’est plutôt\fcool !
+7	Comment vont tes Pokémon ? Les miens\nsont un peu trop énergiques.\r{STRVAR_1 0, 10, 0}, surtout.\rChaque fois qu’il repère un Dresseur, il\nfonce droit au combat !\rÇa devient un peu trop pour moi ! À\nplus !
+8	Mon {STRVAR_1 0, 10, 0} a l’air plus coriace que\njamais.\rIl a l’air encore plus coriace que moi !\nÀ plus !
+9	Dis, je te défie en combat ! Ce ne sera\npas comme la dernière fois !\rJe t’attends sur {STRVAR_1 4, 3, 0}.\nGrouille-toi !
+10	Dis, tu n’as pas intérêt à avoir oublié\nnotre combat !\r{STRVAR_1 4, 3, 0} ! Grouille-toi ! Je\nt’attends !
+11	Il faudra qu’on se rebatte un jour.\nCrois-moi, je continuerai à te défier\fjusqu’à ce que je gagne.

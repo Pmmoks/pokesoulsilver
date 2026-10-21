@@ -1,0 +1,16 @@
+0	Jose
+1	Tuit ! Tuiiiiiit !\rQuand mon CANARTICHO voit quelque\nchose de joli, il va le chercher.\rTu aimes les jolies choses ? Je pourrais\npartager s’il en trouve d’autres.\rEt si on échangeait nos numéros ? Je\nt’appellerai s’il trouve quelque chose.\f{YESNO 0}
+2	Je t’appellerai dès que j’aurai quelque\nchose de joli.
+3	Vraiment ? Bon, dis-moi si tu changes\nd’avis.
+4	Tuit ! Tuiiiiiit ! Tu aimes les jolies\nchoses ?\rJe pourrais partager si CANARTICHO va\nen chercher d’autres.\rTu me donnes ton numéro de téléphone ?\n{YESNO 0}
+5	Tuit ! Tuiiiiiit !\rHein ?\r... Oh, je vois. Je croyais que tu\nvenais pour mon sifflement.\rCe n’était pas ça. Tu voulais juste le\nMorceau d’Étoile, hein ? Tiens !\r
+6	Tuit ! Tuiiiiiit !\r... Hein ? Attends, ne me dis pas que tu\nappelles de tout près ?\rBen, approche-toi un peu et parlons en\npersonne !
+7	Écoute, la tige de mon {STRVAR_1 0, 10, 0} a un\nparfum vraiment délicieux.\rCe parfum m’ouvre l’appétit !\rÀ la prochaine !
+8	Il y a peu, mon CANARTICHO a mis K.O.\nun {STRVAR_1 0, 11, 0}. Tu aurais dû voir\fCANARTICHO manier sa tige.\rIncroyable ! À la prochaine !
+9	Je suis tombé sur un {STRVAR_1 0, 11, 0}\nsauvage...\rJ’essayais de l’attraper, mais il a filé\nplus vite que prévu. C’était un peu\fdécevant.\rÀ la prochaine !
+10	Tu veux te rebattre ?\rPour une raison ou une autre, mon\nCANARTICHO est surexcité et piaffe\fd’impatience.\rJe suis sur {STRVAR_1 4, 3, 0}. Cherche-moi,\nd’accord ?
+11	{STRVAR_1 3, 0, 0}, tu peux te dépêcher ?\nCANARTICHO est agité.\rSi tu ne viens pas vite, il risque de me\nfrapper avec sa tige !\r{STRVAR_1 4, 3, 0} ! Viens dès que possible !
+12	{STRVAR_1 3, 0, 0}, tu peux te dépêcher ?\nCANARTICHO est agité.\rSi tu ne viens pas vite, il risque de me\nfrapper avec sa tige !\r{STRVAR_1 4, 3, 0} ! Viens dès que possible !
+13	Je n’ai pas encore ce que je t’ai\npromis.\rJe t’appellerai dès que je l’aurai,\nalors tu peux attendre encore un peu ?
+14	Mon CANARTICHO avait quelque chose de\njoli dans le bec.\rComme promis, tu peux l’avoir.\rRejoins-moi sur {STRVAR_1 4, 3, 0} et je te le\ndonnerai.
+15	Qu’est-ce qui se passe ? Tu ne veux\npas ce cadeau ?\rRejoins-moi sur {STRVAR_1 4, 3, 0} et je te le\ndonnerai.

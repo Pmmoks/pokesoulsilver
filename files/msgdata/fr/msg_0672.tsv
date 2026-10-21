@@ -1,0 +1,13 @@
+0	Erin
+1	Ça m’a vraiment énervée de perdre. Je\nvais devoir m’entraîner beaucoup\fplus...\rVoici mon numéro. Je m’appelle Erin,\nne l’oublie pas ! Tu veux m’affronter\fencore ? {YESNO 0}
+2	Je penserai à t’appeler quand je\nvoudrai me rebattre !
+3	Oh... Je suis triste... Si tu veux te\nbattre, viens voir Erin, c’est moi !
+4	Je veux encore me battre contre toi.\nTu veux échanger nos numéros ? {YESNO 0}
+5	Oh... J’ai encore perdu ! Je me\ndemande combien de fois ça fait...\rMerci de ta visite ! Voici un cadeau !\r
+6	Quoi de neuf ? Attends, tu m’appelles\nvraiment d’aussi près ? Tu as peur de\fmoi ou quoi ? Pourquoi ne pas parler\fen face ?
+7	Le {STRVAR_1 0, 10, 0} d’Erin est bien plus\nfort qu’avant ! Je suis bien placée\fpour le savoir, je suis Erin !\rÀ plus. Salut !
+8	Et, et...\rJe viens de combattre et on a battu\nun {STRVAR_1 0, 11, 0} !\rJ’ai bien élevé mes Pokémon !\rÀ plus. Salut !
+9	Mais, mais...\rUn {STRVAR_1 0, 11, 0} sauvage m’a encore\néchappé. C’est trop injuste !\rÀ plus. Salut !
+10	C’est Erin. Tu veux m’affronter\nencore ? Je t’attendrai sur\f{STRVAR_1 4, 3, 0} !
+11	Oh, {STRVAR_1 3, 0, 0} ! Viens affronter\nErin ! Je t’attendrai sur\f{STRVAR_1 4, 3, 0} !
+12	Je travaille dur pour élever mes\nPokémon ! Reviens pour un autre\fcombat !

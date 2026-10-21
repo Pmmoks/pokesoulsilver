@@ -1,0 +1,12 @@
+0	Torin
+1	Tu sais, je vais m’entraîner un max pour\nqu’on puisse se rebattre la prochaine\ffois qu’on se verra.\rC’est ça ! Donne-moi ton numéro de\ntéléphone pour que je puisse\ft’appeler ! {YESNO 0}
+2	Très bien, enregistrement terminé ! À\nplus !
+3	Dommage...
+4	Hé ! Tu veux vraiment échanger nos\nnuméros, hein ? {YESNO 0}
+5	Hein ? J’entends le bruit d’un moulin...\rÇa veut dire que tu es tout près, non ?\rAlors viens discuter correctement !
+6	Mon {STRVAR_1 0, 10, 0} travaille vraiment dur !\rTout ce que j’apprends à l’école, il\nm’aide à le répéter tout de suite.\rTes Pokémon t’écoutent, toi ?
+7	Hier, on a combattu un {STRVAR_1 0, 11, 0} !\rOn a mis en pratique tout ce que j’ai\nappris à l’école !\rTu vas à quelle école ? Sérieux, tu ne\nvas pas à mon école ? Ce n’est pas\fpossible !
+8	Récemment, j’essayais d’attraper un\n{STRVAR_1 0, 11, 0}, mais il s’est enfui ! Trop\fdécevant !\rEt pour ne pas oublier à quel point\nc’était décevant, j’écris le nom du\fPokémon qui m’a échappé dans mon\fcahier.\rIl y a des noms de Pokémon partout\ndans mon cahier !
+9	Dis, viens m’affronter encore. Je\nt’attendrai sur {STRVAR_1 4, 3, 0} !
+10	Allô ? Je suis sur {STRVAR_1 4, 3, 0}. On devait\nse battre, non ? Dépêche-toi !
+11	Hein ? Tu ne me vois que quand je rentre\nde l’école ?\rTu as sûrement raison...\rMais quand je vais à l’école, je suis\ntoujours pressé pour ne pas être en\fretard.\rJe n’ai pas le temps pour les combats\nPokémon à ce moment-là !
