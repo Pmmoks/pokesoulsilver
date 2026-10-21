@@ -1,0 +1,10 @@
+1	On devrait tous les deux entraîner\nencore nos Pokémon et refaire un\fcombat !\rDonc, on devrait vraiment échanger\nnos numéros. Tu ne crois pas ? {YESNO 0}
+2	OK !\nÀ plus tard !
+3	Oh, tu n’as pas confiance en ta\ncapacité à me battre encore ?
+4	Hmm ? Tu as finalement décidé que tu\nvoulais mon numéro ? {YESNO 0}
+5	Hein ? C’est moi, ou ta voix paraît\nbizarrement forte ?\fNe me dis pas... que tu es tout près ?
+6	Mon {STRVAR_1 0, 10, 0} me ressemble de plus\nen plus. Il devient trop mignon !\rEt tu sais quoi ?\nOn met facilement K.O. les {STRVAR_1 0, 11, 0}.\rJe devrais défier l’Arène de\nDoublonville.\rÀ plus tard !
+7	Mon {STRVAR_1 0, 10, 0} me ressemble de plus\nen plus. Il devient trop mignon !\rEt tu sais quoi ?\nOn a raté de peu la victoire contre\fun {STRVAR_1 0, 11, 0}.\rJe pense que mes Pokémon n’ont pas\nencore un niveau assez élevé...\rÀ plus tard !
+8	Tu as dû beaucoup progresser,\nhein ?\rEt si tu me montrais ta technique\ndans un vrai combat contre moi ?\rJe t’attendrai sur {STRVAR_1 4, 3, 0}.
+9	Tu es où ?\nFaisons notre combat bientôt !\rJe t’attendrai sur {STRVAR_1 4, 3, 0}.
+10	Allô !\rTu sais, j’étais au 5e étage du\nCentre Commercial de Doublonville\fpour essayer la loterie. C’est trop\fexcitant !

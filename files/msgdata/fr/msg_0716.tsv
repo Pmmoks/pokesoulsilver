@@ -1,0 +1,45 @@
+0	Prof. Orme
+1	Allô, {STRVAR_1 3, 0, 0} ?\rQu’est-ce qui ne va pas ?\nSi tu es tout près, viens me parler\fen personne !
+2	Allô, {STRVAR_1 3, 0, 0} ?\rQu’est-ce qui ne va pas ?\nSi tu es tout près, viens me parler\fen personne !
+3	Allô, {STRVAR_1 3, 0, 0} ?\rN’en fais pas trop.\nPense bien à soigner tes Pokémon\fs’ils sont blessés.
+4	Allô, {STRVAR_1 3, 0, 0} ?\rN’en fais pas trop.\nPense bien à soigner tes Pokémon\fs’ils sont blessés.
+5	Oh, {STRVAR_1 3, 0, 0}...\rJe ne me suis absenté qu’une seconde...\nComment a-t-on pu... ?
+6	Oh, {STRVAR_1 3, 0, 0}...\rJe ne me suis absenté qu’une seconde...\nComment a-t-on pu... ?
+7	Allô, {STRVAR_1 3, 0, 0} ?\rNous examinons l’Œuf en ce moment.\nIl s’agit bien d’un Œuf de Pokémon.\rNous allons faire d’autres tests !
+8	Allô, {STRVAR_1 3, 0, 0} ?\rNous examinons l’Œuf en ce moment.\nIl s’agit bien d’un Œuf de Pokémon.\rNous allons faire d’autres tests !
+9	Allô, {STRVAR_1 3, 0, 0} ?\rTu as vu mon assistant ? Il est à la\nBoutique Pokémon de Mauville.\rIl a quelque chose de très important,\nalors passe le récupérer !
+10	Allô, {STRVAR_1 3, 0, 0} ?\rTu as vu mon assistant ? Il est à la\nBoutique Pokémon de Mauville.\rIl a quelque chose de très important,\nalors passe le récupérer !
+11	Allô, {STRVAR_1 3, 0, 0} ?\rComment va l’Œuf ? Il y a du nouveau ?\rS’il se passe quelque chose,\nappelle-moi.
+12	Allô, {STRVAR_1 3, 0, 0} ?\rComment va l’Œuf ? Il y a du nouveau ?\rS’il se passe quelque chose,\nappelle-moi.
+13	Hé, {STRVAR_1 3, 0, 0}, c’est une super\nnouvelle ! Un Pokémon est sorti de\fl’Œuf !\rJe savais que te confier cet Œuf,\n{STRVAR_1 3, 0, 0}, était la bonne chose à\ffaire. J’en étais sûr !\rViens ici me montrer quel genre\nde Pokémon c’est !
+14	Hé, {STRVAR_1 3, 0, 0}, c’est une super\nnouvelle ! Un Pokémon est sorti de\fl’Œuf !\rJe savais que te confier cet Œuf,\n{STRVAR_1 3, 0, 0}, était la bonne chose à\ffaire. J’en étais sûr !\rViens ici me montrer quel genre\nde Pokémon c’est !
+15	Allô, {STRVAR_1 3, 0, 0} ?\rJe viens de faire une découverte.\rLe temps d’éclosion d’un Œuf\ndépend du Pokémon.
+16	Allô, {STRVAR_1 3, 0, 0} ?\rJe viens de faire une découverte.\rLe temps d’éclosion d’un Œuf\ndépend du Pokémon.
+17	Allô, {STRVAR_1 3, 0, 0} ?\rLes capacités des Pokémon nés d’un\nŒuf restent un mystère.\rNous menons l’enquête en ce moment.
+18	Allô, {STRVAR_1 3, 0, 0} ?\rLes capacités des Pokémon nés d’un\nŒuf restent un mystère.\rNous menons l’enquête en ce moment.
+19	Allô, {STRVAR_1 3, 0, 0} ?\rIl se passe quelque chose de bizarre\nà la radio.\rIl arrive quelque chose à Doublonville ?
+20	Allô, {STRVAR_1 3, 0, 0} ?\rIl se passe quelque chose de bizarre\nà la radio.\rIl arrive quelque chose à Doublonville ?
+21	Allô, c’est bien {STRVAR_1 3, 0, 0} ?\rPlus qu’un Badge avant d’avoir tous\nles Badges de Johto !\rLe Champion d’Ebenelle serait un\nDompteur de Dragons très puissant !
+22	Allô, c’est bien {STRVAR_1 3, 0, 0} ?\rPlus qu’un Badge avant d’avoir tous\nles Badges de Johto !\rLe Champion d’Ebenelle serait un\nDompteur de Dragons très puissant !
+23	Allô, {STRVAR_1 3, 0, 0} ?\nTout a l’air de bien se passer.\rTu t’en sors si bien que je ne\nm’inquiète pas pour toi.\rJe crois que tu peux réussir tout\nce que tu entreprends !
+24	Allô, {STRVAR_1 3, 0, 0} ?\nTout a l’air de bien se passer.\rTu t’en sors si bien que je ne\nm’inquiète pas pour toi.\rJe crois que tu peux réussir tout\nce que tu entreprends !
+25	Allô, {STRVAR_1 3, 0, 0} ?\rJ’ai quelque chose pour toi de la part\ndu Professeur Chen.\rTu pourrais passer à mon Labo ?\nÀ plus tard !
+26	Allô, {STRVAR_1 3, 0, 0} ?\rJ’ai quelque chose pour toi de la part\ndu Professeur Chen.\rTu pourrais passer à mon Labo ?\nÀ plus tard !
+27	Allô, {STRVAR_1 3, 0, 0} ?\rIl y a tant de façons différentes\nd’évoluer chez les Pokémon, non ?!\rCertains Pokémon n’évoluent même qu’en\nremplissant certaines conditions !
+28	Allô, {STRVAR_1 3, 0, 0} ?\rIl y a tant de façons différentes\nd’évoluer chez les Pokémon, non ?!\rCertains Pokémon n’évoluent même qu’en\nremplissant certaines conditions !
+29	Allô, {STRVAR_1 3, 0, 0} ?\rJe pense qu’il y a dans la région de\nKanto des Pokémon que je ne connais\fpas.\rIl existe sûrement aussi des méthodes\nd’évolution que je ne connais pas\fencore.\rJe devrais adopter ce point de vue\net découvrir ce que je peux !
+30	Allô, {STRVAR_1 3, 0, 0} ?\rJe pense qu’il y a dans la région de\nKanto des Pokémon que je ne connais\fpas.\rIl existe sûrement aussi des méthodes\nd’évolution que je ne connais pas\fencore.\rJe devrais adopter ce point de vue\net découvrir ce que je peux !
+31	Allô, {STRVAR_1 3, 0, 0} ?\rIl semblerait que les Pokémon infectés\npar le Pokérus montent mieux de\fniveau. On ne sait pas trop pourquoi...
+32	Allô, {STRVAR_1 3, 0, 0} ?\rIl semblerait que les Pokémon infectés\npar le Pokérus montent mieux de\fniveau. On ne sait pas trop pourquoi...
+33	A-allô ? {STRVAR_1 3, 0, 0} ?\rC’est une catastrophe !\nEuh, hum, c’est terrible !\rQue dois-je faire ?\nIl... Oh, non...\rReviens ici tout de suite, je t’en prie !
+34	A-allô ? {STRVAR_1 3, 0, 0} ?\rC’est une catastrophe !\nEuh, hum, c’est terrible !\rQue dois-je faire ?\nIl... Oh, non...\rReviens ici tout de suite, je t’en prie !
+35	Allô, {STRVAR_1 3, 0, 0} ?\nNous avons découvert quelque chose !\rLes détails... Je ne peux pas vraiment\nen parler, mais nous voulons que tu\fportes cet Œuf !\rMon assistant est à la Boutique Pokémon\nde Mauville. Tu pourrais aller le voir\fet récupérer cet Œuf ?
+36	Allô, {STRVAR_1 3, 0, 0} ?\nNous avons découvert quelque chose !\rLes détails... Je ne peux pas vraiment\nen parler, mais nous voulons que tu\fportes cet Œuf !\rMon assistant est à la Boutique Pokémon\nde Mauville. Tu pourrais aller le voir\fet récupérer cet Œuf ?
+37	{STRVAR_1 3, 0, 0}, comment ça se passe ?\rJe t’appelle parce qu’il se passe un\ntruc bizarre avec les émissions de\fradio.\rElles parlaient de la Team Rocket.\r{STRVAR_1 3, 0, 0}, tu sais quelque chose\nà ce sujet ?\rLa Team Rocket est peut-être de\nretour. Non, ça ne peut pas être vrai.\rDésolé de te déranger. Prends soin\nde toi !
+38	{STRVAR_1 3, 0, 0}, comment ça se passe ?\rJe t’appelle parce qu’il se passe un\ntruc bizarre avec les émissions de\fradio.\rElles parlaient de la Team Rocket.\r{STRVAR_1 3, 0, 0}, tu sais quelque chose\nà ce sujet ?\rLa Team Rocket est peut-être de\nretour. Non, ça ne peut pas être vrai.\rDésolé de te déranger. Prends soin\nde toi !
+39	Allô, {STRVAR_1 3, 0, 0} ?\nComment ça va ?\rJ’ai mis la main sur un truc génial.\nPasse à mon Labo pour le récupérer !\rÀ plus tard !
+40	Allô, {STRVAR_1 3, 0, 0} ?\nComment ça va ?\rJ’ai mis la main sur un truc génial.\nPasse à mon Labo pour le récupérer !\rÀ plus tard !
+41	Allô, {STRVAR_1 3, 0, 0} ?\rJ’ai quelque chose pour toi.\nTu pourrais passer à mon Labo ?\rÀ plus tard !
+42	Allô, {STRVAR_1 3, 0, 0} ?\rJ’ai quelque chose pour toi.\nTu pourrais passer à mon Labo ?\rÀ plus tard !
+43	Allô, {STRVAR_1 3, 0, 0} ?\rJ’ai découvert une chose étrange.\nIl existerait un truc appelé\fPokérus qui infecte les Pokémon.\rOui, c’est comme un virus, d’où son\nnom de Pokérus.\rIl se multiplie vite et infecte aussi\nd’autres Pokémon. Mais c’est tout.\rIl ne semble avoir aucun effet, et\nil disparaît avec le temps.\rJe suppose qu’il n’y a pas de quoi\ns’inquiéter. Salut !
+44	Allô, {STRVAR_1 3, 0, 0} ?\rJ’ai découvert une chose étrange.\nIl existerait un truc appelé\fPokérus qui infecte les Pokémon.\rOui, c’est comme un virus, d’où son\nnom de Pokérus.\rIl se multiplie vite et infecte aussi\nd’autres Pokémon. Mais c’est tout.\rIl ne semble avoir aucun effet, et\nil disparaît avec le temps.\rJe suppose qu’il n’y a pas de quoi\ns’inquiéter. Salut !

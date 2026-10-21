@@ -1,0 +1,11 @@
+1	Les jeunes ne pêchent plus, ou quoi ?\rJe peux t’apprendre à bien pêcher, si\ntu veux bien échanger nos\fnuméros ? {YESNO 0}
+2	Formidable !\nJe suis ravi de me lier d’amitié\favec la jeunesse !
+3	Oh...\rMes propres enfants ne veulent même\npas me donner leur numéro...\rC’est comme ça, les jeunes\nd’aujourd’hui.
+4	Hm ? Oh, alors tu veux bien qu’on soit\namis, finalement ?! {YESNO 0}
+5	Si tu es tout près, parlons plutôt\nen face !
+6	Je passe plus de temps avec mon\n{STRVAR_1 0, 10, 0} qu’avec mes enfants.\fC’est un peu triste, en fait.\rAppelle ta maman de temps en temps,\ntoi aussi !
+7	Je viens de battre un {STRVAR_1 0, 11, 0}\nsauvage. Je l’ai dit à mon fils, mais il\fa ricané qu’il pourrait en faire\fautant.\rQu’est-ce qu’il est devenu\nprétentieux...\rAppelle ta maman de temps en temps,\ntoi aussi !
+8	Hier, un {STRVAR_1 0, 11, 0} sauvage m’a\néchappé devant mon fils.\fJ’étais déprimé jusqu’à ce qu’il\fpartage ses Poké Balls avec moi.\rHaha, ça m’a fait plaisir !\rAppelle ta maman de temps en temps,\ntoi aussi !
+9	Que dirais-tu d’un combat avec moi ?\nBien, tu vas le faire !\rPour un jeune, tu as bon caractère.\nRendez-vous sur {STRVAR_1 4, 3, 0} !
+10	Alors, tu es où ? J’attends que tu\narrives sur {STRVAR_1 4, 3, 0}.\rIl ne faut pas faire attendre ses\naînés !
+11	Hé, comment ça va ?\rMoi, ça va merveilleusement bien,\nbien sûr !\rMais quand je dis “merveilleusement\nbien”, je parle de pêche ?\fJe parle de Pokémon ?\fLequel des deux ?\rHa ha ha !\nLes deux, bien sûr !

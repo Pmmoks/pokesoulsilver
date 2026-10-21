@@ -1,0 +1,11 @@
+1	Tu...\nTu me trouves cool, hein ?\rAlors, et si on échangeait nos\nnuméros ? {YESNO 0}
+2	T’en fais pas, tu peux m’appeler quand\ntu veux !
+3	Oh, je vois...\nJ’ai peut-être trop réfléchi...
+4	Je le savais ! Je savais que tu me\ntrouverais cool !\rAlors, on échange nos numéros\nmaintenant ? {YESNO 0}
+5	Tu dois être vraiment timide.\nSi tu es tout près, tu peux venir me\fparler en face. Tout va bien.
+6	Mon précieux {STRVAR_1 0, 10, 0} se porte à\nmerveille.\rQuel Pokémon préfères-tu ?\nTu devrais me le montrer un jour.
+7	Hé, écoute ça !\nHier, on combattait un {STRVAR_1 0, 11, 0}\fsauvage.\rJ’ai utilisé une Potion sans réfléchir\nau mauvais moment, et on aurait dit\fqu’on allait perdre.\rMon Pokémon s’est tellement donné.\nJe voulais vraiment gagner, tu vois ?\rBon, ce genre de choses arrive,\nj’imagine.
+8	Tu gardes tous les Pokémon que tu\ncaptures dans les Boîtes du PC ?\rMoi, je les relâche, en général...\rÇa me fait penser, j’ai récemment\nrelâché un {STRVAR_1 0, 11, 0}...\rC’est un peu du gâchis, non ?
+9	Hé, ça te dirait de m’affronter\nà nouveau ?\rJe suis au {STRVAR_1 4, 3, 0}\nen ce moment.\rViens me rejoindre !
+10	Allô ?\nTu te souviens de ta promesse ?\rOn doit bientôt se battre !\nJe serai au {STRVAR_1 4, 3, 0}.
+11	Ce n’était pas très malin de venir au\nParc en minijupe, hein... ?\rCes feuilles n’arrêtent pas de me\ngriffer les jambes...
