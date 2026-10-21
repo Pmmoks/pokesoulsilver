@@ -79,7 +79,7 @@ KEEP_BANKS = {f'msg_{n:04d}' for n in [*range(806, 812), *range(817, 829), *rang
                                        *range(151, 179), 297, 299, 437, 438,
                                        27]}  # 27: first names of NPC trainers
 
-# Banks whose rows are names read into fixed-size buffers: the longest a row may be (the
+# Banks whose rows are read into fixed-size buffers, names mostly: the longest a row may be (the
 # count includes the terminator, as in the encoded bank). Species names are also kept in
 # the save, ten characters at most.
 NAME_LIMITS = {
@@ -94,6 +94,8 @@ NAME_LIMITS = {
     'msg_0735': 16,  # types
     'msg_0730': 16,  # trainer classes
     'msg_0731': 32,  # trainer classes with an article: read into MessageFormat's buffer
+    # Trainer texts: the battle copies them into its message buffer (String_New(320), battle_main.c).
+    'msg_0723': 320, 'msg_0724': 320, 'msg_0728': 320,
 }
 
 
