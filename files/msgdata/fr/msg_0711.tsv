@@ -1,0 +1,11 @@
+1	Au fait, je suis Montagnard, alors je\nvais souvent en montagne et dans les\fgrottes.\rJe ne vais pas souvent en ville.\rJe parie que tu visites plein de villes\npendant ton voyage, pas vrai ?\rTu sais, si on échangeait nos numéros,\non pourrait échanger plein\fd’informations, non ? {YESNO 0}
+2	Je t’appellerai quand je penserai à\nune belle histoire qui réchauffe le\fcœur, OK ?
+3	C’est si triste. Je risque de finir\nreclus dans la montagne...
+4	Qu’en dis-tu ?\nTu veux échanger tes numéros avec un\fautre aventurier ? {YESNO 0}
+5	Tu es tout près, et tu m’appelles\nquand même au téléphone ?\rJe suis si “éblouissant” qu’il te\nfaut garder tes distances ?
+6	L’autre jour, je regardais mon\n{STRVAR_1 0, 10, 0} manger des Baies.\fIl avait l’air de se régaler,\falors j’ai décidé d’y goûter.\rJe ne sais pas si les humains devraient\nmanger ça, mais c’était délicieux !\rBon, allez !\nSois sage !
+7	Ces temps-ci, je croise souvent des\n{STRVAR_1 0, 11, 0} sauvages.\fOn s’en débarrasse facilement.\rBon, allez !\nSois sage !
+8	Ah oui, l’autre jour, j’affrontais ce\n{STRVAR_1 0, 11, 0}...\fIl a filé pendant que je regardais\fune Canon qui passait.\rApprends de mon erreur : reste\ntoujours concentré sur ce que tu fais !\rBon, allez !\nSois sage !
+9	Allez, battons-nous tout de suite !\rJe suis sur {STRVAR_1 4, 3, 0}.\nViens si tu t’en sens capable !
+10	Allô ! Tu n’as pas oublié notre\ncombat, hein ?\r{STRVAR_1 4, 3, 0} ! Je t’attends !
+11	Je me demande pourquoi j’aime tant\nles montagnes...\rCe ne serait pas faux de dire que\nj’aime aussi les Pokémon qui y vivent.\rMais je parie que la raison principale,\nc’est que j’aime les montagnes, tout\fsimplement.\rJe n’ai aucune idée de ce qui se passe\ndans la tête d’un Nageur♂...

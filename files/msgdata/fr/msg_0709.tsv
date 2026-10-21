@@ -1,0 +1,14 @@
+1	Hé !\nÉchange tes numéros avec\fmoi, mon pote ! {YESNO 0}
+2	Appelle-moi de temps en temps !\nJe t’appellerai aussi !\n
+3	Pas question !
+4	Hé, hé !\nCette fois, on échange nos\fnuméros, mon pote ! {YESNO 0}
+5	Wah ha ha ! {STRVAR_1 3, 0, 0} !\nVoilà la Pierre Aube que tu voulais.\rTiens.\r... Et maintenant que tu as eu ce\nque tu voulais, DÉGAGE !\r
+6	C’est dangereux de téléphoner en\nroulant sur la Piste Cyclable, mais\fparfois, je n’ai pas le choix !\rSi tu es dans le coin, parlons en face !
+7	Mon {STRVAR_1 0, 10, 0} est devenu super\nfort !\rIl a mis K.O. un {STRVAR_1 0, 11, 0} sauvage\nen genre deux secondes !\fWahahahahahahaha !\r... Quoi ?\nTu crois que j’exagère ?\rLa ferme ! C’est la pure vérité !
+8	Mon {STRVAR_1 0, 10, 0} est devenu\nméga fort !\rOn peut aller attraper des {STRVAR_1 0, 11, 0}\nmaintenant !
+9	Récemment, je suis tombé sur un\n{STRVAR_1 0, 11, 0} sauvage sur la route.\rIl a surgi d’un coup ! Je suis tombé\nde mon Vélo en essayant de l’éviter !\rMais tout va bien, même si je me suis\nun peu égratigné.\rTout va bien, parce que j’aime être\ngentil avec les Pokémon sauvages !
+10	Hé ! En ce moment, je suis\nsur {STRVAR_1 4, 3, 0} !\rNe fuis pas, ne te cache pas, viens\njuste ici te battre contre moi !
+11	Écoute ! Je t’attends sur\n{STRVAR_1 4, 3, 0}, comme d’hab !\rIl est temps de refaire un combat à\nla loyale, alors viens sans\fpersonne !\rAttends...\nAmène tes Pokémon !\fSans Pokémon, pas de combat !
+12	Toi...\nTu as un Pokémon avec toi, hein ?\rC’est...\nC’est plutôt chouette, non ?\rSi tu filais à toute vitesse sur la\nroute comme moi, tu ne pourrais pas\favoir ton Pokémon à tes côtés.\rÇa me rend un peu jaloux, pour\nêtre honnête.
+13	Hé ! J’ai ramassé un truc génial !\rJ’ai demandé à quelqu’un qui s’y\nconnaît. Il paraît que c’est une Pierre\fAube.\rSi tu la veux, je suis sur\n{STRVAR_1 4, 3, 0}, alors viens la chercher !
+14	Écoute ! Grouille-toi de venir chercher\ncette Pierre Aube ! Sur {STRVAR_1 4, 3, 0} !

@@ -1,0 +1,12 @@
+1	La plupart du temps, je crache du feu,\nmais on échange nos numéros ? {YESNO 0}
+2	D’accord !\rT’en fais pas. J’arrêterai de cracher\ndu feu pendant qu’on se parle au\ftéléphone... alors appelle-moi !
+3	Je savais que nous, les Crache-Feu,\non n’était pas très appréciés...
+4	Oh !\nTu veux cracher du feu avec moi ?\r... Ah, non.\rTu veux finalement échanger nos\nnuméros ? {YESNO 0}
+5	Tout va bien.\nJe te promets de ne pas te brûler,\falors tu peux venir me parler en face.
+6	Tu sais, beaucoup de gens se\nméprennent.\rOn pourrait croire que nous, les\nCrache-Feu, menaçons nos Pokémon\favec du feu pendant l’entraînement.\rMais pas du tout !\nOn entraîne nos Pokémon normalement !\fPas vrai, {STRVAR_1 0, 10, 0} ?\rCracher du feu, c’est juste un loisir !
+7	Bouahhhbobobo !\rAlors, qu’en dis-tu ?\nJ’ai découvert une nouvelle technique\fpour cracher du feu !\rBon, ça ne se voit pas vraiment au\ntéléphone...\rPeu importe. J’ai attrapé un\n{STRVAR_1 0, 11, 0} sauvage hier.\rJe crois que je vais bientôt\ncommencer à l’entraîner.
+8	Tu aimes les {STRVAR_1 0, 11, 0} ?\rMoi... ils sont pas mal. Il y a de\ntout dans ce monde.
+9	Bouahhhbobobo !\nAujourd’hui est un grand jour !\rTu devrais refaire un combat avec moi !\nJe t’attends en m’entraînant sur\f{STRVAR_1 4, 3, 0} !
+10	Je suis prêt et je t’attends sur\n{STRVAR_1 4, 3, 0}, alors dépêche-toi !
+11	Tu sais qu’il existe plein de types\nde Pokémon différents, hein ?\rChaque type a ses points forts et ses\npoints faibles, alors c’est difficile\fde dire quel type est le meilleur.\rCependant...\rMoi, je choisis le type Feu !\fBouahhhbobobo !!
+12	Tu savais que le Concours de Capture\nd’Insectes a lieu aujourd’hui ?\rJe ne suis pas fan des Pokémon Insecte,\nmais le Parc Naturel n’est pas si loin\fde la Route 35...\fJe me suis dit que j’irais jeter un œil.

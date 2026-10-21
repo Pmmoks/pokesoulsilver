@@ -1,0 +1,14 @@
+1	Hé, et si on échangeait nos numéros\navant de manger ?{YESNO 0}
+2	J’ai toujours mon Pokégear à portée\nde main, alors si tu m’appelles, je\fréponds vite !\n
+3	T’en fais pas !\rJe suis un Campeur très gentil...
+4	Tu as finalement décidé d’échanger\nnos numéros ?{YESNO 0}
+5	Ouais ! Hé, te voilà !\rJe l’ai gardé exprès pour toi.\nNe sois pas timide, vas-y,\fprends-le. C’est un cadeau !\r
+6	Hm ? Oh, tu es juste à côté ?\rSi tu es si près, pourquoi te fatiguer\nà téléphoner ? Pff !
+7	Tu sais, c’est très bien d’être\naffectueux avec ses Pokémon et de les\flaisser vivre à la maison.\rMais moi, je préfère partir camper\navec mon fidèle compagnon, {STRVAR_1 0, 10, 0},\fet c’est pour ça qu’il est si fort !\rÇa me fait penser : l’autre jour, on a\nmis K.O. un {STRVAR_1 0, 11, 0} sauvage, paf !\fComme ça ! Tu aurais dû voir ça...
+8	À propos d’entraîner ses Pokémon\njuste pour attraper des Pokémon\fsauvages plus forts...\rCe n’est pas une bonne idée de lancer\ndes Poké Balls à tort et à travers pour\fattraper n’importe quoi.\rIl faut créer un lien fort avec\nses Pokémon.\rMa relation avec mon {STRVAR_1 0, 10, 0} en est\nl’exemple parfait.\r... Enfin, je dis ça, mais l’autre jour,\nun {STRVAR_1 0, 11, 0} sauvage nous a\féchappé de justesse.\rJ’ai beau ne pas vouloir y penser, je\nn’arrive pas à me le sortir de la tête...
+9	Écoute-moi ! Tout à l’heure, on a\nrencontré un {STRVAR_1 0, 11, 0} sauvage !\rIl a surgi alors qu’on rentrait d’une\nexcursion en camping !\fJ’ai été tellement surpris !\rÇa prouve qu’il ne faut jamais baisser\nsa garde en pleine nature !
+10	Je m’apprêtais à préparer à manger,\net j’ai commencé à penser à toi.\rAvant que je passe à table, ça te dirait\nun autre combat ?\rJe suis sur {STRVAR_1 4, 3, 0}, alors amène\ntes meilleurs Pokémon !
+11	Hein ? Qu’est-ce qui se passe ? Tu ne\ntrouves pas ton chemin, ou quoi ?\rDu calme... Je suis en plein sur\n{STRVAR_1 4, 3, 0}, alors tu ne\fdevrais pas avoir de mal à me trouver !
+12	Tu connais la différence entre un\npique-nique et du camping ?\rC’est la chanson, bien sûr !\rEn pique-nique, on chante un petit air\njoyeux et entraînant en marchant\fà travers les collines et les champs.\rEn camping, on chante des chansons\ndouces et tristes sur le chagrin et la\fperte, assis à fixer le feu de camp.\rQuoi ? Tu ne me crois pas ?\rAlors, on devrait partir camper un jour\net s’asseoir autour du feu pour voir\fquelles mélodies te viennent !
+13	Récemment, je creusais un trou dans\nle sol pour faire un feu et préparer\fle dîner, et j’ai trouvé un objet rare !\rApparemment, ce truc s’appelle une\nPierre Soleil.\rJe te la donne. Je t’attends sur\n{STRVAR_1 4, 3, 0} !
+14	J’ai toujours la Pierre Soleil que je\nt’ai promise !\rJe t’attends sur {STRVAR_1 4, 3, 0}, alors\nviens la chercher dès que possible !

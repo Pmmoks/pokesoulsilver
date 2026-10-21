@@ -1,0 +1,11 @@
+1	Bon sang, ta façon d’attaquer ! C’était\nquelque chose ! On devrait se revoir !\rEt si tu me donnais ton numéro ?{YESNO 0}
+2	Je t’appellerai quand j’aurai envie\nd’un combat !
+3	Non ? Pas de problème.\nUn non franc, c’est facile à accepter !\rJe serai ici quand tu voudras\nta revanche.
+4	Alors, tu veux enregistrer mon numéro\npour une revanche, hein ?{YESNO 0}
+5	Tu as vraiment quelque chose de\nspécial.\rSi seulement j’avais commencé à\nentraîner des Pokémon un peu plus\fjeune...\rJe veux que tu travailles dur et que\ntu réussisses pour nous deux.\fAlors, prends ça, OK ?\r
+6	Hein ?\nC’est une rivière que j’entends\fderrière ? Tu es tout près !
+7	Plus rien n’égale mon {STRVAR_1 0, 10, 0}.\rOuais, on a mis K.O. un {STRVAR_1 0, 11, 0}\nsauvage !\rC’était bien, mais ce que je voulais,\nc’était l’attraper...\rOK, rappelle-moi !
+8	Plus rien n’égale mon {STRVAR_1 0, 10, 0}.\rEt hier, on a repéré un {STRVAR_1 0, 11, 0}\nsauvage.\rOn se demandait si on devait\nl’attraper ou juste gagner de\fl’expérience en le combattant.\rEt là, un autre type est arrivé et\nl’a attrapé ! Tu te rends compte !\rOK, rappelle-moi !
+9	Tu te dis que tu aimerais m’affronter.\nJ’ai raison ou pas ?\rOuais ! Rendez-vous sur {STRVAR_1 4, 3, 0} !
+10	Tu n’as pas encore atteint\n{STRVAR_1 4, 3, 0} ?\rAttendre ici ne me dérange pas,\nmais j’aimerais vraiment me battre !
+11	Tu m’affronteras à nouveau, hein ?
