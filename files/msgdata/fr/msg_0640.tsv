@@ -1,0 +1,78 @@
+0	Allô. Ici {STRVAR_1 3, 1, 0}...\rBonjour, {STRVAR_1 3, 0, 0} !\r
+1	Allô. Ici {STRVAR_1 3, 1, 0}...\rBonjour, {STRVAR_1 3, 0, 0} !\r
+2	Allô. Ici {STRVAR_1 3, 1, 0}...\rComment ça va, {STRVAR_1 3, 0, 0} ?\r
+3	Allô. Ici {STRVAR_1 3, 1, 0}...\rComment ça va, {STRVAR_1 3, 0, 0} ?\r
+4	Allô. Ici {STRVAR_1 3, 1, 0}...\rBonsoir, {STRVAR_1 3, 0, 0} !\r
+5	Allô. Ici {STRVAR_1 3, 1, 0}...\rBonsoir, {STRVAR_1 3, 0, 0} !\r
+6	{STRVAR_1 3, 0, 0}, bonjour !\rC’est {STRVAR_1 3, 1, 0}. Tu fais la grasse\nmatinée ?\r
+7	{STRVAR_1 3, 0, 0}, bonjour !\rC’est {STRVAR_1 3, 1, 0}. Tu fais la grasse\nmatinée ?\r
+8	{STRVAR_1 3, 0, 0}, salut !\rC’est {STRVAR_1 3, 1, 0}. Comment vas-tu ?\r
+9	{STRVAR_1 3, 0, 0}, salut !\rC’est {STRVAR_1 3, 1, 0}. Comment vas-tu ?\r
+10	Bonsoir, {STRVAR_1 3, 0, 0} !\rC’est moi, {STRVAR_1 3, 1, 0}. Tu étais\nréveillé ?\r
+11	Bonsoir, {STRVAR_1 3, 0, 0} !\rC’est moi, {STRVAR_1 3, 1, 0}. Tu étais\nréveillée ?\r
+12	Allô ? Ici {STRVAR_1 3, 1, 0}.\rOh. Salut, {STRVAR_1 3, 0, 0} ! Bonjour !\r
+13	Allô ? Ici {STRVAR_1 3, 1, 0}.\rOh. Salut, {STRVAR_1 3, 0, 0} ! Bonjour !\r
+14	Allô ? Ici {STRVAR_1 3, 1, 0}.\rOh, salut, {STRVAR_1 3, 0, 0} !\r
+15	Allô ? Ici {STRVAR_1 3, 1, 0}.\rOh, salut, {STRVAR_1 3, 0, 0} !\r
+16	Allô ? Ici {STRVAR_1 3, 1, 0}.\rOh, salut, {STRVAR_1 3, 0, 0} ! Bonsoir !\r
+17	Allô ? Ici {STRVAR_1 3, 1, 0}.\rOh, salut, {STRVAR_1 3, 0, 0} ! Bonsoir !\r
+18	{STRVAR_1 3, 0, 0}, bonjour !\rC’est {STRVAR_1 3, 1, 0}. Comment vas-tu ?\r
+19	{STRVAR_1 3, 0, 0}, bonjour !\rC’est {STRVAR_1 3, 1, 0}. Il fait beau, non ?\r
+20	{STRVAR_1 3, 0, 0}, salut !\rC’est {STRVAR_1 3, 1, 0}. Qu’est-ce que tu\nfais ?\r
+21	{STRVAR_1 3, 0, 0}, salut !\rC’est {STRVAR_1 3, 1, 0}. Qu’est-ce que tu\nfais ?\r
+22	Bonsoir, {STRVAR_1 3, 0, 0} !\rC’est moi, {STRVAR_1 3, 1, 0}. Tu étais\nréveillé ?\r
+23	Bonsoir, {STRVAR_1 3, 0, 0} !\rC’est moi, {STRVAR_1 3, 1, 0}. Tu étais\nréveillée ?\r
+24	C’est {STRVAR_1 3, 1, 0} !\rBonjour, {STRVAR_1 3, 0, 0} !\r
+25	C’est {STRVAR_1 3, 1, 0} !\rBonjour, {STRVAR_1 3, 0, 0} !\r
+26	C’est {STRVAR_1 3, 1, 0} !\rSalut, {STRVAR_1 3, 0, 0} !\r
+27	C’est {STRVAR_1 3, 1, 0} !\rSalut, {STRVAR_1 3, 0, 0} !\r
+28	C’est {STRVAR_1 3, 1, 0} !\rBonsoir, {STRVAR_1 3, 0, 0} !\r
+29	C’est {STRVAR_1 3, 1, 0} !\rBonsoir, {STRVAR_1 3, 0, 0} !\r
+30	Yo !\rC’est {STRVAR_1 3, 1, 0}, ça roule ?\r
+31	Yo !\rC’est {STRVAR_1 3, 1, 0}, ça roule ?\r
+32	Yo !\rC’est {STRVAR_1 3, 1, 0}, ça roule ?\r
+33	Yo !\rC’est {STRVAR_1 3, 1, 0}, ça roule ?\r
+34	Yo !\rC’est {STRVAR_1 3, 1, 0}, ça roule ?\r
+35	Yo !\rC’est {STRVAR_1 3, 1, 0}, ça roule ?\r
+36	Oui ? Ici {STRVAR_1 3, 1, 0}.\rOh, {STRVAR_1 3, 0, 0}. Bonjour.\r
+37	Oui ? Ici {STRVAR_1 3, 1, 0}.\rOh, {STRVAR_1 3, 0, 0}. Bonjour.\r
+38	Oui ? Ici {STRVAR_1 3, 1, 0}.\rOh, {STRVAR_1 3, 0, 0}. Salut.\r
+39	Oui ? Ici {STRVAR_1 3, 1, 0}.\rOh, {STRVAR_1 3, 0, 0}. Salut.\r
+40	Oui ? Ici {STRVAR_1 3, 1, 0}.\rOh, {STRVAR_1 3, 0, 0}, bonsoir.\r
+41	Oui ? Ici {STRVAR_1 3, 1, 0}.\rOh, {STRVAR_1 3, 0, 0}, bonsoir.\r
+42	Allô, {STRVAR_1 3, 0, 0}. Bonjour.\rC’est {STRVAR_1 3, 1, 0}. Tu dormais ?\r
+43	Allô, {STRVAR_1 3, 0, 0}. Bonjour.\rC’est {STRVAR_1 3, 1, 0}. Tu dormais ?\r
+44	Salut, {STRVAR_1 3, 0, 0}.\rC’est {STRVAR_1 3, 1, 0}. Comment ça va ?\r
+45	Salut, {STRVAR_1 3, 0, 0}.\rC’est {STRVAR_1 3, 1, 0}. Comment ça va ?\r
+46	Salut, {STRVAR_1 3, 0, 0}.\rC’est {STRVAR_1 3, 1, 0}. Tu étais réveillé ?\r
+47	Salut, {STRVAR_1 3, 0, 0}.\rC’est {STRVAR_1 3, 1, 0}. Tu étais réveillée ?\r
+48	C’est {STRVAR_1 3, 1, 0}...\rOh, salut, bonjour.\r
+49	C’est {STRVAR_1 3, 1, 0}...\rOh, salut, bonjour.\r
+50	C’est {STRVAR_1 3, 1, 0}...\rOh, salut, bon après-midi.\r
+51	C’est {STRVAR_1 3, 1, 0}...\rOh, salut, bon après-midi.\r
+52	C’est {STRVAR_1 3, 1, 0}...\rBonsoir, comment ça va ?\r
+53	C’est {STRVAR_1 3, 1, 0}...\rBonsoir, comment ça va ?\r
+54	C’est {STRVAR_1 3, 1, 0}.\rOh, salut ! Bonjour !\r
+55	C’est {STRVAR_1 3, 1, 0}.\rOh, salut ! Bonjour !\r
+56	C’est {STRVAR_1 3, 1, 0}.\rOh, salut ! Bon après-midi, quoi de\nneuf ?\r
+57	C’est {STRVAR_1 3, 1, 0}.\rOh, salut ! Bon après-midi, quoi de\nneuf ?\r
+58	C’est {STRVAR_1 3, 1, 0}.\rBonsoir ! Comment ça va ?\r
+59	C’est {STRVAR_1 3, 1, 0}.\rBonsoir ! Comment ça va ?\r
+60	C’est {STRVAR_1 3, 1, 0} !\rBonjour !\r
+61	C’est {STRVAR_1 3, 1, 0} !\rBonjour !\r
+62	C’est {STRVAR_1 3, 1, 0} !\rBon après-midi !\r
+63	C’est {STRVAR_1 3, 1, 0} !\rBon après-midi !\r
+64	C’est {STRVAR_1 3, 1, 0} !\rBonsoir !\r
+65	C’est {STRVAR_1 3, 1, 0} !\rBonsoir !\r
+66	Oh, salut ! Bonjour !\rC’est {STRVAR_1 3, 1, 0} !\r
+67	Oh, salut ! Bonjour !\rC’est {STRVAR_1 3, 1, 0} !\r
+68	Oh, salut ! Bon après-midi, quoi de\nneuf ?\rC’est {STRVAR_1 3, 1, 0} !\r
+69	Oh, salut ! Bon après-midi, quoi de\nneuf ?\rC’est {STRVAR_1 3, 1, 0} !\r
+70	Bonsoir ! Comment ça va ?\rC’est {STRVAR_1 3, 1, 0} !\r
+71	Bonsoir ! Comment ça va ?\rC’est {STRVAR_1 3, 1, 0} !\r
+72	Bonjour !\rIci le Service d’Administration du\nSystème de Stockage Pokémon.\r
+73	Bonjour !\rIci le Service d’Administration du\nSystème de Stockage Pokémon.\r
+74	Bonsoir !\rIci le Service d’Administration du\nSystème de Stockage Pokémon.\r
+75	Ici {STRVAR_1 3, 1, 0}...\r{STRVAR_1 3, 0, 0} ! Belle matinée, hein ?\r
+76	Ici {STRVAR_1 3, 1, 0}...\r{STRVAR_1 3, 0, 0} ! Beau temps, hein ?\r
+77	Ici {STRVAR_1 3, 1, 0}...\r{STRVAR_1 3, 0, 0} ! Beau clair de lune,\nhein ?\r

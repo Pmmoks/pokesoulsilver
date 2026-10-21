@@ -1,0 +1,37 @@
+0	Buena
+1	Hé, c’est {STRVAR_1 3, 0, 0} ? Si tu passes par\nchez moi, ne sois pas timide, d’accord ?\fViens me parler.
+2	Hé, c’est {STRVAR_1 3, 0, 0} ? Si tu passes par\nchez moi, ne sois pas timide, d’accord ?\fViens me parler.
+3	Salut, c’est Buena...\rOh ! Bonjour, {STRVAR_1 3, 0, 0} ! Le matin, je\nsuis un peu dans le brouillard...\r
+4	Salut, c’est Buena...\rOh ! Bonjour, {STRVAR_1 3, 0, 0} ! Le matin, je\nsuis un peu dans le brouillard...\r
+5	Salut, c’est Buena...\rOh ! Salut, {STRVAR_1 3, 0, 0} !\nTu écoutes l’émission de Buena ?\r
+6	Salut, c’est Buena...\rOh ! Salut, {STRVAR_1 3, 0, 0} !\nTu écoutes l’émission de Buena ?\r
+7	Salut, c’est Buena...\nOh ! Salut, {STRVAR_1 3, 0, 0} !\rJe viens de finir le travail. Je te dis\npas, je suis épuisée !\r
+8	Salut, c’est Buena...\nOh ! Salut, {STRVAR_1 3, 0, 0} !\rJe viens de finir le travail. Je te dis\npas, je suis épuisée !\r
+9	Salut...\nIci Buena.\rJe ne peux pas répondre pour l’instant.\rSi tu veux discuter, écoute le Mot de\nPasse de Buena à la radio et appelle-moi\faprès minuit !
+10	Je pense aller au Casino demain. Ça fait\nun moment.\rTu sais, j’ai une super stratégie pour\njouer... Je gagne toujours !\rHein ? Ah non, c’est mon secret ! Tu\ndevras la trouver tout seul !\rÀ plus !
+11	Salut ! Tu écoutes la radio avec ton\nPokématos, hein ?\rOn m’a dit qu’on pouvait même afficher\nles cartes des villes avec le\fPokématos.\rJ’ai un mauvais sens de l’orientation,\nalors le Pokématos me serait bien\futile...\rEn tout cas, merci d’avoir appelé ! À\nplus !
+12	Il fait beau dehors aujourd’hui ?\rQuand on est enfermée dans la Tour\nRadio autant que moi, on perd le\fcontact avec l’extérieur.\rÇa peut être ennuyeux. Rappelle-moi !
+13	Oh. Salut, {STRVAR_1 3, 0, 0} !\nVa comment tu ?\rAïe ! Ce n’est pas le moment de faire\ndes blagues idiotes !\rLa Tour Radio a de gros ennuis !\n{STRVAR_1 3, 0, 0}, fais bien attention !
+14	Oh. Salut, {STRVAR_1 3, 0, 0} !\nVa comment tu ?\rAïe ! Ce n’est pas le moment de faire\ndes blagues idiotes !\rLa Tour Radio a de gros ennuis !\n{STRVAR_1 3, 0, 0}, fais bien attention !
+15	{STRVAR_1 3, 0, 0} ! Salut, c’est Buena ! Je\nme suis levée tôt, alors j’ai décidé\fd’appeler !\r
+16	{STRVAR_1 3, 0, 0} ! Salut, c’est Buena ! Je\nme suis levée tôt, alors j’ai décidé\fd’appeler !\r
+17	{STRVAR_1 3, 0, 0} ! Salut, c’est Buena !\nJ’avais besoin de quelqu’un avec qui\fdiscuter !\r
+18	{STRVAR_1 3, 0, 0} ! Salut, c’est Buena !\nJ’avais besoin de quelqu’un avec qui\fdiscuter !\r
+19	{STRVAR_1 3, 0, 0} ! Salut, c’est Buena ! Je\nn’arrivais pas à dormir, alors je t’ai\fappelé.\r
+20	{STRVAR_1 3, 0, 0} ! Salut, c’est Buena ! Je\nn’arrivais pas à dormir, alors je t’ai\fappelée.\r
+21	L’autre jour, je suis allée dîner avec\nDJ Ben ! C’est génial, non ?\rEn plus, il a dit que la musique de mon\némission était cool !\rOh là là ! Je fais quoi, moi ?\r... Oups, je dois me préparer pour mon\némission ! À plus !
+22	Tu connais la réceptionniste de la Tour\nRadio ?\r“Bienvenue”, c’est tout ce qu’elle dit.\rMais c’est en fait la plus bavarde de la\nTour Radio.\rElle doit donc se retenir. C’est drôle à\nsavoir, non ?\rÀ plus !
+23	Tu as gagné à la Loterie Pokémon au\nrez-de-chaussée de la Tour Radio ?\rTu as plus de chances en échangeant\ndes Pokémon avec différents amis.
+24	Tu sais, hier soir...\rJ’étais tellement stressée par le\ntravail que j’ai mangé une tonne de\fcochonneries !\rMary et moi, on a fait un pacte pour\nmaigrir... Ça ne va pas du tout...\rHein ? Ce que pèse Mary ? C’est un\nsecret absolu !\rMary pèse...\rAïe ! M-Mary !\rEuh... Hum... Je... Désolée, mauvais\nnuméro !
+25	Hier, le Professeur Chen était au studio\npour enregistrer son émission.\rAlors je suis allée me présenter.\nImagine-toi qu’il écoute mon émission !\rJ’espère qu’il reviendra demain !
+26	... Kof, kof !\nDézolée, ch’ai un rhube.\rBais je dois be couvrir pour que\nperzonne be le rebarque à l’antenne.\rCh’essaie d’arranger ba voix.\rOn ze rappelle. C’était Buena !
+27	Salut. Tu as gagné cette Carte Radio en\nréussissant le quiz de l’accueil, hein ?\rDevine quoi ? C’est moi qui ai inventé les\nquestions ! ... Elles étaient trop\ffaciles ?\rBon, on rediscute bientôt !
+28	Je suis ravie que plus de gens\nparticipent à mon émission de mots de\fpasse.\rMais quand PIKACHU était le mot de\npasse, c’était euh... pfiou... la folie.\rLes gens du Fan Club sont venus en\nmasse en criant “PIKACHU !” encore et\fencore.\rIls étaient vraiment bruyants.\rCeux qui écoutaient à ce moment-là ont\ndû être choqués par le vacarme !\rBref, je retourne au travail ! On\nrediscute bientôt !
+29	Devine quoi ? Le Directeur de la Tour\nRadio est un grand fan de télé !\rIl y a quelque temps, une émission de\nmode à la télé a dit que les costumes\fmarron étaient tendance.\rDepuis, il ne porte plus que des\ncostumes marron.\rMais c’est un secret que notre\nDirecteur adore la télé, alors si tu le\fvois, surtout n’en parle pas !\rOh ! Le Directeur va bientôt arriver ! À\nplus ! Écoute mon émission !
+30	Alors, dis-moi.\rQuand est-ce que tu te détends le\nplus ? Moi, c’est au studio juste après\fmon émission, avec une bonne tasse de\fthé.\rC’est si agréable que ça me donne peu à\npeu sommeil...\r...... ...... ......\r...... ...... ......Zzz\rOups, je me suis endormie rien qu’en y\npensant ! Que c’est euh... gênant !\rOublie ce qui vient de se passer ! À\nplus !
+31	Dis-moi, quel est le premier Pokémon que\ntu as attrapé ?\r... Ah, vraiment ?\rJ’ai vu plein de Pokémon, mais je n’en ai\njamais attrapé.\rJe devrais essayer un jour.\rTu savais que le premier Pokémon que\nMary a attrapé était un SOPORIFIK ? Ça\fne lui ressemble pas du tout, non ?\rMais le SOPORIFIK de Mary l’endormait\nsans arrêt au travail, alors elle l’a\féchangé contre le MIAOUSS d’un fan.\rOn reparlera de Pokémon ! Salut !
+32	Tu savais... ? Ben a passé des heures\nau téléphone avec l’équipe de la radio\fpour décider quelle musique Pokémon\fpasser selon les jours de la semaine.\rÀ la fin, les goûts musicaux de Ben ont\nun peu déteint sur eux.\rIls ont supporté l’enthousiasme\ndébordant de Ben pendant un moment.\rIls disent même que ça leur a plu ! On\nrediscute bientôt !
+33	Je vais bientôt faire du shopping avec\nMary. Ce serait génial s’il y avait des\fsoldes au Centre Commercial de\fDoublonville...\rDis, on pourrait peut-être y aller\nensemble aussi ! À plus !
+34	Devine quoi ? Toute l’équipe de la Tour\nRadio part en voyage d’entreprise à la\fTour Radio de Lavanville.\rOn gâche nos vacances à visiter une\nautre Tour Radio ?\rJ’aurais préféré aller à la plage !\r{STRVAR_1 3, 0, 0}, j’espère que tu t’amuses\npour nous deux pendant ton voyage !\rSalut !
+35	Devine quoi ? Toute l’équipe de la Tour\nRadio part en voyage d’entreprise à la\fTour Radio de Lavanville.\rOn gâche nos vacances à visiter une\nautre Tour Radio ?\rJ’aurais préféré aller à la plage !\r{STRVAR_1 3, 0, 0}, j’espère que tu t’amuses\npour nous deux pendant ton voyage !\rSalut !
+36	Dis, tu visites plein d’endroits pour\naider le Professeur Orme, non ?\rC’est trop cool. Sérieusement, je suis\njalouse.\rSi j’avais des vacances, je voyagerais\npartout comme bon me semble.\rOh non ! Je dois retourner au travail !\nÀ plus tard !

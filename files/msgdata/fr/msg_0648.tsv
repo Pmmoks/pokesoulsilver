@@ -1,0 +1,15 @@
+0	Albert
+1	Qui ? On dirait que tu parles sous l’eau.\nLa connexion n’est pas bonne. Pas du\ftout.\rTrouve une autre ligne ailleurs,\nd’accord ?
+2	Allô... Bon, maintenant je t’entends.\nOui, je suis en pleine forme.\r
+3	Il reste des Champions que tu n’as pas\naffrontés ? Vas-y ! Au travail !
+4	Voyons... Je suis libre le samedi matin,\nd’habitude. Appelle-moi à ce moment-là,\fs’il te plaît.
+5	J’espérais une invitation ! On se rebat,\nc’est bien ça ?{YESNO 0}
+6	Excellent ! Ravi de l’entendre. J’ai\nhâte.\rJe t’attendrai au Dojo Combat de\nSafrania !
+7	Bien sûr, bien sûr... Je sais que tu as\nun emploi du temps chargé...
+8	Je dois te dire... Avant de nous\nrebattre, si tu tenais d’abord les\fpromesses faites aux autres ?
+9	Je t’attends au Dojo Combat de\nSafrania ! C’était une promesse !
+10	Salut, c’est Albert. Comment ça va ?\r
+11	Tu te souviens de notre rendez-vous au\nDojo Combat de Safrania ? Tu n’as pas\foublié, hein ?
+12	Mon père m’a dit quelque chose quand\nj’étais petit.\rIl m’a dit : “Albert, les Pokémon\noiseaux ne volent pas seulement avec\fleurs ailes, ils s’élèvent dans le ciel\fparce que c’est ce qu’ils veulent de\ftout leur cœur.”\rC’est bien mon père, ça.
+13	Les échafaudages de mon Arène étaient\nen mauvais état quand tu es venu\fcombattre, hein ?\rChaque année, on nettoie l’endroit à\nfond. C’est tout un défi.\rMais les Pokémon oiseaux nous aident,\nalors on s’en sort.
+14	Tu as discuté avec Jeannine, de\nParmanie, non ?\rElle ne parle que de son père, tu sais ?\nSans arrêt.\rC’est bien de respecter son père, mais\nc’est mieux d’avoir confiance en soi !\rTu n’as pas foi en tes propres\ncapacités ?

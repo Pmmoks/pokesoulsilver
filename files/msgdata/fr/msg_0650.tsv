@@ -1,0 +1,15 @@
+0	Ondine
+1	Tu peux répéter ? Je ne t’entends pas\ndu tout. Mauvaise connexion, j’imagine.\rDéplace-toi et rappelle !
+2	Allô... Oh, salut. Quoi de neuf ? Tout va\nbien pour moi.\r
+3	On sait tous les deux qu’il y a des\nChampions bien plus forts que moi,\fhein ? Tu as intérêt à être prêt à\ftravailler dur.
+4	Je suis vraiment désolée, mais j’ai plein\nde choses en cours... Je suis très\foccupée ces temps-ci...\rBon, le mercredi matin, j’ai un peu de\ntemps libre. Tu veux essayer d’appeler\fà ce moment-là ?
+5	Oh, salut, je suis libre aujourd’hui ! On\nse rebat, d’accord ?{YESNO 0}
+6	D’accord ! Alors, on se voit au Dojo\nCombat de Safrania !
+7	Oh... Ça me rend triste...
+8	Je ne suis pas sûre... Tu n’as prévu\nquelque chose qu’avec moi ?\rTu n’avais pas déjà prévu quelque chose\navec quelqu’un d’autre ?
+9	Je t’attends au Dojo Combat de\nSafrania. Si tu me poses un lapin, je\fvais être triste.
+10	Oui, c’est Ondine... Salut, comment ça\nva ?\r
+11	On a prévu de se retrouver au Dojo\nCombat de Safrania.\rTu t’en souviens ? J’ai tellement\nhâte...
+12	Dis, tu as déjà parcouru toute la\nrégion de Kanto ? Comment tu la\ftrouves, comparée à Johto ? Il y a\fplein de beaux paysages ici, non ?\rJ’adore surtout le Cap de la Route 25 !\rJ’ai tellement de souvenirs le long de\ncette côte...\rQuels souvenirs ? Pff ! Comme si j’allais\nte le dire !
+13	Ça me fait penser... Cette personne\nétrange qui est venue à mon Arène\frécemment...\rC’est toi qui l’as battue et chassée,\nnon ?\rJ’ai oublié de te remercier !\rTout le monde dans mon Arène t’est\ntrès reconnaissant. Merci beaucoup !
+14	Dis, tu as entendu ? Si tu bats les six\npersonnes de la Route 25 sans perdre\fune seule fois, tu peux faire un vœu\fd’amour véritable !\rTu n’en as pas entendu parler ?\nVraiment ?\rEh bien, c’est parce que je viens de\nl’inventer ! Ha ha ha !

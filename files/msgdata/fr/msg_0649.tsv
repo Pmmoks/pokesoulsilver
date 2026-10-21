@@ -1,0 +1,15 @@
+0	Sandra
+1	Allô ? Allô ? Allô ? Allô ? ... Je crois\nque la connexion est mauvaise.\rTu peux réessayer d’un autre endroit ?
+2	Ravie de t’entendre. Comment ça va de\nton côté ? Moi, ça va.\r
+3	Il y a beaucoup de Champions plus forts\nque moi... Alors endurcis-toi ou rentre\fchez toi !
+4	Où veux-tu en venir ? Si tu veux\nm’affronter encore, d’accord. Le\fvendredi soir, c’est à prendre ou à\flaisser.\rAppelle-moi à ce moment-là... Je\nrépondrai peut-être...
+5	Tiens, tiens, tu appelles au bon\nmoment ! Tu veux te battre encore ?\rJe suis partante.{YESNO 0}
+6	Ha ha ha. C’est bien que tu relèves le\ndéfi.\rJe t’attendrai au Dojo Combat de\nSafrania !
+7	Mais qu’est-ce que... ? Tu te moques de\nmoi ?!
+8	Tu veux m’affronter ?\rJe me demande si tu as assez de temps\npour me faire honneur.\rIl paraît que tu as promis de retrouver\nd’autres personnes. Tu devrais\fd’abord respecter ça, à mon avis.
+9	Je t’attends au Dojo Combat de\nSafrania... Ne te dégonfle pas.
+10	Oui, ici Sandra... Oh, salut. Comment ça\nva ?\r
+11	N’oublie pas qu’on se retrouve au Dojo\nCombat de Safrania. C’est une promesse\fque j’attends de tenir...
+12	Récemment, des gens de la Station Radio\nsont venus pour faire un reportage sur\fmoi, ou un truc du genre.\rMes fans ne voudront surtout pas le\nmanquer !\rOh non ! Je me suis trompée ! C’est la\nradio ! Tous ces auditeurs ne pourront\fpas voir mon visage glorieux !\rEt la télé ? Pourquoi aucune équipe de\ntélé n’est venue faire un reportage\fsur moi ?!
+13	Ces derniers temps, une rumeur court\nen ville selon laquelle je serais la\fdernière icône de la mode.\rBon, si je suis si cool que les gens ne\npeuvent pas s’empêcher de parler de\fmoi, je comprends tout à fait.
+14	Waouh, tu as l’air d’être très occupé,\ntoi, non ? Encore plus que moi, si c’est\fpossible.\rEnfin, moi, j’ai le travail de l’Arène, et\nje dois aussi aller voir le Doyen au\fsanctuaire des Dompteurs de Dragons.\rQu’en penses-tu ? Tu as du talent...\ntu pourrais devenir Dompteur de\fDragons, toi aussi. Tu crois ?
