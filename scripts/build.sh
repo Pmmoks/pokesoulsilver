@@ -16,12 +16,12 @@ export WINEPREFIX="${WINEPREFIX:-$repo_root/.local-tools/wineprefix}"
 export WINEDEBUG="${WINEDEBUG:--all}"
 for program in "$make_bin" wine winepath arm-none-eabi-objcopy python3; do
     if ! command -v "$program" >/dev/null; then
-        echo "Missing $program. See docs/FORK.md for setup." >&2
+        echo "Missing $program. See INSTALL.md (macOS: scripts/setup-macos.sh) for setup." >&2
         exit 1
     fi
 done
 if [[ ! -f tools/mwccarm/2.0/sp2p2/mwccarm.exe || ! -f tools/bin/makelcf.exe ]]; then
-    echo 'Compiler/SDK tools are missing. See docs/FORK.md for setup.' >&2
+    echo 'Compiler/SDK tools are missing. See INSTALL.md (macOS: scripts/setup-macos.sh) for setup.' >&2
     exit 1
 fi
 exec "$make_bin" -j"${JOBS:-8}" "$@"
