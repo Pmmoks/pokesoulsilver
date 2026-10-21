@@ -1,0 +1,53 @@
+0	Jeune Pokéathlète !\nSalut !\r...\rTu manques d’énergie ?\nSalut, encore !\rBien !\nJe m’appelle Maximo !\rJe suis le présentateur du\nPokéathlon ! Enchanté !\rJe suis là pour toi quand tu as besoin\nde savoir quoi que ce soit sur le\fPokéathlon.\r
+1	Maximo : Salut !\rJe suis là pour toi quand tu as besoin\nde savoir quoi que ce soit sur le\fPokéathlon.\r
+2	Tu as des questions ? {YESNO 0}
+3	Sur quel parcours veux-tu en savoir\nplus ? {YESNO 0}
+4	Sur quelle épreuve veux-tu en savoir\nplus ? {YESNO 0}
+5	Je t’explique le Pokéathlon !\rC’est le lien entre les Pokémon et les\nPokéathlètes.\rC’est l’amitié elle-même !\n...Quoi ?\rTu ne comprends pas ? OK. Je ne serai\npas aussi bref cette fois.\rTu formes une équipe de trois Pokémon\npour participer à dix épreuves\fdifférentes !\rL’amitié entre les Pokémon et les\nPokéathlètes est mise à l’épreuve !\rVoilà ce qu’on appelle l’amitié !\nTu vois ce que je veux dire ?\r
+6	Je t’explique la “Course de Haies”.\nC’est une épreuve qui teste ta vitesse.\rTon Pokémon doit sauter quand la Haie\napproche.\rS’il saute au bon moment, il passera\npar-dessus la Haie !\rLe temps total des trois Pokémon donne\nle score de l’épreuve.\rC’est une épreuve pour les Pokémon\nrapides qui bougent vite, comme moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+7	Je t’explique la “Prise de Fanion”.\rTes Pokémon attrapent des Fanions sur\nla plage.\rAttraper des Fanions n’augmente pas\nton score.\rIl faut revenir avec les Fanions.\rC’est une épreuve pour les Pokémon\nrapides et habiles qui bougent comme\fmoi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+8	Je t’explique le “Pousse-Cercle”. Tes\nPokémon poussent les autres pour\frester dans un Cercle.\rTu obtiens des points tant que tes\nPokémon restent dans un Cercle.\rLe temps total des trois Pokémon donne\nton score.\rC’est une épreuve pour les Pokémon\npuissants et endurants, costauds\fcomme moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+9	Je t’explique le “Casse-Bloc”. Tu\ncasses des Blocs, comme le nom\fl’indique.\rLe nombre de Blocs cassés sera ton\nscore.\rC’est tout simple, non ?\rC’est une épreuve pour les Pokémon\npuissants, costauds comme moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+10	Je t’explique l’“Attrape-Disque”. Tes\nPokémon sautent et attrapent les\fDisques qui volent vers eux.\rPlus tu attends avant qu’ils attrapent\nles Disques, plus tu gagnes de points.\fLe total des points décide du score.\rC’est une épreuve pour les Pokémon\npuissants et sauteurs qui bougent\fcomme moi !\rTu vois ce que je veux dire ?\nOK, tu as d’autres questions ?\r
+11	Je t’explique le “Saut Lampion”. Tes\nPokémon rebondissent pour sauter haut\fet toucher autant de Lampions que\fpossible.\rPlus ils touchent de Lampions, plus tu\ngagnes de points.\rLe total des points décide du score.\rC’est une épreuve pour les Pokémon\nsauteurs, aussi sauteurs que moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+12	Je t’explique la “Course Relais”. Tes\nPokémon courent chacun leur tour aussi\floin que possible en 90 secondes.\rLa distance du Relais décide du score.\rC’est une épreuve pour les Pokémon\nrapides et endurants... Des Pokémon\fcomme moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+13	Je t’explique le “Ring Sumo”. Tes\nPokémon essaient de pousser les autres\fPokémon hors du Ring.\rUne charge rapporte un point. Piétiner\nun autre Pokémon rapporte deux points.\rSi tes Pokémon font tomber un autre\nPokémon hors du Ring, tu gagnes dix\fpoints.\rC’est une épreuve pour les Pokémon\nendurants, comme moi !\rTu vois ce que je veux dire ?\nOK, tu as d’autres questions ?\r
+14	Je t’explique la “Bataille de Neige”.\nBataille de Neige, ça ne te dit\fpeut-être rien, mais... et une bataille\fde boules de neige ?\rPlus tes Pokémon touchent d’autres\nPokémon avec de la Neige, plus le score\fest élevé.\rC’est une épreuve pour les Pokémon\npuissants et habiles... Des Pokémon\fcomme moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+15	Je t’explique le “Roule-But”. Tes\nPokémon essaient de rouler la balle\fdans les Buts des autres équipes de\fPokémon. La plupart des balles\frapportent un point.\rLes balles dorées rapportent deux\npoints.\rLe nombre de points décide de ton rang,\net ton rang décide du score.\rC’est une épreuve pour les Pokémon\npuissants et habiles... Des Pokémon\fcomme moi !\rTu vois ce que je veux dire ?\rOK, tu as d’autres questions ?\r
+16	Jeune Pokéathlète !\rN’oublie pas de faire tes étirements de\nPokéathlon avant l’exercice !
+17	Moi ? Je t’intéresse ?\nHahaha !\fOh, ne sois pas timide.\rCertains m’appellent le “grand frère” !\rMais en réalité, le grand frère,\nc’est... ... ... mon frère jumeau !\rLe “grand frère”, comme on dit, est en\nréalité le petit frère.\rDonc ce “grand frère” a un frère plus\ngrand...\rTu vois ce que je veux dire ?\r
+18	RATTATA : Ratta.
+19	RATTATA : Grrrr.
+20	MACHOC : Awwwrr...
+21	MACHOC : Yahhh !
+22	PAPILUSION : Flotta flotta...
+23	PAPILUSION : Bing bing !
+24	Au Pokéathlon, tout est une question\nde scores.\rPersonne ne sait qui va gagner avant le\ndernier moment !
+25	Le Pokéathlète {STRVAR_1 3, 0, 0} est\ntoujours splendide !\rJe ne peux pas le quitter des yeux !\r...\nAttends... Waouh ! C’est vraiment toi ?
+26	Du Jus Noigrume pour la victoire !\rTes Pokémon peuvent montrer leur vrai\npotentiel de Performance !
+27	Du Jus Noigrume pour la victoire !\rQuelle boisson utilises-tu, Pokéathlète\n{STRVAR_1 3, 0, 0} ?\rJ’achèterai ce que tu achètes !\fJe suis ton plus grand fan !
+28	Euh... Je... Je vais essayer de gagner\ntous les parcours avec MAGICARPE !
+29	Pokéathlète {STRVAR_1 3, 0, 0} !\rEuh... Comment... comment puis-je\ngagner tous les parcours avec\fMAGICARPE ?
+30	Je vais battre mon record personnel à\nla Course de Haies !\rBon, quel Pokémon choisir... ?
+31	T-t-tu es le Pokéathlète {STRVAR_1 3, 0, 0} !\rJe n’ai aucune idée de comment je\npourrais atteindre ton niveau ! Tu es\fle Pokéathlon incarné !
+32	Waouh ! Le type là-bas, c’est Magnus,\nle propriétaire du Pokéathlon !\rJ’ai entendu dire qu’il a un jour battu\nun MACKOGNEUR au bras de fer. Ce\fserait vrai ?
+33	Aïe !\nPokéathlète {STRVAR_1 3, 0, 0} !\rJe suis un énorme fan de toi !\nOh là là... qu’est-ce que je fais ?\fTu peux me signer un autographe ?
+34	Arrgh !
+35	Arrgh !\nPokéathlète {STRVAR_1 3, 0, 0} !\rTu me rends ma jeunesse !\fJe t’encourage !
+36	Aïe !!
+37	Oh là là !\nC’est le Pokéathlète {STRVAR_1 3, 0, 0} !\rTu ressembles tout à fait à mon fils.\fJe t’encourage.
+38	Oh là là !\nC’est le Pokéathlète {STRVAR_1 3, 0, 0} !\rTu ressembles tout à fait à ma fille.\fJe t’encourage.
+39	Mon petit ami est Pokéathlète.\rMais il est si timide à ce sujet que je\nl’encourage derrière un pilier pour\fqu’il ne me voie pas !
+40	Tu ne trouves pas qu’il est trop classe\nà ruisseler de sueur comme ses\fPokémon ?\rCe n’est pas qu’il soit comparable au\ngrand Pokéathlète {STRVAR_1 3, 0, 0}, bien\fsûr.
+41	Participe au Pokéathlon pour réduire le\nstress. C’est la voie à suivre !
+42	N’ose pas sous-estimer ta mère.\nL’expression de son visage quand elle\fvendait des choses en solde...\rÇa me donne encore des frissons !\r
+43	Tout père rêve d’être un héros pour\nson fils.\rLe Pokéathlon...\nJe me lance ?\rTu vas voir, fiston !
+44	Ahh... Mon fils !\nJe suis tellement triste d’entendre ça.\rDis-moi que tu veux être comme ton\npère...\r
+45	Ma mère va enfin participer.\rJe commençais à m’inquiéter parce\nqu’elle ne fait jamais d’exercice.\r
+46	Je deviendrai un grand Pokéathlète\ncomme toi, {STRVAR_1 3, 0, 0} !\r
+47	Je t’encourage !
+48	Tu es le Pokéathlète {STRVAR_1 3, 0, 0} ?\rVraiment ?\nJe n’arrive pas à y croire !\n
+49	Je regarde avec attention !
+50	Tu es le Pokéathlète {STRVAR_1 3, 0, 0} ?\rTap... Tap... Tap...\rJe n’en reviens pas ! J’ai touché mon\nhéros !
+51	Je ne m’attendais pas à voir autant de\ndames d’un certain âge comme moi\fparticiper. Peut-être que je peux me\fjoindre à elles.\rÇa pourrait être l’occasion de me\nrapprocher de mon héros, le\fPokéathlète Jet ! Hahaha !
+52	Aïe !!\rPokéathlète {STRVAR_1 3, 0, 0} ! Chaque fois\nque tu es dans la partie, mes filles\fouvrent grand les yeux !\rPuis-je te demander un autographe ?\f...Non non !\rPas pour moi. C’est pour mes filles.\nHa ha !

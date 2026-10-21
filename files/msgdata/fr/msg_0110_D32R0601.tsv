@@ -34,8 +34,8 @@
 33	Vous nous avez manqué !\rVous devez sauvegarder la partie avant\nde reprendre votre défi. Veuillez\fpatienter.
 34	Excusez-moi !\rVous n’avez pas sauvegardé avant\nd’arrêter votre dernier défi.\rPour cette raison, votre défi\nest disqualifié !\r
 35	Félicitations !\rEn l’honneur de votre victoire, nous\nvous offrons cette impression\fcommémorative !\r
-36	L’Impression Or a été ajoutée\nau Magnéto VS de {STRVAR_1 3, 0, 0} !\r
-37	L’Impression Argent a été ajoutée\nau Magnéto VS de {STRVAR_1 3, 0, 0} !\r
+36	L’Estampe Or a été ajoutée\nau Magnéto VS de {STRVAR_1 3, 0, 0} !\r
+37	L’Estampe Argent a été ajoutée\nau Magnéto VS de {STRVAR_1 3, 0, 0} !\r
 38	COMBAT SIMPLE
 39	COMBAT DOUBLE
 40	RELEVER LE DÉFI
