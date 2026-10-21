@@ -1,0 +1,192 @@
+7	{STRVAR_1 28, 2, 0}{PAUSE 15}\r{STRVAR_1 3, 0, 0}\nvous contacte.
+8	La discussion a été interrompue.
+9	En attente d’une réponse de\n{STRVAR_1 3, 0, 0}...
+10	La discussion est terminée.
+11	{STRVAR_1 3, 0, 0} vous propose de voir sa\nCarte Dresseur.\rVoulez-vous montrer la vôtre ? {YESNO 0}
+12	Voici la Carte Dresseur de\n{STRVAR_1 3, 0, 0}.\fLieu de résidence :\n{STRVAR_1 37, 4, 0}, {STRVAR_1 36, 3, 0}.
+13	Voici la Carte Dresseur de\n{STRVAR_1 3, 0, 0}.\fLieu de résidence : {STRVAR_1 36, 3, 0}.\n
+14	Voici la Carte Dresseur de\n{STRVAR_1 3, 0, 0}.\fLieu de résidence : {STRVAR_1 37, 4, 0}.\n
+15	Voici la Carte Dresseur\nde {STRVAR_1 3, 0, 0}.
+16	En attente de l’autre joueur.
+17	Vous avez refusé l’offre.
+18	{STRVAR_1 3, 0, 0} vous invite à dessiner\nquelque chose.\rVoulez-vous rejoindre l’autre joueur\npour dessiner ? {YESNO 0}
+19	Au dessin !
+20	Vous avez refusé l’invitation.
+21	{STRVAR_1 3, 0, 0} vous défie en combat.\rAcceptez-vous le défi ? {YESNO 0}
+22	Le combat va commencer.
+23	Vous avez refusé de participer.
+24	Pour un combat, il faut deux\nPokémon de N. 30 ou moins.
+25	Le combat a été annulé.
+26	{STRVAR_1 3, 0, 0} propose un échange.\rAcceptez-vous cette offre\nd’échange ? {YESNO 0}
+27	L’échange va commencer.
+28	Vous avez refusé l’offre.
+29	Pour échanger, vous devez avoir au\nmoins deux Pokémon avec vous.
+30	{STRVAR_1 3, 0, 0} vous invite à mélanger\nles records.\rVoulez-vous mélanger vos records\navec l’autre joueur ? {YESNO 0}
+31	Le mélange des records va commencer.
+32	Vous avez refusé l’invitation.
+33	{STRVAR_1 3, 0, 0} vous invite à participer à\nun Échange Rotatif.\rVoulez-vous participer à\nl’Échange Rotatif ? {YESNO 0}
+34	L’Échange Rotatif commence !
+35	Vous avez refusé l’invitation.
+36	Vous n’avez pas d’Œuf.\nL’invitation a été refusée.
+37	{STRVAR_1 28, 2, 0}{PAUSE 15}\rC’est {STRVAR_1 3, 0, 0} ! Tu voulais\nfaire quelque chose ?
+38	Oups ! Je dois faire autre chose\nlà tout de suite.\fUne autre fois, OK ?
+39	Tu veux faire\nautre chose ?
+40	... ...\nLe Dresseur a l’air occupé...
+42	Avec plaisir ! Pour te saluer, je vais\nte montrer ma Carte Dresseur.
+43	Hein ? Ma Carte Dresseur...\nOù est-elle passée ?\rPardon ! Je te la montrerai une autre\nfois !
+44	Je montre ma Carte Dresseur pour\nme présenter, c’est tout.
+45	J’espère mieux te connaître !
+46	Oh, tu veux dessiner avec moi ?\nAvec plaisir, mais attends une seconde.
+47	Merci d’avoir attendu !\nOn dessine !
+48	Oh, pardon ! Pas maintenant.\nDessinons une autre fois.
+49	{STRVAR_1 3, 0, 0} : On est en train de\ndessiner.\rAh, j’ai une idée ! {STRVAR_1 3, 1, 0}, tu veux\ndessiner avec nous ? {YESNO 0}
+50	Ah, d’accord.\nViens me voir quand tu veux, OK ?
+51	OK ! Dessinons ensemble !
+53	La dernière lettre de ce que tu\ndessines doit être la première de ce que\fje dessine ?
+54	Arrête de dessiner des têtes\nrigolotes ! J’ai mal tellement je ris !
+55	Waouh, quel talent !\nJe vais essayer de t’imiter !
+56	...Mouais... C’est quoi, ça ?\nC’est censé être moi ?
+57	Un combat ? Bien sûr, mais il me faut\ndu temps pour me préparer.
+58	Merci d’avoir attendu !\nQue le combat commence !
+59	Pardon ! Mes Pokémon ne semblent pas\nen grande forme en ce moment.\fOn se battra une autre fois.
+60	Pour te battre, il te faut deux Pokémon\nde N. 30 ou moins.\r
+61	Ouah !\nJe sens que tu es coriace !
+62	Tu as utilisé cette capacité ?\nBonne stratégie !
+63	Bravo !\nÇa m’a ouvert les yeux !
+64	Oh ! Comment as-tu pu utiliser ce\nPokémon dans cette situation ?
+65	Tu veux échanger, hein ?\nD’accord, une seconde.
+66	C’est parti !\nÉchangeons !
+67	Pardon ! Je n’ai aucun Pokémon à\néchanger pour l’instant.\rOn échangera une autre fois.
+68	Oui !\nJe voulais vraiment ce Pokémon !
+69	Enfin, j’ai ce Pokémon que je voulais\ndepuis si longtemps.
+70	On ne peut pas échanger avec un seul\nPokémon sur soi.\r
+71	Si tu veux faire quelque chose avec moi,\nappelle-moi !
+72	Tu veux mélanger les records avec moi ?\nOK, il me faut juste un peu de temps.
+73	Merci d’avoir attendu !\nMélangeons nos records, alors.
+74	Oh, pardon. J’ai trop à faire en ce\nmoment.\fUne autre fois, OK ?
+75	{STRVAR_1 3, 0, 0} : On va mélanger nos\nrecords.\rJ’ai une idée ! {STRVAR_1 3, 1, 0}, tu veux\nmélanger les tiens avec nous aussi ? {YESNO 0}
+76	Ah, d’accord.\nViens me voir quand tu veux, OK ?
+77	OK ! Mélangeons nos records !
+79	C’est amusant de mélanger les\nrecords !
+80	Je vais mélanger mes records avec\ntout le monde !
+81	Mélange ! Mélange encore !
+82	Mélange aussi tes records !
+83	Échange Rotatif ? Bien sûr !\nOK, juste une seconde !
+84	OK, tout est prêt !\nFaisons un Échange Rotatif !
+86	Il te faut un Œuf pour participer\nà un Échange Rotatif.\r
+87	{STRVAR_1 3, 0, 0} : On va faire un Échange\nRotatif.\rHé, {STRVAR_1 3, 1, 0} ! Tu veux te joindre\nà nous pour un Échange Rotatif aussi ?
+88	Ah, d’accord.\nViens nous voir quand tu veux !
+89	OK !\nFaisons un Échange Rotatif ensemble !
+92	Il y a dans ton équipe un Œuf qui ne\npeut pas être échangé.
+93	Les Échanges Rotatifs, c’est trop\namusant !
+94	Là !\nArrête-toi là !
+95	Mon Œuf est génial !
+96	Oui !\nJ’ai l’Œuf que je voulais !
+97	{STRVAR_1 28, 2, 0}{PAUSE 15}\rIci {STRVAR_1 3, 0, 0} !\nTu veux faire quelque chose ?
+98	Oups !\nJe dois faire autre chose.\fUne autre fois, d’accord ?
+99	Tu veux faire\nautre chose ?
+100	... ...\nLe Dresseur a l’air occupé...
+102	Pour me présenter, je te montre\nma Carte Dresseur.
+103	Oh ? Où ai-je bien pu mettre ma\nCarte Dresseur... ?\rPardon ! Je te la montrerai plus tard !
+104	On se montre nos Cartes Dresseur\npour faire connaissance.
+105	C’est un plaisir de te rencontrer.\nN’hésite pas à revenir me voir !
+106	Tu veux dessiner avec moi ?\nVolontiers ! Juste une seconde...
+107	Pardon de t’avoir fait attendre !\nCommençons !
+108	Oh, pardon !\nDessinons une autre fois !
+109	{STRVAR_1 3, 0, 0} : Nous dessinons en ce\nmoment.\rOh, j’ai une idée ! {STRVAR_1 3, 1, 0}, veux-tu\ndessiner avec nous ?
+110	Oh...\nPasse nous voir quand tu veux.
+111	OK ! Merci d’avoir attendu !\nOn dessine !
+113	Waouh !\nQuel talent !
+114	Ahaha !\nC’est quoi, ça ?!
+115	J’adore dessiner !\nJe pourrais dessiner sans arrêt !
+116	Oups !\nJe dépasse tout le temps des lignes !
+117	Un combat ? Bien sûr, mais il me faut\ndu temps pour me préparer.
+118	Pardon de t’avoir fait attendre !\nCommençons !
+119	Toutes mes excuses, mais mes Pokémon\nne vont pas bien...\rBattons-nous une autre fois.
+120	Pour te battre, il te faut deux Pokémon\nde N. 30 ou moins.\r
+121	Ce Pokémon...\nIl a été très bien élevé !
+122	Voilà !\nC’est la bonne capacité maintenant !
+123	Génial !\nOn peut se battre comme ça ?
+124	Tu as un timing exquis pour changer\nde Pokémon !
+125	Un échange ? Bien sûr, mais il me faut\ndu temps pour me préparer.
+126	Pardon de t’avoir fait attendre !\nCommençons !
+127	Toutes mes excuses, je n’ai aucun\nPokémon à échanger pour le moment...\rÉchangeons une autre fois !
+128	Je suis en plein échange de Pokémon.
+129	J’ai enfin eu ce Pokémon que je voulais,\ngrâce à un échange !
+130	Tu ne peux pas échanger avec un seul\nPokémon sur toi.\r
+131	Si tu veux faire quelque chose avec moi,\nn’hésite pas. Demande !
+132	Tu veux mélanger les records ?\nVolontiers ! Mais il me faut un peu de\ftemps !
+133	Pardon de t’avoir fait attendre !\nCommençons !
+134	Oh, pardon !\nFaisons ça une autre fois !
+135	{STRVAR_1 3, 0, 0} : Nous étions en train de\nmélanger nos records.\rJ’ai une idée ! {STRVAR_1 3, 1, 0}, veux-tu\nmélanger les tiens avec nous aussi ?
+136	Oh...\nPasse nous voir quand tu veux.
+137	Merci d’avoir attendu !\nMélangeons des records !
+138	Oh, pardon !\nFaisons ça une autre fois !
+139	C’est si amusant de mélanger les\nrecords !
+140	Je vais continuer à mélanger !
+141	Mélangeons tout !
+142	Je me demande ce qui va se passer ?
+143	Échange Rotatif ? Bien sûr !\nOK, peux-tu patienter un instant ?
+144	OK, tout est prêt !\nLançons cet Échange Rotatif !
+146	Pour participer à un Échange Rotatif,\nil faut aussi apporter un Œuf.\r
+147	{STRVAR_1 3, 0, 0} : Nous faisions des\nÉchanges Rotatifs à l’instant.\r{STRVAR_1 3, 1, 0}, veux-tu te joindre à nous\npour faire des Échanges Rotatifs\faussi ?
+148	Ah, d’accord.\nViens nous voir quand tu veux !
+149	OK !\nFaisons un Échange Rotatif ensemble !
+152	Il y a dans ton équipe un Œuf qui ne\npeut pas être échangé.
+153	On fait des Échanges Rotatifs !
+154	Ouah !\nÇa a encore bougé !
+155	Et voilà, l’Œuf que je voulais est\nparti...
+156	Si ça s’était arrêté là, j’aurais eu\nune Baie.
+157	Bienvenue au Club Union.\rSi vous avez besoin d’aide,\nn’hésitez pas à me le dire ! {YESNO 0}
+158	Que puis-je faire pour vous ? {YESNO 0}
+159	Quel sujet souhaitez-vous que\nj’explique ? {YESNO 0}
+160	Au Club Union, vous pouvez combattre\navec deux Pokémon de votre choix de\fN. 30 ou moins.\rNous vous recommandons d’apporter\ndes Pokémon qui remplissent\fcette condition.\r
+161	Vous pouvez échanger vos Pokémon avec\nd’autres joueurs.\rFaire de nouvelles rencontres peut\nêtre un raccourci pour croiser des\fPokémon rares !\r
+162	Vous pouvez communiquer avec d’autres\njoueurs et mélanger vos records.\rQue se passe-t-il quand on mélange\nles records, demandez-vous ?\rNous vous conseillons d’essayer\npour le découvrir !\rJusqu’à cinq joueurs peuvent\nparticiper, essayez avec vos amis !\r
+163	Lors d’un Échange Rotatif, chaque\nparticipant apporte un Œuf à échanger\favec les autres.\rQuel Œuf vous échoira ?\nQuelle sorte de Pokémon contient-il ?\fC’est très excitant et amusant !\rJusqu’à cinq joueurs peuvent\nparticiper, essayez avec vos amis !\r
+164	Vous pouvez vous réunir avec d’autres\npour dessiner.\rVous travaillez tous en même temps sur\nune seule feuille.\rUn dessin fait entre amis sera\nsûrement un chef-d’œuvre mémorable !\rJusqu’à cinq joueurs peuvent\nparticiper, essayez avec vos amis !\r
+165	Vous pouvez discuter avec d’autres\npersonnes en choisissant “DISCUTER”\fdans le menu.\rAllez à la rencontre d’autres joueurs\nau Club Union !\rFaites savoir qui vous êtes et ce que\nvous aimeriez faire.\rMêlez-vous aux autres, discutez, et\nagrandissez votre cercle d’amis !\r
+166	Oh !\nQuelqu’un arrive !\rPlutôt qu’avec moi, pourquoi ne pas\nfaire connaissance avec cette\fpersonne ?\r
+168	On te prend parfois pour un vrai\n{STRVAR_1 14, 0, 0} ?\rJ’ai cette impression en te voyant.\r
+169	Bonjour !\rC’est ça !\nIl est important de saluer !\rQuand quelqu’un arrive, soyons\naimables !\r
+170	Salutations !\r{STRVAR_1 28, 0, 0} ?\nC’est merveilleux !\fJ’aime beaucoup ça aussi !\rQuand on rencontre quelqu’un pour la\npremière fois, la bonne manière est\fde se présenter.\rEn te présentant, tu apprendras\naussi à connaître l’autre !\r
+171	Dresseur {STRVAR_1 28, 0, 0} ?\nC’est ce que tu es ?\fQuelle surprise !\rMalheureusement, je n’ai aucun\nPokémon...\rJe préfère regarder plutôt que me\nbattre, tu vois.\r
+172	Oh ! Ton {STRVAR_1 28, 0, 0} !\nJe l’adorerais !\fÉchange-le-moi !\r...\rJe plaisantais, en fait.\rJe n’ai aucun Pokémon, donc je ne peux\néchanger avec personne...\r
+173	{STRVAR_1 28, 0, 0} ?\nJe comprends que tu en veuilles un...\rMais n’attends pas des gens qu’ils\néchangent juste pour toi.\rIl faut aussi penser au Pokémon que\nveut l’autre personne.\r
+174	Bienvenue au Club Union !\rPour l’instant, personne d’autre n’est\nici, mais amène tes amis pour\ft’amuser !\rSi tu as du temps libre, je suis là\naussi pour discuter.\rVois-tu, j’ai beaucoup de temps\nlibre...\r
+175	Je me débrouille très bien en dessin !\rSi c’est {STRVAR_1 28, 0, 0},\nlaisse-moi faire !\fPersonne ne fait mieux que moi !\r
+176	Oh, tu pars...\r...\rLa solitude va me peser...\rReviens me voir, s’il te plaît !\r
+177	Qu’y a-t-il ?\nQuelque chose te tracasse ?\rQuand on a le cafard, mieux vaut\ns’amuser entre amis que rester seul.\r
+178	{STRVAR_1 28, 0, 0} ?\nOui, volontiers !\r...J’aimerais bien participer, mais je\nsuis en service ici, donc je ne peux\fpas...\rSnif... {STRVAR_1 28, 0, 0}...\nSi seulement je pouvais...\r
+179	{STRVAR_1 28, 0, 0} ?\nMoi aussi, volontiers !\rMais je dois rester ici pour m’occuper\ndes visiteurs...\rAmuse-toi bien avec tes amis !\r
+180	{STRVAR_1 28, 0, 0} ?\nTu m’invites ?\rOh, mais je dois rester ici pour\nm’occuper des visiteurs.\rPardon. J’adorerais accepter, mais\nje ne peux vraiment pas.\r
+181	C’est vrai !\rParfois, il vaut mieux aller inviter\nles autres directement.\rMais ne deviens pas trop égoïste ou\ninsistant sous prétexte que tu veux\f{STRVAR_1 28, 0, 0}.\r
+182	Oui !\nÇa va aller !\rRien n’est impossible.\rPense positif et garde la tête haute !\r
+183	Tout le monde a au moins un point faible.\rIl ne faut jamais forcer quelqu’un à\nfaire ce qu’il n’a pas envie de faire.\rAu fait, {STRVAR_1 28, 0, 0}, c’est quelque\nchose que j’aimerais faire.\r
+184	Bonne chance ! J’espère que tu\napprécies les combats sérieux.\rOn n’en vit pas de pareils au\nClub Union !\r
+185	Tu veux discuter ?\rEh bien, tu ne devrais pas perdre ton\ntemps à discuter avec moi.\rIl faut passer à l’action et parler\naux autres joueurs.\rAprès tout, on ne se fait pas d’amis\nsans parler aux gens.\r
+186	Où es-tu ?\nEuh... Juste devant mes yeux.\rOh !\nSerais-tu un imposteur ?\rLe vrai joueur est ailleurs ?\r...C’est ridicule !\nVoyons, ne dis pas de bêtises !\fMon Dieu !\r
+187	Échange {STRVAR_1 28, 0, 0} ?\nÇa a l’air amusant !\fJ’aimerais bien aussi.\rMais me le dire n’y changera rien.\nJe ne peux échanger avec personne.\r
+188	Si tu veux faire un combat {STRVAR_1 28, 0, 0},\nil faut t’affirmer davantage et parler\faux autres joueurs.\rSi tu n’oses pas t’affirmer, tu n’auras\npeut-être jamais l’occasion de faire\fun combat {STRVAR_1 28, 0, 0} !\r
+189	INFOS
+191	QUITTER
+192	COMBAT
+193	ÉCHANGE
+194	RECORDS
+196	DESSIN
+197	DISCUTER
+198	ANNULER
+199	Discussion avec {STRVAR_1 3, 0, 0}...
+201	Oups ! Je dois faire autre chose\nlà tout de suite.\fUne autre fois, OK ?
+202	En attente du choix de l’autre joueur.
+208	Contact de {STRVAR_1 3, 0, 0}
+209	Contact de {STRVAR_1 3, 1, 0}
+210	Contact de {STRVAR_1 3, 2, 0}
+212	Hello !
+213	Bonjour !
+214	Ciao !
+215	Hallo !
+216	Hola !
+217	S-a-l-u-t-!
+218	Impossible de faire un Échange Rotatif\navec Pokémon Diamant ou Perle.\r
+219	Menu

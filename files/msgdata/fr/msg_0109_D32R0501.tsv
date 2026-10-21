@@ -1,0 +1,53 @@
+0	Bienvenue au Château de Combat !\rJe suis votre guide pour les défis de\nCombat Simple et Double.\rSachez que ces défis sont conçus pour\nun seul Dresseur.\r
+1	Quel défi souhaitez-vous\nrelever ? {YESNO 0}
+2	Au Château de Combat, vous pouvez\nrelever un défi de Combat Simple ou\fDouble.\rIci, vous recevez des Points Château\n(PCh) que vous devez gérer.\rLes PCh servent à soigner les Pokémon,\nlouer des objets ou des Baies, etc.\rOn gagne des PCh en remportant des\nmatchs. Le montant varie selon la façon\fde gagner.\rLe but est de maintenir une série de\nvictoires tout en gérant vos PCh.\rSi vous parvenez à gagner sept matchs\nd’affilée, vous gagnerez des Points\fCombat (PCo).\rSi vous voulez interrompre votre\ndéfi, veuillez sauvegarder la partie.\rSi vous ne sauvegardez pas, votre défi\nsera annulé.\rVeuillez en tenir compte !\r
+3	Bienvenue au Château de Combat !\rJe suis votre guide pour le défi de\nCombat Multi.\rSachez que ce défi nécessite\ndeux Dresseurs.\r
+4	Souhaitez-vous relever le défi du\nCombat Multi du Château de Combat ? {YESNO 0}
+5	Vous pouvez faire équipe avec un ami\npour un défi de Combat Multi.\rChaque Dresseur reçoit des Points\nChâteau (PCh) qu’il doit gérer.\rLes PCh servent à soigner les Pokémon,\nlouer des objets ou des Baies, etc.\rLes Dresseurs peuvent dépenser leurs\nPCh non seulement pour leurs propres\fPokémon, mais aussi pour ceux de leur\fpartenaire.\rLes deux Dresseurs gagnent des PCh en\nremportant des matchs.\rLe but est de maintenir une série de\nvictoires tout en gérant vos PCh.\rSi vous parvenez à gagner sept matchs\nd’affilée, vous gagnerez des Points\fCombat (PCo).\rÀ noter : un défi de Combat Multi du\nChâteau de Combat ne peut être\finterrompu.\r
+6	À bientôt !
+7	Veuillez sélectionner les Pokémon que\nvous souhaitez engager.\r
+8	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 1, 0} Pokémon différents\npour participer.\r
+9	De plus, les Œufs ne sont pas admis.\r
+10	Les Œufs et {STRVAR_1 0, 1, 0} ne sont\npas admis.\r
+11	Les Œufs, {STRVAR_1 0, 1, 0}\net {STRVAR_1 0, 2, 0} ne sont pas admis.\r
+12	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0} et {STRVAR_1 0, 3, 0}\fne sont pas admis.\r
+13	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0}\fet {STRVAR_1 0, 4, 0} ne sont pas admis.\r
+14	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0} et {STRVAR_1 0, 5, 0}\fne sont pas admis.\r
+15	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0}\fet {STRVAR_1 0, 6, 0} ne sont pas admis.\r
+16	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0} et {STRVAR_1 0, 7, 0}\fne sont pas admis.\r
+17	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}\fet {STRVAR_1 0, 8, 0} ne sont pas admis.\r
+18	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0} et {STRVAR_1 0, 9, 0}\fne sont pas admis.\r
+19	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0}\fet {STRVAR_1 0, 10, 0} ne sont pas admis.\r
+20	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0} et {STRVAR_1 0, 11, 0}\fne sont pas admis.\r
+21	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0}\fet {STRVAR_1 0, 12, 0} ne sont pas admis.\r
+22	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0} et {STRVAR_1 0, 13, 0}\fne sont pas admis.\r
+23	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}\fet {STRVAR_1 0, 14, 0} ne sont pas admis.\r
+24	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0} et {STRVAR_1 0, 15, 0}\fne sont pas admis.\r
+25	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0}\fet {STRVAR_1 0, 16, 0} ne sont pas admis.\r
+26	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0},\f{STRVAR_1 0, 16, 0} et {STRVAR_1 0, 17, 0}\fne sont pas admis.\r
+27	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0},\f{STRVAR_1 0, 16, 0}, {STRVAR_1 0, 17, 0}\fet {STRVAR_1 0, 18, 0} ne sont pas admis.\r
+28	Revenez me voir quand tout sera en\nordre.\r
+29	Les deux Dresseurs ont choisi le\nPokémon {STRVAR_1 0, 0, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.\r
+30	Les deux Dresseurs ont choisi les\nPokémon {STRVAR_1 0, 0, 0} et {STRVAR_1 0, 1, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.\r
+31	Vous devez sauvegarder la partie avant\nque je vous fasse entrer. D’accord ? {YESNO 0}
+32	Par ici, je vous prie !
+33	Vous nous avez manqué !\rVous devez sauvegarder la partie avant\nde reprendre votre défi. Veuillez\fpatienter.
+34	Excusez-moi !\rVous n’avez pas sauvegardé avant\nd’interrompre votre dernier défi.\rVotre défi a donc été annulé !\r
+35	Félicitations !\rEn reconnaissance de votre victoire,\nnous vous offrons une estampe\fcommémorative !\r
+36	L’Estampe Or a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+37	L’Estampe Argent a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+38	COMBAT SIMPLE
+39	COMBAT DOUBLE
+40	RELEVER DÉFI
+41	INFOS
+42	ANNULER
+43	Un Dresseur doit sélectionner\n“ÊTRE LE CHEF”.\rL’autre Dresseur doit sélectionner\n“REJOINDRE”. {YESNO 0}
+44	Il faut lancer la communication\nsans fil DS. {YESNO 0}
+45	Vous devez sauvegarder la partie avant\nque je vous fasse entrer. Veuillez\fpatienter.
+46	Écoute bien !\rSi tes Pokémon gagnent sans subir de\ndégâts, tu gagnes plus de PCh.\fPlus on en a, mieux c’est !\fRegarde-moi. Je n’en ai pas beaucoup...
+47	Écoute !\rTu peux gagner plus de Points Château,\nou PCh, en affrontant des adversaires\fde plus haut niveau.\rC’est ce qu’on appelle un grand risque\npour un grand gain !
+48	Avant chaque combat, vérifie l’équipe\nde l’adversaire.\rNe sois pas radin avec tes PCh.\nComme dit le vieux proverbe : connais\fton ennemi.\r“Si tu n’entres pas dans l’antre de\nl’ennemi, tu n’en tireras aucun butin.”\r...\fCe n’est pas le bon proverbe !
+49	M. Darach...\rSes sentiments pour Lady Caitlin sont\ntous refoulés...\rOh, comme je soupire après lui...
+50	Au début, tu ne peux utiliser les PCh\nque pour restaurer les PV.\rMais tu peux dépenser des PCh pour\nmonter en rang. Ensuite, tu peux même\frestaurer les PP !
+51	Si tu perds, tout ton stock de PCh\nest remis à zéro !\rC’est la règle au Château de Combat.
+52	Mon rêve est de porter une belle robe\net de vivre dans un château !\rCe n’est pas ce que je voulais dire...\rMon rêve est de vivre dans un château\navec quelqu’un qui porte une belle\frobe !
