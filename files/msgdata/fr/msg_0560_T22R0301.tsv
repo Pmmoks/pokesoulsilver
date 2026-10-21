@@ -1,0 +1,30 @@
+0	Earl, je suis !\nMerveilleux, les Pokémon sont, oui !\rUn meilleur Dresseur, t’apprendre je\nvais !\rQue veux-tu savoir ?\nGagnant, tu veux devenir ? {YESNO 0}
+1	Bien ! T’apprendre, je vais ! Au\ncombat, le Pokémon en haut de la liste,\fcelui qui marche, sort en premier !\rL’ordre de la liste changer, le combat\nfacile rendre, peut-être !\rEn savoir plus, tu veux ? {YESNO 0}
+2	Alors, bien élever les Pokémon,\ntu veux savoir comment ? {YESNO 0}
+3	Bien ! T’apprendre, je vais !\nSi un Pokémon sort au combat, même\fbrièvement, des Points Exp. il reçoit.\rLe Pokémon faible, dehors le laisser,\npuis vite changer au combat !\rAinsi, très fort, le Pokémon faible\ndeviendra !\fEn savoir plus, tu veux ? {YESNO 0}
+4	Alors, bien combattre,\ntu veux savoir comment ? {YESNO 0}
+5	Bien ! T’apprendre, je vais ! Les\nPokémon des forces et des faiblesses\font car de nombreux types il y a.\rUn Pokémon de haut niveau toujours ne\ngagne pas si mauvais type il a.\rUn Pokémon au bon type\ncontre l’ennemi, tu choisiras.\fCombat intelligent, c’est !
+6	Oh ! Intelligent élève tu es !\nPlus rien à t’apprendre j’ai !\rGentil avec les Pokémon, tu dois être !
+7	Je prends des notes du cours du\nprofesseur.\rJe ferais mieux de recopier aussi ce qui\nest écrit au tableau.
+8	J’ai échangé mon meilleur Pokémon avec\nle gars à côté de moi.
+9	Hein ? Le Pokémon que je viens d’avoir\ntient quelque chose !
+10	...Certaines Baies peuvent rendre des\nPV à un Pokémon.\rBeaucoup d’autres objets peuvent être\ntenus par des Pokémon...\rC’est fou ce que c’est dur de prendre\ndes notes...
+11	Les Pokémon ont ce qu’on appelle\ndes talents !\rOn dirait que chaque espèce de Pokémon\na des talents bien à elle.\rParaît-il que ces talents sont très\nutiles en combat !
+12	Le tableau explique les changements de\nstatut des Pokémon en combat.\r
+13	Lire quel sujet ? {YESNO 0}
+14	Empoisonné, un Pokémon perd des PV\nrégulièrement.\rLe poison persiste après le combat, et\ntu perds des PV en marchant.\fPour le soigner, utilise un Antidote.\r
+15	La paralysie réduit la Vitesse et peut\nempêcher d’agir.\rElle persiste après le combat, alors\nutilise un Anti-Para.\r
+16	Endormi, ton Pokémon ne peut utiliser\nque certaines capacités, comme Blabla\fDodo et Ronflement.\rUn Pokémon endormi ne se réveille pas\naprès le combat.\fRéveille-le avec un Réveil.\r
+17	Une brûlure consume des PV petit à\npetit et réduit aussi l’Attaque.\rUne brûlure persiste après le combat.\nUtilise un Anti-Brûle pour la soigner.\r
+18	Si ton Pokémon est gelé,\nil ne peut rien faire.\rIl reste gelé après le combat.\nFais-le dégeler avec un Antigel.\r
+19	C’est le cahier de cet enfant...\r“Capture des Pokémon avec des Poké\nBalls. Tu peux en avoir six dans ton\féquipe.”\rContinuer à lire ? {YESNO 0}
+20	“Avant de lancer une Poké Ball,\naffaiblis d’abord la cible.”\r“Un Pokémon empoisonné ou brûlé est\nplus facile à capturer.”\rContinuer à lire ? {YESNO 0}
+21	“Certaines capacités peuvent causer de\nla confusion. La confusion peut faire\fque le Pokémon s’attaque lui-même.”\r“Quitter le combat fait disparaître\ntoute confusion.”\rContinuer à lire ? {YESNO 0}
+22	“Ceux qui capturent des Pokémon et les\nutilisent en combat sont appelés\fDresseurs Pokémon.”\r“On attend d’eux qu’ils visitent les\nArènes Pokémon et battent d’autres\fDresseurs.”\rLa page suivante est... Blanche !\r
+23	Garçon : Hé hé hé...\nJe n’ai pas écrit la suite...
+24	POISON
+25	PARALYSIE
+26	SOMMEIL
+27	BRÛLURE
+28	GEL
+29	QUITTER

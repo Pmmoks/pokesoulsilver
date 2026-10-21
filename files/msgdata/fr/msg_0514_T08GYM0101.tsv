@@ -1,0 +1,19 @@
+0	Fufufufu...\nDésolée de te décevoir...\rJe plaisante ! Je suis la vraie !\rJeannine de l’Arène de Parmanie, c’est\nmoi !\r
+1	Jeannine : Je vois... Tu as vaincu\nKoga, mon père et membre du\fConseil 4, pour arriver jusqu’ici.\rPas étonnant que tu sois si\nredoutable !\rTu as bien gagné...\nVoici le Badge Âme. Prends-le.\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Âme de Jeannine !
+3	Jeannine : Tu es coriace !\nJ’ai un cadeau spécial !\rC’est Direct Toxik, une puissante\ncapacité de type Poison qui peut\fempoisonner sa cible.\r
+4	Jeannine : Je vais vraiment me donner\nà fond pour progresser.\rJe veux devenir bien meilleure que\nmon père et que toi !
+5	Yo ! Futur légende !\nOups ! Regarde bien autour de toi.\rLes Dresseurs ressemblent tous à la\nChampionne, Jeannine.\rLequel est la vraie Jeannine ?
+6	Quel super combat,\nDresseur de Johto !
+7	Tu t’es fait avoir !\nHahaha !\r
+8	Alors ? Mon déguisement était parfait,\nnon ?
+9	Wahahaha !\rEt oui ! Je suis Jeannine !\r
+10	Eh oui, je suis un garçon !\nQu’est-ce qu’il y a de mal à ce qu’un\fgarçon se déguise en Jeannine ?
+11	Fufufu !\rJe suis Jeannine, la Championne !\fEn fait, non ! C’était un piège !\r
+12	Tu t’es fait avoir !\nHahaha !\r
+13	C’est tellement drôle de se déguiser en\nJeannine, notre idole !
+14	Je suis Jeannine !\nComment as-tu su que j’étais la vraie ?\fCombattons !\r
+15	Ou pas !\r
+16	Je me sens plus fort en me déguisant\nen Jeannine.
+17	Arène Pokémon de Parmanie
+18	Arène Pokémon de Parmanie\rChampionne : Jeannine\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

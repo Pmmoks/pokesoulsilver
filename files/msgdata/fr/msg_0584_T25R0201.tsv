@@ -1,0 +1,5 @@
+0	Soupir... J’ai ouvert une\nsuccursale ici, mais je n’arrive pas\fà vendre mes Vélos. Pourquoi donc ?\rPourrais-tu rouler à Vélo pour me\nfaire de la pub ? {YESNO 0}
+1	Vraiment ? Génial !\rDonne-moi ton nom et ton numéro de\ntéléphone, et je te prête un Vélo. {YESNO 0}
+3	Le magasin principal est à Azuria,\nà Kanto.\rDis bonjour au gérant si tu y vas !\rNos Vélos sont de première qualité !\nTu peux les utiliser à Kanto aussi !
+4	Soupir... Ah, la gentillesse des\ngens...
+5	C’est un Vélo tout neuf et\nbrillant !

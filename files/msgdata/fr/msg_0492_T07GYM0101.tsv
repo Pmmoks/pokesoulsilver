@@ -1,0 +1,7 @@
+0	Erika : Bonjour...\nQuel beau temps, n’est-ce pas ?\rC’est si agréable...\nJe crains de m’assoupir...\rMon nom est Erika. Je suis la\nChampionne de l’Arène de Céladopole.\r...Oh ? Tu viens de Johto, dis-tu ?\fComme c’est charmant...\rOh. Pardonne-moi, je n’avais pas\ncompris que tu souhaitais me défier.\rJe vois.\rJe me suis entraînée non seulement\nà l’art floral\fmais aussi au combat Pokémon.\rJe ne perdrai pas.\r
+1	Erika : Oh !\nJe m’avoue vaincue...\rTa force est remarquable... Je vais\nte donner le Badge Arc-en-ciel...\r
+2	{STRVAR_1 3, 0, 0} a reçu\nle Badge Arc-en-ciel.
+3	Erika : Ce fut un combat délicieux.\nJ’ai été inspirée.\rJe t’en prie, accepte cette CT19\nen gage de mon estime.\rC’est Giga-Sangsue. Une\nmerveilleuse capacité qui absorbe la\fmoitié des dégâts infligés pour\fsoigner ton Pokémon.\rC’est une capacité vraiment\neffroyable.\r
+4	Erika : Perdre laisse un goût\namer...\rMais savoir qu’il existe des\nDresseurs forts m’incite à mieux\ffaire...
+5	Arène Pokémon de Céladopole
+6	Arène Pokémon de Céladopole\rChampionne : Erika\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

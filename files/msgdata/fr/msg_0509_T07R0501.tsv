@@ -1,0 +1,36 @@
+0	Je voulais PORYGON, mais il me manquait\n100 jetons...
+1	Ouf...\rIl faut que je garde mon calme...\rJe ne dois pas perdre mon sang-froid.\nSi je passe tout mon temps à jouer ici,\fj’aurai des ennuis à la maison.
+2	Mon potentiel s’est révélé à moi !\rMais quel potentiel s’est éveillé en\nmoi ? Quel est mon pouvoir caché,\fdemandes-tu ?\rC’est un pouvoir qui me permet de voir\nla Puiss. Cachée d’un Pokémon.\rQuand il apprend cette capacité, je\nsais quel sera le type de la capacité.\rAlors, veux-tu que j’utilise mon\npouvoir caché ?\rJe te dirai quel sera le type de la\nPuiss. Cachée de ton Pokémon. {YESNO 0}
+3	Je te dirai quel sera le type de la\nPuiss. Cachée de ton Pokémon.\rMon propre pouvoir caché me permet\nde le faire. {YESNO 0}
+4	Si ce Pokémon apprenait Puiss.\nCachée, le type de la capacité serait\f{STRVAR_1 15, 0, 0}.
+5	La Puiss. Cachée de ce Pokémon est\nde type {STRVAR_1 15, 0, 0}.
+6	Si tu veux savoir, demande-moi, et\nj’activerai mon pouvoir caché pour\ftoi.
+7	Une capacité qu’un Œuf peut\napprendre ?! C’est tout bonnement\fimpossible.
+8	Oh non. Ce Pokémon ne peut même pas\napprendre la capacité Puiss. Cachée.
+9	Bienvenue !\rNous échangeons vos jetons de jeu\ncontre de superbes lots ! {YESNO 0}
+10	D’accord. Gardez vos jetons et\nrevenez nous voir !
+11	Désolé ! Il vous faut plus de jetons. {YESNO 0}
+12	{STRVAR_1 8, 0, 0}.\nC’est bien cela ? {YESNO 0}
+13	Voici !\r
+14	Désolé. Vous ne pouvez pas en porter\nplus.\r
+15	Votre équipe est complète !\nFaites de la place\favant de revenir.
+16	Voulez-vous {STRVAR_1 0, 1, 0} ? {YESNO 0}
+17	{STRVAR_1 3, 0, 0} a reçu\n{STRVAR_1 0, 1, 0} ! {YESNO 0}
+18	Bienvenue !\rNous échangeons vos jetons contre\nde superbes lots ! {YESNO 0}
+19	Vous avez rangé {STRVAR_1 8, 0, 0}\ndans la Poche {STRVAR_1 18, 1, 0}. {YESNO 0}
+20	ANNULER
+21	CAPSULE TECHNIQUE
+22	OBJETS TENUS
+23	TÉNACITÉ\n2 000 jetons
+24	REFLET\n4 000 jetons
+25	PUISS. CACHÉE\n6 000 jetons
+26	PSYKO\n10 000 jetons
+27	GYROBALLE\n10 000 jetons
+28	GIGA IMPACT\n15 000 jetons
+29	MOUCHOIR SOIE\n1 000 jetons
+30	LOUPE\n1 000 jetons
+31	LENTILLE ZOOM\n1 000 jetons
+32	MÉTRONOME\n1 000 jetons
+33	M. MIME{CURSOR_X 90}3 333 jetons
+34	EVOLI{CURSOR_X 90}6 666 jetons
+35	PORYGON{CURSOR_X 90}9 999 jetons

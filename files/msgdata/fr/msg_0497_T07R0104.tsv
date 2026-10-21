@@ -1,0 +1,19 @@
+0	Albert : De tous les Dresseurs qui\nexistent, le meilleur Dresseur\fest sûrement mon père.\r
+1	Jeannine : Ha !\nTu ne sais rien du tout !\rLe meilleur Dresseur du monde est\nKoga, un membre du Conseil 4 ! À\fsavoir... mon père !\r
+2	Albert : Tu te trompes.\nMon père traite les Poké...\r
+3	Jeannine : Arrête !\nPourquoi tu n’admets pas que mon père\fest le vrai Dresseur !\r
+4	Albert : Tu écoutais, non ?\nTu es d’accord que mon père est\fmeilleur, n’est-ce pas ? {YESNO 0}
+5	Albert : Ah bon ?\nC’est ce que je pensais !\rTu sais quoi ?\nJe suis sûr qu’on s’amusera à parler\fde mon père !\fVoici mon numéro !\r
+6	{STRVAR_1 3, 0, 0} a enregistré Albert\ndans le Pokématos !
+7	Albert : Appelle-moi le samedi matin\nsi tu veux entendre parler de\fmon père !
+8	Albert : Non ?\nJe te croyais plus malin que ça.\rEnfin bon.\fTu finiras par changer d’avis.
+9	Albert : Alors, tu as changé d’avis.\nTu penses maintenant que mon père\fest meilleur ? {YESNO 0}
+10	Albert : Dis, et si on prenait\nune photo ensemble ? {YESNO 0}
+11	Albert : Très bien !\nOn y va ?\r
+12	Albert : Voilà !\nOn est bien.
+13	Albert : Ce n’est pas grave. Je vais\nen prendre une avec mon père...
+14	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.
+15	Jeannine : Pfff !
+16	Je viens acheter des Lettres Fleur\npour les envoyer à ma copine.
+17	Tu sais quoi ?\rLes Lettres Mine sont enfin disponibles\nau Centre Commercial !\rAvant, elles n’étaient vendues\nqu’à Mauville.
+18	Des cadeaux pour vous exprimer !\n3e étage - Cadeaux du Sage

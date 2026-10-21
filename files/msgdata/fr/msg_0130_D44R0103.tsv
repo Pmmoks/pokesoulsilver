@@ -1,0 +1,32 @@
+0	Hm... Content de te voir ici.\fPas besoin d’expliquer ta venue.\rC’est Sandra qui t’envoie, n’est-ce\npas ? Cette fille est un vrai\fcasse-tête...\rJe suis désolé, mais je dois te\nmettre à l’épreuve.\rNe t’inquiète pas, tu n’auras que\nquelques questions à répondre.\fPrêt ?\r
+1	Que sont les Pokémon pour toi ? {YESNO 0}
+2	Qu’est-ce qui t’aide à gagner des\ncombats ? {YESNO 0}
+3	Quel genre de Dresseur souhaites-tu\naffronter ? {YESNO 0}
+4	Qu’est-ce qui compte le plus pour\nélever des Pokémon ? {YESNO 0}
+5	Pokémon fort. Pokémon faible.\nLequel est le plus important ? {YESNO 0}
+6	Hm... Je vois...\nTu aimes profondément les Pokémon.\rC’est très louable.\fC’est cette conviction qui compte !\r{STRVAR_1 3, 0, 0}, ne perds pas cette foi.\rElle te guidera jusqu’au bout à la\nLigue Pokémon.\r
+7	Hein ? Je n’ai pas bien compris...\r
+8	Qu’as-tu dit ?
+9	Oh, je comprends...\r
+10	Alors, comment ça s’est passé ?\rJe suppose que ça ne sert à rien de\ndemander. Tu as échoué ? ...\f...Quoi ? Tu as réussi ?\r
+11	{SIZE 200}Impossible !{SIZE 100}\r
+12	Tu mens !\nMême moi, je n’ai pas été approuvée !\r
+13	Sandra !\rCet enfant est irréprochable, en\ntalent comme en esprit !\rAdmets ta défaite et remets-lui le\nBadge Ascension !\r...Ou dois-je en informer Peter ?\r
+14	Je... Je comprends...\r
+15	Tiens, voici le Badge Ascension...\nDépêche-toi ! Prends-le !\r
+16	{STRVAR_1 3, 0, 0} reçoit le Badge\nAscension de la part de Sandra !
+17	Le Badge Ascension permet à tes\nPokémon d’utiliser la capacité pour\fgrimper les cascades.\rDe plus, tous les Pokémon sauront\nque tu es un Dresseur et t’obéiront\fau doigt et à l’œil, sans discuter.\r
+18	Sandra...\rRéfléchis à ce qui te manque et que\ncet enfant possède.\r
+20	Au fait...\nAs-tu entendu parler de LUGIA ?\rC’est un Pokémon qui aurait vécu\nautrefois près des Tourb’Îles...\f...Oublie ça.\rDes paroles de vieux fou.\n
+21	Au fait...\nAs-tu entendu parler de LUGIA ?\fEuh...\rEntre Oliville et Irisia se trouvent\ndes îles appelées Tourb’Îles.\rIl y a une immense cascade au fond\nde la grotte. On dit que LUGIA\frepose au fond du bassin de la\fcascade...\rIl faut une Argent’Aile pour\natteindre le bassin, d’après ce que\fj’ai entendu...
+22	Il y a une immense cascade au fond\nde la grotte. On dit que LUGIA\frepose au fond du bassin de la\fcascade...\rIl faut une Argent’Aile pour\natteindre le bassin, d’après ce que\fj’ai entendu...
+23	Reviens, si le cœur t’en dit.
+24	Cela faisait bien longtemps qu’un\nDresseur n’avait pas obtenu\fl’approbation rare de notre Maître.\rEn fait, pas depuis le Maître Peter.
+25	Tu connais le jeune Maître Peter ?\rIl ressemble tellement à notre\nMaître dans sa jeunesse. C’est dans\fle sang.
+26	Hm... Content de te voir ici.\rTa venue est des plus opportunes.\nJ’ai quelque chose pour toi.\rPrends ce MINIDRACO, en preuve que\nje connais désormais ta valeur.\r
+27	{STRVAR_1 3, 0, 0} reçoit MINIDRACO\ndu Maître !
+28	Hm ? Ton équipe est pleine.
+29	Les Pokémon de type Dragon\nsymbolisent notre clan.\rTu as montré qu’on peut t’en confier\nun.
+30	Sandra semble avoir appris une\nprécieuse leçon grâce à toi.\rJe te remercie en tant que son\ngrand-père.
+31	Un garçon de ton âge s’entraîne ici.\rIl ressemble beaucoup à Sandra\nquand elle était plus jeune. C’est un\fpeu inquiétant...
+32	Donner un surnom au MINIDRACO\nreçu ? {YESNO 0}

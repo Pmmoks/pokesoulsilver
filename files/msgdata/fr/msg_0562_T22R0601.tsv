@@ -1,0 +1,6 @@
+0	Un Pokémon obtenu par échange\ngrandit vite.\rMais si tu n’as pas le bon Badge\nd’Arène, il peut désobéir.
+1	Je collectionne les Pokémon.\nTu as un CHETIFLOR ?\rTu veux l’échanger contre mon\nONIX ? {YESNO 0}
+2	Youpi ! J’ai mon CHETIFLOR !\nMerci !
+3	Hein ? Ce n’est pas un CHETIFLOR.\fQuelle déception...
+4	Tu ne veux pas échanger ? Oh...
+5	Salut, comment va mon vieil ONIX ?

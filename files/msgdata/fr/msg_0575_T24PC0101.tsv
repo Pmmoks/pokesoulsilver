@@ -1,0 +1,7 @@
+0	Tu as rencontré le maniaque de cette\nville ?\rIl se vante toujours de ses\nPokémon rares.
+1	On ne peut pas s’empêcher de montrer\nses Pokémon, tu ne trouves pas ?\rJ’aimerais montrer les miens à un ami\nqui habite à Mauville...
+2	Les Pokémon de cette Arène sont tous\ncostauds et coriaces.\rIls pourraient m’envoyer valser en un\ninstant. Laisse-moi te donner un\fconseil.\rLe Champion d’Arène utilise des Pokémon\nde type Combat.\rTu peux essayer de les duper avec des\nPokémon de type Psy.\rOu simplement les battre avant qu’ils\npuissent montrer leur force.\rAu fait, Chuck, le Champion d’Arène,\nest en plein entraînement sous sa\fcascade.\rIl ne pourra pas t’entendre à moins que\ntu arrêtes d’une façon ou d’une autre\fl’eau qui tombe.
+3	{STRVAR_1 3, 0, 0} ! Tu as gagné, n’est-ce\npas ? Ça se lit sur ton visage.
+4	Hein ? Tu aurais...\nun seul Pokémon ?\rÇa doit être difficile pour toi.\n...\rJ’ai une idée !\nJe te donne un TENTACOOL !\rJ’en ai attrapé un peu trop.\nJe comptais le relâcher,\falors prends-le. Vas-y !\r
+5	{STRVAR_1 3, 0, 0} reçoit\nTENTACOOL !
+6	Veux-tu donner un surnom à\nTENTACOOL ? {YESNO 0}

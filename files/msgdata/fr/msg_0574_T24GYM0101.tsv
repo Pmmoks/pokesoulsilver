@@ -1,0 +1,15 @@
+0	Chuck : Houuf !\nLa cascade qui me martèle la tête...\fArrgh !\rPourquoi as-tu arrêté la cascade\nqui me tombait dessus !\rTu viens de gâcher mon entraînement !\nJe te préviens, je suis un Dresseur\fcoriace qui s’entraîne tous les jours\fsous cette cascade !\rQuoi ?\nÇa n’a rien à voir avec les Pokémon ?\r...\nC’est vrai !\r...\n...\rAllez. Combattons !\r
+1	Chuck : Urggh !\n...\rOoaarrgh !
+2	Voilà ! Tu as peur, maintenant, hein ?\rQuoi ?\nÇa n’a rien à voir avec les Pokémon ?\fC’est vrai !\fAllez. Combattons !\r
+3	Chuck : Hmm... J’ai perdu ?\rEh bien dis donc !\nTrès bien. Tu es digne du\fBadge Tempête !\r
+4	{STRVAR_1 3, 0, 0} reçoit le Badge Tempête\nde la part de Chuck !
+5	Chuck : Le Badge Tempête permet à tes\nPokémon de Voler vers toutes les\fvilles et tous les bourgs déjà\fvisités !\rTiens, prends ça aussi !\r
+6	Chuck : C’est Mitra-Poing.\rIl échoue si l’ennemi que tu attaques\nte touche d’abord, mais il est très\fpuissant s’il réussit à toucher !
+7	Argh... Ton Sac est plein à craquer !
+8	Chuck : Wahahah !\nJ’ai adoré me battre contre toi !\rMais une défaite est une défaite !\rÀ partir de maintenant, je m’entraîne\n24 heures sur 24 !
+9	Il est tellement absorbé par son\nentraînement qu’il ne semble pas te\fvoir.
+10	Il y a un gros treuil.\nVeux-tu le tourner ? {YESNO 0}
+11	{STRVAR_1 3, 0, 0} fait tourner le treuil\nde toutes ses forces !\r
+12	Il ne tourne plus.
+13	Arène Pokémon d’Irisia
+14	Arène Pokémon d’Irisia\rChampion d’Arène : Chuck\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

@@ -1,0 +1,18 @@
+0	Attends !\nPourquoi tant de hâte ?\r
+1	{STRVAR_1 3, 0, 0}, c’est bien ça ?\nUn type à lunettes te cherchait.\fVa voir. Il t’attend à la\nBoutique Pokémon.
+2	{STRVAR_1 3, 0, 0}, c’est bien ça ?\nUn type à lunettes te cherchait.\fVa voir. Il t’attend à la\nBoutique Pokémon.\r
+3	Tu as déjà visité l’Arène Pokémon ?\rOn peut y mettre à l’épreuve ses\nPokémon et soi-même.\rC’est un rite de passage pour tous\nles Dresseurs !
+4	Tu as déjà visité l’Arène Pokémon ?\rOn peut y mettre à l’épreuve ses\nPokémon et soi-même.\rC’est un rite de passage pour tous\nles Dresseurs !\r
+5	Tu as de bons Pokémon.\rÇa doit venir de l’entraînement que tu\nleur as donné autour de Mauville.\rL’entraînement à l’Arène a dû être\nparticulièrement utile.\rEn souvenir de Mauville, prends ceci.\rIl augmente la puissance des capacités\nde type Plante.\r
+7	Tes expériences à Mauville devraient\nt’être utiles pour ton voyage.
+8	Hé, ton Sac est plein à craquer.
+9	Hé, ton Sac est plein à craquer.\r
+10	WROOOOAR !\rLES GENS FUIENT QUAND JE RUGIS !\nMAIS TOI, TU VIENS À MOI !\rÇA ME FAIT PLAISIR !\nALORS PRENDS ÇA !\r
+12	WROOOAR !\nC’EST UN RUGISSEMENT !\rMÊME LES POKéMON FUIENT\nDEVANT UN BON RUGISSEMENT !
+13	WROOOAR ! TON SAC EST PLEIN !
+14	Que dirais-tu de cette savoureuse et\nnutritive Queue Ramoloss ?\rPour toi, maintenant, seulement\n1 000 000 $ ! Tu en auras besoin ! {YESNO 0}
+15	Tss ! Je croyais que les gamins\nd’aujourd’hui étaient blindés...
+16	Tu n’en veux pas ?\nAlors du balai. Ouste !
+17	Route 32\nÉcorcia au sud
+18	Ruines d’Alpha\nEntrée est
+19	Caves Jumelles en vue

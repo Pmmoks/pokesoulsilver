@@ -1,0 +1,5 @@
+0	Hector : Je suis venu à Kanto\nchercher des Pokémon de type\fInsecte pour devenir un meilleur\fDresseur de ce type !\rDis, si on échangeait nos numéros ? {YESNO 0}
+1	{STRVAR_1 3, 0, 0} a enregistré Hector\ndans le Pokématos !
+2	Hector : On peut se battre vers midi\nle jeudi ! Appelle-moi !
+3	Hector : Tant pis...\nCe n’est pas grave...
+4	Hector : Tu me donnes ton numéro de\ntéléphone ? {YESNO 0}

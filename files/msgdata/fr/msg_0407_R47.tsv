@@ -1,0 +1,10 @@
+0	Tiens, bonjour !\rOn dit qu’au-delà de ce trou se\ndressait autrefois une immense tour qui\fmontait bien haut dans le ciel.\rOn raconte que c’était une tour plutôt\nétrange, à moitié enfouie dans la\ffalaise.\rElle ne montait pas seulement vers le\nciel, elle descendait aussi très\fprofondément sous terre !\rOn dit même qu’elle atteignait le fond\nde l’océan !\rEn bref, ces ruines reliaient autrefois\nle ciel, la terre et la mer.\rLa majeure partie de la tour est en\nruine, et il ne reste que l’entrée et\fson intérieur, où l’on voit d’étranges\fmotifs.
+1	Je pense que ce bâtiment a pu être\nconstruit pour honorer des Pokémon\fliés à la mer, à la terre et au ciel.
+2	Un homme masqué qui a fière allure\ndevant une immense cascade\ftorrentielle... C’est moi, Lovis !\rQui ose me parler aussi librement ?\rOh ! Tu es ce Dresseur fanatique de\nmasques que j’ai vu au Grand Magasin de\fCéladopole !\r
+3	Lovis : J’ai entendu parler de la grande\ncascade près d’Irisia et j’ai décidé\fde venir la voir.\rCette cascade est géniale !\rAucun humain ni aucun Pokémon ne peut\nsurvivre sans eau, et pourtant cette\fmême eau peut parfois causer de\fgrandes souffrances.\r
+4	Lovis : Tu dois être un Dresseur de\ncette région, non ?\rJ’espère que tu deviendras un Dresseur\naux qualités de l’eau : puissant,\fdifficile à battre, et pourtant\frafraîchissant.\rBonne chance, fanatique de masques\n{STRVAR_1 3, 0, 0} !\r
+5	Chuck : Ooomph !\nTu as fait tout ce chemin pour me voir ?\rAlors autant faire une photo avec moi\naussi. Oui ? {YESNO 0}
+6	Chuck : Souris !\nNe ferme pas les yeux !\r
+7	Chuck : Super photo !\nCe sera aussi un bon souvenir pour toi !
+8	Chuck : Non ? Tu as fait tout ce chemin\njuste pour dire non ?
+9	Ton Album Photo est plein.\rVa sur ton PC supprimer\ndes photos.

@@ -1,0 +1,19 @@
+0	Un arbre bizarre !\nUtiliser le Carapuce à O ? {YESNO 0}
+1	{STRVAR_1 3, 0, 0} utilise\nle Carapuce à O !\r
+2	L’arbre bizarre n’aime pas le\nCarapuce à O !\rL’arbre bizarre attaque !\r
+3	Yo !\rN’as-tu jamais été gêné par un rocher\nqui te bloquait le chemin ? Bien sûr que\fsi !\rPour les gens comme toi, il existe une\nCS qui vient à ta rescousse !\r
+4	C’est toi qui as réglé son compte à\nl’arbre bizarre qui bloquait le chemin ?\rQuel Dresseur tu fais !\nPrends ça !\r
+5	Elle contient Éclate-Roc, qui met K.O. !\rTu peux même l’utiliser pour briser des\nrochers dès que tu auras le Badge de\fl’Arène de Mauville !\rMais attention !\nLes capacités cachées comme celle-ci\fsont difficiles à faire oublier à un\fPokémon qui les a apprises.\rRéfléchis bien au Pokémon qui\ndoit l’apprendre.
+6	Ton Sac est plein !
+7	Un arbre bizarre bloque le chemin de\nRosalia.\rÇa m’empêche de faire mes courses.\fIl faudrait y remédier.
+8	L’arbre bizarre a disparu, comme s’il\nétait parti en marchant...!\fQuoi ? C’était un Pokémon ?\rEnfin, je vais pouvoir aller à Rosalia\nfaire mes courses.\rSi tu suis le chemin d’où se trouvait\nl’arbre bizarre, tu arriveras\fà Rosalia !
+9	Route 36\nRosalia au nord
+10	Ruines d’Alpha\nEntrée nord
+11	Conseil Dresseur\rDes Pokémon de la même espèce peuvent\nse ressembler mais grandir\fdifféremment.\rLeurs forces semblent identiques au\ndébut, mais elles peuvent changer\fen grandissant.
+12	Conseil Dresseur\rLa capacité Tunnel permet de revenir\nà l’entrée quand on l’utilise.\rSi tu veux explorer une grotte ou un\nlieu similaire, un Pokémon qui connaît\fTunnel sera très utile.
+13	Je suis Floria, du Fleuriste !\rÉcoute, écoute ! Quand j’ai arrosé cet\narbre qui se tortille, il a bondi !\rÇa doit être un Pokémon.\rJe parie qu’il cesserait de se déguiser\nsi on le trempait !
+14	Je suis Floria, du Fleuriste !\rÉcoute, écoute ! Quand j’ai arrosé cet\narbre qui se tortille, il a bondi !\fÇa doit être un Pokémon.\fSi on le trempait...\rOh, c’est le Carapuce à O !\rArrose l’arbre pour moi !\nJe veux voir ce qui se passe !
+15	C’était amusant !\rJe veux te donner ceci pour\nm’avoir divertie !\r
+16	Avec les Plante-Baies, tu peux faire\npousser n’importe quelle Baie de\fn’importe quelle région sans souci !\r
+17	C’est ça !\nJe te donne aussi des Baies.\rLes Plante-Baies ne servent à rien\nsans Baies.\r
+18	Il faut planter les Baies dans la terre.\nArrose-les de temps en temps.\fAlors elles pousseront fortes !\rJe dois retourner à Doublonville.\fTu vas à Rosalia ?\rAlors il faut aller vers le nord ici.\nÀ plus !\r

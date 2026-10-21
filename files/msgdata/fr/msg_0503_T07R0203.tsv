@@ -1,0 +1,21 @@
+0	Je suis le Directeur du jeu !\rRemplir son Pokédex est difficile,\nmais ne renonce pas !\rTu peux y arriver ! Je suis sérieux !
+1	Waouh, tu as réussi !\nTu as rempli le\fPokédex de Johto !\rImpressionnant ! Je suis stupéfait !\nJe vais te récompenser pour ça !\fSans blague !\r
+2	Waouh ! Excellent !\nTu as complété ton Pokédex !\fFélicitations !\rTu dois être le génie du siècle !\nSans blague !\rGame Freak va te remettre un diplôme\nqui prouvera que c’est la vérité !\r
+3	Je parie que le chemin a été long pour\ncompléter le Pokédex.\rSouviens-toi que le plus précieux,\nc’est le temps que tu as passé à\ftravailler dur, à parcourir le monde\fpour compléter le Pokédex.\rJe viens de dire un truc profond !\nSans blague !
+4	Je suis le Graphiste !\nJe suis un as du pixel art !
+5	Je suis le Programmeur !\rJe contrôle le monde des jeux\ndu bout des doigts !
+6	Je suis le Planificateur !\nC’est moi qui trouve les bonnes idées !\rL’endroit où tu te trouves\nn’y échappe pas ! Hahaha !
+7	Je suis le Compositeur !\nJe compose la musique.\rJe te donnerai un truc génial si tu\nréunis les huit Badges de Kanto\fet que tu me les montres.
+8	Je suis le Compositeur !\nJe compose la musique.\rWaouh, tu as déjà réuni\ntous les Badges de Kanto !\fC’est génial !\rJe vais te donner un truc génial\npour ça.\r
+10	GB est un objet rectangulaire avec un\nécran noir et blanc sur lequel on\fjouait au Pokémon original... Attends !\fC’était une Game Boy !\rAllume-le et les Sons GB te feront\nentendre des sons nostalgiques.\rC’est un gadget plein de merveilles !\nEssaie-le à différents endroits !\rIl y a des endroits où tu n’entendras\npas de musique classique...\rMais c’est la vie !
+11	Je trouve les Sons GB incroyables !\nMême les lieux construits récemment\font de belles musiques classiques.\rContemple toute l’étendue de ma\npassion !\r...J’ai dit “contemple” ? Qu’est-ce\nque je raconte ?\rBref, essaie-les à différents\nendroits !\rIl y a des endroits où tu n’entendras\npas de musique classique...\rMais c’est la vie !
+12	Lyra : Salut, {STRVAR_1 3, 0, 0} !\r
+13	Ethan : Salut, {STRVAR_1 3, 0, 0} !\r
+14	Lyra : Devine quoi ?\rLe Compositeur, là-bas, m’a montré\nun truc génial.\rC’est une machine high-tech et rétro\npour écouter la musique de la Game\fBoy !\rIl a dit qu’il la donnerait à quiconque\na réuni tous les\fBadges de Kanto.\rPourquoi tu ne tenterais pas le coup,\n{STRVAR_1 3, 0, 0} ? À plus !\r
+15	Ethan : Devine quoi ?\rLe Compositeur, là-bas, m’a montré\nun truc génial.\rC’est une machine high-tech et rétro\npour écouter la musique de la Game\fBoy !\rIl a dit qu’il la donnerait à quiconque\na réuni tous les\fBadges de Kanto.\rPourquoi tu ne tenterais pas le coup,\n{STRVAR_1 3, 0, 0} ? À plus !\r
+16	Game Freak\nSalle de développement
+17	Cet ascenseur relie directement le\n1er étage et le toit.
+18	C’est le programme du jeu.\rY toucher pourrait le détruire.\nInterdit d’y toucher !
+19	Il y a des autocollants Pokémon\npartout sur le bureau !
+20	Il y a plein de recueils de photos\net de livres sur les mythes !
+21	Qu’en penses-tu ?\rJe suis le Président ici.\rNous sommes en train de refaire un\nvieux jeu, et c’est un sacré défi.\rLes anciens fans ne voudraient pas\nqu’on touche à leurs beaux\fsouvenirs... mais il ne sert à rien de\frefaire exactement la même chose,\fnon ?\rNous travaillons sur quelque chose qui\nravive les souvenirs, mais qui est aussi\fentièrement nouveau !\rJe suis dans ce métier depuis 20 ans,\net créer un jeu reste toujours un défi\fgratifiant !

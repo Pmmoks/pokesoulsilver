@@ -1,0 +1,20 @@
+0	Bois aux Chênes par là\nEntrée par le portail.
+1	{STRVAR_1 3, 0, 0} : ...Dis-moi.\rC’est vrai que la Team Rocket est\nde retour ?\rQuoi ? Tu les as battus ? Hah !\nArrête de mentir.\rC’est du sérieux ?\nAlors voyons ce que tu vaux.\r
+2	{STRVAR_1 3, 0, 0} : Je déteste les faibles.\rLes Pokémon, les Dresseurs.\nPeu importe qui ou quoi.\rJe déteste les voir traîner dans le\ncoin. La Team Rocket aussi.\rIls se croient grands et forts\ntant qu’ils sont en groupe.\rMais seuls, ils sont faibles.\nJe les déteste tous.\rReste hors de mon chemin.\nTu ne seras pas une exception\fsi tu te mets en travers.\r
+3	Il ne se passe rien. C’est dangereux\nd’entrer là-dedans, alors je monte la\fgarde pour que personne n’y aille.\rJe ne suis pas un bon Samaritain ?
+4	Tu connais la Queue Ramoloss ?\nIl paraît que c’est délicieux !\rÇa fait plaisir de le savoir, non ?
+5	Les RAMOLOSS ont disparu de la ville...\rJ’ai entendu dire que leurs queues\nse vendent quelque part.
+6	Les RAMOLOSS sont revenus.\rÀ les connaître, ils ont dû simplement\nse la couler douce quelque part.
+7	Tu viens demander à Fargas de\nfabriquer des Poké Balls ? Beaucoup\fde gens font ça.
+8	En traversant Écorcia, on arrive au\nBois aux Chênes.\rMais ces arbres maigrichons rendent\nle passage impossible.\rLe Pokémon du Charbonnier peut\nabattre des arbres.
+9	RAMOLOSS : ...\r...\r
+10	...Aaaah ?
+11	Écorcia Une ville où l’on vit heureux\navec les Pokémon
+12	Maison de Fargas\rDes Noigrumes et rien d’autre\nLe Fabricant de Poké Balls têtu
+13	Arène Pokémon d’Écorcia Champion :\nHector L’encyclopédie ambulante des\fPokémon Insecte
+14	Puits Ramoloss\nAussi appelé le Puits de la Pluie.\rLes habitants croient que le\nbâillement d’un RAMOLOSS fait venir la\fpluie.\rLes archives disent que le bâillement\nd’un RAMOLOSS a mis fin à une\fsécheresse il y a 400 ans.
+15	Charbonnerie\rNos CANARTICHO nous rapportent des\nbranches pour faire du charbon !
+16	Qui on est ?\nTu ne nous connais pas ?\rOn est...\nla Team Rocket !\r...Quoi ?\nOn s’est dissous il y a un moment ?\rLaisse-nous tranquilles !\nOn ne s’est pas dissous !\rEn fait si, une fois.\nMais on est revenus pour\fpoursuivre l’ambition de Giovanni.\rAssez parlé.\nTais-toi et dégage !\r
+17	{SIZE 200}Boum !{SIZE 100}\r
+18	Il y a un type coriace du nom de\nFargas dans cette ville. Il devrait\fpouvoir s’en occuper...
+19	Je savais qu’on pouvait compter sur\nFargas !

@@ -1,0 +1,28 @@
+18	Je patrouille à la recherche d’individus\nsuspects.
+19	Irene : Qui es-tu ?!\r
+21	Irene : Je vais le dire à ma sœur !\r
+22	Irene : Je vais le dire à ma sœur !
+23	Irene : Comment as-tu trouvé cet\nendroit ? C’est notre repaire !
+24	Jenn : Quoi...?\nQu’est-ce que tu fabriques ?\r
+26	Jenn : Ne ris pas trop vite.\nMa sœur est vraiment forte !
+27	Jenn : Toi et nous... Autant\nse lier d’amitié !
+28	Kate : Je dois te faire payer ce que tu\nas fait à mes sœurs !\r
+30	Kate : Quelle force.\nNous avons perdu sans rien à redire...\rTiens, prends ceci !\r
+32	Kate : Désolée de t’être tombées\ndessus.\rNous ne pensions pas que quelqu’un\nnous trouverait ici.\fTu nous as drôlement surprises.
+33	Route 34\nÉcorcia au sud
+34	Conseil Dresseur\rAu nord : Doublonville\nLa Tour Radio de Doublonville offre\fdes Cartes Radio.\rRépondez à leurs questions pour\nrecevoir une Carte Radio !
+35	Pension Pokémon Confiez-nous vos\nPokémon, nous les élevons !
+36	Lyra : Papi !\r
+37	Lyra : Bon travail, Papi !\nLe Pokémon que tu as élevé pour moi\fest en pleine forme !\rTu as l’air en forme aussi !\r
+38	Lyra : Salut, {STRVAR_1 3, 0, 0} !\r
+39	Je te présente.\nVoici {STRVAR_1 3, 0, 0}. C’est un Dresseur.\rIl semble s’améliorer dans l’élevage\nde Pokémon.\rEnfin, pas autant que toi, Papi,\nbien sûr !\r
+40	Suis-moi, {STRVAR_1 3, 0, 0} !\r
+41	Ethan : Papi !\r
+42	Ethan : Bon travail, Papi !\nLe Pokémon que tu as élevé pour moi\fest en pleine forme !\rTu as l’air en forme aussi !\r
+43	Ethan : Salut, {STRVAR_1 3, 0, 0} !\r
+44	Je te présente.\nVoici {STRVAR_1 3, 0, 0}. C’est une Dresseuse.\rElle semble s’améliorer dans l’élevage\nde Pokémon.\rEnfin, pas autant que toi, Papi,\nbien sûr !\r
+45	Suis-moi, {STRVAR_1 3, 0, 0} !\r
+46	J’ai une idée !\nJe vais vous donner nos numéros.\rComme ça, vous pourrez prendre des\nnouvelles des Pokémon que nous\félevons.\r
+47	{STRVAR_1 3, 0, 0} a enregistré le Monsieur de\nla Pension dans le Pokématos !
+48	{STRVAR_1 3, 0, 0} a enregistré la Dame de\nla Pension dans le Pokématos !
+49	Appelez-nous de temps en temps quand\nvous nous confiez vos Pokémon.\rJe serai content d’avoir une utilité\npour ce Pokématos que mon petit-enfant\fm’a offert.\r

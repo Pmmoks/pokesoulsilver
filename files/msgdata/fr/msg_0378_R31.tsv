@@ -1,0 +1,16 @@
+0	...Hnuurg ...Hein ?\rJ’ai trop marché aujourd’hui à\nchercher des Pokémon.\rMes pieds me font mal et j’ai sommeil...\rSi j’étais un Pokémon sauvage, je\nserais facile à capturer...\r...Zzzz...
+1	...Hnuurg ! ...Hein ?\rJ’ai envie de lire quelques mots sur\nun bout de papier ou quelque chose...\r...Zzz...\n...!!\r
+2	Hein ? Quoi ?\nQu’est-ce qu’il a, ce Pokémon ?\fJe n’ai pas de courrier.\rZzz...
+3	Cette Lettre n’est pas pour moi.
+4	Oh, tiens ! J’ai reçu un courrier !\r...\nHein ?\fJe ne connais pas ce Pokémon.\fJe te laisse t’en occuper.\r
+5	{STRVAR_1 3, 0, 0} a remis le Pokémon\nqui tenait la Lettre.
+6	{STRVAR_1 3, 0, 0} a remis la Lettre.
+7	Voyons...\r“Merci pour ta Lettre.\nC’était une aventure passionnante.\rMais je n’ai pas aimé NOSFERAPTI...”\nVoilà ce qu’elle dit.\rJ’ai visité une grotte sombre l’autre\njour avec un ami.\rCette grotte mène à une autre route.\nAu fait, je dois te remercier pour\fta gentillesse.\rJ’aimerais te rendre la pareille.\r
+8	La CT44, c’est...\n...Zzz...\f...\r...Euh... Repos !\rL’expression “récupérer vite” a été\nraccourcie en “Repos”, tu vois ?\fC’est une capacité pour dormir\fet récupérer des PV.
+9	...J’ai\nsommeil...
+10	...Attends !\nTu n’aurais plus aucun Pokémon !
+11	J’ai trouvé un bon Pokémon dans\nl’Antre Noir. Je vais l’élever pour\faffronter Albert.\rC’est le chef de l’Arène de Mauville.
+12	L’Antre Noir...\rSi un Pokémon pouvait l’éclairer,\nje l’explorerais.
+13	Route 31\nMauville à l’ouest
+14	Antre Noir
+15	Hein ? Qu’est-ce que c’est ?\nC’est un Œuf de Pokémon ?\fJe n’en ai jamais vu.\r...Zzz...

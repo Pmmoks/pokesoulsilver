@@ -1,0 +1,10 @@
+0	Route 42\nDe Rosalia à Acajou
+1	Mont Creuset\nGrotte de la Cascade
+2	Mont Creuset\nGrotte de la Cascade
+3	Route 42\nD’Acajou à Rosalia
+4	{SIZE 200}Boum !{SIZE 100}\r
+5	Oh là là !\rDésolé, je n’ai pas fait attention.\rTu t’es fait mal ?\rS’il te plaît, ne pleure pas.\nTiens, prends ça.\r
+6	C’est une capacité appelée Force !\rQuand un Pokémon l’apprend, il peut\ndéplacer les rochers sur ton chemin.\fProfite bien de l’escalade en\fmontagne !\r
+7	Eusine : SUICUNE...\nComme il est courageux !\fComme il est rafraîchissant !\fComme il est beau !\fEt comme il se déplace vite !\r
+8	{STRVAR_1 3, 0, 0} !\nTu sembles traîner là où SUICUNE\fapparaîtrait.\rEnfin, ce n’est pas grave. Mon désir\nde chercher SUICUNE dépasse de loin\fle tien...\rMon grand-père était...passionné de\nmythes. Il m’a raconté tant\fd’histoires sur SUICUNE.\r
+9	SUICUNE...\rJe ne cesserai pas de te suivre tant\nque je n’aurai pas découvert ce que\ftu cherches...\rM’entends-tu !\r

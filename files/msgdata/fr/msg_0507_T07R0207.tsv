@@ -1,0 +1,7 @@
+0	Résidences de Céladopole\nCet ascenseur va directement\fsur le toit.\rAller sur le toit ? {YESNO 0}
+1	Résidences de Céladopole\nCet ascenseur va directement\fau 1er étage.\rAller au 1er étage ? {YESNO 0}
+2	À bientôt.
+3	On monte sur le toit.\r
+4	On descend au 1er étage.\r
+5	Vous voici sur le toit.\r
+6	Vous voici au 1er étage.\r

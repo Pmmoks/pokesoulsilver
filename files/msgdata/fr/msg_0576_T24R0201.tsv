@@ -1,0 +1,15 @@
+0	J... Je suis sous le choc !\rUn garçon de ton âge, avec un regard\nperçant et les cheveux longs, est\fentré.\rIl m’a fait si peur que je lui ai donné\nmon Pokémon préféré !\rIl m’en reste un, mais et s’il\nrevenait ?\rTu as l’air costaud.\nPourrais-tu t’occuper de mon Pokémon\fquelque temps ? {YESNO 0}
+1	Oh, merci !\nPrends-en bien soin, s’il te plaît !\r
+2	{STRVAR_1 3, 0, 0} reçoit\nun Pokémon !
+3	Ton équipe Pokémon est pleine.
+4	Oh non... Qu’est-ce que je ferai s’il\nrevient ?
+5	Salut ! Comment va mon Pokémon ?\rJe pense être en sécurité maintenant,\nalors puis-je le récupérer ? {YESNO 0}
+6	Salut ! Comment va mon Pokémon ?
+7	Merci !
+8	Hé, ce n’est pas mon Pokémon.
+9	Mon Pokémon a fini par t’apprécier.\rTrès bien, garde-le.\nMais promets-moi de bien le traiter !
+10	Oh non, non...\nCe serait comme se faire voler.
+11	Pour un Pokémon, le bonheur, c’est\nd’être avec quelqu’un qui le traite\fbien.
+12	Hein ?\nIl tient un objet.\fGarde-le.
+13	Hein ?\nSa Poké Ball a une Capsule dessus !\fRetire-la, s’il te plaît.
+14	Hein ?\nTu n’as... qu’un seul Pokémon !\fTu ne peux pas me le rendre alors.

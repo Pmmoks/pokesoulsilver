@@ -1,0 +1,99 @@
+0	Bienvenue au Palais de Combat !\rJe suis votre guide pour les défis de\nCombat Simple et Double.\rSachez que ces défis sont conçus pour\nun seul Dresseur.\r
+1	Quel défi souhaitez-vous\nrelever ? {YESNO 0}
+2	Au Palais de Combat, vous pouvez\nrelever seul des défis de Combat Simple\fou Double.\rPour le défi de Combat Simple, vous\nengagez un Pokémon d’au moins Niv. 30.\rLe défi de Combat Double exige\nd’engager deux Pokémon de la même\fespèce, d’au moins Niv. 30 chacun.\rLes records de séries de victoires sont\nconservés par espèce de Pokémon.\rAinsi, n’importe quelle espèce de\nPokémon peut viser la première place.\rEn entrant dans le Palais, on vous\ndemandera de choisir le type et le rang\fdu Pokémon que vous voulez affronter.\rSi vous parvenez à gagner dix matchs\nd’affilée, vous gagnerez des Points\fCombat (PCo).\rSi vous voulez interrompre votre\ndéfi, veuillez sauvegarder la partie.\rSi vous ne sauvegardez pas, votre défi\nsera annulé.\rVeuillez en tenir compte !\r
+3	Bienvenue au Palais de Combat !\rJe suis votre guide pour le défi de\nCombat Multi.\rSachez que ce défi nécessite\ndeux Dresseurs.\r
+4	Souhaitez-vous relever le défi du\nCombat Multi du Palais de Combat ? {YESNO 0}
+5	Vous pouvez faire équipe avec un ami\npour un défi de Combat Multi avec la\fmême espèce de Pokémon, d’au moins Niv.\f30 chacun.\rEn entrant dans le Palais, on vous\ndemandera de choisir le type et le rang\fdu Pokémon que vous voulez affronter.\rSi vous parvenez à gagner dix matchs\nd’affilée, vous gagnerez des Points\fCombat (PCo).\rÀ noter : un défi de Combat Multi du\nPalais de Combat ne peut être\finterrompu.\r
+6	À bientôt !
+7	À quel niveau souhaitez-vous jouer ?\nNiveau 50 ou Niveau Libre ?
+8	Vous devez sauvegarder la partie avant\nque je vous fasse entrer. D’accord ? {YESNO 0}
+9	Par ici, je vous prie !
+10	Nous attendons votre prochaine visite\navec impatience.\r
+11	Vous nous avez manqué !\rVous devez sauvegarder la partie avant\nde reprendre votre défi. Veuillez\fpatienter.
+12	Excusez-moi !\rVous n’avez pas sauvegardé avant\nd’interrompre votre dernier défi.\rVotre défi a donc été annulé !\r
+13	Félicitations !\rEn l’honneur de votre victoire, nous\nvous offrons cette estampe\fcommémorative !\r
+14	L’Estampe Or a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+15	L’Estampe Argent a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+16	COMBAT SIMPLE
+17	COMBAT DOUBLE
+18	RELEVER DÉFI
+19	INFOS
+20	ANNULER
+21	NIVEAU 50
+22	NIVEAU LIBRE
+23	ANNULER
+24	Tu veux élever des Pokémon forts mais\ntu ne sais pas lesquels choisir... ?\rPour les Dresseurs dans ce cas,\nl’Usine de Combat est un endroit\fqui vaut vraiment le détour !
+25	Tu as tout à fait raison.\rOn dit que la vie est une suite infinie\nd’occasions d’apprendre.\rCet endroit est le meilleur pour tout\napprendre sur les combats Pokémon et\fsur les autres Dresseurs...
+26	Eeeet--paf !\nEeeeeeeeeet--paf !\rJe n’ai pas encore de Pokémon, alors\nje m’entraîne à lancer des Poké Balls !
+27	Mamie, youhou ! Mamie ! Je suis venue\néchanger des Accessoires ! J’ai quelque\fchose rien que pour ma mamie !
+28	Oh, merci, ma chérie...\rTu es si mignonne, si forte et si\ngentille... J’ai de la chance d’avoir une\fpetite-fille comme toi.
+29	Cette petite fille là-bas avec sa\nmamie...\rIl se trouve que je sais qu’elle est\nincroyablement forte...\rLes apparences peuvent parfois être\ntrompeuses.\n
+30	Un Dresseur doit sélectionner\n“ÊTRE LE CHEF”.\rL’autre Dresseur doit sélectionner\n“REJOINDRE”. {YESNO 0}
+31	Il faut lancer la communication\nsans fil DS. {YESNO 0}
+32	Vous devez sauvegarder la partie avant\nque je vous fasse entrer. Veuillez\fpatienter.
+33	Veuillez choisir le Pokémon que vous\nsouhaitez engager.\r
+34	Une série de victoires est en cours et\nsauvegardée pour {STRVAR_1 0, 0, 0}.\rSupprimer ce record et commencer un\nnouveau défi avec {STRVAR_1 0, 1, 0} ? {YESNO 0}
+35	Excusez-moi !\rVous n’avez aucun Pokémon admissible\nd’au moins Niv. 30 !\r
+36	Excusez-moi !\rPour les Combats Doubles, il faut avoir\ndeux Pokémon de la même espèce, d’au\fmoins Niv. 30 chacun.\r
+37	De plus, les Œufs ne sont pas admis.\r
+38	Les Œufs et {STRVAR_1 0, 1, 0} ne sont\npas admis.\r
+39	Les Œufs, {STRVAR_1 0, 1, 0}\net {STRVAR_1 0, 2, 0} ne sont pas admis.\r
+40	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0} et {STRVAR_1 0, 3, 0}\fne sont pas admis.\r
+41	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0}\fet {STRVAR_1 0, 4, 0} ne sont pas admis.\r
+42	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0} et {STRVAR_1 0, 5, 0}\fne sont pas admis.\r
+43	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0}\fet {STRVAR_1 0, 6, 0} ne sont pas admis.\r
+44	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0} et {STRVAR_1 0, 7, 0}\fne sont pas admis.\r
+45	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}\fet {STRVAR_1 0, 8, 0} ne sont pas admis.\r
+46	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0} et {STRVAR_1 0, 9, 0}\fne sont pas admis.\r
+47	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0}\fet {STRVAR_1 0, 10, 0} ne sont pas admis.\r
+48	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0} et {STRVAR_1 0, 11, 0}\fne sont pas admis.\r
+49	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0}\fet {STRVAR_1 0, 12, 0} ne sont pas admis.\r
+50	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0} et {STRVAR_1 0, 13, 0}\fne sont pas admis.\r
+51	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}\fet {STRVAR_1 0, 14, 0} ne sont pas admis.\r
+52	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0} et {STRVAR_1 0, 15, 0}\fne sont pas admis.\r
+53	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0}\fet {STRVAR_1 0, 16, 0} ne sont pas admis.\r
+54	Les Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\f{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\f{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\f{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\f{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\f{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\f{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0},\f{STRVAR_1 0, 16, 0} et {STRVAR_1 0, 17, 0}\fne sont pas admis.\r
+56	Revenez me voir quand tout sera en\nordre.\r
+57	Le défi de Combat Multi du Palais de\nCombat exige que les deux partenaires\fengagent la même espèce de Pokémon.\rVeuillez vous concerter avec votre ami\net choisir la même espèce de Pokémon.\r
+58	DÉFI
+59	Tu manges ton plat préféré en premier\nou tu le gardes pour la fin ?\rAu Palais de Combat, il vaut mieux\ncommencer par les types que tes\fPokémon n’aiment pas. Pourquoi ?\rParce que l’opposition monte en niveau\nau fil de ta progression !
+60	Quelle scène somptueuse !\rTes séries de victoires sont conservées\npour chaque espèce de Pokémon. Tous\fles Pokémon peuvent monter là-haut.\rTu ne trouves pas ça merveilleux de\npouvoir viser le sommet avec\fn’importe quel Pokémon ?
+61	Mou...\rMon FLAGADOSS est mignon, mais il a même\ncombattu le Cerveau d’ici.\rLe Cerveau affronte ton Pokémon au\nmême niveau, par souci d’équité.
+62	FLAGADOSS : ...Flaga ?
+63	Un conseil !\rEssaie le Palais de Combat non\nseulement avec ton Pokémon préféré,\rmais aussi avec différentes espèces de\nPokémon si tu veux aussi améliorer\fton record global.
+64	Au Palais de Combat, si c’est la même\nespèce de Pokémon, tu peux engager des\findividus différents tout en gardant\fton record.\rTu peux en choisir qui connaissent\ndifférents types de capacités.
+65	Tu sais que GRANIVOL a deux types --\nPlante et Vol ?\rÇa veut dire qu’il peut apparaître en\ntype Plante et en type Vol.\rMoi ?\rTu peux me voir comme un type\n“Insouciant” et un type “Beauté”,\fje suppose.
+66	Un conseil...\rAu Palais de Combat, les Pokémon\nadverses sont ajustés à ton niveau.\rTu peux donc choisir n’importe lequel de\ntes Pokémon sans te soucier de leur\fniveau.
+67	Le Palais de Combat permet de\nconserver les records de séries de\fvictoires. C’est chouette, non ?\r...Attends une seconde !\rMon ami et moi, on peut lancer des défis\ndans les mêmes conditions et voir qui\fprolonge le plus longtemps sa série\fde victoires.\fC’est encore plus amusant !
+68	Je tiens le compte du total des\nvictoires de vos plus longues séries de\fCombat Simple au Palais de Combat.\rPour expliquer, je n’additionne que les\nplus longues séries de chaque espèce\fde Pokémon.
+69	Quand votre total de séries de\nvictoires atteint certains chiffres,\fvous gagnez des PCo en récompense.\r{STRVAR_1 3, 0, 0}, votre total de séries de\nvictoires est actuellement de {STRVAR_1 55, 1, 0}.\r
+70	Votre total de séries de victoires\na atteint {STRVAR_1 55, 2, 0}.\fVoici votre récompense en PCo.\r
+71	Quand votre total de séries de\nvictoires atteint {STRVAR_1 55, 3, 0}, vous gagnez des\fPCo.
+72	{STRVAR_1 3, 0, 0} a reçu {STRVAR_1 53, 4, 0} PCo !
+73	{STRVAR_1 3, 0, 0}, votre total de séries de\nvictoires s’élève à {STRVAR_1 55, 1, 0}.\r
+74	{STRVAR_1 3, 0, 0}, votre total de séries de\nvictoires s’élève à {STRVAR_1 55, 1, 0}.\r...Mon Dieu !\nC’est un record fantastique !
+75	Winston : Le Palais de Combat est un peu\nennuyeux en ce moment.\rIl n’y a aucun challenger éblouissant\ncapable d’électriser la foule.\rUn challenger capable de battre le\nCerveau... Il n’y en a donc aucun ?
+76	Winston : Laisse-moi deviner.\nTu te mets au Palais de Combat ?\fC’est d’un amusement addictif, hein ?\rPlus tu gagnes, plus tu vois\nd’espèces de Pokémon différentes.
+77	Winston : ...\n...Oh, pardon de te fixer !\rJe t’ai vu sur scène la dernière fois.\nTu as une vraie étoffe de star.\rJe crois que je vais t’avoir à l’œil.\nIl y a un vrai charisme chez toi.
+78	Winston : Je viens te voir chaque fois\nque tu montes sur scène.\rC’est un plaisir de te regarder, je te\nle dis.\rMaintenant, j’attends toujours avec\nimpatience de voir ton duo avec ton\fPokémon sur scène.
+79	Winston : Salut, toi !\nQu’est-ce que tu vas faire cette fois ?\rAvec quel Pokémon vas-tu viser un\nrecord ensuite ?\rQuand je me mets à y penser, je suis\ntrop excité pour dormir la nuit.\rC’est pour ça que je fais la grasse\nmatinée en ce moment !
+80	Winston : Génial !\nVraiment génial !\fTu dépasses même le génial !\rL’amour que tu montres à tant de\nPokémon... Ce n’est pas rien, je te\fjure !
+81	Winston : Je n’ai jamais vu des Pokémon\ncombattre avec autant de plaisir que\fles tiens.\rPour moi, tu es unique en ton genre.\rTu sais, je me vante de toi à tous ceux\nqui veulent bien m’écouter.\rJe disais que tu allais devenir une\nstar avant même d’avoir un record !
+82	Winston : Allez, {STRVAR_1 3, 0, 0}, allez !\nAllez, {STRVAR_1 3, 0, 0}, allez !\rJe prépare des pas de danse et des\nencouragements pour te soutenir.\rSi tu veux les voir, il faudra continuer\nà travailler sur tes records !
+83	Winston : Tu es hors norme. Tous les\ncombats que tu as menés sur scène...\fTous ces moments de gloire...\rTon étoile brille si fort et si grand !\nJ’ai du mal à ouvrir les yeux près de\ftoi !
+84	Winston : L’amour des Pokémon que tu as\nmontré au Palais de Combat est aussi\fprofond que vaste...\rTu peux compter sur moi, Winston, pour\nêtre ton fan à vie.\rComme tu aimes les Pokémon, moi je\nt’aime en tant que superstar Pokémon !
+85	Serena : C’est à propos du Palais de\nCombat... Il ne m’enthousiasme plus ces\ftemps-ci.\rAucun challenger magnifique ne vient\nm’éblouir.\rUn challenger capable de faire de moi\nune fan... Il n’y en a donc aucun ?
+86	Serena : Euh... Excusez-moi ?\rSi ça ne vous dérange pas que je\ndemande, vous vous mettez au Palais de\fCombat ?\rC’est amusant au point d’être\ncaptivant, n’est-ce pas ? Le\fsaviez-vous ?\rPlus on gagne, plus on voit d’espèces\nde Pokémon différentes.
+87	Serena : Euh... Excusez-moi ?\rJe vous ai regardé quand vous étiez\nsur scène. Ça m’a fait frissonner.\rEuh... Ça ne vous dérangera pas que je\nvous encourage désormais ? S’il vous\fplaît ?
+88	Serena : Euh... Excusez-moi ?\rJe vous encourage de mon mieux.\rJe ne peux pas monter sur scène avec\nvous, mais je veux soutenir vos Pokémon\fet vous pour tous vos efforts.
+89	Serena : Euh... Excusez-moi ?\rPouvez-vous me dire avec quelle espèce\nde Pokémon vous visez un record\fensuite ?\rQuand je me mets à y penser, j’ai la\ngorge nouée.\rJ’ai du mal à dormir la nuit quand\nça m’arrive.
+90	Serena : Euh... Excusez-moi ?\rFantastique ! C’est fantastique !\nVous êtes fabuleusement fantastique !\rL’amour que vous montrez à tant de\nPokémon... Il doit demander un effort\fextraordinaire.
+91	Serena : Je n’ai jamais vu des Pokémon\ncombattre avec autant de plaisir que\fles vôtres.\rPersonne d’autre n’a jamais fait ça.\rJe... je me vante de vous à tous mes\namis. J’espère que ça ne vous dérange\fpas.\rJe leur dis que j’aimerais être aussi\nformidable que vous !
+92	Serena : Hourra, hourra, {STRVAR_1 3, 0, 0} !\nAllez, Pokémon, allez !\r...Oh ! Euh... Excusez-moi.\rJe préparais des encouragements et une\nchorégraphie pour vous.\rM-mais je suis désolée d’être aussi\nbête et surexcitée et...
+93	Serena : Vous m’inspirez tant.\rToute la gloire que vous avez gagnée en\ncombattant si souvent sur cette scène\fbrillante...\rLa seule vue de vous me rend toute\nheureuse à l’intérieur. ♫
+94	Serena : L’amour des Pokémon que vous\navez montré au Palais de Combat est\faussi profond que vaste...\rC’est incroyable, mais vous aimez tous\nles Pokémon qui existent.\rJe vous aime pour votre côté incroyable\net votre dévouement !
+95	Lyra : Salut, {STRVAR_1 3, 0, 0}.\nJ’adore te regarder combattre ici.\rParce que...\ntu t’amuses que tu gagnes ou que\ftu perdes !
+96	Ethan : Le Palais de Combat est génial\npour les fans de Pokémon comme moi !\rJe vois tant de nouvelles espèces de\nPokémon que je n’avais jamais vues.\rC’est trop cool !
+97	Maman : {STRVAR_1 3, 0, 0} !\rJe n’ai pas pu m’empêcher de venir voir\ncomment tu vas !\rTout le monde travaille dur, mais je dois\ndire que tu rayonnes plus que\ftous les autres !\rOh, {STRVAR_1 3, 0, 0}, c’est vrai !\rJe devrais aller au Centre Commercial\nde Doublonville et t’acheter quelques\fobjets utiles en rentrant !
+98	Prof. Chen : Tu ne cesses de m’étonner.\rQuel parcours tu as accompli !\rCe n’est pas seulement que tu as\ncapturé des Pokémon en nombre\fincroyable.\rRien que ça, c’est déjà fantastique.\nMais tu as aussi noué des liens et\fcombattu avec eux.\rJe suis si fier de te connaître !
+99	Blanche : J’adore les événements\ntape-à-l’œil comme le Palais de Combat.\rJe ne dis pas que je veux me faire\nremarquer dans la foule...\rJ’adore juste voir de mignons Pokémon\nrecevoir beaucoup d’attention !

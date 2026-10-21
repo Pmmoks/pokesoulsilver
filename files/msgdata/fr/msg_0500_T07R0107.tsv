@@ -1,0 +1,11 @@
+0	Bonjour.\rÀ quel étage souhaitez-vous aller ? {YESNO 0}
+1	Au plaisir de vous servir à nouveau.
+2	Certainement.\nL’ascenseur monte !\r
+3	Certainement.\nL’ascenseur descend !\r
+4	Euh... Nous sommes déjà à cet étage ?
+5	Le rez-de-chaussée abrite l’accueil\net l’entrée principale.
+6	Le 1er étage abrite le Marché des\nDresseurs, où vous trouverez tout ce\fqu’il vous faut.
+7	Le 2e étage abrite la Boutique CT\npour renforcer vos Pokémon.
+8	Le 3e étage abrite les Cadeaux du\nSage, avec le cadeau idéal.
+9	Le 4e étage abrite la Collection Combat\npour augmenter les stats.
+10	Le 5e étage abrite l’Atrium sur le toit\npour une agréable pause.

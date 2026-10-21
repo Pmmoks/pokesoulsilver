@@ -1,0 +1,18 @@
+9	C’est un certain Léo qui a conçu le\nsystème de stockage des Pokémon sur\fPC.\rTu peux y accéder avec le PC à la\nréception, là-bas. Pourquoi ne pas\fessayer ?
+10	C’était il y a environ trois ans.\nUne bande de voyous, la Team Rocket,\fcommettait des méfaits. Ils faisaient\fdu mal aux Pokémon.\rMais !\nLes mauvaises choses ont une fin !\rUn garçon a fait un travail formidable\net la Team Rocket a été dissoute !\n\n
+11	Les Pokémon sont très intelligents. Un\nPokémon échangé peut ne pas t’écouter\fdu premier coup. Par exemple, les\fPokémon de haut niveau refusent\fparfois d’obéir quand tu n’as pas assez\fde Badges d’Arène.
+12	Primo : Bonjour !\nMon visage doit être familier à tous les\ffans de Pokémon. Je suis de l’émission\f“Le Show de Primo !”\rJe suis Primo, le grand frère !\rAujourd’hui, toi, un de mes fans,\ndis-moi ce que tu penses de moi ? {YESNO 0}
+13	Primo : Oh là là...!\nC’est comme ça que tu me vois ?!\rJe n’y avais jamais pensé comme ça. Au\nfait, que penses-tu de ma façon d’être\fsi excitant et amusant ?\r
+14	Primo : Vraiment ?\rÇa me donne une énergie toute neuve\npour me donner encore plus à fond !\rSuper avis ! Ça va beaucoup m’aider.\nMerci de me soutenir toujours autant !
+15	Tu ne veux quand même pas dire que le\ngrand frère ne t’intéresse pas...?\rArgh, ce n’est pas possible ! Tu as\njuste d’autres choses à faire en ce\fmoment, non ? Ça doit être ça !\rPourquoi ne pas répondre à mes\nquestions quand tu auras du temps pour\fmoi ?\rÀ bientôt !
+16	Primo : ...!\rTu n’es pas un fan ordinaire pour\nsavoir ça !\rTu fais partie des Dresseurs, non ?\nJe vais te donner un coup de pouce.\rJe pense pouvoir négocier un nouveau\nfond d’écran pour tes Boîtes du PC.\rGarde ta chaîne branchée sur\n“Le Show de Primo !”\rEt n’oublie pas le grand frère !
+17	Primo : ...!\rTu n’es pas un fan ordinaire pour\nsavoir ça !\rTu fais partie des Dresseurs, non ?\nJe vais te donner un coup de pouce.\rJe pense pouvoir négocier pour que tu\nreçoives un Cadeau Mystère.\rGarde ta chaîne branchée sur\n“Le Show de Primo !”\rEt n’oublie pas le grand frère !
+18	Primo : ...!\rTu n’es pas un fan ordinaire pour\nsavoir ça !\rTu fais partie des Dresseurs, non ?\nJe vais te donner un coup de pouce.\rJe pense pouvoir négocier et te\ndonner cet Œuf.\fPrends-en bien soin !\r
+19	{STRVAR_1 3, 0, 0} reçoit l’Œuf Pokémon\n({STRVAR_1 0, 1, 0}) de la part de Primo !
+20	Primo : ...!\rTu n’es pas un fan ordinaire pour\nsavoir ça !\rTu fais partie des Dresseurs, non ?\nJe vais te donner un coup de pouce.\rJe pense pouvoir négocier et te\ndonner cet Œuf.\fPrends-en bien soin !\r...\rTon équipe est pleine, je ne peux pas\nte le donner !
+21	Hmm...\rPeux-tu me dire quel genre de Dresseur\ntu préfères ?\r
+22	Quel genre de Dresseur voudrais-tu\nêtre ? {YESNO 0}
+23	{STRVAR_1 14, 0, 0}, c’est le genre de Dresseur\nque tu veux être ? {YESNO 0}
+24	Je vois ! Le genre de Dresseur qui te\nplaît, c’est {STRVAR_1 14, 0, 0}.\rDans ce cas, les autres pourraient\nfinir par te voir de la même façon.\r
+25	Reviens me parler si tu veux me dire\nquel genre de Dresseur tu préfères.
+26	Salut ! Avec ton look, tu passes pour\nla classe {STRVAR_1 14, 0, 0}, non ?\rMais je pense que tu peux aussi passer\npour un autre genre de Dresseur.\rAlors, et si tu me disais quel genre de\nDresseur te plaît ?\r

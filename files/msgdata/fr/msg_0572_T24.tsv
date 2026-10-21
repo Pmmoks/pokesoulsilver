@@ -1,0 +1,22 @@
+0	Tu as traversé la mer pour venir ici ?\rÇa a dû être dur.\rCe serait bien plus facile si ton\nPokémon savait utiliser Vol...\r
+1	Mais tu ne peux pas utiliser Vol sans le\nBadge de l’Arène de cette ville.\rSi tu bats le Champion d’Arène d’ici,\nviens me voir.\fJ’aurai un beau cadeau pour toi.
+2	C’est le Badge de l’Arène d’Irisia !\rAlors prends cette CS.\r
+4	Apprends Vol à ton Pokémon.\rTu pourras Voler instantanément vers\ntous les endroits que tu as visités.
+5	Mon mari a perdu contre toi, il va\ndevoir s’entraîner plus dur.\rC’est bien, parce qu’il commençait à\nprendre un peu de ventre.
+6	Ton Sac est plein.
+7	Son seul passe-temps, c’est de\ncombattre des Dresseurs coriaces.\rVeux-tu le numéro de téléphone\nde mon mari ? {YESNO 0}
+8	{STRVAR_1 3, 0, 0} enregistre Chuck\ndans le Pokématos !
+9	Il fait une pause dans la cascade\nle mercredi soir.\rIl devrait pouvoir discuter avec toi\nà ce moment-là.
+10	Oh, je vois. Mon mari ne serait pas un\nbon adversaire ?
+11	Veux-tu échanger ton numéro contre\ncelui de mon mari ? {YESNO 0}
+12	Avec Vol, tu peux retourner\nà Oliville instantanément.
+13	Les rochers au nord de la ville peuvent\nêtre brisés.\rIls cachent peut-être quelque chose.\nTon Pokémon peut utiliser Éclate-Roc\fpour les casser.
+14	Chuck, le Champion d’Arène, s’entraîne\nau combat avec ses Pokémon de type\fCombat.
+15	Eusine : Yo, {STRVAR_1 3, 0, 0}.\rC’était SUICUNE à l’instant, non ?\rJe n’ai fait que l’apercevoir, mais j’ai\ncru voir SUICUNE courir sur les vagues.\rSUICUNE est beau et majestueux. Et il\ntraverse villes et routes à une vitesse\ftout simplement époustouflante.\rC’est merveilleux...\rJe veux voir SUICUNE de près...\rC’est décidé. Je vais te combattre en\ntant que Dresseur pour gagner le\frespect de SUICUNE !\rAllez, {STRVAR_1 3, 0, 0}.\nCombattons maintenant !
+16	Tu es incroyable, {STRVAR_1 3, 0, 0} !\rJe commence à comprendre pourquoi\nSUICUNE te gardait à l’œil.\rJe vais continuer à chercher\nSUICUNE.\rJ’ai le sentiment qu’on se reverra.\nÀ plus !\r
+17	Il y a plusieurs îles entre ici et\nOliville.\rUne créature marine mythique y vivrait,\nparaît-il.
+18	Irisia\nUn port aux vagues fracassantes
+19	Arène Pokémon d’Irisia\nChampion : Chuck\fSes poings rugissants parlent pour lui
+20	Pharmacie d’Irisia\r500 ans de tradition Nous attendons\nvos questions médicinales
+21	Maison de Cameron,\nle photographe.\fPrenez un cliché en souvenir !
+22	Entrée de la route du Parc Safari.\rVivez des rencontres palpitantes avec\ndes Pokémon sauvages, de cœur à\fcœur !\rLe Parc Safari est juste au coin\nde cette entrée !

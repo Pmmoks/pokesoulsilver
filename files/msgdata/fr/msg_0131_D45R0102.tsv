@@ -1,0 +1,28 @@
+0	...\rJe ne sais pas ce qui t’amène ici.\rEn tout cas, je dois te prévenir : ce\nn’est pas un endroit pour les gamins\fcomme toi.\r
+1	Tu as un certain regard...\rTu me rappelles le gamin qui s’est\ndressé devant moi il y a trois ans... Tu\fas les mêmes yeux...\r...\rJe vais à Doublonville répondre à\nl’appel et rejoindre mon équipe. Vas-tu\fme barrer la route ?\r
+2	...\nIci la Tour Radio.\fIci la Tour Radio.\fNous avons le plaisir de proclamer\fle retour de la Team Rocket.\f...Giovanni ?\f...Vous nous entendez ?\fNous y sommes enfin parvenus !\f...\r
+3	Mes anciens associés ont besoin de\nmoi...\rNous ne referons pas l’échec d’il y a\ntrois ans !\r{COLOR 1}La Team Rocket{COLOR 0} renaîtra, et je\ndominerai le monde !\r
+4	Giovanni : Comment est-ce possible... ?\rCes trois dernières années ont été\nvaines... ?\rComment un gamin comme toi peut-il\ndétruire mon rêve une fois de plus ?\rLe précieux rêve de la Team Rocket\nn’est plus qu’une illusion...\r
+5	... ...Hé ! Où est passé Giovanni ? Je\nme demande s’il écoute notre\fémission... ...\r
+6	Giovanni : Retiens bien mes mots.\rNe pas savoir mesurer ta propre force\nmontre que tu n’es encore qu’un\fenfant.\r
+7	Ethan : Hein ?\rC’est le type qu’on a vu se disputer\navec ce garçon tout à l’heure !\r
+8	Lyra : Hein ?\rC’est le type qu’on a vu se disputer\navec ce garçon tout à l’heure !\r
+9	Ethan : Il y a trois ans... ?\nDoublonville... ?\r
+10	Lyra : Il y a trois ans... ?\nDoublonville... ?\r
+11	Serait-ce celui que la radio essayait de\njoindre ? Giovanni, leur chef ?\r
+12	Serait-ce celui que la radio essayait de\njoindre ? Giovanni, leur chef ?\r
+13	Tu entends, {STRVAR_1 3, 0, 0} ?\nLa radio dit quelque chose d’étrange !\rLa Team Rocket a pris la Tour Radio de\nDoublonville !\rC’est impossible ! {STRVAR_1 3, 0, 0}, tu as\ndéjà résolu cette affaire !\r
+14	Tu entends, {STRVAR_1 3, 0, 0} ?\nLa radio dit quelque chose d’étrange !\rLa Team Rocket a pris la Tour Radio de\nDoublonville !\rC’est impossible ! {STRVAR_1 3, 0, 0}, tu as\ndéjà résolu cette affaire !\r
+15	Ethan : Ils appellent sans cesse leur\nchef. Je suis triste qu’ils ne sachent\fpas qu’il ne viendra pas.\rAprès ça, {STRVAR_1 3, 0, 0}, tu vas les\nvaincre !\r...Attends une seconde !\r{STRVAR_1 3, 0, 0}, tu es toujours là. Alors,\nqui va vaincre la Team Rocket... ?\r
+16	Lyra : Ils appellent sans cesse leur\nchef. Je suis triste qu’ils ne sachent\fpas qu’il ne viendra pas.\rAprès ça, {STRVAR_1 3, 0, 0}, tu vas les\nvaincre !\r...Attends une seconde !\r{STRVAR_1 3, 0, 0}, tu es toujours là. Alors,\nqui va vaincre la Team Rocket... ?\r
+17	Pas encore...!\nJ’en ai assez !\fS’il te plaît, ramène-moi à mon époque !\r
+18	Pas encore...!\nJ’en ai assez !\fS’il te plaît, ramène-moi à mon époque !\r
+19	CELEBI voyage dans le temps ! Il\nretourne à l’époque d’avant le début\fde cette étrange aventure...\r
+20	Il y a une radio qui ne marche plus...
+21	Impossible d’allumer la radio.\nGiovanni a dû la laisser ici...
+22	CELEBI...!\rIl faut qu’il aille mieux, sinon nous ne\npourrons jamais retourner à notre\fépoque !\r
+23	CELEBI...!\rIl faut qu’il aille mieux, sinon nous ne\npourrons jamais retourner à notre\fépoque !\r
+24	Ethan utilise un Rappel Max sur\nCELEBI !\r
+25	Lyra utilise un Rappel Max sur CELEBI !\r
+26	{COLOR 1}Voyage Temporel{COLOR 0}......!\rC’est le moment ! Ramène-nous à notre\népoque, s’il te plaît !\r
+27	{COLOR 1}Voyage Temporel{COLOR 0}......!\rC’est le moment ! Ramène-nous à notre\népoque, s’il te plaît !\r

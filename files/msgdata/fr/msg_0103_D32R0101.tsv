@@ -1,0 +1,30 @@
+0	Bienvenue à la Zone de Combat !\rC’est votre première visite ?\nPar ici, je vous prie !\r
+1	Oh ! Vous avez un Magnéto VS !\nQuelle chance !\rNous améliorons les Magnétos VS des\nnouveaux visiteurs pour la Zone de\fCombat.\rJe vous emprunte le vôtre un instant.\rVoyons... On fait coulisser cette\npartie, et clic-clac-clunk, là !\rVoilà, c’est fini !\nTenez.\r
+2	Le Magnéto VS de {STRVAR_1 3, 0, 0} a\nété amélioré.
+3	Nos autres employés se feront un\nplaisir de vous expliquer le\ffonctionnement de chaque installation\fde la Zone de Combat.\rMoi, je peux vous parler des sujets\ngénéraux. Avez-vous des questions ? {YESNO 0}
+4	Quel sujet dois-je expliquer ? {YESNO 0}
+5	La Zone de Combat compte cinq\ninstallations dédiées aux combats.\rÀ la Tour de Combat, le but est de\nbattre sept Dresseurs d’affilée.\rAu Palais de Combat, vous pouvez\ngarder les records de chaque Pokémon.\rÀ l’Usine de Combat, vous devez gagner\nà la suite avec des Pokémon de location.\rLe Château de Combat oblige les\nDresseurs à gérer des Points Château\fpour avancer.\rEt enfin, l’Arcade de Combat est un lieu\noù le hasard déclenche des événements.\rVous pouvez tenter n’importe laquelle\nde ces installations !\r
+6	Les combats dans les cinq installations\nde la Zone de Combat suivent des règles\fspéciales.\rPremièrement, aucun point d’Exp.\nne peut être gagné.\rPar conséquent, les Pokémon qui\ncombattent ici ne montent pas de\fniveau.\rSi la règle Niveau 50 est choisie, les\nPokémon de niveau supérieur seront\fprovisoirement ramenés au Niv. 50.\rLes Pokémon sous le Niv. 50 sont\nengagés sans ajustement de niveau vers\fle haut.\r
+7	Les Points Combat sont généralement\nappelés PCo.\rLes PCo sont des points qui ne servent\nque dans la Zone de Combat.\rIls sont décernés lorsque vous\natteignez certains objectifs dans les\fdifférentes installations de la Zone de\fCombat.\rLes PCo s’échangent contre des lots au\nComptoir d’Échange.\r
+8	Le Comptoir d’Échange est composé de\ndeux tentes juste devant, après ici.\rVous pouvez y échanger vos PCo contre\nune grande variété de lots.\rN’hésitez pas à y faire un tour !\r
+9	Le Moniteur de Performances affiche les\ndonnées du Dresseur, comme le dernier\frecord et le meilleur record à ce jour.\rVous en trouverez un près du comptoir\nd’accueil de chaque installation.\r
+10	Nous espérons que votre visite vous\nplaira !
+17	Bienvenue à la Zone de Combat !\rDois-je vous expliquer le\nfonctionnement de la Tour de Combat ? {YESNO 0}
+18	La Tour de Combat est le bâtiment au\nfond de la Zone de Combat.\rLe but est d’engager une équipe de\nPokémon différents et de combattre\fjusqu’à votre défaite.\r
+19	Nous espérons que votre visite vous\nplaira !
+20	Bienvenue à la Zone de Combat !\rDois-je vous expliquer le\nfonctionnement de l’Usine de Combat ? {YESNO 0}
+21	L’Usine de Combat se trouve dans le\ncoin supérieur droit de la Zone de\fCombat.\rVous y disputez un tournoi à élimination\ndirecte avec des Pokémon de location.\rLe but est de gagner le plus longtemps\npossible.\rÀ chaque victoire, vous pouvez\néchanger un de vos Pokémon contre un\fPokémon de l’adversaire.\r
+22	Nous espérons que votre visite vous\nplaira !
+23	Bienvenue à la Zone de Combat !\rDois-je vous expliquer le\nfonctionnement du Palais de Combat ? {YESNO 0}
+24	Le Palais de Combat se trouve dans le\ncoin supérieur gauche de la Zone de\fCombat.\rVous y engagez un Pokémon de votre\nchoix pour des combats en un contre\fun.\rLe but est de prolonger votre série de\nvictoires le plus longtemps possible.\r
+25	Nous espérons que votre visite vous\nplaira !
+26	Bienvenue à la Zone de Combat !\rDois-je vous expliquer le\nfonctionnement du Château de Combat ? {YESNO 0}
+27	Le Château de Combat se trouve dans le\ncoin inférieur gauche de la Zone de\fCombat.\rVous y recevez des Points Château\n(PCh) que vous devez gérer.\rLes PCh servent à soigner les Pokémon,\nlouer des objets ou des Baies, etc.\rLe but est de maintenir une série de\nvictoires tout en gérant vos PCh.\r
+28	Nous espérons que votre visite vous\nplaira !
+29	Bienvenue à la Zone de Combat !\rDois-je vous expliquer le\nfonctionnement de l’Arcade de Combat ? {YESNO 0}
+30	L’Arcade de Combat se trouve dans le\ncoin inférieur droit de la Zone de\fCombat.\rIci, un plateau de jeu est activé avant\nchaque match.\rSelon ce qui apparaît sur le plateau,\nun événement se produit.\rCertains événements avantagent le\nchallenger, d’autres non.\rLe challenger peut même éviter\nde devoir combattre.\rLe but est de maintenir une série de\nvictoires le plus longtemps possible.\r
+31	Nous espérons que votre visite vous\nplaira !
+32	La Zone de Combat est juste devant !\nJ’ai exploré des endroits dans le monde\fentier, mais rien n’égale l’excitation\fque je ressens en ce moment !\rQuels genres de Dresseurs vais-je\nvoir ? Quels combats vais-je vivre ?\rC’est une toute nouvelle aventure pour\nmoi !
+33	Les cinq installations de la Zone de\nCombat sont...\rTour.\rPalais.\rChâteau.\rUsine.\rEt Arcade.\rComment en faire un sigle ?\nTPCUA ?\rEn changeant l’ordre des lettres,\npeut-être ? CUPTA ! TAPUC !\r...Non ! Rien ne marche !\nPersonne n’y a pensé ?!
+34	Le Magnéto VS est vraiment génial !\rEn consultant le Record de la Zone,\non voit combien de PCo on a.
+35	Mon rêve est de combattre Palmer de la\nTour de Combat.\rJe voudrais l’enregistrer pour la\npostérité avec mon Magnéto VS.\rMais j’ai laissé mon Magnéto VS à\nla maison... J’ai le cœur brisé !

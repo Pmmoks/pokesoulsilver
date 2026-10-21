@@ -1,0 +1,7 @@
+0	Tu dois être un Dresseur en voyage.\nAs-tu déjà défié l’Arène Pokémon ?
+2	Lyra : Je savais que c’était toi,\n{STRVAR_1 3, 0, 0} !\rComment as-tu fait pour me dépasser ?\nVoici un petit cadeau pour m’avoir\fsurprise, {STRVAR_1 3, 0, 0} !\r
+3	Ethan : Je savais que c’était toi,\n{STRVAR_1 3, 0, 0} !\rComment as-tu fait pour me dépasser ?\nVoici un petit cadeau pour m’avoir\fsurpris, {STRVAR_1 3, 0, 0} !\r
+4	Le Magnéto VS peut enregistrer\ntes combats Pokémon.\rJe dois y aller !\fJe ne te laisserai plus me dépasser !\r
+5	Le Magnéto VS peut enregistrer\ntes combats Pokémon.\rJe dois y aller !\fJe ne te laisserai plus me dépasser !\r
+6	Allons-y, MARILL !\r
+7	Allez, MARILL !\r

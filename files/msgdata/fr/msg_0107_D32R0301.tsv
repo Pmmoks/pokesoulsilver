@@ -1,0 +1,34 @@
+0	Bienvenue à l’Usine de Combat !\rJe suis votre guide pour les défis de\nCombat Simple et Double.\rSachez que ces défis sont conçus pour\nun seul Dresseur.\r
+1	Quel défi souhaitez-vous\nrelever ? {YESNO 0}
+2	À l’Usine de Combat, vous pouvez\nrelever des défis de Combat Simple ou\fDouble avec des Pokémon de location.\rUne fois entré, votre défi dure\njusqu’à votre première défaite.\rAprès chaque victoire, vous pouvez\néchanger un Pokémon loué contre un\fPokémon adverse.\rL’option Niveau 50 vous fait commencer\navec des Pokémon qui ne connaissent\fque de faibles capacités.\rL’option Niveau Libre vous donne accès\ndès le départ à des Pokémon Niv. 100\favec de puissantes capacités.\rSi vous parvenez à gagner sept matchs\nd’affilée, vous gagnerez des Points\fCombat (PCo).\rSi vous voulez interrompre votre\ndéfi, veuillez sauvegarder la partie.\rSi vous ne sauvegardez pas, votre défi\nsera annulé.\rVeuillez en tenir compte !\r
+3	Bienvenue à l’Usine de Combat !\rJe suis votre guide pour le défi de\nCombat Multi.\rSachez que ce défi nécessite\ndeux Dresseurs.\r
+4	Souhaitez-vous relever le défi du\nCombat Multi de l’Usine de Combat ? {YESNO 0}
+5	Vous pouvez faire équipe avec un ami\npour un défi de Combat Multi avec des\fPokémon de location.\rChaque partenaire reçoit deux Pokémon\nde location.\rUne fois entrés, vous et votre\npartenaire disputez des Combats Multi\fjusqu’à la défaite.\rAprès chaque victoire, vous ou votre\npartenaire pouvez échanger un Pokémon\floué.\rSi vous parvenez à gagner sept matchs\nd’affilée, vous gagnerez des Points\fCombat (PCo).\rL’option Niveau 50 commence avec des\nPokémon de location qui ne connaissent\fque de faibles capacités.\rL’option Niveau Libre vous permet de\nlouer des Pokémon Niv. 100 avec de\fpuissantes capacités dès le départ.\rÀ noter : un défi de Combat Multi de\nl’Usine de Combat ne peut être\finterrompu.\r
+6	À bientôt !
+7	À quel niveau souhaitez-vous jouer ?\nNiveau 50 ou Niveau Libre ? {YESNO 0}
+8	Vous devez sauvegarder la partie\navant que je vous fasse entrer.\fD’accord ? {YESNO 0}
+9	Par ici, je vous prie !
+10	Nous attendons votre prochaine visite\navec impatience.\r
+11	Vous nous avez manqué !\rVous devez sauvegarder la partie\navant de reprendre votre défi. Veuillez\fpatienter.
+12	Excusez-moi !\rVous n’avez pas sauvegardé avant\nd’interrompre votre dernier défi.\rVotre défi a donc été annulé !\r
+13	Félicitations !\rEn reconnaissance de votre victoire,\nnous vous offrons cette estampe\fcommémorative !\r
+14	L’Estampe Or a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+15	L’Estampe Argent a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+16	COMBAT SIMPLE
+17	COMBAT DOUBLE
+18	RELEVER DÉFI
+19	INFOS
+20	ANNULER
+21	NIVEAU 50
+22	NIVEAU LIBRE
+23	ANNULER
+24	Un Dresseur doit sélectionner\n“ÊTRE LE CHEF”.\rL’autre Dresseur doit sélectionner\n“REJOINDRE”. {YESNO 0}
+25	Il faut lancer la communication\nsans fil DS. {YESNO 0}\n
+26	Vous devez sauvegarder la partie\navant que je vous fasse entrer.\fVeuillez patienter.
+27	Les employés vous renseignent sur le\nprochain Dresseur que vous\faffronterez.\rIls sont très serviables ici.\nN’est-ce pas ?\n
+28	Ils vous renseignent sur le prochain\nDresseur ? C’est vraiment sympa.\rVous savez, vous pouvez vous préparer\ndès que vous savez quel genre de\fDresseur vous allez affronter !
+29	Ça aide à choisir un Pokémon quand on\nse souvient du genre de Pokémon de\fl’autre Dresseur et des capacités qu’il\fa utilisées.
+30	C’est un endroit où l’on combat avec\ndes Pokémon de location, non ?\rC’est une bonne occasion d’essayer\ndes Pokémon qu’on n’a jamais\fentraînés.\rOn découvre de nouveaux Pokémon tout\nen vivant des combats palpitants !\rQue demander de plus ?
+31	Tu as beaucoup de Pokémon ?\rJe n’ai pas honte de le dire, mais...\nJe n’en ai que quelques-uns !\rMais il n’y a aucune raison de\ns’inquiéter. Tu sais pourquoi ?\rCette installation, l’Usine de Combat,\nfait utiliser des Pokémon de location\fpour les combats !
+32	Alors il faut combattre avec des\nPokémon qu’on vient de rencontrer au\flieu des Pokémon chéris avec qui on a\ftoujours combattu ?\rOh, je ne sais pas si j’en serais\ncapable... Seront-ils gentils avec\fmoi... ? Je suis un peu inquiet.
+33	Tous les Dresseurs réunis à la Zone de\nCombat sont des gens agréables\fet gentils !\rJe patrouille ici en service, mais sinon,\nj’adorerais changer d’uniforme\fpour participer !

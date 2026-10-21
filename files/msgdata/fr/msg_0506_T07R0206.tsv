@@ -1,0 +1,8 @@
+0	Cet ascenseur est réservé à Game\nFreak.\rVeuillez choisir l’étage où vous\nsouhaitez aller. {YESNO 0}
+1	À bientôt.
+2	On monte.\r
+3	On descend.\r
+4	Nous y sommes déjà.
+5	Vous voici au rez-de-chaussée.\r
+6	Vous voici au 2e étage,\nchez Game Freak.\r
+7	Vous voici sur le toit.\r

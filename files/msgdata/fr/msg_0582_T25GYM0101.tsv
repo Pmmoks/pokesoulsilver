@@ -1,0 +1,13 @@
+0	Blanche : Salut ! Moi, c’est Blanche !\r...Toi ! Tu étais à la Tour Radio tout à\nl’heure, non ?\rTout le monde s’est mis aux Pokémon,\nalors je m’y suis mise aussi !\rLes Pokémon sont trop mignons !\rTu veux te battre ?\fJe te préviens, je suis forte !\r
+1	Blanche : Snif...\r...Ouaaaaaah !\nQuelle méchanceté !\rIl ne faut pas prendre ça aussi\nau sérieux !\nEspèce d’enfant !
+2	Blanche : Ouiiiin !\rOuiiiin !\r...Snif, hic.\n...Quelle brute !
+3	Blanche : Snif...\rQuoi ? Qu’est-ce que tu veux ? Un\nBadge ?\rAh oui, j’avais oublié.\nTiens, voilà le Badge Plaine.\r
+4	{STRVAR_1 3, 0, 0} reçoit\nle Badge Plaine de la part de Blanche.
+5	Blanche : Le Badge Plaine permet à tes\nPokémon d’utiliser Force en dehors\fdes combats.\rOh, tu peux avoir ça aussi !\r
+7	Blanche : C’est Attraction ! Elle\nexploite à fond le charme d’un Pokémon.\rN’est-ce pas parfait pour une mignonne\ncomme moi ?\fExactement !\rJ’ai entendu dire que ce truc appelé\nDôme Pokéathlon vient d’ouvrir, juste\fà côté du Parc Naturel.\rTu devrais l’essayer, puisque tu t’en\nsors si bien au combat avec tes\fPokémon !
+8	Blanche : Ah, ça fait du bien de\npleurer !\rReviens me voir ! Bye-bye !
+9	Oh non. Tu as fait pleurer Blanche.\rCe n’est pas grave. Elle va s’arrêter\nbientôt.\nElle pleure toujours quand elle perd.\r
+10	Yo ! Un futur Champion !\rCette Arène accueille des Dresseurs\nde Pokémon de type Normal.\rJe te conseille d’utiliser des Pokémon\nde type Combat.
+11	Tu as gagné ? Super ! J’étais occupé à\nadmirer les puissants Dresseurs d’ici.
+12	Arène Pokémon de Doublonville
+13	Arène Pokémon de Doublonville\rChampionne : Blanche\nDresseur certifié !\f{STRVAR_1 3, 0, 0}

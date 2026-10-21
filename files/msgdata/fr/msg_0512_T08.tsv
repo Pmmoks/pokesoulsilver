@@ -1,0 +1,16 @@
+0	Un membre du Conseil 4 était\nautrefois Champion de l’Arène de\fParmanie.
+1	La fille de Koga lui a succédé\ncomme Championne d’Arène après\fqu’il a rejoint le Conseil 4.
+2	Le Parc Safari est resté fermé\nun moment.\rPuis il a déménagé à Johto sans\nque je m’en rende compte.\fC’est triste...\rC’était la principale attraction de\nla ville.
+3	Parmanie La Ville des Rencontres\net des Passages
+4	Arène Pokémon de Parmanie\nChampionne : Jeannine\fLa Maître Ninja Vénéneuse
+5	Il y a un avis ici...\rLe Parc Safari est fermé. À la\nplace, nous avons le Parc des\fAmis.
+6	Maison du Gardien du Parc des Amis
+7	Tesson contre Baie !\nTesson contre Baie !\rYa, ya !\nMoi échanger Baie contre Tesson.\rSi toi m’apporter des Tessons,\nmoi te donner trois Baies, ya !\r
+8	Tesson contre Baie !\nTesson contre Baie !\rYa, ya !\nMoi échanger Baie contre Tesson.\rSi toi m’apporter des Tessons,\nmoi te donner trois Baies, ya !\rQuel Tesson toi échanger\ncontre Baies ? {YESNO 0}
+9	Encore des Tessons à échanger\ncontre des Baies ? {YESNO 0}
+10	Ya, ya !\nReviens quand toi changer\fd’idée, ya !\r
+11	Moi te donner lot de Baies E\ncontre Tesson Rouge, ya !\r
+12	Moi te donner lot de Baies F\ncontre Tesson Bleu, ya !\r
+13	Moi te donner lot de Baies G\ncontre Tesson Jaune, ya !\r
+14	Moi te donner lot de Baies H\ncontre Tesson Vert, ya !\r
+15	Toi avoir déjà beaucoup de Baies\nde ce lot.\rReviens quand toi en vouloir plus,\nya !\r

@@ -1,0 +1,15 @@
+0	Route 39\nOliville au sud
+1	Ferme Meumeu\nSavourez notre lait frais et délicieux
+2	Conseil Dresseur\rUtilise Coup d’Boule sur les arbres\npour faire tomber des Pokémon.\rDes Pokémon différents tombent\ndes arbres.\rUtilise Coup d’Boule sur tous les\narbres que tu vois !
+3	ECREMEUH : Meuh !
+4	Baoba : ...Ohh ! Ce que tu tiens,\nc’est... ce qu’on appelle...un\fPokédex ! Ça fait des lustres que je\fn’en ai pas vu.\rJe m’appelle Baoba !\rJ’ai dirigé un Parc Safari à Parmanie,\nmais il devenait démodé avec les\fnouvelles distractions.\rJ’ai décidé d’aller à l’étranger\napprendre les dernières technologies\fet ouvrir un Parc Safari ultramoderne\fà Irisia.\rCe n’est peut-être pas un hasard si\nnous discutons.\rEt si on enregistrait nos numéros\ndans le Pokématos ?\rJe pourrai t’appeler dès que le Parc\nSafari ouvrira, avant de prévenir\fqui que ce soit d’autre !\r
+5	Veux-tu enregistrer ? {YESNO 0}
+6	Voilà !\r
+7	Hein, je ne m’attendais pas à ce que\ntu dises non.\nOn y trouve aussi des Pokémon\fdifficiles à croiser.\rTu pourras aussi bien avancer\ndans ton Pokédex...\r
+8	{STRVAR_1 3, 0, 0} a enregistré Baoba\ndans le Pokématos !
+9	Baoba : Je te préviendrai par le\nPokématos dès que ce sera prêt !\r
+10	Major Bob : Hé, toi !\rTu ne veux pas un bon souvenir de nous\ndeux ? Et si on prenait une photo\fensemble ? {YESNO 0}
+11	Major Bob : OK ! OK !\rFais-moi un très beau sourire !\r
+12	Major Bob : Waouh !\nElle est vraiment réussie !\rOn encourage la Route 39 !
+13	Major Bob : Ce n’est pas grave...\rPréviens-moi si tu changes d’avis.
+14	Ton Album Photo est plein.\rVa sur ton PC supprimer des photos\navant de revenir.

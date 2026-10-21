@@ -1,0 +1,46 @@
+0	Bienvenue au Parc des Amis !\rC’est ici que les Dresseurs d’élite que\nle Parc Safari ne satisfait pas\fviennent montrer leurs techniques de\fcapture à leurs pairs.\r...Oh ?\rSerais-tu...\nAh, tu es {STRVAR_1 3, 0, 0} !\rMon père m’a parlé de toi ! On dit que\ntu es un Dresseur hors pair !\rNous serions honorés que tu participes\nà nos Spectacles de Capture. {YESNO 0}
+1	Bienvenue au Parc des Amis !\rC’est ici que les Dresseurs d’élite que\nle Parc Safari ne satisfait pas\fviennent montrer leurs techniques de\fcapture à leurs pairs.\r...Oh ?\rSerais-tu...\nAh, tu es {STRVAR_1 3, 0, 0} !\rMon père m’a parlé de toi ! On dit que\ntu es une Dresseuse hors pair !\rNous serions honorés que tu participes\nà nos Spectacles de Capture. {YESNO 0}
+2	Oui ! Tu acceptes de participer !\nNe perdons pas de temps !\rLaisse-moi t’expliquer comment\nfonctionne le Parc des Amis. Que\fdois-je expliquer ? {YESNO 0}
+3	Au Parc des Amis, on chronomètre ta\ncapture de six Pokémon.\rTu reçois six Poké Balls spéciales\npour le défi.\rLes Dresseurs participants doivent\nfournir les six Pokémon à capturer. Si\ftu ne fournis pas les six Pokémon, tu\fne peux pas participer au Spectacle de\fCapture.\r...Veux-tu savoir\nautre chose ? {YESNO 0}
+4	Au début du Spectacle de Capture,\ntu recevras six Parc Balls.\rUtilise les Parc Balls pour capturer\nles six Pokémon que tu as fournis.\r...Veux-tu savoir\nautre chose ? {YESNO 0}
+5	Insère une cartouche Game Boy\nAdvance Pokémon Rubis, Saphir,\fÉmeraude, Rouge Feu ou Vert Feuille\fdans la fente.\rSix des Pokémon capturés peuvent\nmigrer de la cartouche vers la carte\fDS quand ta DS est allumée et que tu\fchoisis “MIGRATION DE...”.\rNote que tu ne peux pas insérer de\ncartouche GBA dans une Nintendo DSi\fpour migrer.\r...Veux-tu savoir\nautre chose ? {YESNO 0}
+6	Veux-tu participer à un\nSpectacle de Capture maintenant ? {YESNO 0}
+7	Oh, c’est dommage.\rEh bien, fais-moi signe si tu veux\nparticiper.
+8	Bonjour, {STRVAR_1 3, 0, 0} !\rEs-tu venu pour participer à\nun Spectacle de Capture ? {YESNO 0}
+9	Bonjour, {STRVAR_1 3, 0, 0} !\rEs-tu venue pour participer à\nun Spectacle de Capture ? {YESNO 0}
+10	Voici tes Parc Balls !\r{STRVAR_1 3, 0, 0} a reçu\nsix Parc Balls.\rLe détenteur du record actuel est\n{STRVAR_1 3, 1, 0} avec {STRVAR_1 53, 2, 0} points.\rAllez, c’est parti, {STRVAR_1 3, 0, 0}.\rÉblouis-nous avec une démonstration\nmagistrale de capture de Pokémon !\r
+11	Voici tes Parc Balls !\r{STRVAR_1 3, 0, 0} a reçu\nsix Parc Balls.\rLe détenteur du record actuel est\n{STRVAR_1 3, 1, 0} avec {STRVAR_1 53, 2, 0} points.\rAllez, c’est parti, {STRVAR_1 3, 0, 0}.\rÉblouis-nous avec une démonstration\nmagistrale de capture de Pokémon !\r
+12	Oh, attends. Tu n’as pas assez de\nPokémon pour un Spectacle de Capture.\rIl faut nous fournir six Pokémon\npour participer.\rFais migrer des Pokémon de Hoenn\nou d’une autre région !
+13	Oui ! Tu acceptes de participer !\nNe perdons pas de temps !\rLaisse-moi t’expliquer comment\nfonctionne le Parc des Amis. Que\fdois-je expliquer ? {YESNO 0}
+14	Je suis désolé que tu aies dû\nabandonner. Je reprends les Parc Balls\fqu’il te reste.\rLa prochaine fois, reste jusqu’à avoir\ncapturé les six Pokémon.
+15	Oh, tes Boîtes du PC sont pleines. Tu\nn’as pas de place pour six Pokémon de\fplus.\rTu ne pourras pas les accepter,\nmême si tu les captures.\rFais de la place dans une Boîte du PC\net reviens pour ton Spectacle de\fCapture.
+16	Félicitations !\nLes six Pokémon sont capturés !\rLe public a adoré regarder\nton Spectacle de Capture.\rBien, voyons ton score\nsi important pour ce spectacle !\r...\n...\rPoints de Capture : {STRVAR_1 53, 0, 0} !\rPoints de Temps : {STRVAR_1 53, 1, 0} !\rPoints de Type : {STRVAR_1 53, 2, 0} !\rLe total est de...\r...\n...\r{STRVAR_1 53, 3, 0} points !\r
+17	Waouh ! Quel record exceptionnel !\nBravo à toi !\r
+18	Bien ! Un record honorable.\nFélicitations !\r
+19	Veux-tu envoyer tous les Pokémon\ncapturés dans les Boîtes du PC ? {YESNO 0}
+20	Voilà ! Tes Pokémon ont été rangés\ndans les Boîtes.\rIl faut maintenant sauvegarder la\npartie.\r
+21	Oh, alors ce serait amusant pour toi de\nviser un score encore meilleur en\ftentant de recapturer ces six-là.\rSi tu veux refaire un Spectacle de\nCapture, viens nous voir !
+22	Si tu veux refaire un Spectacle de\nCapture, reviens nous voir !\r
+23	C’est l’heure de ta récompense !\nTiens !\r
+24	Refaire un Spectacle de Capture\navec les mêmes Pokémon ? {YESNO 0}
+25	Le détenteur du record actuel est\n{STRVAR_1 3, 1, 0} avec {STRVAR_1 53, 2, 0} points.\fPeux-tu faire mieux ?
+26	Oh ! Tu as dépassé les 2 000 points !\nTu l’as bien mérité !\r
+27	Continue à viser un meilleur\nscore !
+28	Oh ! Tu as dépassé les 2 500 points !\nTu l’as bien mérité !\r
+29	Oh ! Tu as dépassé les 3 000 points !\nTu l’as bien mérité !\r
+30	Oh ! Tu as dépassé les 3 500 points !\nTu l’as bien mérité !\r
+31	Tu as établi un record incroyable !\nIl n’y a plus rien à dire !
+32	Ton Sac est plein.\nReviens plus tard.
+33	J’ai entendu des Dresseurs se plaindre\nque les Pokémon rares mettent plus de\ftemps à apparaître.\rEst-ce plus facile de commencer par\ndes Pokémon communs ?
+34	Oh, moi ? Non, je ne capture jamais de\nPokémon moi-même. Mais j’aime beaucoup\fles Spectacles de Capture.\rJ’adore voir les Pokémon de Johto et\nde Hoenn, surtout.\rLes régions où je ne suis jamais allé\nsont si mystérieuses.
+35	Je suis si heureux que j’ai envie de\npartager mon bonheur avec toi\faujourd’hui.\rJe dois te couronner avec ceci...\nla Couronne.\rOh, avant que tu te méprennes,\nc’est un Accessoire pour Pokémon.\r
+36	Je suis si heureux que j’ai envie de\npartager mon bonheur avec toi\faujourd’hui.\rJe me sens obligé de t’offrir\nce Diadème.\rOh, avant que tu te méprennes,\nc’est un Accessoire pour Pokémon.\r
+37	Je suis si heureux que j’ai envie de\npartager mon bonheur avec toi\faujourd’hui.\rJ’aimerais que tu prennes ce Décor\n“Fond Marin”.\rEssaie-le quand tu habilles ton\nPokémon avec des Accessoires.\r
+38	Je suis si heureux que j’ai envie de\npartager mon bonheur avec toi\faujourd’hui.\rJ’aimerais que tu prennes ce Décor\n“Souterrain”.\rEssaie-le quand tu habilles ton\nPokémon avec des Accessoires.\r
+39	Je suis si heureux que j’ai envie de\npartager mon bonheur avec toi\faujourd’hui.\rJ’aimerais que tu prennes ce Décor\n“Ciel”.\rEssaie-le quand tu habilles ton\nPokémon avec des Accessoires.\r
+40	Il n’y a pas que le Pokéathlon et le\nParc Safari, mais aussi la Zone de\fCombat et le Parc des Amis...\rD’autres que moi travaillent si dur...\nQuel rêve...\fCette région fait battre mon cœur.
+41	Je suis venu voir le Spectacle de\nCapture de {STRVAR_1 3, 0, 0}...\rWaouh, {STRVAR_1 3, 0, 0} ! C’est pour de\nvrai ?
+42	Salut, {STRVAR_1 3, 0, 0} ! Ton Spectacle de\nCapture était génial ! Je deviendrai un\fDresseur comme toi !
+43	{STRVAR_1 3, 0, 0},\nil y a toujours une prochaine fois !
+44	Mon fils est un grand fan de toi,\n{STRVAR_1 3, 0, 0}.\fEs-tu...si célèbre que ça ?
+45	Si vous voulez voir des Pokémon rares,\nles Spectacles de Capture du Parc des\fAmis sont ce qu’il y a de mieux !

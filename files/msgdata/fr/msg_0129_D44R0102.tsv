@@ -1,0 +1,33 @@
+0	Attends !\r
+1	Sandra : Je suis désolée pour ça.\nTiens, prends ceci en guise d’excuse.\r
+3	Elle contient Draco-Choc.\rEnfin, Draco-Choc, c’est une sorte de\neuh... Peu importe !\rC’est une énorme énergie de je ne sais\nquoi. Si tu n’en veux pas, ne te force\fpas.\r
+4	Oh ? Tu n’as pas de place pour ça.\rJe retourne à l’Arène, alors fais de la\nplace et viens me voir là-bas.\r
+5	Qu’est-ce qui ne va pas ? Si tu te\ndiriges vers la Ligue Pokémon, retourne\fà Bourg Geon et fais du Surf sur la\fRoute 27.\rTon visage... me dit que tu as des\naffaires à régler...\rAllez !\rQuoi que tu aies à affronter désormais,\nne t’avise pas d’abandonner !\rSinon, je me sentirai encore plus mal\nd’avoir perdu contre toi ! Donne tout\fce que tu as.\r
+6	Sanctuaire du Dragon\rUn sanctuaire vénérant les Pokémon de\ntype Dragon qui auraient vécu dans\fl’Antre du Dragon.
+7	{STRVAR_1 3, 1, 0} : ...\nQuoi ? {STRVAR_1 3, 0, 0} ?\rOui, j’entraîne mes Pokémon ici.\nTu peux te moquer de moi maintenant...\rMais il le faut. Mes Pokémon ne sont pas\nprêts à te battre. Je ne peux pas les\fpousser trop fort maintenant.\rJe dois être discipliné pour devenir le\nmeilleur Dresseur Pokémon...
+8	{STRVAR_1 3, 1, 0} : ...\rOuf...\rApprends à rester hors de mon\nchemin...
+9	Sandra : Il est encore tôt, et tu n’as\ndéjà rien à faire ?\rJe peux peut-être t’écouter. Si tu\ninsistes, on peut même échanger nos\fnuméros ! {YESNO 0}
+10	{STRVAR_1 3, 0, 0} a enregistré Sandra\ndans le Pokématos !
+11	Sandra : Je peux t’affronter le\nvendredi soir si tu insistes !
+12	Sandra : ...
+13	Sandra : Alors tu veux bien échanger\nnos numéros ? {YESNO 0}
+14	{STRVAR_1 3, 1, 0} : ...Quoi ? Tu viens te\nmoquer de mon entraînement ?\rHmpf ! J’ai pris mon temps pour venir\njusqu’ici,\rmais le Maître ne veut rien me dire, et\nil en fait toute une histoire...\rAlors j’ai décidé d’entraîner mes\nPokémon ici à la place.\r
+15	Peter : Salut, {STRVAR_1 3, 0, 0} ! Et... toi.\nOn s’est croisés à la planque de la Team\fRocket.\r
+16	Peter : Salut, {STRVAR_1 3, 0, 0} ! Et... toi.\nOn s’est croisés à la planque de la Team\fRocket.\r
+17	{STRVAR_1 3, 1, 0} : Toi !\nOù étais-tu passé tout ce temps ?\rPrépare-toi à perdre cette fois.\nJe te défie !\r
+18	Peter : Du calme.\nJ’étais un peu pressé à ce moment-là.\rDésolé pour ça. Mais... j’accueille\ntoujours les challengers !\rHé !\nUn Combat Double, ça vous dit ?\r
+19	{STRVAR_1 3, 1, 0} : Hmpf ! Tu ne peux pas me\nbattre en un contre un, c’est ça ?\r
+20	Peter : Allons. Un Combat Double, ce\nn’est vraiment pas mal. {STRVAR_1 3, 0, 0}, tu\fseras de mon côté !\r
+21	Peter : Allons. Un Combat Double, ce\nn’est vraiment pas mal. {STRVAR_1 3, 0, 0}, tu\fseras de mon côté !\r
+22	Sandra : Eh bien, toi là-bas !\nTu fais équipe avec moi ?\r
+23	{STRVAR_1 3, 1, 0} : Tu plaisantes !\rCette honte ambulante en tenue\nbizarre, avec moi ? Pas question de\fcombattre avec elle !\r
+24	{STRVAR_1 3, 0, 0} !\nViens de mon côté !\fOn va battre Peter ensemble !\r
+25	Peter : Comme je m’y attendais.\nVous formez une sacrée équipe...\rAller seul est certainement une façon\nde viser le sommet...\rMais le combat Pokémon ne se résume\npas à ça. Même si je ne pense pas devoir\fvous le rappeler.\rÀ une autre fois, {STRVAR_1 3, 0, 0} !\r
+26	Peter : Comme je m’y attendais.\nVous formez une sacrée équipe...\rAller seul est certainement une façon\nde viser le sommet...\rMais le combat Pokémon ne se résume\npas à ça. Même si je ne pense pas devoir\fvous le rappeler.\rÀ une autre fois, {STRVAR_1 3, 0, 0} !\r
+27	Sandra : Je dois vous laisser.\r...{STRVAR_1 3, 0, 0}, c’était un combat\namusant.\rÇa vaut pour toi aussi, petit malin.\r
+28	{STRVAR_1 3, 1, 0} : {STRVAR_1 3, 0, 0}...\rÇa ne devait pas se passer comme ça...\nEn tout cas, je n’abandonne pas l’idée\fde te battre !\rJe vais entraîner mes Pokémon et... mon\npropre cœur aussi.\rJe reviendrai en étant le plus gros défi\npour toi !\r
+29	Sandra : Tu... as l’air désespéré de\nvouloir prendre des photos avec moi. {YESNO 0}
+30	Sandra : C’est parti ?\r
+31	Sandra : Excellente photo de moi !\nUne autre photo classe.
+32	Sandra : Dommage.
+33	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.\n

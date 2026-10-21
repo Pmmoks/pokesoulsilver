@@ -1,0 +1,24 @@
+0	Hm ? Qui es-tu ?\r{STRVAR_1 3, 0, 0}, hein ? Tu veux que je te\nfabrique des Balls ?\rDésolé, mais ça devra attendre.\rTu connais la Team Rocket ? Ah, peu\nimporte. Je te le dis quand même.\rLa Team Rocket est une bande de\nmalfaiteurs qui utilise des Pokémon\fpour ses sales coups.\rIls étaient censés s’être dissous\nil y a trois ans.\rEn tout cas, ils sont au puits, en train\nde couper des Queues Ramoloss pour les\fvendre !\rAlors je vais leur donner\nune bonne leçon !\rTenez bon, RAMOLOSS !\nLe vieux Fargas arrive !
+1	Fargas : Salut, {STRVAR_1 3, 0, 0} !\nTu as géré ça comme un vrai héros.\rComme je te l’ai dit, la Team Rocket a\nété dissoute par un garçon nommé Red il\fy a trois ans.\rMaintenant qu’ils sont de retour...\nJ’ai un mauvais pressentiment...\rQuoi qu’il en soit, ça me ferait grand\nplaisir de fabriquer des Poké Balls pour\fun Dresseur comme toi, {STRVAR_1 3, 0, 0}.\fC’est tout ce que j’ai pour l’instant,\fmais prends-le.\r
+3	Fargas : Je fabrique des Poké Balls\navec des Noigrumes.\rRamasse-en sur les arbres et\napporte-les-moi.\rJ’en ferai des Poké Balls.
+4	Fargas : Tu as des Noigrumes pour moi ?\nParfait ! Je vais en faire des Poké\fBalls.\r
+5	Fargas : Il me faudra une journée pour\nte fabriquer une Poké Ball. Reviens la\fchercher plus tard.
+6	Fargas : Oh...\nQuelle déception.
+7	Fargas : Je travaille !\nNe me dérange pas !
+8	Fargas : Ah, {STRVAR_1 3, 0, 0} ! Je viens de\nterminer ta Poké Ball. Tiens !\r
+9	Fargas : Ton Sac est plein !\nReviens quand il sera moins chargé.
+10	Fargas : Elle est réussie.\rEssaie de capturer des Pokémon avec.
+11	Les RAMOLOSS sont partis...\nIls ont été emmenés par des méchants ?
+12	Papi est parti...\nJe me sens tellement seule...
+13	Le RAMOLOSS que papa m’a donné est\nrevenu ! Sa queue a repoussé aussi !
+14	Papa travaille à la Sylphe SARL où il\nétudie les Poké Balls.\rJe dois rester à la maison avec papi\net RAMOLOSS.
+15	Ça y est, je sais !\nJe te donne le numéro de papi. {YESNO 0}
+16	{STRVAR_1 3, 0, 0} enregistre Fargas\ndans le Pokématos !
+17	Papi peut t’en dire plus\nsur les Noigrumes.
+18	Non ? Pourquoi ?\nTu ne veux pas parler à papi ?
+19	Tu veux parler à papi,\nn’est-ce pas ? {YESNO 0}
+20	RAMOLOSS : ...\nHaaa ?
+21	Tu vois trois personnes, avec un\npaysage en arrière-plan.\rC’est Fargas, le Prof. Chen, et...\nau milieu,\fune dame au regard déterminé.
+22	C’est une statue du protecteur\nde la forêt.
+23	La radio est allumée.\rC’est Pokémon Talk avec le Prof.\nChen !
+24	La radio annonce le retour\nde la Team Rocket !

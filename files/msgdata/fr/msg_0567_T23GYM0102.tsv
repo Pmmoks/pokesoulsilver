@@ -1,0 +1,6 @@
+0	Hector : Je suis Hector !\nJe ne perds jamais quand il s’agit des\fPokémon de type Insecte.\rMes recherches vont faire de moi\nl’autorité en matière de Pokémon\fInsecte !\rLaisse-moi te montrer ce que j’ai\nappris de mes études.\r
+1	Hector : Waouh, incroyable !\nTu es un expert des Pokémon !\rMes recherches ne sont pas terminées.\nBon, tu as gagné. Prends ce Badge.\r
+2	{STRVAR_1 3, 0, 0} reçoit le Badge Essaim\nde la part d’Hector !
+3	Hector : Connais-tu les avantages du\nBadge Essaim ?\rAvec lui, les Pokémon jusqu’au Niv. 30\nt’obéiront, même ceux échangés.\rLes Pokémon qui connaissent Coupe\npourront aussi l’utiliser en dehors\fdes combats.\rTiens, je veux aussi te donner ceci.\r
+5	Hector : La CT89 contient Demi-Tour.\rElle permet à ton Pokémon d’attaquer,\npuis de passer la main au suivant de\fton équipe.\rC’est génial, non ?
+6	Hector : Les Pokémon de type Insecte\nont de la profondeur. Il y a plein de\fmystères à explorer.\rÉtudie à fond tes préférés.

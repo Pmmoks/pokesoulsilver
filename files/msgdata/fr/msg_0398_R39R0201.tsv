@@ -1,0 +1,21 @@
+0	Meumeu est malade...\fElle a besoin de plein de Baies Oran.\r
+1	Merci !\nMeumeu est en pleine forme !\rJe te donne ces Sceaux pour\nta peine.\r
+2	Zut !\nJ’aimerais vraiment te donner des\fSceaux, mais tu n’as pas de\fBoîte Sceaux...\rMais ne t’en fais pas. Ma sœur peut\nte donner une Boîte Sceaux !\r
+3	Ha !\nTa Boîte Sceaux est pleine !\r
+4	Meumeu est en pleine forme !\r
+5	Meumeu est malade...\fElle a besoin de plein de Baies Oran.\r
+6	Merci !\nMeumeu est en pleine forme !\rJe te donne cette Boîte Sceaux pour\nta peine.\r
+7	Tu peux personnaliser tes Poké Balls.\rChoisis “CAPSULES” sur ton PC, colle\ntes Sceaux comme tu veux sur une\fCapsule, puis mets la Capsule sur\fl’une de tes Poké Balls.\rEssaie différentes choses, tu\nverras. Ma sœur peut te donner des\fSceaux !\r
+8	On vend du Lait Meumeu à la maison.\fN’oublie pas de passer !\r
+9	ECREMEUH : ...Meu...\r
+10	Son cri est faible...
+11	ECREMEUH : Meuh !\r
+12	Il déborde d’énergie.
+13	Donner une Baie Oran à ECREMEUH ? {YESNO 0}
+14	{STRVAR_1 3, 0, 0} a donné une Baie Oran\nà ECREMEUH.
+15	ECREMEUH va un peu mieux !
+16	ECREMEUH reprend des forces !
+17	ECREMEUH est en pleine forme !
+18	{STRVAR_1 3, 0, 0} n’a pas de Baie Oran...
+19	{STRVAR_1 3, 0, 0} n’a pas donné\nde Baie Oran.\rECREMEUH a l’air triste.
+20	Les {STRVAR_1 10, 0, 0} ont été\nrangés dans la Boîte Sceaux !

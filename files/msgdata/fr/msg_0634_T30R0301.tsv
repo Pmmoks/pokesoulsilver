@@ -1,0 +1,15 @@
+0	DRACO est mignon, mais je n’en ai pas.\nEn as-tu un ?\rTu l’échangerais contre mon DODRIO ? {YESNO 0}
+1	Waouh ! Merci !\nJ’ai toujours voulu un DRACO !
+2	Ce n’est pas un DRACO.\nÉchange avec moi si tu en trouves un.
+3	Tu ne veux pas échanger ?\nZut...
+4	Comment va ce DODRIO que je t’ai\néchangé ?\rTon DRACO est si mignon !
+5	Oh ?\nTon {STRVAR_1 0, 0, 0}...\r
+6	Il a travaillé extraordinairement dur,\nn’est-ce pas ?\rEn récompense, je te prie de lui\ndonner le Ruban Effort.\r
+7	{STRVAR_1 3, 1, 0} a reçu\nle Ruban Effort.\r
+8	{STRVAR_1 3, 1, 0} met le Ruban Effort\nà {STRVAR_1 0, 0, 0}.
+9	Il doit travailler un peu plus dur.\rS’il y arrive, je donnerai quelque\nchose de bien à ton Pokémon.
+10	Je vois qu’il travaille un peu plus dur.\rMais il lui faudra encore des efforts !
+11	Je vois qu’il travaille dur.\rMais il lui faudra encore un peu\nplus d’efforts !
+12	Je vois qu’il travaille assez dur.\rMais il lui faudra encore un tout petit\npeu d’efforts !
+13	Je vois qu’il travaille vraiment dur.\rIl y est presque.\nUn tout petit effort, et il y sera !
+14	Oh ! Ce Ruban Effort va bien\nà ton {STRVAR_1 0, 0, 0} !

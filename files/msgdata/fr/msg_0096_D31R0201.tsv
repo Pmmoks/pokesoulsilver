@@ -1,0 +1,102 @@
+0	Bienvenue à la Tour de Combat !\rJe suis votre guide pour les Salles de\nCombat Simple et Double.\r
+1	Souhaitez-vous relever le défi de\nla Salle de Combat ? {YESNO 0}
+2	À bientôt !
+3	La Tour de Combat est une installation\nde défis en Combat Simple ou Double.\rUne fois entré, votre défi dure\njusqu’à votre première défaite.\rEn Combat Simple, vous entrez avec\ntrois Pokémon.\rEn Combat Double, vous entrez avec\nquatre Pokémon.\rLes combats ont lieu dans des Salles de\nCombat, nombreuses dans la tour.\rDans chaque Salle de Combat, sept\nDresseurs attendent votre défi.\rSi vous parvenez à les battre tous les\nsept, vous gagnerez des Points Combat\f(PCo).\rSi vous voulez interrompre votre défi,\nveuillez sauvegarder la partie.\rSi vous ne sauvegardez pas, votre défi\nsera annulé.\rVeuillez en tenir compte !\r
+4	Quelle Salle de Combat souhaitez-vous ?\nSimple ou Double ? {YESNO 0}
+8	Veuillez sélectionner les Pokémon que\nvous souhaitez engager.\r
+9	Vos Pokémon doivent tous être\ndifférents.\r
+10	Les objets tenus doivent tous être\ndifférents.\r
+11	Je vais maintenant vous conduire\nà la Salle de Combat.
+12	Félicitations !\nVous avez battu les sept Dresseurs !\r
+13	Félicitations !\nVous avez battu le Magnat de la Tour !\rNous vous offrons ces Points Combat\nen reconnaissance de votre talent !\r{STRVAR_1 3, 0, 0} a reçu\n{STRVAR_1 50, 1, 0} PCo !\r
+14	Sauvegarde en cours...\nN’éteignez pas la console.
+15	Nous espérons vous revoir.
+16	Nous vous attendions !\rAvant d’entrer dans une Salle de\nCombat, votre progression sera\fsauvegardée. Veuillez patienter.
+19	Excusez-moi !\rVous n’avez pas sauvegardé avant\nd’interrompre votre dernier défi.\rVotre défi a donc été annulé !\r
+20	Bienvenue à la Tour de Combat !\rJe suis votre guide pour les Salles de\nCombat Multi.\r
+21	Souhaitez-vous relever le défi de la\nSalle de Combat Multi ? {YESNO 0}
+23	Les Salles de Combat Multi de la Tour de\nCombat servent aux Combats Multi avec\fun partenaire.\rPour entrer, associez-vous à un autre\nDresseur et participez avec deux\fPokémon chacun.\rÀ l’intérieur de la tour se trouve une\nsalle appelée le Salon de Combat, où\fvous pouvez rencontrer d’autres\fDresseurs.\rVous y trouverez un Dresseur qui sera\nvotre partenaire en Combat Multi.\rVous pouvez aussi faire équipe avec un\nami grâce aux communications sans fil.\rUne fois en équipe, vous serez conduit\nà une Salle de Combat Multi.\rDans la Salle de Combat Multi, sept\néquipes attendent votre défi.\rSi vous parvenez à battre les sept\néquipes, vous gagnerez des Points\fCombat.\rSi vous voulez interrompre votre défi,\nveuillez sauvegarder la partie.\rSi vous ne sauvegardez pas, votre défi\nsera annulé.\rDe plus, si vous faites équipe avec un\nami, vous ne pouvez pas interrompre\fvotre défi.\r
+26	Souhaitez-vous communiquer avec un\nami et former une équipe ? {YESNO 0}
+27	Un Dresseur doit sélectionner\n“ÊTRE LE CHEF”.\rL’autre Dresseur doit sélectionner\n“REJOINDRE”. {YESNO 0}
+32	Je vais maintenant vous conduire à\nvotre Salle de Combat Multi.
+33	Les deux Dresseurs ont choisi le\nPokémon {STRVAR_1 0, 0, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.\r
+34	Les deux Dresseurs ont choisi les\nPokémon {STRVAR_1 0, 0, 0} et {STRVAR_1 0, 1, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.\r
+35	Je vais maintenant vous conduire\nau Salon de Combat.\r
+36	Bienvenue à la Tour de Combat !\rJe suis votre guide pour les Salles de\nCombat Wi-Fi.\r
+37	Souhaitez-vous relever le défi de la\nSalle de Combat Wi-Fi ? {YESNO 0}
+38	Les Salles de Combat Wi-Fi de la Tour de\nCombat servent à combattre via la\fCWF Nintendo.\rVous affronterez ainsi des Dresseurs\ndu monde entier.\rLa Tour de Combat compte de\nnombreuses Salles de Combat.\rDans chaque Salle de Combat, sept\nDresseurs attendent votre défi.\rSi vous parvenez à les battre tous les\nsept, vous gagnerez des Points Combat.\rSelon vos résultats, vous pourrez même\ndevenir le chef de la salle !\rDe plus, les Salles de Combat Wi-Fi\nfonctionnent avec un système de rangs.\rLes Dresseurs montent en rang s’ils\nenchaînent les victoires Wi-Fi.\rÀ l’inverse, leur rang peut baisser\ns’ils perdent régulièrement.\rPour monter en rang, continuez à\ngagner, surtout contre des Dresseurs\fplus forts.\rSi vous voulez interrompre votre défi,\nveuillez sauvegarder la partie.\rSi vous ne sauvegardez pas, votre défi\nsera annulé.\r
+39	À bientôt !
+47	D’accord. Je vais vous conduire à\nvotre Salle de Combat.\rTout est en ordre pour vous ? {YESNO 0}
+48	Souhaitez-vous sauvegarder et\ninterrompre votre défi ? {YESNO 0}
+52	J’ai téléchargé l’historique des anciens\nchefs de la Salle {STRVAR_1 52, 1, 0} de Rang {STRVAR_1 51, 0, 0}.\rVeuillez le consulter sur le Moniteur\nde Performances à côté de moi.
+53	Merci d’avoir joué !\r
+54	Félicitations !\nVous avez battu les sept Dresseurs !\r
+55	{STRVAR_1 3, 0, 0}, vous passez aussi\nau Rang {STRVAR_1 51, 1, 0} !\r
+56	Sauvegarde en cours...\nN’éteignez pas la console.
+57	Souhaitez-vous envoyer ces résultats\nvia la CWF Nintendo ? {YESNO 0}
+58	Pour votre série de 7 victoires, voici\nles PCo que vous avez gagnés !\r{STRVAR_1 3, 0, 0} a reçu\n{STRVAR_1 50, 1, 0} PCo.\r
+60	Vos résultats ont été envoyés\nvia la CWF Nintendo !\r
+61	Content de vous revoir.\rVos résultats précédents n’ont pas\nété envoyés via la CWF Nintendo.\rSouhaitez-vous les envoyer\nmaintenant ? {YESNO 0}
+65	Malheureusement, vous descendez\nau Rang {STRVAR_1 51, 0, 0}...\r
+69	Votre record va être sauvegardé.\nVeuillez patienter.
+70	Félicitations pour avoir atteint le Rang\n{STRVAR_1 51, 0, 0}. Votre équipe de Pokémon\fvictorieuse a gagné des Rubans\fspéciaux pour cet exploit !
+73	Félicitations pour votre série de 50\nvictoires. Votre équipe de Pokémon\fvictorieuse a gagné des Rubans\fspéciaux pour cet exploit !
+74	Comme vous le voyez, la Zone de Combat\nest une installation formidable.\rSavez-vous quoi ?\rApparemment, il existe des installations\nsimilaires en dehors de Johto.
+75	Merci d’avoir joué !\rVos Pokémon vont être soignés...\fOh là là !\rJe ne suis pas de service aujourd’hui.\nJe suis juste là pour m’amuser.
+76	Moi ?\rJe viens de débuter comme Idole !\fJe n’ai pas encore beaucoup de travail.\rAlors dès que j’ai un moment, je viens\nici combattre avec des Pokémon.
+77	J’ai entraîné mon petit jusqu’à ce\nqu’on soit à bout.\rIl va sûrement faire une série de\n50 victoires...\rN’est-ce pas, PIKACHU ?
+78	PIKACHU : ...
+79	J’ai toujours aimé ce genre\nd’ascenseur transparent depuis que je\fsuis jeune.\rOu pas !\rQuand j’étais jeune, ce genre\nd’ascenseur était inconnu !
+80	Hi hi !\nTous les Dresseurs autour de nous\font l’air si minables !\r...En fait, c’est ce genre d’état\nd’esprit qui te fait perdre en un seul\fcoup !\rNe baisse pas ta garde, PIKACHU !
+81	PIKACHU : Pichuu ! Pichuu !
+82	Félicitations pour votre série de\n50 victoires !\rLes Pokémon de votre équipe recevront\ndes Rubans commémoratifs.
+83	Félicitations pour votre passage au\nRang {STRVAR_1 50, 0, 0} !\rLes Pokémon de votre équipe recevront\ndes Rubans commémoratifs.
+84	Félicitations pour votre victoire sur\nle Magnat de la Tour !\fLes Pokémon de votre équipe recevront\fdes Rubans commémoratifs.
+85	Félicitations !\rEn l’honneur de votre victoire, nous\nvous offrons cette estampe\fcommémorative !\r
+86	L’Estampe Or a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+87	L’Estampe Argent a été ajoutée au\nMagnéto VS de {STRVAR_1 3, 0, 0} !\r
+88	Félicitations pour votre série de\n{STRVAR_1 52, 0, 0} victoires !\rVeuillez accepter ce trophée pour\nvotre fantastique exploit !\fNous vous l’enverrons chez vous.\r
+89	...Oh oh... Vous n’avez plus de place\npour les objets de décoration.\rFaites de la place, puis revenez\nchercher votre prix.
+90	Les deux Dresseurs ont choisi les\nPokémon {STRVAR_1 0, 0, 0} et {STRVAR_1 0, 1, 0}.\rVeuillez vous concerter avec l’autre\nDresseur et choisir des Pokémon\fdifférents.
+91	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+92	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs et {STRVAR_1 0, 1, 0}\nne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+93	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0}\net {STRVAR_1 0, 2, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+94	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0} et {STRVAR_1 0, 3, 0}\rne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+95	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0}\ret {STRVAR_1 0, 4, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+96	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0} et {STRVAR_1 0, 5, 0}\nne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+97	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0}\net {STRVAR_1 0, 6, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+98	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0} et {STRVAR_1 0, 7, 0}\rne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+99	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0}\ret {STRVAR_1 0, 8, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+100	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0} et {STRVAR_1 0, 9, 0}\nne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+101	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0}\net {STRVAR_1 0, 10, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+102	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0} et {STRVAR_1 0, 11, 0}\rne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+103	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0}\ret {STRVAR_1 0, 12, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+104	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\r{STRVAR_1 0, 12, 0} et {STRVAR_1 0, 13, 0}\nne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+105	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\r{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0}\net {STRVAR_1 0, 14, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+106	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\r{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\n{STRVAR_1 0, 14, 0} et {STRVAR_1 0, 15, 0}\rne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+107	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\r{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\n{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0}\ret {STRVAR_1 0, 16, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+108	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\r{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\n{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0},\r{STRVAR_1 0, 16, 0} et {STRVAR_1 0, 17, 0}\nne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+109	Excusez-moi !\rVous n’avez pas {STRVAR_1 50, 0, 0} Pokémon\nadmissibles.\rIl vous faut {STRVAR_1 50, 0, 0} Pokémon différents\npour participer.\rIls doivent aussi tenir des objets\nde types différents.\rLes Œufs, {STRVAR_1 0, 1, 0},\n{STRVAR_1 0, 2, 0}, {STRVAR_1 0, 3, 0},\r{STRVAR_1 0, 4, 0}, {STRVAR_1 0, 5, 0},\n{STRVAR_1 0, 6, 0}, {STRVAR_1 0, 7, 0},\r{STRVAR_1 0, 8, 0}, {STRVAR_1 0, 9, 0},\n{STRVAR_1 0, 10, 0}, {STRVAR_1 0, 11, 0},\r{STRVAR_1 0, 12, 0}, {STRVAR_1 0, 13, 0},\n{STRVAR_1 0, 14, 0}, {STRVAR_1 0, 15, 0},\r{STRVAR_1 0, 16, 0}, {STRVAR_1 0, 17, 0}\net {STRVAR_1 0, 18, 0} ne sont pas admis.\rRevenez me voir quand tout sera en\nordre.
+110	Merci beaucoup de votre participation !\nÀ bientôt !
+111	Il ne semble pas y avoir encore\nde données...
+112	La communication sans fil DS\nva être lancée. {YESNO 0}
+113	Nous attendons votre prochaine visite\navec impatience.\r
+114	On peut m’appeler le Juge.\rHé hé, ce n’est pas mon vrai nom, mais\nc’est comme ça que tout le monde\fm’appelle.\rC’est à cause de ce pouvoir étrange\nque j’ai. C’est un don, en fait.\rJe peux discerner... juger, si tu\nveux... le potentiel global de chaque\fPokémon.\rSi tu veux, je peux juger le potentiel\nintrigant de tes Pokémon.\r
+115	Si tu veux, je peux juger le potentiel\nintrigant de tes Pokémon.\r
+116	...Oh. Tu n’as pas besoin de mon\njugement. Compris.
+117	Juger un Œuf ?!\nMême pour moi, c’est trop demander.\r
+118	Je vois, je vois...\rCe Pokémon a un potentiel correct dans\nl’ensemble.\rC’est mon verdict, et il est sans appel.\r
+119	Je vois, je vois...\rCe Pokémon a un potentiel supérieur à\nla moyenne dans l’ensemble.\rC’est mon verdict, et il est sans appel.\r
+120	Je vois, je vois...\rCe Pokémon a un potentiel relativement\nsupérieur dans l’ensemble.\rC’est mon verdict, et il est sans appel.\r
+121	Je vois, je vois...\rCe Pokémon a un potentiel exceptionnel\ndans l’ensemble.\rC’est mon verdict, et il est sans appel.\r
+122	Au passage, c’est dans ses PV que\nréside son meilleur potentiel.\r
+123	Au passage, c’est dans son Attaque que\nréside son meilleur potentiel.\r
+124	Au passage, c’est dans sa Défense que\nréside son meilleur potentiel.\r
+125	Au passage, c’est dans son Atq. Spé.\nque réside son meilleur potentiel.\r
+126	Au passage, c’est dans sa Déf. Spé.\nque réside son meilleur potentiel.\r
+127	Au passage, c’est dans sa Vitesse que\nréside son meilleur potentiel.\r
+128	Il est plutôt correct dans ce domaine.\nVoilà mon jugement.
+129	Il est très bon dans ce domaine.\nVoilà mon jugement.
+130	Il est fantastique dans ce domaine.\nVoilà mon jugement.
+131	Il ne peut pas faire mieux dans ce\ndomaine. Voilà mon jugement.
+132	Un Ruban sera décerné aux\nPokémon participants !

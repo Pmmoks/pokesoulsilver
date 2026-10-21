@@ -1,0 +1,30 @@
+0	Tu dois être {STRVAR_1 3, 0, 0}.\rC’est moi qui ai envoyé un e-mail\nau Prof. Orme tout à l’heure.\r
+1	Tu dois être {STRVAR_1 3, 0, 0}.\rC’est moi qui ai envoyé un e-mail\nau Prof. Orme tout à l’heure.\r
+2	Voilà ce que je voudrais faire examiner\npar le Prof. Orme.\r
+3	Un ami de Rosalia me l’a donné.\rJe parie que tu ne trouveras pas ce\ngenre d’Œuf à Johto.\rJe me suis dit que le Prof. Orme\npourrait peut-être dire ce que c’est.\r“Il n’a pas son pareil pour la\nrecherche sur l’évolution des\fPokémon.”\rC’est une citation du célèbre\nProf. Chen.\r
+4	Tu retournes voir le Prof. Orme ?\rTiens. Tes Pokémon devraient\nse reposer un peu.\r
+5	Désolé de te déranger, de te faire\nfaire des allers-retours.\rMais n’oublie pas de le remettre\nau Prof. Orme !
+6	La vie est belle ! Il y a toujours de\nnouvelles découvertes !
+7	Des Kimono Girls ? De quoi parles-tu ?\nJe ne connais pas ces personnes.\fHi hi...\r
+8	Prof. Chen : Et voilà...\rJe suis le Prof. Chen, chercheur\nPokémon !\rAlors c’est toi, {STRVAR_1 3, 0, 0} !\rJe rendais justement visite à mon ami\nM. Pokémon.\rJ’ai appris que tu faisais une course\npour le Prof. Orme, alors je t’ai\fattendu ici.\r
+9	Prof. Chen : Et voilà...\rJe suis le Prof. Chen, chercheur\nPokémon !\rAlors c’est toi, {STRVAR_1 3, 0, 0} !\rJe rendais justement visite à mon ami\nM. Pokémon.\rJ’ai appris que tu faisais une course\npour le Prof. Orme, alors je t’ai\fattendue ici.\r
+10	Prof. Chen : Oh ! Qu’est-ce que\nc’est ? Un Pokémon rare !\rJe vois ! Tu aides les recherches du\nProf. Orme ! Je crois comprendre\fpourquoi le Prof. Orme t’a confié ce\fPokémon.\rTu traiteras tes Pokémon avec amour\net attention, apparemment.\r
+11	Prof. Chen : ...Ah !\rTu as l’air digne de confiance.\nAimerais-tu m’aider ?\rTiens ! Voici la dernière version du\nPokédex.\rIl enregistre automatiquement les\ndonnées des Pokémon vus ou capturés.\rC’est une encyclopédie high-tech !\nJe voudrais que tu l’aies.\r
+12	{STRVAR_1 3, 0, 0} reçoit le Pokédex\ndu Prof. Chen !
+13	Va rencontrer toutes sortes de\nPokémon et complète ce Pokédex ! Mais\fje suis resté trop longtemps.\rJe dois aller à Doublonville pour mon\némission de radio habituelle.\r{STRVAR_1 3, 0, 0}, j’ai le pressentiment que\nce n’est pas la dernière fois qu’on se\fvoit...\rÉchangeons nos numéros, par\nprécaution.\r
+14	Va rencontrer toutes sortes de\nPokémon et complète ce Pokédex ! Mais\fje suis resté trop longtemps.\rJe dois aller à Doublonville pour mon\némission de radio habituelle.\r{STRVAR_1 3, 0, 0}, j’ai le pressentiment que\nce n’est pas la dernière fois qu’on se\fvoit...\rÉchangeons nos numéros, par\nprécaution.\r
+15	{STRVAR_1 3, 0, 0} a enregistré le Prof. Chen\ndans le Pokématos !\r
+16	Hm ? Cette Écaille Rouge ! C’est quoi ?\nUn LEVIATOR rouge ?\fC’est rare ! Je... Je la veux...\r{STRVAR_1 3, 0, 0}, voudrais-tu\nl’échanger ?\rJe peux t’offrir ce Multi Exp que j’ai\nreçu du Prof. Chen. {YESNO 0}
+17	Hm ? Cette Écaille Rouge ! C’est quoi ?\nUn LEVIATOR rouge ?\fC’est rare ! Je... Je la veux...\r{STRVAR_1 3, 0, 0}, voudrais-tu\nl’échanger ?\rJe peux t’offrir ce Multi Exp que j’ai\nreçu du Prof. Chen. {YESNO 0}
+19	Arrgh, faut croire que ton Sac est\nplein.
+20	C’est décevant.\nC’est pourtant très rare.
+21	Salut, {STRVAR_1 3, 0, 0} !\rJ’ai quelque chose que je veux te\ndonner et j’allais justement envoyer\fun e-mail au Prof. Chen.\r
+22	Salut, {STRVAR_1 3, 0, 0} !\rJ’ai quelque chose que je veux te\ndonner et j’allais justement envoyer\fun e-mail au Prof. Chen.\r
+23	Voilà...\nUn ami de Hoenn est venu\fme le donner.\r
+24	{STRVAR_1 3, 0, 0} reçoit\nl’Orbe Bleu !\r
+25	{STRVAR_1 3, 0, 0} reçoit\nl’Orbe Rouge !\r
+26	Cet Orbe a un rapport avec les\nanciennes ruines situées après Irisia,\fappelées la Tour Enfouie.\rMais seule une poignée de Dresseurs\npeut s’y rendre...\rC’est là que tu entres en jeu.\rLe Prof. Chen a une haute opinion de\ntoi, et tu es après tout le Maître de la\fLigue.\rJe suis sûr que tu peux résoudre le\nmystère de l’Orbe et le secret des\fruines.
+27	La Tour Enfouie est après Irisia,\nquelque part dans la Grotte Falaise.\rDu moins, c’est ce que j’ai entendu.\rEnfin, c’est ce dont je me souviens.\rOu c’est ce que je crois !
+28	Elle est remplie de magazines\nétrangers.\rImpossible d’en lire les titres...
+29	C’est un gros ordinateur.\nHmm. Il est en panne.
+30	Un tas de pièces étranges ! Peut-être\nqu’elles viennent d’un autre pays...

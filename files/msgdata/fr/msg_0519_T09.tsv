@@ -1,0 +1,22 @@
+0	Qui es-tu ?\rJe m’appelle Blue.\nJ’ai été le Maître de Kanto.\rEnfin, pas longtemps, grâce à Red...\fBref, regarde bien autour de toi...\r
+1	Blue : Un volcan entre en éruption, et\npouf, toute une ville disparaît.\rOn peut continuer à gagner et perdre à\nPokémon, mais si la nature fait ne\fserait-ce qu’un sursaut, on peut être\fsubmergé en une seconde...\rC’est comme ça...\nMais bon, je reste un Dresseur.\rSi je vois un adversaire fort, ça me\ndonne envie de me battre.\r
+2	Si tu veux m’affronter...pour de vrai,\nviens à l’Arène de Jadielle.\r
+3	Je t’attendrai !\r
+4	Si tu veux m’affronter...pour de vrai,\nmontre-moi combien de Badges de Kanto\ftu as.\r...\n{STRVAR_1 50, 0, 0}...\rTu n’es pas encore à mon niveau...
+5	Blue : Tu es incroyable !\nTu as battu Red !?\fC’est génial !\rPrenons une photo ensemble ! {YESNO 0}
+6	Blue : Très bien !\r
+7	Blue : Merci pour la belle photo !
+8	Blue : Bon, tant pis...
+9	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.
+10	Auguste : Je n’abandonnerai jamais\navant d’avoir reconstruit l’Arène de\fCramois’Île !\rEt si on échangeait nos numéros ! {YESNO 0}
+11	{STRVAR_1 3, 0, 0} a enregistré Auguste\ndans le Pokématos !
+12	Auguste : Hmmm...\nOn devrait pouvoir se battre\fle mardi soir !
+13	Auguste : Oh...quelle déception !
+14	Auguste : On échange nos\nnuméros ? {YESNO 0}
+15	Auguste : Oh, c’est toi !\nDis, tu veux qu’on prenne une photo\fici même ? {YESNO 0}
+16	Auguste : Voilà, mets-toi à côté de\nmoi !\r
+17	Auguste : Oh, quelle belle photo !
+18	Auguste : Noooon !
+19	Ton Album Photo est plein.\rVa sur ton PC pour supprimer\nquelques photos.
+20	Il y a un avis ici...\rL’Arène de Cramois’Île a déménagé\naux Îles Écume.\f           Auguste
+21	Cramois’Île\nLa Ville Ravagée du Passé

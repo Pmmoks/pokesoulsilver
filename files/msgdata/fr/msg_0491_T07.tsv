@@ -1,0 +1,36 @@
+0	Voici mon fidèle compagnon, TARTARD.\rJe me demande s’il deviendra un jour\nun Pokémon Grenouille.
+1	TARTARD : Tar tar !
+2	Oh là là !\nTu me regardais ?\rTu m’as vue sortir du Casino avec\nun gros tas de Jetons...\fet sourire toute seule ?\fC’est ça, non ?
+3	Des TADMORV ont commencé à apparaître\nrécemment. Tu vois l’étang devant la\fmaison ?\rIl y en a aussi dedans.\nJe me demande d’où ils viennent.\rSnif...
+4	Ha ha ! Cette Arène est géniale !\nElle est pleine de Dresseurs coriaces !
+5	Je vais te dire un secret !\rLes Résidences de Céladopole ont des\nendroits qu’on ne peut atteindre\fqu’avec l’ascenseur du 1er étage !
+6	Le restaurant organise un concours\nde gloutonnerie.\rIl paraît qu’il y a un excellent\nparticipant de la région de Sinnoh\fcette année.
+7	Le Centre Commercial de Céladopole\npropose le plus grand choix d’objets !\fTu peux acheter tout ce que tu veux !\r...On dirait un de leurs représentants,\nnon ?
+8	J’adore ce genre d’endroit avec\nplein de bâtiments !\rIl paraît que Johto a aussi une ville,\nDoublonville, avec plein de\fgratte-ciel.\fJ’aimerais bien y aller un jour.
+9	Erika : Salut, Jasmine. Blanche, de\nl’Arène de Doublonville, m’a dit que tu\fétais trop simple et que tu devrais\fêtre plus chic. C’est vrai ?\r
+10	Jasmine : Oui...\rJe pense que je devrais peut-être\nparticiper à ce Concours à Sinnoh\fpour essayer d’être plus éclatante...\r
+11	Erika : Alors, comment ça s’est passé ?\r
+12	Jasmine : Je n’ai pas pu me résoudre\nà aller au Concours.\r
+13	Erika : Oh, je vois...\rAlors pourquoi ne pas essayer une\ntenue particulièrement somptueuse ?\r
+14	Jasmine : Ah, oui !\nPeut-être que je me déciderai\fà participer au Concours !\r
+15	Erika : Que dirais-tu d’une tenue chic\nbleu clair avec une cape par-dessus ?\r
+16	Jasmine : Quoi ?\nC’est trop gênant !\r
+17	Erika : Je vois.\nTu trouves que Sandra, d’Ebenelle, est\fun peu gênante...\fJe ne fais que prendre des notes.\r
+18	Jasmine : Oh non ! Erika, ce n’est pas\nce que je voulais dire !
+19	Erika : Bonjour, {STRVAR_1 3, 0, 0}.\rVeux-tu qu’on\néchange nos numéros ? {YESNO 0}
+20	{STRVAR_1 3, 0, 0} a enregistré Erika\ndans le Pokématos !
+21	Erika : Je suis souvent libre le\ndimanche matin.\rAppelle-moi à ce moment-là.
+22	Erika : Oh, quel dommage...
+23	Erika : Veux-tu qu’on\néchange nos numéros ? {YESNO 0}
+24	Erika : Bonjour !\nContente de te voir ici.\rQue dirais-tu de prendre une photo\navec moi ? {YESNO 0}
+25	Erika : Essaie d’avoir l’air cool,\nmaintenant.\r
+26	Erika : Bien joué.\nElle est réussie !
+27	Erika : Oh, quel dommage...
+28	Ton Album Photo est plein.\rVa sur ton PC et supprime\nquelques photos.
+29	Jasmine : Pharamp va bien grâce à toi.
+30	Céladopole\nLa Ville aux Couleurs de l’Arc-en-ciel
+31	Arène Pokémon de Céladopole\nChampionne : Erika\fLa Princesse amie de la nature !
+32	Trouvez ce qu’il vous faut au\nCentre Commercial de Céladopole !
+33	Résidences de Céladopole
+34	Casino de Céladopole\nUn lieu de plaisir pour tous
+35	Conseils aux Dresseurs\rDéfense Spéc. protège les Pokémon\ndes capacités qui réduisent les stats\fpendant le combat.\rProcurez-vous vos objets au\nCentre Commercial de Céladopole !

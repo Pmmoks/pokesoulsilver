@@ -1,0 +1,40 @@
+0	Euh...\nQui disais-tu que j’étais, déjà ?\r...\n...\rAh oui, je me souviens maintenant !\nJe suis l’Effaceur de Capacités !\r
+1	Tu viens me demander de faire oublier\ndes capacités à tes Pokémon ? {YESNO 0}
+2	Quel Pokémon doit oublier une\ncapacité ?\r
+3	Pense à moi s’il y a des capacités\nà oublier.
+4	Ce Pokémon ne connaît qu’une seule\ncapacité, elle ne peut donc pas être\foubliée...\r
+5	Quoi ? C’est un Œuf. Un Œuf ne devrait\nconnaître aucune capacité.\r
+6	Bien.\nQuelle capacité doit être oubliée ?\r
+7	Hm ! La capacité {STRVAR_1 6, 0, 0} ?\nDoit-elle être oubliée ? {YESNO 0}
+8	Parfait !\rTon Pokémon a complètement oublié\nla capacité {STRVAR_1 6, 0, 0}.
+9	Moi ?\nJe suis le Maniaque des Capacités.\rJe connais toutes les capacités que les\nPokémon apprennent en montant de\fniveau, et je peux les leur faire se\frappeler.\rJe peux faire se rappeler une capacité\nà l’un de tes Pokémon si tu veux.\rMais... hum ! Ça a un prix.\rJe ferai se rappeler une capacité à un\nPokémon si tu me donnes une Écaille\fCœur.
+10	Ha ! Ça y est ! C’est une vraie\nÉcaille Cœur !\rDevinons : tu veux que j’apprenne une\ncapacité à l’un de tes Pokémon ?\r
+11	Si l’un de tes Pokémon doit apprendre\nune capacité, reviens avec une Écaille\fCœur.
+12	Quel Pokémon a besoin d’une leçon ?\r
+13	Quelle capacité dois-je lui faire\nse rappeler ?\r
+14	Désolé...\rJe ne peux faire se rappeler aucune\ncapacité à ce Pokémon.
+15	Hein ?\rTu ne crois pas qu’il serait difficile\nà un Œuf de se rappeler une capacité ?\rIl n’a même pas encore éclos.
+25	{STRVAR_1 3, 3, 0} donne une\nÉcaille Cœur en échange.
+26	Hohoho...\nOn m’appelle Mamie Wilma.\rJe sens en toi un léger talent de\nDompteur de Dragons.\rVeux-tu que j’apprenne une capacité\nà l’un de tes Pokémon ? {YESNO 0}
+27	Ah, c’est encore toi...\rVeux-tu que j’apprenne la meilleure\ncapacité de type Dragon que je\fconnaisse à l’un de tes Pokémon ? {YESNO 0}
+28	Eh bien, si tu changes d’avis,\nreviens me voir.
+29	Je vois...\nJ’aime ton sens de l’aventure.\rCependant, aucun des Pokémon qui\nt’accompagnent ne peut apprendre\fcette capacité.
+30	Bien, bien, choisis maintenant le\nPokémon à qui je dois apprendre la\fcapacité.\r
+31	Désolée de te décevoir...\rCe Pokémon peut apprendre cette\ncapacité, mais il ne te fait pas encore\fentièrement confiance...\rTant que ce ne sera pas le cas, je ne\npeux pas la lui faire apprendre.
+32	Désolée de te décevoir...\nCe Pokémon ne peut pas apprendre\fcette capacité.
+33	Hmm...\rApprendre une capacité à un Œuf est\nun défi qui me dépasse.
+34	Oh ? Ce Pokémon connaît déjà\n{STRVAR_1 6, 0, 0}.
+42	La puissance destructrice de Draco\nMétéore est impressionnante.\rCependant, l’utiliser réduit aussi\nl’Attaque Spéciale du lanceur.
+43	Ta quête de puissance t’a mené ici...\rTrès bien.\rLaisse-moi récompenser ta passion avec\ndes capacités absolument stupéfiantes.\rCe sont les capacités ultimes !\rDois-je les enseigner à\nton Pokémon ? {YESNO 0}
+44	Les capacités ultimes !\rDois-je les enseigner à\nton Pokémon ? {YESNO 0}
+45	À quel Pokémon dois-je enseigner\nune capacité ?\r
+46	Hmm... Eh bien, c’est très bien aussi.\nReviens si tu changes d’avis.
+48	Ce Pokémon ne peut pas apprendre\nde capacité ! Lis le mémo là-bas ! Keh !
+49	Enseigner une capacité à un Œuf ?\nImpossible même pour moi ! Keh !
+50	Tu n’es pas assez lié à ton Pokémon !\nKeh !
+51	Ce Pokémon connaît déjà la capacité que\nje propose d’enseigner ! Keh !
+52	Dois-je enseigner Rafale Feu\nà ton {STRVAR_1 0, 0, 0} ? {YESNO 0}
+53	Dois-je enseigner Hydroblast\nà ton {STRVAR_1 0, 0, 0} ? {YESNO 0}
+54	Dois-je enseigner Végé-Attak\nà ton {STRVAR_1 0, 0, 0} ? {YESNO 0}
+61	Les capacités ultimes peuvent être\nenseignées aux Pokémon listés ici !\rLes Pokémon de type Feu, flamboyants\n{CURSOR_X 7}DRACAUFEU TYPHLOSION\f{CURSOR_X 7}BRASEGALI SIMIABRAZ\rLes Pokémon de type Eau, agités\n{CURSOR_X 7}TORTANK ALIGATUEUR\f{CURSOR_X 7}LAGGRON PINGOLEON\rLes Pokémon de type Plante, paisibles\n{CURSOR_X 7}FLORIZARRE MEGANIUM\f{CURSOR_X 7}JUNGKO TORTERRA
+62	Bien, je vais enseigner une capacité\nà {STRVAR_1 0, 0, 0}...\r

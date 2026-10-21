@@ -1,0 +1,17 @@
+0	Excuse-moi !\nJ’ai reçu cette lettre l’autre jour\fd’un ami.\rVoici la réponse que j’ai écrite.\rJe suis bloqué ici et je me demandais\nsi tu pourrais la lui remettre...\rIl est sur la Route 31.\fPeux-tu me rendre ce service ? {YESNO 0}
+1	Oh... Tant pis, alors...\nTu dois avoir à faire aussi.
+2	Hein ?\nTon équipe est complète !
+3	Waouh, merci !\r
+4	{STRVAR_1 3, 0, 0} reçoit le\nPIAFABEC avec une Lettre !
+5	Mon ami est sur la Route 31.\rIl a l’air vraiment avide de lire\ndes lettres, tu le reconnaîtras\fdu premier coup !
+6	Mon ami est sur la Route 31.\rAh oui.\nUn drôle d’arbre bloquait la route.\fJe me demande s’il a été dégagé ?
+7	Merci d’avoir fait la livraison !\r...Et une exploration de grotte ?\nAh, tu peux passer par ici.\rJe veux que tu aies ceci pour\nta gentillesse !\r
+8	Mon pote dormait, non ?\nHé, il dort tout le temps.
+9	Quoi ?!\nTu as perdu la Lettre ?\fEh bien. Ce n’est pas grave.\fNe t’en fais pas.
+10	Tout va bien !
+11	Un drôle d’arbre bloque la route.\nIl se tortille quand on lui parle.\rIl paraît qu’il est devenu sauvage\nquand quelqu’un l’a arrosé avec\fun Carapuce à O.
+12	J’aime la Berceuse Pokémon qu’ils\npassent à la radio.
+13	Je n’en reviens pas qu’un si petit\nchangement transforme le Pokématos\fen radio !\rOh, ton Pokématos n’a pas encore\ncette fonction ?\rC’est dommage !\rIls font des quiz à l’accueil de la\nTour Radio, au rez-de-chaussée.\rSi tu réponds correctement, ils te\ndonneront la Carte Radio !\rTu devrais essayer tant qu’il en\nreste !
+14	Ça ne se voit pas, mais je me\ndébrouille bien en mécanique.\rVeux-tu savoir comment écouter\nla radio ? {YESNO 0}
+15	Tu ouvres ton Pokématos et tu\nappuies sur le bouton radio. Tu vois\falors l’écran de réglage du signal.\rLe milieu de l’écran est la carte\nde réception radio.\rTu peux déplacer le repère clignotant\nsur la carte pour régler différentes\fémissions.\rPour ceux que ça embête, il y a quatre\ncanaux, deux de chaque côté,\fpour un réglage facile.
+16	Je faisais le donneur de leçons ?

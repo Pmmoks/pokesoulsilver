@@ -1,0 +1,3 @@
+0	Hein ? Tu as besoin de médicaments ?\nTes Pokémon ont l’air en forme.\fQuelque chose te préoccupe ?\r...\rLe Pokémon du Phare a un problème ?\rJ’ai ce qu’il faut !\fÇa devrait faire l’affaire.
+2	Ma Potion Secrète est un peu trop\nforte. Je ne la propose qu’en cas\fd’urgence.
+3	Qu’est-ce qui t’amène ?\nTu as besoin de médicaments ? {YESNO 0}

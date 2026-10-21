@@ -1,0 +1,20 @@
+0	Lyra : Mamie !\rJe te présente mon ami.\nVoici {STRVAR_1 3, 0, 0} !\r
+1	Ah ah.\nC’est ton petit...ami.\fJe vois. Hmm.\r
+2	Lyra : Quoi ? Mamie...!\nDe quoi parles-tu ?\rIl habite juste à côté...\r
+3	Mamie : Hahaha.\nJe sais. Je sais.\rSi tu l’as amené ici, Lyra, c’est que\ntu es sûre de son talent.\rN’est-ce pas, {STRVAR_1 3, 0, 0} ?\nViens nous voir quand tu veux !\r
+4	Lyra : Bon, je ferais mieux d’y\naller... À plus !\r
+5	Lyra : Oh ! J’allais oublier !\r
+6	Lyra : Tiens !\nVoici mon numéro de Pokématos !\r
+7	{STRVAR_1 3, 0, 0} a enregistré Lyra\ndans le Pokématos !\r
+8	Lyra : Tu sais que tu peux parler à\ntes Pokémon quand ils te suivent ?\rIls font plein de choses mignonnes sur\nla route et dans les villes.\rJe prends des notes chaque fois\nqu’ils font des choses drôles.\rAppelle-moi et je t’en ferai profiter.\r
+9	Lyra : Mamie !\rNe dis rien.\rNous sommes tous les deux Dresseurs,\net nous sommes censés échanger\fnos numéros. C’est tout.\r
+10	Ethan : Mamie !\rJe te présente mon amie.\nVoici {STRVAR_1 3, 0, 0} !\r
+11	Ah ah.\nC’est ta petite...amie.\fJe vois. Hmm.\r
+12	Ethan : Quoi ? Mamie...!\nDe quoi parles-tu ?\rElle habite juste à côté...\r
+13	Hahaha.\nJe sais. Je sais.\rSi tu l’as amenée ici, Ethan, c’est que\ntu es sûr de son talent.\rN’est-ce pas, {STRVAR_1 3, 0, 0} ?\nViens nous voir quand tu veux !\r
+14	Ethan : Bon, je ferais mieux d’y\naller... À plus !\r
+15	Ethan : Oh ! J’allais oublier !\r
+16	Ethan : Tiens !\nVoici mon numéro de Pokématos !\r
+17	{STRVAR_1 3, 0, 0} a enregistré Ethan\ndans le Pokématos !\r
+18	Ethan : Tu sais que tu peux parler à\ntes Pokémon quand ils te suivent ?\rIls font plein de choses mignonnes sur\nla route et dans les villes.\rJe prends des notes chaque fois\nqu’ils font des choses drôles.\rAppelle-moi et je t’en ferai profiter.\r
+19	Ethan : Mamie !\rNe dis rien.\rNous sommes tous les deux Dresseurs,\net nous sommes censés échanger\fnos numéros. C’est tout.\r

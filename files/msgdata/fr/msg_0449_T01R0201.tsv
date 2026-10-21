@@ -1,0 +1,13 @@
+0	Daisy : Salut ! Mon petit frère est le\nChampion de l’Arène de Jadielle.\rMais il quitte si souvent la ville que\nça pose problème aux Dresseurs.
+1	Daisy : Salut ! Tu tombes bien. J’allais\nprendre le thé.\rVeux-tu te joindre à moi ?\rOh, tu as l’air de laisser tes Pokémon\nun peu sales.\rLe toilettage les rend plus beaux et\nplus affectueux.\rVeux-tu que j’en toilette un ? {YESNO 0}
+2	Daisy : Lequel dois-je toiletter ?\r
+3	{STRVAR_1 0, 0, 0} a l’air content.
+4	Daisy : Voilà !\nC’est fini.\rTu vois ? Il est beau, non ?\nC’est un Pokémon si mignon.
+5	Daisy : Je prends toujours le thé à\ncette heure-ci. Viens te joindre à moi.
+6	Daisy : Tu ne veux pas en faire\ntoiletter un ? D’accord, on va juste\fprendre le thé.
+7	Daisy : Oh, désolée. Je ne peux\nvraiment pas toiletter un Œuf.
+8	Daisy : Tu aimes vraiment le\ntoilettage ! Dis donc ! Veux-tu le\fnuméro de mon petit frère ?\rC’est le Champion de l’Arène de\nJadielle. L’as-tu déjà défié ?\rVeux-tu l’enregistrer ? {YESNO 0}
+9	{STRVAR_1 3, 0, 0} a enregistré Blue\ndans le Pokématos !
+10	Daisy : Appelle-le quand tu en as\nenvie.\rIl peut être trop sûr de lui, mais il a\nquand même besoin de compagnie.\rIl a dit qu’il n’aurait rien de prévu\nle dimanche soir...\fHi hi !
+11	Daisy : Vraiment ? Tu ne veux pas ?\nJe vois...\fQuelle déception.
+12	Daisy : Veux-tu enregistrer le numéro\nde mon petit frère ? {YESNO 0}
