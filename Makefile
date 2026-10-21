@@ -202,9 +202,23 @@ $(BUILD_DIR)/lib/MSL_C/src/msl_unwind_stack.o: private MWCCVER := 2.0/sp2p2
 $(BUILD_DIR)/lib/MSL_C/src/msl_unwind_stack.o: private EXCCFLAGS := -Cpp_exceptions on
 $(BUILD_DIR)/lib/MSL_C/src/msl_handle_unexpected.o: private MWCCVER := 2.0/sp2p3
 $(BUILD_DIR)/lib/MSL_C/src/msl_handle_unexpected.o: private EXCCFLAGS := -Cpp_exceptions on
+ifeq ($(TRANSLATION),)
 include tools/msl-d1-partition/d1.mk
 include tools/msl-new-partition/new.mk
 include tools/dwc-iterator-advance/iterator.mk
+else
+# These producers accept only the untranslated build's objects and compiler command line. Their
+# code does not depend on the text, so a translated build copies them from the untranslated one.
+UNTRANSLATED_DIR := build/$(buildname)
+UNTRANSLATED_OBJS := src/to91_msl_shared_ptr_char_d1.o src/to91_msl_scalar_new.o src/to91_msl_array_new.o \
+                     lib/NitroDWC/src/to91_ov45_iterator_advance108.o
+.PHONY: untranslated_objs
+untranslated_objs:
+	$(MAKE) TRANSLATION= $(addprefix $(UNTRANSLATED_DIR)/,$(UNTRANSLATED_OBJS))
+$(addprefix $(BUILD_DIR)/,$(UNTRANSLATED_OBJS)): $(BUILD_DIR)/%: untranslated_objs
+	@mkdir -p $(dir $@)
+	@cmp -s $(UNTRANSLATED_DIR)/$* $@ || cp $(UNTRANSLATED_DIR)/$* $@
+endif
 
 $(BUILD_DIR)/lib/MSL_C/src/msl_file_io.o: private MWCCVER := 2.0/sp2p3
 
