@@ -104,5 +104,5 @@ game. It must be a SoulSilver US save.
   their name, as a traded Pokémon would.
 - The iOS port is untested on a device so far. Its iOS-only code was checked on
   Linux against stand-in headers, and the rest of ssrecomp builds as usual; the
-  *iOS app check* workflow (Actions tab, started by hand) compiles it with Xcode
+  *iOS app check* workflow (runs on pushes to ios/ on iOS_version) compiles it with Xcode
   around a synthetic stand-in for the game code. `log.txt` helps with reports.
