@@ -1,0 +1,12 @@
+1	Notre combat était remarquable !\rJ’aimerais un souvenir de toi !\rPeut-être ton numéro ?\rMon entraînement m’empêche de\nbeaucoup bavarder, mais... {YESNO 0}
+2	Je dois m’entraîner encore plus dur\npour devenir le plus puissant !
+3	Si tu veux mon numéro, viens\nme trouver.
+4	Mon entraînement m’empêche de\nbavarder. Alors, tu notes mon\fnuméro ? {YESNO 0}
+5	Aujourd’hui, je voudrais te remercier,\n{STRVAR_1 3, 0, 0} !\rJe m’entraîne tout seul...\nJ’étais content que tu prennes la\fpeine d’appeler...\r{STRVAR_1 3, 0, 0} ! Je veux que tu prennes\nceci !\r
+6	Même ta force ne te permet pas de\nporter une chose de plus ! Je le garde\fjusqu’à ce que tu allèges ton Sac !
+7	Pardon ?\nSi tu es tout près, j’apprécierais la\fpolitesse d’une discussion en face !
+8	Tu es toujours en voyage ?\nMoi, je reste dévoué à mon\fentraînement. Hoooooaaarrrgh !
+9	Désolé, mais je n’ai pas le temps de\nbavarder pendant mon entraînement !\rJ’aurai le temps de discuter demain !\nYiiiha !
+10	Je compte faire une pause déjeuner,\nalors viens me voir à ce moment-là !\fAyiiiyah !
+11	Je fais une pause sur la Route 45 !\nTu passes ? On peut faire un combat !
+12	Je me suis reposé pendant ma pause\ndéjeuner. Il est temps de reprendre\fl’entraînement ! Hooryaah !

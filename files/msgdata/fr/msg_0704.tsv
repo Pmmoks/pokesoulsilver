@@ -1,0 +1,23 @@
+1	Tes connaissances sont\nimpressionnantes ! J’aime ça !\rOn échange des astuces de combat ?\nJ’appelle si j’ai de bonnes infos.\rTu me donnes ton numéro ?{YESNO 0}
+2	Je t’appelle si j’apprends quelque\nchose !
+3	Ah, d’accord. Dommage...\rBon, si un jour tu veux mon numéro,\nviens me voir, OK ?
+4	On échange des astuces de combat ?\nJ’appelle si j’ai de bonnes infos.\rTu me donnes ton numéro ?{YESNO 0}
+6	Qu’est-ce qui se passe ?\nOn est tout près... Pourquoi ne pas\fvenir me parler en face ?
+7	L’intelligence de mon {STRVAR_1 0, 10, 0} ne\ncesse d’augmenter. Il est peut-être\fplus malin que le tien !\rÀ plus tard !
+8	L’autre jour, j’ai battu facilement\nun {STRVAR_1 0, 11, 0} sauvage.\rJe crois que nos échanges d’astuces\ncommencent à porter leurs fruits.\rÀ plus tard !
+9	J’ai raté la capture d’un {STRVAR_1 0, 11, 0}\nsauvage de peu.\rSi j’avais été mieux informé, je suis\nsûr que je l’aurais attrapé...\rÀ plus tard !
+10	Tu savais... ?\rQuand il pleut, Fatal-Foudre touche\nà coup sûr.
+11	Tu savais... ?\rSi tu utilises Boul’Armure, la puissance\nde Roulade augmente beaucoup.
+12	Tu savais... ?\rSous un soleil intense, Lance-Soleil\nn’a pas besoin de se charger.
+13	Tu savais... ?\rSi l’adversaire utilise Lilliput, ton\nÉcrasement devient plus puissant.
+14	Tu savais... ?\rSi l’adversaire vole, ta Tornade\ndevient bien plus puissante.
+15	Tu savais... ?\rSi l’adversaire vole, ton Ouragan\ndevient plus puissant.
+16	Tu savais... ?\rSi l’adversaire utilise Tunnel, ton\nSéisme devient plus puissant.
+17	Tu savais... ?\rSi l’adversaire utilise Tunnel, ton\nAmpleur devient plus puissante.
+18	Tu savais... ?\rLes types Roche, Sol et Acier ne\nsubissent pas la Tempête de Sable.
+19	Tu savais... ?\rSous un soleil intense, les capacités de\ntype Eau deviennent bien plus faibles.
+20	Tu savais... ?\rQuand il pleut, les capacités de type\nFeu deviennent bien plus faibles.
+21	Tu veux te battre ? Je vais te montrer\ncomment combattre avec logique.\rJe serai à {STRVAR_1 4, 3, 0}.\rFais-moi signe si tu es dans le coin.
+22	Hé, {STRVAR_1 3, 0, 0} !\rTu te souviens de ta promesse ?\nOn doit bientôt se battre !\rJe serai à {STRVAR_1 4, 3, 0}.
+23	Hé, {STRVAR_1 3, 0, 0} !\rTu te souviens de ta promesse ?\nOn doit bientôt se battre !\rJe serai à {STRVAR_1 4, 3, 0}.
+24	Mon ami a appris de super astuces.\nIl va m’en confier quelques-unes.\rQuand il me les dira, je t’appellerai.

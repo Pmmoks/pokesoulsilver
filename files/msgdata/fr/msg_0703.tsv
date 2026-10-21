@@ -1,0 +1,12 @@
+1	Hmm. Si tu venais dans ma classe,\nje deviendrais le deuxième meilleur\félève de ma classe, pas vrai ?\rJe veux devenir plus fort avant que\nça arrive, alors on échange nos\fnuméros ?\rComme ça, on pourra faire des\ncombats Pokémon ! {YESNO 0}
+2	Cool. Je t’appellerai quand je serai\nprêt pour un autre combat !\rTu peux m’appeler, toi aussi !
+3	Attends... Ne me dis pas que tu veux\nvraiment venir dans mon école ?!
+4	Hmm. Si tu venais dans ma classe,\nje deviendrais le deuxième meilleur\félève de ma classe, pas vrai !\rAvant que ça arrive, je veux encore\nt’affronter pour devenir bien plus\ffort ! Échangeons nos numéros.\rComme ça, on pourra faire des\ncombats Pokémon ! {YESNO 0}
+5	Je veux te donner quelque chose pour\nte remercier de nos combats !\fTiens, une Baie !\r
+6	Hm ? Attends, tu es où ? Je suis\npresque sûr que tu es tout près.\rTant qu’à venir jusqu’ici, n’hésite\npas à venir me voir !
+7	Tu sais, j’ai beaucoup appris en te\nregardant combattre, et je me suis\fentraîné avec mon {STRVAR_1 0, 10, 0}.\rGrâce à toi, on a beaucoup progressé !\rMais même si on est devenus plus forts,\ntoi aussi, tu as sûrement progressé\fen même temps.\rDonc... ça veut dire qu’on ne pourra\ntoujours pas te battre, je crois !
+8	Grâce aux astuces que j’ai apprises en\nte regardant, j’ai battu un {STRVAR_1 0, 11, 0}\fsauvage l’autre jour !\rGrâce à toi, mon Pokémon est bien\nplus fort !\rSi on se revoit, j’espère que tu me\nmontreras d’autres astuces !
+9	Hé, hé, écoute ça !\rIl y a quelques jours, j’essayais\nd’attraper un {STRVAR_1 0, 11, 0} sauvage...\rOn s’est battus jusqu’au bout, mais\nil a fini par s’enfuir !\rJ’aurais dû préparer plein de\nPoké Balls, je sais...
+10	Tu sais, ces temps-ci, j’ai envie de\nt’affronter à nouveau... Qu’en dis-tu ?\rÇa t’intéresse ?\nJe t’attends sur {STRVAR_1 4, 3, 0} !
+11	Allô ? On n’avait pas prévu de se\nretrouver sur {STRVAR_1 4, 3, 0} pour un\fcombat ?\rTu n’as pas pu oublier, j’en suis sûr !\nAllez, bouge-toi !
+12	Hé, tu sais pourquoi je suis toujours\nen short ?\rParce que c’est vraiment cool !\rTu sais, quand tu t’écorches les genoux\nen short, tout le monde voit\ftes pansements ?\fÇa me donne un air sauvage et\fdangereux !

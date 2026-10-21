@@ -1,0 +1,12 @@
+1	Waouh, tu es coriace. Ça faisait\nlongtemps que je ne m’étais pas battu\faussi sérieusement.\rJe peux avoir ton numéro ?\rJ’aimerais refaire un combat une fois\nmes Pokémon soignés. {YESNO 0}
+2	Comment te battre ? Cette question\nme tourmente sans cesse...
+3	OK... Je comprends...\nMais si tu changes d’avis, fais-moi\fsigne quand tu veux.
+4	Je peux avoir ton numéro ?\rJ’aimerais refaire un combat une fois\nmes Pokémon soignés. {YESNO 0}
+6	Hein ? Cette voix...\nTu es tout près, non ?\fParlons en face.
+7	Mon {STRVAR_1 0, 10, 0} est peut-être meilleur\nque je ne l’imaginais.\rJe doute de voir un {STRVAR_1 0, 10, 0}\nsauvage meilleur que le mien.
+8	Il y a quelque temps, j’ai essayé\nd’attraper un {STRVAR_1 0, 11, 0} sauvage.\rIl a réussi à m’échapper.\rUne seule mauvaise décision peut mener\nà l’échec... Toi aussi, fais attention.
+9	L’autre jour, j’ai battu un {STRVAR_1 0, 11, 0}\nde justesse.\rJe n’avais jamais vu un {STRVAR_1 0, 11, 0}\nsauvage aussi fort...\rNe baisse jamais ta garde, même\ncontre un Pokémon que tu as\fl’habitude de voir.
+10	Combattons !\rJe t’attendrai sur {STRVAR_1 4, 3, 0}.\nFais-moi signe quand tu seras proche.
+11	{STRVAR_1 3, 0, 0}, pourquoi tu n’es pas là ?\rJe vais te battre sur\n{STRVAR_1 4, 3, 0} !
+12	{STRVAR_1 3, 0, 0}, pourquoi tu n’es pas là ?\rJe vais te battre sur\n{STRVAR_1 4, 3, 0} !
+13	Tu sais, je n’en reviens toujours pas\nde ta force...\rJe cherche comment te battre\njour après jour...
