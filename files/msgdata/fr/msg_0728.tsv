@@ -1,3 +1,363 @@
+0	...Hmpf !\nPas mal, pour quelqu’un de faible.\n
+1	...Hmpf !\nÇa te fait plaisir d’avoir gagné ?\n
+2	...Hmpf !\nQuelle perte de temps.\n
+3	...Hmpf !\nPas mal, pour quelqu’un de faible.\n
+4	...Hmpf !\nÇa te fait plaisir d’avoir gagné ?\n
+5	...Hmpf !\nQuelle perte de temps.\n
+6	...Hmpf !\nPas mal, pour quelqu’un de faible.\n
+7	...Hmpf !\nÇa te fait plaisir d’avoir gagné ?\n
+8	...Hmpf !\nQuelle perte de temps.\n
+9	Dis donc, tu as un sacré culot\nde venir jusqu’ici...\n
+10	C’est ridicule. Je ne peux pas perdre\ncontre une mauviette comme toi !\n
+11	...Hmpf !\nPokémon inutiles !\rÉcoute-moi bien. Tu n’as gagné que\nparce que mes Pokémon sont faibles.\n
+12	...Hmpf !\nJe savais que tu mentais.\n
+13	Dis donc, tu as un sacré culot\nde venir jusqu’ici...\n
+14	C’est ridicule. Je ne peux pas perdre\ncontre une mauviette comme toi !\n
+15	...Hmpf !\nPokémon inutiles !\rÉcoute-moi bien. Tu n’as gagné que\nparce que mes Pokémon sont faibles.\n
+16	...Hmpf !\nJe savais que tu mentais.\n
+17	Dis donc, tu as un sacré culot\nde venir jusqu’ici...\n
+18	C’est ridicule. Je ne peux pas perdre\ncontre une mauviette comme toi !\n
+19	...Hmpf !\nPokémon inutiles !\rÉcoute-moi bien. Tu n’as gagné que\nparce que mes Pokémon sont faibles.\n
+20	...Hmpf !\nJe savais que tu mentais.\n
+21	Poussés à bout, même les faibles\narrivent parfois à se défendre.\n
+22	Tu ne vois pas que je retiens\nmes coups ?\n
+23	...Hmpf !\rPlus jamais je ne me battrai contre\nune mauviette. C’est bon pour\fles gamins.\n
+24	...Hmpf !\rPlus jamais je ne me battrai contre\nune mauviette. Je n’ai pas de temps\fà perdre avec ça.\n
+25	Poussés à bout, même les faibles\narrivent parfois à se défendre.\n
+26	Tu ne vois pas que je retiens\nmes coups ?\n
+27	...Hmpf !\rPlus jamais je ne me battrai contre\nune mauviette. C’est bon pour\fles gamins.\n
+28	...Hmpf !\rPlus jamais je ne me battrai contre\nune mauviette. Je n’ai pas de temps\fà perdre avec ça.\n
+29	Poussés à bout, même les faibles\narrivent parfois à se défendre.\n
+30	Tu ne vois pas que je retiens\nmes coups ?\n
+31	...Hmpf !\rPlus jamais je ne me battrai contre\nune mauviette. C’est bon pour\fles gamins.\n
+32	...Hmpf !\rPlus jamais je ne me battrai contre\nune mauviette. Je n’ai pas de temps\fà perdre avec ça.\n
+33	Hé, hé !\nPourquoi tant de sérieux ?\n
+34	Impossible...\n
+35	...Pourquoi...\nPourquoi je perds ?\rJ’ai réuni les Pokémon les plus forts.\nJe n’ai jamais levé le pied.\rAlors pourquoi je perds ?\n
+36	Hmpf. Voilà ma vraie puissance,\nmauviette.\rLa Team Rocket ? Je vais en faire\nde l’histoire ancienne. Et ce Peter,\fje vais l’écraser sous mon talon.\n
+37	Hé, hé !\nPourquoi tant de sérieux ?\n
+38	Impossible...\n
+39	...Pourquoi...\nPourquoi je perds ?\rJ’ai réuni les Pokémon les plus forts.\nJe n’ai jamais levé le pied.\rAlors pourquoi je perds ?\n
+40	Hmpf. Voilà ma vraie puissance,\nmauviette.\rLa Team Rocket ? Je vais en faire\nde l’histoire ancienne. Et ce Peter,\fje vais l’écraser sous mon talon.\n
+41	Hé, hé !\nPourquoi tant de sérieux ?\n
+42	Impossible...\n
+43	...Pourquoi...\nPourquoi je perds ?\rJ’ai réuni les Pokémon les plus forts.\nJe n’ai jamais levé le pied.\rAlors pourquoi je perds ?\n
+44	Hmpf. Voilà ma vraie puissance,\nmauviette.\rLa Team Rocket ? Je vais en faire\nde l’histoire ancienne. Et ce Peter,\fje vais l’écraser sous mon talon.\n
+45	Je vois. Ce n’est pas qu’une question\nde chance, si tu en es là.\n
+46	Hmpf ! Quelle force...\n
+47	...Je n’ai pas pu gagner...\rJ’ai pourtant tout donné...\rCe que tu possèdes et qui me manque...\nJe commence à comprendre ce que\rce Dompteur de Dragons m’a dit...\n
+48	...Hmpf !\rJe le savais. Seule la force compte.\nLe reste n’a aucune importance.\n
+49	Je vois. Ce n’est pas qu’une question\nde chance, si tu en es là.\n
+50	Hmpf ! Quelle force...\n
+51	...Je n’ai pas pu gagner...\rJ’ai pourtant tout donné...\rCe que tu possèdes et qui me manque...\nJe commence à comprendre ce que\rce Dompteur de Dragons m’a dit...\n
+52	...Hmpf !\rJe le savais. Seule la force compte.\nLe reste n’a aucune importance.\n
+53	Je vois. Ce n’est pas qu’une question\nde chance, si tu en es là.\n
+54	Hmpf ! Quelle force...\n
+55	...Je n’ai pas pu gagner...\rJ’ai pourtant tout donné...\rCe que tu possèdes et qui me manque...\nJe commence à comprendre ce que\rce Dompteur de Dragons m’a dit...\n
+56	...Hmpf !\rJe le savais. Seule la force compte.\nLe reste n’a aucune importance.\n
+57	Je vois. Ce n’était pas juste pour\nfrimer, ce voyage à Kanto...\n
+58	Je vois que tu ne plaisantais pas\nnon plus...\n
+59	Hmpf !\nJe suppose qu’on n’y peut rien...\n
+60	Hmm, mes Pokémon ne sont pas mal\ndu tout, on dirait.\n
+61	Je vois. Ce n’était pas juste pour\nfrimer, ce voyage à Kanto...\n
+62	Je vois que tu ne plaisantais pas\nnon plus...\n
+63	Hmpf !\nJe suppose qu’on n’y peut rien...\n
+64	Hmm, mes Pokémon ne sont pas mal\ndu tout, on dirait.\n
+65	Je vois. Ce n’était pas juste pour\nfrimer, ce voyage à Kanto...\n
+66	Je vois que tu ne plaisantais pas\nnon plus...\n
+67	Hmpf !\nJe suppose qu’on n’y peut rien...\n
+68	Hmm, mes Pokémon ne sont pas mal\ndu tout, on dirait.\n
+69	Pourquoi ?!\nIl m’en reste encore un !\n
+70	Tu crois avoir déjà gagné ?\n
+71	...\rD’accord. J’ai perdu...\n
+72	...\rOuf...\nAvec mes partenaires,\fje deviendrai Maître de la Ligue !\n
+73	Pourquoi ?!\nIl m’en reste encore un !\n
+74	Tu crois avoir déjà gagné ?\n
+75	...\rD’accord. J’ai perdu...\n
+76	...\rOuf...\nAvec mes partenaires,\fje deviendrai Maître de la Ligue !\n
+77	Pourquoi ?!\nIl m’en reste encore un !\n
+78	Tu crois avoir déjà gagné ?\n
+79	...\rD’accord. J’ai perdu...\n
+80	...\rOuf...\nAvec mes partenaires,\fje deviendrai Maître de la Ligue !\n
+81	Ça me coûte de l’admettre, mais\ntu as gagné.\n
+82	Parfait !\nSUICUNE, tu nous regardais ?\n
+83	Le vent tourne enfin en notre faveur !\n
+84	Nous pouvons encore voler !\n
+85	Je comprends...\nJe m’incline avec dignité.\n
+86	C’est mon dernier Pokémon, mais les\nPokémon Insecte sont coriaces !\n
+87	Tiens bon ! Encore un petit effort !\n
+88	Oh, c’est déjà fini...\n
+89	H-hé ! Plus qu’un seul ?\nMais... J’vais pas perdre, t’entends ?\n
+90	Pauvre de moi !\n
+91	Argh...\n
+92	Non, ce n’est pas fini... Pas encore !\nJe crois encore en nous !\n
+93	Nous avons plus de discipline\nque quiconque !\n
+94	Comment est-ce possible...\n
+95	Un acier bien trempé ne se laisse pas\nrouiller pour si peu !\n
+96	L’acier tient bon jusqu’au bout !\n
+97	Bravo...\n
+98	On n’a pas encore perdu !\n
+99	Non... Pas... encore...\n
+100	On... a perdu...\n
+101	Hmpf... Tu dresses tes Pokémon\navec brio.\n
+102	On me surnomme le Saule.\nLe saule plie, mais ne rompt pas.\fJe n’abandonne pas encore.\n
+103	Hmm. On dirait que la chance\nm’a abandonné.\n
+104	Plus qu’un Pokémon ?\nC’est maintenant que le vrai combat\fcommence !\n
+105	Tu plaisantes ? C’est moi qui dois\ngagner ! C’est décidé !\n
+106	J’ai perdu ? ...\rJe n’y crois pas.\nIl doit y avoir une erreur...\n
+107	Le vent tourne enfin en notre faveur !\n
+108	Nous pouvons encore voler !\n
+109	Je comprends...\nJe m’incline avec dignité.\n
+110	C’est mon dernier Pokémon, mais les\nPokémon Insecte sont coriaces !\n
+111	Tiens bon ! Encore un petit effort !\n
+112	Oh, c’est déjà fini...\n
+113	H-hé ! Plus qu’un seul ?\nMais... J’vais pas perdre, t’entends ?\n
+114	Pauvre de moi !\n
+115	Argh...\n
+116	Non, ce n’est pas fini... Pas encore !\nJe crois encore en nous !\n
+117	Nous avons plus de discipline\nque quiconque !\n
+118	Comment est-ce possible...\n
+119	Un acier bien trempé ne se laisse pas\nrouiller pour si peu !\n
+120	L’acier tient bon jusqu’au bout !\n
+121	Bravo...\n
+122	On n’a pas encore perdu !\n
+123	Non... Pas... encore...\n
+124	On... a perdu...\n
+125	Hmpf... Tu dresses tes Pokémon\navec brio.\n
+126	On me surnomme le Saule.\nLe saule plie, mais ne rompt pas.\fJe n’abandonne pas encore.\n
+127	Hmm. On dirait que la chance\nm’a abandonné.\n
+128	Plus qu’un Pokémon ?\nC’est maintenant que le vrai combat\fcommence !\n
+129	Tu plaisantes ? C’est moi qui dois\ngagner ! C’est décidé !\n
+130	J’ai perdu ? ...\rJe n’y crois pas.\nIl doit y avoir une erreur...\n
+131	Ho ho !\rTu te prends pour une star ? On va voir\nce que tu vaux quand on te bouscule\fici. Tu vas vaciller et tomber ?\rIci, on s’entraîne jour et nuit pour\ndevenir maîtres des Pokémon Oiseau.\rEn garde !\r
+132	Gaaah !\n
+133	Les talents d’Albert ne sont pas du\nvent !\rNe prends pas la grosse tête !
+134	C’est fou ce que c’est haut ! Mais d’ici,\non peut ressentir ce que ressent\fun Pokémon Oiseau !\rVoyons si tu as le niveau pour\naffronter Albert !\r
+135	Ce n’est pas possible !\n
+136	Tu débutes à peine, et pourtant\nl’altitude ne te fait pas peur...\fChapeau !\n
+137	Amy : Hé, tu veux défier le Champion ?\nPas question !\r
+138	Amy : Oh, mince alors !
+139	Amy : Quelle force !
+140	Amy : Tu n’as qu’un Pokémon ?\nC’est un peu triste...
+141	Mimi : Si tu insistes, on sera\ntes adversaires.\r
+142	Mimi : J’ai un peu la tête qui tourne...\n
+143	Mimi : Nos Pokémon Insecte ont perdu !\nOh, quel dommage.\n
+144	Mimi : C’est un peu injuste de combattre\nquelqu’un qui n’a qu’un Pokémon.\n
+145	Les Pokémon Insecte évoluent tôt.\nIls deviennent forts bien plus vite.\r
+146	Évoluer ne suffit pas !\n
+147	Pour atteindre le Champion, tu dois\ndéplacer la toile avec l’interrupteur.\n
+148	Tu as traversé la toile comme\nun Pokémon Insecte !\rLaisse-moi te faire découvrir le charme\ndes Pokémon Insecte !\r
+149	Tu as prouvé ta force...\n
+150	Rien qu’en étant dans cette Arène,\nj’ai l’impression d’être devenu\fun Pokémon Insecte !\n
+151	Tu as sauvé tous les RAMOLOSS ?\nOuah, tu es redoutable !\rMais mes Pokémon évolués sont\nplutôt coriaces, eux aussi !\r
+152	Arrrgh !\n
+153	Si tu déplaces la toile avec\nl’interrupteur, tu pourras deviner\foù va la nacelle.\n
+154	Ne baisse pas ta garde juste parce\nque je n’ai pas l’air coriace !\r
+155	Zut...\nJe te croyais faible...\n
+156	À ton avis, qui est le plus fort :\nles garçons ou les filles ?\n
+157	Je préfère les Pokémon mignons\naux Pokémon forts.\rMais j’ai des Pokémon forts ET\nmignons !\r
+158	Oh, non, non, non !\n
+159	Je m’entraîne vraiment dur pour battre\nBlanche, mais je commence à me\fdécourager...\rQue faire...\nBon... Si je perds, je ferai mieux\fla prochaine fois !\n
+160	Oh, quelle adorable petite frimousse !\nTu me plais, mais je ne vais pas\fte faire de cadeau !\r
+161	Voyons...\nOups, c’est déjà fini ?\n
+162	Ouah, pour me battre, il faut du\ntalent ! Continue comme ça !\n
+163	Donne tout ce que tu as, sinon\nje t’écrase !\r
+164	Non !\nOh, MIAOUSS, je suis désolée !\n
+165	J’ai appris à MIAOUSS des attaques\npour affronter tous les types...\n
+166	Je vais gagner !\r
+167	J’ai... J’ai... J’ai perdu !\n
+168	Qui veut le plus la victoire...\nl’obtient !\n
+169	Tu ne sais pas où aller ?\nBats-moi si tu veux un indice !\r
+170	Qu-quoi ?\n
+171	Tu as du mal à trouver ton chemin ?\nIl est juste sous nos yeux !\n
+172	J’ai passé le printemps avec mes\nPokémon. Puis l’été, l’automne,\fl’hiver...\rPuis le printemps est revenu. Nous\nvivons ensemble depuis longtemps.\r
+173	Victoires et défaites...\nJ’ai connu les deux.\n
+174	D’où viennent les Pokémon ?\n
+175	Peux-tu seulement blesser\nnos Pokémon ?\r
+176	Ah ! Bien joué !\n
+177	Nous n’utilisons que des Pokémon\nde type Spectre.\rAucune attaque de type Normal\nne peut les toucher !\n
+178	Mes Pokémon et moi sommes liés\npar l’amitié.\fNotre lien est indestructible !\r
+179	Je rêve !\n
+180	Toi aussi, tu as un lien très fort\navec tes Pokémon !\n
+181	Nous, les artistes martiaux,\nne craignons rien !\r
+182	Quel choc !\n
+183	Les Pokémon de type Combat craignent\nles Pokémon de type Psy...\n
+184	Les mots sont inutiles.\nQue tes poings parlent pour toi !\r
+185	...\n
+186	J’ai perdu !\nJe suis sans voix !\n
+187	Mes poings enragés vont briser\ntes Pokémon !\r
+188	C’est moi qui suis brisé !\n
+189	Mes Pokémon ont perdu...\nMa... ma fierté est en miettes...\n
+190	Pour atteindre Frédo, notre Champion,\nil faut réfléchir avant de glisser.\r
+191	Au ski, je ne perdrais pas contre toi...\n
+192	Si tu ne glisses pas avec précision,\ntu n’iras pas loin dans cette Arène.\n
+193	Admire mon virage parallèle !\r
+194	Non !\nTu m’as fait tomber !\n
+195	Je n’aurais pas dû frimer avec\nmon ski...\n
+196	Hé, hé, tu trembles ?\nTu as peur de m’affronter ?\r
+197	Tu as tellement de force que ça fait\npeur !\n
+198	Les plus forts n’en ont généralement\npas l’air. Je crois que c’est\fton cas.\n
+199	Le sol de cette Arène glisse.\nC’est marrant, non ?\rMais attention, on n’est pas là\npour jouer !\r
+200	Tu vois à quel point on est sérieux ?\n
+201	Cette Arène est géniale.\nJ’adore faire du snowboard avec\fmes Pokémon !\n
+202	Je connais le secret de Frédo.\r
+203	D’accord. Je vais te dire\nle secret de Frédo.\n
+204	Si Frédo est si fort...\rC’est parce que chaque jour, il s’assoit\nsur de la glace très froide pour\fentraîner son corps et son esprit !\n
+205	Ton premier combat contre des\ndragons ? Je vais te montrer à quel\fpoint ils sont coriaces !\r
+206	Dommage.\n
+207	Tu as rencontré Peter, le Dompteur\nde Dragons ? Je ne te crois pas.\n
+208	On n’utilise pas tous des Pokémon\nde type Dragon. Ce n’est pas que ça...\rCe qui nous intéresse, ce sont les\nPokémon forts. Voilà mon thème !\r
+209	Je m’y attendais.\n
+210	Je dois rendre mes Pokémon plus forts !\rPokémon et Dresseurs doivent\ntous deux s’entraîner !\n
+211	Mes chances de perdre ?\nMême pas un pour cent !\r
+212	Bizarre.\n
+213	Je connais mes faiblesses, maintenant.\nMerci de me les avoir montrées !\n
+214	Je m’entraîne dur avec Sandra.\nJe ne peux pas perdre !\r
+215	...Oh, quelle déception !\n
+216	Oh... J’ai encore besoin\nd’entraînement, hein ?\n
+217	Les dragons sont des Pokémon sacrés.\nIls débordent d’énergie vitale.\rSans sérieux, impossible\nde les vaincre.\r
+218	Bien joué !\n
+219	Les dragons sont faibles contre\nles attaques de type Dragon.\n
+220	Nous, les adeptes du Psy,\nn’abandonnons jamais, même avec un\fdernier Pokémon.\rC’est ce qui nous rend si redoutables !\n
+221	Tant qu’il nous reste des PV, notre\npouvoir est sans limite.\fJe n’abandonne pas encore !\n
+222	Je... Je n’arrive pas... à y croire...\n
+223	Plus qu’un Pokémon ?\rHa ha ha ! Je comptais sur celui-ci\ndepuis le tout début !\n
+224	Arghhh...\n
+225	Ah !\nTu as prouvé ta valeur !\n
+226	Battez-vous de toutes vos forces\njusqu’au K.O. !\n
+227	Nous tenons bon !\n
+228	Pourquoi ?!\n...Comment avons-nous pu perdre ?\n
+229	Je suis encore loin d’être\nacculée !\n
+230	Il faut sortir de l’ordinaire pour\nparvenir jusqu’ici.\n
+231	Eh bien, tu te débrouilles bien.\nJ’aime ça chez les Dresseurs.\n
+232	Parfait !\nJe croyais que ça n’arriverait jamais !\n
+233	Je n’abandonne jamais, quoi qu’il\narrive. Toi non plus, je suppose ?\n
+234	...C’est terminé.\rMais c’est étrange. Je ne suis pas\nfâché d’avoir perdu. Je suis même\fheureux.\rHeureux d’avoir vu naître\nun nouveau Maître de la Ligue !\n
+235	Nous, les adeptes du Psy,\nn’abandonnons jamais, même avec un\fdernier Pokémon.\rC’est ce qui nous rend si redoutables !\n
+236	Tant qu’il nous reste des PV, notre\npouvoir est sans limite.\fJe n’abandonne pas encore !\n
+237	Je... Je n’arrive pas... à y croire...\n
+238	Plus qu’un Pokémon ?\rHa ha ha ! Je comptais sur celui-ci\ndepuis le tout début !\n
+239	Arghhh...\n
+240	Ah !\nTu as prouvé ta valeur !\n
+241	Battez-vous de toutes vos forces\njusqu’au K.O. !\n
+242	Nous tenons bon !\n
+243	Pourquoi ?!\n...Comment avons-nous pu perdre ?\n
+244	Je suis encore loin d’être\nacculée !\n
+245	Il faut sortir de l’ordinaire pour\nparvenir jusqu’ici.\n
+246	Eh bien, tu te débrouilles bien.\nJ’aime ça chez les Dresseurs.\n
+247	Parfait !\nJe croyais que ça n’arriverait jamais !\n
+248	Je n’abandonne jamais, quoi qu’il\narrive. Toi non plus, je suppose ?\n
+249	...C’est terminé.\rMais c’est étrange. Je ne suis pas\nfâché d’avoir perdu. Je suis même\fheureux.\rHeureux d’avoir vu naître\nun nouveau Maître de la Ligue !\n
+250	Hé hé hé... Tu ne t’attendais pas\nà ça. On va te mettre au tapis !\n
+251	C’est peut-être moi qui ne\nm’attendais pas à ça ?\n
+252	Voilà donc la vraie puissance\nde Johto...\n
+253	Ha ha ha ! Ça chatouille !\nÇa chatouille !\n
+254	Aïe aïe aïe aïe aïe...\n
+255	On dirait que la force est\nde ton côté...\n
+256	Hmm... Tu te débrouilles plutôt bien...\n
+257	On dirait que tu ne fais pas que\nme casser les pieds...\n
+258	On dirait que c’est fini...\n
+259	Ce n’est pas fini. Ça ne fait\nque commencer !\n
+260	Oh, le dernier ! N’abandonne jamais !\n
+261	Ma botte secrète électrique...\n
+262	Ne me ménagez pas.\nDonnez-moi tout ce que vous avez !\n
+263	Oh, c’est un peu rude !\n
+264	On dirait que j’ai sous-estimé\nvotre talent...\n
+265	Tu as une super technique de combat !\n
+266	Ça sent mauvais.\nVraiment très mauvais.\n
+267	...!!!\nQuelle... Quelle force !\n
+268	Ce qui va se passer ensuite ?\nJe le sais déjà.\n
+269	L’avenir que j’ai vu... était faux ?\n
+270	Je comprends...\n
+271	Je vais te montrer l’esprit de\ncette Arène des cavernes !\n
+272	On peut encore y arriver !\n
+273	Mon esprit, lui, n’est pas vaincu !\n
+274	Hé hé hé... Tu ne t’attendais pas\nà ça. On va te mettre au tapis !\n
+275	C’est peut-être moi qui ne\nm’attendais pas à ça ?\n
+276	Comme je m’y attendais ! Pas étonnant\nque tu aies le titre de Maître...\n
+277	Ha ha ha ! Ça chatouille !\nÇa chatouille !\n
+278	Aïe aïe aïe aïe aïe...\n
+279	On dirait que la force est\nde ton côté...\n
+280	Hmm... Tu te débrouilles plutôt bien...\n
+281	On dirait que tu ne fais pas que\nme casser les pieds...\n
+282	On dirait que c’est fini...\n
+283	Ce n’est pas fini. Ça ne fait\nque commencer !\n
+284	Oh, le dernier ! N’abandonne jamais !\n
+285	Ma botte secrète électrique...\n
+286	Ne me ménagez pas.\nDonnez-moi tout ce que vous avez !\n
+287	Oh, c’est un peu rude !\n
+288	On dirait que j’ai sous-estimé\nvotre talent...\n
+289	Tu as une super technique de combat !\n
+290	Ça sent mauvais.\nVraiment très mauvais.\n
+291	...!!!\nQuelle... Quelle force !\n
+292	Ce qui va se passer ensuite ?\nJe le sais déjà.\n
+293	L’avenir que j’ai vu... était faux ?\n
+294	Je comprends...\n
+295	Je vais te montrer l’esprit de\nmon Arène des cavernes !\n
+296	On peut encore y arriver !\n
+297	Mon esprit, lui, n’est pas vaincu !\n
+298	Bref, affronte-moi et tu verras !\r
+299	Je me suis fait avoir !\n
+300	M’affronter, c’est un excellent\nentraînement...\fJe ne devrais pas dire ça de moi !\n
+301	Alors, qu’en dis-tu ? Tu n’as jamais vu\nune Arène aussi magnifique, hein ?\r
+302	Bof, peu importe !\n
+303	Il existe bien des Arènes dans le\nmonde, mais j’adore celle-ci !\n
+304	Ça ne te donne pas un peu le tournis,\nde regarder la pièce comme ça ?\r
+305	Tous mes Pokémon...\nK.O., la tête qui tourne...\n
+306	On dirait qu’il te reste encore\nde l’énergie.\n
+307	Ida : Moi, c’est Ida !\nÀ côté de moi, c’est Elan !\fEnsemble, on forme un Duo de choc !\r
+308	Ida : Ouah. Tu es vraiment incroyable.\n
+309	Ida : Si les Dresseurs d’Arène n’ont\nque la force, ils n’iront pas loin.\rFaire ressortir la force de son\nadversaire, c’est aussi très\fimportant !\rElan : Tu as plus de force\nque prévu !\n
+310	Ida : Allez, c’est parti !\rC’est ce que tu pensais, hein !\nMais tu n’as qu’un seul Pokémon.\rDonc on ne peut pas se battre.\n
+311	Elan : Bon, que le combat commence !\nAllez, viens !\r
+312	Elan : Eh bien, quelle surprise.\n
+313	Elan : Pfiou...\n
+314	Elan : Hein ?\nPas assez de Pokémon ?\n
+315	Les Dresseurs de cette Arène utilisent\ndes Pokémon de type Roche.\rLes Pokémon de type Roche ont une\nDéfense élevée. Les combats risquent\fde durer longtemps.\rTu te sens d’attaque ?\r
+316	Je dois gagner ces combats...\n
+317	Hé, toi ! Tu viens de Johto, hein !\rPierre est coriace. Il te punira si tu\nne le prends pas au sérieux.\n
+318	R-r-r-r-R-r-r-R-R-r-R-R-R-R...\nCRAAAC !\r
+319	BOUM !\n
+320	Pfiou... En mille morceaux.\n
+321	Glub...\rJe suis le premier !\nViens me chercher !\r
+322	Ce n’est pas possible...\n
+323	Ondine dit que j’ai fait beaucoup de\nprogrès ces dernières années.\rMais il y a encore des Dresseurs\nplus forts que moi.\n
+324	Je me suis bien reposé au bord de\nla piscine, alors j’ai la pêche !\r
+325	La force seule ne suffit pas\npour gagner.\n
+326	Hé, allons nager !\nUn marin doit savoir nager !\n
+327	Désolée, j’étais partie.\nAllons-y !\r
+328	J’abandonne !\nTu as gagné !\n
+329	Je vais nager tranquillement.\n
+330	Ne te laisse pas troubler par\nma magnifique façon de nager !\r
+331	Tu n’as pas le trac du tout.\nQuel calme... Quelle assurance... !\n
+332	La natation, c’est excellent pour\nla beauté comme pour la santé !\rRegarde Ondine, tu verras.\n
+333	En natation, il n’y a pas que la\nvitesse ! Il y a aussi la beauté et la\fgrâce !\r
+334	J’ai perdu avec élégance...\n
+335	On dirait qu’un intrus est apparu\ndans cette Arène...\fJe n’aime pas trop ça...\n
+336	Tu es là pour battre Major Bob ?\nPas si je peux l’empêcher !\r
+337	Pardon de vous avoir déçu,\nmon Major !\n
+338	Quand j’étais à l’armée, voici ce que\nMajor Bob m’a appris...\rFermer les portes, se méfier du feu,\net toujours avoir deux barrières\félectriques par sécurité !\n
+339	Major Bob a vu mon potentiel avec les\nPokémon de type Électrik.\fTu crois pouvoir me battre ?\r
+340	Oh, ça, c’est électrisant !\n
+341	Si Major Bob est protégé par des\nbarrières électriques, ce n’est pas\fparce qu’il est lâche ! C’est pour\fque tu ne sous-estimes pas sa force !\n
+342	Je vais t’écraser !\nPrépare-toi à prendre une décharge !\r
+343	Gyaaah !\nTu m’as écrasé !\n
+344	Major Bob a caché les interrupteurs\ndes barrières électriques au fond\fde quelque chose...\rIl y a deux interrupteurs. Une fois\nque tu as trouvé le premier, le second\fdevrait être juste à côté.\n
+345	Jo : On protège Erika !\r
+346	Jo et Zoe : On a perdu...
+347	Jo : Ouah, tu as presque autant de\nforce qu’Erika, hein !
+348	Jo : Je ne connais personne qui n’a\nqu’un seul Pokémon !
+349	Zoe : On va protéger Erika !\r
+350	Jo et Zoe : On n’a pas pu gagner...\n
+351	Zoe : Comment tu fais pour avoir\nautant de force ?\n
+352	Zoe : Je ne connais personne qui n’a\nqu’un seul Pokémon !\n
+353	Pas question de laisser n’importe qui\nfiler tout droit jusqu’à Erika !\r
+354	Oh, beurk !\n
+355	J’ai trop honte pour me présenter\ndevant Erika !\n
+356	Tu trouves ça rare, une Arène\nréservée aux filles ?\r
+357	Oh... J’ai perdu...\n
+358	Merci de ne pas m’avoir ménagée !\n
+359	Comment te faire comprendre mon\nhobby ? À savoir...\fparler avec une voix grave !\r
 850	Perdre, c’est pas drôle du tout...\n
 851	Que se passe-t-il au Lac Colère ?\nOn comptait y camper.\n
 852	Je suis dans un creux.\rC’est peut-être à cause de mon\nmatériel. Un combat pour me changer les\fidées !\r
@@ -298,3 +658,183 @@
 1147	Tu as un style éblouissant !\n
 1148	Je l’admets, ton style de combat est\nsuperbe et plein de vie.\rTu ne vas cesser de progresser !\n
 1149	Je m’entraîne.\nUne petite partie ?\r
+1150	Oh, non ! Tu me surpasses de loin.\n
+1151	Je vais m’entraîner seule jusqu’à ce\nque je progresse.
+1152	Si les Pokémon que j’aime s’y\ntrouvaient, j’irais n’importe où.\rC’est ça, l’esprit d’un vrai Dresseur.\r
+1153	Je préfère caresser mes Pokémon plutôt\nque de combattre !\n
+1154	Une seule fois par semaine, un Pokémon\nvient au bord de l’eau.\rJe voulais voir ce Pokémon...\n
+1155	Où qu’on aille, il y a toujours quelqu’un\npour ne pas être d’accord avec nous...\n
+1156	Tu crois vraiment pouvoir contrecarrer\nnos plans en venant ici ?\n
+1157	Grr...\nÀ ton âge, avoir un tel niveau...\fJe ne l’avais pas vu venir.\n
+1158	Arrêter de prendre les Queues\nRamoloss ?\rSi on t’écoutait, la réputation de la\nTeam Rocket serait fichue !\r
+1159	Quelle...\nQuelle force...\n
+1160	On a besoin d’argent, mais vendre des\nQueues Ramoloss ?\rC’est dur d’être un Sbire de la Team\nRocket !\n
+1161	Pfff ! Je montais la garde en haut quand\nun vieux schnock m’a crié dessus.\rIl m’a tellement surpris que je suis\ntombé ici.\rEt si je passais ma colère sur toi ?\r
+1162	Argh ! C’est vraiment PAS mon jour !\n
+1163	Ouais, on coupe les queues des RAMOLOSS\npour les vendre.\rLa Team Rocket ferait n’importe quoi\npour de l’argent !\n
+1164	Arrêter de prendre les Queues\nRamoloss ?\rQuoi ?! Tu veux qu’on désobéisse à un\nordre direct de l’Admin Lance ?\rSi tu veux nous arrêter, il faudra tous\nnous battre ! Vas-y, essaie !\r
+1165	Sale petite peste !\n
+1166	Les Queues Ramoloss repoussent vite !\rEt puis, c’était un ordre de Lance,\nalors c’est surtout ça qui m’inquiète !
+1167	Tu viens juste regarder bouche bée ?\nJe te conseille de partir !\r
+1168	Tu te fais vraiment du souci...\n
+1169	Comment on fait pour monter, bon sang ?\rJe veux rendre visite au Pokémon\nmalade, mais je n’arrive pas à monter...
+1170	On est plutôt haut, ici. Mes Pokémon\noiseaux sont en pleine forme.\r
+1171	Oups...\nIls se sont écrasés...\n
+1172	Mes Pokémon oiseaux se sont entraînés\nà Irisia. Vu que j’ai perdu, on va\fpeut-être traverser la mer.
+1173	Je parcours le monde pour entraîner\nmes Pokémon. Je souhaiterais à présent\fvous affronter.\r
+1174	... Ah... Je dois encore m’entraîner...\n
+1175	Jasmine utilisait autrefois des Pokémon\nde type Roche comme ONIX.\n
+1176	Hein ? Ce n’est pas un endroit pour\njouer.\r
+1177	Ah ! Je vois que vous ne plaisantez pas.\n
+1178	Là-haut se trouve un Pokémon qui garde\nle Phare allumé.\rLes Pokémon brillent quand ils sont en\nbonne santé, tout comme les humains.\n
+1179	Ah, vous revoilà !\r
+1180	Jasmine est la Championne d’Arène de\ncette ville. Je compte la ramener avec\fmoi.\rPersonne n’a intérêt à me barrer la\nroute !\r
+1181	Aaah ! Mes Pokémon !\n
+1182	C’est vrai. N’importe qui s’inquiéterait\nsi ses Pokémon étaient blessés.\n
+1183	Les hommes de la mer sont toujours\npartants pour une bonne bagarre !\r
+1184	Urf !\nJ’ai perdu !\n
+1185	Quelle puissance ! Ça te dirait de\nnaviguer sur les mers avec moi ?\n
+1186	Hé, te revoilà !\nPile à temps pour que je frime un peu !\r
+1187	Les marins ont à la fois du cœur et de\nla force. Et toi ?\r
+1188	Tu as à la fois du cœur et de la\nforce...\n
+1189	Chaque fois que je reviens à Oliville,\nje passe à l’Arène.\rLe type des Pokémon de la Championne a\nchangé sans que je le remarque.\n
+1190	Jasmine doit être malade d’inquiétude\npour le Pokémon d’ici. Elle ne sourit\fmême plus ces jours-ci.\r
+1191	Moi non plus, je n’arrive pas à\nsourire...
+1192	En parlant de malade, il paraît qu’il\ny a une bonne Pharmacie à Irisia.\n
+1193	Je voulais affronter Jasmine, mais elle\nn’est pas en état. Et toi, alors ?\r
+1194	Ouh là, ouh là. Quelle puissance\nécrasante !\n
+1195	Être Champion d’Arène, ce n’est pas\nseulement être fort. Il faut aussi\fsavoir faire preuve de compassion.\n
+1196	C’était autrefois une cachette de\nninjas.\rIl y a des pièges pour désorienter les\nintrus comme toi.\r
+1197	Je vois...\n
+1198	Le PC sur mon bureau est l’interrupteur\nqui désactive le système d’alarme\fPERSIAN.\rN’y touche surtout pas, OK ?\n
+1199	Hé hé. Tu te sens en veine, minus ?\rVas-y, fais un pas de plus.\nOn a posé des explosifs dans le sol !\fMarche sur l’un d’eux, et... BOUM !\r
+1200	Kaboum !\n
+1201	Où sont posés les pièges ?\nEuh... Eh bien...\rJe ne m’en souviens même plus !\n
+1202	Grr... J’ai échoué...\n
+1203	Il y a des caméras de surveillance dans\nles statues Pokémon.\rOn continuera d’apparaître tant que tu\nn’auras pas actionné un interrupteur\fsecret.\n
+1204	Argh ! Je commence à stresser !\n
+1205	Iiiik !\n
+1206	Tsss, tu as vraiment de la force.\rDommage. Si tu rejoignais la Team\nRocket, tu pourrais devenir Admin.\n
+1207	La porte ne s’ouvre pas ?\rBah, évidemment. Il faut un mot de\npasse que seule la Team Rocket connaît.\r
+1208	Quoi ? J’ai perdu ?\n
+1209	Hé, je ne suis qu’un Sbire de la Team\nRocket. Je ne connais pas le mot de\fpasse. Tant pis pour toi.\n
+1210	Oh, si jeune ? Ça ne me plaît pas trop,\nmais t’éliminer, je dois.\r
+1211	Je savais que j’allais perdre...\n
+1212	Lors de la dernière mission, je me suis\naussi fait laminer par un gamin. On\fenlevait des Pokémon quand ce gamin aux\flongs cheveux rouges et au regard\fmauvais m’a mis une raclée...\n
+1213	Sale petite peste !\r
+1214	Grrrr...\n
+1215	Hé, seul celui qui garde la salle du\nboss connaît le mot de passe de cette\fporte.\rOù est la salle du boss ?\nQui sait ? Va voir par toi-même.\n
+1216	...\n
+1217	Hé, pas mal !\n
+1218	Ouah, quelle force !\n
+1219	Je... Je n’ai rien pu faire...\nGiovanni, pardonnez-moi...\n
+1220	Je travaillais pour la Sylphe SARL,\nmais maintenant, je mène des recherches\fpour la Team Rocket.\rLes enfants qui se mêlent de tout\nméritent d’être punis.\r
+1221	Une simple erreur tactique m’a coûté...\n
+1222	Un signal radio qui rend les Pokémon\nfous... Mon expérience est un succès\ftotal. Ma promotion est assurée.\fCette défaite ne signifie absolument\frien.\n
+1223	Je me fiche que notre expérience fasse\nsouffrir les Pokémon.\r
+1224	Mon point fort, c’est la réflexion,\npas le combat.\n
+1225	Si on augmente la puissance de notre\nsignal radio pour le diffuser dans tout\fle pays...\rRien que d’y penser, ça m’excite !\n
+1226	Hyuk-hyuk-hyuk !\rTu me défies en combat ?\nHa ! C’est de la folie, mais tu as du\fcran !\rJ’aime ça ! Si tu me bats, je te\ndonnerai un mot de passe pour la salle\fdu boss !\r
+1227	Le mot de passe de la porte du boss...\rQUEUE RATTATAC.\n
+1228	Le mot de passe de la porte du boss...\nQUEUE RATTATAC.\rMais si tu n’as pas les deux mots de\npasse... Ha ha ha !\n
+1229	Si je connais le mot de passe ?\rPeut-être.\rMais pas question de le donner à une\nmauviette !\r
+1230	Le mot de passe de la porte du boss...\rQUEUE RAMOLOSS.\n
+1231	Le mot de passe de la salle du boss est\nQUEUE RAMOLOSS.\rMais il ne sert à rien si tu n’as pas\nles deux mots de passe.\n
+1232	Mon Pokémon sort de chez le\ntoiletteur ! Je vais te montrer sa\fforce !\r
+1233	Aïïïe !\n
+1234	Tes Pokémon t’aimeront davantage si tu\nles fais toiletter.\n
+1235	Je crois que tu as des Pokémon rares\navec toi. Montre-les-moi !\r
+1236	Gah ! J’ai perdu !\nÇa m’énerve !\n
+1237	Tu remplis un Pokédex ?\nVoici un bon tuyau.\rAffronte autant de Dresseurs que\npossible quand tu en vois sur les routes\fet dans les grottes.\rLeurs Pokémon seront enregistrés dans\nle Pokédex, et en plus, tes Pokémon\fprogresseront !
+1238	Je me suis fait virer du Casino.\nJe gagnais tout le temps au nouveau jeu\fà jetons, et ils ont cru que je\ftrichais...\r
+1239	... Grmbl...\n
+1240	Faut croire que je dois jouer\nhonnêtement...\n
+1241	Tu tiens compte des types des Pokémon\nen combat ?\rSi tu connais bien les différents types,\ntu t’en sortiras mieux en combat.\r
+1242	Aïe, aïe, aïe !\n
+1243	Je connais tous les types de Pokémon.\fMais je n’en utilise qu’un seul.\n
+1244	Aboule tes affaires !\r
+1245	Pitié !\n
+1246	Voler et revendre !\nC’est le b.a.-ba du crime !\n
+1247	Ils ont abandonné ce chantier avant de\nl’avoir fini.\fJe cherche des restes de butin.\r
+1248	Quelle force...\n
+1249	L’entrepôt souterrain ?\rPourquoi tu veux aller là-bas ?\nIl n’y a rien en bas.\n
+1250	Une porte s’ouvre, une autre se ferme.\nJe parie que tu n’arriveras pas où tu\fveux aller !\r
+1251	Oh oh ! J’ai sombré dans l’indécision !\n
+1252	Moi aussi, je m’y perds...\rJe suis presque sûr que l’interrupteur\nvert est le dernier à presser... Non ?\n
+1253	Peu importe que tu ne trouves pas ton\nchemin. Si tu viens ici, tu n’es qu’une\fvictime !\r
+1254	Urk ! Tu te crois cool, hein ?\n
+1255	Faut avoir du sang-froid pour défier\nla Team Rocket.\n
+1256	Kwa ha ha !\rLes portes te posent problème, hein ?\rJe te dévoilerai un secret si tu\nme bats !\r
+1257	Ouille...\nJ’ai tout raté.\n
+1258	Très bien. Un indice !\rRegarde la couleur des interrupteurs.\nSi tu presses un interrupteur d’une\fcouleur, la porte de la même couleur\fs’ouvre...\n
+1259	Tu ne trouves pas ton chemin ? Non,\nimpossible. Tu n’as pas l’air d’avoir\fpeur. Je vais te donner une raison\fd’avoir peur !\r
+1260	Comment as-tu pu ?\n
+1261	Va où tu veux ! Dégage !\nJe m’en fiche !\n
+1262	Tu n’iras pas plus loin !\nJe n’ai aucune pitié pour mes ennemis,\fet encore moins pour les morveux !\r
+1263	Bon sang !\n
+1264	J’ai perdu...\rPardonnez-moi, Giovanni !\n
+1265	Hyuk-hyuk-hyuk !\nJe me souviens de toi !\rTu m’as bien eu à notre planque !\r
+1266	Hyuk-hyuk-hyuk !\nAlors c’est comme ça que tu as fait !\n
+1267	Hyuk-hyuk-hyuk !\nC’était explosif !\n
+1268	Comment as-tu pu venir jusqu’ici ?\nBon, tant pis. Je vais me débarrasser\fde toi.\r
+1269	C’est moi qui finis à la poubelle...\n
+1270	La Team Rocket continuera, en\nattendant le retour de Giovanni.\rNous ferons tout ce qu’il faudra.\n
+1271	Waaaargh !\nJe suis battu !\n
+1272	Toi ! Comment oses-tu entrer sans\ninvitation !\r
+1273	Qu-quelle force !\n
+1274	Le Sanctuaire, plus loin, est la demeure\ndu Maître de notre clan de Dompteurs.\rTu n’as pas le droit d’y entrer comme\nça !
+1275	Tu n’as rien à faire ici !\r
+1276	Oh, zut, j’ai perdu !\n
+1277	Bientôt, notre Maître m’autorisera à\nutiliser des dragons.\rAlors, je deviendrai une Dompteuse\nadmirable et j’obtiendrai\fl’approbation du Maître.\n
+1278	Quelqu’un qu’on ne connaît pas...\nQuelqu’un d’ailleurs.\r
+1279	Bobo.\n
+1280	C’était comme affronter Peter.\n
+1281	On se bat en équipe. Reviens plus tard\navec plus de Pokémon.\n
+1282	Qui es-tu ?\r
+1283	Pas sympa.\n
+1284	On va le dire !\rLe Maître va se fâcher contre toi.\n
+1285	Tu n’as pas assez de Pokémon.\nReviens quand tu en auras plus.\n
+1286	...!\n
+1287	...\n
+1288	Bienvenue dans la Forêt de Jade.\nAdmire mes Pokémon de type Insecte !\r
+1289	C’est magnifique...\n
+1290	Très impressionnant !\rAvec un tel talent, tu peux aller\nn’importe où, j’en suis sûr !\n
+1291	Chut ! Silence !\nLes Pokémon insectes vont s’enfuir !\r
+1292	Pfiou...\n
+1293	Les Pokémon de type Insecte font des\nbruits : ils mâchent l’herbe, marchent\fsur les feuilles craquantes, nagent\fdans les flaques...\rPour un fan de Pokémon insectes, savoir\nreconnaître ces sons est essentiel !\n
+1294	Waouh, c’est un Pokémon ÉNORME !\r...\n... Hein ? Mais c’est un humain ?!\r
+1295	Je n’ai pas pu l’attraper !\n
+1296	On t’a déjà dit que, de dos, tu\nressemblais à un MIMITOSS ?\n
+1297	Je suis sûr qu’il n’y a rien de plus\nefficace et de plus beau au monde\fqu’un Pokémon de type Insecte.\r
+1298	J’ai perdu avec élégance !\n
+1299	Si c’est comme ça, perdre ne me\ndérange pas !\n
+1300	Beaucoup de gens préfèrent les\nPokémon insectes bien durs aux\fPokémon insectes tout mous.\r
+1301	Merci pour vos efforts,\nmes adorables Pokémon...\n
+1302	Peu importe le genre de Pokémon...\fSi on les aime, ils sont tous\nmignons.\n\n
+1303	Qu’est-ce qui t’amène si loin, je me\ndemande.\r
+1304	Perdre, et si loin de tout...\n
+1305	Il y a des Dresseurs partout.\n
+1306	Hé, hé, tu me bloques le passage !\nAllez !\r
+1307	Je me suis fait balader...\n
+1308	Bon, je t’en prie, passe !\n
+1309	Pour vaincre le froid, rien de tel que\ndes vêtements chauds et une boisson\fchaude !\r
+1310	Argh, perdre si loin de tout !\n
+1311	C’était un combat brûlant !\n
+1312	Ce que ça fait de perdre ?\nÇa fait mal !\n
+1313	Je n’ai pas fini de mesurer les\ndonnées !
+1314	J-je n’ai pas gagné.\n
+1315	C’est le blanc total dans ma tête !\n
+1316	Argh... Je n’en peux plus...\n
+1317	Argh !\n
+1318	Toi !\nJ’attendais quelqu’un comme toi !\r
+1319	Ouais, une force à la hauteur de mes\nattentes !\n
+1320	C’était un super combat !\nTu ne trouves pas ?\n
+1321	Dès que j’apprends quelque chose en\nclasse, je sors pour m’entraîner !\r
+1322	Je dois suivre le manuel.\n
+1323	Je dois noter toutes les erreurs\nd’aujourd’hui dans un cahier !\n
+1324	Mon Sac me scie les épaules !\nQuand ça arrive, j’aime faire une\fpause et livrer un combat !\r
+1325	Bof.\n
+1326	Bon, je crois qu’il faut que je reprenne\nmon Sac !\n
+1327	Et si tu ralentissais un peu pour me\nlaisser une chance de te battre !\r
+1328	On dirait que je me suis fait battre à\nmon propre jeu...\n
+1329	Même si tu es si jeune, tu as l’esprit\ndu combat en toi.\rTu as dû t’entraîner auprès d’un maître\ncélèbre !\n

@@ -1,0 +1,87 @@
+0	Bienvenue sur la Place Wi-Fi !\rNous prêtons un Jouet tactile à chaque\nvisiteur. Voici le vôtre !\r
+1	{STRVAR_1 3, 0, 0} reçoit : {STRVAR_3 2, 1, 0} !
+2	Nous vous souhaitons un agréable\nséjour jusqu’à la fin.\r
+3	Votre visite de la Place Wi-Fi touche\nà sa fin.\rMerci de votre visite.\nÀ bientôt, nous l’espérons !\r
+4	Au fait, quel est votre type du jour ?\rVoulez-vous vous définir avec\ndeux types ?\r
+5	Quel est votre premier type du jour ?
+7	Aucun choix
+8	Vous choisissez le type {STRVAR_1 15, 0, 0} ?
+10	Quel est votre second type du jour ?
+11	Je vois ! Vous avez choisi les types\n{STRVAR_1 15, 0, 0} et {STRVAR_1 15, 1, 0}.\r
+12	Je vois !\nVous avez choisi le type {STRVAR_1 15, 0, 0}.\r
+15	Bienvenue sur la Place Wi-Fi !\rVoici le guichet des renseignements.\r
+16	Que souhaitez-vous savoir ?\r
+18	Il y a un globe géant près de l’entrée\nde la Place Wi-Fi.\rCe globe, appelé Profils visiteurs,\nmontre d’où viennent les visiteurs de\fla Place Wi-Fi et leur heure locale.\rPour voir les visiteurs, consultez le\npanneau qui s’affiche avec le Bouton A.\rRegardez aussi les ballons qui\npassent de temps en temps.\r
+19	Infos Place est un écran électronique\nqui montre ce qui se passe sur la\fPlace Wi-Fi.\rSi vous ne savez pas quoi faire,\nconsultez les Infos Place.\r
+20	Le Tampon Empreinte est un panneau où\nvous pouvez jouer avec les empreintes\fdes Pokémon de votre équipe.\rIl y a deux panneaux, un noir et un\nblanc. Jouez avec celui de votre choix.\r
+22	Nous espérons que vous profiterez\nde la Place Wi-Fi jusqu’à la fin de\fvotre visite.\r
+23	Les Jouets tactiles sont des jouets\nutilisables uniquement sur la Place\fWi-Fi.\rEn plus de jouer avec en solo, vous\npouvez les partager avec vos amis.\rVous pouvez aussi améliorer vos Jouets\ntactiles grâce aux Jeux de la Place.\rÀ vous de trouver vos propres façons\nde vous amuser avec !\r
+24	{STRVAR_3 0, 0, 0} est l’un des\nJeux de la Place.\rJusqu’à quatre joueurs peuvent\nparticiper.\rLa règle est simple : lancez des Baies\ndans la bouche d’un AVALTOUT qui\ftourne.\rLe joueur au meilleur score verra son\nJouet tactile amélioré.\r
+25	{STRVAR_3 0, 0, 0} est l’un des\nJeux de la Place.\rJusqu’à quatre joueurs peuvent\nparticiper.\rLa règle est simple : faites rouler un\nballon pour que MIME JR. ne tombe pas.\rLe joueur qui garde MIME JR. le plus\nlongtemps sur le ballon verra son\fJouet tactile amélioré.\r
+26	{STRVAR_3 0, 0, 0} est l’un des\nJeux de la Place.\rJusqu’à quatre joueurs peuvent\nparticiper.\rLa règle est simple : gonflez des\nballons jusqu’à ce qu’ils éclatent.\rÉclatez-en au moins dix, et tous les\nparticipants verront leur Jouet\ftactile amélioré.\r
+27	Quand il vous reste moins de la moitié\nde votre temps de visite, les\fprojecteurs de la Place Wi-Fi\fs’allument.\rNous espérons que vous apprécierez\nl’ambiance différente qu’ils créent.\r
+28	Quand votre temps de visite est\npresque écoulé, les lumières\fs’éteignent.\rDes feux d’artifice sont alors tirés\nsur toute la Place Wi-Fi.\rNous espérons que vous apprécierez\nles feux d’artifice en fin de visite.\r
+29	Quand votre temps de visite est écoulé,\ndes chars de Parade apparaissent au\ffond à droite de la Place Wi-Fi.\rCes chars sont des véhicules en forme\nde Pokémon.\rVous pouvez monter sur un char pour\nretourner au Centre Pokémon, ou\fregarder partir vos amis.\rAttention : une fois sur un char, vous\nne pourrez pas descendre avant qu’il\fquitte la Place Wi-Fi. La connexion à la\fCWF Nintendo prendra alors fin.\r
+30	Vous pouvez participer à un Sondage\nde la Place grâce à la machine à côté\fdu guichet des renseignements.\rPour en savoir plus, adressez-vous à\nl’hôtesse près de l’écran.\r
+31	JOUETS TACTILES
+32	JEUX DE LA PLACE
+33	PROFILS VISITEURS
+34	INFOS PLACE
+35	TAMPON EMPREINTE
+36	ÉVÉNEMENTS
+37	SORTIE
+40	SONDAGE DE LA PLACE
+41	Faites rouler le ballon pour garder\nMIME JR. en équilibre dessus.
+42	Lancez des Baies dans la bouche d’un\nAVALTOUT qui tourne.
+43	Appuyez sur la pompe QULBUTOKE et\néclatez des ballons avec les autres.
+44	N° ID
+45	NOM
+46	LIEU
+48	ACTIVITÉS
+56	DEVISE DE {STRVAR_1 3, 0, 0}
+63	Bouton X : changer de profil
+64	Goldver
+65	Quitter la Place Wi-Fi et retourner\nau Centre Pokémon ?\r
+66	NON
+67	OUI
+68	JOUEURS : {STRVAR_1 50, 0, 0}\nPLACES :{CURSOR_X 51}{STRVAR_1 50, 1, 0}
+69	PARTIE EN COURS...
+70	Le temps est écoulé.\nLa Place Wi-Fi ferme ses portes.
+72	{STRVAR_3 0, 0, 0} connaît\nune forte affluence.\rNous sommes vraiment désolés, mais\nveuillez patienter avant de revenir.\r
+73	Bonjour, bienvenue sur la Place Wi-Fi !\rVous voulez savoir ce que je vous\nrecommande ? {STRVAR_3 0, 0, 0} !\rSi vous réussissez un Jeu de la Place,\nvotre Jouet tactile sera amélioré.\rSi vous n’avez jamais joué à un Jeu de\nla Place, lancez-vous !\r
+74	Bonjour, bienvenue sur la Place Wi-Fi !\rVous voulez savoir ce que je vous\nrecommande ? Le Tampon Empreinte !\rRegardez ce qui se passe quelques\nsecondes après avoir posé un tampon !\rSi vous n’avez jamais essayé, allez-y,\nil y a deux panneaux différents !\r
+75	Bonjour, bienvenue sur la Place Wi-Fi !\rVous voulez savoir ce que je vous\nrecommande ? Discuter avec des amis !\rÇa peut sembler un peu intimidant,\nmais n’ayez pas peur !\rEn plus de discuter, vous pouvez aussi\néchanger des Jouets tactiles.\rNe soyez pas timide !\nC’est très amusant !\r
+76	Amusez-vous bien jusqu’à la fermeture\nde la Place Wi-Fi !\r
+77	Bonjour, bienvenue sur la Place Wi-Fi !\rVous voulez savoir ce que je vous\nrecommande ? {STRVAR_3 0, 0, 0} !\rVous y découvrirez les événements de\nla Place Wi-Fi et des infos sur vos amis.\rC’est vraiment pratique !\r
+78	La Parade Pokémon commence !\rLe nombre de places sur les chars\nest limité !\rSi vous voulez monter sur un char,\ndépêchez-vous !\r
+79	Bonjour, bienvenue sur la Place Wi-Fi !\rVous voulez savoir ce que je vous\nrecommande ? Un Sondage de la Place !\rC’est l’occasion de mieux connaître\nles visiteurs de la Place Wi-Fi.\rVous pouvez répondre au sondage\njusqu’à ce que les projecteurs\fs’allument.\rN’oubliez pas de faire entendre votre\nvoix dans la communauté des\fDresseurs !\r
+81	Bonjour, je m’occupe des Sondages\nde la Place.\rC’est ici que vous pouvez participer\nà un Sondage de la Place.\rVous pouvez voter sur l’écran\nà côté de moi.\rOu voulez-vous en savoir plus ?\r
+85	Participez à un sondage pour mieux\nconnaître les visiteurs de la Place.\rVous pouvez participer jusqu’à ce que\nles projecteurs s’allument.\rVous pouvez voir deux séries de\nrésultats.\rD’abord, les résultats du sondage en\ncours pour cette Place Wi-Fi\funiquement.\rEnsuite, les résultats du sondage de la\nsemaine dernière pour toutes les\fPlaces Wi-Fi.\rParticipez au Sondage de la Place sur\nl’écran à côté de moi.\r
+87	Merci d’avoir participé à notre Sondage\nde la Place.\rLes résultats seront disponibles quand\nles projecteurs s’allumeront.\rEnsuite, ils pourront être consultés\njusqu’à la fin de la Parade Pokémon.\rN’oubliez pas de revenir voir les\nrésultats !\r
+88	Les résultats sont affichés sur l’écran\nà côté de moi. Ils sont passionnants.\r
+91	L’heure limite est passée.\nLe Sondage de la Place est clos.\r
+92	Sondage de la Place !\r
+93	Sondage spécial de la Place !\r
+94	Participer à un Sondage de la Place ?
+95	Participer à un Sondage spécial de\nla Place ?
+96	Envoi de votre réponse au sondage...
+97	Votre réponse au sondage a été\nenvoyée.\r
+98	Les résultats seront disponibles quand\nles projecteurs s’allumeront.\rEnsuite, ils pourront être consultés\njusqu’à la fin de la Parade Pokémon.\rN’oubliez pas de revenir voir les\nrésultats !\r
+99	Merci d’avoir participé à notre\nSondage spécial de la Place.\rLes résultats seront disponibles quand\nles projecteurs s’allumeront.\rEnsuite, ils pourront être consultés\njusqu’à la fin de la Parade Pokémon.\rN’oubliez pas de revenir voir les\nrésultats !\r
+103	Cette fois, le Sondage de la Place\ndemandait...\r
+104	Voyons ce qu’ont répondu nos\nvisiteurs !\r
+105	Cette fois, la question du Sondage\nspécial de la Place était...\r
+107	Voici les résultats du Sondage de la\nPlace en cours.\rCes résultats concernent uniquement\ncette Place Wi-Fi.\r
+108	Voici les résultats du Sondage spécial\nde la Place en cours.\rCes résultats concernent uniquement\ncette Place Wi-Fi.\r
+109	RÉSULTATS ACTUELS
+111	Voulez-vous voir les résultats du\nSondage de la semaine dernière ?
+112	Il n’y a pas eu de Sondage de la\nPlace la semaine dernière.\r
+113	Le Sondage de la semaine dernière\ndemandait...\r
+114	Voyons ce qu’ont répondu nos\nvisiteurs !\r
+115	La semaine dernière, la question du\nSondage spécial était...\r
+117	Voici les résultats du Sondage de la\nsemaine dernière.\rIls ont été obtenus en réunissant les\nrésultats de toutes les Places Wi-Fi.\r
+118	Voici les résultats du Sondage spécial\nde la semaine dernière.\rIls ont été obtenus en réunissant les\nrésultats de toutes les Places Wi-Fi.\r
+119	RÉSULTATS PRÉCÉDENTS
+120	Nous comptons sur la participation de\ntous à notre prochain Sondage !\r
+122	Le Sondage de la Place est clos.\r
+124	{COLOR 2}{STRVAR_1 3, 0, 0}{COLOR 0} reçoit : {STRVAR_3 2, 1, 0}.

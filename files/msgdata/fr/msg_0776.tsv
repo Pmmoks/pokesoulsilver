@@ -1,0 +1,32 @@
+0	Voulez-vous jouer à\n{STRVAR_3 0, 0, 0} ?
+1	REJOINDRE
+2	RÈGLES
+3	RETOUR
+4	Impossible de rejoindre le groupe\nqui joue à {STRVAR_3 0, 0, 0}.\r
+5	Une partie est en cours.\nAttendez qu’elle soit finie.\r
+6	Les inscriptions pour\n{STRVAR_3 0, 0, 0} sont closes.\r
+7	Préparation des inscriptions.\nVeuillez patienter.\r
+8	Un membre a dû abandonner.\rLa partie de {STRVAR_3 0, 0, 0}\na été annulée.\r
+10	En attente des autres membres...\nB : Annuler
+11	La partie va bientôt commencer !\nVeuillez patienter.
+15	Encore {STRVAR_1 51, 0, 0} secondes
+16	Il y a assez de joueurs.\nQue la partie commence !
+17	Un membre a dû abandonner.\nRecommencez l’inscription.\r
+18	Le temps d’attente est écoulé.\nQue la partie commence !
+19	Personne ne s’est inscrit pendant\nla période d’inscription.\rRecommencez l’inscription.\r
+20	Désolé, ce service est saturé.\nVous ne pouvez pas participer.\r
+21	Le temps est écoulé.\n{STRVAR_3 0, 0, 0} va fermer.\r
+22	{STRVAR_3 0, 0, 0} est maintenant fermé.\r
+24	OUI
+25	NON
+26	Vous êtes le premier joueur inscrit.\rSi vous abandonnez, le groupe sera\ndissous. D’accord ?
+27	OUI
+28	NON
+29	Vous avez choisi d’abandonner.\r
+30	La Parade aura lieu plus tard.\nVeuillez l’attendre !\r
+31	En attente de la Parade...\nB : Annuler
+32	Il n’y a plus de place sur les chars...\r
+33	La Parade est terminée.\r
+34	{STRVAR_3 0, 0, 0}\rLancez des Baies dans la bouche d’un\nAVALTOUT qui tourne sur lui-même.\rMarquez des points bonus en lançant\ndes Baies à la suite.\rMarquez encore plus pendant la\nFièvre.\rVisez avec soin ou tirez au hasard :\nà vous de choisir !\r
+35	{STRVAR_3 0, 0, 0}\rFaites rouler un ballon en gardant un\nMIME JR. en équilibre dessus.\rSi le MIME JR. tient bon, les lumières\nclignotent et le public applaudit.\rSi tout le monde tient bon, le rideau\nse lèvera.\rGardez votre MIME JR. en équilibre\nsur le ballon !\r
+36	{STRVAR_3 0, 0, 0}\rAppuyez sur la pompe bien d’en haut\npour gonfler un ballon au maximum,\fjusqu’à ce qu’il éclate.\rFaites éclater des ballons jusqu’à la\nfin du temps imparti.\rAppuyer fort sur la pompe la fait\nrougir et augmente sa capacité.\rL’OKEOKE qui tourne peut aussi aider.\rAlignez un OKEOKE avec la pompe pour\naugmenter le volume d’air, mais\fattention :\raligner la pompe avec un OKEOKE\nmaigrichon réduit le volume d’air.\r

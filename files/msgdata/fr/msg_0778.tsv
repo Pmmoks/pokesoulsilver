@@ -1,0 +1,113 @@
+1	Connexion à la Connexion Wi-Fi\nNintendo... Veuillez patienter...
+2	{STRVAR_1 3, 0, 0} cherche un adversaire.
+3	{STRVAR_1 3, 0, 0} cherche un partenaire\nd’échange.
+4	{STRVAR_1 3, 0, 0} cherche quelqu’un\npour cuisiner.
+5	{STRVAR_1 3, 0, 0} cherche des participants\npour la Zone de Combat.
+6	{STRVAR_1 3, 0, 0} cherche des participants\npour {STRVAR_3 0, 1, 0}.
+7	{STRVAR_1 3, 0, 0} est en attente.
+8	Que voulez-vous chercher ?
+9	Recherche de participants...
+10	Suspendre votre invitation ?
+11	{STRVAR_1 3, 0, 0} cherche à vous joindre !
+12	Vous déconnecter de la\nCWF Nintendo ?
+14	{STRVAR_1 3, 0, 0} vous invite à\nune discussion vocale !
+15	{STRVAR_1 3, 0, 0} n’est pas disponible...
+16	Impossible de se connecter avec\n{STRVAR_1 3, 0, 0}.
+17	Communication avec {STRVAR_1 3, 0, 0}...
+18	{STRVAR_1 3, 0, 0} n’a pas répondu...
+19	{STRVAR_1 3, 0, 0} a mis fin à la discussion\nvocale.
+20	Mettre fin à cette\ndiscussion vocale ?
+21	Connexion Wi-Fi Nintendo
+27	EN COMBAT
+28	ÉCHANGE
+29	ÉCHANGE...
+30	CUISINE
+31	CUISINE...
+32	ZONE DE COMBAT
+33	EN DÉFI...
+34	JEUX DE LA PLACE
+35	EN JEU...
+36	DISCUSSION VOCALE
+39	POSTULER
+41	RETOUR
+43	GROUPE
+44	RÉSULTATS COMBATS
+45	V : {STRVAR_1 53, 0, 0}
+46	D : {STRVAR_1 53, 0, 0}
+47	ÉCHANGES POKéMON
+49	SÉANCES POFFINS
+51	DERNIÈRE PARTIE
+52	TOUR DE COMBAT
+53	USINE DE COMBAT
+54	CHÂTEAU DE COMBAT
+55	PALAIS DE COMBAT
+56	ARCADE DE COMBAT
+57	PRÉC.
+58	ACTUEL
+59	RECORD
+60	NIVEAU 50
+61	NIVEAU LIBRE
+62	LOCATION/ÉCHANGE
+63	POINTS CHÂTEAU
+65	SÉRIE : {STRVAR_1 53, 0, 0}
+67	{STRVAR_1 53, 0, 0} PCh
+68	SÉRIE : {STRVAR_1 53, 0, 0}
+69	JEUX FINIS : {STRVAR_1 53, 0, 0}
+70	JEUX DE LA PLACE JOUÉS
+73	FERMER
+76	{STRVAR_1 3, 0, 0} veut se joindre à vous !
+77	Refaire un combat contre\n{STRVAR_1 3, 0, 0} ?
+78	Refaire un échange avec\n{STRVAR_1 3, 0, 0} ?
+79	En attente...
+81	{STRVAR_1 3, 0, 0} est en combat.
+82	{STRVAR_1 3, 0, 0} fait un échange.
+83	{STRVAR_1 3, 0, 0} fait la cuisine.
+84	{STRVAR_1 3, 0, 0} relève un défi de la\nZone de Combat.
+85	{STRVAR_1 3, 0, 0} joue à un Jeu de la Place.
+86	{STRVAR_1 3, 0, 0} est en discussion vocale.
+88	Se reconnecter à la CWF Nintendo ?
+89	Il faut au moins deux Pokémon\npour faire un échange !
+90	Discussion vocale activée.\r
+91	Discussion vocale désactivée.\r
+93	COMBAT SIMPLE
+94	COMBAT DOUBLE
+95	SIMPLE LIBRE
+96	SIMPLE N. 50
+97	SIMPLE N. 100
+98	DOUBLE LIBRE
+99	DOUBLE N. 50
+100	DOUBLE N. 100
+101	Votre ami a mis fin au combat\nen communication.
+102	Communication en cours. Patientez...
+103	Impossible de faire un Combat Double\navec un seul Pokémon...
+104	Vous n’avez aucune Baie...
+105	Votre Boîte Poffin est pleine.
+106	Impossible de cuisiner des Baies\nsans Boîte Poffin.
+107	Quand le groupe est prêt :\nA : Continuer   B : Annuler
+108	Quelqu’un veut se joindre à vous.\nAccepter ce Dresseur ?
+111	Ces membres vous conviennent ?
+114	En attente de la réponse de\n{STRVAR_1 3, 0, 0}...
+115	{STRVAR_1 3, 0, 0} a accepté votre\ndemande d’inscription.
+116	{STRVAR_1 3, 0, 0} a refusé votre\ndemande d’inscription...\r
+118	Un membre a dû abandonner.\nRecommencez l’inscription.\r
+119	Il n’y a pas assez de membres.\r
+120	Arrêter de chercher des membres ?
+121	Si le chef abandonne, le groupe sera\ndissous. D’accord ?
+122	Les invitations seront annulées.
+123	En attente des autres membres.
+124	Activer la discussion vocale ?
+125	Désactiver la discussion vocale ?
+126	Cuisiniers de Poffins recherchés !
+127	Joueurs de {STRVAR_3 0, 0, 0}\nrecherchés !
+128	Discussion vocale ON/OFF : X
+130	ID {STRVAR_1 54, 0, 0}
+131	{STRVAR_1 3, 0, 0}\nID {STRVAR_1 54, 1, 0}
+132	Le chef n’est pas disponible.\nPostulez à nouveau.\r
+134	La discussion vocale sera activée\npendant le jeu avec cet ami.\rRépondre à l’invitation de\ncet ami ?
+135	La discussion vocale sera désactivée\npendant le jeu avec cet ami.\rRépondre à l’invitation de\ncet ami ?
+138	En attente de la décision de l’autre\njoueur. Veuillez patienter...
+144	PROMENADE
+145	COMBAT MULTI
+146	2BITADPCM
+147	3BITADPCM
+148	4BITADPCM

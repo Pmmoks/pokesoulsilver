@@ -1,0 +1,155 @@
+2	{STRVAR_1 1, 0, 0} n’a pas été échangé.\r
+3	{STRVAR_1 1, 0, 0} semble s’être\nenfui...\r
+4	Cherchez-vous ou proposez-vous un\nPokémon ?
+5	Que faire de ce {STRVAR_1 1, 0, 0} ?
+6	Prendre ce {STRVAR_1 1, 0, 0} ?
+7	Se déconnecter de la\nConnexion Wi-Fi Nintendo ?
+8	Quel Pokémon cherchez-vous ?
+9	Choisissez le Pokémon voulu.
+10	Choisissez son sexe.
+11	Choisissez le niveau.
+12	Choisissez le Pokémon voulu !
+13	Recherche du Pokémon voulu...
+14	Aucun Pokémon trouvé !
+15	Arrêter la recherche ?
+16	Échanger avec ce Dresseur ?
+17	Choisissez le Pokémon à échanger.
+18	Que faire de ce {STRVAR_1 1, 0, 0} ?
+21	Choisissez le Pokémon à proposer.
+22	Proposer {STRVAR_1 1, 0, 0} ?
+23	Ces conditions vous conviennent ?
+24	Vérification de l’état de la GTS...
+25	La Capsule sera retirée.\nD’accord ?
+26	Ce Pokémon ne peut pas être\nproposé à l’échange !\r
+27	Un Œuf ne peut pas être\nproposé à l’échange !\r
+28	Votre équipe est pleine.\nImpossible de recevoir un Pokémon !\r
+29	Vos Boîtes sont pleines.\nImpossible de recevoir un Pokémon !\r
+30	Un partenaire d’échange a été\ntrouvé !
+31	Connexion Wi-Fi Nintendo
+32	Touchez “CHOISIR” pour l’échange.
+33	Veuillez changer vos conditions.
+34	Veuillez patienter un instant.
+35	Votre équipe est pleine.\rImpossible de recevoir un Pokémon\nqui tient une Lettre.\r
+36	Il n’y a pas de place dans l’équipe.
+37	Il porte un Ruban spécial.\nIl ne peut pas être échangé.\r
+38	Échec de la vérification de la GTS.
+39	{ALN_CENTER}GLOBAL TRADE STATION
+40	{ALN_CENTER}RÉSUMÉ
+41	{ALN_CENTER}DÉPOSER POKéMON
+42	{ALN_CENTER}CHERCHER POKéMON
+43	{ALN_CENTER}SORTIE
+49	DÉPOSANT
+55	REPRENDRE
+56	LAISSER
+59	NOM
+61	POKéMON
+63	SEXE
+65	NIVEAU
+67	CHERCHER
+68	{ALN_CENTER}RETOUR
+69	CHOISIR
+73	OBJET
+77	RECHERCHE
+81	LIEU DU DO
+87	RÉSUMÉ
+88	ÉCHANGER
+89	RETOUR
+92	ÉQUIPE
+98	RÉSUMÉ
+99	PROPOSER
+100	RETOUR
+101	RECHERCHE
+104	PROPOSER POKéMON
+106	N.
+108	N. {STRVAR_1 52, 3, 0}
+109	RETOUR
+110	ABC
+111	DEF
+112	GHI
+113	JKL
+114	MNO
+115	PQR
+116	STU
+117	VWX
+118	YZ
+124	INDIFFÉRENT
+128	TOUS
+129	N. 9 et moins
+130	N. 10 et plus
+131	N. 20 et plus
+132	N. 30 et plus
+133	N. 40 et plus
+134	N. 50 et plus
+135	N. 60 et plus
+136	N. 70 et plus
+137	N. 80 et plus
+138	N. 90 et plus
+139	N. 100
+147	Hélas, il a été échangé avec\nun autre Dresseur.\r
+148	Sauvegarde...\nN’éteignez pas la console.
+150	La GTS est en maintenance.\nRéessayez plus tard.\r
+151	La GTS est saturée.\nRéessayez plus tard.\r
+152	La recherche a échoué...
+153	Erreur de communication...
+154	Erreur de communication...\r
+155	Impossible de se connecter à la GTS.\nRetour à l’accueil.\r
+156	La connexion à la GTS a été perdue.\nRetour à l’accueil.\r
+158	Retour à l’accueil.
+159	TOUS
+160	N. 1 à 10
+161	N. 11 à 20
+162	N. 21 à 30
+163	N. 31 à 40
+164	N. 41 à 50
+165	N. 51 à 60
+166	N. 61 à 70
+167	N. 71 à 80
+168	N. 81 à 90
+169	N. 91 à 100
+171	LIEU
+173	TOUS
+174	 TOUS
+176	Choisissez le lieu du Pokémon.
+177	Ce Pokémon ne peut pas être échangé\nsous cette Forme !\r
+178	Le PICHU Troizépi ne peut pas être\nproposé à l’échange. \r
+179	Ce Pokémon ne peut pas être échangé\ns’il tient cet objet !\r
+180	DO
+181	Une erreur est survenue lors de\nl’envoi d’un message Wii\fd’authentification.\r
+182	Une erreur de communication est\nsurvenue.\r
+183	Les données sont corrompues.\nImpossible de les envoyer.\r
+184	Le serveur est en maintenance.\nReconnectez-vous plus tard.\r
+185	Erreur d’authentification du\nmessage Wii.\r
+186	Déconnexion de la Connexion\nWi-Fi Nintendo...
+187	La Connexion Wi-Fi Nintendo\nest terminée.
+188	A
+189	B
+190	C
+191	D
+192	E
+193	F
+194	G
+195	H
+196	I
+197	J
+198	K
+199	L
+200	M
+201	N
+202	O
+203	P
+204	Q
+205	R
+206	S
+207	T
+208	U
+209	V
+210	W
+211	X
+212	Y
+213	Z
+233	GTS
+234	GTS\nÉCHANGER POKéMON
+235	GTS\nRÉSUMÉ
+236	GTS\nDÉPOSER POKéMON
+237	GTS\nCHERCHER POKéMON
+238	RETOUR

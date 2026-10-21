@@ -1,0 +1,235 @@
+31	Bonjour !\r
+37	... Waouh, il est cette heure-là\nchez toi ?\rTu vas sortir quelque part\naprès ça ?\r
+38	... Waouh, il est cette heure-là\nchez toi ?\rTu commences à avoir sommeil ?\r
+39	... Waouh, il est cette heure-là\nchez toi ?\rTu as encore un peu sommeil ?\r
+40	{STRVAR_1 3, 0, 0} :\nSalut ! Faisons connaissance !\r
+41	{STRVAR_1 3, 0, 0} :\nSalut, {STRVAR_1 3, 1, 0} !\fÇa me fait plaisir de te revoir !\r
+42	... Cette personne a l’air occupée.\r
+43	{STRVAR_1 3, 0, 0} :\nÀ la prochaine !\r
+44	{STRVAR_1 3, 0, 0} :\nAutre chose...\r
+45	Pardon ! J’ai un imprévu !\nJe ne peux pas parler !\r
+46	{STRVAR_1 3, 0, 0} :\nOui ? Qu’est-ce qu’il y a ?\r
+47	{STRVAR_1 3, 0, 0} :\nSalut, tu as une minute ?\r
+49	{STRVAR_1 3, 0, 0} :\nNe t’en fais pas. Si tu ne veux pas\frépondre, ce n’est pas grave.\r
+50	{STRVAR_1 3, 0, 0} :\nJe vois...\r
+51	{STRVAR_1 3, 0, 0} :\nPareil que moi !\fC’est chouette !\r
+52	{STRVAR_1 3, 0, 0} :\nMerci d’avoir répondu !\r
+53	{STRVAR_1 3, 0, 0} :\nBon, sinon...\r
+54	{STRVAR_1 3, 0, 0} :\nTu voulais autre chose ?\r
+55	{STRVAR_1 3, 0, 0} :\nC’est quoi, ta couleur préférée ?\r
+56	{STRVAR_1 3, 0, 0} :\nQuel genre de Pokémon tu aimes ?\r
+57	{STRVAR_1 3, 0, 0} :\nQuel temps fait-il aujourd’hui ?\r
+58	{STRVAR_1 3, 0, 0} :\nTu faisais quoi avant de venir ?\r
+59	{STRVAR_1 3, 0, 0} :\nTu as des projets pour demain ?\r
+60	{STRVAR_1 3, 0, 0} :\nOù aimerais-tu aller pendant\ftes vacances ?\r
+61	{STRVAR_1 3, 0, 0} :\nTu ressembles à qui ?\r
+62	{STRVAR_1 3, 0, 0} :\nQu’est-ce que tu veux le plus,\fen ce moment ?\r
+63	{STRVAR_1 3, 0, 0} :\nQu’est-ce que tu trouves difficile ?\r
+64	{STRVAR_1 3, 0, 0} :\nTu vas où pour t’amuser ?\r
+65	{STRVAR_1 3, 0, 0} :\nTu assures à quel Jeu de la Place ?\r
+66	{STRVAR_1 3, 0, 0} :\nQu’est-ce qui est à la mode chez toi ?\r
+67	{STRVAR_1 3, 0, 0} :\nC’est quoi, ton point fort ?\r
+68	{STRVAR_1 3, 0, 0} :\nDe quoi tu ne peux pas te passer ?\r
+69	{STRVAR_1 3, 0, 0} :\nC’est quoi, ta passion secrète ?\r
+70	{STRVAR_1 3, 0, 0} :\nTu vas faire quoi après ?\r
+71	{STRVAR_1 3, 0, 0} :\nQu’est-ce qu’il y a près de chez toi ?\r
+72	{STRVAR_1 3, 0, 0} :\nTu fais quoi avec tes amis ?\r
+73	{STRVAR_1 3, 0, 0} :\nQui compte le plus pour toi ?\r
+74	{STRVAR_1 3, 0, 0} :\nComment les gens te décrivent ?\r
+75	{STRVAR_1 3, 0, 0} :\nQuand est-ce que tu te sens\fvraiment bien ?\r
+76	{STRVAR_1 3, 0, 0} :\nQu’est-ce qui t’inquiète ?\r
+77	{STRVAR_1 3, 0, 0} :\nDans quoi tu te donnes à fond ?\r
+78	{STRVAR_1 3, 0, 0} :\nTu assures dans quel sport ?\r
+79	{STRVAR_1 3, 0, 0} :\nC’est quoi, le métier de tes rêves ?\r
+80	{STRVAR_1 3, 0, 0} :\nQu’est-ce qui rend ta région\fspéciale ?\r
+81	{STRVAR_1 3, 0, 0} :\nQuelle température fait-il chez toi ?\r
+82	{STRVAR_1 3, 0, 0} :\nQu’est-ce que tu entends autour\fde toi ?\r
+83	{STRVAR_1 3, 0, 0} :\nÇa sent quoi, autour de toi ?\r
+84	{STRVAR_1 3, 0, 0} :\nQu’est-ce qui t’intéresse le plus ?\r
+85	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+86	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+87	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+88	{STRVAR_1 3, 0, 0} :\nVoyons... De mon côté...\r
+89	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+90	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+91	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+92	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+93	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+94	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+95	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+96	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+97	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+98	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+99	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+100	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+101	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+102	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+103	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+104	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+105	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+106	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+107	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+108	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+109	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+110	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+111	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+112	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+113	{STRVAR_1 3, 0, 0} :\nVoyons... Chez moi...\r
+114	{STRVAR_1 3, 0, 0} :\nEh bien, moi...\r
+115	Rouge
+116	Bleu
+117	Jaune
+118	Vert
+119	Les costauds
+120	Les mignons
+121	Les jolis
+122	Les bizarres
+123	Soleil
+124	Nuages
+125	Pluie
+126	Grêle
+127	Je dormais
+128	J’étais dehors
+129	Je travaillais
+130	Je mangeais
+131	Rien de prévu
+132	Journée chargée
+133	Jour de congé
+134	Secret
+135	Un endroit chaud
+136	Un endroit froid
+137	Un lieu bondé
+138	Un lieu désert
+139	Mon grand frère
+140	Ma grande sœur
+141	Mon oncle
+142	Ma tante
+143	Du temps
+144	De l’argent
+145	Des amis
+146	Un bon dîner
+147	L’école
+148	Le sport
+149	Se lever tôt
+150	Le ménage
+151	Un parc
+152	Un grand magasin
+153	Parc d’attractions
+154	Un théâtre
+155	AVALTOUT Plop
+156	MIME JR. Top
+157	QULBUTOKE Pop
+158	Jamais joué
+159	Télé et musique
+160	Jeux et ordis
+161	École et sport
+162	Mode et amour
+163	Me dépenser
+164	Réfléchir
+165	Me faire remarquer
+166	Me faire des amis
+167	La lecture
+168	La musique
+169	Les ordis
+170	Veiller tard
+171	La mode
+172	La déco
+173	La gastronomie
+174	La vie
+175	Un Jeu de la Place
+176	Tampon Empreinte
+177	Profils Visiteurs
+178	Infos de la Place
+179	Une maison
+180	Des magasins
+181	Une grande usine
+182	La nature
+183	Faire du sport
+184	Jouer
+185	Discuter
+186	Faire du shopping
+187	Ma famille
+188	Mes amis
+189	Moi-même
+190	Secret
+191	Enthousiaste
+192	Drôle
+193	Aimable
+194	Énigmatique
+195	En jouant
+196	En bossant dur
+197	En dormant
+198	En mangeant
+199	Argent de poche
+200	L’école
+201	Ma forme
+202	Mes amis
+203	L’école
+204	Mon régime
+205	L’amour
+206	L’entraînement
+207	Sports collectifs
+208	La course
+209	La natation
+210	La danse
+211	Athlète pro
+212	Scientifique
+213	Rock star
+214	Humoriste
+215	Très pratique
+216	Beaucoup de nature
+217	Très calme
+218	Choses rares
+219	Chaud
+220	Doux
+221	Froid
+222	Frais
+223	Des voix
+224	De la musique
+225	La télé
+226	Rien
+227	La nourriture
+228	Les gens
+229	La saison
+230	Une puanteur
+231	Derniers jouets
+232	Habits branchés
+233	Météo de demain
+234	Nouvelles stars
+235	Arrêter de parler
+236	{STRVAR_1 3, 0, 0} :\nJe dirais le rouge.\r
+237	{STRVAR_1 3, 0, 0} :\nJe dirais le bleu.\r
+238	{STRVAR_1 3, 0, 0} :\nJe dirais le jaune.\r
+239	{STRVAR_1 3, 0, 0} :\nJe dirais le vert.\r
+240	{STRVAR_1 3, 0, 0} :\nJ’aime les Pokémon costauds.\r
+241	{STRVAR_1 3, 0, 0} :\nJ’aime les Pokémon mignons.\r
+242	{STRVAR_1 3, 0, 0} :\nJ’aime les jolis Pokémon.\r
+243	{STRVAR_1 3, 0, 0} :\nJ’aime les Pokémon bizarres.\r
+244	{STRVAR_1 3, 0, 0} :\nIci, il fait beau.\r
+245	{STRVAR_1 3, 0, 0} :\nIci, le ciel est nuageux.\r
+246	{STRVAR_1 3, 0, 0} :\nIci, il pleut.\r
+247	{STRVAR_1 3, 0, 0} :\nIci, il grêle.\r
+248	{STRVAR_1 3, 0, 0} :\nEuh... Je dormais, je crois.\r
+249	{STRVAR_1 3, 0, 0} :\nEuh... J’étais dehors, je crois.\r
+250	{STRVAR_1 3, 0, 0} :\nEuh... Je travaillais, je crois.\r
+251	{STRVAR_1 3, 0, 0} :\nEuh... Je mangeais, je crois.\r
+252	{STRVAR_1 3, 0, 0} :\nJe n’ai rien de prévu demain.\r
+253	{STRVAR_1 3, 0, 0} :\nDemain, ma journée sera chargée.\r
+254	{STRVAR_1 3, 0, 0} :\nDemain, c’est jour de congé.\r
+255	{STRVAR_1 3, 0, 0} :\nC’est un secret.\r
+256	{STRVAR_1 3, 0, 0} :\nJ’aimerais aller dans un endroit chaud.\r
+257	{STRVAR_1 3, 0, 0} :\nJ’aimerais aller dans un endroit froid.\r
+258	{STRVAR_1 3, 0, 0} :\nJ’aimerais aller là où il y a plein\fde monde.\r
+259	{STRVAR_1 3, 0, 0} :\nJ’aimerais aller là où il n’y a\fpersonne.\r
+260	{STRVAR_1 3, 0, 0} :\nJe crois que je ressemble à mon\fgrand frère.\r
+261	{STRVAR_1 3, 0, 0} :\nJe crois que je ressemble à ma\fgrande sœur.\r
+262	{STRVAR_1 3, 0, 0} :\nJe crois que je ressemble à mon oncle.\r
+263	{STRVAR_1 3, 0, 0} :\nJe crois que je ressemble à ma tante.\r
+264	{STRVAR_1 3, 0, 0} :\nJe dirais du temps.\r
+265	{STRVAR_1 3, 0, 0} :\nJe dirais de l’argent.\r
+266	{STRVAR_1 3, 0, 0} :\nJe dirais des amis.\r
+267	{STRVAR_1 3, 0, 0} :\nJe dirais un bon dîner.\r
+268	{STRVAR_1 3, 0, 0} :\nEh bien... L’école, je dirais...\r
+269	{STRVAR_1 3, 0, 0} :\nEh bien... Le sport, je dirais...\r
+270	{STRVAR_1 3, 0, 0} :\nEh bien... Me lever tôt, je dirais...\r
+271	{STRVAR_1 3, 0, 0} :\nEh bien... Le ménage, je dirais...\r

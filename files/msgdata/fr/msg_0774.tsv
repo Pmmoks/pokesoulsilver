@@ -1,0 +1,23 @@
+0	Entrez le numéro de Salle (01-{STRVAR_1 51, 0, 0})\n... B : Annuler {YESNO 0}
+1	Réception des données du Rang {STRVAR_1 51, 1, 0},\nSalle {STRVAR_1 52, 0, 0}...
+2	Vous ne pouvez pas défier cette Salle\navant la prochaine mise à jour.\r
+3	Les données ont été reçues.\r
+4	Annuler votre défi ?
+5	Entrez le Rang de la Salle (01-10)\npour consulter vos résultats.{YESNO 0}
+6	Entrez le numéro de\nSalle. ...(01-{STRVAR_1 51, 0, 0}) {YESNO 0}
+7	Envoi de vos résultats...
+8	Vos données ont été envoyées.\r
+9	Voulez-vous annuler le\ntéléchargement des données ?
+10	Entrez le numéro de\nSalle. ...(001-{STRVAR_1 52, 0, 0}) {YESNO 0}
+11	Entrez le numéro de\nSalle. ...(001-{STRVAR_1 52, 0, 0}) {YESNO 0}
+12	Connexion Wi-Fi Nintendo
+13	La Tour de Combat Wi-Fi est en\nmaintenance. Réessayez plus tard.\r
+14	La Tour de Combat Wi-Fi est saturée.\nRéessayez plus tard.\r
+15	Impossible de se connecter à la Tour\nde Combat Wi-Fi.\rRetour à l’accueil.\r
+16	La connexion à la Tour de Combat\nWi-Fi a été perdue.\rRetour à l’accueil.\r
+17	Ce numéro ne peut pas être choisi\npour la Tour de Combat Wi-Fi.\r
+18	Déconnexion de la Connexion\nWi-Fi Nintendo...
+19	La Connexion Wi-Fi Nintendo\nest terminée.
+20	{ALN_CENTER}Retour
+21	{ALN_CENTER}Valider
+22	{ALN_CENTER}Quitter
