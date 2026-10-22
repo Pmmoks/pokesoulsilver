@@ -191,11 +191,14 @@ if [[ $install -eq 1 ]]; then
     device="$("$py" - "$devices_json" <<'PY'
 import json, sys
 devices = json.load(open(sys.argv[1]))["result"]["devices"]
-for d in devices:
-    props = d.get("hardwareProperties", {})
-    if props.get("platform") == "iOS" and d.get("connectionProperties", {}).get("pairingState") == "paired":
-        print(d["identifier"])
-        break
+paired = [d for d in devices if d.get("hardwareProperties", {}).get("platform") == "iOS"
+          and d.get("connectionProperties", {}).get("pairingState") == "paired"]
+# Prefer the device connected now (by cable first) over others paired with this Mac before.
+def rank(d):
+    c = d.get("connectionProperties", {})
+    return (c.get("tunnelState") != "connected", c.get("transportType") != "wired")
+if paired:
+    print(sorted(paired, key=rank)[0]["identifier"])
 PY
 )"
     rm -f "$devices_json"
