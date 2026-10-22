@@ -1826,9 +1826,6 @@ void BattleControllerOpponent_SetBattleResults(BattleSystem *battleSystem, Oppon
 
 void BattleControllerOpponent_BlankMessage(BattleSystem *battleSystem, OpponentData *opponentData) {
     Window *window = BattleSystem_GetWindow(battleSystem, 0);
-#ifdef TRANSLATED_TEXT
-    BattleSystem_ForgetShownMessage();
-#endif
     FillWindowPixelBuffer(window, 0xFF);
     CopyWindowPixelsToVram_TextMode(window);
     BattleController_EmitCommandComplete(battleSystem, opponentData->battlerId, 66);
@@ -5225,9 +5222,6 @@ void Task_PlayerShowMonList(SysTask *task, void *data) {
     switch (work->state) {
     case MON_LIST_STATE_FADE_OUT: {
         Window *window = BattleSystem_GetWindow(work->battleSystem, 0);
-#ifdef TRANSLATED_TEXT
-        BattleSystem_ForgetShownMessage();
-#endif
         FillWindowPixelBuffer(window, 0xFF);
         CopyWindowPixelsToVram_TextMode(window);
     }

@@ -79,23 +79,42 @@ sign `build/ios/SoulSilver-FR.ipa` with your Apple ID when they install it.
 | A / B / X / Y | A / B / X / Y, by the letters on the buttons (pause menu › BUTTONS switches to by position) |
 | D-pad, left stick | D-pad |
 | L1 / R1 | L / R |
-| Menu (≡) / Options (⧉) | Start / Select |
+| Menu (≡, right) | Start; on the map it opens and closes the game's menu, as X does |
+| Options (⧉, left) or the Backbone button | pause menu (save states, layout, 60 fps, widescreen, sound…) |
+| Left stick click | Select (unless pause menu › STICK TOUCH CURSOR is on, which uses the stick, and R2, for touching) |
 | **R2 (hold)** | **English text** |
+| **R2 + D-pad** | **turn the pages of the message: left/up back, right/down on** |
 | L2 (hold) | fast forward |
-| Menu + Options together | pause menu (save states, layout, 60 fps, widescreen…) |
 
-While R2 is held, the game reads its text from the English original. The message
-box on the map (people, signs, the story) and the one in battles are printed
-again in English at once, from the page you are on, and in French again when you
-let go. The names in the message (Pokémon, moves, items, places) change too;
-only names someone typed (yours, your rival's, nicknames) are the same in both. Other
-text (menus, other screens) is in English when the game next draws it, so hold R2
-before opening the menu. The pause menu's first
-entry, *TEXT (HOLD R2)*, keeps English on without holding anything.
+While R2 is held, the game reads its text from the English original, and the text
+already on screen is printed again in English: messages on the map and in battles,
+Professor Oak's introduction, menus, lists and other screens. When you let go it
+goes back to French. A message being printed carries on from the same page in the
+other language. The names in a message (Pokémon, moves, items, places) change too;
+only names someone typed (yours, your rival's, nicknames) are the same in both.
+
+Pages are matched by box: the French and English messages clear the box as often,
+but French sometimes needs an extra scrolled line, so the match can be one line off.
+Keep R2 held and use the D-pad to go back or on a page in either language and line
+them up; letting go of R2 shows the French of the page you are on. Going on past
+the page the game had reached is like pressing A. The D-pad does nothing else while
+R2 is held.
+
+What can't be printed again stays as it was until the game draws it next: text
+that is not from the game's text archive (numbers, names), and text drawn into
+pictures. The pause menu's first entry, *TEXT (HOLD R2)*, keeps English on without
+holding anything.
+
+The pause menu's *SOUND SMOOTHING* chooses how the DS sound is resampled:
+*SMOOTH* (the default) takes away the high whine the DS's own sound has, *SOFT* is
+gentler still, and *OFF* is the DS sound as it was.
 
 The app tells the game through a byte in its memory (`gMsgDataShowOriginal` in
 `src/msgdata.c`), and also holds the DS's debug button, which retail consoles lack
-and this ROM reads for nothing else; either one switches the text.
+and this ROM reads for nothing else; either one switches the text. Page turns go
+through `gMsgDataPageTurn`. The build prints where it found both
+(`original text switch at 0x…`, `page turns at 0x…`); if a line is missing, the
+ROM is older than the app and R2 does less.
 
 Without a controller, on-screen buttons are shown; using the controller hides
 them and touching the screen brings them back. Wherever the game wants a touch,
@@ -118,4 +137,6 @@ game. It must be a SoulSilver US save.
 - The iOS port has been played on an iPhone 17 Pro. The *iOS app check* workflow
   (runs on pushes to ios/ on iOS_version) compiles it with Xcode around a synthetic
   stand-in for the game code. `log.txt` helps with reports: it says, for example,
-  whether the sound ever ran short (`[audio] the queue ran dry`).
+  whether the sound ever ran short (`[audio] the queue ran dry`), and with `[view]`,
+  `[scene]` and `[wide]` lines, the layout settings, the size of the picture and
+  why the map is or is not shown wide.

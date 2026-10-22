@@ -64,6 +64,13 @@
 #include "map_object_behavior.h"
 #include "field_misc_events.h"
 
+#ifdef TRANSLATED_TEXT
+// Start opens the menu as well, as on controllers whose X is hard to reach.
+#define FIELD_MENU_BUTTONS (PAD_BUTTON_X | PAD_BUTTON_START)
+#else
+#define FIELD_MENU_BUTTONS PAD_BUTTON_X
+#endif
+
 static BOOL FieldSystem_CheckSign(FieldSystem *fieldSystem);
 static u16 GetInteractedMetatileScript(FieldSystem *fieldSystem, u8 metatileBehavior);
 static BOOL FieldSystem_ProcessStep(FieldSystem *fieldSystem);
@@ -148,7 +155,7 @@ void FieldInput_Update(FieldInput *fieldInput, FieldSystem *fieldSystem, u16 new
         } else if (fieldSystem->lastTouchMenuInput == 11) {
             fieldInput->switchBottomScreen = TRUE;
             fieldSystem->lastTouchMenuInput = 0;
-        } else if (newKeys & PAD_BUTTON_X || fieldSystem->lastTouchMenuInput) {
+        } else if (newKeys & FIELD_MENU_BUTTONS || fieldSystem->lastTouchMenuInput) {
             if (FieldSystem_GetBottomScreenAppId(fieldSystem) == 4) {
                 MenuInputStateMgr_SetState(&fieldSystem->menuInputState, MENU_INPUT_STATE_BUTTONS);
                 fieldInput->switchBottomScreen = TRUE;

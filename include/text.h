@@ -18,12 +18,6 @@ void SetFontsPointer(const struct FontInfo *fonts);
 void RemoveTextPrinter(u8 printerId);
 void ResetAllTextPrinters(void);
 u8 TextPrinterCheckActive(u8 printerId); // FIXME: bool8
-#ifdef TRANSLATED_TEXT
-int TextPrinter_GetPage(u8 printerId, String *string);
-void TextPrinter_Reprint(u8 printerId, String *string);
-int Text_DropPages(String *string, int pages);
-u32 Text_Checksum(String *string);
-#endif
 u8 AddTextPrinterParameterized(Window *window, FontID fontId, String *text, u32 x, u32 y, u32 textSpeed, PrinterCallback_t callback);
 u8 AddTextPrinterParameterizedWithColor(Window *window, FontID fontId, String *string, u32 x, u32 y, u32 textSpeed, u32 color, PrinterCallback_t callback);
 u8 AddTextPrinterParameterizedWithColorAndSpacing(Window *window, int fontId, String *string, u32 x, u32 y, u32 textSpeed, u32 color, u32 letterSpacing, u32 lineSpacing, PrinterCallback_t callback);

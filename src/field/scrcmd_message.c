@@ -34,9 +34,6 @@ static void ovFieldMain_ReadAndExpandMsgDataViaBuffer(MessageBox *messageBox, Ms
 static void ovFieldMain_GetFormattedECMessage(MessageBox *messageBox, u16 messageBank, u16 messageNum, u16 word1, u16 word2);
 static void ovFieldMain_PrintMessageEx(MessageBox *messageBox, FontID fontId, u32 textFrameDelay, BOOL canABSpeedUp, u32 autoScrollParam);
 static void ovFieldMain_AddTextPrinterParameterized(MessageBox *messageBox, FontID fontId);
-#ifdef TRANSLATED_TEXT
-static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *messageData, u16 messageNum, u8 fontId);
-#endif
 
 const u16 gScriptStdMsgBanks[] = {
     NARC_msg_msg_0752_bin, // day of the week siblings
@@ -150,9 +147,6 @@ BOOL ScrCmd_NPCMsg(ScriptContext *ctx) {
 }
 
 BOOL ScrNative_WaitTextPrinter(ScriptContext *ctx) {
-#ifdef TRANSLATED_TEXT
-    ovFieldMain_UpdateMessageLanguage(ctx);
-#endif
     u8 *textPrinterNumPtr = FieldSysGetAttrAddr(ctx->fieldSystem, SCRIPTENV_TEXT_PRINTER_NUMBER);
     return DialogBox_IsPrintFinished(*textPrinterNumPtr);
 }
@@ -227,9 +221,6 @@ void ovFieldMain_ShowMessage(ScriptContext *ctx, MsgData *messageData, u16 messa
         fontId = printOptions->fontId;
     }
     ovFieldMain_PrintMessageEx(&messageBox, fontId, textFrameDelay, canABSpeedUp, autoScroll);
-#ifdef TRANSLATED_TEXT
-    ovFieldMain_RememberMessage(&messageBox, messageData, messageNum, fontId);
-#endif
 }
 
 static void ovFieldMain_ShowMessageInField(ScriptContext *ctx, MsgData *messageData, u32 messageNum) {
@@ -316,69 +307,3 @@ static void ovFieldMain_PrintMessageEx(MessageBox *messageBox, FontID fontId, u3
 static void ovFieldMain_AddTextPrinterParameterized(MessageBox *messageBox, FontID fontId) {
     *(messageBox->textPrinterNumPtr) = AddTextPrinterParameterized(messageBox->window, fontId, messageBox->message, 0, 0, 0, NULL);
 }
-
-#ifdef TRANSLATED_TEXT
-// The message last printed in the script's message box, so that it can be printed again
-// in the other language when the original text is asked for, or no longer.
-static struct {
-    BOOL active;
-    BOOL original; // the language it is shown in
-    u16 narcId;
-    u16 fileId;
-    u16 messageNum;
-    u8 fontId;
-    u16 firstPage; // pages of the message left out at the start of the printed string
-    u32 checksum; // of the printed string, to tell when other text has replaced it
-} sShownMessage;
-
-static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *messageData, u16 messageNum, u8 fontId) {
-    sShownMessage.active = messageData->narc_id == NARC_msgdata_msg;
-    sShownMessage.original = MsgData_ShowsOriginal();
-    sShownMessage.narcId = messageData->narc_id;
-    sShownMessage.fileId = messageData->file_id;
-    sShownMessage.messageNum = messageNum;
-    sShownMessage.fontId = fontId;
-    sShownMessage.firstPage = 0;
-    sShownMessage.checksum = Text_Checksum(messageBox->message);
-}
-
-// Called every frame while a script waits on its message box: once the original text is
-// asked for or no longer, prints the message again in the other language (the names in
-// it too), from the page the player is on.
-void ovFieldMain_UpdateMessageLanguage(ScriptContext *ctx) {
-    MessageBox messageBox;
-    MsgData *messageData;
-    int page;
-
-    if (!sShownMessage.active || MsgData_ShowsOriginal() == sShownMessage.original) {
-        return;
-    }
-    ovFieldMain_GetMsgBoxParameters(ctx->fieldSystem, &messageBox);
-    if (*messageBox.windowOpenPtr == 0 || Text_Checksum(messageBox.message) != sShownMessage.checksum) {
-        sShownMessage.active = FALSE;
-        return;
-    }
-    messageData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, (NarcId)sShownMessage.narcId, sShownMessage.fileId, HEAP_ID_FIELD3);
-    if (messageData == NULL) {
-        sShownMessage.active = FALSE;
-        return;
-    }
-
-    // -1: printed to the end, and the script has moved on (it waits for a button).
-    page = TextPrinter_GetPage(*messageBox.textPrinterNumPtr, messageBox.message);
-    sShownMessage.original = MsgData_ShowsOriginal();
-    MessageFormat_ReadNamesAgain(messageBox.messageFormat);
-    ovFieldMain_ReadAndExpandMsgDataViaBuffer(&messageBox, messageData, sShownMessage.messageNum);
-    DestroyMsgData(messageData);
-    // The other language may have fewer pages: then its last one is shown.
-    sShownMessage.firstPage = Text_DropPages(messageBox.message, page >= 0 ? sShownMessage.firstPage + page : 0xFFFF);
-    sShownMessage.checksum = Text_Checksum(messageBox.message);
-
-    FillWindowPixelBuffer(messageBox.window, 15);
-    if (page >= 0) {
-        TextPrinter_Reprint(*messageBox.textPrinterNumPtr, messageBox.message);
-    } else {
-        AddTextPrinterParameterized(messageBox.window, sShownMessage.fontId, messageBox.message, 0, 0, TEXT_SPEED_INSTANT, NULL);
-    }
-}
-#endif

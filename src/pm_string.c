@@ -5,6 +5,9 @@
 #include "font.h"
 #include "heap.h"
 #include "math_util.h"
+#ifdef TRANSLATED_TEXT
+#include "text_lang.h"
+#endif
 
 #define STRING_MAGIC (0xB6F8D2EC)
 #define STRING_INVAL (0xB6F8D2ED)
@@ -44,6 +47,9 @@ void String_Copy(String *dest, const String *src) {
     if (dest->maxsize > src->size) {
         memcpy(dest->data, src->data, (src->size + 1) * 2);
         dest->size = src->size;
+#ifdef TRANSLATED_TEXT
+        TextLang_NoteCopy(dest, src);
+#endif
         return;
     }
     GF_ASSERT(FALSE);

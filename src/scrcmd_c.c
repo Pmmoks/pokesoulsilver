@@ -613,9 +613,6 @@ BOOL ScrCmd_WaitABPress(ScriptContext *ctx) {
 }
 
 static BOOL NativeScript_WaitABPress(ScriptContext *ctx) {
-#ifdef TRANSLATED_TEXT
-    ovFieldMain_UpdateMessageLanguage(ctx);
-#endif
     return (gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0;
 }
 
@@ -628,9 +625,6 @@ BOOL ScrCmd_WaitButtonOrDelay(ScriptContext *ctx) {
 }
 
 static BOOL NativeScript_WaitButtonOrDelay(ScriptContext *ctx) {
-#ifdef TRANSLATED_TEXT
-    ovFieldMain_UpdateMessageLanguage(ctx);
-#endif
     if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
         return TRUE;
     }
@@ -646,9 +640,6 @@ BOOL ScrCmd_WaitButton(ScriptContext *ctx) {
 }
 
 static BOOL NativeScript_WaitButton(ScriptContext *ctx) {
-#ifdef TRANSLATED_TEXT
-    ovFieldMain_UpdateMessageLanguage(ctx);
-#endif
     int new_keys = gSystem.newKeys;
 
     if ((new_keys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
@@ -678,9 +669,6 @@ BOOL ScrCmd_WaitButtonOrDpad(ScriptContext *ctx) {
 }
 
 static BOOL NativeScript_WaitButtonOrDpad(ScriptContext *ctx) {
-#ifdef TRANSLATED_TEXT
-    ovFieldMain_UpdateMessageLanguage(ctx);
-#endif
     if ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) != 0) {
         return TRUE;
     }

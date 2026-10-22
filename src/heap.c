@@ -5,6 +5,9 @@
 #include "error_handling.h"
 #include "error_message_reset.h"
 #include "comm_state.h"
+#ifdef TRANSLATED_TEXT
+#include "text_lang.h"
+#endif
 
 typedef struct HeapInfo {
     NNSFndHeapHandle *heapHandles;
@@ -165,6 +168,9 @@ void Heap_Destroy(enum HeapID heapID) {
         NNSFndHeapHandle parentHeap = sHeapInfo.parentHeapHandles[index];
         void *childRaw = sHeapInfo.subHeapRawPtrs[index];
         if (parentHeap != NULL && childRaw != NULL) {
+#ifdef TRANSLATED_TEXT
+            TextLang_NoteFree(childRaw, NNS_FndGetSizeForMBlockExpHeap(childRaw));
+#endif
             NNS_FndFreeToExpHeap(parentHeap, childRaw);
         } else {
             GF_ASSERT(FALSE);
@@ -253,6 +259,9 @@ void Heap_Free(void *ptr) {
 
         sHeapInfo.numMemBlocks[heapID]--;
 
+#ifdef TRANSLATED_TEXT
+        TextLang_NoteFree(ptr, NNS_FndGetSizeForMBlockExpHeap(ptr));
+#endif
         OSIntrMode intrMode = OS_DisableInterrupts();
         NNS_FndFreeToExpHeap(heap, ptr);
         OS_RestoreInterrupts(intrMode);
@@ -274,6 +283,9 @@ void Heap_FreeExplicit(enum HeapID heapID, void *ptr) {
         ptr -= sizeof(MemoryBlock);
         GF_ASSERT(((MemoryBlock *)ptr)->heapID == heapID);
 
+#ifdef TRANSLATED_TEXT
+        TextLang_NoteFree(ptr, NNS_FndGetSizeForMBlockExpHeap(ptr));
+#endif
         NNS_FndFreeToExpHeap(heap, ptr);
         GF_ASSERT(sHeapInfo.numMemBlocks[heapID] != 0);
         sHeapInfo.numMemBlocks[heapID]--;

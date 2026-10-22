@@ -5,10 +5,15 @@ builds `build/<game>.us.fr/poke<game>.us.fr.nds`. Its message archive (`a/0/2/7`
 French text, and the English original is kept as a second archive (`a/2/6/5`). While the
 DS debug button is held, or while a frontend sets the byte `gMsgDataShowOriginal`, `src/msgdata.c`
 reads from the original instead; `src/system.c` hides that button from the rest of the game.
-The message box on the map and the one in battles are printed again in the other
-language when either changes (`ovFieldMain_UpdateMessageLanguage` in
-`src/field/scrcmd_message.c`, `BattleSystem_UpdateMessageLanguage` in
-`src/battle/battle_system.c`). Without `TRANSLATION` the build is the
+Text already on screen is printed again in the other language when either changes
+(`TextLang_Update` in `src/text.c`, called once a frame from `src/main.c`): text read
+from the archive is noted with where it came from, so is text made from it by
+`StringExpandPlaceholders` (with which names went into it) and copies of either, and
+each print of such text is noted with its window. A message being printed carries on
+from the same page, matched by the number of times the box was cleared and then
+scrolled. A frontend can turn the pages of the last message through the byte
+`gMsgDataPageTurn` (-1 back, 1 on). `src/heap.c` and the window fills in
+`src/bg_window.c` tell it when text is gone. Without `TRANSLATION` the build is the
 retail ROM as before.
 
 ## Where the text is

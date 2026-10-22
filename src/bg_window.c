@@ -3,6 +3,9 @@
 #include "global.h"
 
 #include "math_util.h"
+#ifdef TRANSLATED_TEXT
+#include "text_lang.h"
+#endif
 
 static u8 TranslateGFBgModePairToGXScreenSize(enum GFBgScreenSize size, enum GFBgType type);
 static void GetBgScreenDimensions(u32 screenSize, u8 *widthPtr, u8 *heightPtr);
@@ -1789,6 +1792,9 @@ static void ClearWindowTilemapAndScheduleTransfer_AffineMode(Window *window) {
 }
 
 void FillWindowPixelBuffer(Window *window, u8 fillValue) {
+#ifdef TRANSLATED_TEXT
+    TextLang_NoteFill(window, fillValue, 0, 0, 0, 0, TRUE);
+#endif
     if (window->bgConfig->bgs[window->bgId].tileSize == 0x20) {
         fillValue |= fillValue << 4;
     }
@@ -1796,6 +1802,9 @@ void FillWindowPixelBuffer(Window *window, u8 fillValue) {
 }
 
 void FillWindowPixelBufferText_AssumeTileSize32(Window *window, u8 fillValue) {
+#ifdef TRANSLATED_TEXT
+    TextLang_NoteFill(window, fillValue, 0, 0, 0, 0, TRUE);
+#endif
     fillValue |= fillValue << 4;
     MI_CpuFillFast(window->pixelBuffer, (fillValue << 24) | (fillValue << 16) | (fillValue << 8) | (fillValue << 0), 32 * window->width * window->height);
 }
@@ -1824,6 +1833,9 @@ void BlitBitmapRect(Window *window, void *src, u16 srcX, u16 srcY, u16 srcWidth,
 
 void FillWindowPixelRect(Window *window, u8 fillValue, u16 x, u16 y, u16 width, u16 height) {
     Bitmap bmp;
+#ifdef TRANSLATED_TEXT
+    TextLang_NoteFill(window, fillValue, x, y, width, height, FALSE);
+#endif
 
     bmp.pixels = window->pixelBuffer;
     bmp.width = window->width * 8;

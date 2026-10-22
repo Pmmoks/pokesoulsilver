@@ -146,10 +146,6 @@ BOOL BattleSystem_CheckMonCaught(BattleSystem *battleSystem, int battlerId);
 void BattleSystem_SetDefaultBlend(void);
 u8 BattleSystem_PrintTrainerMessage(BattleSystem *battleSystem, int trainerId, int battlerId, int msgType, int delay);
 u32 BattleSystem_PrintBattleMessage(BattleSystem *battleSystem, MsgData *data, BattleMessage *msg, u8 delay);
-#ifdef TRANSLATED_TEXT
-void BattleSystem_UpdateMessageLanguage(BattleSystem *battleSystem);
-void BattleSystem_ForgetShownMessage(void);
-#endif
 u32 BattleSystem_PrintMessageToWindow(BattleSystem *battleSystem, Window *window, MsgData *data, BattleMessage *msg, int x, int y, int flag, int width, int delay);
 
 #endif

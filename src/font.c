@@ -197,3 +197,9 @@ u32 FontID_GetGlyphWidth(FontID fontId, u16 glyph) {
     GF_ASSERT(sFontWork->fontDataMan[fontId] != NULL);
     return GetGlyphWidth(sFontWork->fontDataMan[fontId], glyph);
 }
+
+#ifdef TRANSLATED_TEXT
+BOOL FontID_IsLoaded(FontID fontId) {
+    return sFontWork != NULL && (u32)fontId < FONT_NUM && sFontWork->fontDataMan[fontId] != NULL;
+}
+#endif

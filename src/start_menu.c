@@ -573,7 +573,12 @@ static BOOL Task_StartMenu_HandleInput(TaskManager *taskManager) {
             FieldSystem_ResetGearRingManagerIfNotSelectingSaveOrPokegear(fieldSystem);
         } else {
             if (fieldSystem->lastTouchMenuInput == 0) {
+#ifdef TRANSLATED_TEXT
+                // Start opens the menu too in this build (field_control.c), so it closes it.
+                if (gSystem.newKeys & (PAD_BUTTON_B | PAD_BUTTON_X | PAD_BUTTON_START)) {
+#else
                 if (gSystem.newKeys & (PAD_BUTTON_B | PAD_BUTTON_X)) {
+#endif
                     PlaySE(SEQ_SE_GS_GEARCANCEL);
                     startMenu->state = START_MENU_STATE_CLOSE;
                 }

@@ -7,6 +7,9 @@
 #include "heap.h"
 #include "message_format.h"
 #include "text.h"
+#ifdef TRANSLATED_TEXT
+#include "text_lang.h"
+#endif
 
 static void CopyEncryptedMessage16(u16 *dest, const u16 *src, MAT_ENTRY *alloc);
 static void ReadMsgData_ExistingNarc_ExistingString(NARC *narc, u32 group, u32 num, enum HeapID heapID, String *dest);
@@ -22,34 +25,22 @@ BOOL MsgData_ShowsOriginal(void) {
     return gMsgDataShowOriginal != 0 || (PAD_Read() & PAD_BUTTON_DEBUG) != 0;
 }
 
-// The string last read from the message archive, so that a name put into a message can
-// be read again in the other language (MsgData_GetSource).
-static struct {
-    String *string;
-    u16 fileId;
-    u16 msgNum;
-    u32 checksum; // to tell when the string no longer holds what was read
-} sLastRead;
+// Set by a frontend to turn the pages of the last message (-1 back, 1 on; see text.c).
+s8 gMsgDataPageTurn;
 
+// Notes where a string read from the message archive came from, so that it can be read again
+// in the other language (see text.c).
 static String *MsgData_RecordRead(u32 narcId, u32 fileId, u32 msgNum, String *string) {
-    sLastRead.string = (narcId == NARC_msgdata_msg) ? string : NULL;
-    if (sLastRead.string != NULL) {
-        sLastRead.fileId = fileId;
-        sLastRead.msgNum = msgNum;
-        sLastRead.checksum = Text_Checksum(string);
+    if (narcId == NARC_msgdata_msg && string != NULL) {
+        TextLang_NoteRead(string, fileId, msgNum);
     }
     return string;
 }
 
-// Where string was read from, if it is the string last read from the message archive and
-// still holds just that.
-BOOL MsgData_GetSource(String *string, u16 *fileId, u16 *msgNum) {
-    if (string == NULL || string != sLastRead.string || Text_Checksum(string) != sLastRead.checksum) {
-        return FALSE;
-    }
-    *fileId = sLastRead.fileId;
-    *msgNum = sLastRead.msgNum;
-    return TRUE;
+// Where string was read from, if it was read from the message archive and still holds just
+// that.
+BOOL MsgData_GetSource(String *string, u16 *fileId, u16 *msgNum, u8 *lang) {
+    return TextLang_FindRead(string, fileId, msgNum, lang);
 }
 #define MSGDATA_RECORD(narcId, fileId, msgNum, string) MsgData_RecordRead(narcId, fileId, msgNum, string)
 

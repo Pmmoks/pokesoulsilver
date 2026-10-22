@@ -24,6 +24,9 @@
 #include "string_control_code.h"
 #include "text.h"
 #include "trainer_data.h"
+#ifdef TRANSLATED_TEXT
+#include "text_lang.h"
+#endif
 
 MessageFormat *MessageFormat_New(enum HeapID heapID) {
     return MessageFormat_New_Custom(8, 32, heapID);
@@ -98,7 +101,7 @@ void SetStringAsPlaceholder(MessageFormat *msgFmt, u32 fieldno, const String *st
 #ifdef TRANSLATED_TEXT
         {
             MessageFormatFields *field = &msgFmt->fields[fieldno];
-            if (!MsgData_GetSource((String *)string, &field->sourceFile, &field->sourceMsg)) {
+            if (!MsgData_GetSource((String *)string, &field->sourceFile, &field->sourceMsg, &field->sourceLang)) {
                 field->sourceFile = 0xFFFF;
             }
             field->upperFirstChar = FALSE;
@@ -677,13 +680,28 @@ void BufferDeptStoreFloorNo(MessageFormat *msgFmt, u32 fieldno, u32 floor) {
 
 void StringExpandPlaceholders(MessageFormat *msgFmt, String *dest, String *src) {
     const u16 *cstr = String_cstr(src);
+#ifdef TRANSLATED_TEXT
+    BOOL noteFields = TextLang_BeginExpand(src);
+#endif
     String_SetEmpty(dest);
     while (*cstr != EOS) {
         if (*cstr == EXT_CTRL_CODE_BEGIN) {
             if (MsgArray_ControlCodeIsStrVar(cstr)) {
                 u32 idx = MsgArray_ControlCodeGetField(cstr, 0);
                 GF_ASSERT(idx < msgFmt->count);
+#ifdef TRANSLATED_TEXT
+                u16 fieldStart = dest->size;
+#endif
                 String_Cat_HandleTrainerName(dest, msgFmt->fields[idx].msg);
+#ifdef TRANSLATED_TEXT
+                if (noteFields) {
+                    // A name read from the message archive is read again in the other
+                    // language; anything else is kept as it is.
+                    MessageFormatFields *field = &msgFmt->fields[idx];
+                    BOOL sourced = field->sourceFile != 0xFFFF && Text_Checksum(field->msg) == field->checksum;
+                    TextLang_ExpandField(idx, sourced ? field->sourceFile : 0xFFFF, field->sourceMsg, field->sourceLang, field->upperFirstChar, &dest->data[fieldStart], dest->size - fieldStart);
+                }
+#endif
                 cstr = MsgArray_SkipControlCode(cstr);
             } else {
                 const u16 *before = cstr;
@@ -696,6 +714,11 @@ void StringExpandPlaceholders(MessageFormat *msgFmt, String *dest, String *src) 
             String_AddChar(dest, *cstr++);
         }
     }
+#ifdef TRANSLATED_TEXT
+    if (noteFields) {
+        TextLang_EndExpand(dest);
+    }
+#endif
 }
 
 void MessageFormat_ResetBuffers(MessageFormat *msgFmt) {
@@ -703,33 +726,3 @@ void MessageFormat_ResetBuffers(MessageFormat *msgFmt) {
         String_SetEmpty(msgFmt->fields[i].msg);
     }
 }
-
-#ifdef TRANSLATED_TEXT
-// Reads the names put into the placeholders again, in the language now shown: those read
-// from the message archive and not changed since (other than the first letter in capitals).
-void MessageFormat_ReadNamesAgain(MessageFormat *msgFmt) {
-    for (int i = 0; i < msgFmt->count; i++) {
-        MessageFormatFields *field = &msgFmt->fields[i];
-        if (field->sourceFile == 0xFFFF || Text_Checksum(field->msg) != field->checksum) {
-            continue;
-        }
-        MsgData *msgData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, NARC_msgdata_msg, field->sourceFile, msgFmt->heapID);
-        if (msgData == NULL) {
-            continue;
-        }
-        String *name = NewString_ReadMsgData(msgData, field->sourceMsg);
-        DestroyMsgData(msgData);
-        if (name == NULL) {
-            continue;
-        }
-        if (name->size < field->msg->maxsize) { // the other name may not fit
-            String_Copy(field->msg, name);
-        }
-        String_Delete(name);
-        if (field->upperFirstChar) {
-            String_UpperCharN(field->msg, 0);
-        }
-        field->checksum = Text_Checksum(field->msg);
-    }
-}
-#endif

@@ -22,5 +22,8 @@ void LoadFontPal1(enum GFPalLoadLocation location, enum GFPalSlotOffset palSlotO
 u32 FontID_String_GetWidthMultiline(u32 fontId, String *string, u32 letterSpacing);
 u32 FontID_String_GetCenterAlignmentX(FontID fontId, String *string, u32 letterSpacing, u32 windowWidth);
 u32 FontID_GetGlyphWidth(FontID fontId, u16 glyph);
+#ifdef TRANSLATED_TEXT
+BOOL FontID_IsLoaded(FontID fontId);
+#endif
 
 #endif // POKEHEARTGOLD_FONT_H

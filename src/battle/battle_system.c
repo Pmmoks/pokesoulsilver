@@ -44,9 +44,6 @@ static void BattleMessage_BufferTrainerName(BattleSystem *battleSystem, int buff
 static void BattleMessage_BufferBoxName(BattleSystem *battleSystem, int bufferIndex, int param);
 static void BattleMessage_ExpandPlaceholders(BattleSystem *battleSystem, MsgData *data, BattleMessage *msg);
 static BOOL BattleSystem_TextPrinterCallback(struct TextPrinterTemplate *template, u16 glyphId);
-#ifdef TRANSLATED_TEXT
-static void BattleSystem_RememberMessage(BattleSystem *battleSystem, MsgData *data, BattleMessage *msg, u32 printerId);
-#endif
 
 BgConfig *BattleSystem_GetBgConfig(BattleSystem *battleSystem) {
     return battleSystem->bgConfig;
@@ -1427,13 +1424,7 @@ u32 BattleSystem_PrintBattleMessage(BattleSystem *battleSystem, MsgData *data, B
     BattleSystem_BufferMessage(battleSystem, msg);
     BattleMessage_ExpandPlaceholders(battleSystem, data, msg);
     FillWindowPixelBuffer(window, 0xFF);
-#ifdef TRANSLATED_TEXT
-    u32 printerId = AddTextPrinterParameterized(window, 1, battleSystem->msgBuffer, 0, 0, delay, BattleSystem_TextPrinterCallback);
-    BattleSystem_RememberMessage(battleSystem, data, msg, printerId);
-    return printerId;
-#else
     return AddTextPrinterParameterized(window, 1, battleSystem->msgBuffer, 0, 0, delay, BattleSystem_TextPrinterCallback);
-#endif
 }
 
 u32 BattleSystem_PrintMessageToWindow(BattleSystem *battleSystem, Window *window, MsgData *data, BattleMessage *msg, int x, int y, int flag, int width, int delay) {
@@ -1966,72 +1957,3 @@ static BOOL BattleSystem_TextPrinterCallback(struct TextPrinterTemplate *templat
 
     return ret;
 }
-
-#ifdef TRANSLATED_TEXT
-// The message last printed in the battle's message box, so that it can be printed again
-// in the other language when the original text is asked for, or no longer.
-static struct {
-    BOOL active;
-    BOOL original; // the language it is shown in
-    u16 narcId;
-    u16 fileId;
-    u8 printerId;
-    u16 firstPage; // pages of the message left out at the start of the printed string
-    u32 checksum; // of the printed string, to tell when other text has replaced it
-    BattleMessage msg;
-} sShownBattleMessage;
-
-static void BattleSystem_RememberMessage(BattleSystem *battleSystem, MsgData *data, BattleMessage *msg, u32 printerId) {
-    sShownBattleMessage.active = data->narc_id == NARC_msgdata_msg;
-    sShownBattleMessage.original = MsgData_ShowsOriginal();
-    sShownBattleMessage.narcId = data->narc_id;
-    sShownBattleMessage.fileId = data->file_id;
-    sShownBattleMessage.printerId = printerId;
-    sShownBattleMessage.firstPage = 0;
-    sShownBattleMessage.checksum = Text_Checksum(battleSystem->msgBuffer);
-    sShownBattleMessage.msg = *msg;
-}
-
-// The message box was cleared, or is about to be.
-void BattleSystem_ForgetShownMessage(void) {
-    sShownBattleMessage.active = FALSE;
-}
-
-// Called every frame of a battle: once the original text is asked for or no longer, prints
-// the message again in the other language (the names in it too), from the page shown.
-void BattleSystem_UpdateMessageLanguage(BattleSystem *battleSystem) {
-    Window *window = BattleSystem_GetWindow(battleSystem, 0);
-    MsgData *data;
-    int page;
-
-    if (!sShownBattleMessage.active || MsgData_ShowsOriginal() == sShownBattleMessage.original) {
-        return;
-    }
-    if (Text_Checksum(battleSystem->msgBuffer) != sShownBattleMessage.checksum) {
-        sShownBattleMessage.active = FALSE;
-        return;
-    }
-    data = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, (NarcId)sShownBattleMessage.narcId, sShownBattleMessage.fileId, HEAP_ID_BATTLE);
-    if (data == NULL) {
-        sShownBattleMessage.active = FALSE;
-        return;
-    }
-
-    // -1: printed to the end.
-    page = TextPrinter_GetPage(sShownBattleMessage.printerId, battleSystem->msgBuffer);
-    sShownBattleMessage.original = MsgData_ShowsOriginal();
-    BattleSystem_BufferMessage(battleSystem, &sShownBattleMessage.msg);
-    BattleMessage_ExpandPlaceholders(battleSystem, data, &sShownBattleMessage.msg);
-    DestroyMsgData(data);
-    // The other language may have fewer pages: then its last one is shown.
-    sShownBattleMessage.firstPage = Text_DropPages(battleSystem->msgBuffer, page >= 0 ? sShownBattleMessage.firstPage + page : 0xFFFF);
-    sShownBattleMessage.checksum = Text_Checksum(battleSystem->msgBuffer);
-
-    FillWindowPixelBuffer(window, 0xFF);
-    if (page >= 0) {
-        TextPrinter_Reprint(sShownBattleMessage.printerId, battleSystem->msgBuffer);
-    } else {
-        AddTextPrinterParameterized(window, 1, battleSystem->msgBuffer, 0, 0, TEXT_SPEED_INSTANT, NULL);
-    }
-}
-#endif

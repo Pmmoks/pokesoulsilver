@@ -50,8 +50,9 @@ void ReadMsgDataIntoU16Array(MsgData *msgData, u32 msgno, u16 *dest);
 String *GetMoveName(u32 move, enum HeapID heapno);
 #ifdef TRANSLATED_TEXT
 extern u8 gMsgDataShowOriginal;
+extern s8 gMsgDataPageTurn;
 BOOL MsgData_ShowsOriginal(void);
-BOOL MsgData_GetSource(String *string, u16 *fileId, u16 *msgNum);
+BOOL MsgData_GetSource(String *string, u16 *fileId, u16 *msgNum, u8 *lang);
 #endif
 
 #endif // POKEHEARTGOLD_MSGDATA_H

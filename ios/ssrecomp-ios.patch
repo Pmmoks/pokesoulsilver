@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..7558a9b 100644
+index 060f4fc..01abc96 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -214,19 +214,80 @@ index 060f4fc..7558a9b 100644
  #include <unistd.h>
  #endif
  #ifndef SSR_NO_PNG
-@@ -1031,6 +1039,72 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+@@ -383,6 +391,7 @@ struct Options
+     bool fullscreen = false;
+     bool swapped = false;
+     bool logSections = false;
++    bool logView = false;                // the scene and the widescreen picture as they change
+     bool noWide = false;                 // turn the widescreen 3D renderer off
+     bool benchCompose = false;           // headless: compose the merged picture every frame, to time it
+     bool autoFocus = true;
+@@ -899,7 +908,7 @@ static PadState ReadPad(Pads& pads)
+ 
+ // DS buttons from the controller. With byLabel the button printed "A" is A on any pad;
+ // otherwise the DS diamond is mapped by position (right = A, bottom = B).
+-static uint32_t PadKeys(const PadState& p, bool byLabel)
++static uint32_t PadKeys(const PadState& p, bool byLabel, bool stickClicks)
+ {
+     uint32_t k = 0;
+     if (p.btn[byLabel ? PAD_A : PAD_B]) k |= 1 << KEY_A;
+@@ -909,7 +918,9 @@ static uint32_t PadKeys(const PadState& p, bool byLabel)
+     if (p.btn[PAD_LB]) k |= 1 << KEY_L;
+     if (p.btn[PAD_RB]) k |= 1 << KEY_R;
+     if (p.btn[PAD_START]) k |= 1 << KEY_START;
+-    if (p.btn[PAD_BACK]) k |= 1 << KEY_SELECT;
++    // Back opens the pause menu (see where it is read); Select is the left stick's click,
++    // unless the stick clicks switch screens for the touch cursor.
++    if (p.btn[PAD_LS] && !stickClicks) k |= 1 << KEY_SELECT;
+     if (p.btn[PAD_UP] || p.ly < -0.5f) k |= 1 << KEY_UP;
+     if (p.btn[PAD_DOWN] || p.ly > 0.5f) k |= 1 << KEY_DOWN;
+     if (p.btn[PAD_LEFT] || p.lx < -0.5f) k |= 1 << KEY_LEFT;
+@@ -932,6 +943,10 @@ struct Settings
+     // switch screens. Off unless asked for: brushing the stick put the bottom screen up.
+     bool padTouch = false;
+     bool showFps = false; // frames shown per second, in a corner
++    // How the DS's sound samples are played between their own points: 0 as the DS does
++    // (each held until the next, which adds a thin high whine above the music), 1 smooth
++    // (cubic), 2 soft (Gaussian, as the SNES did).
++    int soundSmoothing = 1;
+ 
+     void Load(const std::string& path)
+     {
+@@ -953,6 +968,7 @@ struct Settings
+             else if (k == "fps60") fps60 = v == "1";
+             else if (k == "pad_touch") padTouch = v == "1";
+             else if (k == "show_fps") showFps = v == "1";
++            else if (k == "sound_smoothing") soundSmoothing = std::clamp(atoi(v.c_str()), 0, 2);
+         }
+     }
+ 
+@@ -969,6 +985,7 @@ struct Settings
+         f << "fps60=" << (fps60 ? 1 : 0) << "\n";
+         f << "pad_touch=" << (padTouch ? 1 : 0) << "\n";
+         f << "show_fps=" << (showFps ? 1 : 0) << "\n";
++        f << "sound_smoothing=" << soundSmoothing << "\n";
+     }
+ };
+ 
+@@ -1031,6 +1048,78 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
      return true;
  }
  
 +// A translated build of the game shows its original text while its switch (a byte in main
 +// RAM, found by name when the game was recompiled) is set, or while the DS debug button
 +// (bit 3 of KEYXY, which no retail console has) is held. The frontend does both while the
-+// original is asked for.
-+static void SetOriginalText(NDS& nds, bool shown)
++// original is asked for. pageTurn (-1 or 1) asks it to show the page before or after the one
++// of the message on screen; it adds up in another byte until the game has read it.
++static void SetOriginalText(NDS& nds, bool shown, int pageTurn)
 +{
 +    if (shown) nds.KeyInput &= ~(1u << 19);
 +    else nds.KeyInput |= 1u << 19;
 +    if (rc_original_text_flag) nds.MainRAM[rc_original_text_flag & nds.MainRAMMask] = shown ? 1 : 0;
++    if (rc_text_page_turn && pageTurn)
++    {
++        u8& turns = nds.MainRAM[rc_text_page_turn & nds.MainRAMMask];
++        turns = (u8)(int8_t)std::clamp((int8_t)turns + pageTurn, -16, 16);
++    }
 +}
 +
 +// Plays one frame of the core's 48 kHz stereo output. The clock of the audio device and the
@@ -287,7 +348,7 @@ index 060f4fc..7558a9b 100644
  int main(int argc, char** argv)
  {
      Options opt;
-@@ -1058,6 +1132,27 @@ int main(int argc, char** argv)
+@@ -1058,6 +1147,27 @@ int main(int argc, char** argv)
          argc = (int)androidArgv.size();
          argv = androidArgv.data();
      }
@@ -315,7 +376,26 @@ index 060f4fc..7558a9b 100644
  #endif
      if (!ParseArgs(argc, argv, opt))
      {
-@@ -1165,13 +1260,19 @@ int main(int argc, char** argv)
+@@ -1138,6 +1248,18 @@ int main(int argc, char** argv)
+     if (opt.headless) cfg.fps60 = false; // tests compare images with the plain renderer unless asked
+     if (opt.interp60 >= 0) cfg.fps60 = opt.interp60 == 1;
+     nds->GPU.GPU3D.InterpolationEnabled = cfg.fps60 && !opt.lockstep;
++    auto applySoundSmoothing = [&]() {
++        static const AudioInterpolation kinds[] = { AudioInterpolation::None, AudioInterpolation::Cubic, AudioInterpolation::SNESGaussian };
++        nds->SPU.SetInterpolation(kinds[cfg.soundSmoothing]);
++        if (ref) ref->SPU.SetInterpolation(kinds[cfg.soundSmoothing]);
++    };
++    applySoundSmoothing();
++#ifdef SSR_IOS
++    // For reports about the picture: the view the settings ask for.
++    fprintf(stderr, "[view] settings: layout %s, widescreen world %d, world detail %d, smooth %d\n", cfg.layout.c_str(),
++        cfg.wide ? 1 : 0, cfg.wideLines, cfg.smooth ? 1 : 0);
++    opt.logView = true;
++#endif
+     // The DS-resolution 3D picture is drawn on its own thread, alongside the CPU emulation.
+     if (!getenv("SSR_NO_RENDER_THREAD"))
+         static_cast<melonDS::SoftRenderer&>(nds->GPU.GetRenderer3D()).SetThreaded(true, nds->GPU);
+@@ -1165,13 +1287,19 @@ int main(int argc, char** argv)
  
      if (!opt.headless)
      {
@@ -337,7 +417,7 @@ index 060f4fc..7558a9b 100644
          // Controllers come through Android's own input, which knows every gamepad. With SDL's
          // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
          // left out of Android's list, and is lost if SDL cannot open it over USB itself.
-@@ -1258,19 +1359,22 @@ int main(int argc, char** argv)
+@@ -1258,19 +1386,22 @@ int main(int argc, char** argv)
      }
  
      // Functions whose activity selects the merged scene.
@@ -366,30 +446,43 @@ index 060f4fc..7558a9b 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -2219,9 +2323,13 @@ int main(int argc, char** argv)
+@@ -2219,9 +2350,15 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
 -        M_RESUME, M_LAYOUT, M_LARGE, M_FPS60, M_FULLSCREEN, M_SMOOTH, M_WIDE, M_WIDELINES, M_SHOWFPS, M_BUTTONS, M_PADTOUCH, M_FAST, M_SAVESTATE, M_LOADSTATE, M_RESET, M_QUIT
-+        M_RESUME, M_TEXT, M_LAYOUT, M_LARGE, M_FPS60, M_FULLSCREEN, M_SMOOTH, M_WIDE, M_WIDELINES, M_SHOWFPS, M_BUTTONS, M_PADTOUCH, M_FAST, M_SAVESTATE, M_LOADSTATE, M_RESET, M_QUIT
++        M_RESUME, M_TEXT, M_LAYOUT, M_LARGE, M_FPS60, M_FULLSCREEN, M_SMOOTH, M_WIDE, M_WIDELINES, M_SOUND, M_SHOWFPS, M_BUTTONS, M_PADTOUCH, M_FAST, M_SAVESTATE, M_LOADSTATE, M_RESET, M_QUIT
      };
      bool fastLock = false;
 +    // The original (English) text instead of the translation: while R2 is held, or kept on
 +    // with F3 or the pause menu.
 +    bool originalText = false;
 +    bool holdOriginal = false;
++    // While R2 is held the D-pad turns the pages of the message on screen (see below).
++    bool pageBackHeld = false, pageOnHeld = false;
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2234,6 +2342,7 @@ int main(int argc, char** argv)
+@@ -2232,8 +2369,10 @@ int main(int argc, char** argv)
+     };
+     auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
++        static const char* sound[] = { "OFF", "SMOOTH", "SOFT" };
          menu.items = {
              { "RESUME", "" },
 +            { "TEXT (HOLD R2)", originalText ? "ENGLISH" : "FRANCAIS" },
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2274,7 +2383,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2380,7 @@ int main(int argc, char** argv)
+             { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
+             { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
+             { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
++            { "SOUND SMOOTHING", sound[cfg.soundSmoothing] },
+             { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
+             { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
+             { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
+@@ -2274,7 +2414,7 @@ int main(int argc, char** argv)
      // On-screen controls (touch screens): shown while no controller is connected.
      TouchPad touchPad;
      bool touchPadUsed = false, touchMenuHeld = false, prevTouchMenu = false;
@@ -398,7 +491,15 @@ index 060f4fc..7558a9b 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2324,6 +2433,7 @@ int main(int argc, char** argv)
+@@ -2283,7 +2423,6 @@ int main(int argc, char** argv)
+     uint32_t cursorShownUntil = 0;
+     PadState prevPad;
+     MenuInput heldNav;          // navigation directions held last tick, for edge detection
+-    bool prevComboMenu = false;
+     bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
+     const double frameTime = 1.0 / 59.8261;
+     uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
+@@ -2324,6 +2463,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -406,7 +507,7 @@ index 060f4fc..7558a9b 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2453,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2483,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -437,7 +538,7 @@ index 060f4fc..7558a9b 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2514,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2544,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -445,7 +546,23 @@ index 060f4fc..7558a9b 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2648,6 +2783,9 @@ int main(int argc, char** argv)
+@@ -2605,11 +2770,11 @@ int main(int argc, char** argv)
+             if (ev.rt != 0) ps.rt = ev.rt;
+         }
+ 
+-        // Controller: the pause menu opens with Guide, or with Start and Select together.
++        // Controller: the pause menu opens with Guide or with the left of the two small
++        // buttons in the middle (Back, View, Options or Create, by maker); Select is on the
++        // left stick's click instead (see PadKeys). Phones keep Guide for the system.
+         auto pressed = [&](int b) { return ps.btn[b] && !prevPad.btn[b]; };
+-        bool comboMenu = ps.btn[PAD_START] && ps.btn[PAD_BACK];
+-        if (pressed(PAD_GUIDE) || (comboMenu && !prevComboMenu)) toggleMenu = true;
+-        prevComboMenu = comboMenu;
++        if (pressed(PAD_GUIDE) || pressed(PAD_BACK)) toggleMenu = true;
+ 
+         MenuInput heldNow;
+         heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
+@@ -2648,6 +2813,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -455,12 +572,46 @@ index 060f4fc..7558a9b 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2741,7 +2879,15 @@ int main(int argc, char** argv)
+@@ -2678,6 +2846,10 @@ int main(int argc, char** argv)
+             case M_WIDE:
+                 cfg.wide = !cfg.wide;
+                 break;
++            case M_SOUND:
++                cfg.soundSmoothing = (cfg.soundSmoothing + (dir < 0 ? 2 : 1)) % 3;
++                applySoundSmoothing();
++                break;
+             case M_WIDELINES:
+                 cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
+                 break;
+@@ -2730,7 +2902,7 @@ int main(int argc, char** argv)
+         int speed = 1;
+         if (!paused && !swallowMenuButtons)
+         {
+-            keys |= PadKeys(ps, cfg.byLabel);
++            keys |= PadKeys(ps, cfg.byLabel, cfg.padTouch);
+             if (cfg.padTouch)
+             {
+                 if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
+@@ -2741,12 +2913,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
 +        // R2 shows the original text while it is held, unless it presses the stick touch cursor.
 +        holdOriginal = !paused && !swallowMenuButtons && !cfg.padTouch && ps.rt > 0.5f;
++        // Meanwhile the D-pad goes to the pages instead of the game: left or up for the page
++        // before, right or down for the page after.
++        int pageTurn = 0;
++        {
++            const bool back = heldNow.left || heldNow.up, on = heldNow.right || heldNow.down;
++            if (holdOriginal)
++            {
++                if (back && !pageBackHeld) pageTurn = -1;
++                else if (on && !pageOnHeld) pageTurn = 1;
++                keys &= ~((1u << KEY_UP) | (1u << KEY_DOWN) | (1u << KEY_LEFT) | (1u << KEY_RIGHT));
++            }
++            pageBackHeld = back;
++            pageOnHeld = on;
++        }
          prevPad = ps;
 +        if (toggleText)
 +        {
@@ -471,23 +622,61 @@ index 060f4fc..7558a9b 100644
  
          SDL_Rect rects[2];
          LayoutRects(layout, outW, outH, rects);
-@@ -2932,6 +3078,7 @@ int main(int argc, char** argv)
+         const bool merged = layout.mode == LayoutMode::Merged;
+         const MergedView view = MergedMakeView(outW, outH);
++        if (opt.logView)
++        {
++            // The widescreen picture needs a view at least 300 DS pixels wide.
++            static int lastW = 0, lastH = 0;
++            if (outW != lastW || outH != lastH)
++                fprintf(stderr, "[view] frame %u: output %dx%d, %.0f DS pixels wide\n", frame, outW, outH, view.width);
++            lastW = outW;
++            lastH = outH;
++        }
+         // Widescreen 3D: on while the overworld is running in the merged view on a wide
+         // output. It is drawn at the size of the picture, up to 1440 lines.
+         static int wideFrames = 0;
+@@ -2817,7 +3020,7 @@ int main(int argc, char** argv)
+                 wideImage.fadeMode = mode;
+                 wideImage.fade = f;
+             }
+-            if (opt.logSections)
++            if (opt.logSections || opt.logView)
+             {
+                 // Where the widescreen picture comes and goes, and why.
+                 static int last = -1;
+@@ -2932,6 +3135,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
-+            SetOriginalText(*ref, originalText || holdOriginal);
++            SetOriginalText(*ref, originalText || holdOriginal, pageTurn);
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3091,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3148,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
-+            SetOriginalText(*nds, originalText || holdOriginal);
++            SetOriginalText(*nds, originalText || holdOriginal, pageTurn);
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -3130,12 +3278,7 @@ int main(int argc, char** argv)
+@@ -3117,25 +3322,20 @@ int main(int argc, char** argv)
+                 }
+             }
+         }
+-        if (opt.logSections)
++        if (opt.logSections || opt.logView)
+         {
+             static std::string lastScene;
+             if (lastScene != scene.name)
+             {
+                 lastScene = scene.name;
+-                fprintf(stderr, "[scene] frame %u: %s\n", frame, lastScene.c_str());
++                fprintf(stderr, "[scene] frame %u: %s (layout %s)\n", frame, lastScene.c_str(), LayoutName(layout.mode));
+                 g_sceneShots.insert(frame);
+                 g_sceneShots.insert(frame + 2);
+                 g_sceneShots.insert(frame + 20);
              }
          }
  
@@ -502,21 +691,22 @@ index 060f4fc..7558a9b 100644
          {
              for (int i = 0; i < got * 2; i++)
 diff --git a/runtime/recomp_api.h b/runtime/recomp_api.h
-index 598d361..50cd3ac 100644
+index 598d361..1663804 100644
 --- a/runtime/recomp_api.h
 +++ b/runtime/recomp_api.h
-@@ -25,6 +25,9 @@ bool rc_ran_recently(const char* section, unsigned addr, unsigned frames);
+@@ -25,6 +25,10 @@ bool rc_ran_recently(const char* section, unsigned addr, unsigned frames);
  extern const RcApp rc_focus_syms[];
  extern const unsigned rc_num_focus_syms;
  
 +// Main RAM address of a translated build's switch that shows its original text (0: none).
 +extern const unsigned rc_original_text_flag;
++extern const unsigned rc_text_page_turn;
 +
  // Probes record the last frame in which a function was entered by recompiled code.
  // The address must be the function's first instruction.
  int rc_add_probe(const char* section, unsigned addr);
 diff --git a/tests/native_smoke.py b/tests/native_smoke.py
-index f4f06b7..cfab2bd 100644
+index f4f06b7..494c060 100644
 --- a/tests/native_smoke.py
 +++ b/tests/native_smoke.py
 @@ -36,7 +36,8 @@ def fixture(dest):
@@ -525,12 +715,12 @@ index f4f06b7..cfab2bd 100644
          'const RcApp rc_apps[] = {{nullptr, nullptr, 0}};\nconst unsigned rc_num_apps = 0;\n'
 -        'const RcApp rc_focus_syms[] = {{nullptr, nullptr, 0}};\nconst unsigned rc_num_focus_syms = 0;\n')
 +        'const RcApp rc_focus_syms[] = {{nullptr, nullptr, 0}};\nconst unsigned rc_num_focus_syms = 0;\n'
-+        'const unsigned rc_original_text_flag = 0;\n')
++        'const unsigned rc_original_text_flag = 0;\nconst unsigned rc_text_page_turn = 0;\n')
      # Link against C++ declarations, verify every byte and 16-byte alignment of both images.
      checks = ['#include <cstdint>', 'extern "C" {']
      checks += [f'extern const unsigned char rc_image_{i}[];' for i in range(2)]
 diff --git a/tools/apps.py b/tools/apps.py
-index 919b0c2..5d3523d 100644
+index 919b0c2..b6cc3af 100644
 --- a/tools/apps.py
 +++ b/tools/apps.py
 @@ -35,7 +35,7 @@ class WriteIfChanged(io.StringIO):
@@ -538,20 +728,22 @@ index 919b0c2..5d3523d 100644
  
  
 -def write_table(out_dir, rows, found):
-+def write_table(out_dir, rows, found, original_text_flag=0):
++def write_table(out_dir, rows, found, original_text_flag=0, page_turn=0):
      with WriteIfChanged(os.path.join(out_dir, 'apps_table.cpp')) as f:
          f.write('// Generated by tools/apps.py. Do not edit.\n#include "recomp_api.h"\n\n')
          f.write('const RcApp rc_apps[] = {\n')
-@@ -51,6 +51,8 @@ def write_table(out_dir, rows, found):
+@@ -51,6 +51,10 @@ def write_table(out_dir, rows, found):
              f.write(f'    {{"{name}", "{sec}", 0x{addr:08X}u}},\n')
          f.write('    {nullptr, nullptr, 0},\n};\n')
          f.write(f'const unsigned rc_num_focus_syms = {len(found)};\n')
 +        # The switch of a translated build that shows its original text (0: none).
 +        f.write(f'const unsigned rc_original_text_flag = 0x{original_text_flag:08X}u;\n')
++        # Where it takes the requests to turn the page of the message on screen (0: none).
++        f.write(f'const unsigned rc_text_page_turn = 0x{page_turn:08X}u;\n')
  
  
  if sys.argv[1] == '--layout':
-@@ -68,7 +70,8 @@ if sys.argv[1] == '--layout':
+@@ -68,7 +72,8 @@ if sys.argv[1] == '--layout':
  from elftools.elf.elffile import ELFFile
  
  build_dir, out_dir = sys.argv[1], sys.argv[2]
@@ -561,26 +753,31 @@ index 919b0c2..5d3523d 100644
  
  NAME = re.compile(r'^(?:g|s)(?:OverlayTemplate|Application|App)_(\w+?)(?:\$\d+)?$')
  SKIP = {'main_defs', 'main_table', 'DTCM', 'ITCM'}
-@@ -76,6 +79,9 @@ SKIP = {'main_defs', 'main_table', 'DTCM', 'ITCM'}
+@@ -76,6 +81,12 @@ SKIP = {'main_defs', 'main_table', 'DTCM', 'ITCM'}
  with open(os.path.join(build_dir, nef), 'rb') as f:
      elf = ELFFile(f)
      secs = [(s.name, s['sh_addr']) for s in elf.iter_sections()]
 +    # A translated build's switch to its original text (src/msgdata.c in the game).
-+    flag = elf.get_section_by_name('.symtab').get_symbol_by_name('gMsgDataShowOriginal')
++    symtab = elf.get_section_by_name('.symtab')
++    flag = symtab.get_symbol_by_name('gMsgDataShowOriginal')
 +    original_text_flag = flag[0]['st_value'] if flag else 0
++    turn = symtab.get_symbol_by_name('gMsgDataPageTurn')
++    page_turn = turn[0]['st_value'] if turn else 0
  # Overlay ids follow the order in which overlay sections first appear.
  overlays = []
  bases = {}
-@@ -171,6 +177,8 @@ for name in wanted:
+@@ -171,6 +182,10 @@ for name in wanted:
          print('warning: focus symbol not found:', name, file=sys.stderr)
      for sec, addr, size, _ in hits:
          found.append((name, sec, addr))
 -write_table(out_dir, rows, found)
-+write_table(out_dir, rows, found, original_text_flag)
++write_table(out_dir, rows, found, original_text_flag, page_turn)
  print(len(rows), 'applications')
  print(len(functions), 'functions in symbols.txt')
 +if original_text_flag:
 +    print(f'original text switch at 0x{original_text_flag:08X}')
++if page_turn:
++    print(f'page turns at 0x{page_turn:08X}')
 diff --git a/tools/focus_symbols.txt b/tools/focus_symbols.txt
 index 35081f2..ec8e05e 100644
 --- a/tools/focus_symbols.txt
