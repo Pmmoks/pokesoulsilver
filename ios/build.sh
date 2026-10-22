@@ -12,8 +12,8 @@ usage: ios/build.sh [options]
   --install        install on the iPhone connected by cable (needs --team)
   --bundle-id ID   bundle identifier (default: io.github.<your user name>.soulsilverfr)
   --name NAME      name under the app icon (default: SoulSilver FR)
-  --icon IMAGE     app icon from this picture (PNG or JPEG, cropped to a square); later builds
-                   keep using it
+  --icon IMAGE     app icon from this picture (PNG or JPEG, cropped to a square)
+                   (default: ios/icon.png)
   --jobs N         parallel compile jobs (default: one per 2 GB of RAM, at most one per core)
   --skip-rom       use the French ROM already built in build/soulsilver.us.fr
   --open           open the Xcode project afterwards instead of building it there
@@ -58,6 +58,9 @@ if ! xcrun --sdk iphoneos --show-sdk-path >/dev/null 2>&1; then
     echo "The iOS SDK is missing: install Xcode from the App Store, open it once, then run" >&2
     echo "  sudo xcode-select -s /Applications/Xcode.app/Contents/Developer" >&2
     exit 1
+fi
+if [[ -z "$icon_src" && -f "$repo_root/ios/icon.png" ]]; then
+    icon_src="$repo_root/ios/icon.png"
 fi
 if [[ -n "$icon_src" && ! -f "$icon_src" ]]; then
     echo "No such picture: $icon_src" >&2

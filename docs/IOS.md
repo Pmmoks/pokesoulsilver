@@ -40,9 +40,9 @@ The script:
 4. generates an Xcode project and compiles the app: 20–40 minutes the first time;
 5. writes `build/ios/SoulSilver-FR.app` and `build/ios/SoulSilver-FR.ipa`.
 
-Use `--skip-rom` to reuse a ROM you built already. `--icon picture.jpg` gives the
-app an icon from any PNG or JPEG (cropped to a square in the middle); later builds
-keep it. Without it the app has the system's blank icon. `--open` stops after step 4
+Use `--skip-rom` to reuse a ROM you built already. The app icon is `ios/icon.png`;
+`--icon picture.jpg` uses any other PNG or JPEG instead (cropped to a square in
+the middle). `--open` stops after step 4
 and opens the project in Xcode instead, if you prefer to sign and run from there
 (choose the `ssrecomp` target, your team under *Signing & Capabilities*, your
 iPhone, then *Run*).
