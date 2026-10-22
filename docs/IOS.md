@@ -40,7 +40,9 @@ The script:
 4. generates an Xcode project and compiles the app: 20–40 minutes the first time;
 5. writes `build/ios/SoulSilver-FR.app` and `build/ios/SoulSilver-FR.ipa`.
 
-Use `--skip-rom` to reuse a ROM you built already. `--open` stops after step 4
+Use `--skip-rom` to reuse a ROM you built already. `--icon picture.jpg` gives the
+app an icon from any PNG or JPEG (cropped to a square in the middle); later builds
+keep it. Without it the app has the system's blank icon. `--open` stops after step 4
 and opens the project in Xcode instead, if you prefer to sign and run from there
 (choose the `ssrecomp` target, your team under *Signing & Capabilities*, your
 iPhone, then *Run*).
@@ -55,6 +57,10 @@ iPhone, then *Run*).
 4. On the iPhone, turn on *Settings › Privacy & Security › Developer Mode* (iOS 16
    and later; the phone restarts), then trust your Apple ID in *Settings › General
    › VPN & Device Management*.
+
+If Xcode stops with "PLA Update available", Apple has a new Program License
+Agreement for your account: accept it on developer.apple.com (Account), then run
+the command again.
 
 Apps signed by a free account stop opening after seven days. Run the same
 command again to renew it: the save is kept. The bundle identifier defaults to

@@ -1,5 +1,5 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 5a801b0..bd93ca8 100644
+index 5a801b0..8d9f0bd 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -1,6 +1,8 @@
@@ -42,7 +42,7 @@ index 5a801b0..bd93ca8 100644
  
  set(SSRECOMP_SOURCES
      frontend/main.cpp
-@@ -70,6 +85,34 @@ if(ANDROID)
+@@ -70,6 +85,49 @@ if(ANDROID)
      endif()
      target_compile_definitions(ssrecomp PRIVATE SSR_NO_PNG SSR_VERSION="${SSR_VERSION}")
      target_link_libraries(ssrecomp PRIVATE core SDL2::SDL2 android log)
@@ -55,12 +55,24 @@ index 5a801b0..bd93ca8 100644
 +    set(SSR_IOS_BUNDLE_ID "io.github.ssrecomp.soulsilver" CACHE STRING "iOS bundle identifier")
 +    set(SSR_IOS_TEAM "" CACHE STRING "Apple development team ID that signs the app")
 +    set(SSR_IOS_NAME "SoulSilver" CACHE STRING "Name under the app icon")
++    set(SSR_IOS_ICON "" CACHE FILEPATH "1024x1024 PNG for the app icon (none: the system's blank icon)")
 +    configure_file("${SSR_IOS_ROM}" "${CMAKE_CURRENT_BINARY_DIR}/rom.nds" COPYONLY)
 +    set(SSR_IOS_ROM_COPY "${CMAKE_CURRENT_BINARY_DIR}/rom.nds")
-+    add_executable(ssrecomp MACOSX_BUNDLE ${SSRECOMP_SOURCES} "${SSR_IOS_ROM_COPY}")
++    set(SSR_IOS_RESOURCES "${SSR_IOS_ROM_COPY}")
++    if(SSR_IOS_ICON)
++        # A single 1024x1024 image: Xcode makes the smaller sizes from it.
++        set(SSR_IOS_ASSETS "${CMAKE_CURRENT_BINARY_DIR}/Assets.xcassets")
++        configure_file("${SSR_IOS_ICON}" "${SSR_IOS_ASSETS}/AppIcon.appiconset/icon.png" COPYONLY)
++        file(WRITE "${SSR_IOS_ASSETS}/Contents.json" "{\"info\":{\"author\":\"xcode\",\"version\":1}}\n")
++        file(WRITE "${SSR_IOS_ASSETS}/AppIcon.appiconset/Contents.json"
++            "{\"images\":[{\"filename\":\"icon.png\",\"idiom\":\"universal\",\"platform\":\"ios\",\"size\":\"1024x1024\"}],"
++            "\"info\":{\"author\":\"xcode\",\"version\":1}}\n")
++        list(APPEND SSR_IOS_RESOURCES "${SSR_IOS_ASSETS}")
++    endif()
++    add_executable(ssrecomp MACOSX_BUNDLE ${SSRECOMP_SOURCES} ${SSR_IOS_RESOURCES})
 +    set_target_properties(ssrecomp PROPERTIES
 +        OUTPUT_NAME SoulSilver
-+        RESOURCE "${SSR_IOS_ROM_COPY}"
++        RESOURCE "${SSR_IOS_RESOURCES}"
 +        MACOSX_BUNDLE_INFO_PLIST "${CMAKE_CURRENT_SOURCE_DIR}/cmake/iOSInfo.plist.in"
 +        MACOSX_BUNDLE_BUNDLE_NAME "${SSR_IOS_NAME}"
 +        MACOSX_BUNDLE_GUI_IDENTIFIER "${SSR_IOS_BUNDLE_ID}"
@@ -71,6 +83,9 @@ index 5a801b0..bd93ca8 100644
 +        XCODE_ATTRIBUTE_IPHONEOS_DEPLOYMENT_TARGET "${CMAKE_OSX_DEPLOYMENT_TARGET}"
 +        XCODE_ATTRIBUTE_CODE_SIGN_STYLE Automatic
 +        XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "${SSR_IOS_TEAM}")
++    if(SSR_IOS_ICON)
++        set_target_properties(ssrecomp PROPERTIES XCODE_ATTRIBUTE_ASSETCATALOG_COMPILER_APPICON_NAME AppIcon)
++    endif()
 +    target_compile_definitions(ssrecomp PRIVATE SSR_NO_PNG)
 +    target_include_directories(ssrecomp PRIVATE melonDS/src frontend runtime)
 +    target_link_libraries(ssrecomp PRIVATE core SDL2::SDL2main SDL2::SDL2-static)

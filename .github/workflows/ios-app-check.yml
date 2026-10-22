@@ -31,14 +31,20 @@ jobs:
       - name: Configure for iOS
         run: |
           head -c 4096 /dev/zero > "$RUNNER_TEMP/placeholder.nds"
+          sips -s format png /System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/GenericApplicationIcon.icns \
+            --out "$RUNNER_TEMP/icon.png" >/dev/null
+          sips -z 1024 1024 "$RUNNER_TEMP/icon.png" >/dev/null
           cmake -S "$RUNNER_TEMP/ssrecomp" -B "$RUNNER_TEMP/build-ios" -G Xcode \
             -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_ARCHITECTURES=arm64 -DCMAKE_OSX_DEPLOYMENT_TARGET=15.0 \
             -DSSR_GENERATED_DIR="$RUNNER_TEMP/smoke/generated fixtures with spaces" \
-            -DSSR_IOS_ROM="$RUNNER_TEMP/placeholder.nds"
+            -DSSR_IOS_ROM="$RUNNER_TEMP/placeholder.nds" -DSSR_IOS_ICON="$RUNNER_TEMP/icon.png"
       - name: Build (unsigned)
         run: |
           xcodebuild -project "$RUNNER_TEMP/build-ios/ssrecomp.xcodeproj" -target ssrecomp \
             -configuration Release -sdk iphoneos \
             CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" build
-          find "$RUNNER_TEMP/build-ios" -maxdepth 3 -type d -name SoulSilver.app -print
-          plutil -lint "$(find "$RUNNER_TEMP/build-ios" -maxdepth 3 -type d -name SoulSilver.app | head -n 1)/Info.plist"
+          app="$(find "$RUNNER_TEMP/build-ios" -maxdepth 3 -type d -name SoulSilver.app | head -n 1)"
+          echo "$app"
+          plutil -lint "$app/Info.plist"
+          test -f "$app/Assets.car"
+          plutil -extract CFBundleIcons.CFBundlePrimaryIcon.CFBundleIconName raw "$app/Info.plist"

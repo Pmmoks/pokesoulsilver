@@ -12,6 +12,8 @@ usage: ios/build.sh [options]
   --install        install on the iPhone connected by cable (needs --team)
   --bundle-id ID   bundle identifier (default: io.github.<your user name>.soulsilverfr)
   --name NAME      name under the app icon (default: SoulSilver FR)
+  --icon IMAGE     app icon from this picture (PNG or JPEG, cropped to a square); later builds
+                   keep using it
   --jobs N         parallel compile jobs (default: one per 2 GB of RAM, at most one per core)
   --skip-rom       use the French ROM already built in build/soulsilver.us.fr
   --open           open the Xcode project afterwards instead of building it there
@@ -32,6 +34,7 @@ app_name="SoulSilver FR"
 jobs=""
 skip_rom=0
 open_xcode=0
+icon_src=""
 while [[ $# -gt 0 ]]; do
     case "$1" in
     --team) team="$2"; shift 2 ;;
@@ -41,6 +44,7 @@ while [[ $# -gt 0 ]]; do
     --jobs) jobs="$2"; shift 2 ;;
     --skip-rom) skip_rom=1; shift ;;
     --open) open_xcode=1; shift ;;
+    --icon) icon_src="$2"; shift 2 ;;
     -h|--help) usage; exit 0 ;;
     *) echo "unknown option: $1" >&2; usage >&2; exit 2 ;;
     esac
@@ -54,6 +58,10 @@ if ! xcrun --sdk iphoneos --show-sdk-path >/dev/null 2>&1; then
     echo "The iOS SDK is missing: install Xcode from the App Store, open it once, then run" >&2
     echo "  sudo xcode-select -s /Applications/Xcode.app/Contents/Developer" >&2
     exit 1
+fi
+if [[ -n "$icon_src" && ! -f "$icon_src" ]]; then
+    echo "No such picture: $icon_src" >&2
+    exit 2
 fi
 if [[ $install -eq 1 && -z "$team" ]]; then
     echo "--install needs --team: an unsigned app cannot be installed directly." >&2
@@ -77,6 +85,7 @@ rom_dir="$repo_root/build/soulsilver.us.fr"
 rom="$rom_dir/pokesoulsilver.us.fr.nds"
 ssr="$tools_dir/ssrecomp"
 venv="$tools_dir/ios-venv"
+icon="$tools_dir/ios-icon.png"
 out_dir="$repo_root/build/ios"
 mkdir -p "$tools_dir" "$out_dir"
 
@@ -119,6 +128,15 @@ git -C "$ssr" apply "$repo_root/ios/ssrecomp-ios.patch"
 step "Recompiling the game code (a few minutes)"
 (cd "$ssr" && "$py" tools/recomp.py "$rom_dir" melonDS/src gen && "$py" tools/apps.py "$rom_dir" gen)
 
+if [[ -n "$icon_src" ]]; then
+    step "Preparing the app icon"
+    width="$(sips -g pixelWidth "$icon_src" | awk '/pixelWidth/ {print $2}')"
+    height="$(sips -g pixelHeight "$icon_src" | awk '/pixelHeight/ {print $2}')"
+    side=$(( width < height ? width : height ))
+    sips -s format png -c "$side" "$side" "$icon_src" --out "$icon" >/dev/null
+    sips -z 1024 1024 "$icon" >/dev/null
+fi
+
 step "Creating the Xcode project"
 "$cmake" -S "$ssr" -B "$ssr/build-ios" -G Xcode \
     -DCMAKE_SYSTEM_NAME=iOS \
@@ -127,7 +145,8 @@ step "Creating the Xcode project"
     -DSSR_IOS_ROM="$rom" \
     -DSSR_IOS_BUNDLE_ID="$bundle_id" \
     -DSSR_IOS_NAME="$app_name" \
-    -DSSR_IOS_TEAM="$team"
+    -DSSR_IOS_TEAM="$team" \
+    -DSSR_IOS_ICON="$( [[ -f "$icon" ]] && echo "$icon" )"
 
 if [[ $open_xcode -eq 1 ]]; then
     open "$ssr/build-ios/ssrecomp.xcodeproj"
