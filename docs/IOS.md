@@ -87,8 +87,8 @@ sign `build/ios/SoulSilver-FR.ipa` with your Apple ID when they install it.
 While R2 is held, the game reads its text from the English original. The message
 box on the map (people, signs, the story) and the one in battles are printed
 again in English at once, from the page you are on, and in French again when you
-let go. In battle the names in the message (Pokémon, moves, items) change too; on
-the map a name the script put into the sentence earlier stays as it was. Other
+let go. The names in the message (Pokémon, moves, items, places) change too;
+only names someone typed (yours, your rival's, nicknames) are the same in both. Other
 text (menus, other screens) is in English when the game next draws it, so hold R2
 before opening the menu. The pause menu's first
 entry, *TEXT (HOLD R2)*, keeps English on without holding anything.

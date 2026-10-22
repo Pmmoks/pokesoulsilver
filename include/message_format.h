@@ -15,6 +15,14 @@ typedef struct MessageFormatAttrs {
 typedef struct MessageFormatFields {
     MessageFormatAttrs attrs;
     String *msg;
+#ifdef TRANSLATED_TEXT
+    // Where msg was read from in the message archive (sourceFile 0xFFFF: elsewhere), so
+    // that it can be read again in the other language.
+    u16 sourceFile;
+    u16 sourceMsg;
+    u32 checksum; // of msg as read, to tell when it was changed since
+    BOOL upperFirstChar;
+#endif
 } MessageFormatFields;
 
 typedef struct MessageFormat {
@@ -93,5 +101,8 @@ void BufferMonthNameAbbr(MessageFormat *messageFormat, u32 fieldno, u32 month);
 void MessageFormat_UpperFirstChar(MessageFormat *messageFormat, u32 fieldno);
 void BufferDeptStoreFloorNo(MessageFormat *messageFormat, u32 fieldno, u32 floor);
 void MessageFormat_ResetBuffers(MessageFormat *messageFormat);
+#ifdef TRANSLATED_TEXT
+void MessageFormat_ReadNamesAgain(MessageFormat *messageFormat);
+#endif
 
 #endif // GUARD_MESSAGE_FORMAT_H

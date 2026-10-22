@@ -6,6 +6,7 @@
 
 #include "heap.h"
 #include "message_format.h"
+#include "text.h"
 
 static void CopyEncryptedMessage16(u16 *dest, const u16 *src, MAT_ENTRY *alloc);
 static void ReadMsgData_ExistingNarc_ExistingString(NARC *narc, u32 group, u32 num, enum HeapID heapID, String *dest);
@@ -20,6 +21,37 @@ u8 gMsgDataShowOriginal;
 BOOL MsgData_ShowsOriginal(void) {
     return gMsgDataShowOriginal != 0 || (PAD_Read() & PAD_BUTTON_DEBUG) != 0;
 }
+
+// The string last read from the message archive, so that a name put into a message can
+// be read again in the other language (MsgData_GetSource).
+static struct {
+    String *string;
+    u16 fileId;
+    u16 msgNum;
+    u32 checksum; // to tell when the string no longer holds what was read
+} sLastRead;
+
+static String *MsgData_RecordRead(u32 narcId, u32 fileId, u32 msgNum, String *string) {
+    sLastRead.string = (narcId == NARC_msgdata_msg) ? string : NULL;
+    if (sLastRead.string != NULL) {
+        sLastRead.fileId = fileId;
+        sLastRead.msgNum = msgNum;
+        sLastRead.checksum = Text_Checksum(string);
+    }
+    return string;
+}
+
+// Where string was read from, if it is the string last read from the message archive and
+// still holds just that.
+BOOL MsgData_GetSource(String *string, u16 *fileId, u16 *msgNum) {
+    if (string == NULL || string != sLastRead.string || Text_Checksum(string) != sLastRead.checksum) {
+        return FALSE;
+    }
+    *fileId = sLastRead.fileId;
+    *msgNum = sLastRead.msgNum;
+    return TRUE;
+}
+#define MSGDATA_RECORD(narcId, fileId, msgNum, string) MsgData_RecordRead(narcId, fileId, msgNum, string)
 
 // NARC_msgdata_msg holds the translated text and NARC_msgdata_msg_orig the
 // original English text, which is read instead while it is asked for.
@@ -38,6 +70,7 @@ static BOOL MsgData_LanguageChanged(MsgData *msgData, NarcId *narcId) {
 }
 #else
 #define MsgData_GetLanguageNarc(narcId) (narcId)
+#define MSGDATA_RECORD(narcId, fileId, msgNum, string) (string)
 #endif
 
 static void *LoadSingleElementFromNarc(NarcId narcId, s32 fileId, enum HeapID heapID) {
@@ -148,6 +181,9 @@ void ReadMsgData_NewNarc_ExistingString(NarcId narc_id, s32 group, u32 num, enum
         ReadMsgData_ExistingNarc_ExistingString(narc, group, num, heapID, dest);
         NARC_Delete(narc);
     }
+#ifdef TRANSLATED_TEXT
+    MSGDATA_RECORD(narc_id, group, num, dest);
+#endif
 }
 
 static void ReadMsgData_ExistingNarc_ExistingString(NARC *narc, u32 group, u32 num, enum HeapID heapID, String *dest) {
@@ -184,7 +220,7 @@ String *ReadMsgData_NewNarc_NewString(NarcId narc_id, u32 group, u32 num, enum H
     } else {
         string = String_New(4, heapID);
     }
-    return string;
+    return MSGDATA_RECORD(narc_id, group, num, string);
 }
 
 static String *ReadMsgData_ExistingNarc_NewString(NARC *narc, u32 group, u32 num, enum HeapID heapID) {
@@ -278,6 +314,7 @@ void ReadMsgDataIntoString(MsgData *msgData, s32 msg_no, String *dest) {
             ReadMsgData_ExistingNarc_ExistingString(narc, msgData->file_id, msg_no, HEAP_ID_DEFAULT, dest);
             NARC_Delete(narc);
         }
+        MSGDATA_RECORD(msgData->narc_id, msgData->file_id, msg_no, dest);
         return;
     }
 #endif
@@ -289,6 +326,9 @@ void ReadMsgDataIntoString(MsgData *msgData, s32 msg_no, String *dest) {
         ReadMsgData_ExistingNarc_ExistingString(msgData->lazy, msgData->file_id, msg_no, (enum HeapID)msgData->heapID, dest);
         break;
     }
+#ifdef TRANSLATED_TEXT
+    MSGDATA_RECORD(msgData->narc_id, msgData->file_id, msg_no, dest);
+#endif
 }
 
 String *NewString_ReadMsgData(MsgData *msgData, s32 msg_no) {
@@ -303,14 +343,14 @@ String *NewString_ReadMsgData(MsgData *msgData, s32 msg_no) {
         }
         string = ReadMsgData_ExistingNarc_NewString(narc, msgData->file_id, msg_no, (enum HeapID)msgData->heapID);
         NARC_Delete(narc);
-        return string;
+        return MSGDATA_RECORD(msgData->narc_id, msgData->file_id, msg_no, string);
     }
 #endif
     switch (msgData->type) {
     case MSGDATA_LOAD_DIRECT:
-        return ReadMsgData_ExistingTable_NewString(msgData->direct, msg_no, (enum HeapID)msgData->heapID);
+        return MSGDATA_RECORD(msgData->narc_id, msgData->file_id, msg_no, ReadMsgData_ExistingTable_NewString(msgData->direct, msg_no, (enum HeapID)msgData->heapID));
     case MSGDATA_LOAD_LAZY:
-        return ReadMsgData_ExistingNarc_NewString(msgData->lazy, msgData->file_id, msg_no, (enum HeapID)msgData->heapID);
+        return MSGDATA_RECORD(msgData->narc_id, msgData->file_id, msg_no, ReadMsgData_ExistingNarc_NewString(msgData->lazy, msgData->file_id, msg_no, (enum HeapID)msgData->heapID));
     default:
         return NULL;
     }

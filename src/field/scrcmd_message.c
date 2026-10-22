@@ -343,8 +343,8 @@ static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *message
 }
 
 // Called every frame while a script waits on its message box: once the original text is
-// asked for or no longer, prints the message again in the other language, from the page
-// the player is on.
+// asked for or no longer, prints the message again in the other language (the names in
+// it too), from the page the player is on.
 void ovFieldMain_UpdateMessageLanguage(ScriptContext *ctx) {
     MessageBox messageBox;
     MsgData *messageData;
@@ -367,6 +367,7 @@ void ovFieldMain_UpdateMessageLanguage(ScriptContext *ctx) {
     // -1: printed to the end, and the script has moved on (it waits for a button).
     page = TextPrinter_GetPage(*messageBox.textPrinterNumPtr, messageBox.message);
     sShownMessage.original = MsgData_ShowsOriginal();
+    MessageFormat_ReadNamesAgain(messageBox.messageFormat);
     ovFieldMain_ReadAndExpandMsgDataViaBuffer(&messageBox, messageData, sShownMessage.messageNum);
     DestroyMsgData(messageData);
     // The other language may have fewer pages: then its last one is shown.

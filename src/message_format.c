@@ -22,6 +22,7 @@
 #include "pokemon.h"
 #include "pokemon_storage_system.h"
 #include "string_control_code.h"
+#include "text.h"
 #include "trainer_data.h"
 
 MessageFormat *MessageFormat_New(enum HeapID heapID) {
@@ -79,7 +80,12 @@ void MessageFormat_Delete(MessageFormat *messageFormat) {
 }
 
 void MessageFormat_InitFields(MessageFormatFields *field) {
+#ifdef TRANSLATED_TEXT
+    field->sourceFile = 0xFFFF;
+    field->upperFirstChar = FALSE;
+#else
 #pragma unused(field)
+#endif
 }
 
 void SetStringAsPlaceholder(MessageFormat *msgFmt, u32 fieldno, const String *string, const MessageFormatAttrs *attrs) {
@@ -89,6 +95,16 @@ void SetStringAsPlaceholder(MessageFormat *msgFmt, u32 fieldno, const String *st
             msgFmt->fields[fieldno].attrs = *attrs;
         }
         String_Copy(msgFmt->fields[fieldno].msg, string);
+#ifdef TRANSLATED_TEXT
+        {
+            MessageFormatFields *field = &msgFmt->fields[fieldno];
+            if (!MsgData_GetSource((String *)string, &field->sourceFile, &field->sourceMsg)) {
+                field->sourceFile = 0xFFFF;
+            }
+            field->upperFirstChar = FALSE;
+            field->checksum = Text_Checksum(field->msg);
+        }
+#endif
     }
 }
 
@@ -637,6 +653,10 @@ void BufferMonthNameAbbr(MessageFormat *msgFmt, u32 fieldno, u32 month) {
 
 void MessageFormat_UpperFirstChar(MessageFormat *msgFmt, u32 fieldno) {
     String_UpperCharN(msgFmt->fields[fieldno].msg, 0);
+#ifdef TRANSLATED_TEXT
+    msgFmt->fields[fieldno].upperFirstChar = TRUE;
+    msgFmt->fields[fieldno].checksum = Text_Checksum(msgFmt->fields[fieldno].msg);
+#endif
 }
 
 void BufferDeptStoreFloorNo(MessageFormat *msgFmt, u32 fieldno, u32 floor) {
@@ -683,3 +703,33 @@ void MessageFormat_ResetBuffers(MessageFormat *msgFmt) {
         String_SetEmpty(msgFmt->fields[i].msg);
     }
 }
+
+#ifdef TRANSLATED_TEXT
+// Reads the names put into the placeholders again, in the language now shown: those read
+// from the message archive and not changed since (other than the first letter in capitals).
+void MessageFormat_ReadNamesAgain(MessageFormat *msgFmt) {
+    for (int i = 0; i < msgFmt->count; i++) {
+        MessageFormatFields *field = &msgFmt->fields[i];
+        if (field->sourceFile == 0xFFFF || Text_Checksum(field->msg) != field->checksum) {
+            continue;
+        }
+        MsgData *msgData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, NARC_msgdata_msg, field->sourceFile, msgFmt->heapID);
+        if (msgData == NULL) {
+            continue;
+        }
+        String *name = NewString_ReadMsgData(msgData, field->sourceMsg);
+        DestroyMsgData(msgData);
+        if (name == NULL) {
+            continue;
+        }
+        if (name->size < field->msg->maxsize) { // the other name may not fit
+            String_Copy(field->msg, name);
+        }
+        String_Delete(name);
+        if (field->upperFirstChar) {
+            String_UpperCharN(field->msg, 0);
+        }
+        field->checksum = Text_Checksum(field->msg);
+    }
+}
+#endif
