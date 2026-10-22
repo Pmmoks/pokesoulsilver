@@ -19,7 +19,10 @@ void RemoveTextPrinter(u8 printerId);
 void ResetAllTextPrinters(void);
 u8 TextPrinterCheckActive(u8 printerId); // FIXME: bool8
 #ifdef TRANSLATED_TEXT
-const u16 *TextPrinter_GetPosition(u8 printerId, BOOL *atPageEnd);
+int TextPrinter_GetPage(u8 printerId, String *string);
+void TextPrinter_Reprint(u8 printerId, String *string);
+int Text_DropPages(String *string, int pages);
+u32 Text_Checksum(String *string);
 #endif
 u8 AddTextPrinterParameterized(Window *window, FontID fontId, String *text, u32 x, u32 y, u32 textSpeed, PrinterCallback_t callback);
 u8 AddTextPrinterParameterizedWithColor(Window *window, FontID fontId, String *string, u32 x, u32 y, u32 textSpeed, u32 color, PrinterCallback_t callback);

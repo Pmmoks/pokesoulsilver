@@ -4,6 +4,8 @@
 
 #include "font.h"
 #include "gf_gfx_loader.h"
+#include "pm_string.h"
+#include "string_control_code.h"
 #include "sys_task.h"
 
 static const struct FontInfo *sFonts;
@@ -72,19 +74,6 @@ void ResetAllTextPrinters(void) {
 u8 TextPrinterCheckActive(u8 printerId) {
     return TextPrinterSysTaskIsActive(printerId);
 }
-
-#ifdef TRANSLATED_TEXT
-// Where an active printer has got to in its string (NULL if it is not printing), and
-// whether it waits for a button at the end of a page, past the code that ends the page.
-const u16 *TextPrinter_GetPosition(u8 printerId, BOOL *atPageEnd) {
-    if (printerId >= MAX_TEXT_PRINTERS || sTextPrinterTasks[printerId] == NULL) {
-        return NULL;
-    }
-    TextPrinter *printer = SysTask_GetData(sTextPrinterTasks[printerId]);
-    *atPageEnd = printer->state == 2 || printer->state == 3 || printer->state == 7 || printer->state == 8;
-    return printer->template.currentChar.raw;
-}
-#endif
 
 void RemoveTextPrinter(u8 printerId) {
     DestroyTextPrinterSysTask(printerId);
@@ -324,3 +313,131 @@ static void TextPrinter_FreeFocusIndicatorGfx(TextPrinter *printer) {
         printer->focusIndicatorGfx = NULL;
     }
 }
+
+#ifdef TRANSLATED_TEXT
+// Printing a message again in the other language, when a translated build's original
+// text is asked for or no longer, from the page the player is on.
+
+// The start of the page after the one text is on (where a printer waits for a button
+// before going on), or NULL on the last page.
+static const u16 *Text_NextPage(const u16 *text) {
+    while (*text != EOS) {
+        u16 c = *text;
+        if (c == 0x25BC || c == 0x25BD) {
+            return text + 1;
+        }
+        if (c == EXT_CTRL_CODE_BEGIN) {
+            int code = (u16)MsgArray_GetControlCode(text);
+            BOOL pageEnd = code == 0x207 || code == 0x208;
+            if (code == 0xFE06) {
+                int field = MsgArray_ControlCodeGetField(text, 0);
+                pageEnd = field == 0xFE00 || field == 0xFE01;
+            }
+            text = MsgArray_SkipControlCode(text);
+            if (pageEnd) {
+                if ((code == 0x207 || code == 0x208) && *text == CHAR_LF) {
+                    text++;
+                }
+                return text;
+            }
+        } else if (c == 0xF0FD) {
+            text += 2;
+        } else {
+            text++;
+        }
+    }
+    return NULL;
+}
+
+// The page of string that the printer is printing (from 0), or -1 if it has finished or
+// prints other text.
+int TextPrinter_GetPage(u8 printerId, String *string) {
+    if (printerId >= MAX_TEXT_PRINTERS || sTextPrinterTasks[printerId] == NULL) {
+        return -1;
+    }
+    TextPrinter *printer = SysTask_GetData(sTextPrinterTasks[printerId]);
+    const u16 *start = String_cstr(string);
+    const u16 *position = printer->template.currentChar.raw;
+    if (position < start || position > start + String_GetLength(string)) {
+        return -1;
+    }
+    const u16 *next;
+    int page = 0;
+    for (next = Text_NextPage(start); next != NULL && next <= position; next = Text_NextPage(next)) {
+        page++;
+    }
+    // Waiting for a button at the end of a page, it is past the code that ends the page.
+    if (printer->state == 2 || printer->state == 3 || printer->state == 7 || printer->state == 8) {
+        page--;
+    }
+    return page;
+}
+
+// Prints string from its start in place of what the printer was printing, keeping its
+// number, window, speed and callback: the first page at once, the rest as before. For
+// printers that AddTextPrinterParameterized started (in the font's own colours).
+void TextPrinter_Reprint(u8 printerId, String *string) {
+    TextPrinter *printer = SysTask_GetData(sTextPrinterTasks[printerId]);
+    const struct FontInfo *font = &sFonts[printer->template.fontId];
+    u8 speed = printer->textSpeedBottom;
+    int i;
+
+    printer->template.currentChar.raw = String_cstr(string);
+    printer->template.currentX = printer->template.x;
+    printer->template.currentY = printer->template.y;
+    printer->template.fgColor = font->fgColor;
+    printer->template.bgColor = font->bgColor;
+    printer->template.shadowColor = font->shadowColor;
+    printer->template.glyphTable = 0;
+    printer->template.unk1A = 0;
+    printer->template.savedColor = 0xFF;
+    printer->state = 0;
+    printer->delayCounter = 0;
+    printer->scrollDistance = 0;
+    printer->callbackResult = 0;
+    printer->callbackParam = 0;
+
+    // Up to the end of the page (or a pause), without the delay between letters and without
+    // the sounds the text asks for, which were played the first time.
+    printer->textSpeedBottom = 0;
+    GenerateFontHalfRowLookupTable(printer->template.fgColor, printer->template.bgColor, printer->template.shadowColor);
+    for (i = 0; i < 0x400 && printer->state == 0; i++) {
+        if (RenderFont(printer) == RENDER_FINISH) {
+            CopyWindowToVram(printer->template.window);
+            DestroyTextPrinterSysTask(printerId);
+            return;
+        }
+    }
+    printer->textSpeedBottom = speed;
+    printer->callbackParam = 0;
+    CopyWindowToVram(printer->template.window);
+}
+
+// Leaves out the first pages of string (all but the last if it has fewer); returns how
+// many were left out.
+int Text_DropPages(String *string, int pages) {
+    const u16 *start = String_cstr(string);
+    int dropped;
+    for (dropped = 0; dropped < pages; dropped++) {
+        const u16 *next = Text_NextPage(start);
+        if (next == NULL) {
+            break;
+        }
+        start = next;
+    }
+    if (dropped > 0) {
+        CopyU16ArrayToString(string, start);
+    }
+    return dropped;
+}
+
+// To tell whether a message buffer still holds the message that was printed from it.
+u32 Text_Checksum(String *string) {
+    const u16 *c = String_cstr(string);
+    u32 sum = 0;
+    while (*c != EOS) {
+        sum = sum * 31 + *c++;
+    }
+    return sum;
+}
+#endif

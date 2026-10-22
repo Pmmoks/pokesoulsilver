@@ -5,8 +5,10 @@ builds `build/<game>.us.fr/poke<game>.us.fr.nds`. Its message archive (`a/0/2/7`
 French text, and the English original is kept as a second archive (`a/2/6/5`). While the
 DS debug button is held, or while a frontend sets the byte `gMsgDataShowOriginal`, `src/msgdata.c`
 reads from the original instead; `src/system.c` hides that button from the rest of the game.
-A message box on the map is printed again in the other language when either changes
-(`ovFieldMain_UpdateMessageLanguage` in `src/field/scrcmd_message.c`). Without `TRANSLATION` the build is the
+The message box on the map and the one in battles are printed again in the other
+language when either changes (`ovFieldMain_UpdateMessageLanguage` in
+`src/field/scrcmd_message.c`, `BattleSystem_UpdateMessageLanguage` in
+`src/battle/battle_system.c`). Without `TRANSLATION` the build is the
 retail ROM as before.
 
 ## Where the text is

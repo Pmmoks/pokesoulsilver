@@ -13,7 +13,6 @@
 #include "scrcmd.h"
 #include "script.h"
 #include "script_manager.h"
-#include "string_control_code.h"
 #include "text.h"
 
 typedef struct MessageBox {
@@ -36,7 +35,7 @@ static void ovFieldMain_GetFormattedECMessage(MessageBox *messageBox, u16 messag
 static void ovFieldMain_PrintMessageEx(MessageBox *messageBox, FontID fontId, u32 textFrameDelay, BOOL canABSpeedUp, u32 autoScrollParam);
 static void ovFieldMain_AddTextPrinterParameterized(MessageBox *messageBox, FontID fontId);
 #ifdef TRANSLATED_TEXT
-static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *messageData, u16 messageNum, u8 fontId, u32 textFrameDelay, u8 canABSpeedUp, u32 autoScroll);
+static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *messageData, u16 messageNum, u8 fontId);
 #endif
 
 const u16 gScriptStdMsgBanks[] = {
@@ -229,7 +228,7 @@ void ovFieldMain_ShowMessage(ScriptContext *ctx, MsgData *messageData, u16 messa
     }
     ovFieldMain_PrintMessageEx(&messageBox, fontId, textFrameDelay, canABSpeedUp, autoScroll);
 #ifdef TRANSLATED_TEXT
-    ovFieldMain_RememberMessage(&messageBox, messageData, messageNum, fontId, textFrameDelay, canABSpeedUp, autoScroll);
+    ovFieldMain_RememberMessage(&messageBox, messageData, messageNum, fontId);
 #endif
 }
 
@@ -328,65 +327,19 @@ static struct {
     u16 fileId;
     u16 messageNum;
     u8 fontId;
-    u8 canABSpeedUp;
-    u32 textFrameDelay;
-    u32 autoScroll;
     u16 firstPage; // pages of the message left out at the start of the printed string
     u32 checksum; // of the printed string, to tell when other text has replaced it
 } sShownMessage;
 
-static u32 ovFieldMain_StringChecksum(String *string) {
-    const u16 *c = String_cstr(string);
-    u32 sum = 0;
-    while (*c != EOS) {
-        sum = sum * 31 + *c++;
-    }
-    return sum;
-}
-
-// The start of the page after the one text is on (where the printer waits for a
-// button), or NULL on the last page.
-static const u16 *ovFieldMain_NextPage(const u16 *text) {
-    while (*text != EOS) {
-        u16 c = *text;
-        if (c == 0x25BC || c == 0x25BD) {
-            return text + 1;
-        }
-        if (c == EXT_CTRL_CODE_BEGIN) {
-            int code = (u16)MsgArray_GetControlCode(text);
-            BOOL pageEnd = code == 0x207 || code == 0x208;
-            if (code == 0xFE06) {
-                int field = MsgArray_ControlCodeGetField(text, 0);
-                pageEnd = field == 0xFE00 || field == 0xFE01;
-            }
-            text = MsgArray_SkipControlCode(text);
-            if (pageEnd) {
-                if ((code == 0x207 || code == 0x208) && *text == CHAR_LF) {
-                    text++;
-                }
-                return text;
-            }
-        } else if (c == 0xF0FD) {
-            text += 2;
-        } else {
-            text++;
-        }
-    }
-    return NULL;
-}
-
-static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *messageData, u16 messageNum, u8 fontId, u32 textFrameDelay, u8 canABSpeedUp, u32 autoScroll) {
+static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *messageData, u16 messageNum, u8 fontId) {
     sShownMessage.active = messageData->narc_id == NARC_msgdata_msg;
     sShownMessage.original = MsgData_ShowsOriginal();
     sShownMessage.narcId = messageData->narc_id;
     sShownMessage.fileId = messageData->file_id;
     sShownMessage.messageNum = messageNum;
     sShownMessage.fontId = fontId;
-    sShownMessage.canABSpeedUp = canABSpeedUp;
-    sShownMessage.textFrameDelay = textFrameDelay;
-    sShownMessage.autoScroll = autoScroll;
     sShownMessage.firstPage = 0;
-    sShownMessage.checksum = ovFieldMain_StringChecksum(messageBox->message);
+    sShownMessage.checksum = Text_Checksum(messageBox->message);
 }
 
 // Called every frame while a script waits on its message box: once the original text is
@@ -395,68 +348,36 @@ static void ovFieldMain_RememberMessage(MessageBox *messageBox, MsgData *message
 void ovFieldMain_UpdateMessageLanguage(ScriptContext *ctx) {
     MessageBox messageBox;
     MsgData *messageData;
-    const u16 *start;
-    const u16 *next;
-    const u16 *position;
-    BOOL atPageEnd = FALSE;
     int page;
-    int shownPage;
 
     if (!sShownMessage.active || MsgData_ShowsOriginal() == sShownMessage.original) {
         return;
     }
     ovFieldMain_GetMsgBoxParameters(ctx->fieldSystem, &messageBox);
-    if (*messageBox.windowOpenPtr == 0 || ovFieldMain_StringChecksum(messageBox.message) != sShownMessage.checksum) {
+    if (*messageBox.windowOpenPtr == 0 || Text_Checksum(messageBox.message) != sShownMessage.checksum) {
         sShownMessage.active = FALSE;
         return;
     }
-
-    start = String_cstr(messageBox.message);
-    position = TextPrinter_GetPosition(*messageBox.textPrinterNumPtr, &atPageEnd);
-    if (position != NULL && (position < start || position > start + String_GetLength(messageBox.message))) {
-        position = NULL; // a printer of other text has the number now: the message is printed
-    }
-    if (position != NULL) {
-        page = sShownMessage.firstPage - (atPageEnd ? 1 : 0);
-        for (next = ovFieldMain_NextPage(start); next != NULL && next <= position; next = ovFieldMain_NextPage(next)) {
-            page++;
-        }
-        RemoveTextPrinter(*messageBox.textPrinterNumPtr);
-    } else {
-        page = 0xFFFF; // printed to the end: its last page is shown
-    }
-
     messageData = NewMsgDataFromNarc(MSGDATA_LOAD_LAZY, (NarcId)sShownMessage.narcId, sShownMessage.fileId, HEAP_ID_FIELD3);
     if (messageData == NULL) {
         sShownMessage.active = FALSE;
         return;
     }
+
+    // -1: printed to the end, and the script has moved on (it waits for a button).
+    page = TextPrinter_GetPage(*messageBox.textPrinterNumPtr, messageBox.message);
     sShownMessage.original = MsgData_ShowsOriginal();
     ovFieldMain_ReadAndExpandMsgDataViaBuffer(&messageBox, messageData, sShownMessage.messageNum);
     DestroyMsgData(messageData);
-
     // The other language may have fewer pages: then its last one is shown.
-    start = String_cstr(messageBox.message);
-    for (shownPage = 0; shownPage < page; shownPage++) {
-        next = ovFieldMain_NextPage(start);
-        if (next == NULL) {
-            break;
-        }
-        start = next;
-    }
-    if (shownPage > 0) {
-        CopyU16ArrayToString(messageBox.message, start);
-    }
-    sShownMessage.firstPage = shownPage;
-    sShownMessage.checksum = ovFieldMain_StringChecksum(messageBox.message);
+    sShownMessage.firstPage = Text_DropPages(messageBox.message, page >= 0 ? sShownMessage.firstPage + page : 0xFFFF);
+    sShownMessage.checksum = Text_Checksum(messageBox.message);
 
     FillWindowPixelBuffer(messageBox.window, 15);
-    if (position == NULL) {
-        // The script has moved on (it waits for a button): leave its printer number alone.
-        AddTextPrinterParameterized(messageBox.window, sShownMessage.fontId, messageBox.message, 0, 0, TEXT_SPEED_INSTANT, NULL);
+    if (page >= 0) {
+        TextPrinter_Reprint(*messageBox.textPrinterNumPtr, messageBox.message);
     } else {
-        CopyWindowToVram(messageBox.window);
-        ovFieldMain_PrintMessageEx(&messageBox, sShownMessage.fontId, sShownMessage.textFrameDelay, sShownMessage.canABSpeedUp, sShownMessage.autoScroll);
+        AddTextPrinterParameterized(messageBox.window, sShownMessage.fontId, messageBox.message, 0, 0, TEXT_SPEED_INSTANT, NULL);
     }
 }
 #endif

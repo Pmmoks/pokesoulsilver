@@ -84,11 +84,13 @@ sign `build/ios/SoulSilver-FR.ipa` with your Apple ID when they install it.
 | L2 (hold) | fast forward |
 | Menu + Options together | pause menu (save states, layout, 60 fps, widescreen…) |
 
-While R2 is held, the game reads its text from the English original. A message
-box on the map (people, signs, the story) is printed again in English at once,
-from the page you are on, and in French again when you let go. Other text
-(menus, battles, other screens) is in English when the game next draws it, so
-hold R2 before opening the menu or reaching the message. The pause menu's first
+While R2 is held, the game reads its text from the English original. The message
+box on the map (people, signs, the story) and the one in battles are printed
+again in English at once, from the page you are on, and in French again when you
+let go. In battle the names in the message (Pokémon, moves, items) change too; on
+the map a name the script put into the sentence earlier stays as it was. Other
+text (menus, other screens) is in English when the game next draws it, so hold R2
+before opening the menu. The pause menu's first
 entry, *TEXT (HOLD R2)*, keeps English on without holding anything.
 
 The app tells the game through a byte in its memory (`gMsgDataShowOriginal` in

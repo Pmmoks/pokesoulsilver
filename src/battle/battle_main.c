@@ -256,6 +256,9 @@ void Battle_BattleInit(OverlayManager *manager) {
     int colorIndex;
     u32 gender;
 
+#ifdef TRANSLATED_TEXT
+    BattleSystem_ForgetShownMessage();
+#endif
     paletteSize = GetMainBgPlttSize();
     MIi_CpuClear16(0, GetMainBgPlttAddr(), paletteSize);
     paletteSize = GetSubBgPlttSize();
@@ -347,6 +350,10 @@ void Battle_BattleInit(OverlayManager *manager) {
 BOOL Battle_BattleMain(OverlayManager *man) {
     BattleSystem *battleSystem = OverlayManager_GetData(man);
     int i;
+
+#ifdef TRANSLATED_TEXT
+    BattleSystem_UpdateMessageLanguage(battleSystem);
+#endif
 
     if ((battleSystem->battleType & BATTLE_TYPE_LINK) && !(battleSystem->battleSpecial & BATTLE_SPECIAL_RECORDING)) {
         if (battleSystem->isServer) {
