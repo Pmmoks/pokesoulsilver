@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..ff842fb 100644
+index 060f4fc..7558a9b 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -214,23 +214,80 @@ index 060f4fc..ff842fb 100644
  #include <unistd.h>
  #endif
  #ifndef SSR_NO_PNG
-@@ -1031,6 +1039,15 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+@@ -1031,6 +1039,72 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
      return true;
  }
  
-+// The DS debug button (bit 3 of KEYXY), which no retail console has. A translated build of
-+// the game shows its original text while it is held; the frontend holds it while the
++// A translated build of the game shows its original text while its switch (a byte in main
++// RAM, found by name when the game was recompiled) is set, or while the DS debug button
++// (bit 3 of KEYXY, which no retail console has) is held. The frontend does both while the
 +// original is asked for.
-+static void SetDebugButton(NDS& nds, bool held)
++static void SetOriginalText(NDS& nds, bool shown)
 +{
-+    if (held) nds.KeyInput &= ~(1u << 19);
++    if (shown) nds.KeyInput &= ~(1u << 19);
 +    else nds.KeyInput |= 1u << 19;
++    if (rc_original_text_flag) nds.MainRAM[rc_original_text_flag & nds.MainRAMMask] = shown ? 1 : 0;
++}
++
++// Plays one frame of the core's 48 kHz stereo output. The clock of the audio device and the
++// frame clock never quite agree, and a queue that runs dry between frames plays a short gap
++// of silence many times a second: a constant buzz. So about 50 ms are kept queued, and each
++// frame's samples are stretched or squeezed by up to 0.5% to hold that level, which changes
++// the pitch by too little to hear.
++static void QueueAudio(SDL_AudioDeviceID audio, const int16_t* in, int frames)
++{
++    static std::vector<int16_t> out;
++    static double level = -1, carry = 0;
++    static unsigned dry = 0;
++    static uint32_t reportedAt = 0;
++    const int target = 48000 / 20;
++    const int queued = (int)(SDL_GetQueuedAudioSize(audio) / 4);
++    if (queued > target * 4) return; // far behind, after a stall: drop rather than lag
++    if (queued == 0)
++    {
++        // Empty (at the start, after a pause or a stall): fill up to the level at once.
++        if (level >= 0) dry++;
++        out.assign((size_t)target * 2, 0);
++        SDL_QueueAudio(audio, out.data(), target * 4);
++        level = target;
++    }
++    // The queue drains in the device's blocks, so its level is smoothed before it is used.
++    if (level < 0) level = queued;
++    level += (queued + (queued == 0 ? target : 0) - level) * 0.05;
++    const double ratio = 1.0 + 0.005 * std::clamp((target - level) / target, -1.0, 1.0);
++    const double want = frames * ratio + carry;
++    const int n = (int)want;
++    carry = want - n;
++    if (frames < 2 || n < 2)
++    {
++        SDL_QueueAudio(audio, in, frames * 4);
++    }
++    else
++    {
++        out.resize((size_t)n * 2);
++        const double step = (double)(frames - 1) / (n - 1);
++        for (int i = 0; i < n; i++)
++        {
++            const double pos = i * step;
++            const int j = std::min((int)pos, frames - 2);
++            const double f = pos - j;
++            for (int c = 0; c < 2; c++)
++                out[i * 2 + c] = (int16_t)lrint(in[j * 2 + c] * (1 - f) + in[(j + 1) * 2 + c] * f);
++        }
++        SDL_QueueAudio(audio, out.data(), n * 4);
++    }
++    if (dry && SDL_GetTicks() - reportedAt > 10000)
++    {
++        fprintf(stderr, "[audio] the queue ran dry %u time(s)\n", dry);
++        dry = 0;
++        reportedAt = SDL_GetTicks();
++    }
 +}
 +
  int main(int argc, char** argv)
  {
      Options opt;
-@@ -1058,6 +1075,27 @@ int main(int argc, char** argv)
+@@ -1058,6 +1132,27 @@ int main(int argc, char** argv)
          argc = (int)androidArgv.size();
          argv = androidArgv.data();
      }
@@ -258,7 +315,7 @@ index 060f4fc..ff842fb 100644
  #endif
      if (!ParseArgs(argc, argv, opt))
      {
-@@ -1165,13 +1203,19 @@ int main(int argc, char** argv)
+@@ -1165,13 +1260,19 @@ int main(int argc, char** argv)
  
      if (!opt.headless)
      {
@@ -280,7 +337,7 @@ index 060f4fc..ff842fb 100644
          // Controllers come through Android's own input, which knows every gamepad. With SDL's
          // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
          // left out of Android's list, and is lost if SDL cannot open it over USB itself.
-@@ -1258,19 +1302,22 @@ int main(int argc, char** argv)
+@@ -1258,19 +1359,22 @@ int main(int argc, char** argv)
      }
  
      // Functions whose activity selects the merged scene.
@@ -309,7 +366,7 @@ index 060f4fc..ff842fb 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -2219,9 +2266,11 @@ int main(int argc, char** argv)
+@@ -2219,9 +2323,13 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -317,20 +374,22 @@ index 060f4fc..ff842fb 100644
 +        M_RESUME, M_TEXT, M_LAYOUT, M_LARGE, M_FPS60, M_FULLSCREEN, M_SMOOTH, M_WIDE, M_WIDELINES, M_SHOWFPS, M_BUTTONS, M_PADTOUCH, M_FAST, M_SAVESTATE, M_LOADSTATE, M_RESET, M_QUIT
      };
      bool fastLock = false;
-+    // The original (English) text instead of the translation: R2, F3 or the pause menu.
++    // The original (English) text instead of the translation: while R2 is held, or kept on
++    // with F3 or the pause menu.
 +    bool originalText = false;
++    bool holdOriginal = false;
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2234,6 +2283,7 @@ int main(int argc, char** argv)
+@@ -2234,6 +2342,7 @@ int main(int argc, char** argv)
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
          menu.items = {
              { "RESUME", "" },
-+            { "TEXT (R2)", originalText ? "ENGLISH" : "FRANCAIS" },
++            { "TEXT (HOLD R2)", originalText ? "ENGLISH" : "FRANCAIS" },
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2274,7 +2324,7 @@ int main(int argc, char** argv)
+@@ -2274,7 +2383,7 @@ int main(int argc, char** argv)
      // On-screen controls (touch screens): shown while no controller is connected.
      TouchPad touchPad;
      bool touchPadUsed = false, touchMenuHeld = false, prevTouchMenu = false;
@@ -339,7 +398,7 @@ index 060f4fc..ff842fb 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2324,6 +2374,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2433,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -347,7 +406,7 @@ index 060f4fc..ff842fb 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2394,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2453,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -378,7 +437,7 @@ index 060f4fc..ff842fb 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2455,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2514,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -386,7 +445,7 @@ index 060f4fc..ff842fb 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2648,6 +2724,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +2783,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -396,19 +455,12 @@ index 060f4fc..ff842fb 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2731,6 +2810,9 @@ int main(int argc, char** argv)
-         if (!paused && !swallowMenuButtons)
-         {
-             keys |= PadKeys(ps, cfg.byLabel);
-+            // R2 switches between the translation and the original text, unless it presses
-+            // the stick touch cursor.
-+            if (!cfg.padTouch && ps.rt > 0.5f && prevPad.rt <= 0.5f) toggleText = true;
-             if (cfg.padTouch)
-             {
-                 if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2742,6 +2824,12 @@ int main(int argc, char** argv)
+@@ -2741,7 +2879,15 @@ int main(int argc, char** argv)
+             }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
++        // R2 shows the original text while it is held, unless it presses the stick touch cursor.
++        holdOriginal = !paused && !swallowMenuButtons && !cfg.padTouch && ps.rt > 0.5f;
          prevPad = ps;
 +        if (toggleText)
 +        {
@@ -419,27 +471,87 @@ index 060f4fc..ff842fb 100644
  
          SDL_Rect rects[2];
          LayoutRects(layout, outW, outH, rects);
-@@ -2932,6 +3020,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3078,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
-+            SetDebugButton(*ref, originalText);
++            SetOriginalText(*ref, originalText || holdOriginal);
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3033,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3091,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
-+            SetDebugButton(*nds, originalText);
++            SetOriginalText(*nds, originalText || holdOriginal);
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
+@@ -3130,12 +3278,7 @@ int main(int argc, char** argv)
+             }
+         }
+ 
+-        if (audio && got > 0)
+-        {
+-            // Drop audio rather than let latency grow if the queue backs up.
+-            if (SDL_GetQueuedAudioSize(audio) < 48000 * 4 / 4)
+-                SDL_QueueAudio(audio, audioBuf.data(), got * 4);
+-        }
++        if (audio && got > 0) QueueAudio(audio, audioBuf.data(), got);
+         if (opt.audioStats && got > 0)
+         {
+             for (int i = 0; i < got * 2; i++)
+diff --git a/runtime/recomp_api.h b/runtime/recomp_api.h
+index 598d361..50cd3ac 100644
+--- a/runtime/recomp_api.h
++++ b/runtime/recomp_api.h
+@@ -25,6 +25,9 @@ bool rc_ran_recently(const char* section, unsigned addr, unsigned frames);
+ extern const RcApp rc_focus_syms[];
+ extern const unsigned rc_num_focus_syms;
+ 
++// Main RAM address of a translated build's switch that shows its original text (0: none).
++extern const unsigned rc_original_text_flag;
++
+ // Probes record the last frame in which a function was entered by recompiled code.
+ // The address must be the function's first instruction.
+ int rc_add_probe(const char* section, unsigned addr);
+diff --git a/tests/native_smoke.py b/tests/native_smoke.py
+index f4f06b7..cfab2bd 100644
+--- a/tests/native_smoke.py
++++ b/tests/native_smoke.py
+@@ -36,7 +36,8 @@ def fixture(dest):
+     (dest / 'apps_table.cpp').write_text(
+         '#include "recomp_api.h"\n'
+         'const RcApp rc_apps[] = {{nullptr, nullptr, 0}};\nconst unsigned rc_num_apps = 0;\n'
+-        'const RcApp rc_focus_syms[] = {{nullptr, nullptr, 0}};\nconst unsigned rc_num_focus_syms = 0;\n')
++        'const RcApp rc_focus_syms[] = {{nullptr, nullptr, 0}};\nconst unsigned rc_num_focus_syms = 0;\n'
++        'const unsigned rc_original_text_flag = 0;\n')
+     # Link against C++ declarations, verify every byte and 16-byte alignment of both images.
+     checks = ['#include <cstdint>', 'extern "C" {']
+     checks += [f'extern const unsigned char rc_image_{i}[];' for i in range(2)]
 diff --git a/tools/apps.py b/tools/apps.py
-index 919b0c2..32fef1f 100644
+index 919b0c2..5d3523d 100644
 --- a/tools/apps.py
 +++ b/tools/apps.py
-@@ -68,7 +68,8 @@ if sys.argv[1] == '--layout':
+@@ -35,7 +35,7 @@ class WriteIfChanged(io.StringIO):
+ 
+ 
+ 
+-def write_table(out_dir, rows, found):
++def write_table(out_dir, rows, found, original_text_flag=0):
+     with WriteIfChanged(os.path.join(out_dir, 'apps_table.cpp')) as f:
+         f.write('// Generated by tools/apps.py. Do not edit.\n#include "recomp_api.h"\n\n')
+         f.write('const RcApp rc_apps[] = {\n')
+@@ -51,6 +51,8 @@ def write_table(out_dir, rows, found):
+             f.write(f'    {{"{name}", "{sec}", 0x{addr:08X}u}},\n')
+         f.write('    {nullptr, nullptr, 0},\n};\n')
+         f.write(f'const unsigned rc_num_focus_syms = {len(found)};\n')
++        # The switch of a translated build that shows its original text (0: none).
++        f.write(f'const unsigned rc_original_text_flag = 0x{original_text_flag:08X}u;\n')
+ 
+ 
+ if sys.argv[1] == '--layout':
+@@ -68,7 +70,8 @@ if sys.argv[1] == '--layout':
  from elftools.elf.elffile import ELFFile
  
  build_dir, out_dir = sys.argv[1], sys.argv[2]
@@ -449,6 +561,26 @@ index 919b0c2..32fef1f 100644
  
  NAME = re.compile(r'^(?:g|s)(?:OverlayTemplate|Application|App)_(\w+?)(?:\$\d+)?$')
  SKIP = {'main_defs', 'main_table', 'DTCM', 'ITCM'}
+@@ -76,6 +79,9 @@ SKIP = {'main_defs', 'main_table', 'DTCM', 'ITCM'}
+ with open(os.path.join(build_dir, nef), 'rb') as f:
+     elf = ELFFile(f)
+     secs = [(s.name, s['sh_addr']) for s in elf.iter_sections()]
++    # A translated build's switch to its original text (src/msgdata.c in the game).
++    flag = elf.get_section_by_name('.symtab').get_symbol_by_name('gMsgDataShowOriginal')
++    original_text_flag = flag[0]['st_value'] if flag else 0
+ # Overlay ids follow the order in which overlay sections first appear.
+ overlays = []
+ bases = {}
+@@ -171,6 +177,8 @@ for name in wanted:
+         print('warning: focus symbol not found:', name, file=sys.stderr)
+     for sec, addr, size, _ in hits:
+         found.append((name, sec, addr))
+-write_table(out_dir, rows, found)
++write_table(out_dir, rows, found, original_text_flag)
+ print(len(rows), 'applications')
+ print(len(functions), 'functions in symbols.txt')
++if original_text_flag:
++    print(f'original text switch at 0x{original_text_flag:08X}')
 diff --git a/tools/focus_symbols.txt b/tools/focus_symbols.txt
 index 35081f2..ec8e05e 100644
 --- a/tools/focus_symbols.txt

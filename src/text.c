@@ -73,6 +73,19 @@ u8 TextPrinterCheckActive(u8 printerId) {
     return TextPrinterSysTaskIsActive(printerId);
 }
 
+#ifdef TRANSLATED_TEXT
+// Where an active printer has got to in its string (NULL if it is not printing), and
+// whether it waits for a button at the end of a page, past the code that ends the page.
+const u16 *TextPrinter_GetPosition(u8 printerId, BOOL *atPageEnd) {
+    if (printerId >= MAX_TEXT_PRINTERS || sTextPrinterTasks[printerId] == NULL) {
+        return NULL;
+    }
+    TextPrinter *printer = SysTask_GetData(sTextPrinterTasks[printerId]);
+    *atPageEnd = printer->state == 2 || printer->state == 3 || printer->state == 7 || printer->state == 8;
+    return printer->template.currentChar.raw;
+}
+#endif
+
 void RemoveTextPrinter(u8 printerId) {
     DestroyTextPrinterSysTask(printerId);
 }

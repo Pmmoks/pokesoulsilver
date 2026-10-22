@@ -51,6 +51,9 @@ BOOL MetatileBehavior_IsRockClimbInDirection(int facingTile, int facingDirection
 BOOL FieldSystem_FacingModelIsHeadbuttTree(FieldSystem *fieldSystem);
 BOOL Task_UseSweetScentInField(TaskManager *taskManager);
 BOOL ScrNative_WaitTextPrinter(ScriptContext *ctx);
+#ifdef TRANSLATED_TEXT
+void ovFieldMain_UpdateMessageLanguage(ScriptContext *ctx);
+#endif
 void ovFieldMain_InitMessagePrintOptions(struct MessagePrintOptions *, ScriptContext *ctx);
 void ovFieldMain_ShowMessage(ScriptContext *ctx, MsgData *msg_data, u16 msg_no, u8 can_ab_speed_up, struct MessagePrintOptions *);
 struct ScriptMenu *ScriptMenu_Create(FieldSystem *fieldSystem, u8 x, u8 y, u8 initCursorPos, u8 cancellable, u16 *ret_p, MessageFormat *msgFmt, Window *window, MsgData *msgData);

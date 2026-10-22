@@ -12,10 +12,19 @@ static void ReadMsgData_ExistingNarc_ExistingString(NARC *narc, u32 group, u32 n
 static String *ReadMsgData_ExistingNarc_NewString(NARC *narc, u32 group, u32 num, enum HeapID heapID);
 
 #ifdef TRANSLATED_TEXT
+// Nonzero while the original text is asked for. A frontend sets it every frame,
+// finding it by name in the linked program; the debug button does the same on
+// hardware that has one.
+u8 gMsgDataShowOriginal;
+
+BOOL MsgData_ShowsOriginal(void) {
+    return gMsgDataShowOriginal != 0 || (PAD_Read() & PAD_BUTTON_DEBUG) != 0;
+}
+
 // NARC_msgdata_msg holds the translated text and NARC_msgdata_msg_orig the
-// original English text, which is read instead while the debug button is held.
+// original English text, which is read instead while it is asked for.
 static NarcId MsgData_GetLanguageNarc(NarcId narcId) {
-    if (narcId == NARC_msgdata_msg && (PAD_Read() & PAD_BUTTON_DEBUG)) {
+    if (narcId == NARC_msgdata_msg && MsgData_ShowsOriginal()) {
         return NARC_msgdata_msg_orig;
     }
     return narcId;

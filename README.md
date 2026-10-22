@@ -11,7 +11,7 @@ Setup is in [INSTALL.md](INSTALL.md).
 `TRANSLATION=FRENCH` builds a French SoulSilver that shows the English original while
 the DS debug button is held ([docs/TRANSLATION.md](docs/TRANSLATION.md)), and
 `ios/build.sh` turns it into a single-screen iPhone app played with a controller, R2
-switching the language ([docs/IOS.md](docs/IOS.md)).
+held showing the English ([docs/IOS.md](docs/IOS.md)).
 
 [![Source-language coverage treemap](docs/progress/treemap.svg)](INSTALL.md#progress-reports)
 

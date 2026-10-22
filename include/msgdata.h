@@ -48,5 +48,9 @@ String *ReadMsgData_NewNarc_NewString(NarcId narc_id, u32 group, u32 num, enum H
 u32 MsgDataGetCount(MsgData *msgData);
 void ReadMsgDataIntoU16Array(MsgData *msgData, u32 msgno, u16 *dest);
 String *GetMoveName(u32 move, enum HeapID heapno);
+#ifdef TRANSLATED_TEXT
+extern u8 gMsgDataShowOriginal;
+BOOL MsgData_ShowsOriginal(void);
+#endif
 
 #endif // POKEHEARTGOLD_MSGDATA_H

@@ -2,13 +2,13 @@
 
 This builds Pokémon SoulSilver with French text into an iPhone app. It shows one
 screen, with the touch-screen buttons brought onto it, and you play it with a
-Backbone or any other MFi controller. **R2** switches between the French text
-and the English original.
+Backbone or any other MFi controller. Hold **R2** to see the English original
+of the French text.
 
 The app is [ssrecomp](https://github.com/ClickingMaster/ssrecomp), which turns
 the game's ARM9 code into native code and runs it on the melonDS core.
 `ios/ssrecomp-ios.patch` adds an iOS port to its v0.4.2 release, plus the R2
-switch and support for this repository's build output. Everything is built on
+button and support for this repository's build output. Everything is built on
 your Mac from this repository; no ROM dump is needed, but building needs the
 Metrowerks compiler and Nitro SDK that [INSTALL.md](../INSTALL.md) describes.
 The finished app contains the game: never share the `.app` or `.ipa`.
@@ -80,16 +80,20 @@ sign `build/ios/SoulSilver-FR.ipa` with your Apple ID when they install it.
 | D-pad, left stick | D-pad |
 | L1 / R1 | L / R |
 | Menu (≡) / Options (⧉) | Start / Select |
-| **R2** | **French ⇄ English text** |
+| **R2 (hold)** | **English text** |
 | L2 (hold) | fast forward |
 | Menu + Options together | pause menu (save states, layout, 60 fps, widescreen…) |
 
-The language switch works through the DS's debug button, which retail consoles
-lack and this ROM reads for nothing else. While it is held, the game reads its
-text from the English original, so everything shown after you press R2 is in
-English, and in French again after the next press. Text already on screen stays
-as it is until the game shows the next message or menu. The pause menu's first
-entry, *TEXT (R2)*, does the same without a controller.
+While R2 is held, the game reads its text from the English original. A message
+box on the map (people, signs, the story) is printed again in English at once,
+from the page you are on, and in French again when you let go. Other text
+(menus, battles, other screens) is in English when the game next draws it, so
+hold R2 before opening the menu or reaching the message. The pause menu's first
+entry, *TEXT (HOLD R2)*, keeps English on without holding anything.
+
+The app tells the game through a byte in its memory (`gMsgDataShowOriginal` in
+`src/msgdata.c`), and also holds the DS's debug button, which retail consoles lack
+and this ROM reads for nothing else; either one switches the text.
 
 Without a controller, on-screen buttons are shown; using the controller hides
 them and touching the screen brings them back. Wherever the game wants a touch,
@@ -109,7 +113,7 @@ game. It must be a SoulSilver US save.
   English: only the game's text archive is translated.
 - Pokémon caught while English is shown keep their English species name as
   their name, as a traded Pokémon would.
-- The iOS port is untested on a device so far. Its iOS-only code was checked on
-  Linux against stand-in headers, and the rest of ssrecomp builds as usual; the
-  *iOS app check* workflow (runs on pushes to ios/ on iOS_version) compiles it with Xcode
-  around a synthetic stand-in for the game code. `log.txt` helps with reports.
+- The iOS port has been played on an iPhone 17 Pro. The *iOS app check* workflow
+  (runs on pushes to ios/ on iOS_version) compiles it with Xcode around a synthetic
+  stand-in for the game code. `log.txt` helps with reports: it says, for example,
+  whether the sound ever ran short (`[audio] the queue ran dry`).
