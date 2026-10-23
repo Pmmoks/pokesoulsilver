@@ -58,8 +58,9 @@ Uninstalling the app deletes its save.
   processor draws as before. The game itself runs on the fastest cores (`[cpu]` in
   `log.txt`).
 - A phone slower than an iPhone may still not keep up with the iPhone's settings in the
-  busiest scenes, and the sound then runs short (`[audio] the queue ran dry` in
-  `log.txt`). `[perf]` lines there say how long each part of a frame took (a frame has
+  busiest scenes. The game then runs a little slower, with its sound stretched to match and
+  every other picture left out (`n of 300 not drawn` in the `[perf]` lines of `log.txt`);
+  more than about a fifth too slow and the sound runs short (`[audio] the queue ran dry`). `[perf]` lines there say how long each part of a frame took (a frame has
   16.7 ms). On the Note 9 the fast cores were held at 1.8 GHz of their 2.7 by
   the phone; Samsung's *Settings › Device care › Battery › Power mode* chooses how far
   the processor may go. *60 FPS* off in the pause menu is the next thing to try: on

@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..96568d5 100644
+index 060f4fc..785d622 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -313,7 +313,7 @@ index 060f4fc..96568d5 100644
      }
  };
  
-@@ -1031,6 +1057,223 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+@@ -1031,6 +1057,314 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
      return true;
  }
  
@@ -385,6 +385,89 @@ index 060f4fc..96568d5 100644
 +// it: as much is played as the time since the last call takes, at its own pitch, from the
 +// start of what the frames made, and the rest is left out. Each piece is joined to the one
 +// before with a short crossfade from where that one was cut, so the joins do not click.
++// Lengthens sound without changing its pitch (WSOLA): the output is made of overlapping
++// pieces of the input, a piece every Hop output samples, each taken from about Hop / factor
++// input samples after the one before, where it best continues what the one before was
++// followed by. At factor 1 every piece continues the one before exactly and the sound comes
++// out as it went in, Window samples later. When the phone cannot emulate the game at full
++// speed, its sound is stretched to last as long as it takes to play instead of running out.
++class AudioStretcher
++{
++public:
++    void Process(const int16_t* in, int frames, double factor, std::vector<int16_t>& out)
++    {
++        if (Win.empty())
++        {
++            Win.resize(Window);
++            for (int i = 0; i < Window; i++) Win[i] = 0.5f - 0.5f * cosf(6.28318531f * i / Window);
++            Overlap.assign(Hop * 2, 0.0f);
++        }
++        for (int i = 0; i < frames * 2; i++) Buf.push_back(in[i]);
++        for (;;)
++        {
++            const double nominal = Nominal + Hop / factor;
++            const int lo = std::max(0, (int)nominal - Search), hi = (int)nominal + Search;
++            const int natural = Last + Hop;
++            if (hi + Window > (int)Buf.size() / 2 || natural + Hop > (int)Buf.size() / 2) break;
++            // The piece near the place aimed at that best continues the last one. What really
++            // followed the last piece matches itself best, so while the input is not stretched
++            // (or wherever it is within reach and nothing else matches as well) the sound comes
++            // out unchanged.
++            auto score = [&](int k) {
++                double dot = 0, energy = 1e-9;
++                for (int i = 0; i < Hop; i += 4)
++                {
++                    const float x = Buf[(size_t)(k + i) * 2] + Buf[(size_t)(k + i) * 2 + 1];
++                    const float y = Buf[(size_t)(natural + i) * 2] + Buf[(size_t)(natural + i) * 2 + 1];
++                    dot += x * y;
++                    energy += x * x;
++                }
++                return dot / std::sqrt(energy);
++            };
++            int best = -1;
++            double bestScore = -1e30;
++            if (natural >= lo && natural <= hi)
++            {
++                best = natural;
++                bestScore = score(natural);
++            }
++            for (int k = lo; k <= hi; k += 2)
++            {
++                const double sc = score(k);
++                if (sc > bestScore)
++                {
++                    bestScore = sc;
++                    best = k;
++                }
++            }
++            for (int i = 0; i < Hop; i++)
++                for (int c = 0; c < 2; c++)
++                {
++                    const float v = Overlap[i * 2 + c] + Buf[(size_t)(best + i) * 2 + c] * Win[i];
++                    out.push_back((int16_t)std::clamp(lrintf(v), -32768L, 32767L));
++                    Overlap[i * 2 + c] = Buf[(size_t)(best + Hop + i) * 2 + c] * Win[Hop + i];
++                }
++            Last = best;
++            Nominal = nominal;
++            // Input before what can still be used is let go of.
++            const int drop = std::min(Last, (int)Nominal - Search) - 1;
++            if (drop > 4096)
++            {
++                Buf.erase(Buf.begin(), Buf.begin() + (size_t)drop * 2);
++                Last -= drop;
++                Nominal -= drop;
++            }
++        }
++    }
++
++private:
++    static constexpr int Window = 1024, Hop = Window / 2, Search = 256;
++    std::vector<float> Win, Overlap;
++    std::deque<float> Buf; // input, stereo
++    int Last = -Hop;       // where the last piece started in Buf
++    double Nominal = -Hop; // where the input says it should have
++};
++
 +static void QueueAudio(SDL_AudioDeviceID audio, const int16_t* in, int frames, int speed = 1)
 +{
 +    constexpr int fade = 128;            // samples (2.7 ms) of crossfade at a join
@@ -471,7 +554,15 @@ index 060f4fc..96568d5 100644
 +    pos -= frames;
 +    prev[0] = in[frames * 2 - 2];
 +    prev[1] = in[frames * 2 - 1];
-+    if (!out.empty()) SDL_QueueAudio(audio, out.data(), (Uint32)(out.size() * 2));
++    // Below the level aimed at, the emulation is not keeping up: the sound is stretched, by up
++    // to 40% when the queue is close to empty, rather than left to run out (when it is played
++    // as a gap of silence).
++    static AudioStretcher stretcher;
++    static std::vector<int16_t> stretched;
++    const double factor = 1.0 + 0.4 * std::clamp((target - level) / target, 0.0, 1.0);
++    stretched.clear();
++    stretcher.Process(out.data(), (int)out.size() / 2, factor, stretched);
++    if (!stretched.empty()) SDL_QueueAudio(audio, stretched.data(), (Uint32)(stretched.size() * 2));
 +    if (dry && SDL_GetTicks() - reportedAt > 10000)
 +    {
 +        fprintf(stderr, "[audio] the queue ran dry %u time(s)\n", dry);
@@ -537,7 +628,7 @@ index 060f4fc..96568d5 100644
  int main(int argc, char** argv)
  {
      Options opt;
-@@ -1053,11 +1296,51 @@ int main(int argc, char** argv)
+@@ -1053,11 +1387,51 @@ int main(int argc, char** argv)
              freopen("log.txt", "w", stderr);
          setvbuf(stderr, nullptr, _IOLBF, 0);
          setenv("SSR_PERF", "1", 0);
@@ -589,7 +680,7 @@ index 060f4fc..96568d5 100644
  #endif
      if (!ParseArgs(argc, argv, opt))
      {
-@@ -1138,6 +1421,21 @@ int main(int argc, char** argv)
+@@ -1138,6 +1512,21 @@ int main(int argc, char** argv)
      if (opt.headless) cfg.fps60 = false; // tests compare images with the plain renderer unless asked
      if (opt.interp60 >= 0) cfg.fps60 = opt.interp60 == 1;
      nds->GPU.GPU3D.InterpolationEnabled = cfg.fps60 && !opt.lockstep;
@@ -611,7 +702,7 @@ index 060f4fc..96568d5 100644
      // The DS-resolution 3D picture is drawn on its own thread, alongside the CPU emulation.
      if (!getenv("SSR_NO_RENDER_THREAD"))
          static_cast<melonDS::SoftRenderer&>(nds->GPU.GetRenderer3D()).SetThreaded(true, nds->GPU);
-@@ -1165,13 +1463,19 @@ int main(int argc, char** argv)
+@@ -1165,13 +1554,19 @@ int main(int argc, char** argv)
  
      if (!opt.headless)
      {
@@ -633,7 +724,7 @@ index 060f4fc..96568d5 100644
          // Controllers come through Android's own input, which knows every gamepad. With SDL's
          // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
          // left out of Android's list, and is lost if SDL cannot open it over USB itself.
-@@ -1231,7 +1535,7 @@ int main(int argc, char** argv)
+@@ -1231,7 +1626,7 @@ int main(int argc, char** argv)
          want.freq = 48000;
          want.format = AUDIO_S16SYS;
          want.channels = 2;
@@ -642,7 +733,7 @@ index 060f4fc..96568d5 100644
          audio = SDL_OpenAudioDevice(nullptr, 0, &want, nullptr, 0);
          if (audio) SDL_PauseAudioDevice(audio, 0);
  
-@@ -1258,19 +1562,22 @@ int main(int argc, char** argv)
+@@ -1258,19 +1653,22 @@ int main(int argc, char** argv)
      }
  
      // Functions whose activity selects the merged scene.
@@ -671,7 +762,7 @@ index 060f4fc..96568d5 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -1834,19 +2141,21 @@ int main(int argc, char** argv)
+@@ -1834,19 +2232,21 @@ int main(int argc, char** argv)
                  const float ease = slide * slide * (3 - 2 * slide);
                  const float picX = L * ease;
                  sc.items[0].dx = picX;
@@ -705,7 +796,7 @@ index 060f4fc..96568d5 100644
                  }
                  if (showing)
                  {
-@@ -1858,10 +2167,11 @@ int main(int argc, char** argv)
+@@ -1858,10 +2258,11 @@ int main(int argc, char** argv)
                      // there is nothing but backdrop there (above the message box).
                      float room = R - 3 - (L + cedge + 6);
                      if (room < free) room = free;
@@ -719,7 +810,7 @@ index 060f4fc..96568d5 100644
                      el.alpha = (uint8_t)(255 * ease);
                      sc.items.push_back(el);
                  }
-@@ -1909,9 +2219,67 @@ int main(int argc, char** argv)
+@@ -1909,9 +2310,67 @@ int main(int argc, char** argv)
                  }
                  held = el;
                  heldAt = now;
@@ -790,7 +881,7 @@ index 060f4fc..96568d5 100644
              }
          }
          else if (menuReturn > 0)
-@@ -2219,9 +2587,15 @@ int main(int argc, char** argv)
+@@ -2219,9 +2678,17 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -802,12 +893,14 @@ index 060f4fc..96568d5 100644
 +    // with F3 or the pause menu.
 +    bool originalText = false;
 +    bool holdOriginal = false;
-+    // While R2 is held the D-pad turns the pages of the message on screen (see below).
++    // While R2 is held the D-pad turns the pages of the message on screen, and the right stick
++    // does in either language (see below).
 +    bool pageBackHeld = false, pageOnHeld = false;
++    int stickPageHeld = 0;
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2232,8 +2606,10 @@ int main(int argc, char** argv)
+@@ -2232,8 +2699,10 @@ int main(int argc, char** argv)
      };
      auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
@@ -818,7 +911,7 @@ index 060f4fc..96568d5 100644
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2241,6 +2617,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2710,7 @@ int main(int argc, char** argv)
              { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
              { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
              { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
@@ -826,7 +919,12 @@ index 060f4fc..96568d5 100644
              { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
              { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
              { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
-@@ -2261,20 +2638,29 @@ int main(int argc, char** argv)
+@@ -2257,24 +2727,34 @@ int main(int argc, char** argv)
+     uint32_t toastUntil = 0;
+     int shownFps = 0;
+     uint32_t presented = 0, fpsSince = 0;
++    unsigned skippedFrames = 0; // not drawn, to keep up (see skipDraw)
+     auto say = [&](const std::string& msg) {
          toast = msg;
          toastUntil = frame + 120;
      };
@@ -858,7 +956,7 @@ index 060f4fc..96568d5 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2283,7 +2669,6 @@ int main(int argc, char** argv)
+@@ -2283,7 +2763,6 @@ int main(int argc, char** argv)
      uint32_t cursorShownUntil = 0;
      PadState prevPad;
      MenuInput heldNav;          // navigation directions held last tick, for edge detection
@@ -866,10 +964,16 @@ index 060f4fc..96568d5 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2314,6 +2699,13 @@ int main(int argc, char** argv)
-                 fprintf(stderr, "[perf] input %.2f  emulate %.2f  scene %.2f  compose %.2f  present %.2f  wait %.2f ms; worst frame %.1f ms\n",
+@@ -2311,9 +2790,17 @@ int main(int argc, char** argv)
+             perfFrameStart = perfT = t;
+             if (++perfN == 300)
+             {
+-                fprintf(stderr, "[perf] input %.2f  emulate %.2f  scene %.2f  compose %.2f  present %.2f  wait %.2f ms; worst frame %.1f ms\n",
++                fprintf(stderr, "[perf] input %.2f  emulate %.2f  scene %.2f  compose %.2f  present %.2f  wait %.2f ms; worst frame %.1f ms; %u of %d not drawn\n",
                      perfAcc[0] / perfN, perfAcc[1] / perfN, perfAcc[2] / perfN, perfAcc[3] / perfN, perfAcc[4] / perfN,
-                     perfAcc[5] / perfN, perfWorst);
+-                    perfAcc[5] / perfN, perfWorst);
++                    perfAcc[5] / perfN, perfWorst, skippedFrames, perfN);
++                skippedFrames = 0;
 +                double wideDraw, wideWait;
 +                int wideDraws, wideThreads;
 +                melonDS::WideTakeStats(wideDraw, wideWait, wideDraws, wideThreads);
@@ -880,15 +984,16 @@ index 060f4fc..96568d5 100644
                  for (double& a : perfAcc) a = 0;
                  perfN = 0;
                  perfWorst = 0;
-@@ -2324,6 +2716,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2811,8 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
 +        bool toggleText = false;
++        int keyPageTurn = 0; // Page Up / Page Down
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2736,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2832,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -919,15 +1024,17 @@ index 060f4fc..96568d5 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2797,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2893,9 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
 +                    else if (k == SDLK_F3) toggleText = true;
++                    else if (k == SDLK_PAGEUP) keyPageTurn = -1;
++                    else if (k == SDLK_PAGEDOWN) keyPageTurn = 1;
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +3023,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +3121,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -943,7 +1050,7 @@ index 060f4fc..96568d5 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +3066,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +3164,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -953,7 +1060,7 @@ index 060f4fc..96568d5 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +3099,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +3197,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -964,7 +1071,7 @@ index 060f4fc..96568d5 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +3155,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +3253,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -973,7 +1080,7 @@ index 060f4fc..96568d5 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +3166,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +3264,58 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -993,6 +1100,21 @@ index 060f4fc..96568d5 100644
 +            pageBackHeld = back;
 +            pageOnHeld = on;
 +        }
++        // The right stick turns the pages of the message on screen in whichever language is
++        // shown, the same way round, unless it moves the touch cursor: one page each time it
++        // is pushed out from the middle.
++        {
++            const float ax = fabsf(ps.rx), ay = fabsf(ps.ry), far = std::max(ax, ay);
++            int dir = 0;
++            if (!paused && !swallowMenuButtons && !cfg.padTouch)
++            {
++                if (far > 0.6f) dir = (ax > ay ? ps.rx : ps.ry) < 0 ? -1 : 1;
++                else if (far > 0.3f) dir = stickPageHeld; // not yet back in the middle
++            }
++            if (dir && dir != stickPageHeld && !pageTurn) pageTurn = dir;
++            stickPageHeld = dir;
++        }
++        if (keyPageTurn && !paused && !pageTurn) pageTurn = keyPageTurn;
          prevPad = ps;
 +        if (toggleText)
 +        {
@@ -1017,7 +1139,7 @@ index 060f4fc..96568d5 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3273,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3386,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -1026,7 +1148,7 @@ index 060f4fc..96568d5 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3388,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3501,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -1034,7 +1156,7 @@ index 060f4fc..96568d5 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3401,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3514,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -1042,7 +1164,7 @@ index 060f4fc..96568d5 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -2951,10 +3409,11 @@ int main(int argc, char** argv)
+@@ -2951,12 +3522,17 @@ int main(int argc, char** argv)
              {
                  rc_frame++;
                  nds->RunFrame();
@@ -1056,8 +1178,14 @@ index 060f4fc..96568d5 100644
 +                got += nds->SPU.ReadOutput(audioBuf.data() + got * 2, avail);
              }
          }
++        // Development aid: SSR_SLOW_US makes each frame that much slower, to try out how the
++        // app copes with a phone that cannot keep up.
++        static const int slowUs = getenv("SSR_SLOW_US") ? atoi(getenv("SSR_SLOW_US")) : 0;
++        if (slowUs > 0) std::this_thread::sleep_for(std::chrono::microseconds(slowUs));
          perfMark(1);
-@@ -3117,25 +3576,22 @@ int main(int argc, char** argv)
+         frame++;
+         if (!holdScript) scriptClock++;
+@@ -3117,25 +3693,22 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -1088,7 +1216,7 @@ index 060f4fc..96568d5 100644
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3197,24 +3653,30 @@ int main(int argc, char** argv)
+@@ -3197,24 +3770,30 @@ int main(int argc, char** argv)
          }
          // The top right corner, below the on-screen R button when those controls are shown
          // (their top row ends at 12% of the height).
@@ -1124,7 +1252,7 @@ index 060f4fc..96568d5 100644
          if (!updateSaid && UpdateCheck::g_done)
          {
              updateSaid = true;
-@@ -3232,7 +3694,7 @@ int main(int argc, char** argv)
+@@ -3232,7 +3811,7 @@ int main(int argc, char** argv)
              // With on-screen controls, centred below their top row (L, MENU and R end at
              // 12% of the height) instead of under the L button.
              const bool controls = touchPadUsed && touchPad.visible;
@@ -1133,7 +1261,200 @@ index 060f4fc..96568d5 100644
              canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
              canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
              overlayUsed = true;
-@@ -3450,6 +3912,16 @@ int main(int argc, char** argv)
+@@ -3313,101 +3892,116 @@ int main(int argc, char** argv)
+             perfMark(3);
+         }
+ 
++        // A frame that ends after the next should have started is not drawn (but never two in a
++        // row): when the phone cannot keep up, the time goes to the emulation, and with it the
++        // sound, rather than to pictures shown late.
++        bool skipDraw = false;
+         if (!opt.headless && top && bot)
+         {
+-            SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+-            SDL_RenderClear(renderer);
+-            if (merged)
++            static bool skippedLast = false;
++            const uint64_t frameEnd = nextTick + (uint64_t)(frameTime * perfFreq);
++            skipDraw = !skippedLast && !paused && !menu.open && !wantShot && speed == 1 && SDL_GetPerformanceCounter() > frameEnd;
++            skippedLast = skipDraw;
++            if (skipDraw) skippedFrames++;
++        }
++        if (!opt.headless && top && bot)
++        {
++            if (!skipDraw)
+             {
+-                // The graphics card puts the pieces together (gpucompose.h). SSR_CPU_COMPOSE=1
+-                // uses the compositor of the headless tests instead, for comparing the two.
+-                takeWideImage();
+-                if (!cpuCompose)
++                SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
++                SDL_RenderClear(renderer);
++                if (merged)
+                 {
+-                    if (!gpuCompose) gpuCompose = new GpuCompositor(renderer);
+-                    gpuCompose->Draw(scene, screenImages, outW, outH, cfg.smooth, &wideImage);
+-                    perfMark(3);
++                    // The graphics card puts the pieces together (gpucompose.h). SSR_CPU_COMPOSE=1
++                    // uses the compositor of the headless tests instead, for comparing the two.
++                    takeWideImage();
++                    if (!cpuCompose)
++                    {
++                        if (!gpuCompose) gpuCompose = new GpuCompositor(renderer);
++                        gpuCompose->Draw(scene, screenImages, outW, outH, cfg.smooth, &wideImage);
++                        perfMark(3);
++                    }
++                    else
++                    {
++                        int cw = outW, ch = outH;
++                        if (cfg.smooth && outH > 768)
++                        {
++                            cw = outW * 768 / outH;
++                            ch = 768;
++                        }
++                        MergedCompose(scene, screenImages, cw, ch, mergedImage, cfg.smooth, &wideImage);
++                        perfMark(3);
++                        if (!mergedTex || mergedTexW != cw || mergedTexH != ch)
++                        {
++                            if (mergedTex) SDL_DestroyTexture(mergedTex);
++                            mergedTex = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, cw, ch);
++                            mergedTexW = cw;
++                            mergedTexH = ch;
++                        }
++                        SDL_SetTextureScaleMode(mergedTex, cfg.smooth ? SDL_ScaleModeLinear : SDL_ScaleModeNearest);
++                        SDL_UpdateTexture(mergedTex, nullptr, mergedImage.data(), cw * 4);
++                        SDL_RenderCopy(renderer, mergedTex, nullptr, nullptr);
++                    }
+                 }
+                 else
+                 {
+-                    int cw = outW, ch = outH;
+-                    if (cfg.smooth && outH > 768)
+-                    {
+-                        cw = outW * 768 / outH;
+-                        ch = 768;
+-                    }
+-                    MergedCompose(scene, screenImages, cw, ch, mergedImage, cfg.smooth, &wideImage);
+-                    perfMark(3);
+-                    if (!mergedTex || mergedTexW != cw || mergedTexH != ch)
++                    SDL_UpdateTexture(tex[0], nullptr, top, 256 * 4);
++                    SDL_UpdateTexture(tex[1], nullptr, bot, 256 * 4);
++                    int first = LayoutDrawFirst(layout);
++                    for (int n = 0; n < 2; n++)
+                     {
+-                        if (mergedTex) SDL_DestroyTexture(mergedTex);
+-                        mergedTex = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, cw, ch);
+-                        mergedTexW = cw;
+-                        mergedTexH = ch;
++                        int i = n == 0 ? first : 1 - first;
++                        if (rects[i].w > 0) SDL_RenderCopy(renderer, tex[i], nullptr, &rects[i]);
+                     }
+-                    SDL_SetTextureScaleMode(mergedTex, cfg.smooth ? SDL_ScaleModeLinear : SDL_ScaleModeNearest);
+-                    SDL_UpdateTexture(mergedTex, nullptr, mergedImage.data(), cw * 4);
+-                    SDL_RenderCopy(renderer, mergedTex, nullptr, nullptr);
+                 }
+-            }
+-            else
+-            {
+-                SDL_UpdateTexture(tex[0], nullptr, top, 256 * 4);
+-                SDL_UpdateTexture(tex[1], nullptr, bot, 256 * 4);
+-                int first = LayoutDrawFirst(layout);
+-                for (int n = 0; n < 2; n++)
++                if (overlayUsed)
+                 {
+-                    int i = n == 0 ? first : 1 - first;
+-                    if (rects[i].w > 0) SDL_RenderCopy(renderer, tex[i], nullptr, &rects[i]);
++                    if (!overlayTex || overlayTexW != outW || overlayTexH != outH)
++                    {
++                        if (overlayTex) SDL_DestroyTexture(overlayTex);
++                        overlayTex = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, outW, outH);
++                        SDL_SetTextureBlendMode(overlayTex, SDL_BLENDMODE_BLEND);
++                        overlayTexW = outW;
++                        overlayTexH = outH;
++                    }
++                    if (canvas.Dirty())
++                    {
++                        const SDL_Rect dr = { canvas.x0d, canvas.y0d, canvas.x1d - canvas.x0d, canvas.y1d - canvas.y0d };
++                        SDL_UpdateTexture(overlayTex, &dr, canvas.px.data() + (size_t)dr.y * outW + dr.x, outW * 4);
++                        SDL_RenderCopy(renderer, overlayTex, &dr, &dr);
++                    }
+                 }
+-            }
+-            if (overlayUsed)
+-            {
+-                if (!overlayTex || overlayTexW != outW || overlayTexH != outH)
++                // In a window, screenshots are read back from the renderer: exactly what is shown.
++                if (wantShot)
+                 {
+-                    if (overlayTex) SDL_DestroyTexture(overlayTex);
+-                    overlayTex = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, outW, outH);
+-                    SDL_SetTextureBlendMode(overlayTex, SDL_BLENDMODE_BLEND);
+-                    overlayTexW = outW;
+-                    overlayTexH = outH;
++                    std::vector<uint32_t> back((size_t)outW * outH);
++                    if (SDL_RenderReadPixels(renderer, nullptr, SDL_PIXELFORMAT_ARGB8888, back.data(), outW * 4) == 0)
++                    {
++                        char name[64];
++                        snprintf(name, sizeof(name), "/window_%06u.png", frame);
++                        WritePNG(opt.shotDir + name, back.data(), outW, outH);
++                    }
+                 }
+-                if (canvas.Dirty())
++                if (touchPadUsed && touchPad.visible)
+                 {
+-                    const SDL_Rect dr = { canvas.x0d, canvas.y0d, canvas.x1d - canvas.x0d, canvas.y1d - canvas.y0d };
+-                    SDL_UpdateTexture(overlayTex, &dr, canvas.px.data() + (size_t)dr.y * outW + dr.x, outW * 4);
+-                    SDL_RenderCopy(renderer, overlayTex, &dr, &dr);
++                    // Lit by what the fingers hold (by label, as drawn).
++                    bool held[PAD_COUNT] = {};
++                    bool menuHeld = false;
++                    touchPad.Apply(held, menuHeld);
++                    touchPad.Draw(renderer, held, menuHeld);
+                 }
+-            }
+-            // In a window, screenshots are read back from the renderer: exactly what is shown.
+-            if (wantShot)
+-            {
+-                std::vector<uint32_t> back((size_t)outW * outH);
+-                if (SDL_RenderReadPixels(renderer, nullptr, SDL_PIXELFORMAT_ARGB8888, back.data(), outW * 4) == 0)
++                SDL_RenderPresent(renderer);
++                perfMark(4);
++                // Frames shown in the last whole second, for the FPS counter.
++                presented++;
++                const uint32_t ms = SDL_GetTicks();
++                if (ms - fpsSince >= 1000)
+                 {
+-                    char name[64];
+-                    snprintf(name, sizeof(name), "/window_%06u.png", frame);
+-                    WritePNG(opt.shotDir + name, back.data(), outW, outH);
++                    shownFps = (int)(presented * 1000 / (ms - fpsSince));
++                    presented = 0;
++                    fpsSince = ms;
+                 }
+             }
+-            if (touchPadUsed && touchPad.visible)
+-            {
+-                // Lit by what the fingers hold (by label, as drawn).
+-                bool held[PAD_COUNT] = {};
+-                bool menuHeld = false;
+-                touchPad.Apply(held, menuHeld);
+-                touchPad.Draw(renderer, held, menuHeld);
+-            }
+-            SDL_RenderPresent(renderer);
+-            perfMark(4);
+-            // Frames shown in the last whole second, for the FPS counter.
+-            presented++;
+-            const uint32_t ms = SDL_GetTicks();
+-            if (ms - fpsSince >= 1000)
+-            {
+-                shownFps = (int)(presented * 1000 / (ms - fpsSince));
+-                presented = 0;
+-                fpsSince = ms;
+-            }
+ 
+             nextTick += (uint64_t)(frameTime * perfFreq);
+             uint64_t now = SDL_GetPerformanceCounter();
+@@ -3450,6 +4044,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);

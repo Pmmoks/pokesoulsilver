@@ -84,7 +84,8 @@ sign `build/ios/SoulSilver-FR.ipa` with your Apple ID when they install it.
 | Options (⧉, left) or the Backbone button | pause menu (save states, layout, 60 fps, widescreen, sound…) |
 | Left stick click | Select (unless pause menu › STICK TOUCH CURSOR is on, which uses the stick, and R2, for touching) |
 | **R2 (hold)** | **English text** |
-| **R2 + D-pad** | **turn the pages of the conversation: left/up back, right/down on** |
+| **R2 + D-pad** | **turn the pages of the conversation in English: left/up back, right/down on** |
+| **Right stick** | **turn the pages in the language shown (French without R2): left/up back, right/down on** |
 | L2 (hold) | fast forward |
 
 While R2 is held, the game reads its text from the English original, and the text
@@ -106,6 +107,11 @@ once. Within the message on screen, going on past the page the game had reached 
 like pressing A; past its last page nothing happens. The D-pad does nothing else
 while R2 is held.
 
+The right stick turns the pages the same way in whichever language is shown, so the
+French can be read back without holding R2: a page each time it is pushed out from the
+middle (left or up back, right or down on). It does not when STICK TOUCH CURSOR is on,
+which uses the right stick for the cursor. On a keyboard, Page Up and Page Down do the same.
+
 What can't be printed again stays as it was until the game draws it next: text
 that is not from the game's text archive (numbers, names), text drawn into pictures
 (the battle's buttons and moves are in the language they were drawn in), and the
@@ -121,7 +127,10 @@ still, and *OFF* is the DS sound as it was. The music goes past full scale about
 sample in seven, which the DS cuts off with a crackle; *SMOOTH* and *SOFT* instead turn
 it down by 3 dB and bring the loudest notes down smoothly, so the game is a little quieter
 and turning the phone up makes up for it. About 80 ms of sound is kept queued, so a slow
-frame now and then does not click. Fast-forwarding plays as much of the sound as there is
+frame now and then does not click. When the device cannot run the game at full speed, the
+sound is stretched to fill the time (at its own pitch, by up to 40%) instead of running
+out and leaving gaps of silence, and every other picture is left undrawn until the game
+has caught up. Fast-forwarding plays as much of the sound as there is
 time for, at its own pitch, and joins the pieces with short crossfades.
 
 The app tells the game through a byte in its memory (`gMsgDataShowOriginal` in
