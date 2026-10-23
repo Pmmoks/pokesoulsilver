@@ -968,6 +968,54 @@ index 060f4fc..cf5bfb7 100644
      if (opt.audioStats && AudioSamples)
          fprintf(stderr, "[audio] %llu samples, peak %d, rms %.1f\n", (unsigned long long)AudioSamples, AudioPeak,
              sqrt(AudioSumSq / AudioSamples));
+diff --git a/melonDS/src/GPU2D_Soft.cpp b/melonDS/src/GPU2D_Soft.cpp
+index 90044d1..f3418b5 100644
+--- a/melonDS/src/GPU2D_Soft.cpp
++++ b/melonDS/src/GPU2D_Soft.cpp
+@@ -125,6 +125,7 @@ struct LineCache
+     u8 objWindow[256];
+     u32 line3D[256];
+     u32 out[256];
++    s32 refStep[4];  // what drawing the line added to BG2X, BG2Y, BG3X and BG3Y's running positions
+ };
+ LineCache Cache[2][192];
+ u32 CacheEpoch[2] = { 1, 1 };
+@@ -255,6 +256,14 @@ void SoftRenderer::DrawScanline(u32 line, Unit* unit)
+             else
+                 CurUnit->BGMosaicY++;
+             CurUnit->UpdateMosaicCounters(line);
++            // And the running positions of the rotated and scaled layers, which move on by
++            // a line each time one is drawn: left as they were, the next frame's picture
++            // of those layers came one line lower, every other frame.
++            for (int i = 0; i < 2; i++)
++            {
++                CurUnit->BGXRefInternal[i] += cache->refStep[2 * i];
++                CurUnit->BGYRefInternal[i] += cache->refStep[2 * i + 1];
++            }
+             memcpy(dst, cache->out, sizeof(cache->out));
+             return;
+         }
+@@ -267,8 +276,20 @@ void SoftRenderer::DrawScanline(u32 line, Unit* unit)
+         if (with3D) memcpy(cache->line3D, _3DLine, sizeof(cache->line3D));
+     }
+ 
++    s32 refBefore[4];
++    for (int i = 0; i < 2; i++)
++    {
++        refBefore[2 * i] = CurUnit->BGXRefInternal[i];
++        refBefore[2 * i + 1] = CurUnit->BGYRefInternal[i];
++    }
+     // always render regular graphics
+     DrawScanline_BGOBJ(line);
++    if (cache)
++        for (int i = 0; i < 2; i++)
++        {
++            cache->refStep[2 * i] = CurUnit->BGXRefInternal[i] - refBefore[2 * i];
++            cache->refStep[2 * i + 1] = CurUnit->BGYRefInternal[i] - refBefore[2 * i + 1];
++        }
+     CurUnit->UpdateMosaicCounters(line);
+ 
+     switch (dispmode)
 diff --git a/runtime/recomp_api.h b/runtime/recomp_api.h
 index 598d361..1663804 100644
 --- a/runtime/recomp_api.h
