@@ -2,6 +2,7 @@
 
 #include "gf_gfx_loader.h"
 #include "obj_char_transfer.h"
+#include "text_lang.h"
 
 // A FontSystem shows text that was drawn into a BG window as sprites: the window is split into OBJ cells of the 12
 // hardware sizes (largest first, row by row), each cell's tiles are loaded to OBJ VRAM and get one sprite.
@@ -130,12 +131,18 @@ TextOBJ *FontOAM_Create(TextOBJTemplate *template) {
     TextOBJ_CreateSprites(template, &list, sprites, object);
     Heap_Free(sprites);
     FontOAMCell_FreeList(&list);
+#ifdef TRANSLATED_TEXT
+    TextLang_NoteTextOBJ(template->window, object);
+#endif
     return object;
 }
 
 void FontOAM_Delete(TextOBJ *object) {
     GF_ASSERT(object != NULL);
     GF_ASSERT(object->sprites != NULL);
+#ifdef TRANSLATED_TEXT
+    TextLang_ForgetTextOBJ(object);
+#endif
     TextOBJ_DeleteSprites(object);
     Heap_Free(object->sprites);
     TextOBJ_Clear(object);
@@ -281,6 +288,9 @@ TextOBJ *TextOBJ_Create(const TextOBJTemplate *template, TextOBJLayout *layout) 
     FontOAM_LoadChars(template->window, &layout->list, sprites, template->offset, template->vram, template->heapID);
     TextOBJ_CreateSprites(template, &layout->list, sprites, object);
     Heap_Free(sprites);
+#ifdef TRANSLATED_TEXT
+    TextLang_NoteTextOBJ(template->window, object);
+#endif
     return object;
 }
 
@@ -304,6 +314,15 @@ void TextOBJ_CopyFromBGWindow(TextOBJ *object, TextOBJLayout *layout, Window *wi
     }
     Heap_Free(buffer);
 }
+
+#ifdef TRANSLATED_TEXT
+// The text of window was printed again (text.c): its sprites show it again.
+void TextOBJ_ReloadFromWindow(TextOBJ *object, Window *window, enum HeapID heapId) {
+    TextOBJLayout *layout = TextOBJLayout_New(window, heapId);
+    TextOBJ_CopyFromBGWindow(object, layout, window, heapId);
+    TextOBJLayout_Delete(layout);
+}
+#endif
 
 void FontOAM_CopyWindowChars(Window *window, int width, int height, int x, int y, void *charBuf) {
     int sourceOffset;

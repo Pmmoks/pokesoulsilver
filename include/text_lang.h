@@ -8,6 +8,7 @@
 
 struct String;
 struct Window;
+struct TextOBJ;
 
 u32 Text_Checksum(struct String *string);
 BOOL TextLang_IsBusy(void);
@@ -21,6 +22,8 @@ void TextLang_NoteCopy(struct String *dest, const struct String *src);
 
 void TextLang_NoteFill(struct Window *window, u8 fillValue, u32 x, u32 y, u32 width, u32 height, BOOL whole);
 void TextLang_NoteFree(void *start, u32 size);
+void TextLang_NoteTextOBJ(struct Window *window, struct TextOBJ *object);
+void TextLang_ForgetTextOBJ(struct TextOBJ *object);
 
 void TextLang_Update(void);
 #endif

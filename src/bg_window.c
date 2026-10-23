@@ -1597,6 +1597,9 @@ void AddTextWindowTopLeftCorner(BgConfig *bgConfig, Window *window, u8 width, u8
         window->baseTile = baseTile;
         window->pixelBuffer = ptr;
         window->colorMode = GF_BG_CLR_4BPP;
+#ifdef TRANSLATED_TEXT
+        TextLang_NoteFill(window, paletteNum & 0xF, 0, 0, 0, 0, TRUE);
+#endif
     }
 }
 
@@ -1841,7 +1844,13 @@ void FillWindowPixelRect(Window *window, u8 fillValue, u16 x, u16 y, u16 width, 
     bmp.width = window->width * 8;
     bmp.height = window->height * 8;
 
+#ifdef TRANSLATED_TEXT
+    // A window on no background (text for a sprite, such as the moves in a battle) has a
+    // colour mode of its own; src/text.c fills these too when it prints them again.
+    if (window->bgId >= GF_BG_LYR_MAX ? window->colorMode == GF_BG_CLR_4BPP : window->bgConfig->bgs[window->bgId].colorMode == GF_BG_CLR_4BPP) {
+#else
     if (window->bgConfig->bgs[window->bgId].colorMode == GF_BG_CLR_4BPP) {
+#endif
         FillBitmapRect4bit(&bmp, x, y, width, height, fillValue);
     } else {
         FillBitmapRect8bit(&bmp, x, y, width, height, fillValue);

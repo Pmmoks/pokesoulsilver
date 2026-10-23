@@ -16,7 +16,9 @@ scrolled. A frontend can turn the pages of the last message through the byte
 printed before it in the same box (the conversation, kept while the box is open or
 opens again within three seconds), until the language changes or A or B is pressed.
 Text that centres or moves its own lines (as the answer buttons do) is cleared across
-the whole width of its lines before it is printed again. `src/heap.c` and the window fills in
+the whole width of its lines before it is printed again. Text that the game shows as
+sprites (`src/font_sprite.c`, such as the moves of a battle) is copied to its sprites again
+once it is printed again. `src/heap.c` and the window fills in
 `src/bg_window.c` tell it when text is gone. Without `TRANSLATION` the build is the
 retail ROM as before.
 

@@ -112,9 +112,9 @@ French can be read back without holding R2: a page each time it is pushed out fr
 middle (left or up back, right or down on). It does not when STICK TOUCH CURSOR is on,
 which uses the right stick for the cursor. On a keyboard, Page Up and Page Down do the same.
 
-What can't be printed again stays as it was until the game draws it next: text
-that is not from the game's text archive (numbers, names), text drawn into pictures
-(the battle's buttons and moves are in the language they were drawn in), and the
+The moves in a battle change too. What can't be printed again stays as it was until
+the game draws it next: text that is not from the game's text archive (numbers, names),
+text drawn into pictures (the battle's FIGHT, BAG, POKéMON and RUN buttons), and the
 questions in Professor Oak's introduction, whose box the game lets go of once they
 are printed. The pause menu's first entry, *TEXT (HOLD R2)*, keeps English on without
 holding anything.

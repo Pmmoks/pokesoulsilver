@@ -14,6 +14,7 @@
 #include "render_text.h"
 #include "system.h"
 #include "text_lang.h"
+#include "font_sprite.h"
 #endif
 
 static const struct FontInfo *sFonts;
@@ -353,6 +354,7 @@ static void TextPrinter_FreeFocusIndicatorGfx(TextPrinter *printer) {
 #define TEXTLANG_NUM_PRINTS   24
 #define TEXTLANG_NUM_FILLS    16
 #define TEXTLANG_NUM_HISTORY  12
+#define TEXTLANG_NUM_SPRITES  16
 #define TEXTLANG_SAME_TALK    180 // frames a closed box can stay closed for the same conversation
 #define TEXTLANG_FIELDS       8
 #define TEXTLANG_LITERAL      32
@@ -411,6 +413,12 @@ typedef struct TextLangFill {
     u8 used;
 } TextLangFill;
 
+// Text of a window shown as sprites (font_sprite.c), from the window's pixels.
+typedef struct TextLangSprite {
+    TextOBJ *object;
+    void *pixelBuffer;
+} TextLangSprite;
+
 typedef struct TextLangPrint {
     Window *window;
     void *pixelBuffer; // to tell when the window is no longer the same
@@ -439,6 +447,7 @@ static struct {
     TextLangExpanded expanded[TEXTLANG_NUM_EXPANDED];
     TextLangPrint prints[TEXTLANG_NUM_PRINTS];
     TextLangFill fills[TEXTLANG_NUM_FILLS];
+    TextLangSprite sprites[TEXTLANG_NUM_SPRITES];
     TextLangExpanded expanding;
     // The messages printed before the last one in the same box, oldest first, and the one
     // being looked at while the pages are turned back into them (0: the last message).
@@ -737,6 +746,12 @@ void TextLang_NoteFree(void *start, u32 size) {
             fill->used = FALSE;
         }
     }
+    for (i = 0; i < TEXTLANG_NUM_SPRITES; i++) {
+        TextLangSprite *sprite = &sTextLang.sprites[i];
+        if (TextLang_InBlock(sprite->object, start, size) || TextLang_InBlock(sprite->pixelBuffer, start, size)) {
+            sprite->object = NULL;
+        }
+    }
     for (i = 0; i < TEXTLANG_NUM_READS; i++) {
         if (TextLang_InBlock(sTextLang.reads[i].string, start, size)) {
             sTextLang.reads[i].string = NULL;
@@ -757,6 +772,49 @@ void TextLang_NoteFree(void *start, u32 size) {
         sTextLang.boxClosed = TRUE;
         sTextLang.boxClosedAt = sTextLang.frame;
         sTextLang.historyPos = 0;
+    }
+}
+
+// The text in window was put on the sprites of object.
+void TextLang_NoteTextOBJ(Window *window, TextOBJ *object) {
+    TextLangSprite *slot = NULL;
+    int i;
+    if (window->pixelBuffer == NULL) {
+        return;
+    }
+    TextLang_ForgetTextOBJ(object);
+    for (i = 0; i < TEXTLANG_NUM_SPRITES; i++) {
+        if (sTextLang.sprites[i].object == NULL) {
+            slot = &sTextLang.sprites[i];
+            break;
+        }
+    }
+    if (slot == NULL) {
+        // All in use: the oldest goes, as the most likely to be gone already.
+        memmove(&sTextLang.sprites[0], &sTextLang.sprites[1], sizeof(TextLangSprite) * (TEXTLANG_NUM_SPRITES - 1));
+        slot = &sTextLang.sprites[TEXTLANG_NUM_SPRITES - 1];
+    }
+    slot->object = object;
+    slot->pixelBuffer = window->pixelBuffer;
+}
+
+void TextLang_ForgetTextOBJ(TextOBJ *object) {
+    int i;
+    for (i = 0; i < TEXTLANG_NUM_SPRITES; i++) {
+        if (sTextLang.sprites[i].object == object) {
+            sTextLang.sprites[i].object = NULL;
+        }
+    }
+}
+
+// Text printed again in a window that is shown as sprites is put on them again.
+static void TextLang_CopyToSprites(TextLangPrint *print) {
+    int i;
+    for (i = 0; i < TEXTLANG_NUM_SPRITES; i++) {
+        TextLangSprite *sprite = &sTextLang.sprites[i];
+        if (sprite->object != NULL && sprite->pixelBuffer == print->pixelBuffer && sprite->object->sprites != NULL) {
+            TextOBJ_ReloadFromWindow(sprite->object, print->window, HEAP_ID_DEFAULT);
+        }
     }
 }
 
@@ -926,10 +984,15 @@ static void TextLang_NotePrint(const TextPrinterTemplate *template, u8 printerId
     print->paged = paged;
     print->placed = placed;
     print->centered = !paged && !placed && template->x > 0 && width < windowWidth && (int)(2 * template->x + width) - (int)windowWidth <= 2 && (int)windowWidth - (int)(2 * template->x + width) <= 2;
-    if (paged || template->bgColor != 0) {
-        print->fill = template->bgColor;
-    } else {
-        print->fill = TextLang_FindFill(window, template->x, template->y);
+    // Text for sprites (on no background): around its letters is what the window was filled
+    // with, as the background colour of the text is not drawn there.
+    print->fill = window->bgId >= GF_BG_LYR_MAX ? TextLang_FindFill(window, template->x, template->y) : -1;
+    if (print->fill < 0) {
+        if (paged || template->bgColor != 0) {
+            print->fill = template->bgColor;
+        } else {
+            print->fill = TextLang_FindFill(window, template->x, template->y);
+        }
     }
     print->lang = print->source.lang;
     print->screen = 0;
@@ -1346,6 +1409,7 @@ static int TextLang_Reprint(TextLangPrint *print, u8 lang, int pageTurn) {
         TextPrinter_FreeFocusIndicatorGfx(tempPrinter);
         Heap_Free(tempPrinter);
         TextLang_CopyToVram(print);
+        TextLang_CopyToSprites(print);
         if (!print->paged && !print->placed) {
             print->x = x;
             print->width = width;
