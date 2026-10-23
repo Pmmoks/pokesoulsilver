@@ -113,8 +113,11 @@ are printed. The pause menu's first entry, *TEXT (HOLD R2)*, keeps English on wi
 holding anything.
 
 The pause menu's *SOUND SMOOTHING* chooses how the DS sound is resampled:
-*SMOOTH* (the default) takes away the high whine the DS's own sound has, *SOFT* is
-gentler still, and *OFF* is the DS sound as it was.
+*SMOOTH* (the default) takes away the high whine and hiss the DS's own sound has
+(its instruments are played between their samples, and the output is filtered above
+12 kHz, where the DS has nothing but mirrored copies of the music), *SOFT* is gentler
+still, and *OFF* is the DS sound as it was. About 80 ms of sound is kept queued, so a
+slow frame now and then does not click.
 
 The app tells the game through a byte in its memory (`gMsgDataShowOriginal` in
 `src/msgdata.c`), and also holds the DS's debug button, which retail consoles lack

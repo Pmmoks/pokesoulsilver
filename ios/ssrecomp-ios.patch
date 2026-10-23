@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..6ee04b8 100644
+index 060f4fc..cf5bfb7 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -294,7 +294,7 @@ index 060f4fc..6ee04b8 100644
      }
  };
  
-@@ -1031,6 +1054,78 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+@@ -1031,6 +1054,127 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
      return true;
  }
  
@@ -315,23 +315,76 @@ index 060f4fc..6ee04b8 100644
 +    }
 +}
 +
++// The DS mixes at 32768 Hz and holds each sample until the next, and many instruments are
++// recorded at lower rates still: copies of the music mirrored above those rates come out as a
++// thin high hiss. With sound smoothing on, the 48 kHz output also goes through a steep
++// low-pass filter (fourth-order Butterworth at 12 kHz), above which the DS has little else.
++static void FilterAudio(int16_t* buf, int frames, bool on)
++{
++    struct Biquad { double b0, b1, b2, a1, a2; double z1[2], z2[2]; };
++    static Biquad stages[2];
++    static bool ready = false;
++    if (!on)
++    {
++        ready = false;
++        return;
++    }
++    if (!ready)
++    {
++        const double qs[2] = { 0.5412, 1.3066 };
++        const double w = 2 * 3.14159265358979 * 12000.0 / 48000.0, c = cos(w);
++        for (int i = 0; i < 2; i++)
++        {
++            const double al = sin(w) / (2 * qs[i]), a0 = 1 + al;
++            stages[i] = { (1 - c) / 2 / a0, (1 - c) / a0, (1 - c) / 2 / a0, -2 * c / a0, (1 - al) / a0, { 0, 0 }, { 0, 0 } };
++        }
++        ready = true;
++    }
++    for (int n = 0; n < frames; n++)
++        for (int ch = 0; ch < 2; ch++)
++        {
++            double v = buf[n * 2 + ch];
++            for (Biquad& q : stages)
++            {
++                const double y = q.b0 * v + q.z1[ch];
++                q.z1[ch] = q.b1 * v - q.a1 * y + q.z2[ch];
++                q.z2[ch] = q.b2 * v - q.a2 * y;
++                v = y;
++            }
++            buf[n * 2 + ch] = (int16_t)std::clamp(lrint(v), -32768L, 32767L);
++        }
++}
++
 +// Plays one frame of the core's 48 kHz stereo output. The clock of the audio device and the
 +// frame clock never quite agree, and a queue that runs dry between frames plays a short gap
-+// of silence many times a second: a constant buzz. So about 50 ms are kept queued, and each
-+// frame's samples are stretched or squeezed by up to 0.5% to hold that level, which changes
-+// the pitch by too little to hear.
++// of silence: a click, or a buzz if it happens many times a second. So about 80 ms are kept
++// queued (a phone can take a while over a frame now and then), and the samples are played
++// slightly faster or slower, by up to 0.5%, to hold that level, which changes the pitch by
++// too little to hear. The stretching carries on from one frame to the next without a seam.
 +static void QueueAudio(SDL_AudioDeviceID audio, const int16_t* in, int frames)
 +{
 +    static std::vector<int16_t> out;
-+    static double level = -1, carry = 0;
++    static double level = -1;
++    // Where the next output sample is read, in input samples from the start of this frame's;
++    // -1 to 0 is between the last sample of the frame before (prev) and the first of this one.
++    static double pos = 0;
++    static int16_t prev[2] = { 0, 0 };
 +    static unsigned dry = 0;
 +    static uint32_t reportedAt = 0;
-+    const int target = 48000 / 20;
++    const int target = 48000 * 8 / 100;
 +    const int queued = (int)(SDL_GetQueuedAudioSize(audio) / 4);
-+    if (queued > target * 4) return; // far behind, after a stall: drop rather than lag
++    if (frames < 1) return;
++    if (queued > target * 4)
++    {
++        // Far behind, after a stall: dropped rather than heard late.
++        prev[0] = in[frames * 2 - 2];
++        prev[1] = in[frames * 2 - 1];
++        pos = 0;
++        return;
++    }
 +    if (queued == 0)
 +    {
-+        // Empty (at the start, after a pause or a stall): fill up to the level at once.
++        // Empty (at the start, after a pause or a stall): filled up to the level at once.
 +        if (level >= 0) dry++;
 +        out.assign((size_t)target * 2, 0);
 +        SDL_QueueAudio(audio, out.data(), target * 4);
@@ -341,27 +394,23 @@ index 060f4fc..6ee04b8 100644
 +    if (level < 0) level = queued;
 +    level += (queued + (queued == 0 ? target : 0) - level) * 0.05;
 +    const double ratio = 1.0 + 0.005 * std::clamp((target - level) / target, -1.0, 1.0);
-+    const double want = frames * ratio + carry;
-+    const int n = (int)want;
-+    carry = want - n;
-+    if (frames < 2 || n < 2)
++    const double step = 1.0 / ratio;
++    out.clear();
++    for (; pos < frames - 1; pos += step)
 +    {
-+        SDL_QueueAudio(audio, in, frames * 4);
-+    }
-+    else
-+    {
-+        out.resize((size_t)n * 2);
-+        const double step = (double)(frames - 1) / (n - 1);
-+        for (int i = 0; i < n; i++)
++        const int j = (int)std::floor(pos);
++        const double f = pos - j;
++        for (int c = 0; c < 2; c++)
 +        {
-+            const double pos = i * step;
-+            const int j = std::min((int)pos, frames - 2);
-+            const double f = pos - j;
-+            for (int c = 0; c < 2; c++)
-+                out[i * 2 + c] = (int16_t)lrint(in[j * 2 + c] * (1 - f) + in[(j + 1) * 2 + c] * f);
++            const double a = j < 0 ? prev[c] : in[j * 2 + c];
++            const double b = in[(j + 1) * 2 + c];
++            out.push_back((int16_t)lrint(a + (b - a) * f));
 +        }
-+        SDL_QueueAudio(audio, out.data(), n * 4);
 +    }
++    pos -= frames;
++    prev[0] = in[frames * 2 - 2];
++    prev[1] = in[frames * 2 - 1];
++    if (!out.empty()) SDL_QueueAudio(audio, out.data(), (Uint32)(out.size() * 2));
 +    if (dry && SDL_GetTicks() - reportedAt > 10000)
 +    {
 +        fprintf(stderr, "[audio] the queue ran dry %u time(s)\n", dry);
@@ -373,7 +422,7 @@ index 060f4fc..6ee04b8 100644
  int main(int argc, char** argv)
  {
      Options opt;
-@@ -1058,6 +1153,27 @@ int main(int argc, char** argv)
+@@ -1058,6 +1202,27 @@ int main(int argc, char** argv)
          argc = (int)androidArgv.size();
          argv = androidArgv.data();
      }
@@ -401,7 +450,7 @@ index 060f4fc..6ee04b8 100644
  #endif
      if (!ParseArgs(argc, argv, opt))
      {
-@@ -1138,6 +1254,19 @@ int main(int argc, char** argv)
+@@ -1138,6 +1303,19 @@ int main(int argc, char** argv)
      if (opt.headless) cfg.fps60 = false; // tests compare images with the plain renderer unless asked
      if (opt.interp60 >= 0) cfg.fps60 = opt.interp60 == 1;
      nds->GPU.GPU3D.InterpolationEnabled = cfg.fps60 && !opt.lockstep;
@@ -421,7 +470,7 @@ index 060f4fc..6ee04b8 100644
      // The DS-resolution 3D picture is drawn on its own thread, alongside the CPU emulation.
      if (!getenv("SSR_NO_RENDER_THREAD"))
          static_cast<melonDS::SoftRenderer&>(nds->GPU.GetRenderer3D()).SetThreaded(true, nds->GPU);
-@@ -1165,13 +1294,19 @@ int main(int argc, char** argv)
+@@ -1165,13 +1343,19 @@ int main(int argc, char** argv)
  
      if (!opt.headless)
      {
@@ -443,7 +492,16 @@ index 060f4fc..6ee04b8 100644
          // Controllers come through Android's own input, which knows every gamepad. With SDL's
          // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
          // left out of Android's list, and is lost if SDL cannot open it over USB itself.
-@@ -1258,19 +1393,22 @@ int main(int argc, char** argv)
+@@ -1231,7 +1415,7 @@ int main(int argc, char** argv)
+         want.freq = 48000;
+         want.format = AUDIO_S16SYS;
+         want.channels = 2;
+-        want.samples = 1024;
++        want.samples = 512;
+         audio = SDL_OpenAudioDevice(nullptr, 0, &want, nullptr, 0);
+         if (audio) SDL_PauseAudioDevice(audio, 0);
+ 
+@@ -1258,19 +1442,22 @@ int main(int argc, char** argv)
      }
  
      // Functions whose activity selects the merged scene.
@@ -472,7 +530,7 @@ index 060f4fc..6ee04b8 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -1834,19 +1972,21 @@ int main(int argc, char** argv)
+@@ -1834,19 +2021,21 @@ int main(int argc, char** argv)
                  const float ease = slide * slide * (3 - 2 * slide);
                  const float picX = L * ease;
                  sc.items[0].dx = picX;
@@ -506,7 +564,7 @@ index 060f4fc..6ee04b8 100644
                  }
                  if (showing)
                  {
-@@ -1858,10 +1998,11 @@ int main(int argc, char** argv)
+@@ -1858,10 +2047,11 @@ int main(int argc, char** argv)
                      // there is nothing but backdrop there (above the message box).
                      float room = R - 3 - (L + cedge + 6);
                      if (room < free) room = free;
@@ -520,7 +578,7 @@ index 060f4fc..6ee04b8 100644
                      el.alpha = (uint8_t)(255 * ease);
                      sc.items.push_back(el);
                  }
-@@ -1909,9 +2050,67 @@ int main(int argc, char** argv)
+@@ -1909,9 +2099,67 @@ int main(int argc, char** argv)
                  }
                  held = el;
                  heldAt = now;
@@ -591,7 +649,7 @@ index 060f4fc..6ee04b8 100644
              }
          }
          else if (menuReturn > 0)
-@@ -2219,9 +2418,15 @@ int main(int argc, char** argv)
+@@ -2219,9 +2467,15 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -608,7 +666,7 @@ index 060f4fc..6ee04b8 100644
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2232,8 +2437,10 @@ int main(int argc, char** argv)
+@@ -2232,8 +2486,10 @@ int main(int argc, char** argv)
      };
      auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
@@ -619,7 +677,7 @@ index 060f4fc..6ee04b8 100644
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2241,6 +2448,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2497,7 @@ int main(int argc, char** argv)
              { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
              { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
              { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
@@ -627,7 +685,7 @@ index 060f4fc..6ee04b8 100644
              { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
              { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
              { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
-@@ -2268,13 +2476,22 @@ int main(int argc, char** argv)
+@@ -2268,13 +2525,22 @@ int main(int argc, char** argv)
  
      std::vector<uint32_t> shot;
      std::vector<int16_t> audioBuf(48000 * 2);
@@ -651,7 +709,7 @@ index 060f4fc..6ee04b8 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2283,7 +2500,6 @@ int main(int argc, char** argv)
+@@ -2283,7 +2549,6 @@ int main(int argc, char** argv)
      uint32_t cursorShownUntil = 0;
      PadState prevPad;
      MenuInput heldNav;          // navigation directions held last tick, for edge detection
@@ -659,7 +717,7 @@ index 060f4fc..6ee04b8 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2324,6 +2540,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2589,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -667,7 +725,7 @@ index 060f4fc..6ee04b8 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2560,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2609,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -698,7 +756,7 @@ index 060f4fc..6ee04b8 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2621,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2670,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -706,7 +764,7 @@ index 060f4fc..6ee04b8 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +2847,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +2896,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -722,7 +780,7 @@ index 060f4fc..6ee04b8 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +2890,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +2939,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -732,7 +790,7 @@ index 060f4fc..6ee04b8 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +2923,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +2972,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -743,7 +801,7 @@ index 060f4fc..6ee04b8 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +2979,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +3028,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -752,7 +810,7 @@ index 060f4fc..6ee04b8 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +2990,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +3039,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -796,7 +854,7 @@ index 060f4fc..6ee04b8 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3097,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3146,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -805,7 +863,7 @@ index 060f4fc..6ee04b8 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3212,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3261,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -813,7 +871,7 @@ index 060f4fc..6ee04b8 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3225,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3274,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -821,7 +879,7 @@ index 060f4fc..6ee04b8 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -3117,25 +3399,21 @@ int main(int argc, char** argv)
+@@ -3117,25 +3448,22 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -846,12 +904,13 @@ index 060f4fc..6ee04b8 100644
 -            if (SDL_GetQueuedAudioSize(audio) < 48000 * 4 / 4)
 -                SDL_QueueAudio(audio, audioBuf.data(), got * 4);
 -        }
++        if (got > 0) FilterAudio(audioBuf.data(), got, cfg.soundSmoothing != 0);
 +        if (audio && got > 0) QueueAudio(audio, audioBuf.data(), got);
 +        if (wavFile && got > 0) wavBytes += (uint32_t)fwrite(audioBuf.data(), 4, got, wavFile) * 4;
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3197,21 +3475,27 @@ int main(int argc, char** argv)
+@@ -3197,21 +3525,27 @@ int main(int argc, char** argv)
          }
          // The top right corner, below the on-screen R button when those controls are shown
          // (their top row ends at 12% of the height).
@@ -883,7 +942,7 @@ index 060f4fc..6ee04b8 100644
              overlayUsed = true;
          }
  #ifdef __ANDROID__
-@@ -3232,7 +3516,7 @@ int main(int argc, char** argv)
+@@ -3232,7 +3566,7 @@ int main(int argc, char** argv)
              // With on-screen controls, centred below their top row (L, MENU and R end at
              // 12% of the height) instead of under the L button.
              const bool controls = touchPadUsed && touchPad.visible;
@@ -892,7 +951,7 @@ index 060f4fc..6ee04b8 100644
              canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
              canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
              overlayUsed = true;
-@@ -3450,6 +3734,16 @@ int main(int argc, char** argv)
+@@ -3450,6 +3784,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);
