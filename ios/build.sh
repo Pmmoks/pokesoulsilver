@@ -193,10 +193,12 @@ import json, sys
 devices = json.load(open(sys.argv[1]))["result"]["devices"]
 paired = [d for d in devices if d.get("hardwareProperties", {}).get("platform") == "iOS"
           and d.get("connectionProperties", {}).get("pairingState") == "paired"]
-# Prefer the device connected now (by cable first) over others paired with this Mac before.
+# Prefer the device connected now (by cable first), then one that can be reached, over others
+# paired with this Mac before and now out of reach.
 def rank(d):
     c = d.get("connectionProperties", {})
-    return (c.get("tunnelState") != "connected", c.get("transportType") != "wired")
+    tunnel = {"connected": 0, "disconnected": 1}.get(c.get("tunnelState"), 2)
+    return (tunnel, c.get("transportType") != "wired")
 if paired:
     print(sorted(paired, key=rank)[0]["identifier"])
 PY
