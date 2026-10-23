@@ -375,6 +375,13 @@ RenderResult RenderText(TextPrinter *printer) {
     return RENDER_FINISH;
 }
 
+#ifdef TRANSLATED_TEXT
+// A printer waiting for a button is about to show another page (text.c).
+void TextPrinter_ClearDownArrowForReprint(TextPrinter *printer) {
+    TextPrinter_ClearDownArrow(printer);
+}
+#endif
+
 void TextPrinter_SetDownArrowBaseTile(int tile) {
     sDownArrowBaseTile = tile;
 }

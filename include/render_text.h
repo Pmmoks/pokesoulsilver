@@ -47,5 +47,8 @@ void TextFlags_SetFastForwardTouchButtonHitbox(const TouchscreenHitbox *hitbox);
 void TextFlags_UnsetFastForwardTouchButtonHitbox(void);
 void TextFlags_BeginAutoScroll(BOOL noSpeedUp);
 void TextFlags_EndAutoScroll(void);
+#ifdef TRANSLATED_TEXT
+void TextPrinter_ClearDownArrowForReprint(TextPrinter *printer);
+#endif
 
 #endif // POKEHEARTGOLD_RENDER_TEXT_H

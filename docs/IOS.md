@@ -83,7 +83,7 @@ sign `build/ios/SoulSilver-FR.ipa` with your Apple ID when they install it.
 | Options (⧉, left) or the Backbone button | pause menu (save states, layout, 60 fps, widescreen, sound…) |
 | Left stick click | Select (unless pause menu › STICK TOUCH CURSOR is on, which uses the stick, and R2, for touching) |
 | **R2 (hold)** | **English text** |
-| **R2 + D-pad** | **turn the pages of the message: left/up back, right/down on** |
+| **R2 + D-pad** | **turn the pages of the conversation: left/up back, right/down on** |
 | L2 (hold) | fast forward |
 
 While R2 is held, the game reads its text from the English original, and the text
@@ -91,18 +91,25 @@ already on screen is printed again in English: messages on the map and in battle
 Professor Oak's introduction, menus, lists and other screens. When you let go it
 goes back to French. A message being printed carries on from the same page in the
 other language. The names in a message (Pokémon, moves, items, places) change too;
-only names someone typed (yours, your rival's, nicknames) are the same in both.
+only names someone typed (yours, your rival's, nicknames) are the same in both, and so
+is a wild Pokémon's, which the game keeps as that Pokémon's own name.
 
 Pages are matched by box: the French and English messages clear the box as often,
 but French sometimes needs an extra scrolled line, so the match can be one line off.
 Keep R2 held and use the D-pad to go back or on a page in either language and line
-them up; letting go of R2 shows the French of the page you are on. Going on past
-the page the game had reached is like pressing A. The D-pad does nothing else while
-R2 is held.
+them up; letting go of R2 shows the French of the page you are on. Going back from
+the first page of a message goes on into the messages before it in the same box, as
+far back as the start of the conversation (twelve messages at most), and going on
+comes back to the message on screen; A or B, or letting go of R2, returns to it at
+once. Within the message on screen, going on past the page the game had reached is
+like pressing A; past its last page nothing happens. The D-pad does nothing else
+while R2 is held.
 
 What can't be printed again stays as it was until the game draws it next: text
-that is not from the game's text archive (numbers, names), and text drawn into
-pictures. The pause menu's first entry, *TEXT (HOLD R2)*, keeps English on without
+that is not from the game's text archive (numbers, names), text drawn into pictures
+(the battle's buttons and moves are in the language they were drawn in), and the
+questions in Professor Oak's introduction, whose box the game lets go of once they
+are printed. The pause menu's first entry, *TEXT (HOLD R2)*, keeps English on without
 holding anything.
 
 The pause menu's *SOUND SMOOTHING* chooses how the DS sound is resampled:

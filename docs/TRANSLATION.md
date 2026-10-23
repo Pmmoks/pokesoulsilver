@@ -12,7 +12,11 @@ from the archive is noted with where it came from, so is text made from it by
 each print of such text is noted with its window. A message being printed carries on
 from the same page, matched by the number of times the box was cleared and then
 scrolled. A frontend can turn the pages of the last message through the byte
-`gMsgDataPageTurn` (-1 back, 1 on). `src/heap.c` and the window fills in
+`gMsgDataPageTurn` (-1 back, 1 on); back from its first page it shows the messages
+printed before it in the same box (the conversation, kept while the box is open or
+opens again within three seconds), until the language changes or A or B is pressed.
+Text that centres or moves its own lines (as the answer buttons do) is cleared across
+the whole width of its lines before it is printed again. `src/heap.c` and the window fills in
 `src/bg_window.c` tell it when text is gone. Without `TRANSLATION` the build is the
 retail ROM as before.
 

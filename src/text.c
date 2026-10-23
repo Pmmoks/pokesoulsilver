@@ -11,6 +11,8 @@
 #include "msgdata/msg.naix"
 
 #include "msgdata.h"
+#include "render_text.h"
+#include "system.h"
 #include "text_lang.h"
 #endif
 
@@ -343,12 +345,15 @@ static void TextPrinter_FreeFocusIndicatorGfx(TextPrinter *printer) {
 // printed. Once the language changes, each noted print still on screen is read again in
 // the language now shown and printed over the old one: a message being printed goes on in
 // the other language from the same page. The pages of the last message can also be turned
-// back and forth (gMsgDataPageTurn).
+// back and forth (gMsgDataPageTurn), and back from its first page into the messages printed
+// before it in the same box (the conversation so far).
 
 #define TEXTLANG_NUM_READS    64
 #define TEXTLANG_NUM_EXPANDED 16
 #define TEXTLANG_NUM_PRINTS   24
 #define TEXTLANG_NUM_FILLS    16
+#define TEXTLANG_NUM_HISTORY  12
+#define TEXTLANG_SAME_TALK    180 // frames a closed box can stay closed for the same conversation
 #define TEXTLANG_FIELDS       8
 #define TEXTLANG_LITERAL      32
 #define TEXTLANG_TEXT_LENGTH  1024
@@ -424,6 +429,7 @@ typedef struct TextLangPrint {
     u8 printerId; // MAX_TEXT_PRINTERS once the printer has finished
     u8 paged;     // printed letter by letter, as messages are
     u8 centered;
+    u8 placed;    // the text places its own lines (centred or moved): its whole lines are cleared
     u8 lang;
     u8 screen, scroll; // the page shown: screens are cleared before, scrolls scroll up
 } TextLangPrint;
@@ -434,10 +440,20 @@ static struct {
     TextLangPrint prints[TEXTLANG_NUM_PRINTS];
     TextLangFill fills[TEXTLANG_NUM_FILLS];
     TextLangExpanded expanding;
+    // The messages printed before the last one in the same box, oldest first, and the one
+    // being looked at while the pages are turned back into them (0: the last message).
+    TextLangSource history[TEXTLANG_NUM_HISTORY];
+    TextLangSource lastPaged;
+    Window *lastPagedWindow;
+    void *lastPagedPixels;
+    u32 frame, boxClosedAt; // in calls of TextLang_Update
     u32 age;
     u8 nextRead, nextExpanded, nextFill;
     u8 expandingValid;
     u8 busy;
+    u8 historyCount, historyPos, historyPage;
+    u8 shownLang;
+    u8 boxClosed;
 } sTextLang;
 
 static BOOL TextLang_InRam(const void *ptr) {
@@ -731,6 +747,17 @@ void TextLang_NoteFree(void *start, u32 size) {
             sTextLang.expanded[i].string = NULL;
         }
     }
+    // The box of the conversation is gone, and with it the conversation; a box closed is the
+    // same conversation if it opens again soon (some messages have a box each).
+    if (TextLang_InBlock(sTextLang.lastPagedWindow, start, size)) {
+        sTextLang.lastPagedWindow = NULL;
+        sTextLang.historyCount = 0;
+        sTextLang.historyPos = 0;
+    } else if (sTextLang.lastPagedWindow != NULL && !sTextLang.boxClosed && TextLang_InBlock(sTextLang.lastPagedPixels, start, size)) {
+        sTextLang.boxClosed = TRUE;
+        sTextLang.boxClosedAt = sTextLang.frame;
+        sTextLang.historyPos = 0;
+    }
 }
 
 static int TextLang_FindFill(Window *window, u32 x, u32 y) {
@@ -761,6 +788,48 @@ static u32 TextLang_TextHeight(const u16 *text, u8 fontId, u16 lineSpacing) {
     return lines * TextLang_LineHeight(fontId, lineSpacing) + GetFontAttribute(fontId, 1);
 }
 
+// Whether text places its own lines (centred, right-aligned or moved), so that what it covers
+// is not where it was asked to be printed.
+static BOOL TextLang_PlacesItself(const u16 *text) {
+    while (*text != EOS) {
+        if (*text == EXT_CTRL_CODE_BEGIN) {
+            int code = (u16)MsgArray_GetControlCode(text);
+            if (code >= 0x203 && code <= 0x206) {
+                return TRUE;
+            }
+            text = MsgArray_SkipControlCode(text);
+        } else if (*text == 0xF0FD) {
+            text += 2;
+        } else {
+            text++;
+        }
+    }
+    return FALSE;
+}
+
+static BOOL TextLang_SameSource(const TextLangSource *a, const TextLangSource *b) {
+    return a->fileId == b->fileId && a->msgNum == b->msgNum && a->expanded == b->expanded;
+}
+
+// A message is printed in window: the one printed in it before goes into the conversation,
+// or a conversation starts in another box.
+static void TextLang_NoteConversation(Window *window, const TextLangSource *source) {
+    if (window != sTextLang.lastPagedWindow || (sTextLang.boxClosed && sTextLang.frame - sTextLang.boxClosedAt > TEXTLANG_SAME_TALK)) {
+        sTextLang.historyCount = 0;
+    } else if (!TextLang_SameSource(source, &sTextLang.lastPaged)) {
+        if (sTextLang.historyCount == TEXTLANG_NUM_HISTORY) {
+            MI_CpuCopy8(&sTextLang.history[1], &sTextLang.history[0], sizeof(TextLangSource) * (TEXTLANG_NUM_HISTORY - 1));
+            sTextLang.historyCount--;
+        }
+        sTextLang.history[sTextLang.historyCount++] = sTextLang.lastPaged;
+    }
+    sTextLang.lastPaged = *source;
+    sTextLang.lastPagedWindow = window;
+    sTextLang.lastPagedPixels = window->pixelBuffer;
+    sTextLang.boxClosed = FALSE;
+    sTextLang.historyPos = 0;
+}
+
 static BOOL TextLang_WindowIsSame(TextLangPrint *print) {
     Window *window = print->window;
     return TextLang_InRam(window) && window->pixelBuffer == print->pixelBuffer && window->pixelBuffer != NULL
@@ -778,17 +847,22 @@ static void TextLang_NotePrint(const TextPrinterTemplate *template, u8 printerId
     TextLangPrint *print;
     u32 width, height, windowWidth;
     BOOL paged = printerId < MAX_TEXT_PRINTERS;
+    BOOL placed;
     int i;
 
     if (sTextLang.busy || !TextLang_InRam(window) || window->pixelBuffer == NULL || !TextLang_StringIsValid(string)) {
         return;
     }
     windowWidth = window->width * 8;
-    if (paged) {
+    placed = !paged && TextLang_PlacesItself(String_cstr(string));
+    if (paged || placed) {
         width = windowWidth > template->x ? windowWidth - template->x : 0;
-        height = window->height * 8 > template->y ? window->height * 8 - template->y : 0;
     } else {
         width = FontID_String_GetWidthMultiline(template->fontId, string, template->letterSpacing);
+    }
+    if (paged) {
+        height = window->height * 8 > template->y ? window->height * 8 - template->y : 0;
+    } else {
         height = TextLang_TextHeight(String_cstr(string), template->fontId, template->lineSpacing);
     }
 
@@ -850,7 +924,8 @@ static void TextLang_NotePrint(const TextPrinterTemplate *template, u8 printerId
     print->height = height;
     print->printerId = printerId;
     print->paged = paged;
-    print->centered = !paged && template->x > 0 && width < windowWidth && (int)(2 * template->x + width) - (int)windowWidth <= 2 && (int)windowWidth - (int)(2 * template->x + width) <= 2;
+    print->placed = placed;
+    print->centered = !paged && !placed && template->x > 0 && width < windowWidth && (int)(2 * template->x + width) - (int)windowWidth <= 2 && (int)windowWidth - (int)(2 * template->x + width) <= 2;
     if (paged || template->bgColor != 0) {
         print->fill = template->bgColor;
     } else {
@@ -860,6 +935,9 @@ static void TextLang_NotePrint(const TextPrinterTemplate *template, u8 printerId
     print->screen = 0;
     print->scroll = 0;
     print->used = TRUE;
+    if (paged) {
+        TextLang_NoteConversation(window, &print->source);
+    }
 }
 
 // Where a printer next waits for a button, from text: returns where the page after it
@@ -902,12 +980,15 @@ static const u16 *TextLang_NextBreak(const u16 *text, const u16 **lineStart, BOO
     return NULL;
 }
 
+// The pages of text that hold something: a wait at its very end does not start another.
 static int TextLang_PageCount(const u16 *text) {
     const u16 *lineStart;
     BOOL scroll;
     int count = 1;
     while ((text = TextLang_NextBreak(text, &lineStart, &scroll)) != NULL) {
-        count++;
+        if (*text != EOS) {
+            count++;
+        }
     }
     return count;
 }
@@ -998,6 +1079,10 @@ static void TextLang_FillPage(TextLangPrint *print, u32 x, u32 width) {
     }
 }
 
+static BOOL TextLang_IsWaiting(TextPrinter *printer) {
+    return printer->state == 2 || printer->state == 3 || printer->state == 7 || printer->state == 8;
+}
+
 // Prints page of text with printer as print was printed (at x), all at once: up to where
 // the page waits for a button (where printer is left, waiting) or the end of text (TRUE).
 static BOOL TextLang_ShowPage(TextPrinter *printer, TextLangPrint *print, const u16 *text, int page, u32 x) {
@@ -1008,6 +1093,9 @@ static BOOL TextLang_ShowPage(TextPrinter *printer, TextLangPrint *print, const 
     BOOL pageEnd = FALSE;
     int i;
 
+    if (printer->id < MAX_TEXT_PRINTERS && TextLang_IsWaiting(printer)) {
+        TextPrinter_ClearDownArrowForReprint(printer);
+    }
     printer->template.currentChar.raw = displayStart;
     printer->template.window = print->window;
     printer->template.fontId = print->fontId;
@@ -1155,23 +1243,22 @@ static TextPrinter *TextLang_GetPrinter(TextLangPrint *print) {
         return NULL;
     }
     start = String_cstr(print->string);
-    if (printer->template.currentChar.raw < start || printer->template.currentChar.raw > start + print->string->size) {
+    // (Past the end of text by one once the printer has read its end.)
+    if (printer->template.currentChar.raw < start || printer->template.currentChar.raw > start + print->string->size + 1) {
         return NULL;
     }
     return printer;
 }
 
-static BOOL TextLang_IsWaiting(TextPrinter *printer) {
-    return printer->state == 2 || printer->state == 3 || printer->state == 7 || printer->state == 8;
-}
-
 // Prints print again in the language now shown (lang), from the same page or pageTurn
-// pages on.
-static void TextLang_Reprint(TextLangPrint *print, u8 lang, int pageTurn) {
+// pages on. Returns -1 if that would be before its first page (and its printer, if any, is
+// waiting for a button), else 0.
+static int TextLang_Reprint(TextLangPrint *print, u8 lang, int pageTurn) {
     TextPrinter *printer = TextLang_GetPrinter(print);
     String *text = NULL;
     const u16 *chars;
     int page, pageCount;
+    int result = 0;
     BOOL finished;
 
     sTextLang.busy = TRUE;
@@ -1199,6 +1286,9 @@ static void TextLang_Reprint(TextLangPrint *print, u8 lang, int pageTurn) {
     page = TextLang_ScreenToPage(chars, print->screen, print->scroll);
     if (pageTurn != 0) {
         pageCount = TextLang_PageCount(chars);
+        if (page + pageTurn < 0 && (printer == NULL || TextLang_IsWaiting(printer))) {
+            result = -1;
+        }
         if (page + pageTurn < 0 || page + pageTurn >= pageCount) {
             goto done;
         }
@@ -1228,7 +1318,13 @@ static void TextLang_Reprint(TextLangPrint *print, u8 lang, int pageTurn) {
         }
         MI_CpuClear8(tempPrinter, sizeof(TextPrinter));
         tempPrinter->id = MAX_TEXT_PRINTERS;
-        if (!print->paged) {
+        if (!print->paged && print->placed) {
+            // Its lines are where its own commands put them: all of them are cleared.
+            u32 height = TextLang_TextHeight(chars, print->fontId, print->lineSpacing);
+            if (height > print->height) {
+                print->height = height;
+            }
+        } else if (!print->paged) {
             u32 windowWidth = print->windowWidth * 8;
             u32 height = TextLang_TextHeight(chars, print->fontId, print->lineSpacing);
             width = FontID_String_GetWidthMultiline(print->fontId, text, print->letterSpacing);
@@ -1250,7 +1346,7 @@ static void TextLang_Reprint(TextLangPrint *print, u8 lang, int pageTurn) {
         TextPrinter_FreeFocusIndicatorGfx(tempPrinter);
         Heap_Free(tempPrinter);
         TextLang_CopyToVram(print);
-        if (!print->paged) {
+        if (!print->paged && !print->placed) {
             print->x = x;
             print->width = width;
         }
@@ -1262,6 +1358,93 @@ done:
         String_Delete(text);
     }
     sTextLang.busy = FALSE;
+    return result;
+}
+
+// Reads the message historyPos messages before the last one again, in the language now
+// shown, into dest.
+static BOOL TextLang_ReadHistory(String *dest) {
+    return TextLang_ReadAgain(&sTextLang.history[sTextLang.historyCount - sTextLang.historyPos], dest);
+}
+
+static int TextLang_HistoryPageCount(void) {
+    String *text = String_New(TEXTLANG_TEXT_LENGTH, HEAP_ID_DEFAULT);
+    int count = 1;
+    if (text != NULL) {
+        sTextLang.busy = TRUE;
+        if (TextLang_ReadHistory(text)) {
+            count = TextLang_PageCount(String_cstr(text));
+        }
+        sTextLang.busy = FALSE;
+        String_Delete(text);
+    }
+    return count;
+}
+
+// Shows page historyPage (0xFF: the last) of the message historyPos messages before the last
+// one in the box of print, the last message, whose printer is left as it is.
+static void TextLang_ShowHistory(TextLangPrint *print) {
+    String *text = String_New(TEXTLANG_TEXT_LENGTH, HEAP_ID_DEFAULT);
+    TextPrinter *tempPrinter = Heap_Alloc(HEAP_ID_DEFAULT, sizeof(TextPrinter));
+    int count;
+
+    sTextLang.busy = TRUE;
+    if (text != NULL && tempPrinter != NULL && FontID_IsLoaded(print->fontId) && TextLang_ReadHistory(text) && text->size != 0) {
+        count = TextLang_PageCount(String_cstr(text));
+        if (sTextLang.historyPage >= count) {
+            sTextLang.historyPage = count - 1;
+        }
+        MI_CpuClear8(tempPrinter, sizeof(TextPrinter));
+        tempPrinter->id = MAX_TEXT_PRINTERS;
+        TextLang_FillPage(print, print->x, print->width);
+        TextLang_ShowPage(tempPrinter, print, String_cstr(text), sTextLang.historyPage, print->x);
+        TextPrinter_FreeFocusIndicatorGfx(tempPrinter);
+        TextLang_CopyToVram(print);
+    }
+    if (tempPrinter != NULL) {
+        Heap_Free(tempPrinter);
+    }
+    if (text != NULL) {
+        String_Delete(text);
+    }
+    sTextLang.busy = FALSE;
+}
+
+// Turns the pages of the last message (last) by pageTurn, going on into the messages printed
+// before it in the same box from its first page, and back.
+static void TextLang_TurnPages(TextLangPrint *last, u8 lang, int pageTurn) {
+    int page;
+    if (sTextLang.lastPagedWindow != last->window) {
+        sTextLang.historyCount = 0;
+        sTextLang.historyPos = 0;
+    }
+    if (sTextLang.historyPos == 0) {
+        if (TextLang_Reprint(last, lang, pageTurn) < 0 && sTextLang.historyCount != 0) {
+            sTextLang.historyPos = 1;
+            sTextLang.historyPage = 0xFF;
+            TextLang_ShowHistory(last);
+        }
+        return;
+    }
+    page = sTextLang.historyPage + pageTurn;
+    if (page < 0) {
+        if (sTextLang.historyPos < sTextLang.historyCount) {
+            sTextLang.historyPos++;
+            sTextLang.historyPage = 0xFF;
+        } else {
+            sTextLang.historyPage = 0; // the first message of the conversation
+        }
+    } else if (page >= TextLang_HistoryPageCount()) {
+        sTextLang.historyPos--;
+        sTextLang.historyPage = 0;
+    } else {
+        sTextLang.historyPage = page;
+    }
+    if (sTextLang.historyPos == 0) {
+        TextLang_Reprint(last, lang, 0); // back to the page the game is on
+    } else {
+        TextLang_ShowHistory(last);
+    }
 }
 
 // A printer is about to go: its message stays on the page it was on.
@@ -1285,12 +1468,21 @@ void TextLang_Update(void) {
     u8 lang = TextLang_Current();
     int pageTurn = gMsgDataPageTurn;
     TextLangPrint *last = NULL;
+    BOOL leaveHistory;
     int i;
 
     gMsgDataPageTurn = 0;
+    sTextLang.frame++;
     if (sFonts == NULL) {
         return;
     }
+    // Looking at the conversation so far ends when the language changes (the last message is
+    // printed again below) or the game goes on (with its page back first, as it was).
+    if (lang != sTextLang.shownLang) {
+        sTextLang.historyPos = 0;
+        sTextLang.shownLang = lang;
+    }
+    leaveHistory = sTextLang.historyPos != 0 && ((gSystem.newKeys & (PAD_BUTTON_A | PAD_BUTTON_B)) || gSystem.touchNew);
     for (i = 0; i < TEXTLANG_NUM_PRINTS; i++) {
         TextLangPrint *print = &sTextLang.prints[i];
         if (!print->used) {
@@ -1307,8 +1499,13 @@ void TextLang_Update(void) {
             last = print;
         }
     }
-    if (pageTurn != 0 && last != NULL) {
-        TextLang_Reprint(last, lang, pageTurn);
+    if (leaveHistory) {
+        sTextLang.historyPos = 0;
+        if (last != NULL) {
+            TextLang_Reprint(last, lang, 0);
+        }
+    } else if (pageTurn != 0 && last != NULL) {
+        TextLang_TurnPages(last, lang, pageTurn);
     }
 }
 #endif
