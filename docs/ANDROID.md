@@ -67,8 +67,10 @@ Uninstalling the app deletes its save.
   *WIDESCREEN WORLD* off save more.
 - For trying other settings without building again, a file `tuning.txt` in the same
   folder as `log.txt` sets environment variables for the app, one `NAME=VALUE` a line:
-  `SSR_WIDE_GPU=0` draws the map with the processor, `SSR_MAIN_CPUS` and
-  `SSR_WIDE_CPUS` (hexadecimal core masks) choose the cores for the game and for
+  `SSR_WIDE_GPU=0` draws the map with the processor, `SSR_MAIN_CPUS`,
+  `SSR_HELPER_CPUS` and `SSR_WIDE_CPUS` (hexadecimal core masks) choose the cores for
+  the game, for its helper threads (the DS 3D renderer, the graphics chip's thread; by
+  default the game's own, which on the Note 9 was quicker than the slow cores) and for
   drawing, `SSR_WIDE_THREADS` the number of drawing threads. `android/build.sh
   --profileable` lets Android's `simpleperf` sample the app over adb.
 - The app ID is `io.github.<your user name>.soulsilverfr` (`--app-id` changes it).
