@@ -12,6 +12,7 @@ button and support for this repository's build output. Everything is built on
 your Mac from this repository; no ROM dump is needed, but building needs the
 Metrowerks compiler and Nitro SDK that [INSTALL.md](../INSTALL.md) describes.
 The finished app contains the game: never share the `.app` or `.ipa`.
+[ANDROID.md](ANDROID.md) builds the same app for Android.
 
 ## What you need
 

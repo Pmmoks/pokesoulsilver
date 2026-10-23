@@ -125,7 +125,7 @@ fi
 # The checkout belongs to this script: put it back to the release and apply the iOS changes,
 # keeping the generated code and the Xcode build between runs.
 git -C "$ssr" checkout --quiet --force "$SSRECOMP_COMMIT"
-git -C "$ssr" clean --quiet -fd -e gen/ -e build-ios/
+git -C "$ssr" clean --quiet -fd -e gen/ -e build-ios/ -e build-android/
 git -C "$ssr" apply "$repo_root/ios/ssrecomp-ios.patch"
 
 step "Recompiling the game code (a few minutes)"

@@ -12,7 +12,8 @@ Setup is in [INSTALL.md](INSTALL.md).
 the DS debug button is held ([docs/TRANSLATION.md](docs/TRANSLATION.md)), and
 `ios/build.sh` turns it into a single-screen iPhone app played with a controller, R2
 held showing the English on every screen and R2 with the D-pad turning the pages of a
-message ([docs/IOS.md](docs/IOS.md)).
+message ([docs/IOS.md](docs/IOS.md)); `android/build.sh` makes the same app for
+Android ([docs/ANDROID.md](docs/ANDROID.md)).
 
 [![Source-language coverage treemap](docs/progress/treemap.svg)](INSTALL.md#progress-reports)
 
