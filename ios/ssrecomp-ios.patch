@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..b090aae 100644
+index 060f4fc..6ee04b8 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -520,7 +520,7 @@ index 060f4fc..b090aae 100644
                      el.alpha = (uint8_t)(255 * ease);
                      sc.items.push_back(el);
                  }
-@@ -1909,9 +2050,65 @@ int main(int argc, char** argv)
+@@ -1909,9 +2050,67 @@ int main(int argc, char** argv)
                  }
                  held = el;
                  heldAt = now;
@@ -528,7 +528,7 @@ index 060f4fc..b090aae 100644
 -                el.dy = 142 - el.sh * el.scale;
 -                sc.items.push_back(el);
 +                // Wide buttons (yes and no) on a wide view: narrowed to their ends and the part
-+                // with their labels, at full size beside the message box, in the margin.
++                // with their labels, at full size beside the picture, in the margin.
 +                std::vector<Element> narrow;
 +                if (viewWidth >= 300 && el.sw >= 120 && el.screen == 1)
 +                {
@@ -563,11 +563,13 @@ index 060f4fc..b090aae 100644
 +                        mid.sw = l1 - l0 + 1;
 +                        right.sx = el.sx + el.sw - cap;
 +                        right.sw = cap;
-+                        const float margin = (viewWidth - 256) / 2 - 8;
++                        const float margin = (viewWidth - 256) / 2 - 12;
 +                        const float total = 2 * cap + mid.sw;
 +                        const float scale = std::min({ 1.0f, margin / total, 120.0f / el.sh });
-+                        float x = 128 + viewWidth / 2 - 8 - total * scale;
-+                        const float y = 190 - el.sh * scale;
++                        // Just right of the picture, level with the middle of what is above
++                        // the message box.
++                        float x = 256 + 6;
++                        const float y = (140 - el.sh * scale) / 2;
 +                        for (Element* e : { &left, &mid, &right })
 +                        {
 +                            e->scale = scale;
@@ -589,7 +591,7 @@ index 060f4fc..b090aae 100644
              }
          }
          else if (menuReturn > 0)
-@@ -2219,9 +2416,15 @@ int main(int argc, char** argv)
+@@ -2219,9 +2418,15 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -606,7 +608,7 @@ index 060f4fc..b090aae 100644
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2232,8 +2435,10 @@ int main(int argc, char** argv)
+@@ -2232,8 +2437,10 @@ int main(int argc, char** argv)
      };
      auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
@@ -617,7 +619,7 @@ index 060f4fc..b090aae 100644
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2241,6 +2446,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2448,7 @@ int main(int argc, char** argv)
              { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
              { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
              { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
@@ -625,7 +627,7 @@ index 060f4fc..b090aae 100644
              { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
              { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
              { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
-@@ -2268,13 +2474,22 @@ int main(int argc, char** argv)
+@@ -2268,13 +2476,22 @@ int main(int argc, char** argv)
  
      std::vector<uint32_t> shot;
      std::vector<int16_t> audioBuf(48000 * 2);
@@ -649,7 +651,7 @@ index 060f4fc..b090aae 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2283,7 +2498,6 @@ int main(int argc, char** argv)
+@@ -2283,7 +2500,6 @@ int main(int argc, char** argv)
      uint32_t cursorShownUntil = 0;
      PadState prevPad;
      MenuInput heldNav;          // navigation directions held last tick, for edge detection
@@ -657,7 +659,7 @@ index 060f4fc..b090aae 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2324,6 +2538,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2540,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -665,7 +667,7 @@ index 060f4fc..b090aae 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2558,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2560,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -696,7 +698,7 @@ index 060f4fc..b090aae 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2619,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2621,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -704,7 +706,7 @@ index 060f4fc..b090aae 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +2845,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +2847,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -720,7 +722,7 @@ index 060f4fc..b090aae 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +2888,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +2890,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -730,7 +732,7 @@ index 060f4fc..b090aae 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +2921,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +2923,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -741,7 +743,7 @@ index 060f4fc..b090aae 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +2977,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +2979,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -750,7 +752,7 @@ index 060f4fc..b090aae 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +2988,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +2990,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -794,7 +796,7 @@ index 060f4fc..b090aae 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3095,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3097,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -803,7 +805,7 @@ index 060f4fc..b090aae 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3210,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3212,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -811,7 +813,7 @@ index 060f4fc..b090aae 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3223,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3225,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -819,7 +821,7 @@ index 060f4fc..b090aae 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -3117,25 +3397,21 @@ int main(int argc, char** argv)
+@@ -3117,25 +3399,21 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -849,7 +851,7 @@ index 060f4fc..b090aae 100644
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3197,21 +3473,27 @@ int main(int argc, char** argv)
+@@ -3197,21 +3475,27 @@ int main(int argc, char** argv)
          }
          // The top right corner, below the on-screen R button when those controls are shown
          // (their top row ends at 12% of the height).
@@ -881,7 +883,7 @@ index 060f4fc..b090aae 100644
              overlayUsed = true;
          }
  #ifdef __ANDROID__
-@@ -3232,7 +3514,7 @@ int main(int argc, char** argv)
+@@ -3232,7 +3516,7 @@ int main(int argc, char** argv)
              // With on-screen controls, centred below their top row (L, MENU and R end at
              // 12% of the height) instead of under the L button.
              const bool controls = touchPadUsed && touchPad.visible;
@@ -890,7 +892,7 @@ index 060f4fc..b090aae 100644
              canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
              canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
              overlayUsed = true;
-@@ -3450,6 +3732,16 @@ int main(int argc, char** argv)
+@@ -3450,6 +3734,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);
