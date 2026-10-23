@@ -247,6 +247,7 @@ strip_tool="$(find "$ndk/toolchains/llvm/prebuilt" -maxdepth 3 -name llvm-strip 
 "$strip_tool" --strip-debug -o "$skel/libmain.so" "$build/libmain.so"
 "$py" "$ssr/tools/android/apk.py" "$skel/skeleton.apk" "$ABI" "$skel/libmain.so" \
     "$sdl_prefix/lib/libSDL2.so" "$rom" "$key" "$apk"
+rm -f "$skel/libmain.so"
 echo "APK: $apk"
 echo "It contains your game: keep it to yourself. Keep $key too:"
 echo "later builds install over this one (keeping the save) only when signed with it."
