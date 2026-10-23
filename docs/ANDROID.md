@@ -50,7 +50,12 @@ Uninstalling the app deletes its save.
 
 - The save and the settings are in the app's own storage, which only the app can
   read. `log.txt` is in `Android/data/<app id>/files` on the shared storage (a file
-  manager, or a PC over USB, opens it), or `adb shell run-as <app id>` reaches both.
+  manager, or a PC over USB, opens it; `adb shell cat` reads it).
+- A phone slower than an iPhone may not keep up with the iPhone's settings in the
+  busiest scenes, and the sound then runs short (`[audio] the queue ran dry` in
+  `log.txt`). *60 FPS* off in the pause menu is the first thing to try: on a Galaxy
+  Note 9 that left a quarter of every frame to spare. *WORLD DETAIL* lower and then
+  *WIDESCREEN WORLD* off save more.
 - The app ID is `io.github.<your user name>.soulsilverfr` (`--app-id` changes it).
 - Controllers come through Android's own gamepad support. The Backbone's buttons
   are the same as on the iPhone; on other pads, *Start* and *Select* (or *Menu* and
