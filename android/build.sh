@@ -162,9 +162,20 @@ if ! git -C "$ssr" cat-file -e "$SSRECOMP_COMMIT^{commit}" 2>/dev/null; then
 fi
 # The checkout belongs to this script (and ios/build.sh): put it back to the release and apply
 # the changes, keeping the generated code and the builds between runs.
+# Putting the files back and patching them again would give them new dates, and the game code
+# includes some of them, so it would all be compiled again: the files that come out the same
+# get their old dates back.
+kept="$(mktemp -d)"
+git -C "$ssr" diff --name-only HEAD > "$kept/list" 2>/dev/null || true
+(cd "$ssr" && tar -cf "$kept/old.tar" -T "$kept/list" 2>/dev/null) || true
 git -C "$ssr" checkout --quiet --force "$SSRECOMP_COMMIT"
 git -C "$ssr" clean --quiet -fd -e gen/ -e build-ios/ -e build-android/
 git -C "$ssr" apply "$repo_root/ios/ssrecomp-ios.patch"
+mkdir "$kept/old" && tar -xpf "$kept/old.tar" -C "$kept/old" 2>/dev/null || true
+while IFS= read -r f; do
+    if [[ -f "$kept/old/$f" ]] && cmp -s "$kept/old/$f" "$ssr/$f"; then touch -r "$kept/old/$f" "$ssr/$f"; fi
+done < "$kept/list"
+rm -rf "$kept"
 
 step "Recompiling the game code (a few minutes)"
 (cd "$ssr" && "$py" tools/recomp.py "$rom_dir" melonDS/src gen && "$py" tools/apps.py "$rom_dir" gen)

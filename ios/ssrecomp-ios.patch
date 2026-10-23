@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..4118619 100644
+index 060f4fc..2fb29d2 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -214,7 +214,15 @@ index 060f4fc..4118619 100644
  #include <unistd.h>
  #endif
  #ifndef SSR_NO_PNG
-@@ -54,7 +62,9 @@
+@@ -34,6 +42,7 @@
+ #ifdef __ANDROID__
+ #include <atomic>
+ #include <jni.h>
++#include <sched.h>
+ #endif
+ 
+ #include "NDS.h"
+@@ -54,7 +63,9 @@
  #include "recomp_api.h"
  #include "GPU3D_Wide.h"
  
@@ -225,7 +233,7 @@ index 060f4fc..4118619 100644
  // The app holds the player's own game, so it cannot update itself as the setup window does:
  // at start it asks GitHub for the newest release, and if that is newer than this build
  // (SSR_VERSION, from CHANGELOG.md) the game says so, to rebuild it on the PC.
-@@ -383,11 +393,14 @@ struct Options
+@@ -383,11 +394,14 @@ struct Options
      bool fullscreen = false;
      bool swapped = false;
      bool logSections = false;
@@ -240,7 +248,7 @@ index 060f4fc..4118619 100644
      int interp60 = -1;                   // 3D frame interpolation: -1 = from settings (off when headless)
      bool battleMash = false;             // test aid: tap A through battles, pausing the script meanwhile
      bool countChanges = false;           // report how many frames changed the top screen
-@@ -432,6 +445,8 @@ static void Usage()
+@@ -432,6 +446,8 @@ static void Usage()
          "                       frame used by --state-at) still, so scripts can walk through grass\n"
          "  --count-changes      report on how many frames the top screen image changed\n"
          "  --audio-stats        print the peak and RMS level of the generated audio at exit\n"
@@ -249,7 +257,7 @@ index 060f4fc..4118619 100644
          "  --shot-layers        with each screenshot, also write layers_<frame>.png colouring every\n"
          "                       pixel by the 2D layer it came from\n"
  
-@@ -455,6 +470,8 @@ static bool ParseArgs(int argc, char** argv, Options& o)
+@@ -455,6 +471,8 @@ static bool ParseArgs(int argc, char** argv, Options& o)
          else if (a == "--layout") { o.layout = next(); o.layoutGiven = true; }
          else if (a == "--config") o.config = next();
          else if (a == "--audio-stats") o.audioStats = true;
@@ -258,7 +266,7 @@ index 060f4fc..4118619 100644
          else if (a == "--shot-layers") o.shotLayers = true;
          else if (a == "--count-changes") o.countChanges = true;
          else if (a == "--battle-mash") o.battleMash = true;
-@@ -899,7 +916,7 @@ static PadState ReadPad(Pads& pads)
+@@ -899,7 +917,7 @@ static PadState ReadPad(Pads& pads)
  
  // DS buttons from the controller. With byLabel the button printed "A" is A on any pad;
  // otherwise the DS diamond is mapped by position (right = A, bottom = B).
@@ -267,7 +275,7 @@ index 060f4fc..4118619 100644
  {
      uint32_t k = 0;
      if (p.btn[byLabel ? PAD_A : PAD_B]) k |= 1 << KEY_A;
-@@ -909,7 +926,9 @@ static uint32_t PadKeys(const PadState& p, bool byLabel)
+@@ -909,7 +927,9 @@ static uint32_t PadKeys(const PadState& p, bool byLabel)
      if (p.btn[PAD_LB]) k |= 1 << KEY_L;
      if (p.btn[PAD_RB]) k |= 1 << KEY_R;
      if (p.btn[PAD_START]) k |= 1 << KEY_START;
@@ -278,7 +286,7 @@ index 060f4fc..4118619 100644
      if (p.btn[PAD_UP] || p.ly < -0.5f) k |= 1 << KEY_UP;
      if (p.btn[PAD_DOWN] || p.ly > 0.5f) k |= 1 << KEY_DOWN;
      if (p.btn[PAD_LEFT] || p.lx < -0.5f) k |= 1 << KEY_LEFT;
-@@ -932,6 +951,10 @@ struct Settings
+@@ -932,6 +952,10 @@ struct Settings
      // switch screens. Off unless asked for: brushing the stick put the bottom screen up.
      bool padTouch = false;
      bool showFps = false; // frames shown per second, in a corner
@@ -289,7 +297,7 @@ index 060f4fc..4118619 100644
  
      void Load(const std::string& path)
      {
-@@ -953,6 +976,7 @@ struct Settings
+@@ -953,6 +977,7 @@ struct Settings
              else if (k == "fps60") fps60 = v == "1";
              else if (k == "pad_touch") padTouch = v == "1";
              else if (k == "show_fps") showFps = v == "1";
@@ -297,7 +305,7 @@ index 060f4fc..4118619 100644
          }
      }
  
-@@ -969,6 +993,7 @@ struct Settings
+@@ -969,6 +994,7 @@ struct Settings
          f << "fps60=" << (fps60 ? 1 : 0) << "\n";
          f << "pad_touch=" << (padTouch ? 1 : 0) << "\n";
          f << "show_fps=" << (showFps ? 1 : 0) << "\n";
@@ -305,7 +313,7 @@ index 060f4fc..4118619 100644
      }
  };
  
-@@ -1031,6 +1056,169 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+@@ -1031,6 +1057,219 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
      return true;
  }
  
@@ -472,10 +480,84 @@ index 060f4fc..4118619 100644
 +    }
 +}
 +
++#ifdef __ANDROID__
++// Phones mostly have fast and slow processor cores, and the system decides which a thread
++// runs on. The emulation (and the threads it starts, which inherit this: the DS 3D renderer,
++// the sound) is kept on the fast ones, the cores with the highest top speed; the widescreen
++// drawing threads may use them all (SSR_WIDE_CPUS, read by GPU3D_Wide.cpp). SSR_MAIN_CPUS and
++// SSR_WIDE_CPUS, hex masks, override either ("0": leave it to the system).
++static void PinToFastCores()
++{
++    const int n = std::min((int)sysconf(_SC_NPROCESSORS_CONF), 64);
++    unsigned long all = 0, fast = 0;
++    long top = 0;
++    std::string speeds;
++    for (int c = 0; c < n; c++)
++    {
++        long khz = 0;
++        if (FILE* f = fopen(("/sys/devices/system/cpu/cpu" + std::to_string(c) + "/cpufreq/cpuinfo_max_freq").c_str(), "r"))
++        {
++            if (fscanf(f, "%ld", &khz) != 1) khz = 0;
++            fclose(f);
++        }
++        speeds += (c ? " " : "") + std::to_string(khz / 1000);
++        all |= 1ul << c;
++        if (khz > top)
++        {
++            top = khz;
++            fast = 0;
++        }
++        if (khz == top) fast |= 1ul << c;
++    }
++    unsigned long mainMask = fast != all ? fast : 0;
++    if (const char* m = getenv("SSR_MAIN_CPUS")) mainMask = strtoul(m, nullptr, 16);
++    if (mainMask)
++    {
++        cpu_set_t set;
++        CPU_ZERO(&set);
++        for (int c = 0; c < 64; c++)
++            if (mainMask & (1ul << c)) CPU_SET(c, &set);
++        sched_setaffinity(0, sizeof(set), &set);
++        if (!getenv("SSR_WIDE_CPUS"))
++        {
++            char hex[32];
++            snprintf(hex, sizeof(hex), "%lx", all);
++            setenv("SSR_WIDE_CPUS", hex, 1);
++        }
++    }
++    fprintf(stderr, "[cpu] %d cores, top speeds %s MHz; emulation on %lx, widescreen drawing on %s\n", n, speeds.c_str(),
++        mainMask, getenv("SSR_WIDE_CPUS") ? getenv("SSR_WIDE_CPUS") : "any");
++}
++#endif
++
  int main(int argc, char** argv)
  {
      Options opt;
-@@ -1058,6 +1246,27 @@ int main(int argc, char** argv)
+@@ -1053,11 +1292,51 @@ int main(int argc, char** argv)
+             freopen("log.txt", "w", stderr);
+         setvbuf(stderr, nullptr, _IOLBF, 0);
+         setenv("SSR_PERF", "1", 0);
++        // tuning.txt beside log.txt, if there: NAME=VALUE lines set as environment variables,
++        // to try other settings (SSR_MAIN_CPUS, SSR_WIDE_CPUS, SSR_WIDE_THREADS...) without
++        // building the app again.
++        if (ext)
++            if (FILE* t = fopen((std::string(ext) + "/tuning.txt").c_str(), "r"))
++            {
++                char line[256];
++                while (fgets(line, sizeof(line), t))
++                {
++                    std::string l = line;
++                    while (!l.empty() && (l.back() == '\n' || l.back() == '\r' || l.back() == ' ')) l.pop_back();
++                    const size_t eq = l.find('=');
++                    if (l.empty() || l[0] == '#' || eq == std::string::npos) continue;
++                    setenv(l.substr(0, eq).c_str(), l.substr(eq + 1).c_str(), 1);
++                    fprintf(stderr, "[tuning] %s\n", l.c_str());
++                }
++                fclose(t);
++            }
++        PinToFastCores();
+         androidArgs = { "ssrecomp", "rom.nds", "--save", std::string(dir ? dir : ".") + "/soulsilver.sav", "--fullscreen" };
+         for (auto& a : androidArgs) androidArgv.push_back(a.data());
          argc = (int)androidArgv.size();
          argv = androidArgv.data();
      }
@@ -503,7 +585,7 @@ index 060f4fc..4118619 100644
  #endif
      if (!ParseArgs(argc, argv, opt))
      {
-@@ -1138,6 +1347,21 @@ int main(int argc, char** argv)
+@@ -1138,6 +1417,21 @@ int main(int argc, char** argv)
      if (opt.headless) cfg.fps60 = false; // tests compare images with the plain renderer unless asked
      if (opt.interp60 >= 0) cfg.fps60 = opt.interp60 == 1;
      nds->GPU.GPU3D.InterpolationEnabled = cfg.fps60 && !opt.lockstep;
@@ -525,7 +607,7 @@ index 060f4fc..4118619 100644
      // The DS-resolution 3D picture is drawn on its own thread, alongside the CPU emulation.
      if (!getenv("SSR_NO_RENDER_THREAD"))
          static_cast<melonDS::SoftRenderer&>(nds->GPU.GetRenderer3D()).SetThreaded(true, nds->GPU);
-@@ -1165,13 +1389,19 @@ int main(int argc, char** argv)
+@@ -1165,13 +1459,19 @@ int main(int argc, char** argv)
  
      if (!opt.headless)
      {
@@ -547,7 +629,7 @@ index 060f4fc..4118619 100644
          // Controllers come through Android's own input, which knows every gamepad. With SDL's
          // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
          // left out of Android's list, and is lost if SDL cannot open it over USB itself.
-@@ -1231,7 +1461,7 @@ int main(int argc, char** argv)
+@@ -1231,7 +1531,7 @@ int main(int argc, char** argv)
          want.freq = 48000;
          want.format = AUDIO_S16SYS;
          want.channels = 2;
@@ -556,7 +638,7 @@ index 060f4fc..4118619 100644
          audio = SDL_OpenAudioDevice(nullptr, 0, &want, nullptr, 0);
          if (audio) SDL_PauseAudioDevice(audio, 0);
  
-@@ -1258,19 +1488,22 @@ int main(int argc, char** argv)
+@@ -1258,19 +1558,22 @@ int main(int argc, char** argv)
      }
  
      // Functions whose activity selects the merged scene.
@@ -585,7 +667,7 @@ index 060f4fc..4118619 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -1834,19 +2067,21 @@ int main(int argc, char** argv)
+@@ -1834,19 +2137,21 @@ int main(int argc, char** argv)
                  const float ease = slide * slide * (3 - 2 * slide);
                  const float picX = L * ease;
                  sc.items[0].dx = picX;
@@ -619,7 +701,7 @@ index 060f4fc..4118619 100644
                  }
                  if (showing)
                  {
-@@ -1858,10 +2093,11 @@ int main(int argc, char** argv)
+@@ -1858,10 +2163,11 @@ int main(int argc, char** argv)
                      // there is nothing but backdrop there (above the message box).
                      float room = R - 3 - (L + cedge + 6);
                      if (room < free) room = free;
@@ -633,7 +715,7 @@ index 060f4fc..4118619 100644
                      el.alpha = (uint8_t)(255 * ease);
                      sc.items.push_back(el);
                  }
-@@ -1909,9 +2145,67 @@ int main(int argc, char** argv)
+@@ -1909,9 +2215,67 @@ int main(int argc, char** argv)
                  }
                  held = el;
                  heldAt = now;
@@ -704,7 +786,7 @@ index 060f4fc..4118619 100644
              }
          }
          else if (menuReturn > 0)
-@@ -2219,9 +2513,15 @@ int main(int argc, char** argv)
+@@ -2219,9 +2583,15 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -721,7 +803,7 @@ index 060f4fc..4118619 100644
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2232,8 +2532,10 @@ int main(int argc, char** argv)
+@@ -2232,8 +2602,10 @@ int main(int argc, char** argv)
      };
      auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
@@ -732,7 +814,7 @@ index 060f4fc..4118619 100644
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2241,6 +2543,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2613,7 @@ int main(int argc, char** argv)
              { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
              { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
              { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
@@ -740,7 +822,7 @@ index 060f4fc..4118619 100644
              { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
              { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
              { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
-@@ -2261,20 +2564,29 @@ int main(int argc, char** argv)
+@@ -2261,20 +2634,29 @@ int main(int argc, char** argv)
          toast = msg;
          toastUntil = frame + 120;
      };
@@ -772,7 +854,7 @@ index 060f4fc..4118619 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2283,7 +2595,6 @@ int main(int argc, char** argv)
+@@ -2283,7 +2665,6 @@ int main(int argc, char** argv)
      uint32_t cursorShownUntil = 0;
      PadState prevPad;
      MenuInput heldNav;          // navigation directions held last tick, for edge detection
@@ -780,7 +862,20 @@ index 060f4fc..4118619 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2324,6 +2635,7 @@ int main(int argc, char** argv)
+@@ -2314,6 +2695,12 @@ int main(int argc, char** argv)
+                 fprintf(stderr, "[perf] input %.2f  emulate %.2f  scene %.2f  compose %.2f  present %.2f  wait %.2f ms; worst frame %.1f ms\n",
+                     perfAcc[0] / perfN, perfAcc[1] / perfN, perfAcc[2] / perfN, perfAcc[3] / perfN, perfAcc[4] / perfN,
+                     perfAcc[5] / perfN, perfWorst);
++                double wideDraw, wideWait;
++                int wideDraws, wideThreads;
++                melonDS::WideTakeStats(wideDraw, wideWait, wideDraws, wideThreads);
++                if (wideDraws)
++                    fprintf(stderr, "[perf] widescreen %dx%d: %.2f ms to draw a picture (%d threads), emulation waited %.2f ms a frame\n",
++                        melonDS::Wide.Width, melonDS::Wide.Height, wideDraw / wideDraws, wideThreads, wideWait / perfN);
+                 for (double& a : perfAcc) a = 0;
+                 perfN = 0;
+                 perfWorst = 0;
+@@ -2324,6 +2711,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -788,7 +883,7 @@ index 060f4fc..4118619 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2655,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2731,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -819,7 +914,7 @@ index 060f4fc..4118619 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2716,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2792,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -827,7 +922,7 @@ index 060f4fc..4118619 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +2942,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +3018,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -843,7 +938,7 @@ index 060f4fc..4118619 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +2985,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +3061,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -853,7 +948,7 @@ index 060f4fc..4118619 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +3018,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +3094,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -864,7 +959,7 @@ index 060f4fc..4118619 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +3074,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +3150,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -873,7 +968,7 @@ index 060f4fc..4118619 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +3085,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +3161,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -917,7 +1012,7 @@ index 060f4fc..4118619 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3192,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3268,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -926,7 +1021,7 @@ index 060f4fc..4118619 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3307,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3383,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -934,7 +1029,7 @@ index 060f4fc..4118619 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3320,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3396,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -942,7 +1037,7 @@ index 060f4fc..4118619 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -2951,10 +3328,11 @@ int main(int argc, char** argv)
+@@ -2951,10 +3404,11 @@ int main(int argc, char** argv)
              {
                  rc_frame++;
                  nds->RunFrame();
@@ -957,7 +1052,7 @@ index 060f4fc..4118619 100644
              }
          }
          perfMark(1);
-@@ -3117,25 +3495,22 @@ int main(int argc, char** argv)
+@@ -3117,25 +3571,22 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -988,7 +1083,7 @@ index 060f4fc..4118619 100644
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3197,24 +3572,30 @@ int main(int argc, char** argv)
+@@ -3197,24 +3648,30 @@ int main(int argc, char** argv)
          }
          // The top right corner, below the on-screen R button when those controls are shown
          // (their top row ends at 12% of the height).
@@ -1024,7 +1119,7 @@ index 060f4fc..4118619 100644
          if (!updateSaid && UpdateCheck::g_done)
          {
              updateSaid = true;
-@@ -3232,7 +3613,7 @@ int main(int argc, char** argv)
+@@ -3232,7 +3689,7 @@ int main(int argc, char** argv)
              // With on-screen controls, centred below their top row (L, MENU and R end at
              // 12% of the height) instead of under the L button.
              const bool controls = touchPadUsed && touchPad.visible;
@@ -1033,7 +1128,7 @@ index 060f4fc..4118619 100644
              canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
              canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
              overlayUsed = true;
-@@ -3450,6 +3831,16 @@ int main(int argc, char** argv)
+@@ -3450,6 +3907,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);
@@ -1098,6 +1193,113 @@ index 90044d1..f3418b5 100644
      CurUnit->UpdateMosaicCounters(line);
  
      switch (dispmode)
+diff --git a/melonDS/src/GPU3D_Wide.cpp b/melonDS/src/GPU3D_Wide.cpp
+index fc53f0a..0d9ea75 100644
+--- a/melonDS/src/GPU3D_Wide.cpp
++++ b/melonDS/src/GPU3D_Wide.cpp
+@@ -13,6 +13,9 @@
+ #include <type_traits>
+ #include <mutex>
+ #include <thread>
++#ifdef __linux__
++#include <sched.h>
++#endif
+ 
+ #include "NDS.h"
+ #include "GPU.h"
+@@ -67,6 +70,19 @@ public:
+ private:
+     void Loop(int index)
+     {
++#ifdef __linux__
++        // SSR_WIDE_CPUS: the processor cores the drawing threads may run on (a hex mask; the
++        // Android app sets it, see main.cpp), for phones with fast and slow cores.
++        if (const char* cpus = getenv("SSR_WIDE_CPUS"))
++        {
++            const unsigned long mask = strtoul(cpus, nullptr, 16);
++            cpu_set_t set;
++            CPU_ZERO(&set);
++            for (int c = 0; c < 64; c++)
++                if (mask & (1ul << c)) CPU_SET(c, &set);
++            if (mask) sched_setaffinity(0, sizeof(set), &set);
++        }
++#endif
+         u64 seen = 0;
+         for (;;)
+         {
+@@ -161,11 +177,22 @@ struct WideAccess
+     };
+     static inline std::unique_ptr<Workers> Pool;
+     static inline bool Drawing = false;
++    // For the timing report: how long the pictures took to draw (from the start to the last
++    // strip) and how long the emulation waited for them, in microseconds.
++    static inline std::chrono::steady_clock::time_point DrawStart;
++    static inline std::atomic<int> StripsDone{0};
++    static inline std::atomic<u64> StatDrawUs{0}, StatDraws{0};
++    static inline u64 StatWaitUs = 0;
+ 
+     // Blocks until the picture being drawn in the background is finished.
+     static void Wait()
+     {
+-        if (Drawing) Pool->Wait();
++        if (Drawing)
++        {
++            const auto t = std::chrono::steady_clock::now();
++            Pool->Wait();
++            StatWaitUs += (u64)std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::steady_clock::now() - t).count();
++        }
+         Drawing = false;
+     }
+ 
+@@ -1107,10 +1134,20 @@ struct WideAccess
+         };
+         static std::function<void(int)> job;
+         job = [=](int) {
+-            for (int i; (i = nextStrip.fetch_add(1)) < strips;) strip(i);
++            for (int i; (i = nextStrip.fetch_add(1)) < strips;)
++            {
++                strip(i);
++                if (StripsDone.fetch_add(1) + 1 == strips)
++                {
++                    StatDrawUs += (u64)std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::steady_clock::now() - DrawStart).count();
++                    StatDraws++;
++                }
++            }
+         };
+         static const bool prof = getenv("SSR_WIDE_PROF") != nullptr;
+         auto t0 = std::chrono::steady_clock::now();
++        DrawStart = t0;
++        StripsDone = 0;
+         Pool->Start(job);
+         Drawing = true;
+         if (prof)
+@@ -1128,6 +1165,14 @@ struct WideAccess
+ };
+ 
+ void WideWait() { WideAccess::Wait(); }
++void WideTakeStats(double& drawMs, double& waitMs, int& draws, int& threads)
++{
++    draws = (int)WideAccess::StatDraws.exchange(0);
++    drawMs = WideAccess::StatDrawUs.exchange(0) / 1000.0;
++    waitMs = WideAccess::StatWaitUs / 1000.0;
++    WideAccess::StatWaitUs = 0;
++    threads = WideAccess::Pool ? WideAccess::Pool->Count() : 0;
++}
+ void WideOnFlush(GPU3D& g) { WideAccess::OnFlush(g); }
+ void WideOnRender(GPU& gpu, bool showingInterp) { WideAccess::OnRender(gpu, showingInterp); }
+ void WideReplay(GPU3D& g, bool interpolate, Vertex* vram, Polygon* pram, Polygon** list,
+diff --git a/melonDS/src/GPU3D_Wide.h b/melonDS/src/GPU3D_Wide.h
+index 365d8ef..87f1675 100644
+--- a/melonDS/src/GPU3D_Wide.h
++++ b/melonDS/src/GPU3D_Wide.h
+@@ -28,4 +28,7 @@ struct WideState
+     u64 FrontSerial = 0;      // changes whenever Front does
+ };
+ extern WideState Wide;
++// For the timing report, since it was last asked: the total time the widescreen pictures
++// took to draw and the emulation waited for them, the pictures drawn, and drawing threads.
++void WideTakeStats(double& drawMs, double& waitMs, int& draws, int& threads);
+ }
 diff --git a/melonDS/src/SPU.cpp b/melonDS/src/SPU.cpp
 index 3c4aca7..d632ab8 100644
 --- a/melonDS/src/SPU.cpp
