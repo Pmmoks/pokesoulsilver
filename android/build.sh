@@ -16,6 +16,7 @@ usage: android/build.sh [options]
   --ndk DIR        Android NDK (default: $ANDROID_NDK_HOME, else the newest in the SDK)
   --jobs N         parallel compile jobs (default: one per 2 GB of RAM, at most one per core)
   --skip-rom       use the French ROM already built in build/soulsilver.us.fr
+  --profileable    let Android's simpleperf sample the app over adb (Android 10 and later)
 EOF
 }
 
@@ -34,6 +35,7 @@ ABI=arm64-v8a          # 64-bit ARM: phones from about 2015 on
 MIN_API=24             # Android 7.0
 
 install=0
+profileable=0
 app_id=""
 app_name="SoulSilver FR"
 icon_src=""
@@ -51,6 +53,7 @@ while [[ $# -gt 0 ]]; do
     --ndk) ndk="$2"; shift 2 ;;
     --jobs) jobs="$2"; shift 2 ;;
     --skip-rom) skip_rom=1; shift ;;
+    --profileable) profileable=1; shift ;;
     -h|--help) usage; exit 0 ;;
     *) echo "unknown option: $1" >&2; usage >&2; exit 2 ;;
     esac
@@ -217,9 +220,9 @@ step "Packaging"
 skel="$work/skeleton"
 rm -rf "$skel"
 mkdir -p "$skel/res" "$skel/classes" "$skel/dex"
-"$py" - "$ssr/tools/android/AndroidManifest.xml" "$skel/AndroidManifest.xml" "$app_id" "$app_name" <<'PY'
+"$py" - "$ssr/tools/android/AndroidManifest.xml" "$skel/AndroidManifest.xml" "$app_id" "$app_name" "$profileable" <<'PY'
 import re, sys, time
-src, dst, app_id, name = sys.argv[1:5]
+src, dst, app_id, name, profileable = sys.argv[1:6]
 m = open(src, encoding='utf-8').read()
 m = m.replace('package="io.github.clickingmaster.ssrecomp"', f'package="{app_id}"')
 m = re.sub(r'android:label="[^"]*"', 'android:label="%s"' % name.replace('&', '&amp;').replace('"', '&quot;'), m)
@@ -229,6 +232,9 @@ m = re.sub(r'android:versionName="[^"]*"', 'android:versionName="fr-%s"' % time.
 # Only ssrecomp's check for a newer release used the network, and this build has none.
 m = re.sub(r'\s*<!-- Only to ask GitHub[^>]*-->\s*<uses-permission android:name="android.permission.INTERNET" />', '', m)
 assert 'INTERNET' not in m and app_id in m
+if profileable == '1':
+    m, n = re.subn(r'(<application\b[^>]*>)', r'\1\n        <profileable android:shell="true" />', m, count=1)
+    assert n == 1
 open(dst, 'w', encoding='utf-8').write(m)
 PY
 "$py" - "$icon_src" "$skel/res" "$ssr/tools/appimage/ssrecomp-setup.png" <<'PY'

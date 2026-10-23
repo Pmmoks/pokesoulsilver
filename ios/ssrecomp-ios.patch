@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..2fb29d2 100644
+index 060f4fc..a67d939 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -862,7 +862,7 @@ index 060f4fc..2fb29d2 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2314,6 +2695,12 @@ int main(int argc, char** argv)
+@@ -2314,6 +2695,13 @@ int main(int argc, char** argv)
                  fprintf(stderr, "[perf] input %.2f  emulate %.2f  scene %.2f  compose %.2f  present %.2f  wait %.2f ms; worst frame %.1f ms\n",
                      perfAcc[0] / perfN, perfAcc[1] / perfN, perfAcc[2] / perfN, perfAcc[3] / perfN, perfAcc[4] / perfN,
                      perfAcc[5] / perfN, perfWorst);
@@ -870,12 +870,13 @@ index 060f4fc..2fb29d2 100644
 +                int wideDraws, wideThreads;
 +                melonDS::WideTakeStats(wideDraw, wideWait, wideDraws, wideThreads);
 +                if (wideDraws)
-+                    fprintf(stderr, "[perf] widescreen %dx%d: %.2f ms to draw a picture (%d threads), emulation waited %.2f ms a frame\n",
-+                        melonDS::Wide.Width, melonDS::Wide.Height, wideDraw / wideDraws, wideThreads, wideWait / perfN);
++                    fprintf(stderr, "[perf] widescreen %dx%d: %.2f ms to draw a picture (%s), emulation waited %.2f ms a frame\n",
++                        melonDS::Wide.Width, melonDS::Wide.Height, wideDraw / wideDraws,
++                        wideThreads ? (std::to_string(wideThreads) + " threads").c_str() : "graphics chip", wideWait / perfN);
                  for (double& a : perfAcc) a = 0;
                  perfN = 0;
                  perfWorst = 0;
-@@ -2324,6 +2711,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2712,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -883,7 +884,7 @@ index 060f4fc..2fb29d2 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2731,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2732,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -914,7 +915,7 @@ index 060f4fc..2fb29d2 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2792,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2793,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -922,7 +923,7 @@ index 060f4fc..2fb29d2 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +3018,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +3019,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -938,7 +939,7 @@ index 060f4fc..2fb29d2 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +3061,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +3062,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -948,7 +949,7 @@ index 060f4fc..2fb29d2 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +3094,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +3095,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -959,7 +960,7 @@ index 060f4fc..2fb29d2 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +3150,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +3151,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -968,7 +969,7 @@ index 060f4fc..2fb29d2 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +3161,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +3162,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -1012,7 +1013,7 @@ index 060f4fc..2fb29d2 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3268,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3269,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -1021,7 +1022,7 @@ index 060f4fc..2fb29d2 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3383,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3384,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -1029,7 +1030,7 @@ index 060f4fc..2fb29d2 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3396,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3397,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -1037,7 +1038,7 @@ index 060f4fc..2fb29d2 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -2951,10 +3404,11 @@ int main(int argc, char** argv)
+@@ -2951,10 +3405,11 @@ int main(int argc, char** argv)
              {
                  rc_frame++;
                  nds->RunFrame();
@@ -1052,7 +1053,7 @@ index 060f4fc..2fb29d2 100644
              }
          }
          perfMark(1);
-@@ -3117,25 +3571,22 @@ int main(int argc, char** argv)
+@@ -3117,25 +3572,22 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -1083,7 +1084,7 @@ index 060f4fc..2fb29d2 100644
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3197,24 +3648,30 @@ int main(int argc, char** argv)
+@@ -3197,24 +3649,30 @@ int main(int argc, char** argv)
          }
          // The top right corner, below the on-screen R button when those controls are shown
          // (their top row ends at 12% of the height).
@@ -1119,7 +1120,7 @@ index 060f4fc..2fb29d2 100644
          if (!updateSaid && UpdateCheck::g_done)
          {
              updateSaid = true;
-@@ -3232,7 +3689,7 @@ int main(int argc, char** argv)
+@@ -3232,7 +3690,7 @@ int main(int argc, char** argv)
              // With on-screen controls, centred below their top row (L, MENU and R end at
              // 12% of the height) instead of under the L button.
              const bool controls = touchPadUsed && touchPad.visible;
@@ -1128,7 +1129,7 @@ index 060f4fc..2fb29d2 100644
              canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
              canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
              overlayUsed = true;
-@@ -3450,6 +3907,16 @@ int main(int argc, char** argv)
+@@ -3450,6 +3908,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);
@@ -1145,6 +1146,29 @@ index 060f4fc..2fb29d2 100644
      if (opt.audioStats && AudioSamples)
          fprintf(stderr, "[audio] %llu samples, peak %d, rms %.1f\n", (unsigned long long)AudioSamples, AudioPeak,
              sqrt(AudioSumSq / AudioSamples));
+diff --git a/melonDS/src/CMakeLists.txt b/melonDS/src/CMakeLists.txt
+index f227379..9e81646 100644
+--- a/melonDS/src/CMakeLists.txt
++++ b/melonDS/src/CMakeLists.txt
+@@ -39,6 +39,7 @@ add_library(core STATIC
+     GPU3D.cpp
+     GPU3D_Soft.cpp
+     GPU3D_Wide.cpp
++    GPU3D_WideGL.cpp
+     GPU3D_Texcache.cpp
+     GPU3D_Texcache.h
+     melonDLDI.h
+@@ -254,3 +255,10 @@ if(CMAKE_SYSTEM_PROCESSOR MATCHES "^(x86_64|AMD64|amd64)$" AND NOT CMAKE_CROSSCO
+     endif()
+ endif()
+ set_source_files_properties(GPU3D_Wide.cpp PROPERTIES COMPILE_OPTIONS "${SSR_WIDE_FLAGS}")
++# ssrecomp: the graphics chip draws the widescreen scene with OpenGL ES 3 on Android, and with
++# OpenGL on macOS for testing (GPU3D_WideGL.cpp).
++if(ANDROID)
++    target_link_libraries(core PRIVATE EGL GLESv3)
++elseif(APPLE AND NOT CMAKE_SYSTEM_NAME STREQUAL "iOS")
++    target_link_libraries(core PRIVATE "-framework OpenGL")
++endif()
 diff --git a/melonDS/src/GPU2D_Soft.cpp b/melonDS/src/GPU2D_Soft.cpp
 index 90044d1..f3418b5 100644
 --- a/melonDS/src/GPU2D_Soft.cpp
@@ -1194,10 +1218,17 @@ index 90044d1..f3418b5 100644
  
      switch (dispmode)
 diff --git a/melonDS/src/GPU3D_Wide.cpp b/melonDS/src/GPU3D_Wide.cpp
-index fc53f0a..0d9ea75 100644
+index fc53f0a..f65d230 100644
 --- a/melonDS/src/GPU3D_Wide.cpp
 +++ b/melonDS/src/GPU3D_Wide.cpp
-@@ -13,6 +13,9 @@
+@@ -1,5 +1,6 @@
+ // ssrecomp: widescreen, full-resolution rendering of the 3D scene. See GPU3D_Wide.h.
+ #include "GPU3D_Wide.h"
++#include "GPU3D_WideGL.h"
+ 
+ #include <algorithm>
+ #include <atomic>
+@@ -13,6 +14,9 @@
  #include <type_traits>
  #include <mutex>
  #include <thread>
@@ -1207,7 +1238,7 @@ index fc53f0a..0d9ea75 100644
  
  #include "NDS.h"
  #include "GPU.h"
-@@ -67,6 +70,19 @@ public:
+@@ -67,6 +71,19 @@ public:
  private:
      void Loop(int index)
      {
@@ -1227,10 +1258,13 @@ index fc53f0a..0d9ea75 100644
          u64 seen = 0;
          for (;;)
          {
-@@ -161,11 +177,22 @@ struct WideAccess
+@@ -160,12 +177,27 @@ struct WideAccess
+         std::vector<u16> Writer; // which opaque triangle (Tri::Order) drew the pixel
      };
      static inline std::unique_ptr<Workers> Pool;
-     static inline bool Drawing = false;
+-    static inline bool Drawing = false;
++    static inline bool Drawing = false, DrawingGL = false;
++    static inline WideGLFrame GLFrame;
 +    // For the timing report: how long the pictures took to draw (from the start to the last
 +    // strip) and how long the emulation waited for them, in microseconds.
 +    static inline std::chrono::steady_clock::time_point DrawStart;
@@ -1245,13 +1279,276 @@ index fc53f0a..0d9ea75 100644
 +        if (Drawing)
 +        {
 +            const auto t = std::chrono::steady_clock::now();
-+            Pool->Wait();
++            if (DrawingGL)
++                WideGLWait();
++            else
++                Pool->Wait();
 +            StatWaitUs += (u64)std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::steady_clock::now() - t).count();
 +        }
          Drawing = false;
      }
  
-@@ -1107,10 +1134,20 @@ struct WideAccess
+@@ -515,6 +547,251 @@ struct WideAccess
+         }
+     }
+ 
++    // Moves each edge of a triangle out by a third of a pixel, with depth, colour and texture
++    // coordinates carried on across the same plane. False if the triangle has no area.
++    static bool GrowTriangle(WideGLVertex* t)
++    {
++        const double ax = t[0].X, ay = t[0].Y, bx = t[1].X, by = t[1].Y, cx = t[2].X, cy = t[2].Y;
++        const double area = (bx - ax) * (cy - ay) - (cx - ax) * (by - ay);
++        if (std::fabs(area) < 1e-6) return false;
++        const double P[3][2] = { { ax, ay }, { bx, by }, { cx, cy } };
++        // Outward unit normal of the edge from vertex i to vertex i+1.
++        double n[3][2];
++        for (int i = 0; i < 3; i++)
++        {
++            const double* p = P[i];
++            const double* q = P[(i + 1) % 3];
++            double nx = q[1] - p[1], ny = p[0] - q[0];
++            const double len = std::sqrt(nx * nx + ny * ny);
++            if (len < 1e-9) return false;
++            nx /= len;
++            ny /= len;
++            const double* r = P[(i + 2) % 3];
++            if (nx * (r[0] - p[0]) + ny * (r[1] - p[1]) > 0)
++            {
++                nx = -nx;
++                ny = -ny;
++            }
++            n[i][0] = nx;
++            n[i][1] = ny;
++        }
++        const double margin = 0.34;
++        WideGLVertex out[3];
++        for (int i = 0; i < 3; i++)
++        {
++            // The corner moves to where its two edges, moved out, meet; at a sharp corner that is
++            // far off, so it moves a pixel at most.
++            const double* n1 = n[(i + 2) % 3];
++            const double* n2 = n[i];
++            const double k = 1 + n1[0] * n2[0] + n1[1] * n2[1];
++            double dx = margin * (n1[0] + n2[0]) / std::max(k, 1e-3), dy = margin * (n1[1] + n2[1]) / std::max(k, 1e-3);
++            const double len = std::sqrt(dx * dx + dy * dy);
++            if (len > 1.0)
++            {
++                dx /= len;
++                dy /= len;
++            }
++            const double px = P[i][0] + dx, py = P[i][1] + dy;
++            // The weights of the three corners at the new place.
++            const double l0 = ((bx - px) * (cy - py) - (cx - px) * (by - py)) / area;
++            const double l1 = ((cx - px) * (ay - py) - (ax - px) * (cy - py)) / area;
++            const double l2 = 1 - l0 - l1;
++            const double l[3] = { l0, l1, l2 };
++            WideGLVertex& o = out[i];
++            o = t[i];
++            o.X = (float)px;
++            o.Y = (float)py;
++            double z = 0, iw = 0, r = 0, g = 0, b = 0, s = 0, tt = 0;
++            for (int j = 0; j < 3; j++)
++            {
++                const double q = l[j] * t[j].InvW;
++                z += l[j] * t[j].Z;
++                iw += q;
++                r += q * t[j].R;
++                g += q * t[j].G;
++                b += q * t[j].B;
++                s += q * t[j].S;
++                tt += q * t[j].T;
++            }
++            if (iw <= 0) return false;
++            o.Z = (float)z;
++            o.InvW = (float)iw;
++            o.R = (float)(r / iw);
++            o.G = (float)(g / iw);
++            o.B = (float)(b / iw);
++            o.S = (float)(s / iw);
++            o.T = (float)(tt / iw);
++        }
++        for (int i = 0; i < 3; i++) t[i] = out[i];
++        return true;
++    }
++
++    // The same picture drawn by the graphics chip (GPU3D_WideGL.h), if it is to and can.
++    static bool DrawGL(GPU& gpu, Polygon** list, u32 npolys)
++    {
++        DrawingGL = false;
++        if (!WideGLReady()) return false;
++        const GPU3D& g = gpu.GPU3D;
++        const SoftRenderer& soft = static_cast<const SoftRenderer&>(g.GetCurrentRenderer());
++        WideGLFrame& f = GLFrame;
++        f.W = Wide.Width;
++        f.H = Wide.Height;
++        f.Vertices.clear();
++        f.Batches.clear();
++        f.Under.clear();
++        f.UnderBatches.clear();
++        f.Textures.clear();
++
++        const u32 clearAlpha = (g.RenderClearAttr1 >> 16) & 0x1F;
++        f.ClearColor = 0;
++        if (clearAlpha)
++        {
++            u32 r = (g.RenderClearAttr1 << 3) & 0xF8, gr = (g.RenderClearAttr1 >> 2) & 0xF8, b = (g.RenderClearAttr1 >> 7) & 0xF8;
++            f.ClearColor = 0xFF000000 | ((r | (r >> 5)) << 16) | ((gr | (gr >> 5)) << 8) | (b | (b >> 5));
++        }
++        f.ClearZ = ((g.RenderClearAttr2 & 0x7FFF) * 0x200) + 0x1FF;
++        f.ClearFog = g.RenderClearAttr1 & (1 << 15);
++        f.DispCnt = g.RenderDispCnt;
++        f.AlphaRef = g.RenderAlphaRef;
++        memcpy(f.Toon, g.RenderToonTable, sizeof(f.Toon));
++        memcpy(f.FogDensity, g.RenderFogDensityTable, sizeof(f.FogDensity));
++        f.FogOffset = g.RenderFogOffset;
++        f.FogShift = g.RenderFogShift;
++        f.FogColor = (((g.RenderFogColor << 3) & 0xF8) << 16) | (((g.RenderFogColor >> 2) & 0xF8) << 8) | ((g.RenderFogColor >> 7) & 0xF8);
++        f.Fog = (f.DispCnt & (1 << 7)) && !(f.DispCnt & (1 << 6));
++        f.WBuffer = false;
++
++        // Textures are placed in rows across the atlas.
++        int shelfX = 0, shelfY = 0, shelfH = 0;
++        static bool atlasFull = false;
++        auto findTexture = [&](u32 param, u32 palette) -> const WideGLTexture* {
++            param &= ~0x000F0000u; // wrapping is applied when sampling
++            for (const WideGLTexture& t : f.Textures)
++                if (t.Param == param && t.Palette == palette) return &t;
++            const int w = 8 << ((param >> 20) & 0x7), h = 8 << ((param >> 23) & 0x7);
++            if (shelfX + w > WideGLAtlasW)
++            {
++                shelfX = 0;
++                shelfY += shelfH;
++                shelfH = 0;
++            }
++            if (shelfY + h > WideGLAtlasH)
++            {
++                if (!atlasFull) fprintf(stderr, "[wide] graphics chip: too many textures in a frame; some are left out\n");
++                atlasFull = true;
++                return nullptr;
++            }
++            f.Textures.push_back({ param, palette, shelfX, shelfY, w, h });
++            shelfX += w;
++            shelfH = std::max(shelfH, h);
++            return &f.Textures.back();
++        };
++
++        const float sx = f.W / (256.0f * 16), sy = f.H / (192.0f * 16);
++        const bool texturing = g.RenderDispCnt & 1;
++        for (u32 p = 0; p < npolys; p++)
++        {
++            const Polygon* poly = list[p];
++            if (!poly || poly->Degenerate || poly->IsShadowMask || poly->IsShadow || poly->Type != 0) continue;
++            if (poly->NumVertices < 3) continue;
++            const WideGLTexture* tex = texturing && ((poly->TexParam >> 26) & 0x7) ? findTexture(poly->TexParam, poly->TexPalette) : nullptr;
++            f.WBuffer = poly->WBuffer;
++            WideGLBatch key{};
++            key.Translucent = poly->Translucent;
++            key.DepthEqual = poly->Attr & (1 << 14);
++            key.DepthWrite = !poly->Translucent || (poly->Attr & (1 << 11));
++            key.PolyId = poly->Translucent ? (u8)(((poly->Attr >> 24) & 0x3F) + 1) : 0;
++            const WideGLBatch* last = f.Batches.empty() ? nullptr : &f.Batches.back();
++            if (!last || last->Translucent != key.Translucent || last->DepthEqual != key.DepthEqual ||
++                last->DepthWrite != key.DepthWrite || last->PolyId != key.PolyId)
++            {
++                key.First = (u32)f.Vertices.size();
++                key.Count = 0;
++                f.Batches.push_back(key);
++            }
++            WideGLVertex v[10];
++            for (u32 i = 0; i < poly->NumVertices; i++)
++            {
++                const Vertex* vtx = poly->Vertices[i];
++                WideGLVertex& o = v[i];
++                o.X = vtx->HiresPosition[0] * sx;
++                o.Y = vtx->HiresPosition[1] * sy;
++                o.Z = (float)poly->FinalZ[i];
++                o.InvW = poly->FinalW[i] > 0 ? 1.0f / poly->FinalW[i] : 1.0f;
++                o.R = (float)(vtx->FinalColor[0] >> 3);
++                o.G = (float)(vtx->FinalColor[1] >> 3);
++                o.B = (float)(vtx->FinalColor[2] >> 3);
++                o.WScale = (float)poly->FinalZ[0] * (poly->FinalW[0] > 0 ? 1.0f / poly->FinalW[0] : 1.0f);
++                o.S = (float)vtx->TexCoords[0];
++                o.T = (float)vtx->TexCoords[1];
++                o.Attr = poly->Attr;
++                o.TexParam = poly->TexParam;
++                o.Atlas = tex ? (u32)tex->X | ((u32)tex->Y << 16) : 0;
++                o.Flags = tex ? 1 : 0;
++            }
++            const bool grow = !poly->Translucent;
++            if (grow && (f.UnderBatches.empty() || f.UnderBatches.back().DepthEqual != key.DepthEqual))
++            {
++                WideGLBatch u = key;
++                u.First = (u32)f.Under.size();
++                u.Count = 0;
++                f.UnderBatches.push_back(u);
++            }
++            for (u32 i = 1; i + 1 < poly->NumVertices; i++)
++            {
++                WideGLVertex t[3] = { v[0], v[i], v[i + 1] };
++                // Texture coordinates stay within the triangle's own (half a 1/16 texel short
++                // of the far side, which belongs to the next texel).
++                float s0 = std::min({ t[0].S, t[1].S, t[2].S }), s1 = std::max({ t[0].S, t[1].S, t[2].S });
++                float t0 = std::min({ t[0].T, t[1].T, t[2].T }), t1 = std::max({ t[0].T, t[1].T, t[2].T });
++                s1 = std::max(s0, s1 - 0.5f);
++                t1 = std::max(t0, t1 - 0.5f);
++                for (WideGLVertex& o : t)
++                {
++                    o.S0 = s0;
++                    o.T0 = t0;
++                    o.S1 = s1;
++                    o.T1 = t1;
++                }
++                f.Vertices.insert(f.Vertices.end(), t, t + 3);
++                f.Batches.back().Count += 3;
++                if (grow && GrowTriangle(t))
++                {
++                    f.Under.insert(f.Under.end(), t, t + 3);
++                    f.UnderBatches.back().Count += 3;
++                }
++            }
++        }
++
++        // Texture memory stays as it is until WideWait(), like for the drawing threads.
++        const GPU* const gpuP = &gpu;
++        const SoftRenderer* const softP = &soft;
++        f.Decode = [gpuP, softP](u32 param, u32 palette, int w, int h, u8* out) {
++            for (int t = 0; t < h; t++)
++                for (int s = 0; s < w; s++, out += 4)
++                {
++                    u16 tcolor;
++                    u8 talpha;
++                    softP->TextureLookup(*gpuP, param, palette, (s16)(s << 4), (s16)(t << 4), &tcolor, &talpha);
++                    u32 tr = (tcolor << 1) & 0x3E; if (tr) tr++;
++                    u32 tg = (tcolor >> 4) & 0x3E; if (tg) tg++;
++                    u32 tb = (tcolor >> 9) & 0x3E; if (tb) tb++;
++                    out[0] = (u8)tr;
++                    out[1] = (u8)tg;
++                    out[2] = (u8)tb;
++                    out[3] = talpha;
++                }
++        };
++        f.Done = [](u64 us) {
++            StatDrawUs += us;
++            StatDraws++;
++        };
++        f.Out = Back.data();
++        WideGLStart(f);
++        Drawing = DrawingGL = true;
++        return true;
++    }
++
+     static void Draw(GPU& gpu, Polygon** list, u32 npolys)
+     {
+         const int W = Wide.Width, H = Wide.Height;
+@@ -524,6 +801,7 @@ struct WideAccess
+         Back.resize((size_t)W * H);
+         BackW = W;
+         BackH = H;
++        if (DrawGL(gpu, list, npolys)) return;
+ 
+         // Rear plane.
+         const s32 clearZ = (s32)(((g.RenderClearAttr2 & 0x7FFF) * 0x200) + 0x1FF);
+@@ -1107,10 +1385,20 @@ struct WideAccess
          };
          static std::function<void(int)> job;
          job = [=](int) {
@@ -1273,7 +1570,7 @@ index fc53f0a..0d9ea75 100644
          Pool->Start(job);
          Drawing = true;
          if (prof)
-@@ -1128,6 +1165,14 @@ struct WideAccess
+@@ -1128,6 +1416,14 @@ struct WideAccess
  };
  
  void WideWait() { WideAccess::Wait(); }
@@ -1300,6 +1597,713 @@ index 365d8ef..87f1675 100644
 +// took to draw and the emulation waited for them, the pictures drawn, and drawing threads.
 +void WideTakeStats(double& drawMs, double& waitMs, int& draws, int& threads);
  }
+diff --git a/melonDS/src/GPU3D_WideGL.cpp b/melonDS/src/GPU3D_WideGL.cpp
+new file mode 100644
+index 0000000..daf9efb
+--- /dev/null
++++ b/melonDS/src/GPU3D_WideGL.cpp
+@@ -0,0 +1,612 @@
++// ssrecomp: the widescreen 3D scene drawn by the graphics chip. See GPU3D_WideGL.h.
++#include "GPU3D_WideGL.h"
++
++#include <chrono>
++#include <cstddef>
++#include <condition_variable>
++#include <cstdio>
++#include <cstdlib>
++#include <cstring>
++#include <mutex>
++#include <string>
++#include <thread>
++
++#if defined(__ANDROID__)
++#define SSR_WIDE_GL 1
++#include <EGL/egl.h>
++#include <EGL/eglext.h>
++#include <GLES3/gl3.h>
++#define SSR_GLSL_HEADER "#version 300 es\nprecision highp float;\nprecision highp int;\nprecision highp usampler2D;\n"
++#elif defined(__APPLE__)
++#include <TargetConditionals.h>
++#if !TARGET_OS_IPHONE
++#define SSR_WIDE_GL 1
++#define GL_SILENCE_DEPRECATION
++#include <OpenGL/OpenGL.h>
++#include <OpenGL/gl3.h>
++#define SSR_GLSL_HEADER "#version 330 core\n"
++#endif
++#endif
++
++namespace melonDS
++{
++#ifndef SSR_WIDE_GL
++bool WideGLReady() { return false; }
++void WideGLStart(WideGLFrame&) {}
++void WideGLWait() {}
++#else
++namespace
++{
++const char* kVS = R"(
++layout(location = 0) in vec4 vPos;    // x, y (pixels), DS depth, 1/W
++layout(location = 1) in vec4 vColor;  // 6-bit colour, W-buffer scale
++layout(location = 2) in vec2 vST;
++layout(location = 3) in uvec4 vAttr;
++layout(location = 4) in vec4 vBox;
++uniform vec2 uSize;
++out vec3 fColor;
++out vec2 fST;
++flat out vec4 fBox;
++flat out uvec4 fAttr;
++flat out float fWScale;
++void main()
++{
++    // The DS interpolates depth linearly across the screen and everything else with
++    // perspective, as the graphics chip does with z/w and the other outputs.
++    float w = 1.0 / vPos.w;
++    vec2 ndc = vPos.xy / uSize * 2.0 - 1.0;
++    float z = vPos.z / 8388608.0 - 1.0;
++    gl_Position = vec4(ndc * w, z * w, w);
++    fColor = vColor.rgb;
++    fWScale = vColor.a;
++    fST = vST;
++    fAttr = vAttr;
++    fBox = vBox;
++}
++)";
++
++// The same shading as GPU3D_Wide.cpp's, in the DS's own 6- and 5-bit steps.
++const char* kFS = R"(
++in vec3 fColor;
++in vec2 fST;
++flat in uvec4 fAttr;   // polygon attributes, texture parameters, atlas place, flags
++flat in float fWScale;
++flat in vec4 fBox;
++uniform usampler2D uAtlas;
++uniform uint uDispCnt;
++uniform int uAlphaRef;
++uniform int uToon[32];
++layout(location = 0) out vec4 oColor;
++layout(location = 1) out vec4 oFog;
++
++int Wrap(int c, int size, bool repeat, bool mirror)
++{
++    if (!repeat) return clamp(c, 0, size - 1);
++    int m = c & (size - 1);
++    if (mirror && (c & size) != 0) return size - 1 - m;
++    return m;
++}
++ivec3 Toon(int i)
++{
++    int tc = uToon[i];
++    ivec3 c = ivec3((tc << 1) & 0x3E, (tc >> 4) & 0x3E, (tc >> 9) & 0x3E);
++    return c + ivec3(notEqual(c, ivec3(0)));
++}
++void main()
++{
++    uint attr = fAttr.x;
++    int polyAlpha = int((attr >> 16) & 31u);
++    int blendMode = int((attr >> 4) & 3u);
++    bool highlight = blendMode == 2 && (uDispCnt & 2u) != 0u;
++    bool toon = blendMode == 2 && !highlight;
++    bool textured = (fAttr.w & 1u) != 0u;
++    int alpha = polyAlpha;
++    uvec4 tx = uvec4(0u);
++    if (textured)
++    {
++        uint tp = fAttr.y;
++        int tw = 8 << int((tp >> 20) & 7u), th = 8 << int((tp >> 23) & 7u);
++        ivec2 st = ivec2(floor(clamp(fST, fBox.xy, fBox.zw) / 16.0));
++        st.x = Wrap(st.x, tw, (tp & 0x10000u) != 0u, (tp & 0x40000u) != 0u);
++        st.y = Wrap(st.y, th, (tp & 0x20000u) != 0u, (tp & 0x80000u) != 0u);
++        tx = texelFetch(uAtlas, ivec2(int(fAttr.z & 0xFFFFu), int(fAttr.z >> 16)) + st, 0);
++        if ((blendMode & 1) == 0) alpha = ((int(tx.a) + 1) * (polyAlpha + 1) - 1) >> 5;
++    }
++    if (polyAlpha == 0) alpha = 31; // wireframe polygons are drawn filled
++    if (alpha <= uAlphaRef) discard;
++
++    ivec3 v = clamp(ivec3(fColor + 0.5), 0, 63);
++    int rawR = v.r;
++    if (highlight) v = ivec3(v.r);
++    else if (toon) v = Toon(v.r >> 1);
++    ivec3 c = v;
++    if (textured)
++    {
++        ivec3 t = ivec3(tx.rgb);
++        int ta = int(tx.a);
++        if ((blendMode & 1) != 0)
++        {
++            // decal
++            if (ta == 31) c = t;
++            else if (ta != 0) c = (t * ta + v * (31 - ta)) >> 5;
++        }
++        else
++            c = ((t + 1) * (v + 1) - 1) >> 6; // modulate
++    }
++    if (highlight) c = min(c + Toon(rawR >> 1), ivec3(63));
++    c = (c << 2) | (c >> 4);
++    // Blue first: read back as bytes, the picture is then XRGB like the processor's. The
++    // alpha is the blending weight; the picture keeps the largest (GL_MAX).
++    oColor = vec4(vec3(c.bgr) / 255.0, float(alpha + 1) / 32.0);
++    oFog = vec4(float((attr >> 15) & 1u), 0.0, 0.0, 0.0);
++#ifdef WBUFFER
++    gl_FragDepth = clamp(fWScale / gl_FragCoord.w / 16777216.0, 0.0, 1.0);
++#endif
++}
++)";
++
++const char* kFullVS = R"(
++void main()
++{
++    vec2 p = vec2(gl_VertexID == 1 ? 3.0 : -1.0, gl_VertexID == 2 ? 3.0 : -1.0);
++    gl_Position = vec4(p, 0.0, 1.0);
++}
++)";
++
++const char* kFogFS = R"(
++uniform sampler2D uDepth;
++uniform sampler2D uFogFlag;
++uniform int uDensity[34];
++uniform uint uFogOffset, uFogShift;
++uniform vec3 uFogColor;
++layout(location = 0) out vec4 oColor;
++void main()
++{
++    ivec2 p = ivec2(gl_FragCoord.xy);
++    if (texelFetch(uFogFlag, p, 0).r < 0.5) discard;
++    uint z = uint(min(texelFetch(uDepth, p, 0).r * 16777216.0 + 0.5, 16777215.0));
++    uint id = 0u, frac = 0u;
++    if (z >= uFogOffset)
++    {
++        z = ((z - uFogOffset) >> 2) << uFogShift;
++        id = z >> 17;
++        if (id >= 32u) id = 32u;
++        else frac = z & 0x1FFFFu;
++    }
++    uint density = (uint(uDensity[int(id)]) * (0x20000u - frac) + uint(uDensity[int(id) + 1]) * frac) >> 17;
++    if (density >= 127u) density = 128u;
++    if (density == 0u) discard;
++    oColor = vec4(uFogColor, float(density) / 128.0);
++}
++)";
++
++GLuint Compile(GLenum type, const char* defines, const char* src, std::string& err)
++{
++    GLuint s = glCreateShader(type);
++    const char* parts[3] = { SSR_GLSL_HEADER, defines, src };
++    glShaderSource(s, 3, parts, nullptr);
++    glCompileShader(s);
++    GLint ok = 0;
++    glGetShaderiv(s, GL_COMPILE_STATUS, &ok);
++    if (!ok)
++    {
++        char log[2048] = {};
++        glGetShaderInfoLog(s, sizeof(log), nullptr, log);
++        err = log;
++        glDeleteShader(s);
++        return 0;
++    }
++    return s;
++}
++
++GLuint Link(const char* vs, const char* fs, const char* defines, std::string& err)
++{
++    GLuint v = Compile(GL_VERTEX_SHADER, "", vs, err);
++    if (!v) return 0;
++    GLuint f = Compile(GL_FRAGMENT_SHADER, defines, fs, err);
++    if (!f)
++    {
++        glDeleteShader(v);
++        return 0;
++    }
++    GLuint p = glCreateProgram();
++    glAttachShader(p, v);
++    glAttachShader(p, f);
++    glLinkProgram(p);
++    glDeleteShader(v);
++    glDeleteShader(f);
++    GLint ok = 0;
++    glGetProgramiv(p, GL_LINK_STATUS, &ok);
++    if (!ok)
++    {
++        char log[2048] = {};
++        glGetProgramInfoLog(p, sizeof(log), nullptr, log);
++        err = log;
++        glDeleteProgram(p);
++        return 0;
++    }
++    return p;
++}
++
++class Renderer
++{
++public:
++    // On the drawing thread: makes the context and everything that does not depend on the
++    // picture's size. Returns an empty string, or what went wrong.
++    std::string Init()
++    {
++        std::string err = MakeContext();
++        if (!err.empty()) return err;
++        for (int w = 0; w < 2; w++)
++        {
++            Program[w] = Link(kVS, kFS, w ? "#define WBUFFER\n" : "", err);
++            if (!Program[w]) return "polygon shader: " + err;
++        }
++        FogProgram = Link(kFullVS, kFogFS, "", err);
++        if (!FogProgram) return "fog shader: " + err;
++
++        glGenVertexArrays(1, &Vao);
++        glGenBuffers(1, &Vbo);
++        glBindVertexArray(Vao);
++        glBindBuffer(GL_ARRAY_BUFFER, Vbo);
++        const GLsizei stride = sizeof(WideGLVertex);
++        glEnableVertexAttribArray(0);
++        glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, stride, (void*)offsetof(WideGLVertex, X));
++        glEnableVertexAttribArray(1);
++        glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, stride, (void*)offsetof(WideGLVertex, R));
++        glEnableVertexAttribArray(2);
++        glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, stride, (void*)offsetof(WideGLVertex, S));
++        glEnableVertexAttribArray(3);
++        glVertexAttribIPointer(3, 4, GL_UNSIGNED_INT, stride, (void*)offsetof(WideGLVertex, Attr));
++        glEnableVertexAttribArray(4);
++        glVertexAttribPointer(4, 4, GL_FLOAT, GL_FALSE, stride, (void*)offsetof(WideGLVertex, S0));
++        glGenVertexArrays(1, &EmptyVao);
++
++        glGenTextures(1, &Atlas);
++        glBindTexture(GL_TEXTURE_2D, Atlas);
++        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8UI, WideGLAtlasW, WideGLAtlasH, 0, GL_RGBA_INTEGER, GL_UNSIGNED_BYTE, nullptr);
++        Nearest();
++
++        for (int p = 0; p < 2; p++)
++        {
++            glUseProgram(Program[p]);
++            glUniform1i(glGetUniformLocation(Program[p], "uAtlas"), 0);
++        }
++        glUseProgram(FogProgram);
++        glUniform1i(glGetUniformLocation(FogProgram, "uDepth"), 0);
++        glUniform1i(glGetUniformLocation(FogProgram, "uFogFlag"), 1);
++        if (GLenum e = glGetError()) return "setup failed, error " + std::to_string(e);
++        return "";
++    }
++
++    void Draw(WideGLFrame& f)
++    {
++        const auto t0 = std::chrono::steady_clock::now();
++        Resize(f.W, f.H);
++
++        // Textures, decoded whole into the atlas.
++        glActiveTexture(GL_TEXTURE0);
++        glBindTexture(GL_TEXTURE_2D, Atlas);
++        glPixelStorei(GL_UNPACK_ALIGNMENT, 4);
++        for (const WideGLTexture& t : f.Textures)
++        {
++            Staging.resize((size_t)t.W * t.H * 4);
++            f.Decode(t.Param, t.Palette, t.W, t.H, Staging.data());
++            glTexSubImage2D(GL_TEXTURE_2D, 0, t.X, t.Y, t.W, t.H, GL_RGBA_INTEGER, GL_UNSIGNED_BYTE, Staging.data());
++        }
++
++        glBindFramebuffer(GL_FRAMEBUFFER, Fbo);
++        glViewport(0, 0, f.W, f.H);
++        static const GLenum both[2] = { GL_COLOR_ATTACHMENT0, GL_COLOR_ATTACHMENT1 };
++        static const GLenum colourOnly[2] = { GL_COLOR_ATTACHMENT0, GL_NONE };
++        glDrawBuffers(2, both);
++        glDisable(GL_BLEND);
++        glDisable(GL_SCISSOR_TEST);
++        glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
++        glDepthMask(GL_TRUE);
++        glStencilMask(0xFF);
++        const GLfloat clear[4] = { (f.ClearColor & 0xFF) / 255.0f, ((f.ClearColor >> 8) & 0xFF) / 255.0f,
++            ((f.ClearColor >> 16) & 0xFF) / 255.0f, (f.ClearColor >> 24) ? 1.0f : 0.0f };
++        glClearBufferfv(GL_COLOR, 0, clear);
++        const GLfloat fogClear[4] = { f.ClearFog ? 1.0f : 0.0f, 0, 0, 0 };
++        glClearBufferfv(GL_COLOR, 1, fogClear);
++        glClearBufferfi(GL_DEPTH_STENCIL, 0, (float)(f.ClearZ / 16777216.0), 0);
++
++        if (!f.Vertices.empty())
++        {
++            glBindVertexArray(Vao);
++            glBindBuffer(GL_ARRAY_BUFFER, Vbo);
++            const size_t vsize = f.Vertices.size() * sizeof(WideGLVertex), usize = f.Under.size() * sizeof(WideGLVertex);
++            glBufferData(GL_ARRAY_BUFFER, vsize + usize, nullptr, GL_STREAM_DRAW);
++            glBufferSubData(GL_ARRAY_BUFFER, 0, vsize, f.Vertices.data());
++            if (usize) glBufferSubData(GL_ARRAY_BUFFER, vsize, usize, f.Under.data());
++            const GLuint prog = Program[f.WBuffer ? 1 : 0];
++            glUseProgram(prog);
++            glUniform2f(glGetUniformLocation(prog, "uSize"), (float)f.W, (float)f.H);
++            glUniform1ui(glGetUniformLocation(prog, "uDispCnt"), f.DispCnt);
++            glUniform1i(glGetUniformLocation(prog, "uAlphaRef"), (GLint)f.AlphaRef);
++            GLint toon[32];
++            for (int i = 0; i < 32; i++) toon[i] = f.Toon[i];
++            glUniform1iv(glGetUniformLocation(prog, "uToon"), 32, toon);
++
++            glEnable(GL_DEPTH_TEST);
++            glEnable(GL_STENCIL_TEST);
++            glStencilOp(GL_KEEP, GL_KEEP, GL_REPLACE);
++            const bool blend = f.DispCnt & (1 << 3);
++            glBlendEquationSeparate(GL_FUNC_ADD, GL_MAX);
++            if (blend)
++                glBlendFuncSeparate(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ONE, GL_ONE);
++            else
++                glBlendFuncSeparate(GL_ONE, GL_ZERO, GL_ONE, GL_ONE);
++            // The grown polygons, then the depth cleared again for the polygons as they are.
++            if (!f.UnderBatches.empty())
++            {
++                glDisable(GL_BLEND);
++                glDrawBuffers(2, both);
++                glDepthMask(GL_TRUE);
++                glStencilFunc(GL_ALWAYS, 0, 0xFF);
++                const GLint base = (GLint)f.Vertices.size();
++                for (const WideGLBatch& b : f.UnderBatches)
++                {
++                    glDepthFunc(b.DepthEqual ? GL_LEQUAL : GL_LESS);
++                    if (b.DepthEqual)
++                    {
++                        glEnable(GL_POLYGON_OFFSET_FILL);
++                        glPolygonOffset(0.0f, -256.0f);
++                    }
++                    else
++                        glDisable(GL_POLYGON_OFFSET_FILL);
++                    glDrawArrays(GL_TRIANGLES, base + b.First, b.Count);
++                }
++                glClearBufferfi(GL_DEPTH_STENCIL, 0, (float)(f.ClearZ / 16777216.0), 0);
++            }
++            for (const WideGLBatch& b : f.Batches)
++            {
++                // On equal depth the polygon drawn first stays, as on the DS (GL_LESS);
++                // those that ask for equal depth pass within a little of it.
++                glDepthFunc(b.DepthEqual ? GL_LEQUAL : GL_LESS);
++                if (b.DepthEqual)
++                {
++                    glEnable(GL_POLYGON_OFFSET_FILL);
++                    glPolygonOffset(0.0f, -256.0f);
++                }
++                else
++                    glDisable(GL_POLYGON_OFFSET_FILL);
++                if (b.Translucent)
++                {
++                    // Translucent pixels of one polygon ID are not drawn over each other: the
++                    // stencil holds the ID of the last translucent polygon, 0 after an opaque one.
++                    glEnable(GL_BLEND);
++                    glDrawBuffers(2, colourOnly); // the fog flag stays the one underneath
++                    glDepthMask(b.DepthWrite ? GL_TRUE : GL_FALSE);
++                    glStencilFunc(GL_NOTEQUAL, b.PolyId, 0xFF);
++                }
++                else
++                {
++                    glDisable(GL_BLEND);
++                    glDrawBuffers(2, both);
++                    glDepthMask(GL_TRUE);
++                    glStencilFunc(GL_ALWAYS, 0, 0xFF);
++                }
++                glDrawArrays(GL_TRIANGLES, b.First, b.Count);
++            }
++            glDisable(GL_POLYGON_OFFSET_FILL);
++            glDisable(GL_STENCIL_TEST);
++            glDisable(GL_DEPTH_TEST);
++        }
++
++        if (f.Fog)
++        {
++            glBindFramebuffer(GL_FRAMEBUFFER, FogFbo);
++            glDrawBuffers(1, both);
++            glEnable(GL_BLEND);
++            glBlendEquationSeparate(GL_FUNC_ADD, GL_FUNC_ADD);
++            glBlendFuncSeparate(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA, GL_ZERO, GL_ONE);
++            glUseProgram(FogProgram);
++            GLint density[34];
++            for (int i = 0; i < 34; i++) density[i] = f.FogDensity[i];
++            glUniform1iv(glGetUniformLocation(FogProgram, "uDensity"), 34, density);
++            glUniform1ui(glGetUniformLocation(FogProgram, "uFogOffset"), f.FogOffset);
++            glUniform1ui(glGetUniformLocation(FogProgram, "uFogShift"), f.FogShift);
++            glUniform3f(glGetUniformLocation(FogProgram, "uFogColor"), (f.FogColor & 0xFF) / 255.0f,
++                ((f.FogColor >> 8) & 0xFF) / 255.0f, ((f.FogColor >> 16) & 0xFF) / 255.0f);
++            glActiveTexture(GL_TEXTURE1);
++            glBindTexture(GL_TEXTURE_2D, FogFlag);
++            glActiveTexture(GL_TEXTURE0);
++            glBindTexture(GL_TEXTURE_2D, Depth);
++            glBindVertexArray(EmptyVao);
++            glDrawArrays(GL_TRIANGLES, 0, 3);
++            glDisable(GL_BLEND);
++        }
++
++        glBindFramebuffer(GL_READ_FRAMEBUFFER, Fbo);
++        glReadBuffer(GL_COLOR_ATTACHMENT0);
++        glPixelStorei(GL_PACK_ALIGNMENT, 4);
++        glReadPixels(0, 0, f.W, f.H, GL_RGBA, GL_UNSIGNED_BYTE, f.Out);
++
++        static int errors = 0;
++        if (GLenum e = glGetError(); e && errors < 5)
++        {
++            errors++;
++            fprintf(stderr, "[wide] graphics chip error %u\n", e);
++        }
++        if (f.Done)
++            f.Done((u64)std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::steady_clock::now() - t0).count());
++    }
++
++private:
++    GLuint Program[2] = {}, FogProgram = 0, Vao = 0, EmptyVao = 0, Vbo = 0, Atlas = 0;
++    GLuint Fbo = 0, FogFbo = 0, Colour = 0, FogFlag = 0, Depth = 0;
++    int W = 0, H = 0;
++    std::vector<u8> Staging;
++
++    static void Nearest()
++    {
++        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
++        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
++        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
++        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
++    }
++
++    void Resize(int w, int h)
++    {
++        if (w == W && h == H) return;
++        if (Fbo)
++        {
++            glDeleteFramebuffers(1, &Fbo);
++            glDeleteFramebuffers(1, &FogFbo);
++            GLuint tex[3] = { Colour, FogFlag, Depth };
++            glDeleteTextures(3, tex);
++        }
++        W = w;
++        H = h;
++        GLuint tex[3];
++        glGenTextures(3, tex);
++        Colour = tex[0];
++        FogFlag = tex[1];
++        Depth = tex[2];
++        glBindTexture(GL_TEXTURE_2D, Colour);
++        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, w, h, 0, GL_RGBA, GL_UNSIGNED_BYTE, nullptr);
++        Nearest();
++        glBindTexture(GL_TEXTURE_2D, FogFlag);
++        glTexImage2D(GL_TEXTURE_2D, 0, GL_R8, w, h, 0, GL_RED, GL_UNSIGNED_BYTE, nullptr);
++        Nearest();
++        glBindTexture(GL_TEXTURE_2D, Depth);
++        glTexImage2D(GL_TEXTURE_2D, 0, GL_DEPTH24_STENCIL8, w, h, 0, GL_DEPTH_STENCIL, GL_UNSIGNED_INT_24_8, nullptr);
++        Nearest();
++        glGenFramebuffers(1, &Fbo);
++        glBindFramebuffer(GL_FRAMEBUFFER, Fbo);
++        glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, Colour, 0);
++        glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT1, GL_TEXTURE_2D, FogFlag, 0);
++        glFramebufferTexture2D(GL_FRAMEBUFFER, GL_DEPTH_STENCIL_ATTACHMENT, GL_TEXTURE_2D, Depth, 0);
++        if (GLenum s = glCheckFramebufferStatus(GL_FRAMEBUFFER); s != GL_FRAMEBUFFER_COMPLETE)
++            fprintf(stderr, "[wide] graphics chip: picture buffer incomplete (%x)\n", s);
++        // Fog is drawn over the colour while reading the depth and the fog flags.
++        glGenFramebuffers(1, &FogFbo);
++        glBindFramebuffer(GL_FRAMEBUFFER, FogFbo);
++        glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, Colour, 0);
++    }
++
++#if defined(__ANDROID__)
++    std::string MakeContext()
++    {
++        EGLDisplay d = eglGetDisplay(EGL_DEFAULT_DISPLAY);
++        if (d == EGL_NO_DISPLAY || !eglInitialize(d, nullptr, nullptr)) return "no EGL display";
++        const EGLint cfgAttr[] = { EGL_RENDERABLE_TYPE, 0x40 /* EGL_OPENGL_ES3_BIT */, EGL_SURFACE_TYPE, EGL_PBUFFER_BIT,
++            EGL_RED_SIZE, 8, EGL_GREEN_SIZE, 8, EGL_BLUE_SIZE, 8, EGL_NONE };
++        EGLConfig cfg;
++        EGLint n = 0;
++        if (!eglChooseConfig(d, cfgAttr, &cfg, 1, &n) || n < 1) return "no OpenGL ES 3 configuration";
++        const EGLint ctxAttr[] = { EGL_CONTEXT_CLIENT_VERSION, 3, EGL_NONE };
++        EGLContext c = eglCreateContext(d, cfg, EGL_NO_CONTEXT, ctxAttr);
++        if (c == EGL_NO_CONTEXT) return "no OpenGL ES 3 context";
++        const EGLint surfAttr[] = { EGL_WIDTH, 1, EGL_HEIGHT, 1, EGL_NONE };
++        EGLSurface s = eglCreatePbufferSurface(d, cfg, surfAttr);
++        if (s == EGL_NO_SURFACE || !eglMakeCurrent(d, s, s, c)) return "could not use the context";
++        fprintf(stderr, "[wide] graphics chip: %s, %s\n", (const char*)glGetString(GL_RENDERER), (const char*)glGetString(GL_VERSION));
++        return "";
++    }
++#else
++    std::string MakeContext()
++    {
++        const CGLPixelFormatAttribute attrs[] = { kCGLPFAOpenGLProfile, (CGLPixelFormatAttribute)kCGLOGLPVersion_3_2_Core,
++            kCGLPFAAllowOfflineRenderers, (CGLPixelFormatAttribute)0 };
++        CGLPixelFormatObj pf = nullptr;
++        GLint n = 0;
++        if (CGLChoosePixelFormat(attrs, &pf, &n) != kCGLNoError || !pf) return "no OpenGL 3.2 pixel format";
++        CGLContextObj ctx = nullptr;
++        CGLError e = CGLCreateContext(pf, nullptr, &ctx);
++        CGLDestroyPixelFormat(pf);
++        if (e != kCGLNoError || !ctx) return "no OpenGL 3.2 context";
++        CGLSetCurrentContext(ctx);
++        fprintf(stderr, "[wide] graphics chip: %s, %s\n", (const char*)glGetString(GL_RENDERER), (const char*)glGetString(GL_VERSION));
++        return "";
++    }
++#endif
++};
++
++// The drawing thread: the context belongs to it.
++class Thread
++{
++public:
++    bool Ready()
++    {
++        std::unique_lock<std::mutex> lock(Mutex);
++        if (State == 0)
++        {
++            State = 1;
++            T = std::thread([this] { Loop(); });
++            T.detach();
++        }
++        Changed.wait(lock, [this] { return State != 1; });
++        return State == 2;
++    }
++    void Start(WideGLFrame& f)
++    {
++        {
++            std::lock_guard<std::mutex> lock(Mutex);
++            Job = &f;
++        }
++        Changed.notify_all();
++    }
++    void Wait()
++    {
++        std::unique_lock<std::mutex> lock(Mutex);
++        Changed.wait(lock, [this] { return Job == nullptr; });
++    }
++
++private:
++    std::thread T;
++    std::mutex Mutex;
++    std::condition_variable Changed;
++    int State = 0; // 0 not started, 1 setting up, 2 ready, 3 failed
++    WideGLFrame* Job = nullptr;
++
++    void Loop()
++    {
++        Renderer r;
++        const std::string err = r.Init();
++        {
++            std::lock_guard<std::mutex> lock(Mutex);
++            State = err.empty() ? 2 : 3;
++        }
++        if (!err.empty()) fprintf(stderr, "[wide] graphics chip: %s; drawing on the processor\n", err.c_str());
++        Changed.notify_all();
++        if (!err.empty()) return;
++        for (;;)
++        {
++            WideGLFrame* f;
++            {
++                std::unique_lock<std::mutex> lock(Mutex);
++                Changed.wait(lock, [this] { return Job != nullptr; });
++                f = Job;
++            }
++            r.Draw(*f);
++            {
++                std::lock_guard<std::mutex> lock(Mutex);
++                Job = nullptr;
++            }
++            Changed.notify_all();
++        }
++    }
++};
++Thread GLThread;
++}
++
++bool WideGLReady()
++{
++    // On by default on Android, where the processor is the limit; on macOS only for tests.
++    static const bool wanted = [] {
++        const char* e = getenv("SSR_WIDE_GPU");
++#if defined(__ANDROID__)
++        return !e || atoi(e) != 0;
++#else
++        return e && atoi(e) != 0;
++#endif
++    }();
++    return wanted && GLThread.Ready();
++}
++void WideGLStart(WideGLFrame& frame) { GLThread.Start(frame); }
++void WideGLWait() { GLThread.Wait(); }
++#endif
++}
+diff --git a/melonDS/src/GPU3D_WideGL.h b/melonDS/src/GPU3D_WideGL.h
+new file mode 100644
+index 0000000..d510892
+--- /dev/null
++++ b/melonDS/src/GPU3D_WideGL.h
+@@ -0,0 +1,83 @@
++// ssrecomp: the widescreen 3D scene (GPU3D_Wide.h) drawn by the graphics chip instead of the
++// processor, with OpenGL ES 3 on Android and OpenGL 3.2 on macOS (for testing). It draws the
++// polygons GPU3D_Wide.cpp prepares into an image of the same kind as its own (XRGB, the top
++// byte the 3D alpha), on a thread of its own with a context of its own, apart from the
++// frontend's. Where it is not available GPU3D_Wide.cpp draws the scene itself.
++#pragma once
++#include <atomic>
++#include <functional>
++#include <vector>
++#include "types.h"
++
++namespace melonDS
++{
++struct WideGLVertex
++{
++    float X, Y, Z, InvW;  // output pixels; depth as the DS stores it; 1 / normalised W
++    float R, G, B, WScale; // 6-bit colour; for W-buffering, depth = WScale / interpolated InvW
++    float S, T;           // texture coordinates, 1/16 texel
++    u32 Attr, TexParam;   // the polygon's
++    u32 Atlas;            // where its texture is in the atlas: x | y << 16
++    u32 Flags;            // bit 0: textured
++    // The texture coordinates are kept within these (the polygon's own texels): the
++    // polygons of the first pass are grown a little, and their edges must not sample
++    // from beyond them.
++    float S0, T0, S1, T1;
++};
++
++// A run of polygons drawn with the same settings.
++struct WideGLBatch
++{
++    u32 First, Count;  // vertices
++    bool Translucent;
++    bool DepthEqual;   // passes on (nearly) equal depth (polygon attribute bit 14)
++    bool DepthWrite;   // translucent polygons write depth only when asked (bit 11)
++    u8 PolyId;         // translucent: ID + 1
++};
++
++struct WideGLTexture
++{
++    u32 Param, Palette;
++    int X, Y, W, H;    // place in the atlas
++};
++
++struct WideGLFrame
++{
++    int W = 0, H = 0;
++    std::vector<WideGLVertex> Vertices;
++    std::vector<WideGLBatch> Batches;
++    // Drawn first: the opaque polygons grown by a third of a pixel, as GPU3D_Wide.cpp grows
++    // them, which fills the slivers left open where polygons meet. The polygons as they are
++    // (Vertices) are then drawn over them.
++    std::vector<WideGLVertex> Under;
++    std::vector<WideGLBatch> UnderBatches;
++    std::vector<WideGLTexture> Textures;
++    // Decodes a whole texture: 4 bytes a texel, red, green, blue (6 bits) and alpha (5 bits).
++    std::function<void(u32 param, u32 palette, int w, int h, u8* out)> Decode;
++
++    u32 ClearColor = 0;     // XRGB with the 3D alpha on top, as in the output
++    u32 ClearZ = 0;
++    bool ClearFog = false;
++    bool WBuffer = false;
++    u32 DispCnt = 0, AlphaRef = 0;
++    u16 Toon[32] = {};
++    u8 FogDensity[34] = {};
++    u32 FogOffset = 0, FogShift = 0, FogColor = 0; // FogColor: 8-bit XRGB
++    bool Fog = false;
++
++    u32* Out = nullptr;     // W * H pixels, written by the time WideGLWait() returns
++    // Told how long the picture took, in microseconds, when it is done.
++    std::function<void(u64)> Done;
++};
++
++// Atlas size the frames' textures are placed in.
++constexpr int WideGLAtlasW = 2048, WideGLAtlasH = 2048;
++
++// Whether the graphics chip is to draw (SSR_WIDE_GPU=0 or 1; on Android it does unless
++// told not to) and could be set up. The first call
++// sets it up, on the drawing thread; it is not tried again after a failure.
++bool WideGLReady();
++// Starts drawing the frame; it must stay as it is until WideGLWait().
++void WideGLStart(WideGLFrame& frame);
++void WideGLWait();
++}
 diff --git a/melonDS/src/SPU.cpp b/melonDS/src/SPU.cpp
 index 3c4aca7..d632ab8 100644
 --- a/melonDS/src/SPU.cpp

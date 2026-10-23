@@ -51,11 +51,26 @@ Uninstalling the app deletes its save.
 - The save and the settings are in the app's own storage, which only the app can
   read. `log.txt` is in `Android/data/<app id>/files` on the shared storage (a file
   manager, or a PC over USB, opens it; `adb shell cat` reads it).
-- A phone slower than an iPhone may not keep up with the iPhone's settings in the
+- The widescreen map is drawn by the graphics chip (OpenGL ES 3), where the iPhone
+  draws it with the processor: on a Galaxy Note 9 a picture took 10 ms there against
+  25 ms on three processor cores, and the game no longer waits for it. If the graphics
+  chip cannot be used, `log.txt` says why (`[wide] graphics chip: ...`) and the
+  processor draws as before. The game itself runs on the fastest cores (`[cpu]` in
+  `log.txt`).
+- A phone slower than an iPhone may still not keep up with the iPhone's settings in the
   busiest scenes, and the sound then runs short (`[audio] the queue ran dry` in
-  `log.txt`). *60 FPS* off in the pause menu is the first thing to try: on a Galaxy
-  Note 9 that left a quarter of every frame to spare. *WORLD DETAIL* lower and then
+  `log.txt`). `[perf]` lines there say how long each part of a frame took (a frame has
+  16.7 ms). On the Note 9 the fast cores were held at 1.8 GHz of their 2.7 by
+  the phone; Samsung's *Settings › Device care › Battery › Power mode* chooses how far
+  the processor may go. *60 FPS* off in the pause menu is the next thing to try: on
+  the Note 9 that left a quarter of every frame to spare. *WORLD DETAIL* lower and then
   *WIDESCREEN WORLD* off save more.
+- For trying other settings without building again, a file `tuning.txt` in the same
+  folder as `log.txt` sets environment variables for the app, one `NAME=VALUE` a line:
+  `SSR_WIDE_GPU=0` draws the map with the processor, `SSR_MAIN_CPUS` and
+  `SSR_WIDE_CPUS` (hexadecimal core masks) choose the cores for the game and for
+  drawing, `SSR_WIDE_THREADS` the number of drawing threads. `android/build.sh
+  --profileable` lets Android's `simpleperf` sample the app over adb.
 - The app ID is `io.github.<your user name>.soulsilverfr` (`--app-id` changes it).
 - Controllers come through Android's own gamepad support. The Backbone's buttons
   are the same as on the iPhone; on other pads, *Start* and *Select* (or *Menu* and
