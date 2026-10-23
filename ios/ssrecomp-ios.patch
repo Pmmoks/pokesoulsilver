@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..1f944dd 100644
+index 060f4fc..b090aae 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -472,7 +472,124 @@ index 060f4fc..1f944dd 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -2219,9 +2357,15 @@ int main(int argc, char** argv)
+@@ -1834,19 +1972,21 @@ int main(int argc, char** argv)
+                 const float ease = slide * slide * (3 - 2 * slide);
+                 const float picX = L * ease;
+                 sc.items[0].dx = picX;
+-                for (float x = picX - 2; x > L - 2; x -= 2)
+-                {
+-                    Element strip = Crop(0, 0, 0, 2, 192);
+-                    strip.dx = x;
+-                    strip.crisp = true;
+-                    sc.items.push_back(strip);
+-                }
+-                for (float x = picX + 256; x < R; x += 2)
++                // One plain rectangle per band of colour on each side, behind his screen:
++                // narrow strips copied side by side left seams between them on screens
++                // whose pixels are not a whole number of DS pixels.
+                 {
+-                    Element strip = Crop(0, 0, 0, 2, 192);
+-                    strip.dx = x;
+-                    strip.crisp = true;
+-                    sc.items.push_back(strip);
++                    std::vector<Element> bands;
++                    const u32* px = screens[0].pixels;
++                    for (int y0 = 0, y1; y0 < 192; y0 = y1)
++                    {
++                        const uint32_t c = px[y0 * 256] & 0xFFFFFF;
++                        for (y1 = y0 + 1; y1 < 192 && (px[y1 * 256] & 0xFFFFFF) == c; y1++) {}
++                        const int h = y1 - y0 + (y1 < 192 ? 1 : 0);
++                        if (picX > L) bands.push_back(FillRect(L - 1, (float)y0, (int)std::ceil(picX - L) + 2, h, c));
++                        if (picX + 256 < R) bands.push_back(FillRect(picX + 255, (float)y0, (int)std::ceil(R - picX - 256) + 2, h, c));
++                    }
++                    sc.items.insert(sc.items.begin(), bands.begin(), bands.end());
+                 }
+                 if (showing)
+                 {
+@@ -1858,10 +1998,11 @@ int main(int argc, char** argv)
+                     // there is nothing but backdrop there (above the message box).
+                     float room = R - 3 - (L + cedge + 6);
+                     if (room < free) room = free;
+-                    el.scale = std::min({ 1.25f, room / el.sw, 136.0f / el.sh });
++                    el.scale = std::min({ 0.8f, room / el.sw, 136.0f / el.sh });
+                     float w = el.sw * el.scale, h = el.sh * el.scale;
++                    // Low in the free space, just above his message box.
+                     el.dx = R - 3 - room + (room - w) / 2;
+-                    el.dy = 4 + (136 - h) / 2;
++                    el.dy = 140 - h;
+                     el.alpha = (uint8_t)(255 * ease);
+                     sc.items.push_back(el);
+                 }
+@@ -1909,9 +2050,65 @@ int main(int argc, char** argv)
+                 }
+                 held = el;
+                 heldAt = now;
+-                el.dx = (viewWidth >= 300 ? 128 + viewWidth / 2 - 3 : 252) - el.sw * el.scale;
+-                el.dy = 142 - el.sh * el.scale;
+-                sc.items.push_back(el);
++                // Wide buttons (yes and no) on a wide view: narrowed to their ends and the part
++                // with their labels, at full size beside the message box, in the margin.
++                std::vector<Element> narrow;
++                if (viewWidth >= 300 && el.sw >= 120 && el.screen == 1)
++                {
++                    // The labels are where a column has more dark grey than the rims of the
++                    // buttons, which cross every column.
++                    const u32* px = screens[1].pixels;
++                    std::vector<int> dark(el.sw, 0);
++                    for (int y = el.sy; y < el.sy + el.sh; y++)
++                        for (int x = 0; x < el.sw; x++)
++                        {
++                            const uint32_t c = px[y * 256 + el.sx + x];
++                            if (((c >> 16) & 0xFF) < 110 && ((c >> 8) & 0xFF) < 110 && (c & 0xFF) < 110) dark[x]++;
++                        }
++                    const int cap = 10;
++                    std::vector<int> inner(dark.begin() + cap, dark.end() - cap);
++                    std::nth_element(inner.begin(), inner.begin() + inner.size() / 2, inner.end());
++                    const int rim = inner[inner.size() / 2];
++                    int l0 = el.sw, l1 = -1;
++                    for (int x = cap; x < el.sw - cap; x++)
++                        if (dark[x] > rim + 2)
++                        {
++                            l0 = std::min(l0, x);
++                            l1 = std::max(l1, x);
++                        }
++                    if (l1 >= l0 && l1 - l0 + 1 < el.sw - 2 * cap - 16)
++                    {
++                        l0 = std::max(cap, l0 - 6);
++                        l1 = std::min(el.sw - cap - 1, l1 + 6);
++                        Element left = el, mid = el, right = el;
++                        left.sw = cap;
++                        mid.sx = el.sx + l0;
++                        mid.sw = l1 - l0 + 1;
++                        right.sx = el.sx + el.sw - cap;
++                        right.sw = cap;
++                        const float margin = (viewWidth - 256) / 2 - 8;
++                        const float total = 2 * cap + mid.sw;
++                        const float scale = std::min({ 1.0f, margin / total, 120.0f / el.sh });
++                        float x = 128 + viewWidth / 2 - 8 - total * scale;
++                        const float y = 190 - el.sh * scale;
++                        for (Element* e : { &left, &mid, &right })
++                        {
++                            e->scale = scale;
++                            e->dx = x;
++                            e->dy = y;
++                            x += e->sw * scale;
++                            narrow.push_back(*e);
++                        }
++                    }
++                }
++                if (!narrow.empty())
++                    sc.items.insert(sc.items.end(), narrow.begin(), narrow.end());
++                else
++                {
++                    el.dx = (viewWidth >= 300 ? 128 + viewWidth / 2 - 3 : 252) - el.sw * el.scale;
++                    el.dy = 142 - el.sh * el.scale;
++                    sc.items.push_back(el);
++                }
+             }
+         }
+         else if (menuReturn > 0)
+@@ -2219,9 +2416,15 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -489,7 +606,7 @@ index 060f4fc..1f944dd 100644
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2232,8 +2376,10 @@ int main(int argc, char** argv)
+@@ -2232,8 +2435,10 @@ int main(int argc, char** argv)
      };
      auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
@@ -500,7 +617,7 @@ index 060f4fc..1f944dd 100644
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2241,6 +2387,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2446,7 @@ int main(int argc, char** argv)
              { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
              { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
              { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
@@ -508,7 +625,7 @@ index 060f4fc..1f944dd 100644
              { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
              { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
              { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
-@@ -2268,13 +2415,22 @@ int main(int argc, char** argv)
+@@ -2268,13 +2474,22 @@ int main(int argc, char** argv)
  
      std::vector<uint32_t> shot;
      std::vector<int16_t> audioBuf(48000 * 2);
@@ -532,7 +649,7 @@ index 060f4fc..1f944dd 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2283,7 +2439,6 @@ int main(int argc, char** argv)
+@@ -2283,7 +2498,6 @@ int main(int argc, char** argv)
      uint32_t cursorShownUntil = 0;
      PadState prevPad;
      MenuInput heldNav;          // navigation directions held last tick, for edge detection
@@ -540,7 +657,7 @@ index 060f4fc..1f944dd 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2324,6 +2479,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2538,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -548,7 +665,7 @@ index 060f4fc..1f944dd 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2499,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2558,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -579,7 +696,7 @@ index 060f4fc..1f944dd 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2560,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2619,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -587,7 +704,7 @@ index 060f4fc..1f944dd 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +2786,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +2845,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -603,7 +720,7 @@ index 060f4fc..1f944dd 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +2829,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +2888,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -613,7 +730,7 @@ index 060f4fc..1f944dd 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +2862,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +2921,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -624,7 +741,7 @@ index 060f4fc..1f944dd 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +2918,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +2977,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -633,7 +750,7 @@ index 060f4fc..1f944dd 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +2929,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +2988,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -677,7 +794,7 @@ index 060f4fc..1f944dd 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3036,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3095,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -686,7 +803,7 @@ index 060f4fc..1f944dd 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3151,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3210,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -694,7 +811,7 @@ index 060f4fc..1f944dd 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3164,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3223,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -702,7 +819,7 @@ index 060f4fc..1f944dd 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -3117,25 +3338,21 @@ int main(int argc, char** argv)
+@@ -3117,25 +3397,21 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -732,7 +849,48 @@ index 060f4fc..1f944dd 100644
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3450,6 +3667,16 @@ int main(int argc, char** argv)
+@@ -3197,21 +3473,27 @@ int main(int argc, char** argv)
+         }
+         // The top right corner, below the on-screen R button when those controls are shown
+         // (their top row ends at 12% of the height).
+-        int cornerY = touchPadUsed && touchPad.visible ? outH * 13 / 100 : 0;
++        // Phone screens have rounded corners: what is written in a corner stands in from it.
++#ifdef SSR_MOBILE
++        const int insetX = outW * 5 / 100, insetY = outH * 4 / 100;
++#else
++        const int insetX = 0, insetY = 0;
++#endif
++        int cornerY = touchPadUsed && touchPad.visible ? outH * 13 / 100 : insetY;
+         if (cfg.showFps && !opt.headless)
+         {
+             int sc = outH / 240 < 1 ? 1 : outH / 240;
+             const std::string text = std::to_string(shownFps) + " FPS";
+             const int tw = Canvas::TextWidth(text, sc) + 8 * sc;
+-            canvas.Fill(outW - tw, cornerY, tw, 13 * sc, 0xC0000000);
+-            canvas.Text(outW - tw + 4 * sc, cornerY + 3 * sc, text, sc, 0xFFFFFFFF);
++            canvas.Fill(outW - insetX - tw, cornerY, tw, 13 * sc, 0xC0000000);
++            canvas.Text(outW - insetX - tw + 4 * sc, cornerY + 3 * sc, text, sc, 0xFFFFFFFF);
+             cornerY += 13 * sc;
+             overlayUsed = true;
+         }
+         if (speed > 1)
+         {
+             int sc = outH / 240 < 1 ? 1 : outH / 240;
+-            canvas.Text(outW - Canvas::TextWidth(">>", sc) - 4 * sc, cornerY + 4 * sc, ">>", sc, 0xFFFFFFFF);
++            canvas.Text(outW - insetX - Canvas::TextWidth(">>", sc) - 4 * sc, cornerY + 4 * sc, ">>", sc, 0xFFFFFFFF);
+             overlayUsed = true;
+         }
+ #ifdef __ANDROID__
+@@ -3232,7 +3514,7 @@ int main(int argc, char** argv)
+             // With on-screen controls, centred below their top row (L, MENU and R end at
+             // 12% of the height) instead of under the L button.
+             const bool controls = touchPadUsed && touchPad.visible;
+-            const int tx = controls ? (outW - tw) / 2 : 0, ty = controls ? outH * 13 / 100 : 0;
++            const int tx = controls ? (outW - tw) / 2 : insetX, ty = controls ? outH * 13 / 100 : insetY;
+             canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
+             canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
+             overlayUsed = true;
+@@ -3450,6 +3732,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);
