@@ -191,7 +191,7 @@ index 0000000..7490cac
 +</dict>
 +</plist>
 diff --git a/frontend/main.cpp b/frontend/main.cpp
-index 060f4fc..db9d10d 100644
+index 060f4fc..4118619 100644
 --- a/frontend/main.cpp
 +++ b/frontend/main.cpp
 @@ -22,10 +22,18 @@
@@ -305,7 +305,7 @@ index 060f4fc..db9d10d 100644
      }
  };
  
-@@ -1031,6 +1056,127 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
+@@ -1031,6 +1056,169 @@ static bool ReadSnapshot(NDS& nds, const std::string& path, uint32_t* frame)
      return true;
  }
  
@@ -372,8 +372,50 @@ index 060f4fc..db9d10d 100644
 +// queued (a phone can take a while over a frame now and then), and the samples are played
 +// slightly faster or slower, by up to 0.5%, to hold that level, which changes the pitch by
 +// too little to hear. The stretching carries on from one frame to the next without a seam.
-+static void QueueAudio(SDL_AudioDeviceID audio, const int16_t* in, int frames)
++//
++// Fast-forwarding (speed frames of the game in one), there is more sound than time to play
++// it: as much is played as the time since the last call takes, at its own pitch, from the
++// start of what the frames made, and the rest is left out. Each piece is joined to the one
++// before with a short crossfade from where that one was cut, so the joins do not click.
++static void QueueAudio(SDL_AudioDeviceID audio, const int16_t* in, int frames, int speed = 1)
 +{
++    constexpr int fade = 128;            // samples (2.7 ms) of crossfade at a join
++    static int16_t tail[fade * 2];       // what followed the last piece played, to fade from
++    static bool haveTail = false;
++    static uint64_t lastCall = 0;
++    static std::vector<int16_t> piece;
++    const uint64_t now = SDL_GetPerformanceCounter();
++    const double dt = lastCall ? std::min((double)(now - lastCall) / SDL_GetPerformanceFrequency(), 0.1) : 1.0 / 60;
++    lastCall = now;
++    if (speed > 1 && frames > fade * 2)
++    {
++        const int keep = std::clamp((int)lrint(48000 * dt), 1, frames - fade);
++        piece.assign(in, in + keep * 2);
++        if (haveTail)
++            for (int i = 0; i < fade; i++)
++                for (int c = 0; c < 2; c++)
++                {
++                    const float w = (i + 0.5f) / fade;
++                    piece[i * 2 + c] = (int16_t)lrintf(tail[i * 2 + c] * (1 - w) + piece[i * 2 + c] * w);
++                }
++        memcpy(tail, in + keep * 2, sizeof(tail));
++        haveTail = true;
++        in = piece.data();
++        frames = keep;
++    }
++    else if (haveTail)
++    {
++        // Back to normal speed: one last join.
++        piece.assign(in, in + frames * 2);
++        for (int i = 0; i < std::min(fade, frames); i++)
++            for (int c = 0; c < 2; c++)
++            {
++                const float w = (i + 0.5f) / fade;
++                piece[i * 2 + c] = (int16_t)lrintf(tail[i * 2 + c] * (1 - w) + piece[i * 2 + c] * w);
++            }
++        haveTail = false;
++        in = piece.data();
++    }
 +    static std::vector<int16_t> out;
 +    static double level = -1;
 +    // Where the next output sample is read, in input samples from the start of this frame's;
@@ -433,7 +475,7 @@ index 060f4fc..db9d10d 100644
  int main(int argc, char** argv)
  {
      Options opt;
-@@ -1058,6 +1204,27 @@ int main(int argc, char** argv)
+@@ -1058,6 +1246,27 @@ int main(int argc, char** argv)
          argc = (int)androidArgv.size();
          argv = androidArgv.data();
      }
@@ -461,7 +503,7 @@ index 060f4fc..db9d10d 100644
  #endif
      if (!ParseArgs(argc, argv, opt))
      {
-@@ -1138,6 +1305,19 @@ int main(int argc, char** argv)
+@@ -1138,6 +1347,21 @@ int main(int argc, char** argv)
      if (opt.headless) cfg.fps60 = false; // tests compare images with the plain renderer unless asked
      if (opt.interp60 >= 0) cfg.fps60 = opt.interp60 == 1;
      nds->GPU.GPU3D.InterpolationEnabled = cfg.fps60 && !opt.lockstep;
@@ -470,6 +512,8 @@ index 060f4fc..db9d10d 100644
 +        static const AudioInterpolation kinds[] = { AudioInterpolation::None, AudioInterpolation::Cubic, AudioInterpolation::SNESGaussian };
 +        nds->SPU.SetInterpolation(kinds[cfg.soundSmoothing]);
 +        if (ref) ref->SPU.SetInterpolation(kinds[cfg.soundSmoothing]);
++        nds->SPU.SetLimiter(cfg.soundSmoothing != 0);
++        if (ref) ref->SPU.SetLimiter(cfg.soundSmoothing != 0);
 +    };
 +    applySoundSmoothing();
 +#ifdef SSR_MOBILE
@@ -481,7 +525,7 @@ index 060f4fc..db9d10d 100644
      // The DS-resolution 3D picture is drawn on its own thread, alongside the CPU emulation.
      if (!getenv("SSR_NO_RENDER_THREAD"))
          static_cast<melonDS::SoftRenderer&>(nds->GPU.GetRenderer3D()).SetThreaded(true, nds->GPU);
-@@ -1165,13 +1345,19 @@ int main(int argc, char** argv)
+@@ -1165,13 +1389,19 @@ int main(int argc, char** argv)
  
      if (!opt.headless)
      {
@@ -503,7 +547,7 @@ index 060f4fc..db9d10d 100644
          // Controllers come through Android's own input, which knows every gamepad. With SDL's
          // HIDAPI drivers on, a pad one of them claims (a Backbone One, a PlayStation pad) is
          // left out of Android's list, and is lost if SDL cannot open it over USB itself.
-@@ -1231,7 +1417,7 @@ int main(int argc, char** argv)
+@@ -1231,7 +1461,7 @@ int main(int argc, char** argv)
          want.freq = 48000;
          want.format = AUDIO_S16SYS;
          want.channels = 2;
@@ -512,7 +556,7 @@ index 060f4fc..db9d10d 100644
          audio = SDL_OpenAudioDevice(nullptr, 0, &want, nullptr, 0);
          if (audio) SDL_PauseAudioDevice(audio, 0);
  
-@@ -1258,19 +1444,22 @@ int main(int argc, char** argv)
+@@ -1258,19 +1488,22 @@ int main(int argc, char** argv)
      }
  
      // Functions whose activity selects the merged scene.
@@ -541,22 +585,22 @@ index 060f4fc..db9d10d 100644
      const int probeTouch[] = { focusProbe("TouchscreenHitbox_FindRectAtTouchHeld"), focusProbe("TouchscreenHitbox_FindRectAtTouchNew"),
          focusProbe("TouchscreenHitbox_FindHitboxAtTouchNew"), focusProbe("TouchscreenHitbox_FindHitboxAtTouchHeld"),
          focusProbe("TouchscreenHitbox_TouchHeldIsIn"), focusProbe("TouchscreenHitbox_TouchNewIsIn") };
-@@ -1834,19 +2023,21 @@ int main(int argc, char** argv)
+@@ -1834,19 +2067,21 @@ int main(int argc, char** argv)
                  const float ease = slide * slide * (3 - 2 * slide);
                  const float picX = L * ease;
                  sc.items[0].dx = picX;
 -                for (float x = picX - 2; x > L - 2; x -= 2)
-+                // One plain rectangle per band of colour on each side, behind his screen:
-+                // narrow strips copied side by side left seams between them on screens
-+                // whose pixels are not a whole number of DS pixels.
-                 {
+-                {
 -                    Element strip = Crop(0, 0, 0, 2, 192);
 -                    strip.dx = x;
 -                    strip.crisp = true;
 -                    sc.items.push_back(strip);
 -                }
 -                for (float x = picX + 256; x < R; x += 2)
--                {
++                // One plain rectangle per band of colour on each side, behind his screen:
++                // narrow strips copied side by side left seams between them on screens
++                // whose pixels are not a whole number of DS pixels.
+                 {
 -                    Element strip = Crop(0, 0, 0, 2, 192);
 -                    strip.dx = x;
 -                    strip.crisp = true;
@@ -575,7 +619,7 @@ index 060f4fc..db9d10d 100644
                  }
                  if (showing)
                  {
-@@ -1858,10 +2049,11 @@ int main(int argc, char** argv)
+@@ -1858,10 +2093,11 @@ int main(int argc, char** argv)
                      // there is nothing but backdrop there (above the message box).
                      float room = R - 3 - (L + cedge + 6);
                      if (room < free) room = free;
@@ -589,7 +633,7 @@ index 060f4fc..db9d10d 100644
                      el.alpha = (uint8_t)(255 * ease);
                      sc.items.push_back(el);
                  }
-@@ -1909,9 +2101,67 @@ int main(int argc, char** argv)
+@@ -1909,9 +2145,67 @@ int main(int argc, char** argv)
                  }
                  held = el;
                  heldAt = now;
@@ -660,7 +704,7 @@ index 060f4fc..db9d10d 100644
              }
          }
          else if (menuReturn > 0)
-@@ -2219,9 +2469,15 @@ int main(int argc, char** argv)
+@@ -2219,9 +2513,15 @@ int main(int argc, char** argv)
      Menu menu;
      enum
      {
@@ -677,7 +721,7 @@ index 060f4fc..db9d10d 100644
      // World detail choices: the most lines the widescreen 3D is drawn at (192 is the DS's own).
      static const int detailLines[] = { 192, 288, 384, 540, 720, 1080, 1440 };
      const int detailCount = (int)(sizeof(detailLines) / sizeof(detailLines[0]));
-@@ -2232,8 +2488,10 @@ int main(int argc, char** argv)
+@@ -2232,8 +2532,10 @@ int main(int argc, char** argv)
      };
      auto buildMenu = [&]() {
          static const char* large[] = { "AUTO", "TOP", "BOTTOM" };
@@ -688,7 +732,7 @@ index 060f4fc..db9d10d 100644
              { "SCREEN LAYOUT", LayoutName(layout.mode) },
              { "LARGE SCREEN", large[focus.mode] },
              { "60 FPS", cfg.fps60 ? "ON" : "OFF" },
-@@ -2241,6 +2499,7 @@ int main(int argc, char** argv)
+@@ -2241,6 +2543,7 @@ int main(int argc, char** argv)
              { "SMOOTH SCALING", cfg.smooth ? "ON" : "OFF" },
              { "WIDESCREEN WORLD", cfg.wide ? "ON" : "OFF" },
              { "WORLD DETAIL", std::to_string(detailLines[detailIndex()]) },
@@ -696,7 +740,7 @@ index 060f4fc..db9d10d 100644
              { "FPS COUNTER", cfg.showFps ? "ON" : "OFF" },
              { "BUTTONS", cfg.byLabel ? "BY LABEL" : "BY POSITION" },
              { "STICK TOUCH CURSOR", cfg.padTouch ? "ON" : "OFF" },
-@@ -2261,20 +2520,29 @@ int main(int argc, char** argv)
+@@ -2261,20 +2564,29 @@ int main(int argc, char** argv)
          toast = msg;
          toastUntil = frame + 120;
      };
@@ -728,7 +772,7 @@ index 060f4fc..db9d10d 100644
      touchPadUsed = true;
  #endif
      // Touch cursor for devices without a touchscreen: moved with the right stick or IJKL,
-@@ -2283,7 +2551,6 @@ int main(int argc, char** argv)
+@@ -2283,7 +2595,6 @@ int main(int argc, char** argv)
      uint32_t cursorShownUntil = 0;
      PadState prevPad;
      MenuInput heldNav;          // navigation directions held last tick, for edge detection
@@ -736,7 +780,7 @@ index 060f4fc..db9d10d 100644
      bool swallowMenuButtons = false; // keeps the buttons that closed the menu from reaching the game
      const double frameTime = 1.0 / 59.8261;
      uint64_t perfFreq = opt.headless ? 1 : SDL_GetPerformanceFrequency();
-@@ -2324,6 +2591,7 @@ int main(int argc, char** argv)
+@@ -2324,6 +2635,7 @@ int main(int argc, char** argv)
          int touchX = 0, touchY = 0;
          MenuInput nav;              // edge-triggered menu input for this tick
          bool toggleMenu = false;
@@ -744,7 +788,7 @@ index 060f4fc..db9d10d 100644
          bool kbFast = false;
          float curDX = 0, curDY = 0;
          bool curPress = false;
-@@ -2343,6 +2611,30 @@ int main(int argc, char** argv)
+@@ -2343,6 +2655,30 @@ int main(int argc, char** argv)
                      // A phone may close the app at any time once it is in the background.
                      if (!opt.noSave) FlushSave(opt.save);
                      cfg.Save(opt.config);
@@ -775,7 +819,7 @@ index 060f4fc..db9d10d 100644
                  }
                  else if (touchPadUsed && (ev.type == SDL_FINGERDOWN || ev.type == SDL_FINGERMOTION || ev.type == SDL_FINGERUP))
                  {
-@@ -2380,6 +2672,7 @@ int main(int argc, char** argv)
+@@ -2380,6 +2716,7 @@ int main(int argc, char** argv)
                      else if (k == SDLK_TAB) layout = LayoutNext(layout);
                      else if (k == SDLK_F1) focus.manualFlip = !focus.manualFlip;
                      else if (k == SDLK_F2) focus.mode = (focus.mode + 1) % 3;
@@ -783,7 +827,7 @@ index 060f4fc..db9d10d 100644
                      else if (k == SDLK_F5) say(WriteSnapshot(*nds, quickState, frame) ? "STATE SAVED" : "SAVE STATE FAILED");
                      else if (k == SDLK_F8)
                      {
-@@ -2605,11 +2898,11 @@ int main(int argc, char** argv)
+@@ -2605,11 +2942,11 @@ int main(int argc, char** argv)
              if (ev.rt != 0) ps.rt = ev.rt;
          }
  
@@ -799,7 +843,7 @@ index 060f4fc..db9d10d 100644
  
          MenuInput heldNow;
          heldNow.up = ps.btn[PAD_UP] || ps.ly < -0.5f;
-@@ -2648,6 +2941,9 @@ int main(int argc, char** argv)
+@@ -2648,6 +2985,9 @@ int main(int argc, char** argv)
              int hit = menu.Update(nav, dir);
              switch (hit)
              {
@@ -809,7 +853,7 @@ index 060f4fc..db9d10d 100644
              case M_RESUME:
                  menu.open = false;
                  swallowMenuButtons = true;
-@@ -2678,6 +2974,10 @@ int main(int argc, char** argv)
+@@ -2678,6 +3018,10 @@ int main(int argc, char** argv)
              case M_WIDE:
                  cfg.wide = !cfg.wide;
                  break;
@@ -820,7 +864,7 @@ index 060f4fc..db9d10d 100644
              case M_WIDELINES:
                  cfg.wideLines = detailLines[(detailIndex() + (dir < 0 ? detailCount - 1 : 1)) % detailCount];
                  break;
-@@ -2730,7 +3030,7 @@ int main(int argc, char** argv)
+@@ -2730,7 +3074,7 @@ int main(int argc, char** argv)
          int speed = 1;
          if (!paused && !swallowMenuButtons)
          {
@@ -829,7 +873,7 @@ index 060f4fc..db9d10d 100644
              if (cfg.padTouch)
              {
                  if (pressed(PAD_RS)) focus.manualFlip = !focus.manualFlip;
-@@ -2741,12 +3041,43 @@ int main(int argc, char** argv)
+@@ -2741,12 +3085,43 @@ int main(int argc, char** argv)
              }
          }
          if (!paused && (fastLock || kbFast || ps.lt > 0.5f)) speed = 4;
@@ -873,7 +917,7 @@ index 060f4fc..db9d10d 100644
          // Widescreen 3D: on while the overworld is running in the merged view on a wide
          // output. It is drawn at the size of the picture, up to 1440 lines.
          static int wideFrames = 0;
-@@ -2817,7 +3148,7 @@ int main(int argc, char** argv)
+@@ -2817,7 +3192,7 @@ int main(int argc, char** argv)
                  wideImage.fadeMode = mode;
                  wideImage.fade = f;
              }
@@ -882,7 +926,7 @@ index 060f4fc..db9d10d 100644
              {
                  // Where the widescreen picture comes and goes, and why.
                  static int last = -1;
-@@ -2932,6 +3263,7 @@ int main(int argc, char** argv)
+@@ -2932,6 +3307,7 @@ int main(int argc, char** argv)
              TracePos = 0;
              TraceFrame = frame;
              ref->SetKeyMask(~keys & 0xFFF);
@@ -890,7 +934,7 @@ index 060f4fc..db9d10d 100644
              if (touching) ref->TouchScreen((u16)touchX, (u16)touchY);
              else ref->ReleaseScreen();
              ref->RunFrame();
-@@ -2944,6 +3276,7 @@ int main(int argc, char** argv)
+@@ -2944,6 +3320,7 @@ int main(int argc, char** argv)
          if (!paused)
          {
              nds->SetKeyMask(~keys & 0xFFF);
@@ -898,7 +942,22 @@ index 060f4fc..db9d10d 100644
              if (touching) nds->TouchScreen((u16)touchX, (u16)touchY);
              else nds->ReleaseScreen();
  
-@@ -3117,25 +3450,22 @@ int main(int argc, char** argv)
+@@ -2951,10 +3328,11 @@ int main(int argc, char** argv)
+             {
+                 rc_frame++;
+                 nds->RunFrame();
++                // Every frame's sound is kept, one after the other: when fast-forwarding,
++                // QueueAudio plays as much of it as the time that passed allows.
+                 int avail = nds->SPU.GetOutputSize();
+-                if (avail > (int)audioBuf.size() / 2) avail = (int)audioBuf.size() / 2;
+-                int n = nds->SPU.ReadOutput(audioBuf.data(), avail);
+-                if (i == 0) got = n; // when fast-forwarding only the first frame's audio is played
++                avail = std::min(avail, (int)audioBuf.size() / 2 - got);
++                got += nds->SPU.ReadOutput(audioBuf.data() + got * 2, avail);
+             }
+         }
+         perfMark(1);
+@@ -3117,25 +3495,22 @@ int main(int argc, char** argv)
                  }
              }
          }
@@ -924,12 +983,12 @@ index 060f4fc..db9d10d 100644
 -                SDL_QueueAudio(audio, audioBuf.data(), got * 4);
 -        }
 +        if (got > 0) FilterAudio(audioBuf.data(), got, cfg.soundSmoothing != 0);
-+        if (audio && got > 0) QueueAudio(audio, audioBuf.data(), got);
++        if (audio && got > 0) QueueAudio(audio, audioBuf.data(), got, speed);
 +        if (wavFile && got > 0) wavBytes += (uint32_t)fwrite(audioBuf.data(), 4, got, wavFile) * 4;
          if (opt.audioStats && got > 0)
          {
              for (int i = 0; i < got * 2; i++)
-@@ -3197,24 +3527,30 @@ int main(int argc, char** argv)
+@@ -3197,24 +3572,30 @@ int main(int argc, char** argv)
          }
          // The top right corner, below the on-screen R button when those controls are shown
          // (their top row ends at 12% of the height).
@@ -965,7 +1024,7 @@ index 060f4fc..db9d10d 100644
          if (!updateSaid && UpdateCheck::g_done)
          {
              updateSaid = true;
-@@ -3232,7 +3568,7 @@ int main(int argc, char** argv)
+@@ -3232,7 +3613,7 @@ int main(int argc, char** argv)
              // With on-screen controls, centred below their top row (L, MENU and R end at
              // 12% of the height) instead of under the L button.
              const bool controls = touchPadUsed && touchPad.visible;
@@ -974,7 +1033,7 @@ index 060f4fc..db9d10d 100644
              canvas.Fill(tx, ty, tw, 13 * sc, 0xC0000000);
              canvas.Text(tx + 4 * sc, ty + 3 * sc, toast, sc, 0xFFFFFFFF);
              overlayUsed = true;
-@@ -3450,6 +3786,16 @@ int main(int argc, char** argv)
+@@ -3450,6 +3831,16 @@ int main(int argc, char** argv)
      if (nds->GPU.GPU3D.InterpolationEnabled)
          fprintf(stderr, "[60fps] %u in-between frames drawn in %u frames\n", nds->GPU.GPU3D.InterpolatedFrames, frame);
      if (opt.countChanges) fprintf(stderr, "[changes] top screen changed on %u of %u frames\n", TopChanges, frame);
@@ -1039,6 +1098,79 @@ index 90044d1..f3418b5 100644
      CurUnit->UpdateMosaicCounters(line);
  
      switch (dispmode)
+diff --git a/melonDS/src/SPU.cpp b/melonDS/src/SPU.cpp
+index 3c4aca7..d632ab8 100644
+--- a/melonDS/src/SPU.cpp
++++ b/melonDS/src/SPU.cpp
+@@ -325,6 +325,11 @@ void SPU::SetApplyBias(bool enable)
+     ApplyBias = enable;
+ }
+ 
++void SPU::SetLimiter(bool enable)
++{
++    Limiter = enable;
++}
++
+ void SPU::SetDegrade10Bit(bool enable)
+ {
+     Degrade10Bit = enable;
+@@ -978,6 +983,29 @@ void SPU::Mix(u32 spucycles)
+         output[0] = 0;
+         output[1] = 0;
+     }
++    else if (Limiter)
++    {
++        // Pokemon's music goes past full scale about one sample in seven, by up to three
++        // times, and the console cuts it off there: a harsh crackle on loud notes. Here the
++        // mix is turned down by 3 dB, and the peaks still above the ceiling are brought down
++        // by a gain that falls over the millisecond before them (the output is that much
++        // late) and comes back up over a tenth of a second.
++        constexpr float headroom = 0.7f, ceiling = 31000.0f;
++        const float l = leftoutput * headroom, r = rightoutput * headroom;
++        const float peak = std::max(std::fabs(l), std::fabs(r));
++        const int slot = LimitPos;
++        const s32 outL = LimitLine[slot][0], outR = LimitLine[slot][1];
++        LimitLine[slot][0] = (s32)l;
++        LimitLine[slot][1] = (s32)r;
++        LimitWant[slot] = peak > ceiling ? ceiling / peak : 1.0f;
++        LimitPos = (LimitPos + 1) % LimitDelay;
++        float want = 1.0f;
++        for (float w : LimitWant) want = std::min(want, w);
++        if (want < LimitGain) LimitGain += (want - LimitGain) * (1.0f / 6);
++        else LimitGain += (want - LimitGain) * (1.0f / 3277);
++        output[0] = (s16)std::clamp((s32)lrintf(outL * LimitGain), -0x8000, 0x7FFF);
++        output[1] = (s16)std::clamp((s32)lrintf(outR * LimitGain), -0x8000, 0x7FFF);
++    }
+     else
+     {
+         output[0] = (s16)std::clamp(leftoutput, -0x8000, 0x7FFF);
+diff --git a/melonDS/src/SPU.h b/melonDS/src/SPU.h
+index ef7f895..efbf7f7 100644
+--- a/melonDS/src/SPU.h
++++ b/melonDS/src/SPU.h
+@@ -243,6 +243,9 @@ public:
+     void SetDegrade10Bit(bool enable);
+     void SetDegrade10Bit(AudioBitDepth depth);
+     void SetApplyBias(bool enable);
++    // ssrecomp: true turns the mix down a little and limits its peaks smoothly, in place of
++    // the hard clipping at full scale that the console does.
++    void SetLimiter(bool enable);
+ 
+     void Mix(u32 spucycles);
+     void EndFrame();
+@@ -287,6 +290,12 @@ private:
+     u16 Bias = 0;
+     bool ApplyBias = true;
+     bool Degrade10Bit = false;
++    bool Limiter = false;
++    static constexpr int LimitDelay = 32;   // samples looked ahead (1 ms at the mixer's rate)
++    s32 LimitLine[LimitDelay][2] = {};
++    float LimitWant[LimitDelay] = {};
++    int LimitPos = 0;
++    float LimitGain = 1.0f;
+     bool Mute;
+ 
+     std::array<SPUChannel, 16> Channels;
 diff --git a/runtime/recomp_api.h b/runtime/recomp_api.h
 index 598d361..1663804 100644
 --- a/runtime/recomp_api.h

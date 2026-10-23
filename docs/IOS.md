@@ -117,8 +117,12 @@ The pause menu's *SOUND SMOOTHING* chooses how the DS sound is resampled:
 *SMOOTH* (the default) takes away the high whine and hiss the DS's own sound has
 (its instruments are played between their samples, and the output is filtered above
 12 kHz, where the DS has nothing but mirrored copies of the music), *SOFT* is gentler
-still, and *OFF* is the DS sound as it was. About 80 ms of sound is kept queued, so a
-slow frame now and then does not click.
+still, and *OFF* is the DS sound as it was. The music goes past full scale about one
+sample in seven, which the DS cuts off with a crackle; *SMOOTH* and *SOFT* instead turn
+it down by 3 dB and bring the loudest notes down smoothly, so the game is a little quieter
+and turning the phone up makes up for it. About 80 ms of sound is kept queued, so a slow
+frame now and then does not click. Fast-forwarding plays as much of the sound as there is
+time for, at its own pitch, and joins the pieces with short crossfades.
 
 The app tells the game through a byte in its memory (`gMsgDataShowOriginal` in
 `src/msgdata.c`), and also holds the DS's debug button, which retail consoles lack
